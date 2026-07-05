@@ -1,11 +1,24 @@
 {
- "latest_date": "2026-07-04",
- "generated_at": "2026-07-05T04:24:35.316399+00:00",
- "games_processed": 13,
+ "latest_date": "2026-07-05",
+ "generated_at": "2026-07-05T11:28:29.708992+00:00",
+ "games_processed": 0,
  "games_skipped_not_final": [
-  824983,
-  823932
+  824902,
+  822715,
+  824497,
+  823525,
+  824413,
+  824656,
+  824091,
+  824172,
+  822879,
+  824333,
+  825061,
+  824980,
+  823117,
+  823931,
+  824010
  ],
- "total_events": 640,
- "near_hr_events": 58
+ "total_events": 0,
+ "near_hr_events": 0
 }
