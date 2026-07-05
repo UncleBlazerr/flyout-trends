@@ -1,0 +1,45 @@
+schema_version: 1
+
+near_hr:
+  # Definition 1: distance threshold on non-HR results
+  distance:
+    results: [Flyout, Lineout, Double, Single, "Sac Fly"]
+    threshold_ft: 350
+
+  # Definition 2: park-adjusted would-be-HR (Savant's contextMetrics.homeRunBallparks).
+  # A non-HR event counts as near-HR when it would have left at least min_parks parks.
+  would_be_hr:
+    min_parks: 5
+
+  # Definition 3: composite barrel-proximity score, 0-100
+  barrel_score:
+    min_score: 70          # score >= min_score counts as a near-HR event
+    weights:
+      exit_velocity: 0.4
+      launch_angle: 0.3
+      distance: 0.3
+    exit_velocity_range: [70.0, 115.0]   # mph mapped to 0..1
+    ideal_launch_angle: 27.5             # degrees
+    launch_angle_tolerance: 27.5         # full credit at ideal, zero at +/- tolerance
+    distance_range: [0.0, 450.0]         # ft mapped to 0..1
+
+trends:
+  windows: [7, 14, 30]
+  heating_up:
+    window: 7
+    min_events: 3     # near-HR events (any definition) required within the window
+    min_slope: 0.15   # daily would-be-HR-parks slope above which a player is "heating up"
+  flat_slope: 0.05    # |slope| below this is "flat"; otherwise rising/falling
+
+site:
+  title: "Daily HR-Proximity Tracker"
+  output_dir: docs
+
+storage:
+  raw_dir: data/raw
+  rollup_dir: data/rollups
+
+http:
+  timeout: 30
+  retries: 3
+  backoff_seconds: 2.0

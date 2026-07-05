@@ -1,0 +1,3941 @@
+{
+ "schema_version": 1,
+ "players": {
+  "804606": {
+   "player_name": "Konnor Griffin",
+   "team": "PIT",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 99.5,
+     "max_barrel_score": 66.7
+    }
+   }
+  },
+  "668804": {
+   "player_name": "Bryan Reynolds",
+   "team": "PIT",
+   "days": {
+    "2026-07-04": {
+     "bbe": 5,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 83.0,
+     "max_barrel_score": 30.9
+    }
+   }
+  },
+  "695578": {
+   "player_name": "James Wood",
+   "team": "WSH",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 113.1,
+     "max_barrel_score": 93.0
+    }
+   }
+  },
+  "693304": {
+   "player_name": "Nick Gonzales",
+   "team": "PIT",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 99.5,
+     "max_barrel_score": 34.1
+    }
+   }
+  },
+  "682997": {
+   "player_name": "Tyler Callihan",
+   "team": "PIT",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 98.0,
+     "max_barrel_score": 64.3
+    }
+   }
+  },
+  "680779": {
+   "player_name": "Henry Davis",
+   "team": "PIT",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 81.9,
+     "max_barrel_score": 21.7
+    }
+   }
+  },
+  "664040": {
+   "player_name": "Brandon Lowe",
+   "team": "PIT",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 1,
+     "max_ev": 109.3,
+     "max_barrel_score": 70.2
+    }
+   }
+  },
+  "699013": {
+   "player_name": "Esmerlyn Valdez",
+   "team": "PIT",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 91.0,
+     "max_barrel_score": 62.6
+    }
+   }
+  },
+  "677588": {
+   "player_name": "Jos\u00e9 Tena",
+   "team": "WSH",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 104.6,
+     "max_barrel_score": 39.0
+    }
+   }
+  },
+  "686452": {
+   "player_name": "Drew Millas",
+   "team": "WSH",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 1,
+     "max_ev": 94.1,
+     "max_barrel_score": 74.4
+    }
+   }
+  },
+  "656811": {
+   "player_name": "Ryan O'Hearn",
+   "team": "PIT",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 101.1,
+     "max_barrel_score": 79.1
+    }
+   }
+  },
+  "663968": {
+   "player_name": "Jake Mangum",
+   "team": "PIT",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 101.3,
+     "max_barrel_score": 29.3
+    }
+   }
+  },
+  "683083": {
+   "player_name": "Nasim Nu\u00f1ez",
+   "team": "WSH",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 96.4,
+     "max_barrel_score": 71.2
+    }
+   }
+  },
+  "671277": {
+   "player_name": "Luis Garc\u00eda Jr.",
+   "team": "WSH",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 88.4,
+     "max_barrel_score": 61.8
+    }
+   }
+  },
+  "682928": {
+   "player_name": "CJ Abrams",
+   "team": "WSH",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 98.3,
+     "max_barrel_score": 56.6
+    }
+   }
+  },
+  "695734": {
+   "player_name": "Daylen Lile",
+   "team": "WSH",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 106.4,
+     "max_barrel_score": 63.3
+    }
+   }
+  },
+  "678554": {
+   "player_name": "Curtis Mead",
+   "team": "WSH",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 106.2,
+     "max_barrel_score": 43.1
+    }
+   }
+  },
+  "621439": {
+   "player_name": "Byron Buxton",
+   "team": "MIN",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 1,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 9,
+     "max_ev": 103.6,
+     "max_barrel_score": 76.9
+    }
+   }
+  },
+  "665019": {
+   "player_name": "Kody Clemens",
+   "team": "MIN",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 101.2,
+     "max_barrel_score": 83.4
+    }
+   }
+  },
+  "668904": {
+   "player_name": "Royce Lewis",
+   "team": "MIN",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 102.7,
+     "max_barrel_score": 59.9
+    }
+   }
+  },
+  "686797": {
+   "player_name": "Brooks Lee",
+   "team": "MIN",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 89.7,
+     "max_barrel_score": 64.4
+    }
+   }
+  },
+  "663757": {
+   "player_name": "Trent Grisham",
+   "team": "NYY",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 99.7,
+     "max_barrel_score": 28.1
+    }
+   }
+  },
+  "700250": {
+   "player_name": "Ben Rice",
+   "team": "NYY",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 95.2,
+     "max_barrel_score": 68.9
+    }
+   }
+  },
+  "641355": {
+   "player_name": "Cody Bellinger",
+   "team": "NYY",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 100.5,
+     "max_barrel_score": 74.5
+    }
+   }
+  },
+  "668952": {
+   "player_name": "Ryan Kreidler",
+   "team": "MIN",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 95.9,
+     "max_barrel_score": 71.9
+    }
+   }
+  },
+  "807712": {
+   "player_name": "Luke Keaschall",
+   "team": "MIN",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 98.4,
+     "max_barrel_score": 76.0
+    }
+   }
+  },
+  "656577": {
+   "player_name": "Alex Jackson",
+   "team": "MIN",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 105.7,
+     "max_barrel_score": 80.9
+    }
+   }
+  },
+  "663616": {
+   "player_name": "Trevor Larnach",
+   "team": "MIN",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 105.8,
+     "max_barrel_score": 75.5
+    }
+   }
+  },
+  "691176": {
+   "player_name": "Jasson Dom\u00ednguez",
+   "team": "NYY",
+   "days": {
+    "2026-07-04": {
+     "bbe": 5,
+     "hr": 1,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 107.4,
+     "max_barrel_score": 77.8
+    }
+   }
+  },
+  "683011": {
+   "player_name": "Anthony Volpe",
+   "team": "NYY",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 101.7,
+     "max_barrel_score": 66.0
+    }
+   }
+  },
+  "605137": {
+   "player_name": "Josh Bell",
+   "team": "MIN",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 2,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 107.6,
+     "max_barrel_score": 88.4
+    }
+   }
+  },
+  "645305": {
+   "player_name": "Ali S\u00e1nchez",
+   "team": "NYY",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 92.1,
+     "max_barrel_score": 21.2
+    }
+   }
+  },
+  "680474": {
+   "player_name": "Max Schuemann",
+   "team": "NYY",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 102.1,
+     "max_barrel_score": 85.9
+    }
+   }
+  },
+  "665862": {
+   "player_name": "Jazz Chisholm Jr.",
+   "team": "NYY",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 39.2,
+     "max_barrel_score": 0.3
+    }
+   }
+  },
+  "641857": {
+   "player_name": "Ryan McMahon",
+   "team": "NYY",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 68.4,
+     "max_barrel_score": 25.0
+    }
+   }
+  },
+  "502671": {
+   "player_name": "Paul Goldschmidt",
+   "team": "NYY",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 103.0,
+     "max_barrel_score": 34.7
+    }
+   }
+  },
+  "805808": {
+   "player_name": "Kevin McGonigle",
+   "team": "DET",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 98.3,
+     "max_barrel_score": 68.3
+    }
+   }
+  },
+  "693307": {
+   "player_name": "Dillon Dingler",
+   "team": "DET",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 1,
+     "max_ev": 94.0,
+     "max_barrel_score": 60.2
+    }
+   }
+  },
+  "681481": {
+   "player_name": "Kerry Carpenter",
+   "team": "DET",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 102.7,
+     "max_barrel_score": 80.9
+    }
+   }
+  },
+  "682985": {
+   "player_name": "Riley Greene",
+   "team": "DET",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 107.7,
+     "max_barrel_score": 88.7
+    }
+   }
+  },
+  "592626": {
+   "player_name": "Joc Pederson",
+   "team": "TEX",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 104.0,
+     "max_barrel_score": 35.0
+    }
+   }
+  },
+  "669701": {
+   "player_name": "Josh Smith",
+   "team": "TEX",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 4,
+     "max_ev": 101.1,
+     "max_barrel_score": 82.5
+    }
+   }
+  },
+  "607043": {
+   "player_name": "Brandon Nimmo",
+   "team": "TEX",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 1,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 12,
+     "max_ev": 102.4,
+     "max_barrel_score": 80.8
+    }
+   }
+  },
+  "690993": {
+   "player_name": "Colt Keith",
+   "team": "DET",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 100.2,
+     "max_barrel_score": 75.0
+    }
+   }
+  },
+  "656716": {
+   "player_name": "Zach McKinstry",
+   "team": "DET",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 103.3,
+     "max_barrel_score": 57.8
+    }
+   }
+  },
+  "701162": {
+   "player_name": "Ben Malgeri",
+   "team": "DET",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 105.3,
+     "max_barrel_score": 31.9
+    }
+   }
+  },
+  "681546": {
+   "player_name": "James Outman",
+   "team": "DET",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 87.6,
+     "max_barrel_score": 47.8
+    }
+   }
+  },
+  "696030": {
+   "player_name": "Alejandro Osuna",
+   "team": "TEX",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 98.3,
+     "max_barrel_score": 63.2
+    }
+   }
+  },
+  "677649": {
+   "player_name": "Ezequiel Duran",
+   "team": "TEX",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 95.5,
+     "max_barrel_score": 64.6
+    }
+   }
+  },
+  "553869": {
+   "player_name": "Elias D\u00edaz",
+   "team": "TEX",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 104.6,
+     "max_barrel_score": 32.2
+    }
+   }
+  },
+  "679529": {
+   "player_name": "Spencer Torkelson",
+   "team": "DET",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 1,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 10,
+     "max_ev": 101.6,
+     "max_barrel_score": 77.6
+    }
+   }
+  },
+  "670032": {
+   "player_name": "Nicky Lopez",
+   "team": "TEX",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 91.0,
+     "max_barrel_score": 21.0
+    }
+   }
+  },
+  "673962": {
+   "player_name": "Josh Jung",
+   "team": "TEX",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 102.9,
+     "max_barrel_score": 71.9
+    }
+   }
+  },
+  "694497": {
+   "player_name": "Evan Carter",
+   "team": "TEX",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 85.4,
+     "max_barrel_score": 57.8
+    }
+   }
+  },
+  "664770": {
+   "player_name": "Nathan Lukes",
+   "team": "TOR",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 92.8,
+     "max_barrel_score": 25.6
+    }
+   }
+  },
+  "668227": {
+   "player_name": "Randy Arozarena",
+   "team": "SEA",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 1,
+     "max_ev": 105.2,
+     "max_barrel_score": 84.9
+    }
+   }
+  },
+  "686527": {
+   "player_name": "Dominic Canzone",
+   "team": "SEA",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 104.4,
+     "max_barrel_score": 86.8
+    }
+   }
+  },
+  "663728": {
+   "player_name": "Cal Raleigh",
+   "team": "SEA",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 109.7,
+     "max_barrel_score": 76.2
+    }
+   }
+  },
+  "662139": {
+   "player_name": "Daulton Varsho",
+   "team": "TOR",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 79.7,
+     "max_barrel_score": 53.0
+    }
+   }
+  },
+  "676391": {
+   "player_name": "Ernie Clement",
+   "team": "TOR",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 82.7,
+     "max_barrel_score": 28.2
+    }
+   }
+  },
+  "647304": {
+   "player_name": "Josh Naylor",
+   "team": "SEA",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 95.5,
+     "max_barrel_score": 73.5
+    }
+   }
+  },
+  "702284": {
+   "player_name": "Cole Young",
+   "team": "SEA",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 106.9,
+     "max_barrel_score": 66.2
+    }
+   }
+  },
+  "645302": {
+   "player_name": "Victor Robles",
+   "team": "SEA",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 4,
+     "max_ev": 94.2,
+     "max_barrel_score": 74.1
+    }
+   }
+  },
+  "806068": {
+   "player_name": "Colt Emerson",
+   "team": "SEA",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 92.2,
+     "max_barrel_score": 20.6
+    }
+   }
+  },
+  "815873": {
+   "player_name": "Sean Keys",
+   "team": "TOR",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 103.9,
+     "max_barrel_score": 53.6
+    }
+   }
+  },
+  "665926": {
+   "player_name": "Andr\u00e9s Gim\u00e9nez",
+   "team": "TOR",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 95.9,
+     "max_barrel_score": 47.1
+    }
+   }
+  },
+  "670042": {
+   "player_name": "Luke Raley",
+   "team": "SEA",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 74.2,
+     "max_barrel_score": 4.5
+    }
+   }
+  },
+  "672960": {
+   "player_name": "Kazuma Okamoto",
+   "team": "TOR",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 103.6,
+     "max_barrel_score": 38.6
+    }
+   }
+  },
+  "641487": {
+   "player_name": "J.P. Crawford",
+   "team": "SEA",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 100.7,
+     "max_barrel_score": 28.4
+    }
+   }
+  },
+  "682818": {
+   "player_name": "Yohendrick Pi\u00f1ango",
+   "team": "TOR",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 98.3,
+     "max_barrel_score": 40.2
+    }
+   }
+  },
+  "678218": {
+   "player_name": "Brandon Valenzuela",
+   "team": "TOR",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 92.4,
+     "max_barrel_score": 29.7
+    }
+   }
+  },
+  "665489": {
+   "player_name": "Vladimir Guerrero Jr.",
+   "team": "TOR",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 79.9,
+     "max_barrel_score": 51.0
+    }
+   }
+  },
+  "642215": {
+   "player_name": "Weston Wilson",
+   "team": "SEA",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 85.8,
+     "max_barrel_score": 36.2
+    }
+   }
+  },
+  "683002": {
+   "player_name": "Gunnar Henderson",
+   "team": "BAL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 108.5,
+     "max_barrel_score": 63.1
+    }
+   }
+  },
+  "621493": {
+   "player_name": "Taylor Ward",
+   "team": "BAL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 95.3,
+     "max_barrel_score": 57.6
+    }
+   }
+  },
+  "694212": {
+   "player_name": "Samuel Basallo",
+   "team": "BAL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 105.7,
+     "max_barrel_score": 88.3
+    }
+   }
+  },
+  "701398": {
+   "player_name": "Sal Stewart",
+   "team": "CIN",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 95.7,
+     "max_barrel_score": 75.9
+    }
+   }
+  },
+  "668709": {
+   "player_name": "JJ Bleday",
+   "team": "CIN",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 102.1,
+     "max_barrel_score": 49.4
+    }
+   }
+  },
+  "553993": {
+   "player_name": "Eugenio Su\u00e1rez",
+   "team": "CIN",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 95.4,
+     "max_barrel_score": 74.2
+    }
+   }
+  },
+  "668715": {
+   "player_name": "Spencer Steer",
+   "team": "CIN",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 102.2,
+     "max_barrel_score": 64.6
+    }
+   }
+  },
+  "624431": {
+   "player_name": "Jose Trevino",
+   "team": "CIN",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 101.3,
+     "max_barrel_score": 58.4
+    }
+   }
+  },
+  "670770": {
+   "player_name": "TJ Friedl",
+   "team": "CIN",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 1,
+     "max_ev": 102.9,
+     "max_barrel_score": 64.6
+    }
+   }
+  },
+  "682829": {
+   "player_name": "Elly De La Cruz",
+   "team": "CIN",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 108.9,
+     "max_barrel_score": 66.2
+    }
+   }
+  },
+  "668939": {
+   "player_name": "Adley Rutschman",
+   "team": "BAL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 1,
+     "max_ev": 97.3,
+     "max_barrel_score": 75.1
+    }
+   }
+  },
+  "624413": {
+   "player_name": "Pete Alonso",
+   "team": "BAL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 107.5,
+     "max_barrel_score": 67.4
+    }
+   }
+  },
+  "681297": {
+   "player_name": "Colton Cowser",
+   "team": "BAL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 95.6,
+     "max_barrel_score": 47.5
+    }
+   }
+  },
+  "677942": {
+   "player_name": "Blaze Alexander",
+   "team": "BAL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 99.6,
+     "max_barrel_score": 55.6
+    }
+   }
+  },
+  "702616": {
+   "player_name": "Jackson Holliday",
+   "team": "BAL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 91.4,
+     "max_barrel_score": 59.4
+    }
+   }
+  },
+  "663993": {
+   "player_name": "Nathaniel Lowe",
+   "team": "CIN",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 84.5,
+     "max_barrel_score": 26.5
+    }
+   }
+  },
+  "680574": {
+   "player_name": "Matt McLain",
+   "team": "CIN",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 86.3,
+     "max_barrel_score": 27.6
+    }
+   }
+  },
+  "665750": {
+   "player_name": "Leody Taveras",
+   "team": "BAL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 67.4,
+     "max_barrel_score": 9.7
+    }
+   }
+  },
+  "691406": {
+   "player_name": "Junior Caminero",
+   "team": "TB",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 107.5,
+     "max_barrel_score": 90.8
+    }
+   }
+  },
+  "656775": {
+   "player_name": "Cedric Mullins",
+   "team": "TB",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 101.3,
+     "max_barrel_score": 33.0
+    }
+   }
+  },
+  "668723": {
+   "player_name": "Ryan Vilade",
+   "team": "TB",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 100.6,
+     "max_barrel_score": 70.9
+    }
+   }
+  },
+  "514888": {
+   "player_name": "Jose Altuve",
+   "team": "HOU",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 99.8,
+     "max_barrel_score": 74.8
+    }
+   }
+  },
+  "670541": {
+   "player_name": "Yordan Alvarez",
+   "team": "HOU",
+   "days": {
+    "2026-07-04": {
+     "bbe": 5,
+     "hr": 2,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 108.3,
+     "max_barrel_score": 87.4
+    }
+   }
+  },
+  "670623": {
+   "player_name": "Isaac Paredes",
+   "team": "HOU",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 97.1,
+     "max_barrel_score": 62.4
+    }
+   }
+  },
+  "572233": {
+   "player_name": "Christian Walker",
+   "team": "HOU",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 107.9,
+     "max_barrel_score": 75.8
+    }
+   }
+  },
+  "701358": {
+   "player_name": "Cam Smith",
+   "team": "HOU",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 105.2,
+     "max_barrel_score": 36.2
+    }
+   }
+  },
+  "676356": {
+   "player_name": "Jonny DeLuca",
+   "team": "TB",
+   "days": {
+    "2026-07-04": {
+     "bbe": 5,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 102.9,
+     "max_barrel_score": 74.7
+    }
+   }
+  },
+  "680700": {
+   "player_name": "Richie Palacios",
+   "team": "TB",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 101.7,
+     "max_barrel_score": 81.6
+    }
+   }
+  },
+  "670764": {
+   "player_name": "Taylor Walls",
+   "team": "TB",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 102.3,
+     "max_barrel_score": 46.8
+    }
+   }
+  },
+  "676439": {
+   "player_name": "Hunter Feduccia",
+   "team": "TB",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 104.3,
+     "max_barrel_score": 35.0
+    }
+   }
+  },
+  "673237": {
+   "player_name": "Yainer Diaz",
+   "team": "HOU",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 103.5,
+     "max_barrel_score": 85.5
+    }
+   }
+  },
+  "666211": {
+   "player_name": "Taylor Trammell",
+   "team": "HOU",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 88.6,
+     "max_barrel_score": 65.3
+    }
+   }
+  },
+  "669397": {
+   "player_name": "Nick Allen",
+   "team": "HOU",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 78.4,
+     "max_barrel_score": 13.9
+    }
+   }
+  },
+  "666018": {
+   "player_name": "Jonathan Aranda",
+   "team": "TB",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 101.7,
+     "max_barrel_score": 35.9
+    }
+   }
+  },
+  "683748": {
+   "player_name": "Victor Mesa Jr.",
+   "team": "TB",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 97.9,
+     "max_barrel_score": 54.3
+    }
+   }
+  },
+  "664774": {
+   "player_name": "LaMonte Wade Jr.",
+   "team": "HOU",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 95.3,
+     "max_barrel_score": 44.2
+    }
+   }
+  },
+  "701305": {
+   "player_name": "Zach Dezenzo",
+   "team": "HOU",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 92.2,
+     "max_barrel_score": 48.6
+    }
+   }
+  },
+  "545341": {
+   "player_name": "Randal Grichuk",
+   "team": "CWS",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 106.6,
+     "max_barrel_score": 69.3
+    }
+   }
+  },
+  "695657": {
+   "player_name": "Colson Montgomery",
+   "team": "CWS",
+   "days": {
+    "2026-07-04": {
+     "bbe": 5,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 104.1,
+     "max_barrel_score": 85.5
+    }
+   }
+  },
+  "678577": {
+   "player_name": "Junior Perez",
+   "team": "CWS",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 102.4,
+     "max_barrel_score": 74.1
+    }
+   }
+  },
+  "800050": {
+   "player_name": "Chase DeLauter",
+   "team": "CLE",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 103.0,
+     "max_barrel_score": 49.8
+    }
+   }
+  },
+  "700932": {
+   "player_name": "Kyle Manzardo",
+   "team": "CLE",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 87.4,
+     "max_barrel_score": 30.4
+    }
+   }
+  },
+  "696135": {
+   "player_name": "Kahlil Watson",
+   "team": "CLE",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 60.6,
+     "max_barrel_score": 0.9
+    }
+   }
+  },
+  "682668": {
+   "player_name": "Luisangel Acu\u00f1a",
+   "team": "CWS",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 105.3,
+     "max_barrel_score": 71.4
+    }
+   }
+  },
+  "691011": {
+   "player_name": "Drew Romo",
+   "team": "CWS",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 102.0,
+     "max_barrel_score": 37.8
+    }
+   }
+  },
+  "677587": {
+   "player_name": "Brayan Rocchio",
+   "team": "CLE",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 103.2,
+     "max_barrel_score": 59.9
+    }
+   }
+  },
+  "805367": {
+   "player_name": "Chase Meidroth",
+   "team": "CWS",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 96.5,
+     "max_barrel_score": 54.8
+    }
+   }
+  },
+  "595978": {
+   "player_name": "Austin Hedges",
+   "team": "CLE",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 101.2,
+     "max_barrel_score": 79.8
+    }
+   }
+  },
+  "680757": {
+   "player_name": "Steven Kwan",
+   "team": "CLE",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 84.1,
+     "max_barrel_score": 50.9
+    }
+   }
+  },
+  "695731": {
+   "player_name": "Braden Montgomery",
+   "team": "CWS",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 102.9,
+     "max_barrel_score": 46.1
+    }
+   }
+  },
+  "671976": {
+   "player_name": "Tristan Peters",
+   "team": "CWS",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 99.9,
+     "max_barrel_score": 37.2
+    }
+   }
+  },
+  "678246": {
+   "player_name": "Miguel Vargas",
+   "team": "CWS",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 1,
+     "max_ev": 99.3,
+     "max_barrel_score": 77.8
+    }
+   }
+  },
+  "682177": {
+   "player_name": "Daniel Schneemann",
+   "team": "CLE",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 81.1,
+     "max_barrel_score": 10.4
+    }
+   }
+  },
+  "683953": {
+   "player_name": "Travis Bazzana",
+   "team": "CLE",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 83.8,
+     "max_barrel_score": 28.9
+    }
+   }
+  },
+  "694876": {
+   "player_name": "Cooper Ingle",
+   "team": "CLE",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 91.7,
+     "max_barrel_score": 20.2
+    }
+   }
+  },
+  "681807": {
+   "player_name": "David Fry",
+   "team": "CLE",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 88.8,
+     "max_barrel_score": 16.9
+    }
+   }
+  },
+  "803011": {
+   "player_name": "Sam Antonacci",
+   "team": "CWS",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 68.0,
+     "max_barrel_score": 0.1
+    }
+   }
+  },
+  "691019": {
+   "player_name": "Kyle Teel",
+   "team": "CWS",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 101.5,
+     "max_barrel_score": 48.6
+    }
+   }
+  },
+  "802139": {
+   "player_name": "JJ Wetherholt",
+   "team": "STL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 101.4,
+     "max_barrel_score": 78.1
+    }
+   }
+  },
+  "665877": {
+   "player_name": "Jos\u00e9 Ferm\u00edn",
+   "team": "STL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 92.0,
+     "max_barrel_score": 41.6
+    }
+   }
+  },
+  "673548": {
+   "player_name": "Seiya Suzuki",
+   "team": "CHC",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 99.0,
+     "max_barrel_score": 42.1
+    }
+   }
+  },
+  "664023": {
+   "player_name": "Ian Happ",
+   "team": "CHC",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 106.1,
+     "max_barrel_score": 51.9
+    }
+   }
+  },
+  "663538": {
+   "player_name": "Nico Hoerner",
+   "team": "CHC",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 2,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 96.3,
+     "max_barrel_score": 75.2
+    }
+   }
+  },
+  "671056": {
+   "player_name": "Iv\u00e1n Herrera",
+   "team": "STL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 101.7,
+     "max_barrel_score": 34.0
+    }
+   }
+  },
+  "691023": {
+   "player_name": "Jordan Walker",
+   "team": "STL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 112.1,
+     "max_barrel_score": 71.2
+    }
+   }
+  },
+  "624424": {
+   "player_name": "Michael Conforto",
+   "team": "CHC",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 90.7,
+     "max_barrel_score": 61.8
+    }
+   }
+  },
+  "608324": {
+   "player_name": "Alex Bregman",
+   "team": "CHC",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 96.8,
+     "max_barrel_score": 24.6
+    }
+   }
+  },
+  "691026": {
+   "player_name": "Masyn Winn",
+   "team": "STL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 99.5,
+     "max_barrel_score": 79.2
+    }
+   }
+  },
+  "663457": {
+   "player_name": "Lars Nootbaar",
+   "team": "STL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 68.2,
+     "max_barrel_score": 3.6
+    }
+   }
+  },
+  "683737": {
+   "player_name": "Michael Busch",
+   "team": "CHC",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 95.5,
+     "max_barrel_score": 66.6
+    }
+   }
+  },
+  "665804": {
+   "player_name": "Miguel Amaya",
+   "team": "CHC",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 102.0,
+     "max_barrel_score": 69.2
+    }
+   }
+  },
+  "676475": {
+   "player_name": "Alec Burleson",
+   "team": "STL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 98.2,
+     "max_barrel_score": 35.6
+    }
+   }
+  },
+  "621020": {
+   "player_name": "Dansby Swanson",
+   "team": "CHC",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 4,
+     "max_ev": 97.7,
+     "max_barrel_score": 70.4
+    }
+   }
+  },
+  "691718": {
+   "player_name": "Pete Crow-Armstrong",
+   "team": "CHC",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 74.3,
+     "max_barrel_score": 50.2
+    }
+   }
+  },
+  "686780": {
+   "player_name": "Pedro Pag\u00e9s",
+   "team": "STL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 101.8,
+     "max_barrel_score": 29.1
+    }
+   }
+  },
+  "701675": {
+   "player_name": "Nathan Church",
+   "team": "STL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 65.5,
+     "max_barrel_score": 7.3
+    }
+   }
+  },
+  "699393": {
+   "player_name": "Pedro Ram\u00edrez",
+   "team": "CHC",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 102.3,
+     "max_barrel_score": 33.1
+    }
+   }
+  },
+  "596019": {
+   "player_name": "Francisco Lindor",
+   "team": "NYM",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 109.4,
+     "max_barrel_score": 49.2
+    }
+   }
+  },
+  "665742": {
+   "player_name": "Juan Soto",
+   "team": "NYM",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 104.9,
+     "max_barrel_score": 50.6
+    }
+   }
+  },
+  "666182": {
+   "player_name": "Bo Bichette",
+   "team": "NYM",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 99.6,
+     "max_barrel_score": 58.9
+    }
+   }
+  },
+  "643289": {
+   "player_name": "Mauricio Dub\u00f3n",
+   "team": "ATL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 97.6,
+     "max_barrel_score": 76.0
+    }
+   }
+  },
+  "686948": {
+   "player_name": "Drake Baldwin",
+   "team": "ATL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 1,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 12,
+     "max_ev": 103.1,
+     "max_barrel_score": 80.6
+    }
+   }
+  },
+  "645277": {
+   "player_name": "Ozzie Albies",
+   "team": "ATL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 86.6,
+     "max_barrel_score": 63.9
+    }
+   }
+  },
+  "682626": {
+   "player_name": "Francisco Alvarez",
+   "team": "NYM",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 103.4,
+     "max_barrel_score": 31.2
+    }
+   }
+  },
+  "663586": {
+   "player_name": "Austin Riley",
+   "team": "ATL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 112.2,
+     "max_barrel_score": 80.3
+    }
+   }
+  },
+  "671739": {
+   "player_name": "Michael Harris II",
+   "team": "ATL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 5,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 108.5,
+     "max_barrel_score": 72.8
+    }
+   }
+  },
+  "642201": {
+   "player_name": "Eli White",
+   "team": "ATL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 93.5,
+     "max_barrel_score": 73.1
+    }
+   }
+  },
+  "701807": {
+   "player_name": "Carson Benge",
+   "team": "NYM",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 96.0,
+     "max_barrel_score": 34.4
+    }
+   }
+  },
+  "621438": {
+   "player_name": "Tyrone Taylor",
+   "team": "NYM",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 104.1,
+     "max_barrel_score": 86.7
+    }
+   }
+  },
+  "621566": {
+   "player_name": "Matt Olson",
+   "team": "ATL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 101.4,
+     "max_barrel_score": 66.2
+    }
+   }
+  },
+  "663698": {
+   "player_name": "Joey Bart",
+   "team": "ATL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 3,
+     "max_ev": 105.3,
+     "max_barrel_score": 81.0
+    }
+   }
+  },
+  "668901": {
+   "player_name": "Mark Vientos",
+   "team": "NYM",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 104.1,
+     "max_barrel_score": 84.0
+    }
+   }
+  },
+  "676572": {
+   "player_name": "Eric Wagaman",
+   "team": "NYM",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 104.4,
+     "max_barrel_score": 33.6
+    }
+   }
+  },
+  "622761": {
+   "player_name": "Jorge Mateo",
+   "team": "ATL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 100.7,
+     "max_barrel_score": 28.4
+    }
+   }
+  },
+  "573262": {
+   "player_name": "Mike Yastrzemski",
+   "team": "ATL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 105.7,
+     "max_barrel_score": 85.9
+    }
+   }
+  },
+  "805999": {
+   "player_name": "A.J. Ewing",
+   "team": "NYM",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 1,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 26,
+     "max_ev": 99.5,
+     "max_barrel_score": 79.9
+    }
+   }
+  },
+  "683146": {
+   "player_name": "Brett Baty",
+   "team": "NYM",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 107.1,
+     "max_barrel_score": 66.3
+    }
+   }
+  },
+  "676724": {
+   "player_name": "Jared Young",
+   "team": "NYM",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 83.6,
+     "max_barrel_score": 21.2
+    }
+   }
+  },
+  "650333": {
+   "player_name": "Luis Arraez",
+   "team": "SF",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 79.8,
+     "max_barrel_score": 47.8
+    }
+   }
+  },
+  "669477": {
+   "player_name": "Casey Schmitt",
+   "team": "SF",
+   "days": {
+    "2026-07-04": {
+     "bbe": 5,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 1,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 5,
+     "max_ev": 104.7,
+     "max_barrel_score": 76.7
+    }
+   }
+  },
+  "808982": {
+   "player_name": "Jung Hoo Lee",
+   "team": "SF",
+   "days": {
+    "2026-07-04": {
+     "bbe": 5,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 97.3,
+     "max_barrel_score": 56.7
+    }
+   }
+  },
+  "642715": {
+   "player_name": "Willy Adames",
+   "team": "SF",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 1,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 10,
+     "max_ev": 99.3,
+     "max_barrel_score": 75.9
+    }
+   }
+  },
+  "805811": {
+   "player_name": "Bryce Eldridge",
+   "team": "SF",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 1,
+     "near_hr_distance": 1,
+     "near_hr_parks": 1,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 29,
+     "max_ev": 106.8,
+     "max_barrel_score": 90.0
+    }
+   }
+  },
+  "650489": {
+   "player_name": "Willi Castro",
+   "team": "COL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 98.7,
+     "max_barrel_score": 46.7
+    }
+   }
+  },
+  "691720": {
+   "player_name": "Kyle Karros",
+   "team": "COL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 93.7,
+     "max_barrel_score": 41.7
+    }
+   }
+  },
+  "696100": {
+   "player_name": "Hunter Goodman",
+   "team": "COL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 88.8,
+     "max_barrel_score": 46.4
+    }
+   }
+  },
+  "694249": {
+   "player_name": "Cole Carrigg",
+   "team": "COL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 103.5,
+     "max_barrel_score": 84.3
+    }
+   }
+  },
+  "664983": {
+   "player_name": "Jake McCarthy",
+   "team": "COL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 78.9,
+     "max_barrel_score": 22.5
+    }
+   }
+  },
+  "606992": {
+   "player_name": "Eric Haase",
+   "team": "SF",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 108.1,
+     "max_barrel_score": 79.5
+    }
+   }
+  },
+  "671218": {
+   "player_name": "Heliot Ramos",
+   "team": "SF",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 110.8,
+     "max_barrel_score": 69.0
+    }
+   }
+  },
+  "646240": {
+   "player_name": "Rafael Devers",
+   "team": "SF",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 93.5,
+     "max_barrel_score": 32.8
+    }
+   }
+  },
+  "678662": {
+   "player_name": "Ezequiel Tovar",
+   "team": "COL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 91.1,
+     "max_barrel_score": 53.5
+    }
+   }
+  },
+  "682674": {
+   "player_name": "Victor Bericoto",
+   "team": "SF",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 105.1,
+     "max_barrel_score": 61.1
+    }
+   }
+  },
+  "671289": {
+   "player_name": "Tyler Freeman",
+   "team": "COL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 88.0,
+     "max_barrel_score": 60.7
+    }
+   }
+  },
+  "690924": {
+   "player_name": "Braxton Fulford",
+   "team": "COL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 74.9,
+     "max_barrel_score": 42.1
+    }
+   }
+  },
+  "687859": {
+   "player_name": "Troy Johnston",
+   "team": "COL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 97.5,
+     "max_barrel_score": 24.8
+    }
+   }
+  },
+  "687551": {
+   "player_name": "Drew Gilbert",
+   "team": "SF",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 69.1,
+     "max_barrel_score": 0.2
+    }
+   }
+  },
+  "681198": {
+   "player_name": "TJ Rumfield",
+   "team": "COL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 101.0,
+     "max_barrel_score": 58.8
+    }
+   }
+  },
+  "656941": {
+   "player_name": "Kyle Schwarber",
+   "team": "PHI",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 110.5,
+     "max_barrel_score": 68.8
+    }
+   }
+  },
+  "547180": {
+   "player_name": "Bryce Harper",
+   "team": "PHI",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 82.0,
+     "max_barrel_score": 16.7
+    }
+   }
+  },
+  "669016": {
+   "player_name": "Brandon Marsh",
+   "team": "PHI",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 102.1,
+     "max_barrel_score": 70.3
+    }
+   }
+  },
+  "681082": {
+   "player_name": "Bryson Stott",
+   "team": "PHI",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 101.2,
+     "max_barrel_score": 80.7
+    }
+   }
+  },
+  "695600": {
+   "player_name": "Carter Jensen",
+   "team": "KC",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 86.0,
+     "max_barrel_score": 63.8
+    }
+   }
+  },
+  "677951": {
+   "player_name": "Bobby Witt Jr.",
+   "team": "KC",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 102.7,
+     "max_barrel_score": 73.0
+    }
+   }
+  },
+  "592663": {
+   "player_name": "J.T. Realmuto",
+   "team": "PHI",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 108.8,
+     "max_barrel_score": 84.0
+    }
+   }
+  },
+  "607208": {
+   "player_name": "Trea Turner",
+   "team": "PHI",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 104.0,
+     "max_barrel_score": 80.4
+    }
+   }
+  },
+  "686555": {
+   "player_name": "Isaac Collins",
+   "team": "KC",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 92.6,
+     "max_barrel_score": 52.1
+    }
+   }
+  },
+  "686475": {
+   "player_name": "Tyler Tolbert",
+   "team": "KC",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 102.9,
+     "max_barrel_score": 41.4
+    }
+   }
+  },
+  "664761": {
+   "player_name": "Alec Bohm",
+   "team": "PHI",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 106.0,
+     "max_barrel_score": 90.9
+    }
+   }
+  },
+  "687282": {
+   "player_name": "Gabriel Rincones Jr.",
+   "team": "PHI",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 102.1,
+     "max_barrel_score": 82.5
+    }
+   }
+  },
+  "702222": {
+   "player_name": "Justin Crawford",
+   "team": "PHI",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 83.4,
+     "max_barrel_score": 42.8
+    }
+   }
+  },
+  "657041": {
+   "player_name": "Lane Thomas",
+   "team": "KC",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 103.7,
+     "max_barrel_score": 62.5
+    }
+   }
+  },
+  "695506": {
+   "player_name": "Jac Caglianone",
+   "team": "KC",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 108.8,
+     "max_barrel_score": 35.0
+    }
+   }
+  },
+  "679845": {
+   "player_name": "Nick Loftin",
+   "team": "KC",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 93.6,
+     "max_barrel_score": 30.8
+    }
+   }
+  },
+  "516782": {
+   "player_name": "Starling Marte",
+   "team": "KC",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 92.6,
+     "max_barrel_score": 36.6
+    }
+   }
+  },
+  "678882": {
+   "player_name": "Ceddanne Rafaela",
+   "team": "BOS",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 81.8,
+     "max_barrel_score": 54.1
+    }
+   }
+  },
+  "575929": {
+   "player_name": "Willson Contreras",
+   "team": "BOS",
+   "days": {
+    "2026-07-04": {
+     "bbe": 5,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 108.9,
+     "max_barrel_score": 92.1
+    }
+   }
+  },
+  "702332": {
+   "player_name": "Caleb Durbin",
+   "team": "BOS",
+   "days": {
+    "2026-07-04": {
+     "bbe": 5,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 93.9,
+     "max_barrel_score": 69.1
+    }
+   }
+  },
+  "663853": {
+   "player_name": "Romy Gonzalez",
+   "team": "BOS",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 1,
+     "near_hr_distance": 1,
+     "near_hr_parks": 1,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 20,
+     "max_ev": 103.2,
+     "max_barrel_score": 81.0
+    }
+   }
+  },
+  "687263": {
+   "player_name": "Zach Neto",
+   "team": "LAA",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 98.2,
+     "max_barrel_score": 61.7
+    }
+   }
+  },
+  "694203": {
+   "player_name": "Denzer Guzman",
+   "team": "LAA",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 93.5,
+     "max_barrel_score": 72.7
+    }
+   }
+  },
+  "678011": {
+   "player_name": "Anthony Seigler",
+   "team": "BOS",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 4,
+     "max_ev": 94.7,
+     "max_barrel_score": 71.5
+    }
+   }
+  },
+  "624585": {
+   "player_name": "Jorge Soler",
+   "team": "LAA",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 89.7,
+     "max_barrel_score": 62.2
+    }
+   }
+  },
+  "666139": {
+   "player_name": "Josh Lowe",
+   "team": "LAA",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 109.6,
+     "max_barrel_score": 89.4
+    }
+   }
+  },
+  "685133": {
+   "player_name": "Wade Meckler",
+   "team": "LAA",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 98.5,
+     "max_barrel_score": 43.4
+    }
+   }
+  },
+  "677800": {
+   "player_name": "Wilyer Abreu",
+   "team": "BOS",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 1,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 8,
+     "max_ev": 106.4,
+     "max_barrel_score": 78.5
+    }
+   }
+  },
+  "694384": {
+   "player_name": "Nolan Schanuel",
+   "team": "LAA",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 93.3,
+     "max_barrel_score": 36.1
+    }
+   }
+  },
+  "655316": {
+   "player_name": "Andruw Monasterio",
+   "team": "BOS",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 93.8,
+     "max_barrel_score": 48.1
+    }
+   }
+  },
+  "657136": {
+   "player_name": "Connor Wong",
+   "team": "BOS",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 72.5,
+     "max_barrel_score": 37.8
+    }
+   }
+  },
+  "622268": {
+   "player_name": "Donovan Walton",
+   "team": "LAA",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 99.7,
+     "max_barrel_score": 29.9
+    }
+   }
+  },
+  "623168": {
+   "player_name": "Tyler Heineman",
+   "team": "LAA",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 86.2,
+     "max_barrel_score": 14.7
+    }
+   }
+  },
+  "666176": {
+   "player_name": "Jo Adell",
+   "team": "LAA",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 34.1,
+     "max_barrel_score": 29.6
+    }
+   }
+  },
+  "680776": {
+   "player_name": "Jarren Duran",
+   "team": "BOS",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 94.9,
+     "max_barrel_score": 23.5
+    }
+   }
+  },
+  "668930": {
+   "player_name": "Brice Turang",
+   "team": "MIL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 103.8,
+     "max_barrel_score": 72.7
+    }
+   }
+  },
+  "592885": {
+   "player_name": "Christian Yelich",
+   "team": "MIL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 108.6,
+     "max_barrel_score": 90.5
+    }
+   }
+  },
+  "606466": {
+   "player_name": "Ketel Marte",
+   "team": "AZ",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 88.2,
+     "max_barrel_score": 54.0
+    }
+   }
+  },
+  "672515": {
+   "player_name": "Gabriel Moreno",
+   "team": "AZ",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 95.1,
+     "max_barrel_score": 55.7
+    }
+   }
+  },
+  "680728": {
+   "player_name": "Adrian Del Castillo",
+   "team": "AZ",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 107.8,
+     "max_barrel_score": 85.2
+    }
+   }
+  },
+  "669003": {
+   "player_name": "Garrett Mitchell",
+   "team": "MIL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 2,
+     "near_hr_parks": 1,
+     "near_hr_barrel": 2,
+     "would_be_hr_parks_sum": 27,
+     "max_ev": 108.0,
+     "max_barrel_score": 90.2
+    }
+   }
+  },
+  "686217": {
+   "player_name": "Sal Frelick",
+   "team": "MIL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 97.6,
+     "max_barrel_score": 25.3
+    }
+   }
+  },
+  "545121": {
+   "player_name": "Ildemaro Vargas",
+   "team": "AZ",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 109.4,
+     "max_barrel_score": 42.8
+    }
+   }
+  },
+  "694371": {
+   "player_name": "Tommy Troy",
+   "team": "AZ",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 81.9,
+     "max_barrel_score": 11.2
+    }
+   }
+  },
+  "806198": {
+   "player_name": "Cooper Pratt",
+   "team": "MIL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 100.8,
+     "max_barrel_score": 80.6
+    }
+   }
+  },
+  "687401": {
+   "player_name": "Joey Ortiz",
+   "team": "MIL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 108.8,
+     "max_barrel_score": 70.5
+    }
+   }
+  },
+  "672695": {
+   "player_name": "Geraldo Perdomo",
+   "team": "AZ",
+   "days": {
+    "2026-07-04": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 82.5,
+     "max_barrel_score": 49.4
+    }
+   }
+  },
+  "661388": {
+   "player_name": "William Contreras",
+   "team": "MIL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 105.9,
+     "max_barrel_score": 39.6
+    }
+   }
+  },
+  "571448": {
+   "player_name": "Nolan Arenado",
+   "team": "AZ",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 89.0,
+     "max_barrel_score": 59.6
+    }
+   }
+  },
+  "641343": {
+   "player_name": "Jake Bauers",
+   "team": "MIL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 97.4,
+     "max_barrel_score": 73.8
+    }
+   }
+  },
+  "596146": {
+   "player_name": "Max Kepler",
+   "team": "AZ",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 92.8,
+     "max_barrel_score": 44.7
+    }
+   }
+  },
+  "682998": {
+   "player_name": "Corbin Carroll",
+   "team": "AZ",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 100.7,
+     "max_barrel_score": 70.3
+    }
+   }
+  },
+  "694192": {
+   "player_name": "Jackson Chourio",
+   "team": "MIL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 2,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 105.7,
+     "max_barrel_score": 84.2
+    }
+   }
+  },
+  "683734": {
+   "player_name": "Andrew Vaughn",
+   "team": "MIL",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 66.6,
+     "max_barrel_score": 0.2
+    }
+   }
+  },
+  "666971": {
+   "player_name": "Lourdes Gurriel Jr.",
+   "team": "AZ",
+   "days": {
+    "2026-07-04": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 106.1,
+     "max_barrel_score": 44.7
+    }
+   }
+  }
+ }
+}

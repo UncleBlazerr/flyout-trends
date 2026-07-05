@@ -1,0 +1,54 @@
+name: HR-Proximity Tracker
+
+on:
+  schedule:
+    # 06:00 ET (10:00 UTC during EDT) — catches games finished overnight
+    - cron: "0 10 * * *"
+    # 23:00 ET (03:00 UTC during EDT) — catches day games + early finals
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Date to process (YYYY-MM-DD); defaults to today ET if omitted"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hr-tracker
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run pipeline
+        run: |
+          if [ -n "${{ inputs.date }}" ]; then
+            python scripts/run_pipeline.py --date "${{ inputs.date }}"
+          else
+            python scripts/run_pipeline.py
+          fi
+
+      - name: Commit data and site
+        run: |
+          git config user.name "hr-tracker-bot"
+          git config user.email "actions@github.com"
+          git add data/ docs/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Data update: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
