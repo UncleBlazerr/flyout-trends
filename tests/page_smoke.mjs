@@ -52,9 +52,20 @@ if (!hitrate.startsWith("Track record")) fail("hit-rate line missing: " + hitrat
 const mcHits = doc.getElementById("mc-hits");
 if (!mcHits) fail("model-check bucket missing from page");
 
-// Section order: most-likely, then trending players, then the events table.
+// Consistency leaderboard: visible, has rows, players ranked by pull streak desc.
+const consistencySection = doc.getElementById("consistency-section");
+if (consistencySection.hidden) fail("consistency section is hidden");
+const csRows = [...doc.querySelectorAll("#consistency tbody tr")];
+if (csRows.length === 0) fail("consistency table has no rows");
+const csStreaks = csRows.map((r) => parseInt(r.querySelectorAll("td")[3].textContent));
+for (let i = 1; i < csStreaks.length; i++)
+  if (csStreaks[i] > csStreaks[i - 1]) fail("consistency not ranked by pull streak desc");
+console.log("consistency rows:", csRows.length, "| top streak:", csStreaks[0]);
+
+// Section order: most-likely, then the consistency leaderboard, then
+// trending players, then the events table.
 const order = [...doc.querySelectorAll("main table")].map((t) => t.id);
-if (JSON.stringify(order) !== JSON.stringify(["likely", "trends", "events"]))
+if (JSON.stringify(order) !== JSON.stringify(["likely", "consistency", "trends", "events"]))
   fail("section order wrong: " + order.join(","));
 console.log("most-likely rows:", mlRows.length, "| top score:", mlScores[0]);
 console.log("model-check chips:", mcHits.querySelectorAll(".hit-chip").length,

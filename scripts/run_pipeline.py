@@ -20,7 +20,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from hr_tracker.ingest import ingest_date
 from hr_tracker.models import find_config
 from hr_tracker.prediction import (annotate_repeats, compute_predictions,
-                                   cross_check, resolve_prediction_records,
+                                   consistency_leaderboard, cross_check,
+                                   resolve_prediction_records,
                                    write_prediction_record)
 from hr_tracker.scoring import score_events
 from hr_tracker.site import build_site
@@ -102,16 +103,19 @@ def main() -> int:
     player_days = store.read_player_days()
     hit_rate = resolve_prediction_records(records_dir, player_days, config)
     recent_hits = cross_check(records_dir, player_days, config, date)
+    consistency = consistency_leaderboard(records_dir, player_days, config, date)
     print(f"[predict] {len(predictions['players'])} players flagged; "
           f"record {record.name}; {len(recent_hits)} recent flags converted"
-          + (f"; hit rate {hit_rate['overall']['rate']}" if hit_rate else ""),
+          + (f"; hit rate {hit_rate['overall']['rate']}" if hit_rate else "")
+          + f"; {len(consistency)} on the consistency leaderboard",
           file=sys.stderr)
 
     if not args.skip_site:
         config["site"]["output_dir"] = str(root / config["site"]["output_dir"])
         index = build_site(events, trends, date, summary, config,
                            predictions=predictions, hit_rate=hit_rate,
-                           recent_hits=recent_hits, store=store)
+                           recent_hits=recent_hits, consistency=consistency,
+                           store=store)
         print(f"[site] rebuilt {index}", file=sys.stderr)
 
     return 1 if summary["games_failed"] else 0

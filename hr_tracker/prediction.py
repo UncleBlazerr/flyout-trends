@@ -280,6 +280,63 @@ def cross_check(records_dir: str | Path, player_days: dict[str, dict],
                   key=lambda h: (h["hr_on"], h["flagged_score"]), reverse=True)
 
 
+def consistency_leaderboard(records_dir: str | Path, player_days: dict[str, dict],
+                            config: dict[str, Any], as_of: str) -> list[dict[str, Any]]:
+    """Players who keep re-qualifying for the Most-Likely list pull after pull —
+    distinct from a single day's Top N, which only shows today's ranking.
+    Ranked by the player's current run of *consecutive* prediction records they
+    appear on (ending at the most recent record), then by lifetime flag count.
+    Only players flagged on the most recent record are included — this is a
+    "who's hot right now" view, not a historical hall of fame."""
+    cfg = config["prediction"]
+    paths = sorted(p for p in Path(records_dir).glob("*.json") if p.stem <= as_of)
+    if not paths:
+        return []
+    record_dates = [p.stem for p in paths]
+    date_index = {d: i for i, d in enumerate(record_dates)}
+    last_idx = len(record_dates) - 1
+
+    per_player: dict[int, dict[str, Any]] = {}
+    for path in paths:
+        rec = json.loads(path.read_text(encoding="utf-8"))
+        idx = date_index[rec["as_of"]]
+        for p in rec["players"]:
+            pid = p["player_id"]
+            entry = per_player.setdefault(pid, {
+                "player_name": p["player_name"], "team": p["team"], "scores": {}})
+            entry["player_name"] = p["player_name"]
+            entry["team"] = p["team"]
+            entry["scores"][idx] = p["expectancy_score"]
+
+    out = []
+    for pid, entry in per_player.items():
+        idxs = sorted(entry["scores"])
+        if idxs[-1] != last_idx:
+            continue  # not on the most recent pull; not currently consistent
+        streak = 0
+        expected = last_idx
+        for i in reversed(idxs):
+            if i != expected:
+                break
+            streak += 1
+            expected -= 1
+        days = player_days.get(str(pid), {}).get("days", {})
+        form = player_form(days, as_of, config) if days else None
+        out.append({
+            "player_id": pid,
+            "player_name": entry["player_name"],
+            "team": entry["team"],
+            "record_streak": streak,
+            "total_flags": len(idxs),
+            "avg_score": round(sum(entry["scores"].values()) / len(idxs), 1),
+            "current_score": entry["scores"][last_idx],
+            "game_streak": form["streak"] if form else 0,
+        })
+    out.sort(key=lambda e: (e["record_streak"], e["total_flags"], e["avg_score"]),
+             reverse=True)
+    return out[:cfg.get("consistency_top_n", cfg["top_n"])]
+
+
 def resolve_prediction_records(records_dir: str | Path,
                                player_days: dict[str, dict],
                                config: dict[str, Any]) -> dict[str, Any] | None:

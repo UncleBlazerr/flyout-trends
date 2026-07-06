@@ -109,6 +109,27 @@ INDEX_HTML = r"""<!DOCTYPE html>
     collected so far.</p>
   </section>
 
+  <section id="consistency-section" hidden>
+    <h2>Consistency leaderboard</h2>
+    <p class="note">Players currently on a run of consecutive prediction pulls — they
+    keep re-qualifying for "Most likely to homer" pull after pull, not just today.
+    Pull streak = consecutive daily pulls (ending today) the player has appeared on;
+    Game streak = consecutive qualifying game-days feeding today's score.</p>
+    <table id="consistency">
+      <thead><tr>
+        <th class="num">#</th>
+        <th>Player</th>
+        <th>Team</th>
+        <th class="num">Pull streak</th>
+        <th class="num">Total flags</th>
+        <th class="num">Avg score</th>
+        <th class="num">Current score</th>
+        <th class="num">Game streak</th>
+      </tr></thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
   <section id="analysis-section" hidden>
     <h2>Today's read</h2>
     <div id="analysis-chart-wrap" hidden>
@@ -436,13 +457,29 @@ function fillTeams(selectId, teams) {
     sel.append(o);
   }
 }
+function renderConsistency() {
+  const c = state.consistency;
+  if (!c || !c.players || c.players.length === 0) return;
+  document.getElementById("consistency-section").hidden = false;
+  const body = document.querySelector("#consistency tbody");
+  body.innerHTML = "";
+  c.players.forEach((r, i) => {
+    const tr = document.createElement("tr");
+    tr.append(td(i + 1, 1), tdPlayer(r.player_name, r.player_id), td(r.team),
+      td(r.record_streak, 1), td(r.total_flags, 1), td(r.avg_score, 1),
+      td(r.current_score, 1), td(r.game_streak, 1));
+    body.append(tr);
+  });
+}
 
 async function init() {
-  const [meta, latest, trends, predictions, analysis] = await Promise.all([
+  const [meta, latest, trends, predictions, consistency, analysis] = await Promise.all([
     fetch("data/meta.json" + bust).then(r => r.json()),
     fetch("data/latest.json" + bust).then(r => r.json()),
     fetch("data/trends.json" + bust).then(r => r.json()),
     fetch("data/predictions.json" + bust)
+      .then(r => r.ok ? r.json() : null).catch(() => null),
+    fetch("data/consistency.json" + bust)
       .then(r => r.ok ? r.json() : null).catch(() => null),
     fetch("data/analysis.json" + bust)
       .then(r => r.ok ? r.json() : null).catch(() => null),
@@ -457,6 +494,9 @@ async function init() {
   state.events = latest.events;
   state.trends = trends;
   state.predictions = predictions;
+  state.consistency = consistency;
+  renderConsistency();
+
 
   // "Today's read" — expectancy chart (always current, from predictions)
   // plus the LLM-written blurb, which shows only while it matches the data.
@@ -707,6 +747,7 @@ def build_site(events: list[BattedBallEvent], trends: dict[str, Any],
                predictions: dict[str, Any] | None = None,
                hit_rate: dict[str, Any] | None = None,
                recent_hits: list[dict[str, Any]] | None = None,
+               consistency: list[dict[str, Any]] | None = None,
                store: Any | None = None) -> Path:
     """Write index.html + data JSON into the GitHub Pages source dir (docs/)."""
     out = Path(config["site"]["output_dir"])
@@ -733,6 +774,9 @@ def build_site(events: list[BattedBallEvent], trends: dict[str, Any],
                    "recent_hits": recent_hits or []}
         (data_dir / "predictions.json").write_text(
             json.dumps(payload, indent=1), encoding="utf-8")
+    (data_dir / "consistency.json").write_text(
+        json.dumps({"as_of": date, "players": consistency or []}, indent=1),
+        encoding="utf-8")
 
     if store is not None:
         n = _write_player_pages(out, store, date, config)

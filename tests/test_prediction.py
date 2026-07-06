@@ -2,7 +2,8 @@ import json
 
 from hr_tracker.prediction import (annotate_repeats, band_label,
                                    compute_predictions, compute_streak,
-                                   cross_check, empirical_rates, player_form,
+                                   consistency_leaderboard, cross_check,
+                                   empirical_rates, player_form,
                                    resolve_prediction_records,
                                    write_prediction_record)
 
@@ -252,3 +253,61 @@ def test_prediction_record_resolve_miss(tmp_path, config):
     result = resolve_prediction_records(tmp_path / "predictions",
                                         store.read_player_days(), config)
     assert result["overall"] == {"flagged": 1, "hr_followed": 0, "rate": 0.0}
+
+
+# ---- consistency leaderboard ------------------------------------------------
+
+def test_consistency_leaderboard_ranks_by_consecutive_pulls(tmp_path, config):
+    records = tmp_path / "records"
+    # Hot Guy flagged on all three days; New Guy only on the latest.
+    hot_days = {"2026-07-02": day(near=2), "2026-07-03": day(near=2),
+                "2026-07-04": day(near=2)}
+    for i, d in enumerate(["2026-07-02", "2026-07-03", "2026-07-04"]):
+        days = {k: v for k, v in hot_days.items() if k <= d}
+        players = {"1": {"player_name": "Hot Guy", "team": "NYY", "days": days}}
+        if d == "2026-07-04":
+            players["2"] = {"player_name": "New Guy", "team": "BOS",
+                            "days": {"2026-07-04": day(near=2)}}
+        store = FakeStore(players)
+        preds = compute_predictions(store, d, config)
+        write_prediction_record(records, preds, config)
+
+    final_store = FakeStore({
+        "1": {"player_name": "Hot Guy", "team": "NYY", "days": hot_days},
+        "2": {"player_name": "New Guy", "team": "BOS",
+              "days": {"2026-07-04": day(near=2)}},
+    })
+    board = consistency_leaderboard(records, final_store.read_player_days(),
+                                    config, "2026-07-04")
+    by_name = {p["player_name"]: p for p in board}
+    assert by_name["Hot Guy"]["record_streak"] == 3
+    assert by_name["Hot Guy"]["total_flags"] == 3
+    assert by_name["New Guy"]["record_streak"] == 1
+    assert board[0]["player_name"] == "Hot Guy"  # higher streak ranks first
+
+
+def test_consistency_leaderboard_excludes_players_missing_latest_pull(tmp_path, config):
+    records = tmp_path / "records"
+    early = {"1": {"player_name": "Faded Guy", "team": "LAD",
+                   "days": {"2026-07-01": day(near=2)}}}
+    write_prediction_record(records,
+                            compute_predictions(FakeStore(early), "2026-07-01", config),
+                            config)
+    # Faded Guy's last appearance is now 3 days stale (> max_gap_days=2), so he
+    # no longer qualifies for the 07-04 record at all.
+    later = {"1": {"player_name": "Faded Guy", "team": "LAD",
+                   "days": {"2026-07-01": day(near=2)}},
+             "2": {"player_name": "Fresh Guy", "team": "SEA",
+                   "days": {"2026-07-04": day(near=2)}}}
+    write_prediction_record(records,
+                            compute_predictions(FakeStore(later), "2026-07-04", config),
+                            config)
+    board = consistency_leaderboard(records, FakeStore(later).read_player_days(),
+                                    config, "2026-07-04")
+    names = {p["player_name"] for p in board}
+    assert "Fresh Guy" in names
+    assert "Faded Guy" not in names  # not on the most recent record
+
+
+def test_consistency_leaderboard_empty_when_no_records(tmp_path, config):
+    assert consistency_leaderboard(tmp_path / "none", {}, config, "2026-07-04") == []
