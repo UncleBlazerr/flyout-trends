@@ -8,8 +8,9 @@
 - [x] Phase 2 — Store/rollup: bump `SCHEMA_VERSION` to 2, per-player-day `temp_f`/`wind_mph`/`wind_dir` in `_update_rollup`, update `make_event`/`day` builders + `schema_version` assertion, round-trip test with new fields
   - Branch: feature/weather-ingest
   - Commit: bf25451 — verified with a full real pipeline run against scratch storage (771 events / 286 player-days all weather-tagged, schema 2, idempotent re-run); `day` builder update deferred to Phase 4 when prediction starts reading weather
-- [ ] Phase 3 — Backfill: one-time historical weather re-ingest of all dates in `data/raw/` via `scripts/backfill.py` (data-only; prediction receipts untouched)
+- [x] Phase 3 — Backfill: one-time historical weather re-ingest of all dates in `data/raw/` via `scripts/backfill.py` (data-only; prediction receipts untouched)
   - Branch: feature/weather-backfill
+  - Commit: 290a647 — 2026-07-04..06 re-ingested; 07-04/07-05 event sets + scoring byte-identical apart from weather; receipts untouched. NOTE: merge to main before the next scheduled run so the cron re-ingests with weather code
 - [ ] Phase 4 — Prediction: pure `weather_factor()` per PRD §5.2, `prediction.weather:` config block, team→upcoming-game weather map in `compute_predictions`, rank by `base_score × weather_factor`, keep empirical bands on base score, weather inputs in prediction entries + receipts; unit tests (hot+out compounding, out-below-threshold, in-penalty, cross-neutral, dome=1.0, clamp)
   - Branch: feature/weather-score
 - [ ] Phase 5 — Correlation: aggregate rollup into temp-band × wind-class cells (HR rate, near-HR rate, near-HR→HR follow-through, sample counts; `min_samples` gating), emit `docs/data/weather.json`

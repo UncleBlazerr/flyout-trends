@@ -92,3 +92,28 @@ key loss).
 days without weather keys; the backfill re-ingest will rewrite them all.
 
 **Next:** Phase 3 — historical weather backfill (`feature/weather-backfill`).
+
+## 2026-07-06 — Phase 3 (historical weather backfill) complete
+
+**Commit:** 290a647 on `feature/weather-backfill` (branched off
+feature/weather-ingest; not pushed).
+
+**What was done:** `py scripts/backfill.py --start 2026-07-04 --end 2026-07-06`
+re-ingested all three stored dates with the Phase 1/2 weather code. All raw
+files now schema v2 with 0 events missing weather; rollup 590/590 player-days
+weather-tagged (out=188, cross=209, none=117, in=76). Integrity-diffed old vs
+new day files: 07-04 (731 events) and 07-05 (771) have identical play_id sets
+and identical scoring fields — only weather added. 07-06's previous file was
+an empty stub from the morning run; it now holds the day's 1 final game
+(62 events). data/predictions/ receipts untouched (verified via git status).
+
+**⚠ Merge-timing risk:** the scheduled workflow runs on main at 23:00 ET
+tonight and 06:00 ET tomorrow WITHOUT the weather code unless the feature
+branches merge first. If it runs pre-merge it will rewrite 2026-07-06 (and
+tomorrow 07-06 again via --yesterday) without weather fields and conflict
+with this branch's data files. Recommendation: merge phases 1-3 to main
+before 23:00 ET, or re-run the backfill for any dates the cron rewrites
+pre-merge.
+
+**Next:** Phase 4 — weather_factor + prediction integration
+(`feature/weather-score`).
