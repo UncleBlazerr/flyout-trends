@@ -154,7 +154,8 @@ Surfaces players who keep re-qualifying for the Most-Likely list across
 consecutive pulls. Ranked by the player's current run of consecutive
 prediction records they appear on (ending at the most recent record), then by
 lifetime flag count and average score. Only players on the most recent record
-are included — this is a "who's hot right now" view.
+are included — this is a "who's hot right now" view. Truncated to
+`prediction.consistency_top_n` (defaults to `top_n` if unset).
 
 ## Key config reference
 
@@ -173,6 +174,7 @@ are included — this is a "who's hot right now" view.
 | `prediction.score_bands` | [40, 60, 80] | Band edges for empirical rates |
 | `prediction.min_samples` | 20 | Minimum samples to show a band rate |
 | `prediction.top_n` | 15 | Size of "Most Likely to Homer" list |
+| `prediction.consistency_top_n` | 15 | Size of consistency leaderboard (defaults to `top_n`) |
 
 **Sources:** `hr_tracker/scoring.py`, `hr_tracker/prediction.py`,
 `config.yaml`, `tests/test_prediction.py`, `tests/test_scoring.py`
