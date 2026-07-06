@@ -162,3 +162,48 @@ fallback (PRD §8) would close this gap if it ever matters.
 (`feature/weather-correlation`). Note: `test_prediction.py::day` builder
 still has no weather fields — Phase 5's correlation reads day weather, so
 extend it there.
+
+## 2026-07-06 — Phase 5 (weather correlation table) complete
+
+**Commit:** 9ddaecb on `feature/weather-correlation` (branched off
+feature/weather-score; not pushed).
+
+**What was done:**
+- New `hr_tracker/weather.py::weather_correlation(player_days, config,
+  as_of)`: buckets every rollup player-day into temp-band x wind-class cells
+  (out / in / neutral; cross+calm+varies collapse to neutral), dome/closed-
+  roof days in their own row (keyed off the new rollup `weather_condition`
+  vs `weather.neutral_conditions`), weatherless days counted as
+  `unknown_player_days` but never bucketed. Measures per cell: player_days,
+  hr_days/hr_total (+hr_rate), near_hr_days (+near_hr_rate), and
+  near-HR->HR follow-through within horizon_days with the same censoring as
+  `empirical_rates`. Rates null below `weather.min_samples` ("collecting
+  data"). Reuses `band_label`, `_hr_within`, `_near_hr_any` from prediction.
+- `store.py::_update_rollup`: player-days now also carry
+  `weather_condition` (first tagged event wins; "" normalizes to None).
+- `site.py::build_site`: new `weather_corr` param -> writes
+  `docs/data/weather.json`. `run_pipeline.py` computes and passes it,
+  logging a `[weather]` summary line.
+- `config.yaml` weather block: `temp_bands: [55, 70, 85]`,
+  `min_samples: 25`.
+- Tests: new `tests/test_weather.py` (bucketing, dome separation, unknown
+  days, follow-through + censoring, min_samples gating, empty rollup) with
+  its own weather-day builder (test_prediction's `day()` intentionally left
+  weatherless — prediction still never reads day weather). 84 pass.
+
+**Verification (real API, fresh scratch storage):** backfill 07-04 +
+pipeline 07-05 produced weather.json over 451 outdoor + 117 dome player-days
+in 7 cells. Even 2 days of data point the right way: 85+/out HR-day rate
+0.205, 70-85/out 0.143, 70-85/neutral 0.108, 70-85/in 0.051 — hot + wind out
+leads, wind in kills. Gated cells (<25 days) show null rates; follow_rate
+fully censored (needs horizon+1 days of history); dome row separated;
+unknown=0.
+
+**⚠ Data follow-up after merge:** the repo rollup predates the
+weather_condition rollup key. After merging phases 4+5 to main, run
+`py scripts/backfill.py --start 2026-07-04` ON MAIN and push, so dome days
+classify correctly in the live weather.json. Deliberately NOT done on the
+branch to avoid data-file merge conflicts with tonight's 23:00 ET cron.
+
+**Next:** Phase 6 — dashboard weather columns + correlation panel
+(`feature/weather-ui`).

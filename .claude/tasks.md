@@ -15,8 +15,9 @@
 - [x] Phase 4 — Prediction: pure `weather_factor()` per PRD §5.2, `prediction.weather:` config block, team→upcoming-game weather map in `compute_predictions`, rank by `base_score × weather_factor`, keep empirical bands on base score, weather inputs in prediction entries + receipts; unit tests (hot+out compounding, out-below-threshold, in-penalty, cross-neutral, dome=1.0, clamp)
   - Branch: feature/weather-score
   - Commit: 288eca3 — verified with real pipeline runs (07-04: 15/15 entries weather-adjusted, hot+out=1.166 at Sutter Health; 07-05: wind-in penalty 0.987 at Busch, idle teams neutral; as-of today: 30 teams/0 forecasts → all factors exactly 1.0)
-- [ ] Phase 5 — Correlation: aggregate rollup into temp-band × wind-class cells (HR rate, near-HR rate, near-HR→HR follow-through, sample counts; `min_samples` gating), emit `docs/data/weather.json`
+- [x] Phase 5 — Correlation: aggregate rollup into temp-band × wind-class cells (HR rate, near-HR rate, near-HR→HR follow-through, sample counts; `min_samples` gating), emit `docs/data/weather.json`
   - Branch: feature/weather-correlation
+  - Commit: 9ddaecb — verified with real data (85+/out HR-day rate 0.205 vs 70-85/in 0.051; gating + dome row + censoring all correct). Rollup gains `weather_condition`; after merging, re-run `backfill.py --start 2026-07-04` on main so the live rollup picks the field up
 - [ ] Phase 6 — Dashboard: weather column in "Most likely to homer" + near-HR events tables, correlation panel from `weather.json`, player-page day rows; extend `tests/page_smoke.mjs`
   - Branch: feature/weather-ui
 - [ ] Phase 7 — Docs: README, CLAUDE.md (weather source + gotchas), openwiki pages, config comments (rolled into each phase's PR)
