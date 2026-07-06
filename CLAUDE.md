@@ -84,3 +84,10 @@ All thresholds and weights live in `config.yaml` — never hardcode them.
   history was scrubbed once to remove it.
 - The repo is public. `data/` and `docs/` are committed on purpose (the Actions
   workflow commits them back after each scheduled run).
+- **After every push, verify the Pages build and deployment succeeds** before
+  calling the work done: check `gh run list` / `gh api
+  repos/UncleBlazerr/flyout-trends/pages/builds/latest`, then confirm the live
+  site serves the new content. If it fails, diagnose and retry (transient
+  "Deployment failed, try again later" errors are common — re-trigger with
+  `gh api -X POST .../pages/builds`). Cap fix attempts at 10, then stop and
+  report to the user.
