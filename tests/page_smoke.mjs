@@ -48,7 +48,11 @@ for (let i = 1; i < mlScores.length; i++)
   if (mlScores[i] > mlScores[i - 1]) fail("most-likely not ranked by expectancy desc");
 const hitrate = doc.getElementById("ml-hitrate").textContent;
 if (!hitrate.startsWith("Track record")) fail("hit-rate line missing: " + hitrate);
+const mcHits = doc.getElementById("mc-hits");
+if (!mcHits) fail("model-check bucket missing from page");
 console.log("most-likely rows:", mlRows.length, "| top score:", mlScores[0]);
+console.log("model-check chips:", mcHits.querySelectorAll(".hit-chip").length,
+  mcHits.hidden ? "(hidden — none yet)" : "(visible)");
 console.log("hit-rate line:", hitrate);
 
 // First event row should be the top barrel_score event (default sort desc).

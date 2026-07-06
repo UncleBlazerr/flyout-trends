@@ -19,8 +19,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from hr_tracker.ingest import ingest_date
 from hr_tracker.models import find_config
-from hr_tracker.prediction import (compute_predictions,
-                                   resolve_prediction_records,
+from hr_tracker.prediction import (annotate_repeats, compute_predictions,
+                                   cross_check, resolve_prediction_records,
                                    write_prediction_record)
 from hr_tracker.scoring import score_events
 from hr_tracker.site import build_site
@@ -88,18 +88,21 @@ def main() -> int:
 
     predictions = compute_predictions(store, date, config)
     records_dir = root / config["prediction"]["records_dir"]
+    predictions = annotate_repeats(predictions, records_dir)
     record = write_prediction_record(records_dir, predictions, config)
-    hit_rate = resolve_prediction_records(records_dir, store.read_player_days(),
-                                          config)
+    player_days = store.read_player_days()
+    hit_rate = resolve_prediction_records(records_dir, player_days, config)
+    recent_hits = cross_check(records_dir, player_days, config, date)
     print(f"[predict] {len(predictions['players'])} players flagged; "
-          f"record {record.name}"
+          f"record {record.name}; {len(recent_hits)} recent flags converted"
           + (f"; hit rate {hit_rate['overall']['rate']}" if hit_rate else ""),
           file=sys.stderr)
 
     if not args.skip_site:
         config["site"]["output_dir"] = str(root / config["site"]["output_dir"])
         index = build_site(events, trends, date, summary, config,
-                           predictions=predictions, hit_rate=hit_rate)
+                           predictions=predictions, hit_rate=hit_rate,
+                           recent_hits=recent_hits)
         print(f"[site] rebuilt {index}", file=sys.stderr)
 
     return 1 if summary["games_failed"] else 0

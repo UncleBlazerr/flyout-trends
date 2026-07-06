@@ -1,16 +1,17 @@
 import json
 
-from hr_tracker.prediction import (band_label, compute_predictions,
-                                   compute_streak, empirical_rates,
-                                   player_form, resolve_prediction_records,
+from hr_tracker.prediction import (annotate_repeats, band_label,
+                                   compute_predictions, compute_streak,
+                                   cross_check, empirical_rates, player_form,
+                                   resolve_prediction_records,
                                    write_prediction_record)
 
 
-def day(near=1, hr=0, bbe=3, max_ev=100.0, parks=5):
-    return {"bbe": bbe, "hr": hr, "near_hr_any": near, "near_hr_distance": near,
-            "near_hr_parks": 0, "near_hr_barrel": 0,
+def day(near=1, hr=0, bbe=3, max_ev=100.0, parks=5, xbh=0, dist=380.0):
+    return {"bbe": bbe, "hr": hr, "near_hr_any": near, "near_hr_xbh": xbh,
+            "near_hr_distance": near, "near_hr_parks": 0, "near_hr_barrel": 0,
             "would_be_hr_parks_sum": parks, "max_ev": max_ev,
-            "max_barrel_score": 60.0}
+            "max_distance": dist, "max_barrel_score": 60.0}
 
 
 class FakeStore:
@@ -92,6 +93,26 @@ def test_band_label_edges(config):
     assert band_label(100.0, edges) == "80+"
 
 
+def test_xbh_near_hrs_outweigh_outs(config):
+    # Same shape of week, but one player's near-HRs went for doubles: his
+    # weighted near-HR series rises faster, so intensity (and score) is higher.
+    outs = {f"2026-07-0{i}": day(near=i, xbh=0) for i in range(1, 5)}
+    xbh = {f"2026-07-0{i}": day(near=i, xbh=i) for i in range(1, 5)}
+    f_outs = player_form(outs, "2026-07-04", config)
+    f_xbh = player_form(xbh, "2026-07-04", config)
+    assert f_xbh["slopes"]["near_hr"] > f_outs["slopes"]["near_hr"]
+    assert f_xbh["expectancy_score"] >= f_outs["expectancy_score"]
+
+
+def test_hr_does_not_change_score(config):
+    # HRs are informational: identical near-HR profile with/without a homer
+    # must score the same.
+    base = {f"2026-07-0{i}": day(near=1) for i in range(1, 4)}
+    with_hr = {d: dict(v, hr=1) for d, v in base.items()}
+    assert (player_form(base, "2026-07-03", config)["expectancy_score"]
+            == player_form(with_hr, "2026-07-03", config)["expectancy_score"])
+
+
 # ---- empirical rates -------------------------------------------------------
 
 def _history_player(hr_on_last=True):
@@ -141,6 +162,20 @@ def test_compute_predictions_ranks_and_excludes_stale(config):
     assert preds["players"][0]["band_rate"] is None
 
 
+def test_predictions_carry_informational_7d_fields(config):
+    hot = {"player_name": "Hot Guy", "team": "NYY",
+           "days": {"2026-07-03": day(near=2, xbh=1, hr=1, max_ev=104.0,
+                                      dist=395.0),
+                    "2026-07-04": day(near=3, xbh=2, hr=0, max_ev=110.0,
+                                      dist=428.0)}}
+    preds = compute_predictions(FakeStore({"1": hot}), "2026-07-04", config)
+    p = preds["players"][0]
+    assert p["hr_7d"] == 1
+    assert p["near_hr_xbh_7d"] == 3
+    assert p["max_ev_7d"] == 110.0
+    assert p["max_distance_7d"] == 428
+
+
 def test_prediction_record_write_and_resolve(tmp_path, config):
     hot = {"player_name": "Hot Guy", "team": "NYY",
            "days": {"2026-07-02": day(near=2), "2026-07-03": day(near=2),
@@ -163,6 +198,47 @@ def test_prediction_record_write_and_resolve(tmp_path, config):
                                         store.read_player_days(), config)
     assert result["resolved_records"] == 1
     assert result["overall"] == {"flagged": 1, "hr_followed": 1, "rate": 1.0}
+
+
+def test_cross_check_reports_flagged_then_homered(tmp_path, config):
+    hot = {"player_name": "Hot Guy", "team": "NYY",
+           "days": {"2026-07-03": day(near=2), "2026-07-04": day(near=2)}}
+    store = FakeStore({"1": hot})
+    preds = compute_predictions(store, "2026-07-04", config)
+    write_prediction_record(tmp_path / "p", preds, config)
+
+    hot["days"]["2026-07-06"] = day(near=0, hr=2)
+    hits = cross_check(tmp_path / "p", store.read_player_days(),
+                       config, "2026-07-06")
+    assert len(hits) == 1
+    hit = hits[0]
+    assert hit["player_name"] == "Hot Guy"
+    assert hit["flagged_on"] == "2026-07-04"
+    assert hit["hr_on"] == "2026-07-06"
+    assert hit["hr_count"] == 2
+
+    # Once the flag is older than the horizon it leaves the bucket
+    # (it still counts in the aggregate track record).
+    assert cross_check(tmp_path / "p", store.read_player_days(),
+                       config, "2026-07-10") == []
+
+
+def test_annotate_repeats_marks_returning_players(tmp_path, config):
+    hot = {"player_name": "Hot Guy", "team": "NYY",
+           "days": {"2026-07-03": day(near=2), "2026-07-04": day(near=2)}}
+    store = FakeStore({"1": hot})
+    preds = compute_predictions(store, "2026-07-04", config)
+    write_prediction_record(tmp_path / "p", preds, config)
+
+    hot["days"]["2026-07-05"] = day(near=2)
+    new_guy = {"player_name": "New Guy", "team": "BOS",
+               "days": {"2026-07-04": day(near=1), "2026-07-05": day(near=1)}}
+    store = FakeStore({"1": hot, "2": new_guy})
+    preds = annotate_repeats(compute_predictions(store, "2026-07-05", config),
+                             tmp_path / "p")
+    by_name = {p["player_name"]: p for p in preds["players"]}
+    assert by_name["Hot Guy"]["repeat"] is True
+    assert by_name["New Guy"]["repeat"] is False
 
 
 def test_prediction_record_resolve_miss(tmp_path, config):

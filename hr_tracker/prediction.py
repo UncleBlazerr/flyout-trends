@@ -33,6 +33,14 @@ def _near_hr_any(day: dict[str, Any]) -> int:
                + day["near_hr_barrel"], day["bbe"])
 
 
+def _weighted_near_hr(day: dict[str, Any], xbh_weight: float) -> float:
+    """Near-HR count with extra-base results (doubles/triples) worth
+    xbh_weight instead of 1.0 — a near-HR that already went for extra bases
+    is better evidence than one caught at the track."""
+    return (_near_hr_any(day)
+            + (xbh_weight - 1.0) * day.get("near_hr_xbh", 0))
+
+
 def _sorted_days(days: dict[str, dict], as_of: str) -> list[tuple[str, dict]]:
     return [(d, days[d]) for d in sorted(days) if d <= as_of]
 
@@ -76,7 +84,7 @@ def player_form(days: dict[str, dict], as_of: str,
     series = {
         "max_ev": [d["max_ev"] for _, d in recent],
         "parks_sum": [d["would_be_hr_parks_sum"] for _, d in recent],
-        "near_hr": [_near_hr_any(d) for _, d in recent],
+        "near_hr": [_weighted_near_hr(d, cfg["xbh_weight"]) for _, d in recent],
     }
     slopes = {k: round(linear_slope(v), 3) for k, v in series.items()}
 
@@ -168,6 +176,7 @@ def compute_predictions(store: Any, as_of: str,
         label = band_label(form["expectancy_score"], cfg["score_bands"])
         band = bands.get(label)
         week_start = (as_of_d - timedelta(days=6)).isoformat()
+        week = [v for d, v in days.items() if d >= week_start]
         entries.append({
             "player_id": int(pid),
             "player_name": pdata["player_name"],
@@ -176,8 +185,12 @@ def compute_predictions(store: Any, as_of: str,
             "streak": form["streak"],
             "frequency": form["frequency"],
             "slopes": form["slopes"],
-            "near_hr_7d": sum(_near_hr_any(v) for d, v in days.items()
-                              if d >= week_start),
+            "near_hr_7d": sum(_near_hr_any(v) for v in week),
+            "near_hr_xbh_7d": sum(v.get("near_hr_xbh", 0) for v in week),
+            "hr_7d": sum(v.get("hr", 0) for v in week),
+            "max_ev_7d": round(max((v["max_ev"] for v in week), default=0.0), 1),
+            "max_distance_7d": round(max((v.get("max_distance", 0.0)
+                                          for v in week), default=0.0)),
             "band": label,
             "band_rate": (band["rate"] if band
                           and band["samples"] >= cfg["min_samples"] else None),
@@ -212,6 +225,59 @@ def write_prediction_record(records_dir: str | Path,
     }
     path.write_text(json.dumps(payload, indent=1), encoding="utf-8")
     return path
+
+
+def annotate_repeats(predictions: dict[str, Any],
+                     records_dir: str | Path) -> dict[str, Any]:
+    """Mark players who were also on the most recent previous record —
+    making the list again means another qualifying performance since being
+    flagged (shown as a visual indicator on the dashboard)."""
+    prior = sorted(p for p in Path(records_dir).glob("*.json")
+                   if p.stem < predictions["as_of"])
+    prev_ids: set[int] = set()
+    if prior:
+        rec = json.loads(prior[-1].read_text(encoding="utf-8"))
+        prev_ids = {p["player_id"] for p in rec["players"]}
+    for p in predictions["players"]:
+        p["repeat"] = p["player_id"] in prev_ids
+    return predictions
+
+
+def cross_check(records_dir: str | Path, player_days: dict[str, dict],
+                config: dict[str, Any], as_of: str) -> list[dict[str, Any]]:
+    """Model self-check for the dashboard bucket: players flagged on a recent
+    record who have since homered. Only flags within horizon_days of as_of
+    are shown here; older ones live in the aggregate track record."""
+    cfg = config["prediction"]
+    horizon = cfg["horizon_days"]
+    as_of_d = date_cls.fromisoformat(as_of)
+
+    hits: dict[int, dict[str, Any]] = {}
+    for path in sorted(Path(records_dir).glob("*.json")):
+        d = date_cls.fromisoformat(path.stem)
+        if path.stem >= as_of or (as_of_d - d).days > horizon:
+            continue
+        rec = json.loads(path.read_text(encoding="utf-8"))
+        for p in rec["players"]:
+            days = player_days.get(str(p["player_id"]), {}).get("days", {})
+            for k in range(1, horizon + 1):
+                hr_day = (d + timedelta(days=k)).isoformat()
+                if hr_day > as_of:
+                    break
+                hrs = days.get(hr_day, {}).get("hr", 0)
+                if hrs > 0:
+                    hits[p["player_id"]] = {
+                        "player_id": p["player_id"],
+                        "player_name": p["player_name"],
+                        "team": p["team"],
+                        "flagged_on": rec["as_of"],
+                        "flagged_score": p["expectancy_score"],
+                        "hr_on": hr_day,
+                        "hr_count": hrs,
+                    }
+                    break
+    return sorted(hits.values(),
+                  key=lambda h: (h["hr_on"], h["flagged_score"]), reverse=True)
 
 
 def resolve_prediction_records(records_dir: str | Path,

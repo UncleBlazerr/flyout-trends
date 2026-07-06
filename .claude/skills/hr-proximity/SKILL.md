@@ -60,7 +60,12 @@ from hr_tracker.prediction import compute_predictions
 preds = compute_predictions(store, "2026-07-05", config)
 ```
 
-Past receipts resolve into a track record via
+Near-HR doubles/triples weigh more than outs (`prediction.xbh_weight`); each
+entry carries informational `hr_7d`, `max_ev_7d`, `max_distance_7d`,
+`near_hr_xbh_7d`, and `repeat` (also flagged on the previous pull). The model
+cross-checks itself every run: `recent_hits` in `predictions.json` lists
+flagged players who have since homered, and past receipts resolve into a
+track record via
 `resolve_prediction_records("data/predictions", store.read_player_days(), config)`.
 Knobs live in `config.yaml` (`prediction` section).
 

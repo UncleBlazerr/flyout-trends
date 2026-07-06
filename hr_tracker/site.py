@@ -41,6 +41,11 @@ INDEX_HTML = r"""<!DOCTYPE html>
   .flag { display:inline-block; padding:0 6px; border-radius:10px; font-size:11.5px;
           background:#2a3550; color:var(--muted); margin-right:3px; }
   .flag.on { background:var(--accent); color:#1a1405; font-weight:600; }
+  .hits { display:flex; gap:8px; flex-wrap:wrap; margin:4px 0 12px; }
+  .hit-chip { background:#1e3320; border:1px solid #3f6b3c; border-radius:8px;
+              padding:4px 10px; font-size:12.5px; }
+  .hit-chip b { color:#9fe08c; }
+  .repeat { color:var(--accent); font-weight:700; cursor:help; }
   .hot { color:var(--hot); font-weight:700; }
   .note { font-size:12px; color:var(--muted); margin-top:8px; }
   .empty { color:var(--muted); padding:14px; }
@@ -57,6 +62,7 @@ INDEX_HTML = r"""<!DOCTYPE html>
     <div class="controls">
       <span id="ml-hitrate"></span>
     </div>
+    <div id="mc-hits" class="hits" hidden></div>
     <table id="likely">
       <thead><tr>
         <th class="num">#</th>
@@ -67,16 +73,27 @@ INDEX_HTML = r"""<!DOCTYPE html>
         <th>EV</th>
         <th>Parks</th>
         <th>Freq</th>
+        <th class="num">Max EV 7d</th>
+        <th class="num">Max dist 7d</th>
         <th class="num">Near-HR 7d</th>
+        <th class="num">2B/3B</th>
+        <th class="num">HR 7d</th>
         <th>Band HR rate</th>
       </tr></thead>
       <tbody></tbody>
     </table>
     <p class="note">Expectancy (0–100) blends the streak of consecutive games with a
     near-HR event, how often recent games qualify, and whether EV / would-be-HR parks /
-    near-HR frequency are trending up (▲ rising · ▬ flat · ▼ falling). "Band HR rate" is
+    near-HR frequency are trending up (▲ rising · ▬ flat · ▼ falling). Near-HRs that went
+    for doubles/triples (2B/3B) weigh more than ones caught at the track. Max EV / Max dist
+    show the hardest and farthest ball hit in the last 7 days — the "why" behind the rank.
+    HR 7d is informational only (homers don't raise or lower the score). 💥 chips are the
+    model checking itself: players flagged on a recent pull who have since homered.
+    ↻ next to a name means the player was also flagged on the previous pull and has kept
+    producing. "Band HR rate" is
     measured from this tracker's own history: how often players scoring in the same range
-    homered soon after (shown once enough samples exist).</p>
+    homered soon after; until a range has enough samples it shows how many it has
+    collected so far.</p>
   </section>
 
   <section>
@@ -247,11 +264,32 @@ function renderLikely() {
       `across ${hr.resolved_records} resolved days`
     : "Track record: accumulating — prediction receipts resolve after " +
       p.horizon_days + " days";
+  const hitsDiv = document.getElementById("mc-hits");
+  hitsDiv.innerHTML = "";
+  if (p.recent_hits && p.recent_hits.length) {
+    hitsDiv.hidden = false;
+    for (const h of p.recent_hits) {
+      const chip = document.createElement("span");
+      chip.className = "hit-chip";
+      chip.innerHTML = `💥 <b>${h.player_name}</b> (${h.team}) — flagged ` +
+        `${h.flagged_on} at ${h.flagged_score} → ` +
+        `${h.hr_count > 1 ? h.hr_count + " HR" : "HR"} on ${h.hr_on}`;
+      hitsDiv.append(chip);
+    }
+  }
   const body = document.querySelector("#likely tbody");
   body.innerHTML = "";
   p.players.forEach((r, i) => {
     const tr = document.createElement("tr");
-    tr.append(td(i + 1, 1), td(r.player_name), td(r.team),
+    const nameCell = td(r.player_name);
+    if (r.repeat) {
+      const badge = document.createElement("span");
+      badge.className = "repeat";
+      badge.title = "Also flagged on the previous pull — qualified again";
+      badge.textContent = " ↻";
+      nameCell.append(badge);
+    }
+    tr.append(td(i + 1, 1), nameCell, td(r.team),
       td(r.expectancy_score, 1),
       td(r.streak ? r.streak + (r.streak > 1 ? " games" : " game") : "—", 1));
     for (const k of ["max_ev", "parks_sum", "near_hr"]) {
@@ -259,10 +297,11 @@ function renderLikely() {
       c.innerHTML = arrow(r.slopes[k]);
       tr.append(c);
     }
-    tr.append(td(r.near_hr_7d, 1),
+    tr.append(td(r.max_ev_7d, 1), td(r.max_distance_7d, 1),
+      td(r.near_hr_7d, 1), td(r.near_hr_xbh_7d, 1), td(r.hr_7d, 1),
       td(r.band_rate !== null
         ? Math.round(r.band_rate * 100) + "% (n=" + r.band_samples + ")"
-        : "— (n=" + r.band_samples + ")"));
+        : "collecting: " + r.band_samples + "/" + p.min_samples + " samples"));
     body.append(tr);
   });
 }
@@ -286,8 +325,9 @@ async function init() {
   ]);
   document.getElementById("meta").textContent =
     `Data through ${meta.latest_date} · ${meta.games_processed} games, ` +
-    `${meta.total_events} batted balls, ${meta.near_hr_events} near-HR · ` +
-    `generated ${new Date(meta.generated_at).toLocaleString()}`;
+    `${meta.total_events} batted balls, ${meta.near_hr_events} near-HR` +
+    (meta.home_runs !== undefined ? `, ${meta.home_runs} HR` : "") +
+    ` · generated ${new Date(meta.generated_at).toLocaleString()}`;
   document.getElementById("latest-date").textContent = latest.date;
 
   state.events = latest.events;
@@ -326,7 +366,8 @@ def build_site(events: list[BattedBallEvent], trends: dict[str, Any],
                date: str, ingest_summary: dict[str, Any],
                config: dict[str, Any],
                predictions: dict[str, Any] | None = None,
-               hit_rate: dict[str, Any] | None = None) -> Path:
+               hit_rate: dict[str, Any] | None = None,
+               recent_hits: list[dict[str, Any]] | None = None) -> Path:
     """Write index.html + data JSON into the GitHub Pages source dir (docs/)."""
     out = Path(config["site"]["output_dir"])
     data_dir = out / "data"
@@ -342,12 +383,14 @@ def build_site(events: list[BattedBallEvent], trends: dict[str, Any],
         "games_skipped_not_final": ingest_summary.get("games_skipped_not_final", []),
         "total_events": len(events),
         "near_hr_events": len(near_hr),
+        "home_runs": sum(1 for e in events if e.is_home_run),
     }
     (data_dir / "latest.json").write_text(json.dumps(latest, indent=1), encoding="utf-8")
     (data_dir / "trends.json").write_text(json.dumps(trends, indent=1), encoding="utf-8")
     (data_dir / "meta.json").write_text(json.dumps(meta, indent=1), encoding="utf-8")
     if predictions is not None:
-        payload = {**predictions, "hit_rate": hit_rate}
+        payload = {**predictions, "hit_rate": hit_rate,
+                   "recent_hits": recent_hits or []}
         (data_dir / "predictions.json").write_text(
             json.dumps(payload, indent=1), encoding="utf-8")
 

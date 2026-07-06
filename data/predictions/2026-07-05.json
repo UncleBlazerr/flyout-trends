@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-07-06T04:37:47.222296+00:00",
+ "generated_at": "2026-07-06T05:44:37.520381+00:00",
  "as_of": "2026-07-05",
  "config": {
   "min_near_hr_events": 1,
@@ -17,6 +17,7 @@
    "parks_sum": 3.0,
    "near_hr": 1.0
   },
+  "xbh_weight": 1.25,
   "horizon_days": 3,
   "score_bands": [
    40,
@@ -28,6 +29,28 @@
   "records_dir": "data/predictions"
  },
  "players": [
+  {
+   "player_id": 681082,
+   "player_name": "Bryson Stott",
+   "team": "PHI",
+   "expectancy_score": 68.5,
+   "streak": 2,
+   "frequency": 1.0,
+   "slopes": {
+    "max_ev": 5.0,
+    "parks_sum": 19.0,
+    "near_hr": 0.25
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 106.2,
+   "max_distance_7d": 406,
+   "band": "60-80",
+   "band_rate": null,
+   "band_samples": 0,
+   "repeat": false
+  },
   {
    "player_id": 691026,
    "player_name": "Masyn Winn",
@@ -41,9 +64,14 @@
     "near_hr": 0.0
    },
    "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 101.9,
+   "max_distance_7d": 369,
    "band": "60-80",
    "band_rate": null,
-   "band_samples": 0
+   "band_samples": 0,
+   "repeat": false
   },
   {
    "player_id": 669016,
@@ -58,26 +86,14 @@
     "near_hr": 0.0
    },
    "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 104.5,
+   "max_distance_7d": 396,
    "band": "60-80",
    "band_rate": null,
-   "band_samples": 0
-  },
-  {
-   "player_id": 681082,
-   "player_name": "Bryson Stott",
-   "team": "PHI",
-   "expectancy_score": 66.0,
-   "streak": 2,
-   "frequency": 1.0,
-   "slopes": {
-    "max_ev": 5.0,
-    "parks_sum": 19.0,
-    "near_hr": 0.0
-   },
-   "near_hr_7d": 2,
-   "band": "60-80",
-   "band_rate": null,
-   "band_samples": 0
+   "band_samples": 0,
+   "repeat": false
   },
   {
    "player_id": 666126,
@@ -92,9 +108,14 @@
     "near_hr": 0.0
    },
    "near_hr_7d": 2,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 0,
+   "max_ev_7d": 105.7,
+   "max_distance_7d": 365,
    "band": "40-60",
    "band_rate": null,
-   "band_samples": 0
+   "band_samples": 0,
+   "repeat": false
   },
   {
    "player_id": 641355,
@@ -106,12 +127,17 @@
    "slopes": {
     "max_ev": 6.8,
     "parks_sum": 0.0,
-    "near_hr": 0.0
+    "near_hr": -0.25
    },
    "near_hr_7d": 2,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 107.3,
+   "max_distance_7d": 358,
    "band": "40-60",
    "band_rate": null,
-   "band_samples": 0
+   "band_samples": 0,
+   "repeat": false
   },
   {
    "player_id": 668939,
@@ -123,12 +149,17 @@
    "slopes": {
     "max_ev": 4.7,
     "parks_sum": -1.0,
-    "near_hr": 0.0
+    "near_hr": -0.25
    },
    "near_hr_7d": 2,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 102.0,
+   "max_distance_7d": 353,
    "band": "40-60",
    "band_rate": null,
-   "band_samples": 0
+   "band_samples": 0,
+   "repeat": false
   },
   {
    "player_id": 514888,
@@ -140,12 +171,17 @@
    "slopes": {
     "max_ev": 3.9,
     "parks_sum": 0.0,
-    "near_hr": 0.0
+    "near_hr": -0.25
    },
    "near_hr_7d": 2,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 103.7,
+   "max_distance_7d": 365,
    "band": "40-60",
    "band_rate": null,
-   "band_samples": 0
+   "band_samples": 0,
+   "repeat": false
   },
   {
    "player_id": 678246,
@@ -160,9 +196,14 @@
     "near_hr": 0.0
    },
    "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 102.5,
+   "max_distance_7d": 351,
    "band": "40-60",
    "band_rate": null,
-   "band_samples": 0
+   "band_samples": 0,
+   "repeat": false
   },
   {
    "player_id": 641343,
@@ -177,9 +218,14 @@
     "near_hr": 0.0
    },
    "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
+   "max_ev_7d": 111.1,
+   "max_distance_7d": 400,
    "band": "40-60",
    "band_rate": null,
-   "band_samples": 0
+   "band_samples": 0,
+   "repeat": false
   },
   {
    "player_id": 682928,
@@ -194,9 +240,14 @@
     "near_hr": 1.0
    },
    "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 101.2,
+   "max_distance_7d": 365,
    "band": "40-60",
    "band_rate": null,
-   "band_samples": 0
+   "band_samples": 0,
+   "repeat": false
   },
   {
    "player_id": 668904,
@@ -208,12 +259,17 @@
    "slopes": {
     "max_ev": 6.7,
     "parks_sum": 20.0,
-    "near_hr": 1.0
+    "near_hr": 1.25
    },
    "near_hr_7d": 1,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 109.4,
+   "max_distance_7d": 403,
    "band": "40-60",
    "band_rate": null,
-   "band_samples": 0
+   "band_samples": 0,
+   "repeat": false
   },
   {
    "player_id": 682985,
@@ -225,12 +281,17 @@
    "slopes": {
     "max_ev": 3.5,
     "parks_sum": 12.0,
-    "near_hr": 1.0
+    "near_hr": 1.25
    },
    "near_hr_7d": 1,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 2,
+   "max_ev_7d": 111.2,
+   "max_distance_7d": 431,
    "band": "40-60",
    "band_rate": null,
-   "band_samples": 0
+   "band_samples": 0,
+   "repeat": false
   },
   {
    "player_id": 803011,
@@ -245,9 +306,14 @@
     "near_hr": 1.0
    },
    "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 99.9,
+   "max_distance_7d": 369,
    "band": "40-60",
    "band_rate": null,
-   "band_samples": 0
+   "band_samples": 0,
+   "repeat": false
   },
   {
    "player_id": 666182,
@@ -259,12 +325,17 @@
    "slopes": {
     "max_ev": 2.5,
     "parks_sum": 11.0,
-    "near_hr": 1.0
+    "near_hr": 1.25
    },
    "near_hr_7d": 1,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 102.1,
+   "max_distance_7d": 407,
    "band": "40-60",
    "band_rate": null,
-   "band_samples": 0
+   "band_samples": 0,
+   "repeat": false
   },
   {
    "player_id": 687282,
@@ -276,12 +347,17 @@
    "slopes": {
     "max_ev": 4.4,
     "parks_sum": 23.0,
-    "near_hr": 1.0
+    "near_hr": 1.25
    },
    "near_hr_7d": 1,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 1,
+   "max_ev_7d": 106.5,
+   "max_distance_7d": 417,
    "band": "40-60",
    "band_rate": null,
-   "band_samples": 0
+   "band_samples": 0,
+   "repeat": false
   }
  ]
 }

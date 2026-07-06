@@ -44,6 +44,7 @@ prediction:
     max_ev: 2.0           # mph/day
     parks_sum: 3.0        # would-be-HR parks/day
     near_hr: 1.0          # near-HR events/day
+  xbh_weight: 1.25        # a near-HR double/triple counts this much vs 1.0 for an out
   horizon_days: 3         # internal labeling horizon for empirical follow-up rates
   score_bands: [40, 60, 80]   # band edges: <40, 40-60, 60-80, 80+
   min_samples: 20         # hide the empirical % below this many historical samples

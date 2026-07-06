@@ -13,6 +13,9 @@ from typing import Protocol
 
 from .models import SCHEMA_VERSION, BattedBallEvent
 
+# MLB result strings for extra-base (non-HR) contact.
+XBH_RESULTS = {"Double", "Triple"}
+
 
 class EventStore(Protocol):
     def write_day(self, date: str, events: list[BattedBallEvent]) -> None: ...
@@ -109,19 +112,21 @@ class FlatFileStore:
             pdata["player_name"] = e.player_name
             pdata["team"] = e.team
             day = pdata["days"].setdefault(date, {
-                "bbe": 0, "hr": 0, "near_hr_any": 0, "near_hr_distance": 0,
-                "near_hr_parks": 0, "near_hr_barrel": 0,
+                "bbe": 0, "hr": 0, "near_hr_any": 0, "near_hr_xbh": 0,
+                "near_hr_distance": 0, "near_hr_parks": 0, "near_hr_barrel": 0,
                 "would_be_hr_parks_sum": 0,
-                "max_ev": 0.0, "max_barrel_score": 0.0})
+                "max_ev": 0.0, "max_distance": 0.0, "max_barrel_score": 0.0})
             day["bbe"] += 1
             day["hr"] += int(e.is_home_run)
             day["near_hr_any"] += int(e.is_near_hr)
+            day["near_hr_xbh"] += int(e.is_near_hr and e.result in XBH_RESULTS)
             day["near_hr_distance"] += int(e.distance_flag)
             day["near_hr_parks"] += int(e.would_be_hr_flag)
             day["near_hr_barrel"] += int(e.barrel_flag)
             if not e.is_home_run and e.would_be_hr_count:
                 day["would_be_hr_parks_sum"] += e.would_be_hr_count
             day["max_ev"] = max(day["max_ev"], e.exit_velocity or 0.0)
+            day["max_distance"] = max(day["max_distance"], e.hit_distance or 0.0)
             day["max_barrel_score"] = max(day["max_barrel_score"], e.barrel_score)
 
         # Prune players whose every day was removed.

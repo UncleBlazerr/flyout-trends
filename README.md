@@ -37,10 +37,17 @@ band, how often did an HR actually follow within `prediction.horizon_days`?
 It's shown once a band has `prediction.min_samples` samples and self-calibrates
 as data accumulates.
 
+Near-HRs that already went for **doubles/triples weigh more** than balls
+caught at the track (`prediction.xbh_weight`), and each flagged player shows
+the hardest/farthest ball they've hit in the last 7 days plus their HR count
+(informational — homers don't move the score).
+
 Each full pipeline run writes an append-only receipt of the day's flagged
-players to `data/predictions/YYYY-MM-DD.json`. Once a receipt is older than
-the horizon, it is resolved against actual outcomes and the dashboard shows
-the running track record ("X of Y flagged players homered within 3 days").
+players to `data/predictions/YYYY-MM-DD.json`, then **cross-checks itself**:
+flagged players who have since homered appear as 💥 chips on the dashboard,
+players who made the list on consecutive pulls get a ↻ badge, and receipts
+older than the horizon resolve into the running track record ("X of Y flagged
+players homered within 3 days").
 
 ## Layout
 

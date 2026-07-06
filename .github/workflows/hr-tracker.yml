@@ -37,6 +37,11 @@ jobs:
         run: |
           if [ -n "${{ inputs.date }}" ]; then
             python scripts/run_pipeline.py --date "${{ inputs.date }}"
+          elif [ "${{ github.event.schedule }}" = "0 10 * * *" ]; then
+            # Morning sweep: re-process yesterday ET in full. GitHub cron can
+            # fire late; if the 23:00 ET run slips past midnight it processes
+            # the (empty) new day instead — this run self-heals that.
+            python scripts/run_pipeline.py --date "$(TZ=America/New_York date -d yesterday +%F)"
           else
             python scripts/run_pipeline.py
           fi
