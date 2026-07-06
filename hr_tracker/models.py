@@ -7,7 +7,8 @@ from typing import Any, Optional
 
 import yaml
 
-SCHEMA_VERSION = 1
+# v2: events carry venue/weather context; rollup days carry temp_f/wind_mph/wind_dir.
+SCHEMA_VERSION = 2
 
 
 @dataclass
@@ -29,6 +30,14 @@ class BattedBallEvent:
     would_be_hr_count: Optional[int] = None
     inning: Optional[int] = None
     play_id: Optional[str] = None
+    # Game-level venue/weather context (attached by hr_tracker.ingest).
+    # None/"" means the feed omitted weather — treated as neutral downstream.
+    venue_id: Optional[int] = None
+    venue_name: str = ""
+    temp_f: Optional[float] = None
+    wind_mph: Optional[float] = None
+    wind_dir: Optional[str] = None  # out | in | cross | none | varies
+    weather_condition: str = ""
     # Scoring outputs (attached by hr_tracker.scoring)
     distance_flag: bool = False
     would_be_hr_flag: bool = False
