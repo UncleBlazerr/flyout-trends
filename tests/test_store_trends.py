@@ -10,7 +10,9 @@ def make_event(date, player_id=100, name="Test Batter", **kw):
     base = dict(game_pk=1, date=date, player_id=player_id, player_name=name,
                 team="PIT", opponent="WSH", result="Flyout", exit_velocity=101.0,
                 launch_angle=26.0, hit_distance=372.0, hc_x=1.0, hc_y=1.0,
-                would_be_hr_count=8)
+                would_be_hr_count=8, venue_id=3309, venue_name="Nationals Park",
+                temp_f=88.0, wind_mph=7.0, wind_dir="out",
+                weather_condition="Sunny")
     base.update(kw)
     return BattedBallEvent(**base)
 
@@ -57,7 +59,28 @@ def test_schema_version_written(tmp_path, config):
     store = make_store(tmp_path)
     store.write_day("2026-07-04", [])
     payload = json.loads((tmp_path / "raw" / "2026-07-04.json").read_text())
-    assert payload["schema_version"] == 1
+    assert payload["schema_version"] == 2
+
+
+def test_rollup_carries_day_weather(tmp_path, config):
+    store = make_store(tmp_path)
+    store.write_day("2026-07-04", score_events(
+        [make_event("2026-07-04")], config))
+    day = store.read_player_days()["100"]["days"]["2026-07-04"]
+    assert day["temp_f"] == 88.0
+    assert day["wind_mph"] == 7.0
+    assert day["wind_dir"] == "out"
+
+
+def test_rollup_weather_fills_from_first_tagged_event(tmp_path, config):
+    store = make_store(tmp_path)
+    untagged = make_event("2026-07-04", temp_f=None, wind_mph=None, wind_dir=None)
+    tagged = make_event("2026-07-04", temp_f=91.0, wind_mph=11.0, wind_dir="in")
+    store.write_day("2026-07-04", score_events([untagged, tagged], config))
+    day = store.read_player_days()["100"]["days"]["2026-07-04"]
+    assert day["temp_f"] == 91.0
+    assert day["wind_mph"] == 11.0
+    assert day["wind_dir"] == "in"
 
 
 def test_linear_slope():

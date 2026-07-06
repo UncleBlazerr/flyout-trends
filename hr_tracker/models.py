@@ -7,7 +7,8 @@ from typing import Any, Optional
 
 import yaml
 
-SCHEMA_VERSION = 1
+# v2: events carry venue/weather context; rollup days carry temp_f/wind_mph/wind_dir.
+SCHEMA_VERSION = 2
 
 
 @dataclass
