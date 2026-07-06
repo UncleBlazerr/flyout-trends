@@ -1,6 +1,7 @@
 """Fetch the MLB schedule and Baseball Savant gamefeeds, parse batted-ball events."""
 from __future__ import annotations
 
+import logging
 import time
 from typing import Any, Optional
 
@@ -10,8 +11,27 @@ from .models import BattedBallEvent
 
 SCHEDULE_URL = "https://statsapi.mlb.com/api/v1/schedule"
 GAMEFEED_URL = "https://baseballsavant.mlb.com/gf"
+LIVE_FEED_URL = "https://statsapi.mlb.com/api/v1.1/game/{game_pk}/feed/live"
 
 FINAL_STATUS_CODES = {"F", "O"}  # Final, Game Over
+
+logger = logging.getLogger(__name__)
+
+# MLB weather `wind` phrases -> direction class. Only "out" earns a boost
+# downstream; the vocabulary is observed, not contractual, so anything
+# unrecognized classifies as "varies" (neutral).
+_WIND_DIR_CLASSES = [
+    ("out to", "out"),
+    ("in from", "in"),
+    ("l to r", "cross"),
+    ("r to l", "cross"),
+    ("calm", "none"),
+    ("none", "none"),
+    ("varies", "varies"),
+]
+
+_WEATHER_KEYS = ("venue_id", "venue_name", "temp_f", "wind_mph", "wind_dir",
+                 "weather_condition")
 
 
 def _get_json(session: requests.Session, url: str, params: dict[str, Any],
@@ -32,10 +52,53 @@ def _get_json(session: requests.Session, url: str, params: dict[str, Any],
     raise RuntimeError(f"Failed to fetch {url} after {retries} attempts") from last_exc
 
 
+def parse_wind(wind: Any) -> tuple[Optional[float], Optional[str]]:
+    """Parse an MLB weather wind string ('5 mph, Out To CF') into (mph, class).
+
+    The direction arrives already park-relative, so no orientation math is
+    needed. Returns (None, None) when the feed omitted wind entirely.
+    """
+    if not wind or not isinstance(wind, str):
+        return None, None
+    speed_part, _, dir_part = (p.strip() for p in wind.partition(","))
+    mph = _num(speed_part.lower().replace("mph", "").strip())
+    direction = dir_part.lower()
+    for phrase, cls in _WIND_DIR_CLASSES:
+        if direction.startswith(phrase):
+            return mph, cls
+    logger.warning("Unrecognized wind direction %r; classifying as varies", wind)
+    return mph, "varies"
+
+
+def _parse_weather(weather: dict[str, Any] | None,
+                   venue: dict[str, Any] | None) -> dict[str, Any]:
+    """Normalize a statsapi weather/venue pair into BattedBallEvent fields.
+
+    `temp` is a string in the feed (same numbers-as-strings gotcha as Savant).
+    An empty weather object yields all-None/"" fields, which downstream
+    consumers treat as neutral.
+    """
+    weather = weather or {}
+    venue = venue or {}
+    wind_mph, wind_dir = parse_wind(weather.get("wind"))
+    return {
+        "venue_id": venue.get("id"),
+        "venue_name": venue.get("name", "") or "",
+        "temp_f": _num(weather.get("temp")),
+        "wind_mph": wind_mph,
+        "wind_dir": wind_dir,
+        "weather_condition": weather.get("condition", "") or "",
+    }
+
+
 def fetch_schedule(date: str, session: requests.Session,
                    http_cfg: dict[str, Any]) -> list[dict[str, Any]]:
-    """Return [{game_pk, status_code, status}] for every MLB game on `date`."""
-    data = _get_json(session, SCHEDULE_URL, {"sportId": 1, "date": date}, http_cfg)
+    """Return [{game_pk, status_code, status, venue/weather fields}] for every
+    MLB game on `date`. hydrate=weather adds the per-game weather object
+    (condition/temp/wind) to the one slate-wide call; it can be empty for
+    games far from first pitch."""
+    data = _get_json(session, SCHEDULE_URL,
+                     {"sportId": 1, "date": date, "hydrate": "weather"}, http_cfg)
     games = []
     for day in data.get("dates", []):
         for g in day.get("games", []):
@@ -43,8 +106,28 @@ def fetch_schedule(date: str, session: requests.Session,
                 "game_pk": g["gamePk"],
                 "status_code": g.get("status", {}).get("statusCode", ""),
                 "status": g.get("status", {}).get("detailedState", ""),
+                **_parse_weather(g.get("weather"), g.get("venue")),
             })
     return games
+
+
+def fetch_live_weather(game_pk: int, session: requests.Session,
+                       http_cfg: dict[str, Any]) -> dict[str, Any]:
+    """Fallback: pull gameData.weather from the live feed for one game.
+
+    Used when the hydrated schedule returned an empty weather object for a
+    final game. `fields` trims the otherwise multi-MB response to weather only.
+    """
+    data = _get_json(session, LIVE_FEED_URL.format(game_pk=game_pk),
+                     {"fields": "gameData,weather,condition,temp,wind"}, http_cfg)
+    weather = data.get("gameData", {}).get("weather") or {}
+    wind_mph, wind_dir = parse_wind(weather.get("wind"))
+    return {
+        "temp_f": _num(weather.get("temp")),
+        "wind_mph": wind_mph,
+        "wind_dir": wind_dir,
+        "weather_condition": weather.get("condition", "") or "",
+    }
 
 
 def fetch_gamefeed(game_pk: int, session: requests.Session,
@@ -102,6 +185,25 @@ def parse_events(gamefeed: dict[str, Any], date: str) -> list[BattedBallEvent]:
     return events
 
 
+def _attach_weather(events: list[BattedBallEvent], game: dict[str, Any],
+                    session: requests.Session, http_cfg: dict[str, Any]) -> None:
+    """Stamp a game's venue/weather onto its events.
+
+    If the hydrated schedule had no weather for a final game (rare), fall back
+    to that game's live feed; if that also has none, the fields stay
+    None/"" (neutral) — never guess.
+    """
+    meta = {k: game.get(k) for k in _WEATHER_KEYS}
+    if meta["temp_f"] is None and not meta["weather_condition"]:
+        try:
+            meta.update(fetch_live_weather(game["game_pk"], session, http_cfg))
+        except RuntimeError:
+            logger.warning("No weather available for game %s", game["game_pk"])
+    for event in events:
+        for key, value in meta.items():
+            setattr(event, key, value)
+
+
 def ingest_date(date: str, config: dict[str, Any],
                 session: requests.Session | None = None,
                 include_unfinished: bool = False) -> tuple[list[BattedBallEvent], dict[str, Any]]:
@@ -123,7 +225,9 @@ def ingest_date(date: str, config: dict[str, Any],
                 continue
             try:
                 feed = fetch_gamefeed(game["game_pk"], session, http_cfg)
-                events.extend(parse_events(feed, date))
+                game_events = parse_events(feed, date)
+                _attach_weather(game_events, game, session, http_cfg)
+                events.extend(game_events)
                 processed.append(game)
             except RuntimeError:
                 failed.append(game)
