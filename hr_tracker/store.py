@@ -19,6 +19,7 @@ class EventStore(Protocol):
     def read_range(self, start: str, end: str) -> list[BattedBallEvent]: ...
     def read_player_history(self, player_id: int, days: int,
                             end: str | None = None) -> list[BattedBallEvent]: ...
+    def read_player_days(self) -> dict[str, dict]: ...
 
 
 def _iter_dates(start: str, end: str):
@@ -83,6 +84,14 @@ class FlatFileStore:
     def available_dates(self) -> list[str]:
         return sorted(p.stem for p in self.raw_dir.glob("*.json"))
 
+    def read_player_days(self) -> dict[str, dict]:
+        """Per-player per-day summaries from the rollup: {player_id_str:
+        {player_name, team, days: {date: {bbe, hr, near_hr_*, ...}}}}."""
+        if not self._index_path.exists():
+            return {}
+        index = json.loads(self._index_path.read_text(encoding="utf-8"))
+        return index.get("players", {})
+
     def _update_rollup(self, date: str, events: list[BattedBallEvent]) -> None:
         """Replace this date's per-player daily summaries in player_index.json."""
         index = {"schema_version": SCHEMA_VERSION, "players": {}}
@@ -100,11 +109,13 @@ class FlatFileStore:
             pdata["player_name"] = e.player_name
             pdata["team"] = e.team
             day = pdata["days"].setdefault(date, {
-                "bbe": 0, "hr": 0, "near_hr_distance": 0, "near_hr_parks": 0,
-                "near_hr_barrel": 0, "would_be_hr_parks_sum": 0,
+                "bbe": 0, "hr": 0, "near_hr_any": 0, "near_hr_distance": 0,
+                "near_hr_parks": 0, "near_hr_barrel": 0,
+                "would_be_hr_parks_sum": 0,
                 "max_ev": 0.0, "max_barrel_score": 0.0})
             day["bbe"] += 1
             day["hr"] += int(e.is_home_run)
+            day["near_hr_any"] += int(e.is_near_hr)
             day["near_hr_distance"] += int(e.distance_flag)
             day["near_hr_parks"] += int(e.would_be_hr_flag)
             day["near_hr_barrel"] += int(e.barrel_flag)

@@ -3,7 +3,7 @@ import json
 from hr_tracker.models import BattedBallEvent
 from hr_tracker.scoring import score_events
 from hr_tracker.store import FlatFileStore
-from hr_tracker.trends import _linear_slope, compute_trends
+from hr_tracker.trends import linear_slope, compute_trends
 
 
 def make_event(date, player_id=100, name="Test Batter", **kw):
@@ -61,10 +61,10 @@ def test_schema_version_written(tmp_path, config):
 
 
 def test_linear_slope():
-    assert _linear_slope([0, 1, 2, 3]) == 1.0
-    assert _linear_slope([3, 2, 1, 0]) == -1.0
-    assert _linear_slope([2, 2, 2]) == 0.0
-    assert _linear_slope([5]) == 0.0
+    assert linear_slope([0, 1, 2, 3]) == 1.0
+    assert linear_slope([3, 2, 1, 0]) == -1.0
+    assert linear_slope([2, 2, 2]) == 0.0
+    assert linear_slope([5]) == 0.0
 
 
 def test_compute_trends_counts_and_heating_up(tmp_path, config):

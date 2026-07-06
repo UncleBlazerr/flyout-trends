@@ -36,7 +36,20 @@ console.log("event rows:", evRows.length, "| trend rows:", trRows.length);
 const fail = (msg) => { console.error("FAIL:", msg); process.exit(1); };
 if (!ok) fail("tables never rendered: " + meta);
 if (meta.includes("Failed")) fail(meta);
-if (!meta.includes("2026-07-04")) fail("meta missing expected date");
+if (!/\d{4}-\d{2}-\d{2}/.test(meta)) fail("meta missing a date");
+
+// "Most likely to homer" section: visible, ranked by expectancy desc.
+const likelySection = doc.getElementById("likely-section");
+if (likelySection.hidden) fail("most-likely section is hidden");
+const mlRows = [...doc.querySelectorAll("#likely tbody tr")];
+if (mlRows.length === 0) fail("most-likely table has no rows");
+const mlScores = mlRows.map((r) => parseFloat(r.querySelectorAll("td")[3].textContent));
+for (let i = 1; i < mlScores.length; i++)
+  if (mlScores[i] > mlScores[i - 1]) fail("most-likely not ranked by expectancy desc");
+const hitrate = doc.getElementById("ml-hitrate").textContent;
+if (!hitrate.startsWith("Track record")) fail("hit-rate line missing: " + hitrate);
+console.log("most-likely rows:", mlRows.length, "| top score:", mlScores[0]);
+console.log("hit-rate line:", hitrate);
 
 // First event row should be the top barrel_score event (default sort desc).
 const firstCells = [...evRows[0].querySelectorAll("td")].map((t) => t.textContent);

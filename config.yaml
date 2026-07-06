@@ -31,6 +31,25 @@ trends:
     min_slope: 0.15   # daily would-be-HR-parks slope above which a player is "heating up"
   flat_slope: 0.05    # |slope| below this is "flat"; otherwise rising/falling
 
+prediction:
+  min_near_hr_events: 1   # near-HR events (any definition) that make a day "qualifying"
+  max_gap_days: 2         # calendar gap between appearance days that keeps a streak alive
+  slope_window: 7         # appearance days used for intensity slopes
+  streak_cap: 5           # streak days at/above which the streak component maxes out
+  weights:                # expectancy score = 100 * weighted blend, must sum to 1
+    streak: 0.4
+    frequency: 0.3
+    intensity: 0.3
+  intensity_scales:       # per-day slope that earns full intensity credit
+    max_ev: 2.0           # mph/day
+    parks_sum: 3.0        # would-be-HR parks/day
+    near_hr: 1.0          # near-HR events/day
+  horizon_days: 3         # internal labeling horizon for empirical follow-up rates
+  score_bands: [40, 60, 80]   # band edges: <40, 40-60, 60-80, 80+
+  min_samples: 20         # hide the empirical % below this many historical samples
+  top_n: 15               # size of the "Most Likely to Homer" grouping
+  records_dir: data/predictions
+
 site:
   title: "Daily HR-Proximity Tracker"
   output_dir: docs

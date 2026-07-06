@@ -1,0 +1,255 @@
+"""HR expectancy: day-over-day persistence and the "Most Likely to Homer" list.
+
+Everything here reads the per-player per-day rollup (store.read_player_days());
+raw event files are never re-scanned. Two signals per player:
+
+- expectancy_score (0-100, heuristic): streak of qualifying days + qualifying
+  frequency + intensity slopes (EV / would-be-HR parks / near-HR count rising).
+- empirical band rate: of all historical player-days whose score fell in the
+  same band, how often did an HR follow within horizon_days. Self-calibrates
+  as stored history grows; hidden below min_samples.
+
+Daily prediction records under prediction.records_dir are append-only receipts
+of what was flagged, so hit rates stay measurable even if weights change later.
+"""
+from __future__ import annotations
+
+import json
+from datetime import date as date_cls, datetime, timedelta, timezone
+from pathlib import Path
+from typing import Any
+
+from .models import SCHEMA_VERSION
+from .trends import linear_slope
+
+
+def _near_hr_any(day: dict[str, Any]) -> int:
+    """Per-day near-HR event count. Rollups written before the near_hr_any
+    field existed fall back to the per-definition counts, capped at bbe
+    (one event can carry several flags)."""
+    if "near_hr_any" in day:
+        return day["near_hr_any"]
+    return min(day["near_hr_distance"] + day["near_hr_parks"]
+               + day["near_hr_barrel"], day["bbe"])
+
+
+def _sorted_days(days: dict[str, dict], as_of: str) -> list[tuple[str, dict]]:
+    return [(d, days[d]) for d in sorted(days) if d <= as_of]
+
+
+def _gap(later: str, earlier: str) -> int:
+    """Calendar days without an appearance between two appearance dates."""
+    return (date_cls.fromisoformat(later) - date_cls.fromisoformat(earlier)).days - 1
+
+
+def compute_streak(days: dict[str, dict], as_of: str,
+                   config: dict[str, Any]) -> int:
+    """Consecutive qualifying appearance days ending at the player's most
+    recent appearance. Rest-day gaps <= max_gap_days don't break the streak;
+    a non-qualifying appearance day (or a stale last appearance) does."""
+    cfg = config["prediction"]
+    seq = _sorted_days(days, as_of)
+    if not seq:
+        return 0
+    if _gap(as_of, seq[-1][0]) >= cfg["max_gap_days"]:
+        return 0  # hasn't appeared recently enough to be "on" a streak
+    streak = 0
+    prev: str | None = None
+    for d, day in reversed(seq):
+        if prev is not None and _gap(prev, d) > cfg["max_gap_days"]:
+            break
+        if _near_hr_any(day) < cfg["min_near_hr_events"]:
+            break
+        streak += 1
+        prev = d
+    return streak
+
+
+def player_form(days: dict[str, dict], as_of: str,
+                config: dict[str, Any]) -> dict[str, Any]:
+    """Streak, qualifying frequency, intensity slopes, and expectancy score
+    for one player as of a date, using only days <= as_of."""
+    cfg = config["prediction"]
+    seq = _sorted_days(days, as_of)
+    recent = seq[-cfg["slope_window"]:]
+
+    series = {
+        "max_ev": [d["max_ev"] for _, d in recent],
+        "parks_sum": [d["would_be_hr_parks_sum"] for _, d in recent],
+        "near_hr": [_near_hr_any(d) for _, d in recent],
+    }
+    slopes = {k: round(linear_slope(v), 3) for k, v in series.items()}
+
+    streak = compute_streak(days, as_of, config)
+    qualifying = sum(1 for _, d in recent
+                     if _near_hr_any(d) >= cfg["min_near_hr_events"])
+    frequency = qualifying / len(recent) if recent else 0.0
+
+    scales = cfg["intensity_scales"]
+    intensity = sum(max(0.0, min(1.0, slopes[k] / scales[k]))
+                    for k in slopes) / len(slopes)
+
+    w = cfg["weights"]
+    score = 100.0 * (w["streak"] * min(streak, cfg["streak_cap"]) / cfg["streak_cap"]
+                     + w["frequency"] * frequency
+                     + w["intensity"] * intensity)
+    return {
+        "streak": streak,
+        "frequency": round(frequency, 3),
+        "slopes": slopes,
+        "intensity": round(intensity, 3),
+        "expectancy_score": round(score, 1),
+        "last_appearance": seq[-1][0] if seq else None,
+    }
+
+
+def band_label(score: float, edges: list[float]) -> str:
+    if score < edges[0]:
+        return f"<{edges[0]:g}"
+    for lo, hi in zip(edges, edges[1:]):
+        if score < hi:
+            return f"{lo:g}-{hi:g}"
+    return f"{edges[-1]:g}+"
+
+
+def _hr_within(days: dict[str, dict], after: date_cls, horizon: int) -> bool:
+    return any(days.get((after + timedelta(days=k)).isoformat(), {})
+               .get("hr", 0) > 0 for k in range(1, horizon + 1))
+
+
+def empirical_rates(player_days: dict[str, dict],
+                    config: dict[str, Any]) -> dict[str, dict]:
+    """Per score band: how often an HR followed within horizon_days across all
+    stored (player, appearance-day) samples. Days too close to the newest
+    stored date to have full follow-up are censored (excluded)."""
+    cfg = config["prediction"]
+    horizon = cfg["horizon_days"]
+    all_dates = sorted({d for p in player_days.values() for d in p["days"]})
+    if not all_dates:
+        return {}
+    latest = date_cls.fromisoformat(all_dates[-1])
+
+    bands: dict[str, dict] = {}
+    for pdata in player_days.values():
+        days = pdata["days"]
+        for d in days:
+            dd = date_cls.fromisoformat(d)
+            if dd + timedelta(days=horizon) > latest:
+                continue  # censored: follow-up window extends past our data
+            form = player_form(days, d, config)
+            label = band_label(form["expectancy_score"], cfg["score_bands"])
+            b = bands.setdefault(label, {"samples": 0, "hr_followed": 0})
+            b["samples"] += 1
+            b["hr_followed"] += int(_hr_within(days, dd, horizon))
+    for b in bands.values():
+        b["rate"] = round(b["hr_followed"] / b["samples"], 3)
+    return bands
+
+
+def compute_predictions(store: Any, as_of: str,
+                        config: dict[str, Any]) -> dict[str, Any]:
+    """The ranked "Most Likely to Homer" grouping as of a date, plus the
+    empirical band table it is judged against."""
+    cfg = config["prediction"]
+    player_days = store.read_player_days()
+    bands = empirical_rates(player_days, config)
+    as_of_d = date_cls.fromisoformat(as_of)
+
+    entries = []
+    for pid, pdata in player_days.items():
+        days = {d: v for d, v in pdata["days"].items() if d <= as_of}
+        if not days:
+            continue
+        if _gap(as_of, max(days)) >= cfg["max_gap_days"]:
+            continue  # not currently active
+        form = player_form(days, as_of, config)
+        if form["expectancy_score"] <= 0:
+            continue
+        label = band_label(form["expectancy_score"], cfg["score_bands"])
+        band = bands.get(label)
+        week_start = (as_of_d - timedelta(days=6)).isoformat()
+        entries.append({
+            "player_id": int(pid),
+            "player_name": pdata["player_name"],
+            "team": pdata["team"],
+            "expectancy_score": form["expectancy_score"],
+            "streak": form["streak"],
+            "frequency": form["frequency"],
+            "slopes": form["slopes"],
+            "near_hr_7d": sum(_near_hr_any(v) for d, v in days.items()
+                              if d >= week_start),
+            "band": label,
+            "band_rate": (band["rate"] if band
+                          and band["samples"] >= cfg["min_samples"] else None),
+            "band_samples": band["samples"] if band else 0,
+        })
+
+    entries.sort(key=lambda e: (e["expectancy_score"], e["near_hr_7d"]),
+                 reverse=True)
+    return {
+        "as_of": as_of,
+        "horizon_days": cfg["horizon_days"],
+        "min_samples": cfg["min_samples"],
+        "players": entries[:cfg["top_n"]],
+        "bands": bands,
+    }
+
+
+def write_prediction_record(records_dir: str | Path,
+                            predictions: dict[str, Any],
+                            config: dict[str, Any]) -> Path:
+    """Append-only receipt of what was flagged today (re-running a date
+    supersedes that date's record, mirroring write_day semantics)."""
+    out = Path(records_dir)
+    out.mkdir(parents=True, exist_ok=True)
+    path = out / f"{predictions['as_of']}.json"
+    payload = {
+        "schema_version": SCHEMA_VERSION,
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "as_of": predictions["as_of"],
+        "config": config["prediction"],
+        "players": predictions["players"],
+    }
+    path.write_text(json.dumps(payload, indent=1), encoding="utf-8")
+    return path
+
+
+def resolve_prediction_records(records_dir: str | Path,
+                               player_days: dict[str, dict],
+                               config: dict[str, Any]) -> dict[str, Any] | None:
+    """Score past prediction records against what actually happened. Only
+    records old enough for a full follow-up window are resolved. Returns None
+    until at least one record resolves."""
+    cfg = config["prediction"]
+    horizon = cfg["horizon_days"]
+    all_dates = sorted({d for p in player_days.values() for d in p["days"]})
+    if not all_dates:
+        return None
+    latest = date_cls.fromisoformat(all_dates[-1])
+    top_band = f"{cfg['score_bands'][-1]:g}+"
+
+    overall = {"flagged": 0, "hr_followed": 0}
+    top = {"flagged": 0, "hr_followed": 0}
+    resolved = 0
+    for path in sorted(Path(records_dir).glob("*.json")):
+        rec = json.loads(path.read_text(encoding="utf-8"))
+        d = date_cls.fromisoformat(rec["as_of"])
+        if d + timedelta(days=horizon) > latest:
+            continue
+        resolved += 1
+        for p in rec["players"]:
+            days = player_days.get(str(p["player_id"]), {}).get("days", {})
+            hit = _hr_within(days, d, horizon)
+            overall["flagged"] += 1
+            overall["hr_followed"] += int(hit)
+            if p.get("band") == top_band:
+                top["flagged"] += 1
+                top["hr_followed"] += int(hit)
+
+    if resolved == 0:
+        return None
+    for agg in (overall, top):
+        agg["rate"] = (round(agg["hr_followed"] / agg["flagged"], 3)
+                       if agg["flagged"] else None)
+    return {"resolved_records": resolved, "horizon_days": horizon,
+            "overall": overall, "top_band": {"band": top_band, **top}}

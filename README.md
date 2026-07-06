@@ -21,6 +21,27 @@ Pages.
 
 All thresholds/weights live in `config.yaml`.
 
+## HR expectancy ("Most likely to homer")
+
+Near-misses that persist day over day are the signal: `hr_tracker/prediction.py`
+tracks each player's **streak** of consecutive games with a near-HR event
+(rest-day gaps up to `prediction.max_gap_days` don't break it), how *often*
+recent games qualify, and whether the underlying quality is intensifying
+(rising slopes of max EV, would-be-HR parks, and near-HR frequency). These
+blend into a 0–100 **expectancy score** whose weights live under `prediction:`
+in `config.yaml`.
+
+Alongside the heuristic score, an **empirical rate table** is measured from
+this repo's own stored history: of all past player-days scoring in the same
+band, how often did an HR actually follow within `prediction.horizon_days`?
+It's shown once a band has `prediction.min_samples` samples and self-calibrates
+as data accumulates.
+
+Each full pipeline run writes an append-only receipt of the day's flagged
+players to `data/predictions/YYYY-MM-DD.json`. Once a receipt is older than
+the horizon, it is resolved against actual outcomes and the dashboard shows
+the running track record ("X of Y flagged players homered within 3 days").
+
 ## Layout
 
 ```
@@ -30,11 +51,14 @@ hr_tracker/         importable package (used by workflow AND skill — one code 
   scoring.py        the three near-HR metrics (pure functions)
   store.py          EventStore protocol + FlatFileStore (v1)
   trends.py         rolling 7/14/30-day per-player stats
+  prediction.py     streaks, expectancy score, empirical rates, receipts
   site.py           static HTML/JSON dashboard generator
 scripts/run_pipeline.py   CLI entrypoint (workflow, local, and skill runs)
+scripts/backfill.py       ingest a historical date range (oldest first)
 config.yaml         thresholds, weights, windows
 data/raw/           one immutable JSON per date (schema_version inside)
 data/rollups/       player_index.json incremental rollup
+data/predictions/   daily receipts of flagged players (append-only)
 docs/               GitHub Pages source (generated, committed)
 .claude/skills/hr-proximity/SKILL.md   Claude Code Skill for ad hoc runs
 .claude/agents/savant-analyst.md   Baseball Savant analyst subagent

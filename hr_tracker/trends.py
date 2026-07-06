@@ -9,7 +9,7 @@ from .models import BattedBallEvent
 from .store import EventStore
 
 
-def _linear_slope(ys: list[float]) -> float:
+def linear_slope(ys: list[float]) -> float:
     """Least-squares slope of ys against x = 0..n-1."""
     n = len(ys)
     if n < 2:
@@ -37,7 +37,7 @@ def _window_stats(events: list[BattedBallEvent], start: str,
     n_days = (date_cls.fromisoformat(end) - date_cls.fromisoformat(start)).days + 1
     series = [daily_parks[(date_cls.fromisoformat(start) + timedelta(days=i)).isoformat()]
               for i in range(n_days)]
-    slope = round(_linear_slope(series), 3)
+    slope = round(linear_slope(series), 3)
 
     flat = config["trends"].get("flat_slope", 0.05)
     direction = "flat" if abs(slope) < flat else ("rising" if slope > 0 else "falling")

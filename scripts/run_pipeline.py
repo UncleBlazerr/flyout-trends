@@ -19,6 +19,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from hr_tracker.ingest import ingest_date
 from hr_tracker.models import find_config
+from hr_tracker.prediction import (compute_predictions,
+                                   resolve_prediction_records,
+                                   write_prediction_record)
 from hr_tracker.scoring import score_events
 from hr_tracker.site import build_site
 from hr_tracker.store import FlatFileStore
@@ -60,17 +63,21 @@ def main() -> int:
     if summary["games_failed"]:
         print(f"[ingest] FAILED game_pks: {summary['games_failed']}", file=sys.stderr)
 
-    if args.dry_run:
-        out = {"summary": summary,
-               "near_hr_events": [e.to_dict() for e in
-                                  sorted(near, key=lambda e: e.barrel_score,
-                                         reverse=True)]}
-        print(json.dumps(out, indent=2))
-        return 0
-
     root = Path(__file__).resolve().parent.parent
     storage = config["storage"]
     store = FlatFileStore(root / storage["raw_dir"], root / storage["rollup_dir"])
+
+    if args.dry_run:
+        # Predictions read only already-stored history; today's (unwritten)
+        # events don't affect them in a dry run.
+        out = {"summary": summary,
+               "near_hr_events": [e.to_dict() for e in
+                                  sorted(near, key=lambda e: e.barrel_score,
+                                         reverse=True)],
+               "predictions": compute_predictions(store, date, config)}
+        print(json.dumps(out, indent=2))
+        return 0
+
     store.write_day(date, events)
     print(f"[store] wrote {storage['raw_dir']}/{date}.json + player index",
           file=sys.stderr)
@@ -79,9 +86,20 @@ def main() -> int:
     print(f"[trends] computed rolling stats for {len(trends['players'])} players",
           file=sys.stderr)
 
+    predictions = compute_predictions(store, date, config)
+    records_dir = root / config["prediction"]["records_dir"]
+    record = write_prediction_record(records_dir, predictions, config)
+    hit_rate = resolve_prediction_records(records_dir, store.read_player_days(),
+                                          config)
+    print(f"[predict] {len(predictions['players'])} players flagged; "
+          f"record {record.name}"
+          + (f"; hit rate {hit_rate['overall']['rate']}" if hit_rate else ""),
+          file=sys.stderr)
+
     if not args.skip_site:
         config["site"]["output_dir"] = str(root / config["site"]["output_dir"])
-        index = build_site(events, trends, date, summary, config)
+        index = build_site(events, trends, date, summary, config,
+                           predictions=predictions, hit_rate=hit_rate)
         print(f"[site] rebuilt {index}", file=sys.stderr)
 
     return 1 if summary["games_failed"] else 0

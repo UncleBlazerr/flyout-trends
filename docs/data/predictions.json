@@ -1,0 +1,264 @@
+{
+ "as_of": "2026-07-05",
+ "horizon_days": 3,
+ "min_samples": 20,
+ "players": [
+  {
+   "player_id": 691026,
+   "player_name": "Masyn Winn",
+   "team": "STL",
+   "expectancy_score": 66.0,
+   "streak": 2,
+   "frequency": 1.0,
+   "slopes": {
+    "max_ev": 2.4,
+    "parks_sum": 7.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 2,
+   "band": "60-80",
+   "band_rate": null,
+   "band_samples": 0
+  },
+  {
+   "player_id": 669016,
+   "player_name": "Brandon Marsh",
+   "team": "PHI",
+   "expectancy_score": 66.0,
+   "streak": 2,
+   "frequency": 1.0,
+   "slopes": {
+    "max_ev": 2.4,
+    "parks_sum": 6.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 2,
+   "band": "60-80",
+   "band_rate": null,
+   "band_samples": 0
+  },
+  {
+   "player_id": 681082,
+   "player_name": "Bryson Stott",
+   "team": "PHI",
+   "expectancy_score": 66.0,
+   "streak": 2,
+   "frequency": 1.0,
+   "slopes": {
+    "max_ev": 5.0,
+    "parks_sum": 19.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 2,
+   "band": "60-80",
+   "band_rate": null,
+   "band_samples": 0
+  },
+  {
+   "player_id": 666126,
+   "player_name": "Carlos Cortes",
+   "team": "ATH",
+   "expectancy_score": 59.3,
+   "streak": 2,
+   "frequency": 1.0,
+   "slopes": {
+    "max_ev": 2.9,
+    "parks_sum": 1.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 2,
+   "band": "40-60",
+   "band_rate": null,
+   "band_samples": 0
+  },
+  {
+   "player_id": 641355,
+   "player_name": "Cody Bellinger",
+   "team": "NYY",
+   "expectancy_score": 56.0,
+   "streak": 2,
+   "frequency": 1.0,
+   "slopes": {
+    "max_ev": 6.8,
+    "parks_sum": 0.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 2,
+   "band": "40-60",
+   "band_rate": null,
+   "band_samples": 0
+  },
+  {
+   "player_id": 668939,
+   "player_name": "Adley Rutschman",
+   "team": "BAL",
+   "expectancy_score": 56.0,
+   "streak": 2,
+   "frequency": 1.0,
+   "slopes": {
+    "max_ev": 4.7,
+    "parks_sum": -1.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 2,
+   "band": "40-60",
+   "band_rate": null,
+   "band_samples": 0
+  },
+  {
+   "player_id": 514888,
+   "player_name": "Jose Altuve",
+   "team": "HOU",
+   "expectancy_score": 56.0,
+   "streak": 2,
+   "frequency": 1.0,
+   "slopes": {
+    "max_ev": 3.9,
+    "parks_sum": 0.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 2,
+   "band": "40-60",
+   "band_rate": null,
+   "band_samples": 0
+  },
+  {
+   "player_id": 678246,
+   "player_name": "Miguel Vargas",
+   "team": "CWS",
+   "expectancy_score": 56.0,
+   "streak": 2,
+   "frequency": 1.0,
+   "slopes": {
+    "max_ev": 3.2,
+    "parks_sum": -1.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 2,
+   "band": "40-60",
+   "band_rate": null,
+   "band_samples": 0
+  },
+  {
+   "player_id": 641343,
+   "player_name": "Jake Bauers",
+   "team": "MIL",
+   "expectancy_score": 56.0,
+   "streak": 2,
+   "frequency": 1.0,
+   "slopes": {
+    "max_ev": 13.7,
+    "parks_sum": 0.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 2,
+   "band": "40-60",
+   "band_rate": null,
+   "band_samples": 0
+  },
+  {
+   "player_id": 682928,
+   "player_name": "CJ Abrams",
+   "team": "WSH",
+   "expectancy_score": 53.0,
+   "streak": 1,
+   "frequency": 0.5,
+   "slopes": {
+    "max_ev": 2.9,
+    "parks_sum": 11.0,
+    "near_hr": 1.0
+   },
+   "near_hr_7d": 1,
+   "band": "40-60",
+   "band_rate": null,
+   "band_samples": 0
+  },
+  {
+   "player_id": 668904,
+   "player_name": "Royce Lewis",
+   "team": "MIN",
+   "expectancy_score": 53.0,
+   "streak": 1,
+   "frequency": 0.5,
+   "slopes": {
+    "max_ev": 6.7,
+    "parks_sum": 20.0,
+    "near_hr": 1.0
+   },
+   "near_hr_7d": 1,
+   "band": "40-60",
+   "band_rate": null,
+   "band_samples": 0
+  },
+  {
+   "player_id": 682985,
+   "player_name": "Riley Greene",
+   "team": "DET",
+   "expectancy_score": 53.0,
+   "streak": 1,
+   "frequency": 0.5,
+   "slopes": {
+    "max_ev": 3.5,
+    "parks_sum": 12.0,
+    "near_hr": 1.0
+   },
+   "near_hr_7d": 1,
+   "band": "40-60",
+   "band_rate": null,
+   "band_samples": 0
+  },
+  {
+   "player_id": 803011,
+   "player_name": "Sam Antonacci",
+   "team": "CWS",
+   "expectancy_score": 53.0,
+   "streak": 1,
+   "frequency": 0.5,
+   "slopes": {
+    "max_ev": 31.9,
+    "parks_sum": 7.0,
+    "near_hr": 1.0
+   },
+   "near_hr_7d": 1,
+   "band": "40-60",
+   "band_rate": null,
+   "band_samples": 0
+  },
+  {
+   "player_id": 666182,
+   "player_name": "Bo Bichette",
+   "team": "NYM",
+   "expectancy_score": 53.0,
+   "streak": 1,
+   "frequency": 0.5,
+   "slopes": {
+    "max_ev": 2.5,
+    "parks_sum": 11.0,
+    "near_hr": 1.0
+   },
+   "near_hr_7d": 1,
+   "band": "40-60",
+   "band_rate": null,
+   "band_samples": 0
+  },
+  {
+   "player_id": 687282,
+   "player_name": "Gabriel Rincones Jr.",
+   "team": "PHI",
+   "expectancy_score": 53.0,
+   "streak": 1,
+   "frequency": 0.5,
+   "slopes": {
+    "max_ev": 4.4,
+    "parks_sum": 23.0,
+    "near_hr": 1.0
+   },
+   "near_hr_7d": 1,
+   "band": "40-60",
+   "band_rate": null,
+   "band_samples": 0
+  }
+ ],
+ "bands": {},
+ "hit_rate": null
+}

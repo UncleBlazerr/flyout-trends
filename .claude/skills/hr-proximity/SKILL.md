@@ -1,6 +1,6 @@
 ---
 name: hr-proximity
-description: Fetch and score a date's MLB batted-ball events for HR proximity (near-home-run signal). Use when asked to check near-HR candidates, HR-proximity trends, or which hitters are "heating up" for a given date (defaults to today ET).
+description: Fetch and score a date's MLB batted-ball events for HR proximity (near-home-run signal). Use when asked to check near-HR candidates, HR-proximity trends, which hitters are "heating up", or who is most likely to homer next (defaults to today ET).
 ---
 
 # HR-Proximity check
@@ -18,8 +18,10 @@ python scripts/run_pipeline.py --dry-run [--date YYYY-MM-DD]
 
 - Defaults to **today in US Eastern time** (MLB's calendar day) when `--date`
   is omitted.
-- Prints JSON to stdout: `summary` (games processed/skipped/failed) and
-  `near_hr_events`, sorted by `barrel_score` descending.
+- Prints JSON to stdout: `summary` (games processed/skipped/failed),
+  `near_hr_events` sorted by `barrel_score` descending, and `predictions` —
+  the ranked "most likely to homer" grouping computed from already-stored
+  history (a dry run never writes, so the freshly fetched day is not in it).
 - Only games with Final status are ingested; add `--include-unfinished` to
   peek at in-progress games (data will be partial).
 
@@ -40,7 +42,27 @@ python scripts/run_pipeline.py [--date YYYY-MM-DD]
 ```
 
 Writes `data/raw/<date>.json`, updates `data/rollups/player_index.json`,
-recomputes 7/14/30-day trends, and rebuilds the static dashboard in `docs/`.
+recomputes 7/14/30-day trends, writes the day's prediction receipt to
+`data/predictions/<date>.json`, and rebuilds the static dashboard in `docs/`.
+
+## HR expectancy ("most likely to homer")
+
+`hr_tracker/prediction.py` ranks active hitters by a 0–100 expectancy score:
+streak of consecutive games with a near-HR event + how often recent games
+qualify + rising intensity slopes (max EV, would-be-HR parks, near-HR count).
+Alongside it, an empirical band rate measured from this repo's own history
+(how often an HR followed within `prediction.horizon_days` for player-days in
+the same score band; hidden below `prediction.min_samples` samples). Read the
+current grouping from `docs/data/predictions.json` after any full run, or:
+
+```python
+from hr_tracker.prediction import compute_predictions
+preds = compute_predictions(store, "2026-07-05", config)
+```
+
+Past receipts resolve into a track record via
+`resolve_prediction_records("data/predictions", store.read_player_days(), config)`.
+Knobs live in `config.yaml` (`prediction` section).
 
 ## Reading historical trends
 

@@ -17,6 +17,10 @@ python scripts/run_pipeline.py --dry-run          # print JSON, no writes (skill
 python scripts/run_pipeline.py --include-unfinished
 python scripts/run_pipeline.py --skip-site
 
+# Backfill a historical range (data only, no site rebuild)
+python scripts/backfill.py --days 2
+python scripts/backfill.py --start 2026-07-01 --end 2026-07-04
+
 # Unit tests
 python -m pytest tests/ -q
 
@@ -38,7 +42,9 @@ Pipeline stages, one module each, orchestrated by `scripts/run_pipeline.py`:
 - `hr_tracker/scoring.py` — pure functions; the three near-HR definitions
 - `hr_tracker/store.py` — `EventStore` Protocol + `FlatFileStore` (swappable backend)
 - `hr_tracker/trends.py` — rolling 7/14/30-day windows, slope, `heating_up` flag
-- `hr_tracker/site.py` — writes `docs/index.html` + `docs/data/{meta,latest,trends}.json`
+- `hr_tracker/prediction.py` — streaks, 0–100 expectancy score, empirical band
+  rates, prediction receipts (`data/predictions/`) + their resolution
+- `hr_tracker/site.py` — writes `docs/index.html` + `docs/data/{meta,latest,trends,predictions}.json`
 
 All thresholds and weights live in `config.yaml` — never hardcode them.
 `.claude/skills/hr-proximity/SKILL.md` and the GitHub Actions workflow
@@ -53,6 +59,13 @@ All thresholds and weights live in `config.yaml` — never hardcode them.
 - Only Final games (statusCode `F`/`O`) are ingested by default so in-progress
   games never pollute a day file.
 - Near-HR flags **exclude actual home runs** (an HR is not "near" an HR).
+- `data/predictions/YYYY-MM-DD.json` are append-only receipts of the players
+  flagged that day; `resolve_prediction_records` measures the model's real hit
+  rate from them, so never rewrite old ones (except by re-running that date).
+- All prediction math reads the rollup via `store.read_player_days()` — don't
+  re-scan raw event files for it. Rollup days written before the
+  `near_hr_any` field existed are handled by the `_near_hr_any` fallback in
+  `hr_tracker/prediction.py`.
 
 ## Savant feed gotchas
 

@@ -52,6 +52,33 @@ INDEX_HTML = r"""<!DOCTYPE html>
   <div class="sub" id="meta">Loading…</div>
 </header>
 <main>
+  <section id="likely-section" hidden>
+    <h2>Most likely to homer</h2>
+    <div class="controls">
+      <span id="ml-hitrate"></span>
+    </div>
+    <table id="likely">
+      <thead><tr>
+        <th class="num">#</th>
+        <th>Player</th>
+        <th>Team</th>
+        <th class="num">Expectancy</th>
+        <th class="num">Streak</th>
+        <th>EV</th>
+        <th>Parks</th>
+        <th>Freq</th>
+        <th class="num">Near-HR 7d</th>
+        <th>Band HR rate</th>
+      </tr></thead>
+      <tbody></tbody>
+    </table>
+    <p class="note">Expectancy (0–100) blends the streak of consecutive games with a
+    near-HR event, how often recent games qualify, and whether EV / would-be-HR parks /
+    near-HR frequency are trending up (▲ rising · ▬ flat · ▼ falling). "Band HR rate" is
+    measured from this tracker's own history: how often players scoring in the same range
+    homered soon after (shown once enough samples exist).</p>
+  </section>
+
   <section>
     <h2>Near-HR events — <span id="latest-date"></span></h2>
     <div class="controls">
@@ -113,7 +140,7 @@ INDEX_HTML = r"""<!DOCTYPE html>
 </main>
 <script>
 const bust = "?v=" + Date.now();
-const state = { events: [], trends: null,
+const state = { events: [], trends: null, predictions: null,
   evSort: {k:"barrel_score", dir:-1}, trSort: {k:"near_hr_any", dir:-1} };
 
 function td(v, num) {
@@ -203,6 +230,43 @@ function renderTrends() {
   markSort("trends", state.trSort);
 }
 
+function arrow(slope) {
+  const EPS = 0.01;
+  if (slope > EPS) return '<span class="hot">▲</span>';
+  if (slope < -EPS) return "▼";
+  return "▬";
+}
+function renderLikely() {
+  const p = state.predictions;
+  if (!p || !p.players || p.players.length === 0) return;
+  document.getElementById("likely-section").hidden = false;
+  const hr = p.hit_rate;
+  document.getElementById("ml-hitrate").textContent = hr && hr.overall.flagged
+    ? `Track record: ${hr.overall.hr_followed}/${hr.overall.flagged} flagged players ` +
+      `homered within ${hr.horizon_days} days (${Math.round(hr.overall.rate * 100)}%) ` +
+      `across ${hr.resolved_records} resolved days`
+    : "Track record: accumulating — prediction receipts resolve after " +
+      p.horizon_days + " days";
+  const body = document.querySelector("#likely tbody");
+  body.innerHTML = "";
+  p.players.forEach((r, i) => {
+    const tr = document.createElement("tr");
+    tr.append(td(i + 1, 1), td(r.player_name), td(r.team),
+      td(r.expectancy_score, 1),
+      td(r.streak ? r.streak + (r.streak > 1 ? " games" : " game") : "—", 1));
+    for (const k of ["max_ev", "parks_sum", "near_hr"]) {
+      const c = document.createElement("td");
+      c.innerHTML = arrow(r.slopes[k]);
+      tr.append(c);
+    }
+    tr.append(td(r.near_hr_7d, 1),
+      td(r.band_rate !== null
+        ? Math.round(r.band_rate * 100) + "% (n=" + r.band_samples + ")"
+        : "— (n=" + r.band_samples + ")"));
+    body.append(tr);
+  });
+}
+
 function fillTeams(selectId, teams) {
   const sel = document.getElementById(selectId);
   for (const t of teams) {
@@ -213,10 +277,12 @@ function fillTeams(selectId, teams) {
 }
 
 async function init() {
-  const [meta, latest, trends] = await Promise.all([
+  const [meta, latest, trends, predictions] = await Promise.all([
     fetch("data/meta.json" + bust).then(r => r.json()),
     fetch("data/latest.json" + bust).then(r => r.json()),
     fetch("data/trends.json" + bust).then(r => r.json()),
+    fetch("data/predictions.json" + bust)
+      .then(r => r.ok ? r.json() : null).catch(() => null),
   ]);
   document.getElementById("meta").textContent =
     `Data through ${meta.latest_date} · ${meta.games_processed} games, ` +
@@ -226,6 +292,7 @@ async function init() {
 
   state.events = latest.events;
   state.trends = trends;
+  state.predictions = predictions;
 
   fillTeams("ev-team", [...new Set(latest.events.map(e => e.team))].sort());
   fillTeams("tr-team", [...new Set(trends.players.map(p => p.team))].sort());
@@ -242,6 +309,7 @@ async function init() {
   document.getElementById("tr-hot").addEventListener("change", renderTrends);
   wireSort("events", state.evSort, renderEvents);
   wireSort("trends", state.trSort, renderTrends);
+  renderLikely();
   renderEvents();
   renderTrends();
 }
@@ -256,7 +324,9 @@ init().catch(err => {
 
 def build_site(events: list[BattedBallEvent], trends: dict[str, Any],
                date: str, ingest_summary: dict[str, Any],
-               config: dict[str, Any]) -> Path:
+               config: dict[str, Any],
+               predictions: dict[str, Any] | None = None,
+               hit_rate: dict[str, Any] | None = None) -> Path:
     """Write index.html + data JSON into the GitHub Pages source dir (docs/)."""
     out = Path(config["site"]["output_dir"])
     data_dir = out / "data"
@@ -276,6 +346,10 @@ def build_site(events: list[BattedBallEvent], trends: dict[str, Any],
     (data_dir / "latest.json").write_text(json.dumps(latest, indent=1), encoding="utf-8")
     (data_dir / "trends.json").write_text(json.dumps(trends, indent=1), encoding="utf-8")
     (data_dir / "meta.json").write_text(json.dumps(meta, indent=1), encoding="utf-8")
+    if predictions is not None:
+        payload = {**predictions, "hit_rate": hit_rate}
+        (data_dir / "predictions.json").write_text(
+            json.dumps(payload, indent=1), encoding="utf-8")
 
     html = INDEX_HTML.replace("__TITLE__", config["site"]["title"])
     index = out / "index.html"
