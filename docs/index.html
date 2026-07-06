@@ -88,6 +88,12 @@
     collected so far.</p>
   </section>
 
+  <section id="analysis-section" hidden>
+    <h2>Today's read</h2>
+    <div id="analysis-text"></div>
+    <p class="note" id="analysis-meta"></p>
+  </section>
+
   <section>
     <h2>Trending players (rolling windows)</h2>
     <div class="controls">
@@ -317,11 +323,13 @@ function fillTeams(selectId, teams) {
 }
 
 async function init() {
-  const [meta, latest, trends, predictions] = await Promise.all([
+  const [meta, latest, trends, predictions, analysis] = await Promise.all([
     fetch("data/meta.json" + bust).then(r => r.json()),
     fetch("data/latest.json" + bust).then(r => r.json()),
     fetch("data/trends.json" + bust).then(r => r.json()),
     fetch("data/predictions.json" + bust)
+      .then(r => r.ok ? r.json() : null).catch(() => null),
+    fetch("data/analysis.json" + bust)
       .then(r => r.ok ? r.json() : null).catch(() => null),
   ]);
   document.getElementById("meta").textContent =
@@ -334,6 +342,20 @@ async function init() {
   state.events = latest.events;
   state.trends = trends;
   state.predictions = predictions;
+
+  // "Today's read" — LLM-written blurb, shown only while it matches the data.
+  if (analysis && analysis.text && analysis.as_of === meta.latest_date) {
+    document.getElementById("analysis-section").hidden = false;
+    const box = document.getElementById("analysis-text");
+    for (const para of String(analysis.text).split(/\n{2,}/)) {
+      const el = document.createElement("p");
+      el.textContent = para.trim();
+      box.append(el);
+    }
+    document.getElementById("analysis-meta").textContent =
+      `Written by ${analysis.model || "an LLM"} · ${analysis.as_of}` +
+      ` · commentary, not part of the scoring`;
+  }
 
   fillTeams("ev-team", [...new Set(latest.events.map(e => e.team))].sort());
   fillTeams("tr-team", [...new Set(trends.players.map(p => p.team))].sort());
