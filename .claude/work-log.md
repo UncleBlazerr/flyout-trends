@@ -63,3 +63,32 @@ unit tests only — no real game had empty schedule weather.
 `_WEATHER_KEYS`; `ingest_date` signature unchanged (both scripts unaffected).
 
 **Next:** Phase 2 — rollup weather fields + SCHEMA_VERSION 2 (same branch).
+
+## 2026-07-06 — Phase 2 (rollup weather + schema v2) complete
+
+**Commit:** bf25451 on `feature/weather-ingest` (not pushed).
+
+**What was done:**
+- `hr_tracker/store.py::_update_rollup`: each player-day now carries
+  `temp_f`/`wind_mph`/`wind_dir`; fields fill from the first weather-tagged
+  event of the day (doubleheaders keep game one). Pre-v2 rollup days simply
+  lack the keys — downstream must read with `.get()` (Phase 4).
+- `hr_tracker/models.py`: SCHEMA_VERSION 1 -> 2; `config.yaml` schema_version
+  mirrored to 2 (no code reads it; declarative only).
+- Tests: `make_event` builder carries weather defaults so store/trends/site
+  tests exercise the new fields; schema assertion -> 2; two new rollup weather
+  tests (carry + first-tagged-fill). 64 pass. `test_prediction.py::day`
+  builder untouched — updating it belongs to Phase 4 when prediction reads
+  weather.
+
+**Verification (real pipeline, scratch storage via --config so repo data/
+untouched):** full run for 2026-07-05 wrote raw v2 with all 771 events
+weather-tagged, rollup with 286/286 player-days carrying weather
+(out=93/in=19/cross=114/none=60, temps 70-94°F); site build succeeded with
+the new payload keys; re-running the same date was idempotent (no dupes, no
+key loss).
+
+**Note for Phase 3:** repo `data/rollups/player_index.json` still holds v1
+days without weather keys; the backfill re-ingest will rewrite them all.
+
+**Next:** Phase 3 — historical weather backfill (`feature/weather-backfill`).
