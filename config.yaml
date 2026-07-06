@@ -49,6 +49,7 @@ prediction:
   score_bands: [40, 60, 80]   # band edges: <40, 40-60, 60-80, 80+
   min_samples: 20         # hide the empirical % below this many historical samples
   top_n: 15               # size of the "Most Likely to Homer" grouping
+  consistency_top_n: 15   # size of the consistency leaderboard (defaults to top_n if unset)
   records_dir: data/predictions
 
 site:
