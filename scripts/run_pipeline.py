@@ -27,6 +27,7 @@ from hr_tracker.scoring import score_events
 from hr_tracker.site import build_site
 from hr_tracker.store import FlatFileStore
 from hr_tracker.trends import compute_trends
+from hr_tracker.weather import weather_correlation
 
 
 def today_et() -> str:
@@ -128,12 +129,18 @@ def main() -> int:
           + f"; {len(consistency)} on the consistency leaderboard",
           file=sys.stderr)
 
+    weather_corr = weather_correlation(player_days, config, as_of=date)
+    print(f"[weather] correlation over "
+          f"{sum(c['player_days'] for c in weather_corr['cells'])} outdoor + "
+          f"{weather_corr['dome']['player_days']} dome player-days "
+          f"({len(weather_corr['cells'])} cells)", file=sys.stderr)
+
     if not args.skip_site:
         config["site"]["output_dir"] = str(root / config["site"]["output_dir"])
         index = build_site(events, trends, date, summary, config,
                            predictions=predictions, hit_rate=hit_rate,
                            recent_hits=recent_hits, consistency=consistency,
-                           store=store)
+                           weather_corr=weather_corr, store=store)
         print(f"[site] rebuilt {index}", file=sys.stderr)
 
     return 1 if summary["games_failed"] else 0

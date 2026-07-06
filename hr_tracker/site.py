@@ -748,6 +748,7 @@ def build_site(events: list[BattedBallEvent], trends: dict[str, Any],
                hit_rate: dict[str, Any] | None = None,
                recent_hits: list[dict[str, Any]] | None = None,
                consistency: list[dict[str, Any]] | None = None,
+               weather_corr: dict[str, Any] | None = None,
                store: Any | None = None) -> Path:
     """Write index.html + data JSON into the GitHub Pages source dir (docs/)."""
     out = Path(config["site"]["output_dir"])
@@ -777,6 +778,9 @@ def build_site(events: list[BattedBallEvent], trends: dict[str, Any],
     (data_dir / "consistency.json").write_text(
         json.dumps({"as_of": date, "players": consistency or []}, indent=1),
         encoding="utf-8")
+    if weather_corr is not None:
+        (data_dir / "weather.json").write_text(
+            json.dumps(weather_corr, indent=1), encoding="utf-8")
 
     if store is not None:
         n = _write_player_pages(out, store, date, config)

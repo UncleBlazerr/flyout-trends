@@ -65,6 +65,8 @@ prediction:
     clamp: [0.85, 1.20]   # bounds on the total factor: cold+in floors at -15%,
                           # hot+gale-out ceilings at +20%
     neutral_conditions: [Dome, Roof Closed]  # factor exactly 1.0
+    temp_bands: [55, 70, 85]  # correlation-view bands: <55, 55-70, 70-85, 85+
+    min_samples: 25       # hide a correlation cell's rates below this many samples
 
 site:
   title: "Daily HR-Proximity Tracker"
