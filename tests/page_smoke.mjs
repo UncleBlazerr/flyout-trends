@@ -50,6 +50,11 @@ const hitrate = doc.getElementById("ml-hitrate").textContent;
 if (!hitrate.startsWith("Track record")) fail("hit-rate line missing: " + hitrate);
 const mcHits = doc.getElementById("mc-hits");
 if (!mcHits) fail("model-check bucket missing from page");
+
+// Section order: most-likely, then trending players, then the events table.
+const order = [...doc.querySelectorAll("main table")].map((t) => t.id);
+if (JSON.stringify(order) !== JSON.stringify(["likely", "trends", "events"]))
+  fail("section order wrong: " + order.join(","));
 console.log("most-likely rows:", mlRows.length, "| top score:", mlScores[0]);
 console.log("model-check chips:", mcHits.querySelectorAll(".hit-chip").length,
   mcHits.hidden ? "(hidden — none yet)" : "(visible)");

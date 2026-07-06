@@ -97,34 +97,6 @@ INDEX_HTML = r"""<!DOCTYPE html>
   </section>
 
   <section>
-    <h2>Near-HR events — <span id="latest-date"></span></h2>
-    <div class="controls">
-      <label>Team <select id="ev-team"><option value="">All</option></select></label>
-      <label>Min barrel score <input id="ev-min" type="number" value="0" min="0" max="100" step="5" style="width:70px"></label>
-      <span id="ev-count"></span>
-    </div>
-    <table id="events">
-      <thead><tr>
-        <th data-k="player_name">Player</th>
-        <th data-k="team">Team</th>
-        <th data-k="opponent">Opp</th>
-        <th data-k="result">Result</th>
-        <th class="num" data-k="exit_velocity">EV (mph)</th>
-        <th class="num" data-k="launch_angle">LA (°)</th>
-        <th class="num" data-k="hit_distance">Dist (ft)</th>
-        <th class="num" data-k="would_be_hr_count">HR parks</th>
-        <th class="num" data-k="barrel_score">Barrel score</th>
-        <th>Flags</th>
-      </tr></thead>
-      <tbody></tbody>
-    </table>
-    <p class="note">Flags: <b>DIST</b> = non-HR &gt; distance threshold · <b>PARKS</b> = would have
-    left ≥ min parks (park-adjusted count from Baseball Savant) · <b>BRL</b> = composite
-    barrel-proximity score over threshold. "HR parks" is Savant's park-adjusted count of
-    stadiums (of 30) where that ball is a home run.</p>
-  </section>
-
-  <section>
     <h2>Trending players (rolling windows)</h2>
     <div class="controls">
       <label>Window <select id="tr-window"></select></label>
@@ -153,6 +125,34 @@ INDEX_HTML = r"""<!DOCTYPE html>
     <p class="note">EV columns are over near-HR events only. Slope = daily
     would-be-HR-parks trend within the window; 🔥 = enough recent near-HR events with a
     rising slope.</p>
+  </section>
+
+  <section>
+    <h2>Near-HR events — <span id="latest-date"></span></h2>
+    <div class="controls">
+      <label>Team <select id="ev-team"><option value="">All</option></select></label>
+      <label>Min barrel score <input id="ev-min" type="number" value="0" min="0" max="100" step="5" style="width:70px"></label>
+      <span id="ev-count"></span>
+    </div>
+    <table id="events">
+      <thead><tr>
+        <th data-k="player_name">Player</th>
+        <th data-k="team">Team</th>
+        <th data-k="opponent">Opp</th>
+        <th data-k="result">Result</th>
+        <th class="num" data-k="exit_velocity">EV (mph)</th>
+        <th class="num" data-k="launch_angle">LA (°)</th>
+        <th class="num" data-k="hit_distance">Dist (ft)</th>
+        <th class="num" data-k="would_be_hr_count">HR parks</th>
+        <th class="num" data-k="barrel_score">Barrel score</th>
+        <th>Flags</th>
+      </tr></thead>
+      <tbody></tbody>
+    </table>
+    <p class="note">Flags: <b>DIST</b> = non-HR &gt; distance threshold · <b>PARKS</b> = would have
+    left ≥ min parks (park-adjusted count from Baseball Savant) · <b>BRL</b> = composite
+    barrel-proximity score over threshold. "HR parks" is Savant's park-adjusted count of
+    stadiums (of 30) where that ball is a home run.</p>
   </section>
 </main>
 <script>
