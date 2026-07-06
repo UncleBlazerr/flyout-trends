@@ -28,8 +28,13 @@ the Hermes daily run.
   launch angle, distance, `would_be_hr_count`) and scoring outputs
   (`distance_flag`, `would_be_hr_flag`, `barrel_score`, `barrel_flag`).
 - `load_config()` / `find_config()`: load `config.yaml` from the repo root.
-- `SCHEMA_VERSION = 1`: stamped into every stored file.
+- `SCHEMA_VERSION = 2`: stamped into every stored file (raw + rollup). v2 adds
+  venue/weather context to events and rollup days.
 - `is_home_run` and `is_near_hr` are computed properties, not stored fields.
+- In addition to raw Savant fields, the dataclass carries game-level
+  `venue_id`, `venue_name`, `temp_f`, `wind_mph`, `wind_dir`, and
+  `weather_condition` — attached by `ingest.py` from the MLB schedule API
+  (Savant has no weather). All default to None/"" so old JSON still loads.
 
 ### `hr_tracker/ingest.py`
 - `fetch_schedule(date, session, http_cfg)`: queries the MLB Stats API
@@ -42,6 +47,14 @@ the Hermes daily run.
 - `ingest_date(date, config, ...)`: orchestrates fetch + parse, returning
   `(events, summary)`. By default only Final games (statusCode `F`/`O`) are
   ingested so in-progress games never pollute a day file.
+- **Weather ingest**: `fetch_schedule` sends `hydrate=weather`, returning
+  per-game `condition`/`temp`/`wind` in one slate-wide call. `parse_wind()`
+  maps the park-relative wind phrase to a direction class (`out`/`in`/`cross`/
+  `none`/`varies`; unrecognized → `varies`). `_attach_weather()` stamps venue
+  and weather fields onto each game's events inside `ingest_date`. If a final
+  game's schedule weather object is empty, `fetch_live_weather()` falls back to
+  that game's live feed (`statsapi.mlb.com/api/v1.1/game/<pk>/feed/live` with
+  `fields=` trim). Missing weather stays None/"" — never guessed.
 - **Savant gotcha**: numeric fields (`launch_speed`, `hit_distance`,
   `launch_angle`) arrive as strings. All parsing goes through the `_num()`
   helper. `hc_x`/`hc_y` arrive as floats.
@@ -57,7 +70,8 @@ Pure functions — no I/O, no side effects. See
 ### `hr_tracker/store.py`
 `EventStore` is a `Protocol` with four methods: `write_day`, `read_range`,
 `read_player_history`, `read_player_days`. `FlatFileStore` is the v1
-implementation. See [Data & Storage](data-and-storage.md).
+implementation; `_update_rollup` writes `temp_f`/`wind_mph`/`wind_dir` per
+player-day (schema v2). See [Data & Storage](data-and-storage.md).
 
 ### `hr_tracker/trends.py`
 - `linear_slope(ys)`: least-squares slope — the trend engine used by both

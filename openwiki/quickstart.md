@@ -12,8 +12,10 @@ Pages.
 
 ## What it does
 
-1. **Ingest** — Fetches the MLB schedule and Baseball Savant gamefeeds for a
-   date, parses batted-ball events (only Final games by default).
+1. **Ingest** — Fetches the MLB schedule (with weather hydration) and Baseball
+   Savant gamefeeds for a date, parses batted-ball events (only Final games by
+   default). Venue and weather (temp, wind speed/direction) are stamped onto
+   each event from the schedule API.
 2. **Score** — Classifies every non-HR batted ball against three near-HR
    definitions: distance threshold, park-adjusted would-be-HR count, and a
    composite barrel-proximity score (0–100).

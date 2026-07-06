@@ -53,7 +53,7 @@ day.
 
 ```json
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "date": "2026-07-05",
   "generated_at": "2026-07-05T14:23:00Z",
   "events": [ { ...BattedBallEvent.to_dict()... } ]
@@ -67,7 +67,7 @@ what trends and prediction read — they never re-scan raw event files.
 
 ```json
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "players": {
     "695578": {
       "player_name": "James Wood",
@@ -78,7 +78,8 @@ what trends and prediction read — they never re-scan raw event files.
           "near_hr_any": 2, "near_hr_xbh": 1,
           "near_hr_distance": 1, "near_hr_parks": 2, "near_hr_barrel": 1,
           "would_be_hr_parks_sum": 14,
-          "max_ev": 109.3, "max_distance": 391.0, "max_barrel_score": 82.5
+          "max_ev": 109.3, "max_distance": 391.0, "max_barrel_score": 82.5,
+          "temp_f": 89.0, "wind_mph": 5.0, "wind_dir": "out"
         }
       }
     }
@@ -101,6 +102,9 @@ Rollup day fields:
 | `max_ev` | Max exit velocity |
 | `max_distance` | Max hit distance |
 | `max_barrel_score` | Max barrel score |
+| `temp_f` | Game temperature (°F) — from schedule weather, first event's value wins |
+| `wind_mph` | Wind speed (mph) — from schedule weather |
+| `wind_dir` | Wind direction class: `out`/`in`/`cross`/`none`/`varies` |
 
 **Note:** Rollup days written before the `near_hr_any` field existed are
 handled by the `_near_hr_any()` fallback in `prediction.py`, which reconstructs
@@ -114,7 +118,7 @@ manually. Re-running a date supersedes that date's record.
 
 ```json
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "generated_at": "...",
   "as_of": "2026-07-05",
   "config": { ...prediction config snapshot... },
@@ -156,6 +160,12 @@ The core data unit (`hr_tracker/models.py`):
 | `would_be_hr_count` | int? | `contextMetrics.homeRunBallparks` (0–30) |
 | `inning` | int? | Inning number |
 | `play_id` | str? | Deduplication key |
+| `venue_id` | int? | MLB venue ID (from schedule weather hydration) |
+| `venue_name` | str | Venue name (empty when feed omitted weather) |
+| `temp_f` | float? | Game temperature °F (from schedule weather) |
+| `wind_mph` | float? | Wind speed mph (from schedule weather) |
+| `wind_dir` | str? | Wind class: `out`/`in`/`cross`/`none`/`varies` |
+| `weather_condition` | str | Weather condition text (e.g. "Clear", "Dome") |
 | `distance_flag` | bool | Set by `scoring.py` |
 | `would_be_hr_flag` | bool | Set by `scoring.py` |
 | `barrel_score` | float | Set by `scoring.py` |
@@ -186,6 +196,12 @@ of the three flags).
   count (0–30) — no separate park-dimensions dataset is needed.
 - Events are keyed by `play_id` for deduplication.
 - Only `pitch_call == "hit_into_play"` rows with a `launch_speed` are kept.
+- **Weather comes from the MLB schedule API** (`hydrate=weather`), not Savant —
+  the Savant gamefeed has no weather. `ingest_date` stamps venue/weather onto
+  each game's events via `_attach_weather`. If the hydrated schedule returned an
+  empty weather object for a final game, it falls back to that game's live feed
+  (`fetch_live_weather`). Missing weather stays None/"" and is treated as
+  neutral downstream.
 
 **Sources:** `hr_tracker/store.py`, `hr_tracker/models.py`,
 `hr_tracker/ingest.py`, `hr_tracker/site.py`
