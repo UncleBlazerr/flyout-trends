@@ -107,13 +107,11 @@ and identical scoring fields — only weather added. 07-06's previous file was
 an empty stub from the morning run; it now holds the day's 1 final game
 (62 events). data/predictions/ receipts untouched (verified via git status).
 
-**⚠ Merge-timing risk:** the scheduled workflow runs on main at 23:00 ET
-tonight and 06:00 ET tomorrow WITHOUT the weather code unless the feature
-branches merge first. If it runs pre-merge it will rewrite 2026-07-06 (and
-tomorrow 07-06 again via --yesterday) without weather fields and conflict
-with this branch's data files. Recommendation: merge phases 1-3 to main
-before 23:00 ET, or re-run the backfill for any dates the cron rewrites
-pre-merge.
+**⚠ Merge-timing risk:** RESOLVED — phases 1-3 merged to main (b8902f6) and
+pushed 2026-07-06, ahead of the 23:00 ET cron, so tonight's run ingests with
+weather code. Pages build for b8902f6 verified (`built`, no error) and the
+live site returns 200; the push-triggered OpenWiki Update workflow succeeded
+(auto-merged its docs PR, which advanced origin/main).
 
 **Next:** Phase 4 — weather_factor + prediction integration
 (`feature/weather-score`).
