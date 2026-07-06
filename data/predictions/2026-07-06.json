@@ -1,7 +1,33 @@
 {
+ "schema_version": 1,
+ "generated_at": "2026-07-06T07:10:31.529018+00:00",
  "as_of": "2026-07-06",
- "horizon_days": 3,
- "min_samples": 20,
+ "config": {
+  "min_near_hr_events": 1,
+  "max_gap_days": 2,
+  "slope_window": 7,
+  "streak_cap": 5,
+  "weights": {
+   "streak": 0.4,
+   "frequency": 0.3,
+   "intensity": 0.3
+  },
+  "intensity_scales": {
+   "max_ev": 2.0,
+   "parks_sum": 3.0,
+   "near_hr": 1.0
+  },
+  "xbh_weight": 1.25,
+  "horizon_days": 3,
+  "score_bands": [
+   40,
+   60,
+   80
+  ],
+  "min_samples": 20,
+  "top_n": 15,
+  "records_dir": "data/predictions"
+ },
  "players": [
   {
    "player_id": 681082,
@@ -333,8 +359,5 @@
    "band_samples": 0,
    "repeat": true
   }
- ],
- "bands": {},
- "hit_rate": null,
- "recent_hits": []
+ ]
 }
