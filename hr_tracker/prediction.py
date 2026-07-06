@@ -111,6 +111,32 @@ def player_form(days: dict[str, dict], as_of: str,
     }
 
 
+def weather_factor(wx: dict[str, Any] | None, config: dict[str, Any]) -> float:
+    """Multiplier on the ranking score from one game's weather (PRD §5.2):
+    hot boosts, cold penalizes (never a veto), wind earns a bonus ONLY when
+    blowing out at/above threshold, in-blowing wind takes a gentler penalty,
+    cross/calm/varies winds do nothing. Domes, closed roofs, disabled config,
+    and missing/empty weather are exactly neutral (1.0).
+    """
+    cfg = config["prediction"].get("weather") or {}
+    if not cfg.get("enabled") or not wx:
+        return 1.0
+    if (wx.get("weather_condition") or "") in set(cfg["neutral_conditions"]):
+        return 1.0
+    factor = 1.0
+    temp = wx.get("temp_f")
+    if temp is not None:
+        factor *= 1.0 + cfg["temp_per_deg"] * (temp - cfg["temp_ref_f"])
+    mph = wx.get("wind_mph") or 0.0
+    direction = wx.get("wind_dir")
+    if direction == "out" and mph >= cfg["wind_out_min_mph"]:
+        factor *= 1.0 + cfg["wind_out_per_mph"] * min(mph, cfg["wind_out_cap_mph"])
+    elif direction == "in" and mph >= cfg["wind_in_min_mph"]:
+        factor *= 1.0 - cfg["wind_in_per_mph"] * min(mph, cfg["wind_in_cap_mph"])
+    lo, hi = cfg["clamp"]
+    return round(max(lo, min(hi, factor)), 3)
+
+
 def band_label(score: float, edges: list[float]) -> str:
     if score < edges[0]:
         return f"<{edges[0]:g}"
@@ -154,10 +180,17 @@ def empirical_rates(player_days: dict[str, dict],
     return bands
 
 
-def compute_predictions(store: Any, as_of: str,
-                        config: dict[str, Any]) -> dict[str, Any]:
+def compute_predictions(store: Any, as_of: str, config: dict[str, Any],
+                        team_weather: dict[str, dict] | None = None
+                        ) -> dict[str, Any]:
     """The ranked "Most Likely to Homer" grouping as of a date, plus the
-    empirical band table it is judged against."""
+    empirical band table it is judged against.
+
+    `team_weather` maps team -> upcoming-game weather (ingest.
+    upcoming_team_weather). Ranking uses adjusted_score = expectancy_score x
+    weather_factor, but bands and the empirical self-check stay keyed to the
+    base expectancy_score so historical calibration is not distorted by a
+    factor old rollup days never had (PRD §6.5)."""
     cfg = config["prediction"]
     player_days = store.read_player_days()
     bands = empirical_rates(player_days, config)
@@ -177,6 +210,8 @@ def compute_predictions(store: Any, as_of: str,
         band = bands.get(label)
         week_start = (as_of_d - timedelta(days=6)).isoformat()
         week = [v for d, v in days.items() if d >= week_start]
+        wx = (team_weather or {}).get(pdata["team"])
+        wf = weather_factor(wx, config)
         entries.append({
             "player_id": int(pid),
             "player_name": pdata["player_name"],
@@ -195,9 +230,14 @@ def compute_predictions(store: Any, as_of: str,
             "band_rate": (band["rate"] if band
                           and band["samples"] >= cfg["min_samples"] else None),
             "band_samples": band["samples"] if band else 0,
+            "weather_factor": wf,
+            "adjusted_score": round(form["expectancy_score"] * wf, 1),
+            "game_weather": ({k: wx.get(k) for k in
+                              ("venue_name", "temp_f", "wind_mph", "wind_dir",
+                               "weather_condition")} if wx else None),
         })
 
-    entries.sort(key=lambda e: (e["expectancy_score"], e["near_hr_7d"]),
+    entries.sort(key=lambda e: (e["adjusted_score"], e["near_hr_7d"]),
                  reverse=True)
     return {
         "as_of": as_of,

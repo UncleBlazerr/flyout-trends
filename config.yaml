@@ -51,6 +51,20 @@ prediction:
   top_n: 15               # size of the "Most Likely to Homer" grouping
   consistency_top_n: 15   # size of the consistency leaderboard (defaults to top_n if unset)
   records_dir: data/predictions
+  weather:                # upcoming-game weather multiplier on the ranking score
+                          # (bands/self-checks stay keyed to the base score)
+    enabled: true
+    temp_ref_f: 70        # neutral temperature; hotter boosts, colder penalizes
+    temp_per_deg: 0.004   # +/-0.4% per degF from ref (~ +10% at 95F, -8% at 50F)
+    wind_out_min_mph: 5   # out-blowing wind below this earns nothing
+    wind_out_per_mph: 0.012
+    wind_out_cap_mph: 20  # mph past this earn no extra bonus
+    wind_in_min_mph: 5
+    wind_in_per_mph: 0.008  # in-blowing wind penalty, gentler than the out bonus
+    wind_in_cap_mph: 20
+    clamp: [0.85, 1.20]   # bounds on the total factor: cold+in floors at -15%,
+                          # hot+gale-out ceilings at +20%
+    neutral_conditions: [Dome, Roof Closed]  # factor exactly 1.0
 
 site:
   title: "Daily HR-Proximity Tracker"
