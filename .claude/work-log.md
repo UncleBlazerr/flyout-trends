@@ -115,3 +115,50 @@ live site returns 200; the push-triggered OpenWiki Update workflow succeeded
 
 **Next:** Phase 4 — weather_factor + prediction integration
 (`feature/weather-score`).
+
+## 2026-07-06 — Phase 4 (weather-adjusted ranking) complete
+
+**Commit:** 288eca3 on `feature/weather-score` (branched off post-merge main;
+not pushed).
+
+**What was done:**
+- `hr_tracker/prediction.py`: pure `weather_factor(wx, config)` — temp linear
+  around `temp_ref_f`, wind bonus ONLY for `out` >= `wind_out_min_mph`,
+  gentler `in` penalty, cross/varies/calm neutral, `neutral_conditions`
+  (Dome/Roof Closed) and empty forecasts exactly 1.0, total clamped to
+  `clamp`. `compute_predictions` takes `team_weather`, ranks by
+  `adjusted_score = expectancy_score * weather_factor`; entries gain
+  `weather_factor`, `adjusted_score`, `game_weather`. Bands/cross_check/
+  consistency stay keyed to base score (PRD §6.5).
+- `hr_tracker/ingest.py`: schedule hydrate is now `weather,team`
+  (abbreviations verified to match all 30 rollup Savant team codes);
+  game dicts carry home_team/away_team; new `upcoming_team_weather(date,
+  config)` maps team -> its game's weather with live-feed fallback,
+  first-game-wins for doubleheaders.
+- `scripts/run_pipeline.py`: builds the map for as_of+1 (the follow-up
+  window's first slate), passes it to both compute_predictions calls; fetch
+  failure degrades to neutral, never fails the pipeline.
+- `config.yaml`: new `prediction.weather:` block (defaults per PRD §5.3).
+- Tests: 13 new (factor math incl. clamp both ways + disabled + dome;
+  ranking by adjusted score with identical forms; neutral without map/for
+  idle teams; upcoming_team_weather mapping incl. fallback + doubleheader +
+  all-empty). 77 pass.
+
+**Verification (real API, scratch storage):** pipeline for 07-04 -> upcoming
+07-05 mapped 30/30 teams with actuals, all 15 receipt entries adjusted
+(Sutter Health 83F/9mph out = 1.166; Truist 89F/5 out = 1.141), ranked by
+adjusted_score, base*factor==adjusted for all. Pipeline for 07-05 -> today's
+8-game slate mapped 16/16; wind-in Busch = 0.987 penalty; idle teams (ATH)
+neutral with game_weather null. Dry-run as-of today -> tomorrow 30 teams/0
+forecasts, every factor exactly 1.0. Receipts embed the weather config block.
+
+**Known behavior:** next-day forecasts are empty in both schedule and live
+feed until game morning, so the 23:00 ET run is usually neutral and the
+06:00 ET --yesterday run (upcoming = that same day) gets real weather. The
+morning run is where the weather adjustment actually bites. Open-Meteo
+fallback (PRD §8) would close this gap if it ever matters.
+
+**Next:** Phase 5 — correlation aggregation + weather.json
+(`feature/weather-correlation`). Note: `test_prediction.py::day` builder
+still has no weather fields — Phase 5's correlation reads day weather, so
+extend it there.
