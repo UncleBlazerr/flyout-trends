@@ -11,7 +11,7 @@ from __future__ import annotations
 import argparse
 import json
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -37,6 +37,9 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="HR-Proximity Tracker pipeline")
     parser.add_argument("--date", default=None,
                         help="Date to process (YYYY-MM-DD); defaults to today ET")
+    parser.add_argument("--yesterday", action="store_true",
+                        help="Process yesterday ET (a completed slate) — the "
+                             "right anchor for morning runs")
     parser.add_argument("--config", default=None, help="Path to config.yaml")
     parser.add_argument("--dry-run", action="store_true",
                         help="Ingest + score and print JSON to stdout; write nothing")
@@ -46,7 +49,13 @@ def main() -> int:
                         help="Persist data but do not rebuild the site")
     args = parser.parse_args()
 
-    date = args.date or today_et()
+    if args.yesterday and args.date:
+        parser.error("--yesterday and --date are mutually exclusive")
+    if args.yesterday:
+        date = (datetime.now(ZoneInfo("America/New_York")).date()
+                - timedelta(days=1)).isoformat()
+    else:
+        date = args.date or today_et()
     config = find_config(args.config)
 
     print(f"[ingest] fetching schedule + gamefeeds for {date} ...", file=sys.stderr)

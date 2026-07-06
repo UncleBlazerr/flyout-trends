@@ -41,7 +41,7 @@ jobs:
             # Morning sweep: re-process yesterday ET in full. GitHub cron can
             # fire late; if the 23:00 ET run slips past midnight it processes
             # the (empty) new day instead — this run self-heals that.
-            python scripts/run_pipeline.py --date "$(TZ=America/New_York date -d yesterday +%F)"
+            python scripts/run_pipeline.py --yesterday
           else
             python scripts/run_pipeline.py
           fi

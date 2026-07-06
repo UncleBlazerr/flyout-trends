@@ -41,8 +41,9 @@ YYYY-MM-DD` prints scored events + predictions as JSON without writing.
 ## Daily run (data refresh + analysis + digest)
 
 1. `git pull --rebase` (the GitHub Actions cron also commits data).
-2. `python scripts/run_pipeline.py` — ingests today (ET), writes data,
-   rebuilds `docs/`.
+2. `python scripts/run_pipeline.py --yesterday` — ingests yesterday ET (the
+   completed slate; running "today" mid-day would publish an empty board),
+   writes data, rebuilds `docs/`.
 3. Write `docs/data/analysis.json`: a 2–4 paragraph scouting-style read of
    the day based on `predictions.json` and `latest.json` — who's hot and why
    (name concrete numbers: EV, distances, streaks), any 💥 conversions where

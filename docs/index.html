@@ -38,6 +38,13 @@
               padding:4px 10px; font-size:12.5px; }
   .hit-chip b { color:#9fe08c; }
   .repeat { color:var(--accent); font-weight:700; cursor:help; }
+  #analysis-chart-wrap { margin:14px 0 6px; }
+  #analysis-chart svg { display:block; width:100%; height:auto; }
+  .chart-tip { position:fixed; z-index:10; pointer-events:none; display:none;
+               background:#212c44; border:1px solid var(--line); border-radius:8px;
+               padding:8px 12px; font-size:12.5px; max-width:260px;
+               box-shadow:0 4px 14px rgba(0,0,0,.4); }
+  .chart-tip b { color:var(--accent); }
   .hot { color:var(--hot); font-weight:700; }
   .note { font-size:12px; color:var(--muted); margin-top:8px; }
   .empty { color:var(--muted); padding:14px; }
@@ -90,6 +97,10 @@
 
   <section id="analysis-section" hidden>
     <h2>Today's read</h2>
+    <div id="analysis-chart-wrap" hidden>
+      <div class="sub" id="analysis-chart-title"></div>
+      <div id="analysis-chart"></div>
+    </div>
     <div id="analysis-text"></div>
     <p class="note" id="analysis-meta"></p>
   </section>
@@ -254,6 +265,96 @@ function renderTrends() {
   markSort("trends", state.trSort);
 }
 
+const BAR = "#b8842a";  // validated for the dark surface (lightness band + 3:1)
+function renderExpectancyChart() {
+  const p = state.predictions;
+  if (!p || !p.players || p.players.length === 0) return;
+  const rows = p.players;
+  document.getElementById("analysis-chart-wrap").hidden = false;
+  document.getElementById("analysis-chart-title").textContent =
+    `Expectancy scores — today's ${rows.length} selections (0–100)`;
+
+  const NS = "http://www.w3.org/2000/svg";
+  const holder = document.getElementById("analysis-chart");
+  holder.innerHTML = "";
+  const W = Math.min(Math.max(holder.clientWidth || 720, 420), 900);
+  const rowH = 26, barH = 12, labelW = 168, valueW = 44, top = 6;
+  const plotW = W - labelW - valueW;
+  const H = top + rows.length * rowH + 18;
+  const svg = document.createElementNS(NS, "svg");
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  svg.setAttribute("role", "img");
+  svg.setAttribute("aria-label", "Horizontal bar chart of expectancy scores for today's selections");
+  const x = (v) => labelW + (v / 100) * plotW;
+
+  // Recessive hairline gridlines; values are all tip-labeled so no tick text.
+  for (const g of [25, 50, 75, 100]) {
+    const line = document.createElementNS(NS, "line");
+    line.setAttribute("x1", x(g)); line.setAttribute("x2", x(g));
+    line.setAttribute("y1", top);  line.setAttribute("y2", top + rows.length * rowH);
+    line.setAttribute("stroke", "#2a3550"); line.setAttribute("stroke-width", "1");
+    svg.append(line);
+  }
+
+  const tip = document.createElement("div");
+  tip.className = "chart-tip";
+  document.body.append(tip);
+
+  rows.forEach((r, i) => {
+    const y = top + i * rowH, yMid = y + rowH / 2;
+
+    const name = document.createElementNS(NS, "text");
+    name.setAttribute("x", labelW - 10); name.setAttribute("y", yMid + 4);
+    name.setAttribute("text-anchor", "end");
+    name.setAttribute("fill", "#e8ecf4"); name.setAttribute("font-size", "12.5");
+    name.textContent = (r.repeat ? "↻ " : "") + r.player_name;
+    svg.append(name);
+
+    // Bar: square at the baseline, 4px rounded data-end.
+    const w = Math.max((r.expectancy_score / 100) * plotW, 2);
+    const rr = Math.min(4, w);
+    const bar = document.createElementNS(NS, "path");
+    bar.setAttribute("d",
+      `M${labelW},${yMid - barH / 2} h${w - rr} a${rr},${rr} 0 0 1 ${rr},${rr}` +
+      ` v${barH - 2 * rr} a${rr},${rr} 0 0 1 ${-rr},${rr} h${-(w - rr)} Z`);
+    bar.setAttribute("fill", BAR);
+    svg.append(bar);
+
+    const val = document.createElementNS(NS, "text");
+    val.setAttribute("x", labelW + w + 8); val.setAttribute("y", yMid + 4);
+    val.setAttribute("fill", "#e8ecf4"); val.setAttribute("font-size", "12");
+    val.setAttribute("font-variant-numeric", "tabular-nums");
+    val.textContent = r.expectancy_score;
+    svg.append(val);
+
+    // Full-row hover target (bigger than the mark) with an HTML tooltip.
+    const hit = document.createElementNS(NS, "rect");
+    hit.setAttribute("x", 0); hit.setAttribute("y", y);
+    hit.setAttribute("width", W); hit.setAttribute("height", rowH);
+    hit.setAttribute("fill", "transparent");
+    hit.addEventListener("mousemove", (ev) => {
+      tip.innerHTML = `<b>${r.player_name}</b> (${r.team})<br>` +
+        `Expectancy ${r.expectancy_score} · streak ${r.streak}` +
+        ` · ${r.near_hr_7d} near-HR / 7d<br>` +
+        `Max EV ${r.max_ev_7d} mph · max dist ${r.max_distance_7d} ft` +
+        (r.hr_7d ? `<br>${r.hr_7d} HR this week` : "");
+      tip.style.display = "block";
+      tip.style.left = Math.min(ev.clientX + 14, window.innerWidth - 280) + "px";
+      tip.style.top = (ev.clientY + 14) + "px";
+    });
+    hit.addEventListener("mouseleave", () => { tip.style.display = "none"; });
+    svg.append(hit);
+  });
+
+  const axis = document.createElementNS(NS, "text");
+  axis.setAttribute("x", x(100)); axis.setAttribute("y", top + rows.length * rowH + 14);
+  axis.setAttribute("text-anchor", "end");
+  axis.setAttribute("fill", "#8fa0bd"); axis.setAttribute("font-size", "11");
+  axis.textContent = "100";
+  svg.append(axis);
+  holder.append(svg);
+}
+
 function arrow(slope) {
   const EPS = 0.01;
   if (slope > EPS) return '<span class="hot">▲</span>';
@@ -343,9 +444,15 @@ async function init() {
   state.trends = trends;
   state.predictions = predictions;
 
-  // "Today's read" — LLM-written blurb, shown only while it matches the data.
-  if (analysis && analysis.text && analysis.as_of === meta.latest_date) {
+  // "Today's read" — expectancy chart (always current, from predictions)
+  // plus the LLM-written blurb, which shows only while it matches the data.
+  const freshBlurb = analysis && analysis.text && analysis.as_of === meta.latest_date;
+  const haveSelections = predictions && predictions.players && predictions.players.length;
+  if (freshBlurb || haveSelections) {
     document.getElementById("analysis-section").hidden = false;
+    if (haveSelections) renderExpectancyChart();
+  }
+  if (freshBlurb) {
     const box = document.getElementById("analysis-text");
     for (const para of String(analysis.text).split(/\n{2,}/)) {
       const el = document.createElement("p");

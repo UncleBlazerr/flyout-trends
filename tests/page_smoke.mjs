@@ -88,6 +88,14 @@ const badTeam = filtered.find((r) => r.querySelectorAll("td")[1].textContent !==
 if (badTeam) fail("team filter leaked another team");
 console.log(`team filter '${teamSel.value}': ${filtered.length} rows, all match`);
 
+// Expectancy chart: one bar + one name per selection, widths follow scores.
+const chartSvg = doc.querySelector("#analysis-chart svg");
+if (!chartSvg) fail("expectancy chart missing");
+const bars = chartSvg.querySelectorAll("path");
+if (bars.length !== mlRows.length)
+  fail(`chart has ${bars.length} bars for ${mlRows.length} selections`);
+console.log("expectancy chart:", bars.length, "bars rendered");
+
 // Player pages: names must link to player.html, and the page must render
 // the day-by-day and batted-ball tables for that player.
 const link = doc.querySelector("#likely tbody a.pl");
