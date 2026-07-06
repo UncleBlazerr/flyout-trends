@@ -36,7 +36,8 @@ config.yaml         thresholds, weights, windows
 data/raw/           one immutable JSON per date (schema_version inside)
 data/rollups/       player_index.json incremental rollup
 docs/               GitHub Pages source (generated, committed)
-skills/hr-proximity/SKILL.md   Claude Code Skill for ad hoc runs
+.claude/skills/hr-proximity/SKILL.md   Claude Code Skill for ad hoc runs
+.claude/agents/savant-analyst.md   Baseball Savant analyst subagent
 .github/workflows/hr-tracker.yml   cron (06:00 + 23:00 ET) + workflow_dispatch
 ```
 
