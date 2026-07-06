@@ -1,5 +1,5 @@
 {
- "as_of": "2026-07-06",
+ "as_of": "2026-07-05",
  "horizon_days": 3,
  "min_samples": 20,
  "players": [
@@ -23,7 +23,7 @@
    "band": "60-80",
    "band_rate": null,
    "band_samples": 0,
-   "repeat": true
+   "repeat": false
   },
   {
    "player_id": 691026,
@@ -45,7 +45,7 @@
    "band": "60-80",
    "band_rate": null,
    "band_samples": 0,
-   "repeat": true
+   "repeat": false
   },
   {
    "player_id": 669016,
@@ -67,7 +67,7 @@
    "band": "60-80",
    "band_rate": null,
    "band_samples": 0,
-   "repeat": true
+   "repeat": false
   },
   {
    "player_id": 666126,
@@ -89,7 +89,7 @@
    "band": "40-60",
    "band_rate": null,
    "band_samples": 0,
-   "repeat": true
+   "repeat": false
   },
   {
    "player_id": 641355,
@@ -111,7 +111,7 @@
    "band": "40-60",
    "band_rate": null,
    "band_samples": 0,
-   "repeat": true
+   "repeat": false
   },
   {
    "player_id": 668939,
@@ -133,7 +133,7 @@
    "band": "40-60",
    "band_rate": null,
    "band_samples": 0,
-   "repeat": true
+   "repeat": false
   },
   {
    "player_id": 514888,
@@ -155,7 +155,7 @@
    "band": "40-60",
    "band_rate": null,
    "band_samples": 0,
-   "repeat": true
+   "repeat": false
   },
   {
    "player_id": 678246,
@@ -177,7 +177,7 @@
    "band": "40-60",
    "band_rate": null,
    "band_samples": 0,
-   "repeat": true
+   "repeat": false
   },
   {
    "player_id": 641343,
@@ -199,7 +199,7 @@
    "band": "40-60",
    "band_rate": null,
    "band_samples": 0,
-   "repeat": true
+   "repeat": false
   },
   {
    "player_id": 682928,
@@ -221,7 +221,7 @@
    "band": "40-60",
    "band_rate": null,
    "band_samples": 0,
-   "repeat": true
+   "repeat": false
   },
   {
    "player_id": 668904,
@@ -243,7 +243,7 @@
    "band": "40-60",
    "band_rate": null,
    "band_samples": 0,
-   "repeat": true
+   "repeat": false
   },
   {
    "player_id": 682985,
@@ -265,7 +265,7 @@
    "band": "40-60",
    "band_rate": null,
    "band_samples": 0,
-   "repeat": true
+   "repeat": false
   },
   {
    "player_id": 803011,
@@ -287,7 +287,7 @@
    "band": "40-60",
    "band_rate": null,
    "band_samples": 0,
-   "repeat": true
+   "repeat": false
   },
   {
    "player_id": 666182,
@@ -309,7 +309,7 @@
    "band": "40-60",
    "band_rate": null,
    "band_samples": 0,
-   "repeat": true
+   "repeat": false
   },
   {
    "player_id": 687282,
@@ -331,7 +331,7 @@
    "band": "40-60",
    "band_rate": null,
    "band_samples": 0,
-   "repeat": true
+   "repeat": false
   }
  ],
  "bands": {},
