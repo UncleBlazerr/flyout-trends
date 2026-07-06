@@ -1,0 +1,82 @@
+{
+ "player_id": 691011,
+ "player_name": "Drew Romo",
+ "team": "CWS",
+ "as_of": "2026-07-05",
+ "form": {
+  "streak": 0,
+  "frequency": 0.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-04"
+ },
+ "days": [
+  {
+   "date": "2026-07-04",
+   "bbe": 2,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 102.0,
+   "max_distance": 269.0,
+   "max_barrel_score": 37.8
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 824415,
+   "date": "2026-07-04",
+   "player_id": 691011,
+   "player_name": "Drew Romo",
+   "team": "CWS",
+   "opponent": "CLE",
+   "result": "Flyout",
+   "exit_velocity": 88.7,
+   "launch_angle": 52.0,
+   "hit_distance": 269.0,
+   "hc_x": 45.47,
+   "hc_y": 126.2,
+   "would_be_hr_count": 0,
+   "inning": 6,
+   "play_id": "bdaa2914-e5e6-3cba-9073-97c5a59a2c5d",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 37.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
+  {
+   "game_pk": 824415,
+   "date": "2026-07-04",
+   "player_id": 691011,
+   "player_name": "Drew Romo",
+   "team": "CWS",
+   "opponent": "CLE",
+   "result": "Single",
+   "exit_velocity": 102.0,
+   "launch_angle": null,
+   "hit_distance": 61.0,
+   "hc_x": 95.17,
+   "hc_y": 151.96,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "84e2f883-546c-3a69-bf28-5174e4c94db1",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 32.5,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  }
+ ]
+}

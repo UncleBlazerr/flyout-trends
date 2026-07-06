@@ -1,0 +1,82 @@
+{
+ "player_id": 669224,
+ "player_name": "Austin Wells",
+ "team": "NYY",
+ "as_of": "2026-07-05",
+ "form": {
+  "streak": 1,
+  "frequency": 1.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 38.0,
+  "last_appearance": "2026-07-05"
+ },
+ "days": [
+  {
+   "date": "2026-07-05",
+   "bbe": 2,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 99.9,
+   "max_distance": 317.0,
+   "max_barrel_score": 71.7
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 823525,
+   "date": "2026-07-05",
+   "player_id": 669224,
+   "player_name": "Austin Wells",
+   "team": "NYY",
+   "opponent": "MIN",
+   "result": "Single",
+   "exit_velocity": 99.9,
+   "launch_angle": 22.0,
+   "hit_distance": 317.0,
+   "hc_x": 197.75,
+   "hc_y": 108.84,
+   "would_be_hr_count": 0,
+   "inning": 3,
+   "play_id": "6901ab60-3fbd-3a32-97f8-b44749be0db9",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 71.7,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
+  {
+   "game_pk": 823525,
+   "date": "2026-07-05",
+   "player_id": 669224,
+   "player_name": "Austin Wells",
+   "team": "NYY",
+   "opponent": "MIN",
+   "result": "Groundout",
+   "exit_velocity": 69.7,
+   "launch_angle": -62.0,
+   "hit_distance": 2.0,
+   "hc_x": 151.18,
+   "hc_y": 177.68,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "3b79a780-5cfc-3dfa-9825-01cf01098571",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 0.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  }
+ ]
+}

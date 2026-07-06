@@ -1,0 +1,82 @@
+{
+ "player_id": 641933,
+ "player_name": "Tyler O'Neill",
+ "team": "BAL",
+ "as_of": "2026-07-05",
+ "form": {
+  "streak": 0,
+  "frequency": 0.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-05"
+ },
+ "days": [
+  {
+   "date": "2026-07-05",
+   "bbe": 2,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 94.9,
+   "max_distance": 115.0,
+   "max_barrel_score": 37.4
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 824497,
+   "date": "2026-07-05",
+   "player_id": 641933,
+   "player_name": "Tyler O'Neill",
+   "team": "BAL",
+   "opponent": "CIN",
+   "result": "Groundout",
+   "exit_velocity": 94.9,
+   "launch_angle": 7.0,
+   "hit_distance": 115.0,
+   "hc_x": 146.32,
+   "hc_y": 156.88,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "485f30fa-60ed-36ce-8465-2d80ff630bc6",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 37.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
+  {
+   "game_pk": 824497,
+   "date": "2026-07-05",
+   "player_id": 641933,
+   "player_name": "Tyler O'Neill",
+   "team": "BAL",
+   "opponent": "CIN",
+   "result": "Groundout",
+   "exit_velocity": 88.8,
+   "launch_angle": 7.0,
+   "hit_distance": 99.0,
+   "hc_x": 101.15,
+   "hc_y": 169.09,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "043700f2-67f6-3699-8c8a-20d6596a059d",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 30.9,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  }
+ ]
+}

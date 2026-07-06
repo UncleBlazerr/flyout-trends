@@ -1,0 +1,82 @@
+{
+ "player_id": 695508,
+ "player_name": "Cam Cauley",
+ "team": "TEX",
+ "as_of": "2026-07-05",
+ "form": {
+  "streak": 0,
+  "frequency": 0.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-05"
+ },
+ "days": [
+  {
+   "date": "2026-07-05",
+   "bbe": 2,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 95.0,
+   "max_distance": 340.0,
+   "max_barrel_score": 63.9
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 822879,
+   "date": "2026-07-05",
+   "player_id": 695508,
+   "player_name": "Cam Cauley",
+   "team": "TEX",
+   "opponent": "DET",
+   "result": "Flyout",
+   "exit_velocity": 94.3,
+   "launch_angle": 37.0,
+   "hit_distance": 340.0,
+   "hc_x": 195.2,
+   "hc_y": 80.4,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "b048da96-94b3-3a50-90f2-9b59bce5a5be",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 63.9,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
+  {
+   "game_pk": 822879,
+   "date": "2026-07-05",
+   "player_id": 695508,
+   "player_name": "Cam Cauley",
+   "team": "TEX",
+   "opponent": "DET",
+   "result": "Groundout",
+   "exit_velocity": 95.0,
+   "launch_angle": -3.0,
+   "hit_distance": 23.0,
+   "hc_x": 102.83,
+   "hc_y": 166.28,
+   "would_be_hr_count": 0,
+   "inning": 5,
+   "play_id": "506bd88a-a249-38e5-a10f-477836da5af5",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 23.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  }
+ ]
+}

@@ -31,6 +31,8 @@
   .flag { display:inline-block; padding:0 6px; border-radius:10px; font-size:11.5px;
           background:#2a3550; color:var(--muted); margin-right:3px; }
   .flag.on { background:var(--accent); color:#1a1405; font-weight:600; }
+  a.pl { color:var(--text); text-decoration:none; border-bottom:1px dotted var(--muted); }
+  a.pl:hover { color:var(--accent); border-bottom-color:var(--accent); }
   .hits { display:flex; gap:8px; flex-wrap:wrap; margin:4px 0 12px; }
   .hit-chip { background:#1e3320; border:1px solid #3f6b3c; border-radius:8px;
               padding:4px 10px; font-size:12.5px; }
@@ -156,6 +158,15 @@ function td(v, num) {
   c.textContent = (v === null || v === undefined) ? "—" : v;
   return c;
 }
+function tdPlayer(name, id) {
+  const c = document.createElement("td");
+  const a = document.createElement("a");
+  a.className = "pl";
+  a.href = "player.html?id=" + id;
+  a.textContent = name;
+  c.append(a);
+  return c;
+}
 function cmp(a, b, k, dir) {
   const x = a[k], y = b[k];
   if (x === y) return 0;
@@ -191,7 +202,7 @@ function renderEvents() {
   body.innerHTML = "";
   for (const e of rows) {
     const tr = document.createElement("tr");
-    tr.append(td(e.player_name), td(e.team), td(e.opponent), td(e.result),
+    tr.append(tdPlayer(e.player_name, e.player_id), td(e.team), td(e.opponent), td(e.result),
       td(e.exit_velocity, 1), td(e.launch_angle, 1), td(e.hit_distance, 1),
       td(e.would_be_hr_count, 1), td(e.barrel_score, 1));
     const flags = document.createElement("td");
@@ -215,7 +226,7 @@ function renderTrends() {
   const team = document.getElementById("tr-team").value;
   const hotOnly = document.getElementById("tr-hot").checked;
   let rows = state.trends.players
-    .map(p => ({ player_name: p.player_name, team: p.team,
+    .map(p => ({ player_id: p.player_id, player_name: p.player_name, team: p.team,
                  heating_up: p.heating_up, ...p.windows[w] }))
     .filter(r => r.near_hr_any > 0 || r.hr > 0)
     .filter(r => (!team || r.team === team) && (!hotOnly || r.heating_up));
@@ -224,7 +235,7 @@ function renderTrends() {
   body.innerHTML = "";
   for (const r of rows) {
     const tr = document.createElement("tr");
-    tr.append(td(r.player_name), td(r.team), td(r.near_hr_any, 1),
+    tr.append(tdPlayer(r.player_name, r.player_id), td(r.team), td(r.near_hr_any, 1),
       td(r.near_hr_distance, 1), td(r.near_hr_parks, 1), td(r.near_hr_barrel, 1),
       td(r.hr, 1), td(r.max_ev_near_hr, 1), td(r.avg_ev_near_hr, 1),
       td(r.would_be_hr_parks_sum, 1), td(r.parks_slope, 1), td(r.trend_direction));
@@ -271,7 +282,7 @@ function renderLikely() {
   body.innerHTML = "";
   p.players.forEach((r, i) => {
     const tr = document.createElement("tr");
-    const nameCell = td(r.player_name);
+    const nameCell = tdPlayer(r.player_name, r.player_id);
     if (r.repeat) {
       const badge = document.createElement("span");
       badge.className = "repeat";

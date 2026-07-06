@@ -1,0 +1,82 @@
+{
+ "player_id": 694212,
+ "player_name": "Samuel Basallo",
+ "team": "BAL",
+ "as_of": "2026-07-05",
+ "form": {
+  "streak": 0,
+  "frequency": 0.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-04"
+ },
+ "days": [
+  {
+   "date": "2026-07-04",
+   "bbe": 2,
+   "hr": 1,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 105.7,
+   "max_distance": 406.0,
+   "max_barrel_score": 88.3
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 824499,
+   "date": "2026-07-04",
+   "player_id": 694212,
+   "player_name": "Samuel Basallo",
+   "team": "BAL",
+   "opponent": "CIN",
+   "result": "Home Run",
+   "exit_velocity": 105.7,
+   "launch_angle": 27.0,
+   "hit_distance": 406.0,
+   "hc_x": 169.24,
+   "hc_y": 40.93,
+   "would_be_hr_count": 23,
+   "inning": 1,
+   "play_id": "35dd2b76-c49f-341c-b775-215dd7ab9ce5",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 88.3,
+   "barrel_flag": false,
+   "is_home_run": true,
+   "is_near_hr": false
+  },
+  {
+   "game_pk": 824499,
+   "date": "2026-07-04",
+   "player_id": 694212,
+   "player_name": "Samuel Basallo",
+   "team": "BAL",
+   "opponent": "CIN",
+   "result": "Lineout",
+   "exit_velocity": 94.0,
+   "launch_angle": 24.0,
+   "hit_distance": 333.0,
+   "hc_x": 53.38,
+   "hc_y": 86.11,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "6df25ffa-e93a-3535-8502-67e772938736",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 69.7,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  }
+ ]
+}

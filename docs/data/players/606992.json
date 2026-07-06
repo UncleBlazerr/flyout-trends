@@ -1,0 +1,59 @@
+{
+ "player_id": 606992,
+ "player_name": "Eric Haase",
+ "team": "SF",
+ "as_of": "2026-07-05",
+ "form": {
+  "streak": 1,
+  "frequency": 1.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 38.0,
+  "last_appearance": "2026-07-04"
+ },
+ "days": [
+  {
+   "date": "2026-07-04",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 1,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 108.1,
+   "max_distance": 374.0,
+   "max_barrel_score": 79.5
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 824334,
+   "date": "2026-07-04",
+   "player_id": 606992,
+   "player_name": "Eric Haase",
+   "team": "SF",
+   "opponent": "COL",
+   "result": "Lineout",
+   "exit_velocity": 108.1,
+   "launch_angle": 19.0,
+   "hit_distance": 374.0,
+   "hc_x": 107.56,
+   "hc_y": 49.48,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "995149ce-e08a-3559-9183-0809a699f692",
+   "distance_flag": true,
+   "would_be_hr_flag": false,
+   "barrel_score": 79.5,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  }
+ ]
+}

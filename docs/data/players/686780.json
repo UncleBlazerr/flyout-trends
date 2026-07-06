@@ -1,0 +1,59 @@
+{
+ "player_id": 686780,
+ "player_name": "Pedro Pag\u00e9s",
+ "team": "STL",
+ "as_of": "2026-07-05",
+ "form": {
+  "streak": 0,
+  "frequency": 0.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-04"
+ },
+ "days": [
+  {
+   "date": "2026-07-04",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 101.8,
+   "max_distance": 12.0,
+   "max_barrel_score": 29.1
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 824658,
+   "date": "2026-07-04",
+   "player_id": 686780,
+   "player_name": "Pedro Pag\u00e9s",
+   "team": "STL",
+   "opponent": "CHC",
+   "result": "Groundout",
+   "exit_velocity": 101.8,
+   "launch_angle": -7.0,
+   "hit_distance": 12.0,
+   "hc_x": 125.84,
+   "hc_y": 141.68,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "74298518-a094-39a8-9d34-73009ed488f1",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 29.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  }
+ ]
+}

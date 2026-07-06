@@ -1,0 +1,82 @@
+{
+ "player_id": 656976,
+ "player_name": "Pavin Smith",
+ "team": "AZ",
+ "as_of": "2026-07-05",
+ "form": {
+  "streak": 0,
+  "frequency": 0.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-05"
+ },
+ "days": [
+  {
+   "date": "2026-07-05",
+   "bbe": 2,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 107.4,
+   "max_distance": 250.0,
+   "max_barrel_score": 58.6
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 825061,
+   "date": "2026-07-05",
+   "player_id": 656976,
+   "player_name": "Pavin Smith",
+   "team": "AZ",
+   "opponent": "MIL",
+   "result": "Single",
+   "exit_velocity": 95.1,
+   "launch_angle": 18.0,
+   "hit_distance": 250.0,
+   "hc_x": 205.28,
+   "hc_y": 99.57,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "df11d531-c49b-33d0-9be3-52b7a6408bdc",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 58.6,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
+  {
+   "game_pk": 825061,
+   "date": "2026-07-05",
+   "player_id": 656976,
+   "player_name": "Pavin Smith",
+   "team": "AZ",
+   "opponent": "MIL",
+   "result": "Double Play",
+   "exit_velocity": 107.4,
+   "launch_angle": 10.0,
+   "hit_distance": 180.0,
+   "hc_x": 152.78,
+   "hc_y": 134.15,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "d9031d2c-1cd6-357b-8cc3-fa78542e281e",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 56.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  }
+ ]
+}

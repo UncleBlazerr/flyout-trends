@@ -1,0 +1,82 @@
+{
+ "player_id": 676572,
+ "player_name": "Eric Wagaman",
+ "team": "NYM",
+ "as_of": "2026-07-05",
+ "form": {
+  "streak": 0,
+  "frequency": 0.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-04"
+ },
+ "days": [
+  {
+   "date": "2026-07-04",
+   "bbe": 2,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 104.4,
+   "max_distance": 83.0,
+   "max_barrel_score": 33.6
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 824903,
+   "date": "2026-07-04",
+   "player_id": 676572,
+   "player_name": "Eric Wagaman",
+   "team": "NYM",
+   "opponent": "ATL",
+   "result": "Groundout",
+   "exit_velocity": 104.4,
+   "launch_angle": -2.0,
+   "hit_distance": 45.0,
+   "hc_x": 149.0,
+   "hc_y": 164.0,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "43044bef-e5c8-38da-b61e-3d3a802cff75",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 33.6,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
+  {
+   "game_pk": 824903,
+   "date": "2026-07-04",
+   "player_id": 676572,
+   "player_name": "Eric Wagaman",
+   "team": "NYM",
+   "opponent": "ATL",
+   "result": "Single",
+   "exit_velocity": 92.4,
+   "launch_angle": 3.0,
+   "hit_distance": 83.0,
+   "hc_x": 114.0,
+   "hc_y": 101.0,
+   "would_be_hr_count": 0,
+   "inning": 6,
+   "play_id": "e4adbfaa-d396-36a5-8f21-9f7d1cf9f0bc",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 28.7,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  }
+ ]
+}

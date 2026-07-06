@@ -1,0 +1,82 @@
+{
+ "player_id": 665804,
+ "player_name": "Miguel Amaya",
+ "team": "CHC",
+ "as_of": "2026-07-05",
+ "form": {
+  "streak": 0,
+  "frequency": 0.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-04"
+ },
+ "days": [
+  {
+   "date": "2026-07-04",
+   "bbe": 2,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 102.0,
+   "max_distance": 333.0,
+   "max_barrel_score": 69.2
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 824658,
+   "date": "2026-07-04",
+   "player_id": 665804,
+   "player_name": "Miguel Amaya",
+   "team": "CHC",
+   "opponent": "STL",
+   "result": "Lineout",
+   "exit_velocity": 102.0,
+   "launch_angle": 17.0,
+   "hit_distance": 333.0,
+   "hc_x": 181.66,
+   "hc_y": 77.17,
+   "would_be_hr_count": 0,
+   "inning": 5,
+   "play_id": "1ad383e1-d212-3fb0-98ea-c46c12821fe2",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 69.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
+  {
+   "game_pk": 824658,
+   "date": "2026-07-04",
+   "player_id": 665804,
+   "player_name": "Miguel Amaya",
+   "team": "CHC",
+   "opponent": "STL",
+   "result": "Pop Out",
+   "exit_velocity": 65.8,
+   "launch_angle": 80.0,
+   "hit_distance": 40.0,
+   "hc_x": 149.36,
+   "hc_y": 197.88,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "ab22e1a4-bb29-3734-ae9b-8d97d211d27f",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 2.7,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  }
+ ]
+}

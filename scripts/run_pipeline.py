@@ -102,7 +102,7 @@ def main() -> int:
         config["site"]["output_dir"] = str(root / config["site"]["output_dir"])
         index = build_site(events, trends, date, summary, config,
                            predictions=predictions, hit_rate=hit_rate,
-                           recent_hits=recent_hits)
+                           recent_hits=recent_hits, store=store)
         print(f"[site] rebuilt {index}", file=sys.stderr)
 
     return 1 if summary["games_failed"] else 0

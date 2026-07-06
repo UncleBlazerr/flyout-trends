@@ -1,0 +1,82 @@
+{
+ "player_id": 682668,
+ "player_name": "Luisangel Acu\u00f1a",
+ "team": "CWS",
+ "as_of": "2026-07-05",
+ "form": {
+  "streak": 1,
+  "frequency": 1.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 38.0,
+  "last_appearance": "2026-07-04"
+ },
+ "days": [
+  {
+   "date": "2026-07-04",
+   "bbe": 2,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 105.3,
+   "max_distance": 338.0,
+   "max_barrel_score": 71.4
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 824415,
+   "date": "2026-07-04",
+   "player_id": 682668,
+   "player_name": "Luisangel Acu\u00f1a",
+   "team": "CWS",
+   "opponent": "CLE",
+   "result": "Lineout",
+   "exit_velocity": 105.3,
+   "launch_angle": 16.0,
+   "hit_distance": 338.0,
+   "hc_x": 112.01,
+   "hc_y": 64.05,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "c7607ee8-62f9-3e39-a16d-977160ec4bf0",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 71.4,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
+  {
+   "game_pk": 824415,
+   "date": "2026-07-04",
+   "player_id": 682668,
+   "player_name": "Luisangel Acu\u00f1a",
+   "team": "CWS",
+   "opponent": "CLE",
+   "result": "Single",
+   "exit_velocity": 100.6,
+   "launch_angle": 14.0,
+   "hit_distance": 274.0,
+   "hc_x": 117.1,
+   "hc_y": 90.42,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "93120b0f-19f9-3819-bc91-6ca6aee6fb47",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 60.7,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  }
+ ]
+}

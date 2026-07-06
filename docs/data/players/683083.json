@@ -1,0 +1,82 @@
+{
+ "player_id": 683083,
+ "player_name": "Nasim Nu\u00f1ez",
+ "team": "WSH",
+ "as_of": "2026-07-05",
+ "form": {
+  "streak": 1,
+  "frequency": 1.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 38.0,
+  "last_appearance": "2026-07-04"
+ },
+ "days": [
+  {
+   "date": "2026-07-04",
+   "bbe": 2,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 96.4,
+   "max_distance": 340.0,
+   "max_barrel_score": 71.2
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 822716,
+   "date": "2026-07-04",
+   "player_id": 683083,
+   "player_name": "Nasim Nu\u00f1ez",
+   "team": "WSH",
+   "opponent": "PIT",
+   "result": "Lineout",
+   "exit_velocity": 96.4,
+   "launch_angle": 23.0,
+   "hit_distance": 340.0,
+   "hc_x": 112.81,
+   "hc_y": 63.13,
+   "would_be_hr_count": 0,
+   "inning": 3,
+   "play_id": "ad14975b-8371-37ae-a4c0-cb70c6c13199",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 71.2,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
+  {
+   "game_pk": 822716,
+   "date": "2026-07-04",
+   "player_id": 683083,
+   "player_name": "Nasim Nu\u00f1ez",
+   "team": "WSH",
+   "opponent": "PIT",
+   "result": "GIDP",
+   "exit_velocity": 89.5,
+   "launch_angle": -16.0,
+   "hit_distance": 7.0,
+   "hc_x": 147.76,
+   "hc_y": 151.68,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "b7588956-41f3-34d6-b4ca-726b8a088e14",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 17.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  }
+ ]
+}

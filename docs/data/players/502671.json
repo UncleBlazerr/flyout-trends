@@ -1,0 +1,82 @@
+{
+ "player_id": 502671,
+ "player_name": "Paul Goldschmidt",
+ "team": "NYY",
+ "as_of": "2026-07-05",
+ "form": {
+  "streak": 0,
+  "frequency": 0.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-04"
+ },
+ "days": [
+  {
+   "date": "2026-07-04",
+   "bbe": 2,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 103.0,
+   "max_distance": 251.0,
+   "max_barrel_score": 34.7
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 823526,
+   "date": "2026-07-04",
+   "player_id": 502671,
+   "player_name": "Paul Goldschmidt",
+   "team": "NYY",
+   "opponent": "MIN",
+   "result": "Flyout",
+   "exit_velocity": 81.6,
+   "launch_angle": 48.0,
+   "hit_distance": 251.0,
+   "hc_x": 89.02,
+   "hc_y": 106.61,
+   "would_be_hr_count": 0,
+   "inning": 6,
+   "play_id": "d27bc039-6cfa-3648-857c-671d1c9f5446",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 34.7,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
+  {
+   "game_pk": 823526,
+   "date": "2026-07-04",
+   "player_id": 502671,
+   "player_name": "Paul Goldschmidt",
+   "team": "NYY",
+   "opponent": "MIN",
+   "result": "Forceout",
+   "exit_velocity": 103.0,
+   "launch_angle": -4.0,
+   "hit_distance": 24.0,
+   "hc_x": 115.97,
+   "hc_y": 166.82,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "9b8150fc-183e-3483-b163-69c41d3a7c10",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 30.9,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  }
+ ]
+}

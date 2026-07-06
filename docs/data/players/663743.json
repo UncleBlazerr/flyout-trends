@@ -1,0 +1,59 @@
+{
+ "player_id": 663743,
+ "player_name": "Nick Fortes",
+ "team": "TB",
+ "as_of": "2026-07-05",
+ "form": {
+  "streak": 0,
+  "frequency": 0.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-05"
+ },
+ "days": [
+  {
+   "date": "2026-07-05",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 75.0,
+   "max_distance": 90.0,
+   "max_barrel_score": 10.4
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 824172,
+   "date": "2026-07-05",
+   "player_id": 663743,
+   "player_name": "Nick Fortes",
+   "team": "TB",
+   "opponent": "HOU",
+   "result": "Pop Out",
+   "exit_velocity": 75.0,
+   "launch_angle": 76.0,
+   "hit_distance": 90.0,
+   "hc_x": 164.68,
+   "hc_y": 180.48,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "cd0d8fd9-a3d0-36e0-8a6b-bb2cfa53bc94",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 10.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  }
+ ]
+}

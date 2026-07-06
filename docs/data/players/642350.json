@@ -1,0 +1,82 @@
+{
+ "player_id": 642350,
+ "player_name": "Jose Siri",
+ "team": "LAA",
+ "as_of": "2026-07-05",
+ "form": {
+  "streak": 0,
+  "frequency": 0.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-05"
+ },
+ "days": [
+  {
+   "date": "2026-07-05",
+   "bbe": 2,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 89.3,
+   "max_distance": 203.0,
+   "max_barrel_score": 30.7
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 824010,
+   "date": "2026-07-05",
+   "player_id": 642350,
+   "player_name": "Jose Siri",
+   "team": "LAA",
+   "opponent": "BOS",
+   "result": "Pop Out",
+   "exit_velocity": 89.3,
+   "launch_angle": 59.0,
+   "hit_distance": 203.0,
+   "hc_x": 146.93,
+   "hc_y": 122.44,
+   "would_be_hr_count": 0,
+   "inning": 3,
+   "play_id": "d392296b-9ba2-3d8a-b135-12cf6caa4c85",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 30.7,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
+  {
+   "game_pk": 824010,
+   "date": "2026-07-05",
+   "player_id": 642350,
+   "player_name": "Jose Siri",
+   "team": "LAA",
+   "opponent": "BOS",
+   "result": "Groundout",
+   "exit_velocity": 85.6,
+   "launch_angle": -46.0,
+   "hit_distance": 3.0,
+   "hc_x": 110.17,
+   "hc_y": 172.0,
+   "would_be_hr_count": 0,
+   "inning": 6,
+   "play_id": "04e49b97-a186-3b8f-bc92-cafe954c03bc",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 14.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  }
+ ]
+}

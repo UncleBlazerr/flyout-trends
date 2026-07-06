@@ -1,0 +1,59 @@
+{
+ "player_id": 641857,
+ "player_name": "Ryan McMahon",
+ "team": "NYY",
+ "as_of": "2026-07-05",
+ "form": {
+  "streak": 0,
+  "frequency": 0.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-04"
+ },
+ "days": [
+  {
+   "date": "2026-07-04",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 68.4,
+   "max_distance": 129.0,
+   "max_barrel_score": 25.0
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 823526,
+   "date": "2026-07-04",
+   "player_id": 641857,
+   "player_name": "Ryan McMahon",
+   "team": "NYY",
+   "opponent": "MIN",
+   "result": "Groundout",
+   "exit_velocity": 68.4,
+   "launch_angle": 15.0,
+   "hit_distance": 129.0,
+   "hc_x": 144.21,
+   "hc_y": 155.23,
+   "would_be_hr_count": 0,
+   "inning": 6,
+   "play_id": "d3ea39e9-0b1e-3b39-8aac-cff722560268",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 25.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  }
+ ]
+}

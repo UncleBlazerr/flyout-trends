@@ -1,0 +1,82 @@
+{
+ "player_id": 642201,
+ "player_name": "Eli White",
+ "team": "ATL",
+ "as_of": "2026-07-05",
+ "form": {
+  "streak": 0,
+  "frequency": 0.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-04"
+ },
+ "days": [
+  {
+   "date": "2026-07-04",
+   "bbe": 2,
+   "hr": 1,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 93.5,
+   "max_distance": 358.0,
+   "max_barrel_score": 73.1
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 824903,
+   "date": "2026-07-04",
+   "player_id": 642201,
+   "player_name": "Eli White",
+   "team": "ATL",
+   "opponent": "NYM",
+   "result": "Home Run",
+   "exit_velocity": 93.5,
+   "launch_angle": 29.0,
+   "hit_distance": 358.0,
+   "hc_x": 27.93,
+   "hc_y": 91.89,
+   "would_be_hr_count": 21,
+   "inning": 2,
+   "play_id": "1d76b2c4-ddd0-32d7-9101-29844ded2888",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 73.1,
+   "barrel_flag": false,
+   "is_home_run": true,
+   "is_near_hr": false
+  },
+  {
+   "game_pk": 824903,
+   "date": "2026-07-04",
+   "player_id": 642201,
+   "player_name": "Eli White",
+   "team": "ATL",
+   "opponent": "NYM",
+   "result": "Double",
+   "exit_velocity": 78.2,
+   "launch_angle": 54.0,
+   "hit_distance": 226.0,
+   "hc_x": 112.38,
+   "hc_y": 111.22,
+   "would_be_hr_count": 0,
+   "inning": 3,
+   "play_id": "8017c760-3ece-3d3f-a016-97e3c7a2f23f",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 23.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  }
+ ]
+}

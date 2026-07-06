@@ -1,0 +1,82 @@
+{
+ "player_id": 668885,
+ "player_name": "Austin Martin",
+ "team": "MIN",
+ "as_of": "2026-07-05",
+ "form": {
+  "streak": 0,
+  "frequency": 0.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-05"
+ },
+ "days": [
+  {
+   "date": "2026-07-05",
+   "bbe": 2,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 93.6,
+   "max_distance": 266.0,
+   "max_barrel_score": 56.9
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 823525,
+   "date": "2026-07-05",
+   "player_id": 668885,
+   "player_name": "Austin Martin",
+   "team": "MIN",
+   "opponent": "NYY",
+   "result": "Double",
+   "exit_velocity": 88.3,
+   "launch_angle": 21.0,
+   "hit_distance": 266.0,
+   "hc_x": 207.63,
+   "hc_y": 111.6,
+   "would_be_hr_count": 0,
+   "inning": 1,
+   "play_id": "10ee8879-1e8b-3fb4-8bb6-ad21ef9cd70c",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 56.9,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
+  {
+   "game_pk": 823525,
+   "date": "2026-07-05",
+   "player_id": 668885,
+   "player_name": "Austin Martin",
+   "team": "MIN",
+   "opponent": "NYY",
+   "result": "Single",
+   "exit_velocity": 93.6,
+   "launch_angle": 14.0,
+   "hit_distance": 226.0,
+   "hc_x": 129.78,
+   "hc_y": 83.29,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "6504c7ac-43f5-3bf7-acf9-e401784e2972",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 51.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  }
+ ]
+}

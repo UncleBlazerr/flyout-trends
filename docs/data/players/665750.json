@@ -1,0 +1,82 @@
+{
+ "player_id": 665750,
+ "player_name": "Leody Taveras",
+ "team": "BAL",
+ "as_of": "2026-07-05",
+ "form": {
+  "streak": 0,
+  "frequency": 0.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-04"
+ },
+ "days": [
+  {
+   "date": "2026-07-04",
+   "bbe": 2,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 67.4,
+   "max_distance": 146.0,
+   "max_barrel_score": 9.7
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 824499,
+   "date": "2026-07-04",
+   "player_id": 665750,
+   "player_name": "Leody Taveras",
+   "team": "BAL",
+   "opponent": "CIN",
+   "result": "Pop Out",
+   "exit_velocity": 67.4,
+   "launch_angle": 63.0,
+   "hit_distance": 146.0,
+   "hc_x": 87.23,
+   "hc_y": 147.34,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "833e3107-4f25-3621-9814-006493e996bf",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 9.7,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
+  {
+   "game_pk": 824499,
+   "date": "2026-07-04",
+   "player_id": 665750,
+   "player_name": "Leody Taveras",
+   "team": "BAL",
+   "opponent": "CIN",
+   "result": "Groundout",
+   "exit_velocity": 60.4,
+   "launch_angle": -2.0,
+   "hit_distance": 31.0,
+   "hc_x": 127.72,
+   "hc_y": 180.78,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "e2741807-d657-37b0-98ef-a59e50601c82",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 2.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  }
+ ]
+}

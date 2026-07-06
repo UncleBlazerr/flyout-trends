@@ -1,12 +1,16 @@
-"""Static site builder: renders docs/index.html + JSON payloads for GitHub Pages."""
+"""Static site builder: renders docs/index.html, docs/player.html and JSON
+payloads (including one file per active player) for GitHub Pages."""
 from __future__ import annotations
 
 import json
-from datetime import datetime, timezone
+import sys
+from collections import defaultdict
+from datetime import date as date_cls, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
 from .models import BattedBallEvent
+from .prediction import player_form
 
 INDEX_HTML = r"""<!DOCTYPE html>
 <html lang="en">
@@ -41,6 +45,8 @@ INDEX_HTML = r"""<!DOCTYPE html>
   .flag { display:inline-block; padding:0 6px; border-radius:10px; font-size:11.5px;
           background:#2a3550; color:var(--muted); margin-right:3px; }
   .flag.on { background:var(--accent); color:#1a1405; font-weight:600; }
+  a.pl { color:var(--text); text-decoration:none; border-bottom:1px dotted var(--muted); }
+  a.pl:hover { color:var(--accent); border-bottom-color:var(--accent); }
   .hits { display:flex; gap:8px; flex-wrap:wrap; margin:4px 0 12px; }
   .hit-chip { background:#1e3320; border:1px solid #3f6b3c; border-radius:8px;
               padding:4px 10px; font-size:12.5px; }
@@ -166,6 +172,15 @@ function td(v, num) {
   c.textContent = (v === null || v === undefined) ? "—" : v;
   return c;
 }
+function tdPlayer(name, id) {
+  const c = document.createElement("td");
+  const a = document.createElement("a");
+  a.className = "pl";
+  a.href = "player.html?id=" + id;
+  a.textContent = name;
+  c.append(a);
+  return c;
+}
 function cmp(a, b, k, dir) {
   const x = a[k], y = b[k];
   if (x === y) return 0;
@@ -201,7 +216,7 @@ function renderEvents() {
   body.innerHTML = "";
   for (const e of rows) {
     const tr = document.createElement("tr");
-    tr.append(td(e.player_name), td(e.team), td(e.opponent), td(e.result),
+    tr.append(tdPlayer(e.player_name, e.player_id), td(e.team), td(e.opponent), td(e.result),
       td(e.exit_velocity, 1), td(e.launch_angle, 1), td(e.hit_distance, 1),
       td(e.would_be_hr_count, 1), td(e.barrel_score, 1));
     const flags = document.createElement("td");
@@ -225,7 +240,7 @@ function renderTrends() {
   const team = document.getElementById("tr-team").value;
   const hotOnly = document.getElementById("tr-hot").checked;
   let rows = state.trends.players
-    .map(p => ({ player_name: p.player_name, team: p.team,
+    .map(p => ({ player_id: p.player_id, player_name: p.player_name, team: p.team,
                  heating_up: p.heating_up, ...p.windows[w] }))
     .filter(r => r.near_hr_any > 0 || r.hr > 0)
     .filter(r => (!team || r.team === team) && (!hotOnly || r.heating_up));
@@ -234,7 +249,7 @@ function renderTrends() {
   body.innerHTML = "";
   for (const r of rows) {
     const tr = document.createElement("tr");
-    tr.append(td(r.player_name), td(r.team), td(r.near_hr_any, 1),
+    tr.append(tdPlayer(r.player_name, r.player_id), td(r.team), td(r.near_hr_any, 1),
       td(r.near_hr_distance, 1), td(r.near_hr_parks, 1), td(r.near_hr_barrel, 1),
       td(r.hr, 1), td(r.max_ev_near_hr, 1), td(r.avg_ev_near_hr, 1),
       td(r.would_be_hr_parks_sum, 1), td(r.parks_slope, 1), td(r.trend_direction));
@@ -281,7 +296,7 @@ function renderLikely() {
   body.innerHTML = "";
   p.players.forEach((r, i) => {
     const tr = document.createElement("tr");
-    const nameCell = td(r.player_name);
+    const nameCell = tdPlayer(r.player_name, r.player_id);
     if (r.repeat) {
       const badge = document.createElement("span");
       badge.className = "repeat";
@@ -362,12 +377,208 @@ init().catch(err => {
 """
 
 
+PLAYER_HTML = r"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Player — __TITLE__</title>
+<style>
+  :root { --bg:#0f1420; --panel:#1a2233; --text:#e8ecf4; --muted:#8fa0bd;
+          --accent:#f4b942; --hot:#ff6b57; --line:#2a3550; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text);
+         font:15px/1.5 system-ui, "Segoe UI", sans-serif; }
+  header { padding:24px 28px 8px; }
+  h1 { margin:0 0 4px; font-size:26px; }
+  .sub { color:var(--muted); font-size:13px; }
+  main { padding:12px 28px 60px; max-width:1280px; }
+  section { margin-top:28px; }
+  h2 { font-size:18px; border-bottom:1px solid var(--line); padding-bottom:6px; }
+  table { border-collapse:collapse; width:100%; background:var(--panel);
+          border-radius:8px; overflow:hidden; font-size:13.5px; }
+  th, td { padding:7px 10px; text-align:left; border-bottom:1px solid var(--line); }
+  th { color:var(--muted); white-space:nowrap; }
+  tr:hover td { background:#212c44; }
+  td.num, th.num { text-align:right; font-variant-numeric:tabular-nums; }
+  .flag { display:inline-block; padding:0 6px; border-radius:10px; font-size:11.5px;
+          background:#2a3550; color:var(--muted); margin-right:3px; }
+  .flag.on { background:var(--accent); color:#1a1405; font-weight:600; }
+  .flag.hr { background:var(--hot); color:#fff; font-weight:600; }
+  .stats { display:flex; gap:12px; flex-wrap:wrap; margin:14px 0 4px; }
+  .stat { background:var(--panel); border:1px solid var(--line); border-radius:8px;
+          padding:10px 16px; min-width:110px; }
+  .stat .v { font-size:22px; font-weight:700; }
+  .stat .l { font-size:11.5px; color:var(--muted); }
+  a.back { color:var(--accent); text-decoration:none; font-size:13px; }
+  .note { font-size:12px; color:var(--muted); margin-top:8px; }
+</style>
+</head>
+<body>
+<header>
+  <a class="back" href="index.html">← back to dashboard</a>
+  <h1 id="p-name">Loading…</h1>
+  <div class="sub" id="p-sub"></div>
+  <div class="stats" id="p-stats"></div>
+</header>
+<main>
+  <section>
+    <h2>Day by day</h2>
+    <table id="p-days">
+      <thead><tr>
+        <th>Date</th>
+        <th class="num">Batted balls</th>
+        <th class="num">Near-HR</th>
+        <th class="num">2B/3B near-HR</th>
+        <th class="num">HR</th>
+        <th class="num">Max EV</th>
+        <th class="num">Max dist</th>
+        <th class="num">Σ HR parks</th>
+        <th class="num">Best barrel</th>
+      </tr></thead>
+      <tbody></tbody>
+    </table>
+  </section>
+  <section>
+    <h2>Batted balls (last 30 days)</h2>
+    <table id="p-events">
+      <thead><tr>
+        <th>Date</th>
+        <th>Result</th>
+        <th class="num">EV (mph)</th>
+        <th class="num">LA (°)</th>
+        <th class="num">Dist (ft)</th>
+        <th class="num">HR parks</th>
+        <th class="num">Barrel score</th>
+        <th>Flags</th>
+      </tr></thead>
+      <tbody></tbody>
+    </table>
+    <p class="note">Every tracked batted ball, newest first. Highlighted flags are the
+    near-HR definitions this ball met; HR marks actual home runs. These are the results
+    behind the player's expectancy score and trend rank.</p>
+  </section>
+</main>
+<script>
+const bust = "?v=" + Date.now();
+function td(v, num) {
+  const c = document.createElement("td");
+  if (num) c.className = "num";
+  c.textContent = (v === null || v === undefined) ? "—" : v;
+  return c;
+}
+function stat(label, value) {
+  const d = document.createElement("div");
+  d.className = "stat";
+  d.innerHTML = `<div class="v">${value}</div><div class="l">${label}</div>`;
+  return d;
+}
+async function init() {
+  const id = new URLSearchParams(location.search).get("id");
+  if (!id) throw new Error("no player id in URL");
+  const p = await fetch(`data/players/${encodeURIComponent(id)}.json` + bust)
+    .then(r => { if (!r.ok) throw new Error("no data for player " + id); return r.json(); });
+
+  document.title = p.player_name + " — HR proximity";
+  document.getElementById("p-name").textContent = p.player_name;
+  document.getElementById("p-sub").textContent =
+    `${p.team} · data through ${p.as_of}`;
+
+  const stats = document.getElementById("p-stats");
+  if (p.form) {
+    stats.append(
+      stat("Expectancy", p.form.expectancy_score),
+      stat("Streak", p.form.streak + (p.form.streak === 1 ? " game" : " games")),
+      stat("Qualifying rate", Math.round(p.form.frequency * 100) + "%"),
+      stat("EV slope", p.form.slopes.max_ev),
+      stat("Parks slope", p.form.slopes.parks_sum));
+  }
+
+  const dbody = document.querySelector("#p-days tbody");
+  for (const d of p.days) {
+    const tr = document.createElement("tr");
+    tr.append(td(d.date), td(d.bbe, 1), td(d.near_hr_any, 1),
+      td(d.near_hr_xbh, 1), td(d.hr, 1), td(d.max_ev, 1),
+      td(d.max_distance, 1), td(d.would_be_hr_parks_sum, 1),
+      td(d.max_barrel_score, 1));
+    dbody.append(tr);
+  }
+
+  const ebody = document.querySelector("#p-events tbody");
+  for (const e of p.events) {
+    const tr = document.createElement("tr");
+    tr.append(td(e.date), td(e.result), td(e.exit_velocity, 1),
+      td(e.launch_angle, 1), td(e.hit_distance, 1),
+      td(e.would_be_hr_count, 1), td(e.barrel_score, 1));
+    const flags = document.createElement("td");
+    if (e.result === "Home Run") {
+      const s = document.createElement("span");
+      s.className = "flag hr";
+      s.textContent = "HR";
+      flags.append(s);
+    }
+    for (const [label, on] of [["DIST", e.distance_flag],
+        ["PARKS", e.would_be_hr_flag], ["BRL", e.barrel_flag]]) {
+      const s = document.createElement("span");
+      s.className = "flag" + (on ? " on" : "");
+      s.textContent = label;
+      flags.append(s);
+    }
+    tr.append(flags);
+    ebody.append(tr);
+  }
+}
+init().catch(err => {
+  document.getElementById("p-name").textContent = "Player not found";
+  document.getElementById("p-sub").textContent = String(err);
+});
+</script>
+</body>
+</html>
+"""
+
+
+def _write_player_pages(out: Path, store: Any, as_of: str,
+                        config: dict[str, Any]) -> int:
+    """One JSON per player active in the trends window: their day-by-day
+    rollup, current form, and every tracked batted ball."""
+    window = max(config["trends"]["windows"])
+    start = (date_cls.fromisoformat(as_of)
+             - timedelta(days=window - 1)).isoformat()
+    by_player: dict[int, list[BattedBallEvent]] = defaultdict(list)
+    for e in store.read_range(start, as_of):
+        by_player[e.player_id].append(e)
+    player_days = store.read_player_days()
+
+    pdir = out / "data" / "players"
+    pdir.mkdir(parents=True, exist_ok=True)
+    for pid, evs in by_player.items():
+        latest = max(evs, key=lambda e: e.date)
+        days = {d: v for d, v in
+                player_days.get(str(pid), {}).get("days", {}).items()
+                if start <= d <= as_of}
+        evs.sort(key=lambda e: (e.date, e.barrel_score), reverse=True)
+        payload = {
+            "player_id": pid,
+            "player_name": latest.player_name,
+            "team": latest.team,
+            "as_of": as_of,
+            "form": player_form(days, as_of, config) if days else None,
+            "days": [{"date": d, **days[d]} for d in sorted(days, reverse=True)],
+            "events": [e.to_dict() for e in evs],
+        }
+        (pdir / f"{pid}.json").write_text(
+            json.dumps(payload, indent=1), encoding="utf-8")
+    return len(by_player)
+
+
 def build_site(events: list[BattedBallEvent], trends: dict[str, Any],
                date: str, ingest_summary: dict[str, Any],
                config: dict[str, Any],
                predictions: dict[str, Any] | None = None,
                hit_rate: dict[str, Any] | None = None,
-               recent_hits: list[dict[str, Any]] | None = None) -> Path:
+               recent_hits: list[dict[str, Any]] | None = None,
+               store: Any | None = None) -> Path:
     """Write index.html + data JSON into the GitHub Pages source dir (docs/)."""
     out = Path(config["site"]["output_dir"])
     data_dir = out / "data"
@@ -393,6 +604,13 @@ def build_site(events: list[BattedBallEvent], trends: dict[str, Any],
                    "recent_hits": recent_hits or []}
         (data_dir / "predictions.json").write_text(
             json.dumps(payload, indent=1), encoding="utf-8")
+
+    if store is not None:
+        n = _write_player_pages(out, store, date, config)
+        (out / "player.html").write_text(
+            PLAYER_HTML.replace("__TITLE__", config["site"]["title"]),
+            encoding="utf-8")
+        print(f"[site] wrote {n} player pages", file=sys.stderr)
 
     html = INDEX_HTML.replace("__TITLE__", config["site"]["title"])
     index = out / "index.html"

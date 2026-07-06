@@ -1,0 +1,59 @@
+{
+ "player_id": 665926,
+ "player_name": "Andr\u00e9s Gim\u00e9nez",
+ "team": "TOR",
+ "as_of": "2026-07-05",
+ "form": {
+  "streak": 0,
+  "frequency": 0.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-04"
+ },
+ "days": [
+  {
+   "date": "2026-07-04",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 95.9,
+   "max_distance": 279.0,
+   "max_barrel_score": 47.1
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 823118,
+   "date": "2026-07-04",
+   "player_id": 665926,
+   "player_name": "Andr\u00e9s Gim\u00e9nez",
+   "team": "TOR",
+   "opponent": "SEA",
+   "result": "Flyout",
+   "exit_velocity": 95.9,
+   "launch_angle": 50.0,
+   "hit_distance": 279.0,
+   "hc_x": 79.42,
+   "hc_y": 97.75,
+   "would_be_hr_count": 0,
+   "inning": 3,
+   "play_id": "c6045461-2dd9-3910-adbb-45ef1659fd5a",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 47.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  }
+ ]
+}

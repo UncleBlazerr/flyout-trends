@@ -1,0 +1,82 @@
+{
+ "player_id": 657136,
+ "player_name": "Connor Wong",
+ "team": "BOS",
+ "as_of": "2026-07-05",
+ "form": {
+  "streak": 0,
+  "frequency": 0.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-04"
+ },
+ "days": [
+  {
+   "date": "2026-07-04",
+   "bbe": 2,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 72.5,
+   "max_distance": 207.0,
+   "max_barrel_score": 37.8
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 824012,
+   "date": "2026-07-04",
+   "player_id": 657136,
+   "player_name": "Connor Wong",
+   "team": "BOS",
+   "opponent": "LAA",
+   "result": "Single",
+   "exit_velocity": 72.5,
+   "launch_angle": 20.0,
+   "hit_distance": 207.0,
+   "hc_x": 154.56,
+   "hc_y": 103.53,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "7ce5b349-83ee-3c89-ab45-840e116a4e54",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 37.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
+  {
+   "game_pk": 824012,
+   "date": "2026-07-04",
+   "player_id": 657136,
+   "player_name": "Connor Wong",
+   "team": "BOS",
+   "opponent": "LAA",
+   "result": "Groundout",
+   "exit_velocity": 46.9,
+   "launch_angle": -8.0,
+   "hit_distance": 17.0,
+   "hc_x": 137.06,
+   "hc_y": 158.78,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "b8b28212-00db-3b41-8d77-0a82e08fc32e",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 1.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "player_id": 571448,
+ "player_name": "Nolan Arenado",
+ "team": "AZ",
+ "as_of": "2026-07-05",
+ "form": {
+  "streak": 0,
+  "frequency": 0.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-04"
+ },
+ "days": [
+  {
+   "date": "2026-07-04",
+   "bbe": 2,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 89.0,
+   "max_distance": 318.0,
+   "max_barrel_score": 59.6
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 825063,
+   "date": "2026-07-04",
+   "player_id": 571448,
+   "player_name": "Nolan Arenado",
+   "team": "AZ",
+   "opponent": "MIL",
+   "result": "Lineout",
+   "exit_velocity": 82.9,
+   "launch_angle": 26.0,
+   "hit_distance": 296.0,
+   "hc_x": 114.69,
+   "hc_y": 81.19,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "20daeff0-6d2a-3a63-a495-d37d9eea8093",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 59.6,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
+  {
+   "game_pk": 825063,
+   "date": "2026-07-04",
+   "player_id": 571448,
+   "player_name": "Nolan Arenado",
+   "team": "AZ",
+   "opponent": "MIL",
+   "result": "Flyout",
+   "exit_velocity": 89.0,
+   "launch_angle": 38.0,
+   "hit_distance": 318.0,
+   "hc_x": 94.55,
+   "hc_y": 75.5,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "af44bd50-f4ca-340f-951d-3a1bd6bec8ec",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 56.6,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  }
+ ]
+}

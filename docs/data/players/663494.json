@@ -1,0 +1,82 @@
+{
+ "player_id": 663494,
+ "player_name": "Bryan Torres",
+ "team": "STL",
+ "as_of": "2026-07-05",
+ "form": {
+  "streak": 0,
+  "frequency": 0.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-05"
+ },
+ "days": [
+  {
+   "date": "2026-07-05",
+   "bbe": 2,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 97.2,
+   "max_distance": 217.0,
+   "max_barrel_score": 36.4
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 824656,
+   "date": "2026-07-05",
+   "player_id": 663494,
+   "player_name": "Bryan Torres",
+   "team": "STL",
+   "opponent": "CHC",
+   "result": "Pop Out",
+   "exit_velocity": 97.2,
+   "launch_angle": 59.0,
+   "hit_distance": 184.0,
+   "hc_x": 142.91,
+   "hc_y": 129.64,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "d6dcbb4b-b1b2-38df-bd63-df50ef445304",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 36.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
+  {
+   "game_pk": 824656,
+   "date": "2026-07-05",
+   "player_id": 663494,
+   "player_name": "Bryan Torres",
+   "team": "STL",
+   "opponent": "CHC",
+   "result": "Flyout",
+   "exit_velocity": 74.1,
+   "launch_angle": 44.0,
+   "hit_distance": 217.0,
+   "hc_x": 119.93,
+   "hc_y": 114.15,
+   "would_be_hr_count": 0,
+   "inning": 5,
+   "play_id": "f15f68f4-6b69-3d1a-98ac-dc8d43aec7c3",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 30.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  }
+ ]
+}

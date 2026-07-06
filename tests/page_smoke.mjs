@@ -7,15 +7,16 @@ const require = createRequire("file:///" + process.env.TEMP.replace(/\\/g, "/") 
 const { JSDOM } = require("jsdom");
 
 const BASE = "http://localhost:8123/";
-const dom = await JSDOM.fromURL(BASE, {
+const loadPage = (url) => JSDOM.fromURL(url, {
   resources: "usable",
   runScripts: "dangerously",
   pretendToBeVisual: true,
   beforeParse(window) {
     // jsdom has no fetch; bridge to Node's, resolving page-relative URLs.
-    window.fetch = (url, opts) => fetch(new URL(url, BASE).href, opts);
+    window.fetch = (u, opts) => fetch(new URL(u, BASE).href, opts);
   },
 });
+const dom = await loadPage(BASE);
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const doc = dom.window.document;
@@ -86,6 +87,29 @@ if (filtered.length === 0) fail("team filter produced zero rows");
 const badTeam = filtered.find((r) => r.querySelectorAll("td")[1].textContent !== teamSel.value);
 if (badTeam) fail("team filter leaked another team");
 console.log(`team filter '${teamSel.value}': ${filtered.length} rows, all match`);
+
+// Player pages: names must link to player.html, and the page must render
+// the day-by-day and batted-ball tables for that player.
+const link = doc.querySelector("#likely tbody a.pl");
+if (!link) fail("player links missing from most-likely table");
+if (!doc.querySelector("#events tbody a.pl") || !doc.querySelector("#trends tbody a.pl"))
+  fail("player links missing from events/trends tables");
+const pdom = await loadPage(new URL(link.getAttribute("href"), BASE).href);
+const pdoc = pdom.window.document;
+let pok = false;
+for (let i = 0; i < 40; i++) {
+  await sleep(250);
+  if (pdoc.querySelectorAll("#p-events tbody tr").length > 0 &&
+      pdoc.querySelectorAll("#p-days tbody tr").length > 0) { pok = true; break; }
+}
+const pname = pdoc.getElementById("p-name").textContent;
+if (!pok) fail("player page never rendered: " + pname + " / " +
+  pdoc.getElementById("p-sub").textContent);
+if (pname !== link.textContent) fail(`player page name '${pname}' != link '${link.textContent}'`);
+if (pdoc.querySelectorAll("#p-stats .stat").length === 0) fail("player stat tiles missing");
+console.log("player page:", pname, "| days:",
+  pdoc.querySelectorAll("#p-days tbody tr").length, "| batted balls:",
+  pdoc.querySelectorAll("#p-events tbody tr").length);
 
 console.log("PAGE SMOKE TEST PASSED");
 process.exit(0);
