@@ -5,6 +5,20 @@ on:
   schedule:
     # GitHub schedules use UTC; 08:00 UTC is midnight PST.
     - cron: "0 8 * * *"
+  push:
+    branches: [main]
+    # Only re-run when real code/config changed — not on the twice-daily data
+    # commits (data/, docs/) or the merged OpenWiki update PR itself
+    # (openwiki/), or every push would trigger another doc-gen run.
+    paths-ignore:
+      - "data/**"
+      - "docs/**"
+      - "openwiki/**"
+      - "*.md"
+
+concurrency:
+  group: openwiki-update
+  cancel-in-progress: true
 
 permissions:
   contents: write
