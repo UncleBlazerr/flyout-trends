@@ -18,6 +18,8 @@
 - [x] Phase 5 — Correlation: aggregate rollup into temp-band × wind-class cells (HR rate, near-HR rate, near-HR→HR follow-through, sample counts; `min_samples` gating), emit `docs/data/weather.json`
   - Branch: feature/weather-correlation
   - Commit: 9ddaecb — verified with real data (85+/out HR-day rate 0.205 vs 70-85/in 0.051; gating + dome row + censoring all correct). Rollup gains `weather_condition`; after merging, re-run `backfill.py --start 2026-07-04` on main so the live rollup picks the field up
-- [ ] Phase 6 — Dashboard: weather column in "Most likely to homer" + near-HR events tables, correlation panel from `weather.json`, player-page day rows; extend `tests/page_smoke.mjs`
+- [x] Phase 6 — Dashboard: weather column in "Most likely to homer" + near-HR events tables, correlation panel from `weather.json`, player-page day rows; extend `tests/page_smoke.mjs`
   - Branch: feature/weather-ui
+  - Commit: 9927ff2 — Adj + Next-game columns (ranking by Adj), events/player-day Wx columns, HR-rate-by-weather panel; jsdom smoke test extended and passing (SMOKE_PORT override added)
+  - Merged: phases 4-6 merged to main as part of the 0a06656 push with rollup condition backfill + site rebuild
 - [ ] Phase 7 — Docs: README, CLAUDE.md (weather source + gotchas), openwiki pages, config comments (rolled into each phase's PR)

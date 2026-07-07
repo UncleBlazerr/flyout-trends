@@ -207,3 +207,35 @@ branch to avoid data-file merge conflicts with tonight's 23:00 ET cron.
 
 **Next:** Phase 6 — dashboard weather columns + correlation panel
 (`feature/weather-ui`).
+
+## 2026-07-06 — Phase 6 (dashboard weather UI) complete; phases 4-6 merged
+
+**Commits:** 9927ff2 (UI) on `feature/weather-ui`; merged to main with
+phases 4-5; data/docs refresh 0a06656.
+
+**UI changes (`hr_tracker/site.py`):**
+- Most-likely table: new Adj column (weather-adjusted score; rows rank by
+  it, tooltip carries the factor) and Next-game column (upcoming game's
+  temp + park-relative wind via shared `wxText` JS helper: ↑out ↓in ↔cross;
+  Dome/Roof Closed shown as-is). Section note explains the adjustment.
+- Expectancy chart plots the adjusted score; tooltip gains a
+  "Next: <weather> · weather ×f" line; title says "Weather-adjusted".
+- Near-HR events table + player-page day table: Wx column.
+- New "HR rate by weather" section rendering docs/data/weather.json:
+  temp-band x wind rows + dome row, "collecting (n/min)" gating, self-
+  explanatory note.
+- `tests/page_smoke.mjs`: asserts adjusted-order ranking (td[4]), Next-game
+  and events/player Wx cells, weather panel rows/note, new table order; port
+  overridable via SMOKE_PORT (three stale http.servers were squatting 8123 —
+  killed, but the env override future-proofs it).
+
+**Verification:** jsdom smoke test PASSED against a scratch-built site
+(adjusted top score 72.6 rendered, weather panel 8 rows, player day Wx).
+
+**Merge + data (main):** merged phases 4-6 (84 tests pass), ran
+`backfill.py --start 2026-07-04 --end 2026-07-06` so rollup days carry
+weather_condition, then the full pipeline for 07-06 (5/8 games final at run
+time; the 23:00 ET cron and tomorrow's --yesterday run pick up the rest).
+Correlation now spans 531 outdoor + 133 dome player-days. Pushed as 0a06656.
+
+**Remaining:** Phase 7 docs (README/CLAUDE.md/openwiki) — not started.
