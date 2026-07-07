@@ -79,7 +79,8 @@ what trends and prediction read — they never re-scan raw event files.
           "near_hr_distance": 1, "near_hr_parks": 2, "near_hr_barrel": 1,
           "would_be_hr_parks_sum": 14,
           "max_ev": 109.3, "max_distance": 391.0, "max_barrel_score": 82.5,
-          "temp_f": 89.0, "wind_mph": 5.0, "wind_dir": "out"
+          "temp_f": 89.0, "wind_mph": 5.0, "wind_dir": "out",
+          "weather_condition": "Clear"
         }
       }
     }
@@ -105,6 +106,7 @@ Rollup day fields:
 | `temp_f` | Game temperature (°F) — from schedule weather, first event's value wins |
 | `wind_mph` | Wind speed (mph) — from schedule weather |
 | `wind_dir` | Wind direction class: `out`/`in`/`cross`/`none`/`varies` |
+| `weather_condition` | Weather condition text (e.g. "Clear", "Dome") — from schedule weather |
 
 **Note:** Rollup days written before the `near_hr_any` field existed are
 handled by the `_near_hr_any()` fallback in `prediction.py`, which reconstructs
@@ -139,6 +141,7 @@ runtime:
 | `predictions.json` | Most-Likely list + empirical bands + hit rate + recent hits |
 | `consistency.json` | Consistency leaderboard |
 | `analysis.json` | LLM-written daily blurb (written by Hermes, shown while `as_of` matches) |
+| `weather.json` | League-wide HR-vs-weather correlation table (temp × wind cells + dome row) |
 | `players/<player_id>.json` | Per-player: form, day-by-day rollup, every tracked batted ball |
 
 ## BattedBallEvent dataclass

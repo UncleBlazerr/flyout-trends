@@ -62,10 +62,13 @@ python scripts/run_pipeline.py --skip-site
 # Include in-progress games
 python scripts/run_pipeline.py --include-unfinished
 
+# Use a custom config file
+python scripts/run_pipeline.py --config path/to/config.yaml
+
 # Backfill a historical range (oldest first, data only, no site rebuild)
 python scripts/backfill.py --days 2
 python scripts/backfill.py --start 2026-07-01 --end 2026-07-04
-python scripts/backfill.py --sleep 2.0    # be polite between dates
+python scripts/backfill.py --sleep 2.0    # be polite between dates (default 1.0s)
 ```
 
 ### Viewing the dashboard locally
@@ -106,6 +109,7 @@ python -m pytest tests/ -q
 | `tests/test_ingest.py` | Gamefeed parsing, string-to-float conversion, deduplication, missing-field handling, roundtrip serialization |
 | `tests/test_store_trends.py` | Store write/read roundtrip, immutability across dates, rollup replacement, `linear_slope`, `compute_trends` with `heating_up` |
 | `tests/test_prediction.py` | Streak computation (gaps, staleness, non-qualifying days), expectancy scoring, empirical rates, prediction records, cross-check, consistency leaderboard |
+| `tests/test_weather.py` | Weather correlation table, temperature band labels, bucketing, rate hiding behind min_samples |
 | `tests/test_site.py` | `build_site` writes player pages, player pages span the trend window, form data correctness |
 
 `tests/conftest.py` provides a session-scoped `config` fixture that loads

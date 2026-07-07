@@ -97,13 +97,40 @@ only.
 Each ranked player carries:
 - `expectancy_score`, `streak`, `frequency`, `slopes` (max_ev / parks_sum /
   near_hr)
+- `weather_factor`, `adjusted_score` (= `expectancy_score × weather_factor`)
+- `game_weather` (venue/temp/wind from the player's upcoming game, or null)
 - `near_hr_7d`, `near_hr_xbh_7d`, `hr_7d`, `max_ev_7d`, `max_distance_7d`
   (informational — HR count doesn't move the score)
 - `band` label and `band_rate` (empirical follow-up rate, or null)
+- `band_samples` (number of historical samples in the player's band)
 - `repeat` (also flagged on the previous pull)
 
-Players are sorted by expectancy score, then by `near_hr_7d`. The list is
+Players are sorted by `adjusted_score`, then by `near_hr_7d`. The list is
 truncated to `prediction.top_n` (default 15).
+
+## Weather adjustment
+
+`weather_factor()` applies a multiplier to the ranking score based on the
+player's upcoming-game forecast (fetched by `ingest.upcoming_team_weather()`
+for the day after `as_of`). The multiplier combines a temperature term and a
+wind term:
+
+- **Temperature**: `1 + temp_per_deg × (temp_f − temp_ref_f)` — hotter boosts,
+  colder penalizes.
+- **Wind out**: bonus when wind_dir is `out` and wind_mph ≥ `wind_out_min_mph`,
+  scaled by `wind_out_per_mph` up to `wind_out_cap_mph`.
+- **Wind in**: gentler penalty when wind_dir is `in` and wind_mph ≥
+  `wind_in_min_mph`, scaled by `wind_in_per_mph` up to `wind_in_cap_mph`.
+- **Neutral**: cross/calm/varies winds, domes/roof-closed
+  (`neutral_conditions`), disabled config, and missing weather all yield
+  exactly 1.0.
+- The total factor is clamped to `[clamp[0], clamp[1]]` (default 0.85–1.20).
+
+Bands and the empirical self-check stay keyed to the base `expectancy_score`
+so historical calibration is not distorted by a factor old rollup days never
+had.
+
+Config: `prediction.weather` section.
 
 ## Empirical band rates
 
@@ -175,6 +202,21 @@ are included — this is a "who's hot right now" view. Truncated to
 | `prediction.min_samples` | 20 | Minimum samples to show a band rate |
 | `prediction.top_n` | 15 | Size of "Most Likely to Homer" list |
 | `prediction.consistency_top_n` | 15 | Size of consistency leaderboard (defaults to `top_n`) |
+| `prediction.records_dir` | `data/predictions` | Where prediction receipts are written |
+| `prediction.weather.enabled` | true | Toggle weather factor on/off |
+| `prediction.weather.temp_ref_f` | 70 | Neutral temperature (°F) |
+| `prediction.weather.temp_per_deg` | 0.004 | Multiplier per °F from ref |
+| `prediction.weather.wind_out_min_mph` | 5 | Min mph for out-wind bonus |
+| `prediction.weather.wind_out_per_mph` | 0.012 | Bonus per mph (out) |
+| `prediction.weather.wind_out_cap_mph` | 20 | Max mph earning out-wind bonus |
+| `prediction.weather.wind_in_min_mph` | 5 | Min mph for in-wind penalty |
+| `prediction.weather.wind_in_per_mph` | 0.008 | Penalty per mph (in) |
+| `prediction.weather.wind_in_cap_mph` | 20 | Max mph earning in-wind penalty |
+| `prediction.weather.clamp` | [0.85, 1.20] | Bounds on total weather factor |
+| `prediction.weather.neutral_conditions` | [Dome, Roof Closed] | Conditions with factor exactly 1.0 |
+| `prediction.weather.temp_bands` | [55, 70, 85] | Correlation-view temperature bands |
+| `prediction.weather.min_samples` | 25 | Min samples to show a correlation cell's rates |
 
 **Sources:** `hr_tracker/scoring.py`, `hr_tracker/prediction.py`,
-`config.yaml`, `tests/test_prediction.py`, `tests/test_scoring.py`
+`hr_tracker/weather.py`, `config.yaml`, `tests/test_prediction.py`,
+`tests/test_scoring.py`, `tests/test_weather.py`
