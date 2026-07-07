@@ -22,4 +22,7 @@
   - Branch: feature/weather-ui
   - Commit: 9927ff2 — Adj + Next-game columns (ranking by Adj), events/player-day Wx columns, HR-rate-by-weather panel; jsdom smoke test extended and passing (SMOKE_PORT override added)
   - Merged: phases 4-6 merged to main as part of the 0a06656 push with rollup condition backfill + site rebuild
-- [ ] Phase 7 — Docs: README, CLAUDE.md (weather source + gotchas), openwiki pages, config comments (rolled into each phase's PR)
+- [x] Phase 7 — Docs: README, CLAUDE.md (weather source + gotchas), openwiki pages, config comments (rolled into each phase's PR)
+  - README Weather section + layout; CLAUDE.md "Weather gotchas" section, architecture/schema updates, SMOKE_PORT note. openwiki self-updated via its workflow (PRs #1–#3 auto-merged); config comments landed with phases 4–5
+
+**All PRD phases complete** — weather ingestion, scoring, correlation, dashboard, backfill, and docs are live.

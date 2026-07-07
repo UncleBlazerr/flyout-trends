@@ -49,6 +49,34 @@ players who made the list on consecutive pulls get a ↻ badge, and receipts
 older than the horizon resolve into the running track record ("X of Y flagged
 players homered within 3 days").
 
+## Weather
+
+Hot air carries the ball; wind matters only when it blows **out**. Every
+ingested game is tagged with the MLB Stats API's own weather report
+(`schedule?hydrate=weather` — no scraping, no API key; wind arrives already
+park-relative like "5 mph, Out To CF"), stored on each event and rolled up
+per player-day.
+
+The ranking applies a **weather factor** from each team's *upcoming* game:
+temperature scales linearly around 70 °F, out-blowing wind ≥ 5 mph adds a
+bonus that compounds with heat, in-blowing wind takes a gentler penalty,
+and cross-winds, calm days, domes, closed roofs, and missing forecasts are
+exactly neutral. The dashboard ranks by `adjusted_score = expectancy_score ×
+weather_factor` (the "Adj" column; "Next game" shows the weather behind it),
+while the empirical band table and track record stay keyed to the **base**
+score so the self-calibration isn't distorted. All knobs live under
+`prediction.weather:` in `config.yaml`.
+
+The **"HR rate by weather"** panel (`docs/data/weather.json`) is the
+empirical check: league-wide HR-day rate, near-HR rate, and near-HR→HR
+follow-through for every temperature band × wind class (domes in their own
+row), hidden behind a sample minimum until the data says something. When it
+disagrees with the rule-of-thumb factor, tune the config — not the code.
+
+One practical note: MLB publishes a game's weather only on game day, so the
+overnight run ranks with neutral factors and the **morning run** (whose
+upcoming slate is that same day) is where the adjustment actually bites.
+
 ## Layout
 
 ```
@@ -58,7 +86,8 @@ hr_tracker/         importable package (used by workflow AND skill — one code 
   scoring.py        the three near-HR metrics (pure functions)
   store.py          EventStore protocol + FlatFileStore (v1)
   trends.py         rolling 7/14/30-day per-player stats
-  prediction.py     streaks, expectancy score, empirical rates, receipts
+  prediction.py     streaks, expectancy score, weather factor, empirical rates, receipts
+  weather.py        league-wide HR-vs-weather correlation table
   site.py           static HTML/JSON dashboard generator
 scripts/run_pipeline.py   CLI entrypoint (workflow, local, and skill runs)
 scripts/backfill.py       ingest a historical date range (oldest first)

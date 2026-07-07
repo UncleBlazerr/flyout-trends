@@ -239,3 +239,22 @@ time; the 23:00 ET cron and tomorrow's --yesterday run pick up the rest).
 Correlation now spans 531 outdoor + 133 dome player-days. Pushed as 0a06656.
 
 **Remaining:** Phase 7 docs (README/CLAUDE.md/openwiki) — not started.
+
+## 2026-07-06 — Phase 7 (docs) complete; PRD fully delivered
+
+- README: new "Weather" section (source, factor rules, base-vs-adjusted
+  score design, correlation panel, morning-run timing note); layout lists
+  weather.py.
+- CLAUDE.md: new "Weather gotchas" section (MLB API source — no
+  RotoGrinders/Open-Meteo; temp-as-string; park-relative wind vocabulary via
+  parse_wind; empty forecast = factor 1.0 and the 06:00-run-bites note;
+  bands stay keyed to base score; neutral_conditions is config), plus
+  architecture list (parse_wind/upcoming_team_weather/weather.py,
+  weather.json), schema_version 2 in the data rules, and a SMOKE_PORT note.
+  This commit also carries the user's earlier uncommitted Session
+  Continuity / Task List / Work Completion protocol sections (intentional,
+  already governing sessions).
+- openwiki needed nothing manual: its push-triggered workflow documented
+  every phase (PRs #1–#3, auto-merged).
+
+Weather-correlation PRD: all 7 phases complete and live.

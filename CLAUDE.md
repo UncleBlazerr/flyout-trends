@@ -24,7 +24,8 @@ python scripts/backfill.py --start 2026-07-01 --end 2026-07-04
 # Unit tests
 python -m pytest tests/ -q
 
-# Page smoke test (jsdom lives in %TEMP%\hrtracker-pagetest, not the repo)
+# Page smoke test (jsdom lives in %TEMP%\hrtracker-pagetest, not the repo).
+# Stale servers tend to accumulate on 8123 — set SMOKE_PORT to sidestep them.
 python -m http.server 8123 -d docs    # in background
 node tests/page_smoke.mjs
 ```
@@ -38,13 +39,17 @@ no npm packages in the repo.
 Pipeline stages, one module each, orchestrated by `scripts/run_pipeline.py`:
 
 - `hr_tracker/models.py` — `BattedBallEvent` dataclass, `load_config`/`find_config`
-- `hr_tracker/ingest.py` — MLB Stats API schedule + Savant `/gf?game_pk=` gamefeed
+- `hr_tracker/ingest.py` — MLB Stats API schedule (weather-hydrated) + Savant
+  `/gf?game_pk=` gamefeed; `parse_wind`, `upcoming_team_weather`
 - `hr_tracker/scoring.py` — pure functions; the three near-HR definitions
 - `hr_tracker/store.py` — `EventStore` Protocol + `FlatFileStore` (swappable backend)
 - `hr_tracker/trends.py` — rolling 7/14/30-day windows, slope, `heating_up` flag
-- `hr_tracker/prediction.py` — streaks, 0–100 expectancy score, empirical band
-  rates, prediction receipts (`data/predictions/`) + their resolution
-- `hr_tracker/site.py` — writes `docs/index.html` + `docs/data/{meta,latest,trends,predictions}.json`
+- `hr_tracker/prediction.py` — streaks, 0–100 expectancy score, `weather_factor`
+  (ranking multiplier), empirical band rates, prediction receipts
+  (`data/predictions/`) + their resolution
+- `hr_tracker/weather.py` — league-wide HR-vs-weather correlation cells
+- `hr_tracker/site.py` — writes `docs/index.html` +
+  `docs/data/{meta,latest,trends,predictions,consistency,weather}.json`
 
 All thresholds and weights live in `config.yaml` — never hardcode them.
 `.claude/skills/hr-proximity/SKILL.md` and the GitHub Actions workflow
@@ -53,7 +58,8 @@ All thresholds and weights live in `config.yaml` — never hardcode them.
 
 ## Data model and storage rules
 
-- `data/raw/YYYY-MM-DD.json` is one full day, `schema_version: 1`. Re-running a
+- `data/raw/YYYY-MM-DD.json` is one full day, `schema_version: 2` (v2 added
+  venue/weather fields on events and per-day weather in the rollup). Re-running a
   date rewrites its file **in full** (never append), and `write_day` drops that
   date's entries from `data/rollups/player_index.json` before re-adding them.
 - Only Final games (statusCode `F`/`O`) are ingested by default so in-progress
@@ -77,6 +83,31 @@ All thresholds and weights live in `config.yaml` — never hardcode them.
 - Events are keyed by `play_id` for deduplication; only `pitch_call ==
   "hit_into_play"` rows with a launch_speed are kept.
 
+## Weather gotchas
+
+- Weather comes from the MLB Stats API itself: `schedule?...&hydrate=weather,team`
+  (one call for the whole slate) with a `fields`-trimmed
+  `game/{pk}/feed/live` fallback per game. **No RotoGrinders scraping, no
+  Open-Meteo, no API key** — don't add them (Open-Meteo is the documented
+  future fallback in the PRD, nothing more). Savant's `/gf` has no weather.
+- `weather.temp` is a **string** ("89") — same numbers-as-strings gotcha as
+  Savant; it goes through `_num`.
+- Wind arrives **already park-relative** ("5 mph, Out To CF"). The observed
+  vocabulary (`Out To LF/CF/RF`, `In From …`, `L To R`, `R To L`, `Calm`,
+  `None`, `Varies`) is handled by `ingest.py::parse_wind`; anything
+  unrecognized classifies as `varies` (neutral) — never guess direction, and
+  never add park-orientation geometry.
+- Missing/empty weather (games far from first pitch, off-days) means a
+  **factor of exactly 1.0**. MLB publishes forecasts only on game day, so the
+  23:00 ET run ranks mostly neutral and the 06:00 ET `--yesterday` run is
+  where the weather adjustment actually bites. This is expected, not a bug.
+- The ranking sorts by `adjusted_score = expectancy_score × weather_factor`,
+  but empirical bands, cross-checks, and receipt resolution stay keyed to the
+  **base** `expectancy_score`. Do not re-key them to adjusted scores unless
+  `docs/data/weather.json` has accumulated the samples to justify it.
+- Dome/closed-roof phrases live in `prediction.weather.neutral_conditions`
+  (config, not code) — extend the list there if the feed uses new wording.
+
 ## OpenWiki
 
 This repository has documentation located in the /openwiki directory.
@@ -87,6 +118,67 @@ Start here:
 OpenWiki includes repository overview, architecture notes, workflows, domain concepts, operations, integrations, testing guidance, and source maps.
 
 When working in this repository, read the OpenWiki quickstart first, then follow its links to the relevant architecture, workflow, domain, operation, and testing notes.
+
+## Session Continuity Protocol
+
+### At Session Start (Before Starting Work)
+
+1. **Read task state:**
+   - Check `.claude/tasks.md` in project root
+   - Identify completed `[x]`, in-progress, and blocked tasks
+   - Use this as source of truth for current state
+
+2. **Read execution history:**
+   - Check `.claude/work-log.md` in project root
+   - Review what was tried, decisions made, blockers hit
+   - Do NOT re-derive this information
+
+3. **Read OpenWiki context:**
+   - Read `openwiki/quickstart.md`, then follow its links to the relevant
+     architecture, workflow, domain, and operations notes for the task at hand
+     (see the OpenWiki section below)
+
+4. **Then proceed with the user's request**
+
+**Do not ask the user to repeat information that exists in these records.**
+
+## Task List Management
+
+### When Given a PRD or Project Description
+
+1. Break work into discrete, actionable tasks
+2. Write to `.claude/tasks.md` in the project root (create if missing)
+3. Present the task list and ask for approval before starting
+4. Use this format:
+   ```markdown
+   - [ ] Task description
+     - Branch: feature/branch-name
+   ```
+
+### As Work Progresses
+
+1. Mark completed tasks with `[x]`
+2. Add commit/PR links to completed tasks
+3. Note blockers inline: `- [ ] Task 3 — BLOCKED: waiting on API access`
+4. Keep the task list as source of truth for "what's left"
+
+## Work Completion Protocol
+
+### Before Marking Any Task Complete or Reporting Work as Done
+
+1. **Update task list:**
+   - Mark task with `[x]` in `.claude/tasks.md`
+   - Add links to commits/PRs
+2. **Write to work log:**
+   - Append entry to `.claude/work-log.md` with timestamp
+   - Document: what was done, decisions made, blockers encountered
+   - Link to commits, PRs, or Jira tickets
+3. **Verify the record stands alone:**
+   - Could another agent (or future you) resume from this record?
+   - Are decisions and context captured, not just results?
+4. Then report completion to the user
+
+Do not rely on conversation context to track state across turns.
 
 ## Git
 
