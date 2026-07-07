@@ -2,7 +2,7 @@
  "player_id": 678391,
  "player_name": "Jorbit Vivas",
  "team": "WSH",
- "as_of": "2026-07-05",
+ "as_of": "2026-07-06",
  "form": {
   "streak": 1,
   "frequency": 1.0,
@@ -28,7 +28,11 @@
    "would_be_hr_parks_sum": 0,
    "max_ev": 96.9,
    "max_distance": 362.0,
-   "max_barrel_score": 75.3
+   "max_barrel_score": 75.3,
+   "temp_f": 92.0,
+   "wind_mph": 2.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -48,6 +52,12 @@
    "would_be_hr_count": 0,
    "inning": 2,
    "play_id": "d178b752-385b-3cd7-96a8-0299e1369b1d",
+   "venue_id": 3309,
+   "venue_name": "Nationals Park",
+   "temp_f": 92.0,
+   "wind_mph": 2.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
    "distance_flag": true,
    "would_be_hr_flag": false,
    "barrel_score": 75.3,
@@ -71,6 +81,12 @@
    "would_be_hr_count": 0,
    "inning": 4,
    "play_id": "32fbe491-40f4-39c3-afb7-cbf58c03016a",
+   "venue_id": 3309,
+   "venue_name": "Nationals Park",
+   "temp_f": 92.0,
+   "wind_mph": 2.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 4.8,

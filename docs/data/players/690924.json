@@ -2,7 +2,7 @@
  "player_id": 690924,
  "player_name": "Braxton Fulford",
  "team": "COL",
- "as_of": "2026-07-05",
+ "as_of": "2026-07-06",
  "form": {
   "streak": 0,
   "frequency": 0.0,
@@ -28,7 +28,11 @@
    "would_be_hr_parks_sum": 0,
    "max_ev": 74.9,
    "max_distance": 272.0,
-   "max_barrel_score": 42.1
+   "max_barrel_score": 42.1,
+   "temp_f": 83.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -48,6 +52,12 @@
    "would_be_hr_count": 0,
    "inning": 4,
    "play_id": "ff4c3e37-a016-376e-8eef-23e8b393dd30",
+   "venue_id": 19,
+   "venue_name": "Coors Field",
+   "temp_f": 83.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 42.1,

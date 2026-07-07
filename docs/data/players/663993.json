@@ -2,7 +2,7 @@
  "player_id": 663993,
  "player_name": "Nathaniel Lowe",
  "team": "CIN",
- "as_of": "2026-07-05",
+ "as_of": "2026-07-06",
  "form": {
   "streak": 0,
   "frequency": 0.0,
@@ -28,7 +28,11 @@
    "would_be_hr_parks_sum": 0,
    "max_ev": 84.5,
    "max_distance": 197.0,
-   "max_barrel_score": 26.5
+   "max_barrel_score": 26.5,
+   "temp_f": 89.0,
+   "wind_mph": 5.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -48,6 +52,12 @@
    "would_be_hr_count": 0,
    "inning": 5,
    "play_id": "3517a07c-25aa-3b8c-89ca-43a15d73f30b",
+   "venue_id": 2602,
+   "venue_name": "Great American Ball Park",
+   "temp_f": 89.0,
+   "wind_mph": 5.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 26.5,
@@ -71,6 +81,12 @@
    "would_be_hr_count": 0,
    "inning": 9,
    "play_id": "c36da622-3bb2-32ec-9eb1-af5b477eacbb",
+   "venue_id": 2602,
+   "venue_name": "Great American Ball Park",
+   "temp_f": 89.0,
+   "wind_mph": 5.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 16.8,

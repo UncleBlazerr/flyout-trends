@@ -2,7 +2,7 @@
  "player_id": 676572,
  "player_name": "Eric Wagaman",
  "team": "NYM",
- "as_of": "2026-07-05",
+ "as_of": "2026-07-06",
  "form": {
   "streak": 0,
   "frequency": 0.0,
@@ -28,7 +28,11 @@
    "would_be_hr_parks_sum": 0,
    "max_ev": 104.4,
    "max_distance": 83.0,
-   "max_barrel_score": 33.6
+   "max_barrel_score": 33.6,
+   "temp_f": 86.0,
+   "wind_mph": 3.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -48,6 +52,12 @@
    "would_be_hr_count": 0,
    "inning": 4,
    "play_id": "43044bef-e5c8-38da-b61e-3d3a802cff75",
+   "venue_id": 4705,
+   "venue_name": "Truist Park",
+   "temp_f": 86.0,
+   "wind_mph": 3.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 33.6,
@@ -71,6 +81,12 @@
    "would_be_hr_count": 0,
    "inning": 6,
    "play_id": "e4adbfaa-d396-36a5-8f21-9f7d1cf9f0bc",
+   "venue_id": 4705,
+   "venue_name": "Truist Park",
+   "temp_f": 86.0,
+   "wind_mph": 3.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 28.7,

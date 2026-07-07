@@ -2,7 +2,7 @@
  "player_id": 687221,
  "player_name": "Dalton Rushing",
  "team": "LAD",
- "as_of": "2026-07-05",
+ "as_of": "2026-07-06",
  "form": {
   "streak": 0,
   "frequency": 0.0,
@@ -28,7 +28,11 @@
    "would_be_hr_parks_sum": 0,
    "max_ev": 96.6,
    "max_distance": 348.0,
-   "max_barrel_score": 65.4
+   "max_barrel_score": 65.4,
+   "temp_f": 81.0,
+   "wind_mph": 3.0,
+   "wind_dir": "cross",
+   "weather_condition": "Sunny"
   }
  ],
  "events": [
@@ -48,6 +52,12 @@
    "would_be_hr_count": 0,
    "inning": 9,
    "play_id": "3328443c-a8cd-376b-b766-625256950765",
+   "venue_id": 22,
+   "venue_name": "UNIQLO Field at Dodger Stadium",
+   "temp_f": 81.0,
+   "wind_mph": 3.0,
+   "wind_dir": "cross",
+   "weather_condition": "Sunny",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 65.4,

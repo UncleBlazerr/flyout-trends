@@ -2,7 +2,7 @@
  "player_id": 694212,
  "player_name": "Samuel Basallo",
  "team": "BAL",
- "as_of": "2026-07-05",
+ "as_of": "2026-07-06",
  "form": {
   "streak": 0,
   "frequency": 0.0,
@@ -28,7 +28,11 @@
    "would_be_hr_parks_sum": 0,
    "max_ev": 105.7,
    "max_distance": 406.0,
-   "max_barrel_score": 88.3
+   "max_barrel_score": 88.3,
+   "temp_f": 89.0,
+   "wind_mph": 5.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -48,6 +52,12 @@
    "would_be_hr_count": 23,
    "inning": 1,
    "play_id": "35dd2b76-c49f-341c-b775-215dd7ab9ce5",
+   "venue_id": 2602,
+   "venue_name": "Great American Ball Park",
+   "temp_f": 89.0,
+   "wind_mph": 5.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 88.3,
@@ -71,6 +81,12 @@
    "would_be_hr_count": 0,
    "inning": 7,
    "play_id": "6df25ffa-e93a-3535-8502-67e772938736",
+   "venue_id": 2602,
+   "venue_name": "Great American Ball Park",
+   "temp_f": 89.0,
+   "wind_mph": 5.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 69.7,

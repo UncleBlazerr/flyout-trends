@@ -2,7 +2,7 @@
  "player_id": 593428,
  "player_name": "Xander Bogaerts",
  "team": "SD",
- "as_of": "2026-07-05",
+ "as_of": "2026-07-06",
  "form": {
   "streak": 0,
   "frequency": 0.0,
@@ -28,7 +28,11 @@
    "would_be_hr_parks_sum": 0,
    "max_ev": 94.9,
    "max_distance": 27.0,
-   "max_barrel_score": 23.9
+   "max_barrel_score": 23.9,
+   "temp_f": 81.0,
+   "wind_mph": 3.0,
+   "wind_dir": "cross",
+   "weather_condition": "Sunny"
   },
   {
    "date": "2026-07-04",
@@ -42,7 +46,11 @@
    "would_be_hr_parks_sum": 0,
    "max_ev": 102.2,
    "max_distance": 31.0,
-   "max_barrel_score": 30.7
+   "max_barrel_score": 30.7,
+   "temp_f": 77.0,
+   "wind_mph": 2.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -62,6 +70,12 @@
    "would_be_hr_count": 0,
    "inning": 6,
    "play_id": "fd0f893d-3229-353b-8e56-61f59d94f110",
+   "venue_id": 22,
+   "venue_name": "UNIQLO Field at Dodger Stadium",
+   "temp_f": 81.0,
+   "wind_mph": 3.0,
+   "wind_dir": "cross",
+   "weather_condition": "Sunny",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 23.9,
@@ -85,6 +99,12 @@
    "would_be_hr_count": 0,
    "inning": 8,
    "play_id": "4580638c-8328-3561-969c-baa2e7827aae",
+   "venue_id": 22,
+   "venue_name": "UNIQLO Field at Dodger Stadium",
+   "temp_f": 81.0,
+   "wind_mph": 3.0,
+   "wind_dir": "cross",
+   "weather_condition": "Sunny",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 8.9,
@@ -108,6 +128,12 @@
    "would_be_hr_count": 0,
    "inning": 2,
    "play_id": "03ce1811-ca98-3cdc-9f09-8318c84375a9",
+   "venue_id": 22,
+   "venue_name": "UNIQLO Field at Dodger Stadium",
+   "temp_f": 77.0,
+   "wind_mph": 2.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 30.7,

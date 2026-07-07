@@ -2,7 +2,7 @@
  "player_id": 663886,
  "player_name": "Tyler Stephenson",
  "team": "CIN",
- "as_of": "2026-07-05",
+ "as_of": "2026-07-06",
  "form": {
   "streak": 0,
   "frequency": 0.0,
@@ -28,7 +28,11 @@
    "would_be_hr_parks_sum": 0,
    "max_ev": 91.5,
    "max_distance": 246.0,
-   "max_barrel_score": 54.1
+   "max_barrel_score": 54.1,
+   "temp_f": 83.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -48,6 +52,12 @@
    "would_be_hr_count": 0,
    "inning": 7,
    "play_id": "d6da9a61-24d1-3f0b-8e6b-1e68d1dbaf95",
+   "venue_id": 2602,
+   "venue_name": "Great American Ball Park",
+   "temp_f": 83.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 54.1,
@@ -71,6 +81,12 @@
    "would_be_hr_count": 0,
    "inning": 2,
    "play_id": "80ac394e-55dd-3768-a9e7-41372873fbb1",
+   "venue_id": 2602,
+   "venue_name": "Great American Ball Park",
+   "temp_f": 83.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 19.5,

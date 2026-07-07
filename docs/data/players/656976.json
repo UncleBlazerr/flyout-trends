@@ -2,7 +2,7 @@
  "player_id": 656976,
  "player_name": "Pavin Smith",
  "team": "AZ",
- "as_of": "2026-07-05",
+ "as_of": "2026-07-06",
  "form": {
   "streak": 0,
   "frequency": 0.0,
@@ -28,7 +28,11 @@
    "would_be_hr_parks_sum": 0,
    "max_ev": 107.4,
    "max_distance": 250.0,
-   "max_barrel_score": 58.6
+   "max_barrel_score": 58.6,
+   "temp_f": 73.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
   }
  ],
  "events": [
@@ -48,6 +52,12 @@
    "would_be_hr_count": 0,
    "inning": 4,
    "play_id": "df11d531-c49b-33d0-9be3-52b7a6408bdc",
+   "venue_id": 15,
+   "venue_name": "Chase Field",
+   "temp_f": 73.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 58.6,
@@ -71,6 +81,12 @@
    "would_be_hr_count": 0,
    "inning": 8,
    "play_id": "d9031d2c-1cd6-357b-8cc3-fa78542e281e",
+   "venue_id": 15,
+   "venue_name": "Chase Field",
+   "temp_f": 73.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 56.2,

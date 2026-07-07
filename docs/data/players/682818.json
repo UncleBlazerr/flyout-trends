@@ -2,7 +2,7 @@
  "player_id": 682818,
  "player_name": "Yohendrick Pi\u00f1ango",
  "team": "TOR",
- "as_of": "2026-07-05",
+ "as_of": "2026-07-06",
  "form": {
   "streak": 0,
   "frequency": 0.0,
@@ -28,7 +28,11 @@
    "would_be_hr_parks_sum": 0,
    "max_ev": 72.3,
    "max_distance": 227.0,
-   "max_barrel_score": 31.4
+   "max_barrel_score": 31.4,
+   "temp_f": 70.0,
+   "wind_mph": 9.0,
+   "wind_dir": "cross",
+   "weather_condition": "Sunny"
   },
   {
    "date": "2026-07-04",
@@ -42,7 +46,11 @@
    "would_be_hr_parks_sum": 0,
    "max_ev": 98.3,
    "max_distance": 242.0,
-   "max_barrel_score": 40.2
+   "max_barrel_score": 40.2,
+   "temp_f": 66.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -62,6 +70,12 @@
    "would_be_hr_count": 0,
    "inning": 3,
    "play_id": "17fb765e-2f59-3520-8454-38620e49d4bf",
+   "venue_id": 680,
+   "venue_name": "T-Mobile Park",
+   "temp_f": 70.0,
+   "wind_mph": 9.0,
+   "wind_dir": "cross",
+   "weather_condition": "Sunny",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 31.4,
@@ -85,6 +99,12 @@
    "would_be_hr_count": 0,
    "inning": 5,
    "play_id": "b6f238c2-e1e8-3ce3-add8-9b14afb95568",
+   "venue_id": 680,
+   "venue_name": "T-Mobile Park",
+   "temp_f": 66.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 40.2,
@@ -108,6 +128,12 @@
    "would_be_hr_count": 0,
    "inning": 8,
    "play_id": "5d3ffbab-8cc9-376d-9313-6430e290b1cc",
+   "venue_id": 680,
+   "venue_name": "T-Mobile Park",
+   "temp_f": 66.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 26.2,

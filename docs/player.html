@@ -56,6 +56,7 @@
         <th class="num">Max dist</th>
         <th class="num">Σ HR parks</th>
         <th class="num">Best barrel</th>
+        <th class="num">Wx</th>
       </tr></thead>
       <tbody></tbody>
     </table>
@@ -87,6 +88,14 @@ function td(v, num) {
   if (num) c.className = "num";
   c.textContent = (v === null || v === undefined) ? "—" : v;
   return c;
+}
+const WIND_GLYPH = { out: "↑out", in: "↓in", cross: "↔", none: "calm", varies: "~" };
+function wxText(temp, mph, dir, cond) {
+  if (cond === "Dome" || cond === "Roof Closed") return cond;
+  if (temp === null || temp === undefined) return "—";
+  let s = Math.round(temp) + "°";
+  if (mph && WIND_GLYPH[dir]) s += " " + Math.round(mph) + " " + WIND_GLYPH[dir];
+  return s;
 }
 function stat(label, value) {
   const d = document.createElement("div");
@@ -121,7 +130,8 @@ async function init() {
     tr.append(td(d.date), td(d.bbe, 1), td(d.near_hr_any, 1),
       td(d.near_hr_xbh, 1), td(d.hr, 1), td(d.max_ev, 1),
       td(d.max_distance, 1), td(d.would_be_hr_parks_sum, 1),
-      td(d.max_barrel_score, 1));
+      td(d.max_barrel_score, 1),
+      td(wxText(d.temp_f, d.wind_mph, d.wind_dir, d.weather_condition), 1));
     dbody.append(tr);
   }
 

@@ -2,7 +2,7 @@
  "player_id": 606992,
  "player_name": "Eric Haase",
  "team": "SF",
- "as_of": "2026-07-05",
+ "as_of": "2026-07-06",
  "form": {
   "streak": 1,
   "frequency": 1.0,
@@ -28,7 +28,11 @@
    "would_be_hr_parks_sum": 0,
    "max_ev": 108.1,
    "max_distance": 374.0,
-   "max_barrel_score": 79.5
+   "max_barrel_score": 79.5,
+   "temp_f": 83.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -48,6 +52,12 @@
    "would_be_hr_count": 0,
    "inning": 2,
    "play_id": "995149ce-e08a-3559-9183-0809a699f692",
+   "venue_id": 19,
+   "venue_name": "Coors Field",
+   "temp_f": 83.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
    "distance_flag": true,
    "would_be_hr_flag": false,
    "barrel_score": 79.5,

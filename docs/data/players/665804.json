@@ -2,7 +2,7 @@
  "player_id": 665804,
  "player_name": "Miguel Amaya",
  "team": "CHC",
- "as_of": "2026-07-05",
+ "as_of": "2026-07-06",
  "form": {
   "streak": 0,
   "frequency": 0.0,
@@ -28,7 +28,11 @@
    "would_be_hr_parks_sum": 0,
    "max_ev": 102.0,
    "max_distance": 333.0,
-   "max_barrel_score": 69.2
+   "max_barrel_score": 69.2,
+   "temp_f": 70.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Cloudy"
   }
  ],
  "events": [
@@ -48,6 +52,12 @@
    "would_be_hr_count": 0,
    "inning": 5,
    "play_id": "1ad383e1-d212-3fb0-98ea-c46c12821fe2",
+   "venue_id": 17,
+   "venue_name": "Wrigley Field",
+   "temp_f": 70.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Cloudy",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 69.2,
@@ -71,6 +81,12 @@
    "would_be_hr_count": 0,
    "inning": 7,
    "play_id": "ab22e1a4-bb29-3734-ae9b-8d97d211d27f",
+   "venue_id": 17,
+   "venue_name": "Wrigley Field",
+   "temp_f": 70.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Cloudy",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 2.7,

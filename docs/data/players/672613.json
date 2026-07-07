@@ -2,7 +2,7 @@
  "player_id": 672613,
  "player_name": "Eliezer Alfonzo",
  "team": "LAD",
- "as_of": "2026-07-05",
+ "as_of": "2026-07-06",
  "form": {
   "streak": 1,
   "frequency": 1.0,
@@ -28,7 +28,11 @@
    "would_be_hr_parks_sum": 0,
    "max_ev": 93.0,
    "max_distance": 338.0,
-   "max_barrel_score": 70.3
+   "max_barrel_score": 70.3,
+   "temp_f": 81.0,
+   "wind_mph": 3.0,
+   "wind_dir": "cross",
+   "weather_condition": "Sunny"
   }
  ],
  "events": [
@@ -48,6 +52,12 @@
    "would_be_hr_count": 0,
    "inning": 6,
    "play_id": "7e72ff36-93bc-3e15-ab9b-8a471cf12210",
+   "venue_id": 22,
+   "venue_name": "UNIQLO Field at Dodger Stadium",
+   "temp_f": 81.0,
+   "wind_mph": 3.0,
+   "wind_dir": "cross",
+   "weather_condition": "Sunny",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 70.3,
@@ -71,6 +81,12 @@
    "would_be_hr_count": 0,
    "inning": 3,
    "play_id": "da036ab0-1eaa-30a2-babc-985a394ebc42",
+   "venue_id": 22,
+   "venue_name": "UNIQLO Field at Dodger Stadium",
+   "temp_f": 81.0,
+   "wind_mph": 3.0,
+   "wind_dir": "cross",
+   "weather_condition": "Sunny",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 22.5,

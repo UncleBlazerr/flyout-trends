@@ -2,7 +2,7 @@
  "player_id": 680728,
  "player_name": "Adrian Del Castillo",
  "team": "AZ",
- "as_of": "2026-07-05",
+ "as_of": "2026-07-06",
  "form": {
   "streak": 0,
   "frequency": 0.0,
@@ -28,7 +28,11 @@
    "would_be_hr_parks_sum": 0,
    "max_ev": 107.8,
    "max_distance": 414.0,
-   "max_barrel_score": 85.2
+   "max_barrel_score": 85.2,
+   "temp_f": 73.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
   }
  ],
  "events": [
@@ -48,6 +52,12 @@
    "would_be_hr_count": 30,
    "inning": 1,
    "play_id": "c32568d4-c446-3c48-96fb-e2747c859962",
+   "venue_id": 15,
+   "venue_name": "Chase Field",
+   "temp_f": 73.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 85.2,
@@ -71,6 +81,12 @@
    "would_be_hr_count": 0,
    "inning": 7,
    "play_id": "55d5075c-44cb-3603-b732-ac7c878a23d3",
+   "venue_id": 15,
+   "venue_name": "Chase Field",
+   "temp_f": 73.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 0.3,

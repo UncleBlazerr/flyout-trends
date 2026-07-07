@@ -2,7 +2,7 @@
  "player_id": 606192,
  "player_name": "Teoscar Hern\u00e1ndez",
  "team": "LAD",
- "as_of": "2026-07-05",
+ "as_of": "2026-07-06",
  "form": {
   "streak": 0,
   "frequency": 0.0,
@@ -28,7 +28,11 @@
    "would_be_hr_parks_sum": 0,
    "max_ev": 96.5,
    "max_distance": 224.0,
-   "max_barrel_score": 26.8
+   "max_barrel_score": 26.8,
+   "temp_f": 81.0,
+   "wind_mph": 3.0,
+   "wind_dir": "cross",
+   "weather_condition": "Sunny"
   },
   {
    "date": "2026-07-04",
@@ -42,7 +46,11 @@
    "would_be_hr_parks_sum": 0,
    "max_ev": 95.7,
    "max_distance": 306.0,
-   "max_barrel_score": 53.1
+   "max_barrel_score": 53.1,
+   "temp_f": 77.0,
+   "wind_mph": 2.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -62,6 +70,12 @@
    "would_be_hr_count": 0,
    "inning": 8,
    "play_id": "6ebe000c-daef-34c8-af5e-88949bf37a35",
+   "venue_id": 22,
+   "venue_name": "UNIQLO Field at Dodger Stadium",
+   "temp_f": 81.0,
+   "wind_mph": 3.0,
+   "wind_dir": "cross",
+   "weather_condition": "Sunny",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 26.8,
@@ -85,6 +99,12 @@
    "would_be_hr_count": 0,
    "inning": 2,
    "play_id": "3214c640-7760-359c-a6f8-2a10c1a8c09c",
+   "venue_id": 22,
+   "venue_name": "UNIQLO Field at Dodger Stadium",
+   "temp_f": 81.0,
+   "wind_mph": 3.0,
+   "wind_dir": "cross",
+   "weather_condition": "Sunny",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 25.1,
@@ -108,6 +128,12 @@
    "would_be_hr_count": 0,
    "inning": 2,
    "play_id": "4fb8a142-3629-3b0e-b874-9060b34e70a7",
+   "venue_id": 22,
+   "venue_name": "UNIQLO Field at Dodger Stadium",
+   "temp_f": 77.0,
+   "wind_mph": 2.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 53.1,

@@ -1,0 +1,115 @@
+{
+ "as_of": "2026-07-06",
+ "horizon_days": 3,
+ "temp_bands": [
+  55,
+  70,
+  85
+ ],
+ "min_samples": 25,
+ "cells": [
+  {
+   "temp_band": "55-70",
+   "wind": "out",
+   "player_days": 19,
+   "hr_days": 3,
+   "hr_total": 3,
+   "near_hr_days": 3,
+   "follow_samples": 0,
+   "hr_followed": 0,
+   "hr_rate": null,
+   "near_hr_rate": null,
+   "follow_rate": null
+  },
+  {
+   "temp_band": "70-85",
+   "wind": "out",
+   "player_days": 109,
+   "hr_days": 19,
+   "hr_total": 20,
+   "near_hr_days": 25,
+   "follow_samples": 0,
+   "hr_followed": 0,
+   "hr_rate": 0.174,
+   "near_hr_rate": 0.229,
+   "follow_rate": null
+  },
+  {
+   "temp_band": "70-85",
+   "wind": "in",
+   "player_days": 79,
+   "hr_days": 3,
+   "hr_total": 3,
+   "near_hr_days": 24,
+   "follow_samples": 0,
+   "hr_followed": 0,
+   "hr_rate": 0.038,
+   "near_hr_rate": 0.304,
+   "follow_rate": null
+  },
+  {
+   "temp_band": "70-85",
+   "wind": "neutral",
+   "player_days": 111,
+   "hr_days": 12,
+   "hr_total": 12,
+   "near_hr_days": 18,
+   "follow_samples": 0,
+   "hr_followed": 0,
+   "hr_rate": 0.108,
+   "near_hr_rate": 0.162,
+   "follow_rate": null
+  },
+  {
+   "temp_band": "85+",
+   "wind": "out",
+   "player_days": 78,
+   "hr_days": 16,
+   "hr_total": 17,
+   "near_hr_days": 13,
+   "follow_samples": 0,
+   "hr_followed": 0,
+   "hr_rate": 0.205,
+   "near_hr_rate": 0.167,
+   "follow_rate": null
+  },
+  {
+   "temp_band": "85+",
+   "wind": "in",
+   "player_days": 17,
+   "hr_days": 1,
+   "hr_total": 1,
+   "near_hr_days": 4,
+   "follow_samples": 0,
+   "hr_followed": 0,
+   "hr_rate": null,
+   "near_hr_rate": null,
+   "follow_rate": null
+  },
+  {
+   "temp_band": "85+",
+   "wind": "neutral",
+   "player_days": 118,
+   "hr_days": 19,
+   "hr_total": 21,
+   "near_hr_days": 28,
+   "follow_samples": 0,
+   "hr_followed": 0,
+   "hr_rate": 0.161,
+   "near_hr_rate": 0.237,
+   "follow_rate": null
+  }
+ ],
+ "dome": {
+  "player_days": 133,
+  "hr_days": 17,
+  "hr_total": 19,
+  "near_hr_days": 28,
+  "follow_samples": 0,
+  "hr_followed": 0,
+  "hr_rate": 0.128,
+  "near_hr_rate": 0.211,
+  "follow_rate": null
+ },
+ "unknown_player_days": 0
+}

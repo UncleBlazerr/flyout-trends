@@ -2,7 +2,7 @@
  "player_id": 650489,
  "player_name": "Willi Castro",
  "team": "COL",
- "as_of": "2026-07-05",
+ "as_of": "2026-07-06",
  "form": {
   "streak": 0,
   "frequency": 0.0,
@@ -28,7 +28,11 @@
    "would_be_hr_parks_sum": 0,
    "max_ev": 94.2,
    "max_distance": 86.0,
-   "max_barrel_score": 32.7
+   "max_barrel_score": 32.7,
+   "temp_f": 94.0,
+   "wind_mph": 3.0,
+   "wind_dir": "cross",
+   "weather_condition": "Sunny"
   },
   {
    "date": "2026-07-04",
@@ -42,7 +46,11 @@
    "would_be_hr_parks_sum": 0,
    "max_ev": 98.7,
    "max_distance": 302.0,
-   "max_barrel_score": 46.7
+   "max_barrel_score": 46.7,
+   "temp_f": 83.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -62,6 +70,12 @@
    "would_be_hr_count": 0,
    "inning": 7,
    "play_id": "a919fdd0-dea1-3c75-8d2e-68fd153a4f9c",
+   "venue_id": 19,
+   "venue_name": "Coors Field",
+   "temp_f": 94.0,
+   "wind_mph": 3.0,
+   "wind_dir": "cross",
+   "weather_condition": "Sunny",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 32.7,
@@ -85,6 +99,12 @@
    "would_be_hr_count": 0,
    "inning": 1,
    "play_id": "9b81d676-6b11-3b72-b0ee-47e1f343124e",
+   "venue_id": 19,
+   "venue_name": "Coors Field",
+   "temp_f": 83.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 46.7,
@@ -108,6 +128,12 @@
    "would_be_hr_count": 0,
    "inning": 8,
    "play_id": "3139236c-9f4f-3d3c-90f1-22346c144d0d",
+   "venue_id": 19,
+   "venue_name": "Coors Field",
+   "temp_f": 83.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 15.4,

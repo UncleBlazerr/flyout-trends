@@ -2,7 +2,7 @@
  "player_id": 701852,
  "player_name": "Drew Cavanaugh",
  "team": "SF",
- "as_of": "2026-07-05",
+ "as_of": "2026-07-06",
  "form": {
   "streak": 0,
   "frequency": 0.0,
@@ -28,7 +28,11 @@
    "would_be_hr_parks_sum": 0,
    "max_ev": 64.9,
    "max_distance": 78.0,
-   "max_barrel_score": 5.2
+   "max_barrel_score": 5.2,
+   "temp_f": 94.0,
+   "wind_mph": 3.0,
+   "wind_dir": "cross",
+   "weather_condition": "Sunny"
   }
  ],
  "events": [
@@ -48,6 +52,12 @@
    "would_be_hr_count": 0,
    "inning": 4,
    "play_id": "d401bcd9-3a6b-3055-80dd-7955f3259cb0",
+   "venue_id": 19,
+   "venue_name": "Coors Field",
+   "temp_f": 94.0,
+   "wind_mph": 3.0,
+   "wind_dir": "cross",
+   "weather_condition": "Sunny",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 5.2,
@@ -71,6 +81,12 @@
    "would_be_hr_count": 0,
    "inning": 6,
    "play_id": "869cfea8-e58b-3b76-b295-45988be798ef",
+   "venue_id": 19,
+   "venue_name": "Coors Field",
+   "temp_f": 94.0,
+   "wind_mph": 3.0,
+   "wind_dir": "cross",
+   "weather_condition": "Sunny",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 0.3,

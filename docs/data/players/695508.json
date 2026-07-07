@@ -2,7 +2,7 @@
  "player_id": 695508,
  "player_name": "Cam Cauley",
  "team": "TEX",
- "as_of": "2026-07-05",
+ "as_of": "2026-07-06",
  "form": {
   "streak": 0,
   "frequency": 0.0,
@@ -28,7 +28,11 @@
    "would_be_hr_parks_sum": 0,
    "max_ev": 95.0,
    "max_distance": 340.0,
-   "max_barrel_score": 63.9
+   "max_barrel_score": 63.9,
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
   }
  ],
  "events": [
@@ -48,6 +52,12 @@
    "would_be_hr_count": 0,
    "inning": 7,
    "play_id": "b048da96-94b3-3a50-90f2-9b59bce5a5be",
+   "venue_id": 5325,
+   "venue_name": "Globe Life Field",
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 63.9,
@@ -71,6 +81,12 @@
    "would_be_hr_count": 0,
    "inning": 5,
    "play_id": "506bd88a-a249-38e5-a10f-477836da5af5",
+   "venue_id": 5325,
+   "venue_name": "Globe Life Field",
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 23.8,

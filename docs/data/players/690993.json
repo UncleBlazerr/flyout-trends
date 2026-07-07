@@ -2,7 +2,7 @@
  "player_id": 690993,
  "player_name": "Colt Keith",
  "team": "DET",
- "as_of": "2026-07-05",
+ "as_of": "2026-07-06",
  "form": {
   "streak": 2,
   "frequency": 1.0,
@@ -28,7 +28,11 @@
    "would_be_hr_parks_sum": 0,
    "max_ev": 98.3,
    "max_distance": 380.0,
-   "max_barrel_score": 76.7
+   "max_barrel_score": 76.7,
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
   },
   {
    "date": "2026-07-04",
@@ -42,7 +46,11 @@
    "would_be_hr_parks_sum": 0,
    "max_ev": 100.2,
    "max_distance": 363.0,
-   "max_barrel_score": 75.0
+   "max_barrel_score": 75.0,
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
   }
  ],
  "events": [
@@ -62,6 +70,12 @@
    "would_be_hr_count": 0,
    "inning": 2,
    "play_id": "308cf24e-202f-37d1-8b2e-3c11d161e6c0",
+   "venue_id": 5325,
+   "venue_name": "Globe Life Field",
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
    "distance_flag": true,
    "would_be_hr_flag": false,
    "barrel_score": 76.7,
@@ -85,6 +99,12 @@
    "would_be_hr_count": 0,
    "inning": 6,
    "play_id": "678326e4-708a-3b5b-a838-b4d7422ff443",
+   "venue_id": 5325,
+   "venue_name": "Globe Life Field",
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
    "distance_flag": true,
    "would_be_hr_flag": false,
    "barrel_score": 75.0,
@@ -108,6 +128,12 @@
    "would_be_hr_count": 0,
    "inning": 2,
    "play_id": "edeb5245-3def-3718-929a-7c95901358a5",
+   "venue_id": 5325,
+   "venue_name": "Globe Life Field",
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 48.8,

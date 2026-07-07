@@ -2,7 +2,7 @@
  "player_id": 622268,
  "player_name": "Donovan Walton",
  "team": "LAA",
- "as_of": "2026-07-05",
+ "as_of": "2026-07-06",
  "form": {
   "streak": 0,
   "frequency": 0.0,
@@ -28,7 +28,11 @@
    "would_be_hr_parks_sum": 0,
    "max_ev": 96.2,
    "max_distance": 260.0,
-   "max_barrel_score": 61.3
+   "max_barrel_score": 61.3,
+   "temp_f": 79.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
   },
   {
    "date": "2026-07-04",
@@ -42,7 +46,11 @@
    "would_be_hr_parks_sum": 0,
    "max_ev": 99.7,
    "max_distance": 52.0,
-   "max_barrel_score": 29.9
+   "max_barrel_score": 29.9,
+   "temp_f": 78.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -62,6 +70,12 @@
    "would_be_hr_count": 0,
    "inning": 8,
    "play_id": "2f402600-b5f7-352c-8728-2fb5d6324d24",
+   "venue_id": 1,
+   "venue_name": "Angel Stadium",
+   "temp_f": 79.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 61.3,
@@ -85,6 +99,12 @@
    "would_be_hr_count": 0,
    "inning": 5,
    "play_id": "0d92cbe2-ddd1-3901-a267-4671f8f9036d",
+   "venue_id": 1,
+   "venue_name": "Angel Stadium",
+   "temp_f": 78.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 29.9,

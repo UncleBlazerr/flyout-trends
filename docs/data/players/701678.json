@@ -2,7 +2,7 @@
  "player_id": 701678,
  "player_name": "Hao-Yu Lee",
  "team": "DET",
- "as_of": "2026-07-05",
+ "as_of": "2026-07-06",
  "form": {
   "streak": 0,
   "frequency": 0.0,
@@ -28,7 +28,11 @@
    "would_be_hr_parks_sum": 0,
    "max_ev": 76.5,
    "max_distance": 176.0,
-   "max_barrel_score": 17.5
+   "max_barrel_score": 17.5,
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
   }
  ],
  "events": [
@@ -48,6 +52,12 @@
    "would_be_hr_count": 0,
    "inning": 7,
    "play_id": "e37a6110-a9c2-36b0-b263-0130c7ef80ce",
+   "venue_id": 5325,
+   "venue_name": "Globe Life Field",
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 17.5,
@@ -71,6 +81,12 @@
    "would_be_hr_count": 0,
    "inning": 5,
    "play_id": "3a9a1f72-6033-3460-aa56-8e6a2ae947f7",
+   "venue_id": 5325,
+   "venue_name": "Globe Life Field",
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 5.9,

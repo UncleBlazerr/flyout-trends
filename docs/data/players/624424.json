@@ -2,7 +2,7 @@
  "player_id": 624424,
  "player_name": "Michael Conforto",
  "team": "CHC",
- "as_of": "2026-07-05",
+ "as_of": "2026-07-06",
  "form": {
   "streak": 0,
   "frequency": 0.0,
@@ -28,7 +28,11 @@
    "would_be_hr_parks_sum": 0,
    "max_ev": 90.7,
    "max_distance": 291.0,
-   "max_barrel_score": 61.8
+   "max_barrel_score": 61.8,
+   "temp_f": 70.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Cloudy"
   }
  ],
  "events": [
@@ -48,6 +52,12 @@
    "would_be_hr_count": 0,
    "inning": 5,
    "play_id": "3c9cc080-5409-3ef7-a8a7-9ffd636dd6a3",
+   "venue_id": 17,
+   "venue_name": "Wrigley Field",
+   "temp_f": 70.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Cloudy",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 61.8,
@@ -71,6 +81,12 @@
    "would_be_hr_count": 0,
    "inning": 3,
    "play_id": "118a50dc-90d2-3749-8a47-dfd516a180fd",
+   "venue_id": 17,
+   "venue_name": "Wrigley Field",
+   "temp_f": 70.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Cloudy",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 3.2,

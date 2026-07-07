@@ -2,7 +2,7 @@
  "player_id": 641857,
  "player_name": "Ryan McMahon",
  "team": "NYY",
- "as_of": "2026-07-05",
+ "as_of": "2026-07-06",
  "form": {
   "streak": 0,
   "frequency": 0.0,
@@ -28,7 +28,11 @@
    "would_be_hr_parks_sum": 0,
    "max_ev": 68.4,
    "max_distance": 129.0,
-   "max_barrel_score": 25.0
+   "max_barrel_score": 25.0,
+   "temp_f": 95.0,
+   "wind_mph": 10.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny"
   }
  ],
  "events": [
@@ -48,6 +52,12 @@
    "would_be_hr_count": 0,
    "inning": 6,
    "play_id": "d3ea39e9-0b1e-3b39-8aac-cff722560268",
+   "venue_id": 3313,
+   "venue_name": "Yankee Stadium",
+   "temp_f": 95.0,
+   "wind_mph": 10.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 25.0,

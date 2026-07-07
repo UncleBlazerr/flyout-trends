@@ -2,7 +2,7 @@
  "player_id": 608348,
  "player_name": "Carson Kelly",
  "team": "CHC",
- "as_of": "2026-07-05",
+ "as_of": "2026-07-06",
  "form": {
   "streak": 0,
   "frequency": 0.0,
@@ -28,7 +28,11 @@
    "would_be_hr_parks_sum": 0,
    "max_ev": 95.1,
    "max_distance": 75.0,
-   "max_barrel_score": 30.6
+   "max_barrel_score": 30.6,
+   "temp_f": 70.0,
+   "wind_mph": 8.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -48,6 +52,12 @@
    "would_be_hr_count": 0,
    "inning": 7,
    "play_id": "3afc8e72-531e-3e2f-a0b1-81a79657f20a",
+   "venue_id": 17,
+   "venue_name": "Wrigley Field",
+   "temp_f": 70.0,
+   "wind_mph": 8.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 30.6,

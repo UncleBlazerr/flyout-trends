@@ -2,7 +2,7 @@
  "player_id": 668885,
  "player_name": "Austin Martin",
  "team": "MIN",
- "as_of": "2026-07-05",
+ "as_of": "2026-07-06",
  "form": {
   "streak": 0,
   "frequency": 0.0,
@@ -28,7 +28,11 @@
    "would_be_hr_parks_sum": 0,
    "max_ev": 93.6,
    "max_distance": 266.0,
-   "max_barrel_score": 56.9
+   "max_barrel_score": 56.9,
+   "temp_f": 77.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Overcast"
   }
  ],
  "events": [
@@ -48,6 +52,12 @@
    "would_be_hr_count": 0,
    "inning": 1,
    "play_id": "10ee8879-1e8b-3fb4-8bb6-ad21ef9cd70c",
+   "venue_id": 3313,
+   "venue_name": "Yankee Stadium",
+   "temp_f": 77.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Overcast",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 56.9,
@@ -71,6 +81,12 @@
    "would_be_hr_count": 0,
    "inning": 8,
    "play_id": "6504c7ac-43f5-3bf7-acf9-e401784e2972",
+   "venue_id": 3313,
+   "venue_name": "Yankee Stadium",
+   "temp_f": 77.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Overcast",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 51.3,

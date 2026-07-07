@@ -2,7 +2,7 @@
  "player_id": 663494,
  "player_name": "Bryan Torres",
  "team": "STL",
- "as_of": "2026-07-05",
+ "as_of": "2026-07-06",
  "form": {
   "streak": 0,
   "frequency": 0.0,
@@ -28,7 +28,11 @@
    "would_be_hr_parks_sum": 0,
    "max_ev": 97.2,
    "max_distance": 217.0,
-   "max_barrel_score": 36.4
+   "max_barrel_score": 36.4,
+   "temp_f": 70.0,
+   "wind_mph": 8.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -48,6 +52,12 @@
    "would_be_hr_count": 0,
    "inning": 2,
    "play_id": "d6dcbb4b-b1b2-38df-bd63-df50ef445304",
+   "venue_id": 17,
+   "venue_name": "Wrigley Field",
+   "temp_f": 70.0,
+   "wind_mph": 8.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 36.4,
@@ -71,6 +81,12 @@
    "would_be_hr_count": 0,
    "inning": 5,
    "play_id": "f15f68f4-6b69-3d1a-98ac-dc8d43aec7c3",
+   "venue_id": 17,
+   "venue_name": "Wrigley Field",
+   "temp_f": 70.0,
+   "wind_mph": 8.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 30.1,

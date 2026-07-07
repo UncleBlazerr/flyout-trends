@@ -2,7 +2,7 @@
  "player_id": 693459,
  "player_name": "Kyler Fedko",
  "team": "MIN",
- "as_of": "2026-07-05",
+ "as_of": "2026-07-06",
  "form": {
   "streak": 1,
   "frequency": 1.0,
@@ -28,7 +28,11 @@
    "would_be_hr_parks_sum": 0,
    "max_ev": 98.5,
    "max_distance": 362.0,
-   "max_barrel_score": 75.6
+   "max_barrel_score": 75.6,
+   "temp_f": 77.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Overcast"
   }
  ],
  "events": [
@@ -48,6 +52,12 @@
    "would_be_hr_count": 0,
    "inning": 5,
    "play_id": "4f761965-178b-3a75-b2af-f05b42aba377",
+   "venue_id": 3313,
+   "venue_name": "Yankee Stadium",
+   "temp_f": 77.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Overcast",
    "distance_flag": true,
    "would_be_hr_flag": false,
    "barrel_score": 75.6,

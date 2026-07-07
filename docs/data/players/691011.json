@@ -2,7 +2,7 @@
  "player_id": 691011,
  "player_name": "Drew Romo",
  "team": "CWS",
- "as_of": "2026-07-05",
+ "as_of": "2026-07-06",
  "form": {
   "streak": 0,
   "frequency": 0.0,
@@ -28,7 +28,11 @@
    "would_be_hr_parks_sum": 0,
    "max_ev": 102.0,
    "max_distance": 269.0,
-   "max_barrel_score": 37.8
+   "max_barrel_score": 37.8,
+   "temp_f": 82.0,
+   "wind_mph": 5.0,
+   "wind_dir": "in",
+   "weather_condition": "Clear"
   }
  ],
  "events": [
@@ -48,6 +52,12 @@
    "would_be_hr_count": 0,
    "inning": 6,
    "play_id": "bdaa2914-e5e6-3cba-9073-97c5a59a2c5d",
+   "venue_id": 5,
+   "venue_name": "Progressive Field",
+   "temp_f": 82.0,
+   "wind_mph": 5.0,
+   "wind_dir": "in",
+   "weather_condition": "Clear",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 37.8,
@@ -71,6 +81,12 @@
    "would_be_hr_count": 0,
    "inning": 2,
    "play_id": "84e2f883-546c-3a69-bf28-5174e4c94db1",
+   "venue_id": 5,
+   "venue_name": "Progressive Field",
+   "temp_f": 82.0,
+   "wind_mph": 5.0,
+   "wind_dir": "in",
+   "weather_condition": "Clear",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 32.5,
