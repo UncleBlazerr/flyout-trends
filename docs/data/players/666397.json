@@ -2,20 +2,38 @@
  "player_id": 666397,
  "player_name": "Edouard Julien",
  "team": "COL",
- "as_of": "2026-07-07",
+ "as_of": "2026-07-06",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 0.0,
+   "max_ev": -73.3,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.0,
   "expectancy_score": 0.0,
-  "last_appearance": "2026-07-05"
+  "last_appearance": "2026-07-06"
  },
  "days": [
+  {
+   "date": "2026-07-06",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 28.1,
+   "max_distance": 25.0,
+   "max_barrel_score": 1.7,
+   "temp_f": 74.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-05",
    "bbe": 3,
@@ -36,6 +54,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823930,
+   "date": "2026-07-06",
+   "player_id": 666397,
+   "player_name": "Edouard Julien",
+   "team": "COL",
+   "opponent": "LAD",
+   "result": "Bunt Pop Out",
+   "exit_velocity": 28.1,
+   "launch_angle": 75.0,
+   "hit_distance": 25.0,
+   "hc_x": 115.54,
+   "hc_y": 205.55,
+   "would_be_hr_count": 0,
+   "inning": 11,
+   "play_id": "3e5ee7b3-1125-3823-a646-e6532bc54b36",
+   "venue_id": 22,
+   "venue_name": "UNIQLO Field at Dodger Stadium",
+   "temp_f": 74.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 1.7,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824333,
    "date": "2026-07-05",
