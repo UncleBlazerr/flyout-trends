@@ -82,6 +82,7 @@ INDEX_HTML = r"""<!DOCTYPE html>
         <th>Player</th>
         <th>Team</th>
         <th class="num">Expectancy</th>
+        <th class="num">Adj</th>
         <th class="num">Streak</th>
         <th>EV</th>
         <th>Parks</th>
@@ -91,6 +92,7 @@ INDEX_HTML = r"""<!DOCTYPE html>
         <th class="num">Near-HR 7d</th>
         <th class="num">2B/3B</th>
         <th class="num">HR 7d</th>
+        <th>Next game</th>
         <th>Band HR rate</th>
       </tr></thead>
       <tbody></tbody>
@@ -100,7 +102,10 @@ INDEX_HTML = r"""<!DOCTYPE html>
     near-HR frequency are trending up (▲ rising · ▬ flat · ▼ falling). Near-HRs that went
     for doubles/triples (2B/3B) weigh more than ones caught at the track. Max EV / Max dist
     show the hardest and farthest ball hit in the last 7 days — the "why" behind the rank.
-    HR 7d is informational only (homers don't raise or lower the score). 💥 chips are the
+    HR 7d is informational only (homers don't raise or lower the score). Adj multiplies
+    Expectancy by the next game's weather (hot and wind blowing out boost, wind blowing in
+    and cold drag, domes and missing forecasts change nothing) — rows rank by Adj, and
+    "Next game" shows the weather behind it. 💥 chips are the
     model checking itself: players flagged on a recent pull who have since homered.
     ↻ next to a name means the player was also flagged on the previous pull and has kept
     producing. "Band HR rate" is
@@ -189,6 +194,7 @@ INDEX_HTML = r"""<!DOCTYPE html>
         <th class="num" data-k="hit_distance">Dist (ft)</th>
         <th class="num" data-k="would_be_hr_count">HR parks</th>
         <th class="num" data-k="barrel_score">Barrel score</th>
+        <th class="num" data-k="temp_f">Wx</th>
         <th>Flags</th>
       </tr></thead>
       <tbody></tbody>
@@ -196,7 +202,24 @@ INDEX_HTML = r"""<!DOCTYPE html>
     <p class="note">Flags: <b>DIST</b> = non-HR &gt; distance threshold · <b>PARKS</b> = would have
     left ≥ min parks (park-adjusted count from Baseball Savant) · <b>BRL</b> = composite
     barrel-proximity score over threshold. "HR parks" is Savant's park-adjusted count of
-    stadiums (of 30) where that ball is a home run.</p>
+    stadiums (of 30) where that ball is a home run. Wx is the game's weather:
+    temp, wind mph and direction (↑out = blowing out, ↓in = blowing in).</p>
+  </section>
+
+  <section id="weather-section" hidden>
+    <h2>HR rate by weather</h2>
+    <table id="weather">
+      <thead><tr>
+        <th>Temp</th>
+        <th>Wind</th>
+        <th class="num">Player-days</th>
+        <th class="num">HR-day rate</th>
+        <th class="num">Near-HR rate</th>
+        <th class="num">Near-HR → HR</th>
+      </tr></thead>
+      <tbody></tbody>
+    </table>
+    <p class="note" id="weather-note"></p>
   </section>
 </main>
 <script>
@@ -218,6 +241,14 @@ function tdPlayer(name, id) {
   a.textContent = name;
   c.append(a);
   return c;
+}
+const WIND_GLYPH = { out: "↑out", in: "↓in", cross: "↔", none: "calm", varies: "~" };
+function wxText(temp, mph, dir, cond) {
+  if (cond === "Dome" || cond === "Roof Closed") return cond;
+  if (temp === null || temp === undefined) return "—";
+  let s = Math.round(temp) + "°";
+  if (mph && WIND_GLYPH[dir]) s += " " + Math.round(mph) + " " + WIND_GLYPH[dir];
+  return s;
 }
 function cmp(a, b, k, dir) {
   const x = a[k], y = b[k];
@@ -257,6 +288,10 @@ function renderEvents() {
     tr.append(tdPlayer(e.player_name, e.player_id), td(e.team), td(e.opponent), td(e.result),
       td(e.exit_velocity, 1), td(e.launch_angle, 1), td(e.hit_distance, 1),
       td(e.would_be_hr_count, 1), td(e.barrel_score, 1));
+    const wxc = td(wxText(e.temp_f, e.wind_mph, e.wind_dir, e.weather_condition), 1);
+    if (e.weather_condition) wxc.title = e.weather_condition +
+      (e.venue_name ? " · " + e.venue_name : "");
+    tr.append(wxc);
     const flags = document.createElement("td");
     for (const [label, on] of [["DIST", e.distance_flag],
         ["PARKS", e.would_be_hr_flag], ["BRL", e.barrel_flag]]) {
@@ -307,7 +342,7 @@ function renderExpectancyChart() {
   const rows = p.players;
   document.getElementById("analysis-chart-wrap").hidden = false;
   document.getElementById("analysis-chart-title").textContent =
-    `Expectancy scores — today's ${rows.length} selections (0–100)`;
+    `Weather-adjusted expectancy — today's ${rows.length} selections (0–100)`;
 
   const NS = "http://www.w3.org/2000/svg";
   const holder = document.getElementById("analysis-chart");
@@ -346,7 +381,9 @@ function renderExpectancyChart() {
     svg.append(name);
 
     // Bar: square at the baseline, 4px rounded data-end.
-    const w = Math.max((r.expectancy_score / 100) * plotW, 2);
+    const score = (r.adjusted_score === null || r.adjusted_score === undefined)
+      ? r.expectancy_score : r.adjusted_score;
+    const w = Math.max((Math.min(score, 100) / 100) * plotW, 2);
     const rr = Math.min(4, w);
     const bar = document.createElementNS(NS, "path");
     bar.setAttribute("d",
@@ -359,7 +396,7 @@ function renderExpectancyChart() {
     val.setAttribute("x", labelW + w + 8); val.setAttribute("y", yMid + 4);
     val.setAttribute("fill", "#e8ecf4"); val.setAttribute("font-size", "12");
     val.setAttribute("font-variant-numeric", "tabular-nums");
-    val.textContent = r.expectancy_score;
+    val.textContent = score;
     svg.append(val);
 
     // Full-row hover target (bigger than the mark) with an HTML tooltip.
@@ -372,7 +409,10 @@ function renderExpectancyChart() {
         `Expectancy ${r.expectancy_score} · streak ${r.streak}` +
         ` · ${r.near_hr_7d} near-HR / 7d<br>` +
         `Max EV ${r.max_ev_7d} mph · max dist ${r.max_distance_7d} ft` +
-        (r.hr_7d ? `<br>${r.hr_7d} HR this week` : "");
+        (r.hr_7d ? `<br>${r.hr_7d} HR this week` : "") +
+        (r.game_weather ? `<br>Next: ${wxText(r.game_weather.temp_f,
+          r.game_weather.wind_mph, r.game_weather.wind_dir,
+          r.game_weather.weather_condition)} · weather ×${r.weather_factor}` : "");
       tip.style.display = "block";
       tip.style.left = Math.min(ev.clientX + 14, window.innerWidth - 280) + "px";
       tip.style.top = (ev.clientY + 14) + "px";
@@ -432,16 +472,27 @@ function renderLikely() {
       badge.textContent = " ↻";
       nameCell.append(badge);
     }
+    const adj = (r.adjusted_score === null || r.adjusted_score === undefined)
+      ? r.expectancy_score : r.adjusted_score;
+    const adjCell = td(adj, 1);
+    if (r.weather_factor && r.weather_factor !== 1)
+      adjCell.title = "weather ×" + r.weather_factor;
     tr.append(td(i + 1, 1), nameCell, td(r.team),
-      td(r.expectancy_score, 1),
+      td(r.expectancy_score, 1), adjCell,
       td(r.streak ? r.streak + (r.streak > 1 ? " games" : " game") : "—", 1));
     for (const k of ["max_ev", "parks_sum", "near_hr"]) {
       const c = document.createElement("td");
       c.innerHTML = arrow(r.slopes[k]);
       tr.append(c);
     }
+    const gw = r.game_weather;
+    const gwCell = td(gw
+      ? wxText(gw.temp_f, gw.wind_mph, gw.wind_dir, gw.weather_condition) : "—");
+    if (gw) gwCell.title = [gw.venue_name, gw.weather_condition,
+      r.weather_factor ? "factor ×" + r.weather_factor : ""]
+      .filter(Boolean).join(" · ");
     tr.append(td(r.max_ev_7d, 1), td(r.max_distance_7d, 1),
-      td(r.near_hr_7d, 1), td(r.near_hr_xbh_7d, 1), td(r.hr_7d, 1),
+      td(r.near_hr_7d, 1), td(r.near_hr_xbh_7d, 1), td(r.hr_7d, 1), gwCell,
       td(r.band_rate !== null
         ? Math.round(r.band_rate * 100) + "% (n=" + r.band_samples + ")"
         : "collecting: " + r.band_samples + "/" + p.min_samples + " samples"));
@@ -472,6 +523,39 @@ function renderConsistency() {
   });
 }
 
+function renderWeather() {
+  const w = state.weather;
+  if (!w || ((!w.cells || !w.cells.length) && !(w.dome && w.dome.player_days))) return;
+  document.getElementById("weather-section").hidden = false;
+  const pct = (rate, n) => rate !== null && rate !== undefined
+    ? Math.round(rate * 100) + "%"
+    : "collecting (" + n + "/" + w.min_samples + ")";
+  const windLabel = { out: "↑ out", in: "↓ in", neutral: "cross / calm" };
+  const body = document.querySelector("#weather tbody");
+  body.innerHTML = "";
+  const addRow = (label, wind, c) => {
+    const tr = document.createElement("tr");
+    tr.append(td(label), td(wind), td(c.player_days, 1),
+      td(pct(c.hr_rate, c.player_days), 1),
+      td(pct(c.near_hr_rate, c.player_days), 1),
+      td(pct(c.follow_rate, c.follow_samples), 1));
+    body.append(tr);
+  };
+  for (const c of w.cells)
+    addRow(c.temp_band + "°F", windLabel[c.wind] || c.wind, c);
+  if (w.dome && w.dome.player_days)
+    addRow("Dome / roof closed", "—", w.dome);
+  document.getElementById("weather-note").textContent =
+    `League-wide rates over every tracked player-game (through ${w.as_of}). ` +
+    `Wind direction is park-relative from the MLB feed: ↑ out blows toward the ` +
+    `outfield, ↓ in toward the plate; cross/calm/varying winds are grouped as ` +
+    `neutral and roofed games sit in their own row. "Near-HR → HR" is the share ` +
+    `of near-HR days followed by a homer within ${w.horizon_days} days — the ` +
+    `same follow-up window the model is graded on. Cells show "collecting" ` +
+    `until they reach ${w.min_samples} samples. This table is the empirical ` +
+    `check on the weather adjustment used in the rankings above.`;
+}
+
 async function init() {
   const [meta, latest, trends, predictions, consistency, analysis] = await Promise.all([
     fetch("data/meta.json" + bust).then(r => r.json()),
@@ -484,6 +568,8 @@ async function init() {
     fetch("data/analysis.json" + bust)
       .then(r => r.ok ? r.json() : null).catch(() => null),
   ]);
+  state.weather = await fetch("data/weather.json" + bust)
+    .then(r => r.ok ? r.json() : null).catch(() => null);
   document.getElementById("meta").textContent =
     `Data through ${meta.latest_date} · ${meta.games_processed} games, ` +
     `${meta.total_events} batted balls, ${meta.near_hr_events} near-HR` +
@@ -536,6 +622,7 @@ async function init() {
   renderLikely();
   renderEvents();
   renderTrends();
+  renderWeather();
 }
 init().catch(err => {
   document.getElementById("meta").textContent = "Failed to load data: " + err;
@@ -604,6 +691,7 @@ PLAYER_HTML = r"""<!DOCTYPE html>
         <th class="num">Max dist</th>
         <th class="num">Σ HR parks</th>
         <th class="num">Best barrel</th>
+        <th class="num">Wx</th>
       </tr></thead>
       <tbody></tbody>
     </table>
@@ -635,6 +723,14 @@ function td(v, num) {
   if (num) c.className = "num";
   c.textContent = (v === null || v === undefined) ? "—" : v;
   return c;
+}
+const WIND_GLYPH = { out: "↑out", in: "↓in", cross: "↔", none: "calm", varies: "~" };
+function wxText(temp, mph, dir, cond) {
+  if (cond === "Dome" || cond === "Roof Closed") return cond;
+  if (temp === null || temp === undefined) return "—";
+  let s = Math.round(temp) + "°";
+  if (mph && WIND_GLYPH[dir]) s += " " + Math.round(mph) + " " + WIND_GLYPH[dir];
+  return s;
 }
 function stat(label, value) {
   const d = document.createElement("div");
@@ -669,7 +765,8 @@ async function init() {
     tr.append(td(d.date), td(d.bbe, 1), td(d.near_hr_any, 1),
       td(d.near_hr_xbh, 1), td(d.hr, 1), td(d.max_ev, 1),
       td(d.max_distance, 1), td(d.would_be_hr_parks_sum, 1),
-      td(d.max_barrel_score, 1));
+      td(d.max_barrel_score, 1),
+      td(wxText(d.temp_f, d.wind_mph, d.wind_dir, d.weather_condition), 1));
     dbody.append(tr);
   }
 
@@ -748,6 +845,7 @@ def build_site(events: list[BattedBallEvent], trends: dict[str, Any],
                hit_rate: dict[str, Any] | None = None,
                recent_hits: list[dict[str, Any]] | None = None,
                consistency: list[dict[str, Any]] | None = None,
+               weather_corr: dict[str, Any] | None = None,
                store: Any | None = None) -> Path:
     """Write index.html + data JSON into the GitHub Pages source dir (docs/)."""
     out = Path(config["site"]["output_dir"])
@@ -777,6 +875,9 @@ def build_site(events: list[BattedBallEvent], trends: dict[str, Any],
     (data_dir / "consistency.json").write_text(
         json.dumps({"as_of": date, "players": consistency or []}, indent=1),
         encoding="utf-8")
+    if weather_corr is not None:
+        (data_dir / "weather.json").write_text(
+            json.dumps(weather_corr, indent=1), encoding="utf-8")
 
     if store is not None:
         n = _write_player_pages(out, store, date, config)

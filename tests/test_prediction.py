@@ -1,10 +1,11 @@
+import copy
 import json
 
 from hr_tracker.prediction import (annotate_repeats, band_label,
                                    compute_predictions, compute_streak,
                                    consistency_leaderboard, cross_check,
                                    empirical_rates, player_form,
-                                   resolve_prediction_records,
+                                   resolve_prediction_records, weather_factor,
                                    write_prediction_record)
 
 
@@ -114,6 +115,72 @@ def test_hr_does_not_change_score(config):
             == player_form(with_hr, "2026-07-03", config)["expectancy_score"])
 
 
+# ---- weather factor ---------------------------------------------------------
+
+def wx(**kw):
+    base = dict(venue_name="Test Park", temp_f=70.0, wind_mph=0.0,
+                wind_dir="none", weather_condition="Clear")
+    base.update(kw)
+    return base
+
+
+def test_weather_factor_neutral_cases(config):
+    assert weather_factor(None, config) == 1.0
+    assert weather_factor({}, config) == 1.0  # empty forecast, never guess
+    assert weather_factor(wx(temp_f=None, wind_mph=None, wind_dir=None,
+                             weather_condition=""), config) == 1.0
+    # Domes/closed roofs are exactly neutral no matter the reported temp.
+    assert weather_factor(wx(temp_f=72.0, weather_condition="Dome"),
+                          config) == 1.0
+    assert weather_factor(wx(temp_f=95.0, wind_mph=15.0, wind_dir="out",
+                             weather_condition="Roof Closed"), config) == 1.0
+
+
+def test_weather_factor_disabled_by_config(config):
+    cfg = copy.deepcopy(config)
+    cfg["prediction"]["weather"]["enabled"] = False
+    assert weather_factor(wx(temp_f=95.0, wind_mph=15.0, wind_dir="out"),
+                          cfg) == 1.0
+
+
+def test_weather_factor_hot_and_wind_out_compound(config):
+    # 80F -> 1.04; 10 mph out -> 1.12; compounding: 1.04 * 1.12 = 1.165
+    hot = weather_factor(wx(temp_f=80.0), config)
+    windy = weather_factor(wx(wind_mph=10.0, wind_dir="out"), config)
+    both = weather_factor(wx(temp_f=80.0, wind_mph=10.0, wind_dir="out"),
+                          config)
+    assert hot == 1.04 and windy == 1.12
+    assert both == 1.165  # > hot and > windy: hot + wind out is best
+
+def test_weather_factor_out_wind_below_threshold_earns_nothing(config):
+    assert weather_factor(wx(wind_mph=4.0, wind_dir="out"), config) == 1.0
+
+
+def test_weather_factor_in_wind_is_penalized_not_boosted(config):
+    # The wind must be blowing OUT: 10 mph in -> 1 - 0.008*10 = 0.92
+    assert weather_factor(wx(wind_mph=10.0, wind_dir="in"), config) == 0.92
+
+
+def test_weather_factor_cross_wind_neutral(config):
+    assert weather_factor(wx(wind_mph=15.0, wind_dir="cross"), config) == 1.0
+    assert weather_factor(wx(wind_mph=15.0, wind_dir="varies"), config) == 1.0
+
+
+def test_weather_factor_clamped_both_ways(config):
+    lo, hi = config["prediction"]["weather"]["clamp"]
+    # 98F * 20mph out = 1.112 * 1.24 = 1.379 -> ceiling
+    assert weather_factor(wx(temp_f=98.0, wind_mph=20.0, wind_dir="out"),
+                          config) == hi
+    # 40F * 20mph in = 0.88 * 0.84 = 0.739 -> floor
+    assert weather_factor(wx(temp_f=40.0, wind_mph=20.0, wind_dir="in"),
+                          config) == lo
+
+
+def test_weather_factor_cold_is_penalty_not_veto(config):
+    f = weather_factor(wx(temp_f=45.0), config)
+    assert config["prediction"]["weather"]["clamp"][0] <= f < 1.0
+
+
 # ---- empirical rates -------------------------------------------------------
 
 def _history_player(hr_on_last=True):
@@ -175,6 +242,48 @@ def test_predictions_carry_informational_7d_fields(config):
     assert p["near_hr_xbh_7d"] == 3
     assert p["max_ev_7d"] == 110.0
     assert p["max_distance_7d"] == 428
+
+
+def test_predictions_rank_by_weather_adjusted_score(config):
+    def player(team, name):
+        return {"player_name": name, "team": team,
+                "days": {"2026-07-02": day(near=2), "2026-07-03": day(near=2),
+                         "2026-07-04": day(near=2)}}
+    store = FakeStore({"1": player("NYY", "Wind Out Guy"),
+                       "2": player("BOS", "Wind In Guy")})
+    team_weather = {"NYY": wx(temp_f=90.0, wind_mph=12.0, wind_dir="out"),
+                    "BOS": wx(temp_f=55.0, wind_mph=12.0, wind_dir="in")}
+    preds = compute_predictions(store, "2026-07-04", config,
+                                team_weather=team_weather)
+    first, second = preds["players"]
+    assert first["player_name"] == "Wind Out Guy"
+    # Identical form: same base score and band; only the adjustment differs.
+    assert first["expectancy_score"] == second["expectancy_score"]
+    assert first["band"] == second["band"]
+    assert first["weather_factor"] > 1.0 > second["weather_factor"]
+    assert first["adjusted_score"] > second["adjusted_score"]
+    assert first["game_weather"]["wind_dir"] == "out"
+    assert second["game_weather"]["temp_f"] == 55.0
+
+
+def test_predictions_neutral_without_weather_map(config):
+    hot = {"player_name": "Hot Guy", "team": "NYY",
+           "days": {"2026-07-03": day(near=2), "2026-07-04": day(near=2)}}
+    preds = compute_predictions(FakeStore({"1": hot}), "2026-07-04", config)
+    p = preds["players"][0]
+    assert p["weather_factor"] == 1.0
+    assert p["adjusted_score"] == p["expectancy_score"]
+    assert p["game_weather"] is None
+
+
+def test_predictions_neutral_for_team_not_playing(config):
+    hot = {"player_name": "Hot Guy", "team": "NYY",
+           "days": {"2026-07-03": day(near=2), "2026-07-04": day(near=2)}}
+    preds = compute_predictions(FakeStore({"1": hot}), "2026-07-04", config,
+                                team_weather={"BOS": wx(temp_f=95.0)})
+    p = preds["players"][0]
+    assert p["weather_factor"] == 1.0
+    assert p["game_weather"] is None
 
 
 def test_prediction_record_write_and_resolve(tmp_path, config):

@@ -1,7 +1,8 @@
 import pytest
 
 from hr_tracker.ingest import (GAMEFEED_URL, SCHEDULE_URL, fetch_schedule,
-                               ingest_date, parse_events, parse_wind)
+                               ingest_date, parse_events, parse_wind,
+                               upcoming_team_weather)
 
 # Trimmed real-shape sample from baseballsavant.mlb.com/gf (numbers-as-strings included)
 SAMPLE_GF = {
@@ -67,7 +68,12 @@ def test_roundtrip_to_dict_from_dict():
 
 # --- Weather ---------------------------------------------------------------
 
-# Trimmed real-shape sample from statsapi schedule?hydrate=weather:
+def _teams(away, home):
+    return {"away": {"team": {"abbreviation": away}},
+            "home": {"team": {"abbreviation": home}}}
+
+
+# Trimmed real-shape sample from statsapi schedule?hydrate=weather,team:
 # populated outdoor game, dome game, and an empty weather object.
 SAMPLE_SCHEDULE = {
     "dates": [{
@@ -75,6 +81,7 @@ SAMPLE_SCHEDULE = {
             {
                 "gamePk": 824902,
                 "status": {"statusCode": "F", "detailedState": "Final"},
+                "teams": _teams("NYM", "ATL"),
                 "venue": {"id": 4705, "name": "Truist Park"},
                 "weather": {"condition": "Partly Cloudy", "temp": "89",
                             "wind": "5 mph, Out To LF"},
@@ -82,6 +89,7 @@ SAMPLE_SCHEDULE = {
             {
                 "gamePk": 822958,
                 "status": {"statusCode": "F", "detailedState": "Final"},
+                "teams": _teams("NYY", "TB"),
                 "venue": {"id": 12, "name": "Tropicana Field"},
                 "weather": {"condition": "Dome", "temp": "72",
                             "wind": "0 mph, None"},
@@ -150,19 +158,21 @@ def test_fetch_schedule_hydrates_weather():
     games = fetch_schedule("2026-07-05", session, {})
 
     url, params = session.calls[0]
-    assert params["hydrate"] == "weather"
+    assert params["hydrate"] == "weather,team"
 
     outdoor, dome, empty = games
     assert outdoor["venue_id"] == 4705 and outdoor["venue_name"] == "Truist Park"
     assert outdoor["temp_f"] == 89.0            # string -> float
     assert outdoor["wind_mph"] == 5.0 and outdoor["wind_dir"] == "out"
     assert outdoor["weather_condition"] == "Partly Cloudy"
+    assert outdoor["away_team"] == "NYM" and outdoor["home_team"] == "ATL"
 
     assert dome["weather_condition"] == "Dome"
     assert dome["wind_mph"] == 0.0 and dome["wind_dir"] == "none"
 
     assert empty["temp_f"] is None and empty["wind_dir"] is None
     assert empty["weather_condition"] == ""
+    assert empty["home_team"] == "" and empty["away_team"] == ""  # no teams block
 
 
 def test_ingest_date_stamps_weather_onto_events():
@@ -213,3 +223,67 @@ def test_ingest_date_falls_back_to_live_feed_for_empty_weather():
         assert e.weather_condition == "Sunny"
         # venue still comes from the schedule
         assert e.venue_id == 3309
+
+
+def test_upcoming_team_weather_maps_both_teams_with_fallback():
+    schedule = {"dates": [{"games": [
+        {   # populated schedule weather: maps both teams directly
+            "gamePk": 1,
+            "status": {"statusCode": "S", "detailedState": "Scheduled"},
+            "teams": _teams("NYM", "ATL"),
+            "venue": {"id": 4705, "name": "Truist Park"},
+            "weather": {"condition": "Sunny", "temp": "88",
+                        "wind": "9 mph, Out To CF"},
+        },
+        {   # empty schedule weather: falls back to the live feed
+            "gamePk": 2,
+            "status": {"statusCode": "S", "detailedState": "Scheduled"},
+            "teams": _teams("BOS", "CLE"),
+            "venue": {"id": 5, "name": "Progressive Field"},
+            "weather": {},
+        },
+        {   # doubleheader game two: first game's weather must win
+            "gamePk": 3,
+            "status": {"statusCode": "S", "detailedState": "Scheduled"},
+            "teams": _teams("NYM", "ATL"),
+            "venue": {"id": 4705, "name": "Truist Park"},
+            "weather": {"condition": "Rain", "temp": "70",
+                        "wind": "2 mph, Calm"},
+        },
+    ]}]}
+    live_2 = {"gameData": {"weather": {
+        "condition": "Overcast", "temp": "66", "wind": "12 mph, In From RF"}}}
+    session = FakeSession({
+        SCHEDULE_URL: schedule,
+        "https://statsapi.mlb.com/api/v1.1/game/2/feed/live": live_2,
+    })
+    teams = upcoming_team_weather("2026-07-07", {}, session=session)
+
+    assert set(teams) == {"NYM", "ATL", "BOS", "CLE"}
+    for t in ("NYM", "ATL"):  # both sides of game 1, first DH game wins
+        assert teams[t]["temp_f"] == 88.0
+        assert teams[t]["wind_dir"] == "out" and teams[t]["wind_mph"] == 9.0
+    for t in ("BOS", "CLE"):  # via live-feed fallback
+        assert teams[t]["temp_f"] == 66.0
+        assert teams[t]["wind_dir"] == "in"
+        # venue still comes from the schedule
+        assert teams[t]["venue_name"] == "Progressive Field"
+
+
+def test_upcoming_team_weather_neutral_when_all_sources_empty():
+    schedule = {"dates": [{"games": [{
+        "gamePk": 9,
+        "status": {"statusCode": "S", "detailedState": "Scheduled"},
+        "teams": _teams("SEA", "LAA"),
+        "venue": {"id": 1, "name": "Angel Stadium"},
+        "weather": {},
+    }]}]}
+    live_empty = {"gameData": {"weather": {}}}
+    session = FakeSession({
+        SCHEDULE_URL: schedule,
+        "https://statsapi.mlb.com/api/v1.1/game/9/feed/live": live_empty,
+    })
+    teams = upcoming_team_weather("2026-07-07", {}, session=session)
+    assert teams["SEA"]["temp_f"] is None
+    assert teams["SEA"]["wind_dir"] is None
+    assert teams["SEA"]["weather_condition"] == ""

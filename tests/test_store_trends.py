@@ -70,17 +70,21 @@ def test_rollup_carries_day_weather(tmp_path, config):
     assert day["temp_f"] == 88.0
     assert day["wind_mph"] == 7.0
     assert day["wind_dir"] == "out"
+    assert day["weather_condition"] == "Sunny"
 
 
 def test_rollup_weather_fills_from_first_tagged_event(tmp_path, config):
     store = make_store(tmp_path)
-    untagged = make_event("2026-07-04", temp_f=None, wind_mph=None, wind_dir=None)
-    tagged = make_event("2026-07-04", temp_f=91.0, wind_mph=11.0, wind_dir="in")
+    untagged = make_event("2026-07-04", temp_f=None, wind_mph=None,
+                          wind_dir=None, weather_condition="")
+    tagged = make_event("2026-07-04", temp_f=91.0, wind_mph=11.0,
+                        wind_dir="in", weather_condition="Overcast")
     store.write_day("2026-07-04", score_events([untagged, tagged], config))
     day = store.read_player_days()["100"]["days"]["2026-07-04"]
     assert day["temp_f"] == 91.0
     assert day["wind_mph"] == 11.0
     assert day["wind_dir"] == "in"
+    assert day["weather_condition"] == "Overcast"
 
 
 def test_linear_slope():

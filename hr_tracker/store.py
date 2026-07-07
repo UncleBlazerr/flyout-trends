@@ -116,7 +116,8 @@ class FlatFileStore:
                 "near_hr_distance": 0, "near_hr_parks": 0, "near_hr_barrel": 0,
                 "would_be_hr_parks_sum": 0,
                 "max_ev": 0.0, "max_distance": 0.0, "max_barrel_score": 0.0,
-                "temp_f": None, "wind_mph": None, "wind_dir": None})
+                "temp_f": None, "wind_mph": None, "wind_dir": None,
+                "weather_condition": None})
             day["bbe"] += 1
             day["hr"] += int(e.is_home_run)
             day["near_hr_any"] += int(e.is_near_hr)
@@ -131,9 +132,11 @@ class FlatFileStore:
             day["max_barrel_score"] = max(day["max_barrel_score"], e.barrel_score)
             # Day-level game weather: a hitter's day is one game, so the first
             # weather-tagged event wins (doubleheaders keep game one's values).
-            for key in ("temp_f", "wind_mph", "wind_dir"):
+            # Empty strings normalize to None so untagged events stay fillable.
+            for key in ("temp_f", "wind_mph", "wind_dir", "weather_condition"):
                 if day[key] is None:
-                    day[key] = getattr(e, key)
+                    value = getattr(e, key)
+                    day[key] = value if value != "" else None
 
         # Prune players whose every day was removed.
         index["players"] = {pid: p for pid, p in players.items() if p.get("days")}

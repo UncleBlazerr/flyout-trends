@@ -91,14 +91,21 @@ def _parse_weather(weather: dict[str, Any] | None,
     }
 
 
+def _team_abbrev(g: dict[str, Any], side: str) -> str:
+    return (g.get("teams", {}).get(side, {}).get("team", {})
+            or {}).get("abbreviation", "") or ""
+
+
 def fetch_schedule(date: str, session: requests.Session,
                    http_cfg: dict[str, Any]) -> list[dict[str, Any]]:
-    """Return [{game_pk, status_code, status, venue/weather fields}] for every
-    MLB game on `date`. hydrate=weather adds the per-game weather object
-    (condition/temp/wind) to the one slate-wide call; it can be empty for
-    games far from first pitch."""
+    """Return [{game_pk, status_code, status, home/away team, venue/weather
+    fields}] for every MLB game on `date`. hydrate=weather adds the per-game
+    weather object (condition/temp/wind) to the one slate-wide call — it can
+    be empty for games far from first pitch — and hydrate=team exposes team
+    abbreviations (which match the Savant team codes stored in the rollup)."""
     data = _get_json(session, SCHEDULE_URL,
-                     {"sportId": 1, "date": date, "hydrate": "weather"}, http_cfg)
+                     {"sportId": 1, "date": date, "hydrate": "weather,team"},
+                     http_cfg)
     games = []
     for day in data.get("dates", []):
         for g in day.get("games", []):
@@ -106,6 +113,8 @@ def fetch_schedule(date: str, session: requests.Session,
                 "game_pk": g["gamePk"],
                 "status_code": g.get("status", {}).get("statusCode", ""),
                 "status": g.get("status", {}).get("detailedState", ""),
+                "home_team": _team_abbrev(g, "home"),
+                "away_team": _team_abbrev(g, "away"),
                 **_parse_weather(g.get("weather"), g.get("venue")),
             })
     return games
@@ -202,6 +211,39 @@ def _attach_weather(events: list[BattedBallEvent], game: dict[str, Any],
     for event in events:
         for key, value in meta.items():
             setattr(event, key, value)
+
+
+def upcoming_team_weather(date: str, config: dict[str, Any],
+                          session: requests.Session | None = None
+                          ) -> dict[str, dict[str, Any]]:
+    """Map each team playing on `date` to its game's venue + weather, for the
+    prediction stage (the ranking's follow-up window starts on `date`).
+
+    Games far from first pitch usually have an empty schedule weather object;
+    try the live feed then, and leave the fields None/"" (neutral) if that is
+    empty too — never guess. A team's first game of the day wins for
+    doubleheaders.
+    """
+    own_session = session is None
+    session = session or requests.Session()
+    http_cfg = config.get("http", {})
+    try:
+        teams: dict[str, dict[str, Any]] = {}
+        for game in fetch_schedule(date, session, http_cfg):
+            wx = {k: game.get(k) for k in _WEATHER_KEYS}
+            if wx["temp_f"] is None and not wx["weather_condition"]:
+                try:
+                    wx.update(fetch_live_weather(game["game_pk"], session,
+                                                 http_cfg))
+                except RuntimeError:
+                    pass
+            for team in (game["home_team"], game["away_team"]):
+                if team:
+                    teams.setdefault(team, wx)
+        return teams
+    finally:
+        if own_session:
+            session.close()
 
 
 def ingest_date(date: str, config: dict[str, Any],

@@ -17,7 +17,7 @@ from zoneinfo import ZoneInfo
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from hr_tracker.ingest import ingest_date
+from hr_tracker.ingest import ingest_date, upcoming_team_weather
 from hr_tracker.models import find_config
 from hr_tracker.prediction import (annotate_repeats, compute_predictions,
                                    consistency_leaderboard, cross_check,
@@ -27,6 +27,7 @@ from hr_tracker.scoring import score_events
 from hr_tracker.site import build_site
 from hr_tracker.store import FlatFileStore
 from hr_tracker.trends import compute_trends
+from hr_tracker.weather import weather_correlation
 
 
 def today_et() -> str:
@@ -77,6 +78,22 @@ def main() -> int:
     storage = config["storage"]
     store = FlatFileStore(root / storage["raw_dir"], root / storage["rollup_dir"])
 
+    # The ranking's follow-up window starts the day after as_of, so that
+    # slate's weather is what adjusts the scores. Missing weather (games far
+    # from first pitch, off-days, fetch failure) means a neutral factor.
+    upcoming = (datetime.fromisoformat(date).date()
+                + timedelta(days=1)).isoformat()
+    try:
+        team_weather = upcoming_team_weather(upcoming, config)
+        tagged = sum(1 for w in team_weather.values()
+                     if w.get("temp_f") is not None)
+        print(f"[predict] upcoming-game weather for {upcoming}: "
+              f"{len(team_weather)} teams, {tagged} with data", file=sys.stderr)
+    except RuntimeError:
+        team_weather = {}
+        print(f"[predict] upcoming-game weather unavailable for {upcoming}; "
+              f"scores stay unadjusted", file=sys.stderr)
+
     if args.dry_run:
         # Predictions read only already-stored history; today's (unwritten)
         # events don't affect them in a dry run.
@@ -84,7 +101,8 @@ def main() -> int:
                "near_hr_events": [e.to_dict() for e in
                                   sorted(near, key=lambda e: e.barrel_score,
                                          reverse=True)],
-               "predictions": compute_predictions(store, date, config)}
+               "predictions": compute_predictions(store, date, config,
+                                                  team_weather=team_weather)}
         print(json.dumps(out, indent=2))
         return 0
 
@@ -96,7 +114,8 @@ def main() -> int:
     print(f"[trends] computed rolling stats for {len(trends['players'])} players",
           file=sys.stderr)
 
-    predictions = compute_predictions(store, date, config)
+    predictions = compute_predictions(store, date, config,
+                                      team_weather=team_weather)
     records_dir = root / config["prediction"]["records_dir"]
     predictions = annotate_repeats(predictions, records_dir)
     record = write_prediction_record(records_dir, predictions, config)
@@ -110,12 +129,18 @@ def main() -> int:
           + f"; {len(consistency)} on the consistency leaderboard",
           file=sys.stderr)
 
+    weather_corr = weather_correlation(player_days, config, as_of=date)
+    print(f"[weather] correlation over "
+          f"{sum(c['player_days'] for c in weather_corr['cells'])} outdoor + "
+          f"{weather_corr['dome']['player_days']} dome player-days "
+          f"({len(weather_corr['cells'])} cells)", file=sys.stderr)
+
     if not args.skip_site:
         config["site"]["output_dir"] = str(root / config["site"]["output_dir"])
         index = build_site(events, trends, date, summary, config,
                            predictions=predictions, hit_rate=hit_rate,
                            recent_hits=recent_hits, consistency=consistency,
-                           store=store)
+                           weather_corr=weather_corr, store=store)
         print(f"[site] rebuilt {index}", file=sys.stderr)
 
     return 1 if summary["games_failed"] else 0
