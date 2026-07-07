@@ -24,9 +24,11 @@ Pages.
 4. **Trends** — Computes rolling 7/14/30-day per-player stats with trend
    direction and a `heating_up` flag.
 5. **Predict** — Ranks active hitters by a 0–100 expectancy score (streak +
-   frequency + intensity), backed by empirical follow-up rates and
-   self-checking receipts.
-6. **Publish** — Generates a static HTML/JSON dashboard in `docs/` for GitHub
+   frequency + intensity), weather-adjusted via the upcoming game's
+   forecast, backed by empirical follow-up rates and self-checking receipts.
+6. **Weather correlation** — Buckets every rollup player-day into
+   temperature × wind cells to produce a league-wide HR-vs-weather table.
+7. **Publish** — Generates a static HTML/JSON dashboard in `docs/` for GitHub
    Pages.
 
 ## Quick start
@@ -66,7 +68,8 @@ hr_tracker/           importable package (workflow, skill, and agent share one c
   scoring.py          the three near-HR metrics (pure functions)
   store.py            EventStore protocol + FlatFileStore (v1)
   trends.py           rolling 7/14/30-day per-player stats
-  prediction.py       streaks, expectancy score, empirical rates, receipts
+  prediction.py       streaks, expectancy score, weather factor, empirical rates, receipts
+  weather.py          league-wide HR-vs-weather correlation table
   site.py             static HTML/JSON dashboard generator
 scripts/
   run_pipeline.py     CLI entrypoint (workflow, local, skill, agent)

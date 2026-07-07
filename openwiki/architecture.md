@@ -5,7 +5,7 @@ The project is a linear data pipeline: each stage is one Python module, orchestr
 ## Pipeline stages
 
 ```
-ingest → score → store → trends → predict → site
+ingest → score → store → trends → predict → weather → site
 ```
 
 | Stage | Module | Responsibility |
@@ -14,7 +14,8 @@ ingest → score → store → trends → predict → site
 | Score | `hr_tracker/scoring.py` | Attach three near-HR classifications to each event (pure functions) |
 | Store | `hr_tracker/store.py` | Persist per-date JSON + maintain player-index rollup |
 | Trends | `hr_tracker/trends.py` | Rolling 7/14/30-day per-player stats, slope, `heating_up` flag |
-| Predict | `hr_tracker/prediction.py` | Streaks, expectancy score, empirical rates, prediction receipts |
+| Predict | `hr_tracker/prediction.py` | Streaks, expectancy score, weather factor, empirical rates, prediction receipts |
+| Weather | `hr_tracker/weather.py` | League-wide HR-vs-weather correlation table (temp × wind cells) |
 | Site | `hr_tracker/site.py` | Generate static HTML + JSON dashboard in `docs/` |
 
 All stages are orchestrated by `scripts/run_pipeline.py`, which is the **single
@@ -84,7 +85,20 @@ player-day (schema v2). See [Data & Storage](data-and-storage.md).
 
 ### `hr_tracker/prediction.py`
 Reads the rollup via `store.read_player_days()` — never re-scans raw event
-files. See [Scoring & Prediction](scoring-and-prediction.md).
+files. Ranks players by a weather-adjusted expectancy score
+(`adjusted_score = expectancy_score × weather_factor`), where
+`weather_factor` is a multiplier derived from each player's upcoming game
+forecast (temperature + wind). The base `expectancy_score` still drives the
+empirical band labels and self-check so historical calibration is not
+distorted. `ingest.upcoming_team_weather()` fetches the next-day slate's
+weather to supply the factor. See [Scoring & Prediction](scoring-and-prediction.md).
+
+### `hr_tracker/weather.py`
+`weather_correlation(player_days, config)`: buckets every rollup player-day
+into temperature-band × wind-class cells (plus a dome/roof-closed row) and
+computes HR-day rate, near-HR-day rate, and near-HR→HR follow-through within
+`horizon_days`. Rates hide behind `prediction.weather.min_samples`. This
+table justifies (or refutes) the `weather_factor` rule-of-thumb weights.
 
 ### `hr_tracker/site.py`
 - `build_site(...)`: writes `docs/index.html`, `docs/player.html`, and JSON
@@ -104,7 +118,7 @@ config.
 Key sections:
 - `near_hr` — distance threshold, would-be-HR min parks, barrel score weights
 - `trends` — trailing windows, heating-up thresholds, flat-slope cutoff
-- `prediction` — expectancy weights, intensity scales, score bands, horizon
+- `prediction` — expectancy weights, intensity scales, score bands, horizon, records dir, weather factor config
 - `site` — title, output directory
 - `storage` — raw and rollup directories
 - `http` — timeout, retries, backoff
