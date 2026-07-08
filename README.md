@@ -67,15 +67,17 @@ while the empirical band table and track record stay keyed to the **base**
 score so the self-calibration isn't distorted. All knobs live under
 `prediction.weather:` in `config.yaml`.
 
-The **"HR rate by weather"** panel (`docs/data/weather.json`) is the
-empirical check: league-wide HR-day rate, near-HR rate, and near-HR→HR
-follow-through for every temperature band × wind class (domes in their own
-row), hidden behind a sample minimum until the data says something. When it
-disagrees with the rule-of-thumb factor, tune the config — not the code.
+Weather surfaces on the dashboard only through the ranking itself — there is
+no standalone weather table. Behind the scenes, `docs/data/weather.json`
+still accumulates the empirical check: league-wide HR-day rate, near-HR
+rate, and near-HR→HR follow-through for every temperature band × wind class
+(domes in their own row), gated behind a sample minimum. When it disagrees
+with the rule-of-thumb factor, tune the config — not the code.
 
-One practical note: MLB publishes a game's weather only on game day, so the
-overnight run ranks with neutral factors and the **morning run** (whose
-upcoming slate is that same day) is where the adjustment actually bites.
+One practical note: MLB posts a game's weather mid-morning on game day, so
+the overnight and early-morning runs rank with neutral factors and the
+**noon ET run** (whose upcoming slate is that same day) is where the
+adjustment actually bites.
 
 ## Layout
 

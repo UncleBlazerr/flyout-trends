@@ -258,3 +258,41 @@ Correlation now spans 531 outdoor + 133 dome player-days. Pushed as 0a06656.
   every phase (PRs #1–#3, auto-merged).
 
 Weather-correlation PRD: all 7 phases complete and live.
+
+## 2026-07-08 — Weather moved out of its own table; noon cron closes the forecast gap
+
+**User request:** weather should not sit in its own table — it should
+contribute to a player's ranking (e.g. Cortes playing in favorable weather).
+
+**Diagnosis:** the ranking mechanism already did this (`adjusted_score =
+expectancy_score × weather_factor`), but every published payload showed
+factor 1.0 because both cron runs fire before MLB posts game-day forecasts.
+Verified live: the 08:25 ET (delayed 06:00) run on 2026-07-07 mapped 30 teams
+with 0 forecasts, yet `upcoming_team_weather('2026-07-07')` returned full
+weather for all 30 teams later that day. So the adjustment worked but was
+never visible on the published site.
+
+**Changes:**
+- `hr_tracker/site.py`: removed the "HR rate by weather" section, its
+  `renderWeather()` JS, and the `weather.json` fetch. `weather.json` is
+  STILL computed and published (evidence base for future re-keying per
+  CLAUDE.md) — only the panel is gone. Ranking columns (Adj, Next game, Wx)
+  untouched.
+- `.github/workflows/hr-tracker.yml`: new cron `0 16 * * *` (12:00 ET during
+  EDT) running `--yesterday`, sharing the morning sweep's branch. That run's
+  upcoming slate is the same day, and forecasts are posted by then, so the
+  live ranking is weather-adjusted from ~noon ET until the 23:00 run rolls
+  to the next (forecastless) slate. That window covers game time.
+- `tests/page_smoke.mjs`: weather-panel assertions replaced with a
+  panel-must-be-absent check; section order updated.
+- README Weather section + CLAUDE.md weather gotchas/cron list updated
+  (forecasts post mid-morning; noon run is where the adjustment bites).
+
+**Verification:** 84 unit tests pass; full pipeline run for 2026-07-07
+(16/16 finals, 829 events); jsdom smoke test PASSED against the rebuilt
+site (no weather panel, ranking/Wx cells intact). Upcoming 07-08 forecasts
+were empty at run time (~01:00 ET) — factors 1.0 is correct at that hour;
+the noon cron is the durable fix. Pushed; Pages build verified.
+
+**Not done (deliberate):** did not re-key empirical bands/receipts to the
+adjusted score — CLAUDE.md forbids it until weather.json has samples.

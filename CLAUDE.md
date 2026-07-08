@@ -53,7 +53,7 @@ Pipeline stages, one module each, orchestrated by `scripts/run_pipeline.py`:
 
 All thresholds and weights live in `config.yaml` — never hardcode them.
 `.claude/skills/hr-proximity/SKILL.md` and the GitHub Actions workflow
-(`.github/workflows/hr-tracker.yml`, cron 06:00/23:00 ET) both call the same
+(`.github/workflows/hr-tracker.yml`, cron 06:00/12:00/23:00 ET) both call the same
 `run_pipeline.py` path; keep it the single entry point.
 
 ## Data model and storage rules
@@ -98,9 +98,15 @@ All thresholds and weights live in `config.yaml` — never hardcode them.
   unrecognized classifies as `varies` (neutral) — never guess direction, and
   never add park-orientation geometry.
 - Missing/empty weather (games far from first pitch, off-days) means a
-  **factor of exactly 1.0**. MLB publishes forecasts only on game day, so the
-  23:00 ET run ranks mostly neutral and the 06:00 ET `--yesterday` run is
-  where the weather adjustment actually bites. This is expected, not a bug.
+  **factor of exactly 1.0**. MLB posts forecasts mid-morning on game day
+  (verified: still empty at 08:25 ET, populated by late morning), so the
+  23:00 ET and 06:00 ET runs rank mostly neutral and the 12:00 ET
+  `--yesterday` run is where the weather adjustment actually bites. This is
+  expected, not a bug.
+- The dashboard has **no standalone weather table** — weather shows up only
+  via the ranking (Adj score, Next-game column, Wx cells). `weather.json` is
+  still computed and published as the empirical evidence base; don't re-add a
+  panel for it.
 - The ranking sorts by `adjusted_score = expectancy_score × weather_factor`,
   but empirical bands, cross-checks, and receipt resolution stay keyed to the
   **base** `expectancy_score`. Do not re-key them to adjusted scores unless

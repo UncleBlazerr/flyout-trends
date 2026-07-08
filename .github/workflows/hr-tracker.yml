@@ -4,6 +4,10 @@ on:
   schedule:
     # 06:00 ET (10:00 UTC during EDT) — catches games finished overnight
     - cron: "0 10 * * *"
+    # 12:00 ET (16:00 UTC during EDT) — MLB posts game-day forecasts mid-morning,
+    # after the 06:00 run; this re-run picks them up so the published ranking is
+    # weather-adjusted before first pitch instead of all-neutral.
+    - cron: "0 16 * * *"
     # 23:00 ET (03:00 UTC during EDT) — catches day games + early finals
     - cron: "0 3 * * *"
   workflow_dispatch:
@@ -37,10 +41,13 @@ jobs:
         run: |
           if [ -n "${{ inputs.date }}" ]; then
             python scripts/run_pipeline.py --date "${{ inputs.date }}"
-          elif [ "${{ github.event.schedule }}" = "0 10 * * *" ]; then
-            # Morning sweep: re-process yesterday ET in full. GitHub cron can
-            # fire late; if the 23:00 ET run slips past midnight it processes
-            # the (empty) new day instead — this run self-heals that.
+          elif [ "${{ github.event.schedule }}" = "0 10 * * *" ] \
+            || [ "${{ github.event.schedule }}" = "0 16 * * *" ]; then
+            # Morning/noon sweeps: re-process yesterday ET in full. GitHub cron
+            # can fire late; if the 23:00 ET run slips past midnight it processes
+            # the (empty) new day instead — these runs self-heal that. The noon
+            # run also lands after MLB posts today's forecasts, so its ranking
+            # carries real weather factors.
             python scripts/run_pipeline.py --yesterday
           else
             python scripts/run_pipeline.py

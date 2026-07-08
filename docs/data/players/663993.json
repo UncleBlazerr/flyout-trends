@@ -2,20 +2,38 @@
  "player_id": 663993,
  "player_name": "Nathaniel Lowe",
  "team": "CIN",
- "as_of": "2026-07-06",
+ "as_of": "2026-07-07",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 0.0,
+   "max_ev": 0.1,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.0,
-  "expectancy_score": 0.0,
-  "last_appearance": "2026-07-04"
+  "intensity": 0.017,
+  "expectancy_score": 0.5,
+  "last_appearance": "2026-07-07"
  },
  "days": [
+  {
+   "date": "2026-07-07",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 84.6,
+   "max_distance": 274.0,
+   "max_barrel_score": 44.3,
+   "temp_f": 85.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-04",
    "bbe": 2,
@@ -36,6 +54,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824495,
+   "date": "2026-07-07",
+   "player_id": 663993,
+   "player_name": "Nathaniel Lowe",
+   "team": "CIN",
+   "opponent": "PHI",
+   "result": "Flyout",
+   "exit_velocity": 84.6,
+   "launch_angle": 43.0,
+   "hit_distance": 274.0,
+   "hc_x": 113.69,
+   "hc_y": 90.72,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "fc2a88e2-1ddc-3909-8588-36a104147089",
+   "venue_id": 2602,
+   "venue_name": "Great American Ball Park",
+   "temp_f": 85.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 44.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824499,
    "date": "2026-07-04",

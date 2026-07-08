@@ -2,20 +2,38 @@
  "player_id": 668904,
  "player_name": "Royce Lewis",
  "team": "MIN",
- "as_of": "2026-07-06",
+ "as_of": "2026-07-07",
  "form": {
-  "streak": 1,
-  "frequency": 0.5,
+  "streak": 0,
+  "frequency": 0.333,
   "slopes": {
-   "max_ev": 6.7,
-   "parks_sum": 20.0,
-   "near_hr": 1.25
+   "max_ev": -3.8,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
   },
-  "intensity": 1.0,
-  "expectancy_score": 53.0,
-  "last_appearance": "2026-07-05"
+  "intensity": 0.0,
+  "expectancy_score": 10.0,
+  "last_appearance": "2026-07-07"
  },
  "days": [
+  {
+   "date": "2026-07-07",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 95.1,
+   "max_distance": 135.0,
+   "max_barrel_score": 31.3,
+   "temp_f": 82.0,
+   "wind_mph": 5.0,
+   "wind_dir": "cross",
+   "weather_condition": "Cloudy"
+  },
   {
    "date": "2026-07-05",
    "bbe": 4,
@@ -54,6 +72,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823687,
+   "date": "2026-07-07",
+   "player_id": 668904,
+   "player_name": "Royce Lewis",
+   "team": "MIN",
+   "opponent": "CLE",
+   "result": "Pop Out",
+   "exit_velocity": 95.1,
+   "launch_angle": 67.0,
+   "hit_distance": 135.0,
+   "hc_x": 116.17,
+   "hc_y": 148.79,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "2a410dcc-da3e-3969-9b0a-f441f6bbb27b",
+   "venue_id": 3312,
+   "venue_name": "Target Field",
+   "temp_f": 82.0,
+   "wind_mph": 5.0,
+   "wind_dir": "cross",
+   "weather_condition": "Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 31.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823525,
    "date": "2026-07-05",

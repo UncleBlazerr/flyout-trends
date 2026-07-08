@@ -2,20 +2,38 @@
  "player_id": 694374,
  "player_name": "Tim Tawa",
  "team": "AZ",
- "as_of": "2026-07-06",
+ "as_of": "2026-07-07",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 0.0,
+   "max_ev": -9.4,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.0,
   "expectancy_score": 0.0,
-  "last_appearance": "2026-07-05"
+  "last_appearance": "2026-07-07"
  },
  "days": [
+  {
+   "date": "2026-07-07",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 96.2,
+   "max_distance": 11.0,
+   "max_barrel_score": 24.0,
+   "temp_f": 71.0,
+   "wind_mph": 9.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-05",
    "bbe": 3,
@@ -36,6 +54,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823280,
+   "date": "2026-07-07",
+   "player_id": 694374,
+   "player_name": "Tim Tawa",
+   "team": "AZ",
+   "opponent": "SD",
+   "result": "GIDP",
+   "exit_velocity": 96.2,
+   "launch_angle": -14.0,
+   "hit_distance": 11.0,
+   "hc_x": 101.06,
+   "hc_y": 164.76,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "cc11aac9-e511-30b1-8cf4-c79aba75e3d5",
+   "venue_id": 2680,
+   "venue_name": "Petco Park",
+   "temp_f": 71.0,
+   "wind_mph": 9.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 24.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 825061,
    "date": "2026-07-05",

@@ -67,11 +67,10 @@ for (let i = 1; i < csStreaks.length; i++)
   if (csStreaks[i] > csStreaks[i - 1]) fail("consistency not ranked by pull streak desc");
 console.log("consistency rows:", csRows.length, "| top streak:", csStreaks[0]);
 
-// Section order: most-likely, consistency leaderboard, trending players,
-// events, then the weather correlation panel.
+// Section order: most-likely, consistency leaderboard, trending players, events.
 const order = [...doc.querySelectorAll("main table")].map((t) => t.id);
 if (JSON.stringify(order) !== JSON.stringify(
-    ["likely", "consistency", "trends", "events", "weather"]))
+    ["likely", "consistency", "trends", "events"]))
   fail("section order wrong: " + order.join(","));
 console.log("most-likely rows:", mlRows.length, "| top score:", mlScores[0]);
 console.log("model-check chips:", mcHits.querySelectorAll(".hit-chip").length,
@@ -100,20 +99,9 @@ const evWx = [...evRows[0].querySelectorAll("td")][9].textContent;
 if (!/°|Dome|Roof|—/.test(evWx)) fail("events Wx cell looks wrong: " + evWx);
 console.log("events Wx sample:", evWx);
 
-// Weather correlation panel: visible, rows render, rates are % or collecting.
-const weatherSection = doc.getElementById("weather-section");
-if (weatherSection.hidden) fail("weather correlation section is hidden");
-const wxRows = [...doc.querySelectorAll("#weather tbody tr")];
-if (wxRows.length === 0) fail("weather table has no rows");
-for (const r of wxRows) {
-  const cells = [...r.querySelectorAll("td")].map((t) => t.textContent);
-  if (!/%|collecting/.test(cells[3]))
-    fail("weather HR-day rate cell looks wrong: " + cells.join(" | "));
-}
-const wxNote = doc.getElementById("weather-note").textContent;
-if (!wxNote.includes("park-relative")) fail("weather note missing: " + wxNote);
-console.log("weather panel rows:", wxRows.length, "| first:",
-  [...wxRows[0].querySelectorAll("td")].map((t) => t.textContent).join(" | "));
+// The standalone weather correlation panel was removed — weather now surfaces
+// only through the ranking (Adj/Next-game columns); make sure it stays gone.
+if (doc.getElementById("weather-section")) fail("weather panel should be removed");
 
 // Exercise team filter on trends.
 const teamSel = doc.getElementById("tr-team");

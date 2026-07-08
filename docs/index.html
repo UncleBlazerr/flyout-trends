@@ -192,21 +192,6 @@
     temp, wind mph and direction (↑out = blowing out, ↓in = blowing in).</p>
   </section>
 
-  <section id="weather-section" hidden>
-    <h2>HR rate by weather</h2>
-    <table id="weather">
-      <thead><tr>
-        <th>Temp</th>
-        <th>Wind</th>
-        <th class="num">Player-days</th>
-        <th class="num">HR-day rate</th>
-        <th class="num">Near-HR rate</th>
-        <th class="num">Near-HR → HR</th>
-      </tr></thead>
-      <tbody></tbody>
-    </table>
-    <p class="note" id="weather-note"></p>
-  </section>
 </main>
 <script>
 const bust = "?v=" + Date.now();
@@ -509,39 +494,6 @@ function renderConsistency() {
   });
 }
 
-function renderWeather() {
-  const w = state.weather;
-  if (!w || ((!w.cells || !w.cells.length) && !(w.dome && w.dome.player_days))) return;
-  document.getElementById("weather-section").hidden = false;
-  const pct = (rate, n) => rate !== null && rate !== undefined
-    ? Math.round(rate * 100) + "%"
-    : "collecting (" + n + "/" + w.min_samples + ")";
-  const windLabel = { out: "↑ out", in: "↓ in", neutral: "cross / calm" };
-  const body = document.querySelector("#weather tbody");
-  body.innerHTML = "";
-  const addRow = (label, wind, c) => {
-    const tr = document.createElement("tr");
-    tr.append(td(label), td(wind), td(c.player_days, 1),
-      td(pct(c.hr_rate, c.player_days), 1),
-      td(pct(c.near_hr_rate, c.player_days), 1),
-      td(pct(c.follow_rate, c.follow_samples), 1));
-    body.append(tr);
-  };
-  for (const c of w.cells)
-    addRow(c.temp_band + "°F", windLabel[c.wind] || c.wind, c);
-  if (w.dome && w.dome.player_days)
-    addRow("Dome / roof closed", "—", w.dome);
-  document.getElementById("weather-note").textContent =
-    `League-wide rates over every tracked player-game (through ${w.as_of}). ` +
-    `Wind direction is park-relative from the MLB feed: ↑ out blows toward the ` +
-    `outfield, ↓ in toward the plate; cross/calm/varying winds are grouped as ` +
-    `neutral and roofed games sit in their own row. "Near-HR → HR" is the share ` +
-    `of near-HR days followed by a homer within ${w.horizon_days} days — the ` +
-    `same follow-up window the model is graded on. Cells show "collecting" ` +
-    `until they reach ${w.min_samples} samples. This table is the empirical ` +
-    `check on the weather adjustment used in the rankings above.`;
-}
-
 async function init() {
   const [meta, latest, trends, predictions, consistency, analysis] = await Promise.all([
     fetch("data/meta.json" + bust).then(r => r.json()),
@@ -554,8 +506,6 @@ async function init() {
     fetch("data/analysis.json" + bust)
       .then(r => r.ok ? r.json() : null).catch(() => null),
   ]);
-  state.weather = await fetch("data/weather.json" + bust)
-    .then(r => r.ok ? r.json() : null).catch(() => null);
   document.getElementById("meta").textContent =
     `Data through ${meta.latest_date} · ${meta.games_processed} games, ` +
     `${meta.total_events} batted balls, ${meta.near_hr_events} near-HR` +
@@ -608,7 +558,6 @@ async function init() {
   renderLikely();
   renderEvents();
   renderTrends();
-  renderWeather();
 }
 init().catch(err => {
   document.getElementById("meta").textContent = "Failed to load data: " + err;

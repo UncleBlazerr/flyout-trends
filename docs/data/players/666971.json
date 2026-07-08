@@ -2,20 +2,38 @@
  "player_id": 666971,
  "player_name": "Lourdes Gurriel Jr.",
  "team": "AZ",
- "as_of": "2026-07-06",
+ "as_of": "2026-07-07",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -3.15,
+   "max_ev": -6.43,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.0,
   "expectancy_score": 0.0,
-  "last_appearance": "2026-07-06"
+  "last_appearance": "2026-07-07"
  },
  "days": [
+  {
+   "date": "2026-07-07",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 81.0,
+   "max_distance": 262.0,
+   "max_barrel_score": 50.2,
+   "temp_f": 71.0,
+   "wind_mph": 9.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-06",
    "bbe": 3,
@@ -72,6 +90,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823280,
+   "date": "2026-07-07",
+   "player_id": 666971,
+   "player_name": "Lourdes Gurriel Jr.",
+   "team": "AZ",
+   "opponent": "SD",
+   "result": "Single",
+   "exit_velocity": 81.0,
+   "launch_angle": 21.0,
+   "hit_distance": 262.0,
+   "hc_x": 146.05,
+   "hc_y": 85.16,
+   "would_be_hr_count": 0,
+   "inning": 6,
+   "play_id": "13b7b0ae-7891-323e-bb65-1e1ef5ee8acd",
+   "venue_id": 2680,
+   "venue_name": "Petco Park",
+   "temp_f": 71.0,
+   "wind_mph": 9.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 50.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823282,
    "date": "2026-07-06",

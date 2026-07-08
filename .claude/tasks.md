@@ -26,3 +26,8 @@
   - README Weather section + layout; CLAUDE.md "Weather gotchas" section, architecture/schema updates, SMOKE_PORT note. openwiki self-updated via its workflow (PRs #1–#3 auto-merged); config comments landed with phases 4–5
 
 **All PRD phases complete** — weather ingestion, scoring, correlation, dashboard, backfill, and docs are live.
+
+## Weather follow-ups (2026-07-08)
+
+- [x] Fold weather into ranking only — remove the standalone "HR rate by weather" dashboard panel (weather.json still computed/published as the evidence base); keep Adj/Next-game/Wx in the tables
+- [x] Fix the neutral-factor timing gap: new 12:00 ET (16:00 UTC) cron running `--yesterday` — MLB posts game-day forecasts mid-morning (verified empty at 08:25 ET, populated late morning), so the noon run is the one that publishes weather-adjusted rankings before first pitch

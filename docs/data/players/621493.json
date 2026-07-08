@@ -2,20 +2,38 @@
  "player_id": 621493,
  "player_name": "Taylor Ward",
  "team": "BAL",
- "as_of": "2026-07-06",
+ "as_of": "2026-07-07",
  "form": {
-  "streak": 1,
-  "frequency": 0.5,
+  "streak": 0,
+  "frequency": 0.333,
   "slopes": {
-   "max_ev": 11.4,
+   "max_ev": -6.15,
    "parks_sum": 0.0,
-   "near_hr": 3.25
+   "near_hr": 0.0
   },
-  "intensity": 0.667,
-  "expectancy_score": 43.0,
-  "last_appearance": "2026-07-05"
+  "intensity": 0.0,
+  "expectancy_score": 10.0,
+  "last_appearance": "2026-07-07"
  },
  "days": [
+  {
+   "date": "2026-07-07",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 83.0,
+   "max_distance": 151.0,
+   "max_barrel_score": 21.6,
+   "temp_f": 78.0,
+   "wind_mph": 4.0,
+   "wind_dir": "in",
+   "weather_condition": "Cloudy"
+  },
   {
    "date": "2026-07-05",
    "bbe": 3,
@@ -54,6 +72,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824820,
+   "date": "2026-07-07",
+   "player_id": 621493,
+   "player_name": "Taylor Ward",
+   "team": "BAL",
+   "opponent": "CHC",
+   "result": "Pop Out",
+   "exit_velocity": 83.0,
+   "launch_angle": 68.0,
+   "hit_distance": 151.0,
+   "hc_x": 176.92,
+   "hc_y": 167.33,
+   "would_be_hr_count": 0,
+   "inning": 3,
+   "play_id": "a8a6beef-47b0-35c3-9ba7-78b061290dc4",
+   "venue_id": 2,
+   "venue_name": "Oriole Park at Camden Yards",
+   "temp_f": 78.0,
+   "wind_mph": 4.0,
+   "wind_dir": "in",
+   "weather_condition": "Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 21.6,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824497,
    "date": "2026-07-05",

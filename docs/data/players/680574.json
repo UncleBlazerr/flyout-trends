@@ -2,20 +2,38 @@
  "player_id": 680574,
  "player_name": "Matt McLain",
  "team": "CIN",
- "as_of": "2026-07-06",
+ "as_of": "2026-07-07",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 0.0,
+   "max_ev": -27.2,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.0,
   "expectancy_score": 0.0,
-  "last_appearance": "2026-07-04"
+  "last_appearance": "2026-07-07"
  },
  "days": [
+  {
+   "date": "2026-07-07",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 59.1,
+   "max_distance": 11.0,
+   "max_barrel_score": 0.7,
+   "temp_f": 85.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-04",
    "bbe": 1,
@@ -36,6 +54,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824495,
+   "date": "2026-07-07",
+   "player_id": 680574,
+   "player_name": "Matt McLain",
+   "team": "CIN",
+   "opponent": "PHI",
+   "result": "Groundout",
+   "exit_velocity": 59.1,
+   "launch_angle": -16.0,
+   "hit_distance": 11.0,
+   "hc_x": 138.12,
+   "hc_y": 153.35,
+   "would_be_hr_count": 0,
+   "inning": 3,
+   "play_id": "b016b79b-8d29-3e09-a4e2-078b3bc4d960",
+   "venue_id": 2602,
+   "venue_name": "Great American Ball Park",
+   "temp_f": 85.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 0.7,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824499,
    "date": "2026-07-04",

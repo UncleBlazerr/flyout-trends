@@ -2,20 +2,38 @@
  "player_id": 681481,
  "player_name": "Kerry Carpenter",
  "team": "DET",
- "as_of": "2026-07-06",
+ "as_of": "2026-07-07",
  "form": {
   "streak": 0,
-  "frequency": 0.5,
+  "frequency": 0.333,
   "slopes": {
-   "max_ev": -12.0,
+   "max_ev": -6.35,
    "parks_sum": 0.0,
-   "near_hr": -1.0
+   "near_hr": -0.5
   },
   "intensity": 0.0,
-  "expectancy_score": 15.0,
-  "last_appearance": "2026-07-05"
+  "expectancy_score": 10.0,
+  "last_appearance": "2026-07-07"
  },
  "days": [
+  {
+   "date": "2026-07-07",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 90.0,
+   "max_distance": 234.0,
+   "max_barrel_score": 33.4,
+   "temp_f": 85.0,
+   "wind_mph": 5.0,
+   "wind_dir": "in",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-05",
    "bbe": 1,
@@ -54,6 +72,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824254,
+   "date": "2026-07-07",
+   "player_id": 681481,
+   "player_name": "Kerry Carpenter",
+   "team": "DET",
+   "opponent": "ATH",
+   "result": "Flyout",
+   "exit_velocity": 90.0,
+   "launch_angle": 55.0,
+   "hit_distance": 234.0,
+   "hc_x": 78.05,
+   "hc_y": 119.19,
+   "would_be_hr_count": 0,
+   "inning": 1,
+   "play_id": "acd35449-1f12-3104-bb40-e6e380cbdb14",
+   "venue_id": 2394,
+   "venue_name": "Comerica Park",
+   "temp_f": 85.0,
+   "wind_mph": 5.0,
+   "wind_dir": "in",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 33.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 822879,
    "date": "2026-07-05",

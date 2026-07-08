@@ -2,20 +2,38 @@
  "player_id": 592518,
  "player_name": "Manny Machado",
  "team": "SD",
- "as_of": "2026-07-06",
+ "as_of": "2026-07-07",
  "form": {
-  "streak": 0,
-  "frequency": 0.0,
+  "streak": 1,
+  "frequency": 0.25,
   "slopes": {
-   "max_ev": 3.75,
+   "max_ev": -0.12,
    "parks_sum": 0.0,
-   "near_hr": 0.0
+   "near_hr": 0.3
   },
-  "intensity": 0.333,
-  "expectancy_score": 10.0,
-  "last_appearance": "2026-07-06"
+  "intensity": 0.1,
+  "expectancy_score": 18.5,
+  "last_appearance": "2026-07-07"
  },
  "days": [
+  {
+   "date": "2026-07-07",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 94.9,
+   "max_distance": 348.0,
+   "max_barrel_score": 73.7,
+   "temp_f": 71.0,
+   "wind_mph": 9.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-06",
    "bbe": 3,
@@ -72,6 +90,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823280,
+   "date": "2026-07-07",
+   "player_id": 592518,
+   "player_name": "Manny Machado",
+   "team": "SD",
+   "opponent": "AZ",
+   "result": "Field Error",
+   "exit_velocity": 94.9,
+   "launch_angle": 29.0,
+   "hit_distance": 348.0,
+   "hc_x": 167.44,
+   "hc_y": 65.34,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "10993a1e-3403-3894-b260-a05f5c8f9bf6",
+   "venue_id": 2680,
+   "venue_name": "Petco Park",
+   "temp_f": 71.0,
+   "wind_mph": 9.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 73.7,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 823282,
    "date": "2026-07-06",
