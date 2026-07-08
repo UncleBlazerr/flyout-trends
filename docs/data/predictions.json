@@ -345,6 +345,37 @@
    "repeat": true
   },
   {
+   "player_id": 701852,
+   "player_name": "Drew Cavanaugh",
+   "team": "SF",
+   "expectancy_score": 43.0,
+   "streak": 1,
+   "frequency": 0.5,
+   "slopes": {
+    "max_ev": 28.3,
+    "parks_sum": 0.0,
+    "near_hr": 1.0
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 93.2,
+   "max_distance_7d": 321,
+   "band": "40-60",
+   "band_rate": null,
+   "band_samples": 0,
+   "weather_factor": 1.068,
+   "adjusted_score": 45.9,
+   "game_weather": {
+    "venue_name": "Oracle Park",
+    "temp_f": 61.0,
+    "wind_mph": 9.0,
+    "wind_dir": "out",
+    "weather_condition": "Sunny"
+   },
+   "repeat": false
+  },
+  {
    "player_id": 678554,
    "player_name": "Curtis Mead",
    "team": "WSH",
@@ -430,37 +461,6 @@
    "adjusted_score": 43.0,
    "game_weather": {
     "venue_name": "Globe Life Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 695731,
-   "player_name": "Braden Montgomery",
-   "team": "CWS",
-   "expectancy_score": 43.0,
-   "streak": 1,
-   "frequency": 0.5,
-   "slopes": {
-    "max_ev": -3.1,
-    "parks_sum": 14.0,
-    "near_hr": 1.0
-   },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 102.9,
-   "max_distance_7d": 376,
-   "band": "40-60",
-   "band_rate": null,
-   "band_samples": 0,
-   "weather_factor": 1.0,
-   "adjusted_score": 43.0,
-   "game_weather": {
-    "venue_name": "Rate Field",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
