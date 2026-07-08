@@ -7,14 +7,15 @@ git conventions.
 
 **File:** `.github/workflows/hr-tracker.yml`
 
-The workflow runs on a cron schedule twice daily:
+The workflow runs on a cron schedule three times daily:
 
 | Cron (UTC) | ET | Purpose |
 |---|---|---|
 | `0 10 * * *` | 06:00 ET | Morning sweep — re-processes **yesterday** ET (the completed slate) |
+| `0 16 * * *` | 12:00 ET | Noon sweep — re-processes **yesterday** ET after MLB posts game-day forecasts, so the published ranking carries real weather factors |
 | `0 3 * * *` | 23:00 ET | Evening sweep — processes **today** ET (catches day games + early finals) |
 
-Both also run via `workflow_dispatch`, accepting an optional `date` input.
+All three also run via `workflow_dispatch`, accepting an optional `date` input.
 
 ### Morning run (`--yesterday`)
 
@@ -22,6 +23,13 @@ The 06:00 ET run processes **yesterday** in US Eastern time. This is important:
 if the 23:00 ET run slips past midnight, GitHub cron would fire the new
 (likely empty) day instead. The morning run self-heals by always anchoring to
 the completed slate.
+
+### Noon run (`--yesterday`)
+
+The 12:00 ET run also re-processes **yesterday** ET. MLB posts game-day
+forecasts mid-morning, so the 06:00 ET run ranks mostly neutral (forecasts
+not yet available). The noon run picks up those forecasts, so the published
+ranking carries real weather factors before first pitch.
 
 ### Evening run (today ET)
 
@@ -32,7 +40,7 @@ then.
 
 1. Checkout repo, set up Python 3.12, install dependencies.
 2. Run `python scripts/run_pipeline.py` (with `--yesterday` for the morning
-   run, or `--date` for manual dispatch).
+   and noon runs, or `--date` for manual dispatch).
 3. Commit `data/` and `docs/` back to `main` as `hr-tracker-bot` if there are
    changes.
 4. Push.
@@ -47,7 +55,7 @@ overlap.
 # Today (ET), full pipeline
 python scripts/run_pipeline.py
 
-# Yesterday ET (the completed slate — right anchor for morning runs)
+# Yesterday ET (the completed slate — right anchor for morning/noon runs)
 python scripts/run_pipeline.py --yesterday
 
 # Specific date
