@@ -2,7 +2,7 @@
 
 The **Daily HR-Proximity Tracker** (repo: `flyout-trends`) surfaces MLB hitters
 who are squaring the ball up and trending toward a home run before it shows up
-in box scores. Twice a day it ingests every game's Statcast batted-ball data
+in box scores. Three times a day it ingests every game's Statcast batted-ball data
 from Baseball Savant, classifies each event against three near-HR definitions,
 persists an append-only dataset, computes rolling 7/14/30-day per-player trends,
 ranks players by HR expectancy, and publishes a static dashboard via GitHub
@@ -84,7 +84,7 @@ docs/                 GitHub Pages source (generated, committed)
   data/               JSON payloads consumed by the frontend
 .claude/skills/hr-proximity/SKILL.md   Claude Code Skill for ad hoc runs
 .claude/agents/savant-analyst.md       Baseball Savant analyst subagent
-.github/workflows/hr-tracker.yml       cron (06:00 + 23:00 ET) + dispatch
+.github/workflows/hr-tracker.yml       cron (06:00 + 12:00 + 23:00 ET) + dispatch
 hermes/                                Hermes-agent integration (skill + daily analysis)
 ```
 
