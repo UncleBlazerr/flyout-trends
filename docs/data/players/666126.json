@@ -2,9 +2,9 @@
  "player_id": 666126,
  "player_name": "Carlos Cortes",
  "team": "ATH",
- "as_of": "2026-07-07",
+ "as_of": "2026-07-08",
  "form": {
-  "streak": 2,
+  "streak": 0,
   "frequency": 1.0,
   "slopes": {
    "max_ev": 2.9,
@@ -12,7 +12,7 @@
    "near_hr": 0.0
   },
   "intensity": 0.444,
-  "expectancy_score": 59.3,
+  "expectancy_score": 43.3,
   "last_appearance": "2026-07-05"
  },
  "days": [

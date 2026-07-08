@@ -2,9 +2,9 @@
  "player_id": 695731,
  "player_name": "Braden Montgomery",
  "team": "CWS",
- "as_of": "2026-07-07",
+ "as_of": "2026-07-08",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.5,
   "slopes": {
    "max_ev": -3.1,
@@ -12,7 +12,7 @@
    "near_hr": 1.0
   },
   "intensity": 0.667,
-  "expectancy_score": 43.0,
+  "expectancy_score": 35.0,
   "last_appearance": "2026-07-05"
  },
  "days": [
