@@ -1,5 +1,5 @@
 {
- "as_of": "2026-07-08",
+ "as_of": "2026-07-07",
  "horizon_days": 3,
  "min_samples": 20,
  "players": [
@@ -32,7 +32,7 @@
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": true
+   "repeat": false
   },
   {
    "player_id": 678011,
@@ -87,7 +87,13 @@
    "band_samples": 0,
    "weather_factor": 1.0,
    "adjusted_score": 63.8,
-   "game_weather": null,
+   "game_weather": {
+    "venue_name": "UNIQLO Field at Dodger Stadium",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
    "repeat": true
   },
   {
@@ -114,6 +120,37 @@
    "adjusted_score": 62.7,
    "game_weather": {
     "venue_name": "Petco Park",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 666126,
+   "player_name": "Carlos Cortes",
+   "team": "ATH",
+   "expectancy_score": 59.3,
+   "streak": 2,
+   "frequency": 1.0,
+   "slopes": {
+    "max_ev": 2.9,
+    "parks_sum": 1.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 0,
+   "max_ev_7d": 105.7,
+   "max_distance_7d": 365,
+   "band": "40-60",
+   "band_rate": null,
+   "band_samples": 0,
+   "weather_factor": 1.0,
+   "adjusted_score": 59.3,
+   "game_weather": {
+    "venue_name": "Comerica Park",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -181,7 +218,7 @@
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": true
+   "repeat": false
   },
   {
    "player_id": 683146,
@@ -212,7 +249,7 @@
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": true
+   "repeat": false
   },
   {
    "player_id": 607208,
@@ -243,7 +280,7 @@
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": true
+   "repeat": false
   },
   {
    "player_id": 665019,
@@ -274,7 +311,7 @@
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": true
+   "repeat": false
   },
   {
    "player_id": 670224,
@@ -329,8 +366,14 @@
    "band_samples": 0,
    "weather_factor": 1.0,
    "adjusted_score": 45.6,
-   "game_weather": null,
-   "repeat": true
+   "game_weather": {
+    "venue_name": "Nationals Park",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
   },
   {
    "player_id": 657041,
@@ -361,7 +404,7 @@
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": true
+   "repeat": false
   },
   {
    "player_id": 681351,
@@ -392,63 +435,32 @@
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": true
-  },
-  {
-   "player_id": 669065,
-   "player_name": "Kyle Stowers",
-   "team": "MIA",
-   "expectancy_score": 43.0,
-   "streak": 1,
-   "frequency": 0.5,
-   "slopes": {
-    "max_ev": 7.2,
-    "parks_sum": 0.0,
-    "near_hr": 1.0
-   },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 1,
-   "max_ev_7d": 111.9,
-   "max_distance_7d": 377,
-   "band": "40-60",
-   "band_rate": null,
-   "band_samples": 0,
-   "weather_factor": 1.0,
-   "adjusted_score": 43.0,
-   "game_weather": {
-    "venue_name": "loanDepot park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
    "repeat": false
   },
   {
-   "player_id": 663494,
-   "player_name": "Bryan Torres",
-   "team": "STL",
+   "player_id": 695731,
+   "player_name": "Braden Montgomery",
+   "team": "CWS",
    "expectancy_score": 43.0,
    "streak": 1,
    "frequency": 0.5,
    "slopes": {
-    "max_ev": 0.0,
-    "parks_sum": 6.0,
+    "max_ev": -3.1,
+    "parks_sum": 14.0,
     "near_hr": 1.0
    },
    "near_hr_7d": 1,
    "near_hr_xbh_7d": 0,
    "hr_7d": 0,
-   "max_ev_7d": 97.2,
-   "max_distance_7d": 371,
+   "max_ev_7d": 102.9,
+   "max_distance_7d": 376,
    "band": "40-60",
    "band_rate": null,
    "band_samples": 0,
    "weather_factor": 1.0,
    "adjusted_score": 43.0,
    "game_weather": {
-    "venue_name": "Busch Stadium",
+    "venue_name": "Rate Field",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
