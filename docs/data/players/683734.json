@@ -2,20 +2,38 @@
  "player_id": 683734,
  "player_name": "Andrew Vaughn",
  "team": "MIL",
- "as_of": "2026-07-09",
+ "as_of": "2026-07-08",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 16.8,
+   "max_ev": -5.91,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.333,
-  "expectancy_score": 10.0,
-  "last_appearance": "2026-07-07"
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-08"
  },
  "days": [
+  {
+   "date": "2026-07-08",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 44.6,
+   "max_distance": 3.0,
+   "max_barrel_score": 0.2,
+   "temp_f": 87.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-07",
    "bbe": 4,
@@ -72,6 +90,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823032,
+   "date": "2026-07-08",
+   "player_id": 683734,
+   "player_name": "Andrew Vaughn",
+   "team": "MIL",
+   "opponent": "STL",
+   "result": "Groundout",
+   "exit_velocity": 44.6,
+   "launch_angle": -61.0,
+   "hit_distance": 3.0,
+   "hc_x": 136.68,
+   "hc_y": 187.35,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "0a0a7849-1d31-3a42-9196-6eaaa9baaafb",
+   "venue_id": 2889,
+   "venue_name": "Busch Stadium",
+   "temp_f": 87.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 0.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823035,
    "date": "2026-07-07",

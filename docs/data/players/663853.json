@@ -2,20 +2,38 @@
  "player_id": 663853,
  "player_name": "Romy Gonzalez",
  "team": "BOS",
- "as_of": "2026-07-09",
+ "as_of": "2026-07-08",
  "form": {
   "streak": 0,
-  "frequency": 0.5,
+  "frequency": 0.333,
   "slopes": {
-   "max_ev": -20.2,
-   "parks_sum": -20.0,
-   "near_hr": -1.0
+   "max_ev": -19.05,
+   "parks_sum": -10.0,
+   "near_hr": -0.5
   },
   "intensity": 0.0,
-  "expectancy_score": 15.0,
-  "last_appearance": "2026-07-07"
+  "expectancy_score": 10.0,
+  "last_appearance": "2026-07-08"
  },
  "days": [
+  {
+   "date": "2026-07-08",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 65.1,
+   "max_distance": 2.0,
+   "max_barrel_score": 0.1,
+   "temp_f": 83.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-07",
    "bbe": 2,
@@ -54,6 +72,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824578,
+   "date": "2026-07-08",
+   "player_id": 663853,
+   "player_name": "Romy Gonzalez",
+   "team": "BOS",
+   "opponent": "CWS",
+   "result": "Single",
+   "exit_velocity": 65.1,
+   "launch_angle": -61.0,
+   "hit_distance": 2.0,
+   "hc_x": 112.28,
+   "hc_y": 182.59,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "23070554-2ceb-3c89-9276-5084fdea881d",
+   "venue_id": 4,
+   "venue_name": "Rate Field",
+   "temp_f": 83.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 0.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824579,
    "date": "2026-07-07",

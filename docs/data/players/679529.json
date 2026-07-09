@@ -2,20 +2,38 @@
  "player_id": 679529,
  "player_name": "Spencer Torkelson",
  "team": "DET",
- "as_of": "2026-07-09",
+ "as_of": "2026-07-08",
  "form": {
   "streak": 0,
-  "frequency": 0.333,
+  "frequency": 0.25,
   "slopes": {
-   "max_ev": -5.1,
-   "parks_sum": -5.0,
-   "near_hr": -0.5
+   "max_ev": 0.71,
+   "parks_sum": -3.0,
+   "near_hr": -0.3
   },
-  "intensity": 0.0,
-  "expectancy_score": 10.0,
-  "last_appearance": "2026-07-07"
+  "intensity": 0.118,
+  "expectancy_score": 11.0,
+  "last_appearance": "2026-07-08"
  },
  "days": [
+  {
+   "date": "2026-07-08",
+   "bbe": 1,
+   "hr": 1,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 99.0,
+   "max_distance": 363.0,
+   "max_barrel_score": 78.3,
+   "temp_f": 87.0,
+   "wind_mph": 7.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-07",
    "bbe": 2,
@@ -72,6 +90,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824253,
+   "date": "2026-07-08",
+   "player_id": 679529,
+   "player_name": "Spencer Torkelson",
+   "team": "DET",
+   "opponent": "ATH",
+   "result": "Home Run",
+   "exit_velocity": 99.0,
+   "launch_angle": 29.0,
+   "hit_distance": 363.0,
+   "hc_x": 33.72,
+   "hc_y": 84.39,
+   "would_be_hr_count": 21,
+   "inning": 5,
+   "play_id": "86b8f77a-44ff-33c5-aa57-db310ab5a373",
+   "venue_id": 2394,
+   "venue_name": "Comerica Park",
+   "temp_f": 87.0,
+   "wind_mph": 7.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 78.3,
+   "barrel_flag": false,
+   "is_home_run": true,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824254,
    "date": "2026-07-07",

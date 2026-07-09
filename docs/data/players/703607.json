@@ -2,20 +2,38 @@
  "player_id": 703607,
  "player_name": "Henry Bolte",
  "team": "ATH",
- "as_of": "2026-07-09",
+ "as_of": "2026-07-08",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -0.1,
+   "max_ev": -11.16,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.0,
   "expectancy_score": 0.0,
-  "last_appearance": "2026-07-07"
+  "last_appearance": "2026-07-08"
  },
  "days": [
+  {
+   "date": "2026-07-08",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 71.4,
+   "max_distance": 143.0,
+   "max_barrel_score": 23.9,
+   "temp_f": 87.0,
+   "wind_mph": 7.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-07",
    "bbe": 3,
@@ -72,6 +90,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824253,
+   "date": "2026-07-08",
+   "player_id": 703607,
+   "player_name": "Henry Bolte",
+   "team": "ATH",
+   "opponent": "DET",
+   "result": "Forceout",
+   "exit_velocity": 71.4,
+   "launch_angle": 12.0,
+   "hit_distance": 143.0,
+   "hc_x": 110.06,
+   "hc_y": 146.85,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "75630abe-d5ab-3f29-955f-31db0d48d2c2",
+   "venue_id": 2394,
+   "venue_name": "Comerica Park",
+   "temp_f": 87.0,
+   "wind_mph": 7.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 23.9,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824254,
    "date": "2026-07-07",

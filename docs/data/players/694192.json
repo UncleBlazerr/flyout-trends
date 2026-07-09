@@ -2,20 +2,38 @@
  "player_id": 694192,
  "player_name": "Jackson Chourio",
  "team": "MIL",
- "as_of": "2026-07-09",
+ "as_of": "2026-07-08",
  "form": {
-  "streak": 1,
-  "frequency": 0.5,
+  "streak": 0,
+  "frequency": 0.4,
   "slopes": {
-   "max_ev": 0.83,
+   "max_ev": -5.49,
    "parks_sum": -2.8,
-   "near_hr": 0.175
+   "near_hr": -0.025
   },
-  "intensity": 0.197,
-  "expectancy_score": 28.9,
-  "last_appearance": "2026-07-07"
+  "intensity": 0.0,
+  "expectancy_score": 12.0,
+  "last_appearance": "2026-07-08"
  },
  "days": [
+  {
+   "date": "2026-07-08",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 78.7,
+   "max_distance": 264.0,
+   "max_barrel_score": 42.8,
+   "temp_f": 87.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-07",
    "bbe": 8,
@@ -90,6 +108,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823032,
+   "date": "2026-07-08",
+   "player_id": 694192,
+   "player_name": "Jackson Chourio",
+   "team": "MIL",
+   "opponent": "STL",
+   "result": "Flyout",
+   "exit_velocity": 78.7,
+   "launch_angle": 39.0,
+   "hit_distance": 264.0,
+   "hc_x": 152.08,
+   "hc_y": 97.53,
+   "would_be_hr_count": 0,
+   "inning": 6,
+   "play_id": "1d8e8f03-6cd4-3b45-a20d-6bb276edff22",
+   "venue_id": 2889,
+   "venue_name": "Busch Stadium",
+   "temp_f": 87.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 42.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823035,
    "date": "2026-07-07",

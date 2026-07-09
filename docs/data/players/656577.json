@@ -2,20 +2,38 @@
  "player_id": 656577,
  "player_name": "Alex Jackson",
  "team": "MIN",
- "as_of": "2026-07-09",
+ "as_of": "2026-07-08",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 0.0,
+   "max_ev": -34.3,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.0,
   "expectancy_score": 0.0,
-  "last_appearance": "2026-07-04"
+  "last_appearance": "2026-07-08"
  },
  "days": [
+  {
+   "date": "2026-07-08",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 71.4,
+   "max_distance": 84.0,
+   "max_barrel_score": 14.5,
+   "temp_f": 77.0,
+   "wind_mph": 6.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-04",
    "bbe": 4,
@@ -36,6 +54,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823684,
+   "date": "2026-07-08",
+   "player_id": 656577,
+   "player_name": "Alex Jackson",
+   "team": "MIN",
+   "opponent": "CLE",
+   "result": "Single",
+   "exit_velocity": 71.4,
+   "launch_angle": 7.0,
+   "hit_distance": 84.0,
+   "hc_x": 146.12,
+   "hc_y": 147.12,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "8c11006c-57e5-3693-b815-0b58468d0154",
+   "venue_id": 3312,
+   "venue_name": "Target Field",
+   "temp_f": 77.0,
+   "wind_mph": 6.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 14.5,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823526,
    "date": "2026-07-04",

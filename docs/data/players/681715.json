@@ -2,20 +2,38 @@
  "player_id": 681715,
  "player_name": "Heriberto Hern\u00e1ndez",
  "team": "MIA",
- "as_of": "2026-07-09",
+ "as_of": "2026-07-08",
  "form": {
-  "streak": 1,
-  "frequency": 0.333,
+  "streak": 2,
+  "frequency": 0.5,
   "slopes": {
-   "max_ev": 14.6,
-   "parks_sum": 0.0,
-   "near_hr": 0.5
+   "max_ev": 7.38,
+   "parks_sum": 0.3,
+   "near_hr": 0.475
   },
-  "intensity": 0.5,
-  "expectancy_score": 33.0,
-  "last_appearance": "2026-07-07"
+  "intensity": 0.525,
+  "expectancy_score": 46.8,
+  "last_appearance": "2026-07-08"
  },
  "days": [
+  {
+   "date": "2026-07-08",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 1,
+   "near_hr_distance": 1,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 1,
+   "max_ev": 105.2,
+   "max_distance": 385.0,
+   "max_barrel_score": 82.0,
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-07-07",
    "bbe": 2,
@@ -72,6 +90,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823848,
+   "date": "2026-07-08",
+   "player_id": 681715,
+   "player_name": "Heriberto Hern\u00e1ndez",
+   "team": "MIA",
+   "opponent": "SEA",
+   "result": "Double",
+   "exit_velocity": 105.2,
+   "launch_angle": 23.0,
+   "hit_distance": 385.0,
+   "hc_x": 164.54,
+   "hc_y": 48.2,
+   "would_be_hr_count": 1,
+   "inning": 4,
+   "play_id": "51e0e070-68ab-34aa-9c7e-5fcbfbee3bad",
+   "venue_id": 4169,
+   "venue_name": "loanDepot park",
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": true,
+   "would_be_hr_flag": false,
+   "barrel_score": 82.0,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 823847,
    "date": "2026-07-07",

@@ -2,20 +2,38 @@
  "player_id": 686948,
  "player_name": "Drake Baldwin",
  "team": "ATL",
- "as_of": "2026-07-09",
+ "as_of": "2026-07-08",
  "form": {
   "streak": 0,
-  "frequency": 0.5,
+  "frequency": 0.4,
   "slopes": {
-   "max_ev": -0.98,
-   "parks_sum": -3.6,
-   "near_hr": -0.1
+   "max_ev": -0.78,
+   "parks_sum": -2.4,
+   "near_hr": -0.2
   },
   "intensity": 0.0,
-  "expectancy_score": 15.0,
-  "last_appearance": "2026-07-07"
+  "expectancy_score": 12.0,
+  "last_appearance": "2026-07-08"
  },
  "days": [
+  {
+   "date": "2026-07-08",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 99.8,
+   "max_distance": 263.0,
+   "max_barrel_score": 58.2,
+   "temp_f": 84.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-07",
    "bbe": 2,
@@ -90,6 +108,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823360,
+   "date": "2026-07-08",
+   "player_id": 686948,
+   "player_name": "Drake Baldwin",
+   "team": "ATL",
+   "opponent": "PIT",
+   "result": "Single",
+   "exit_velocity": 99.8,
+   "launch_angle": 13.0,
+   "hit_distance": 263.0,
+   "hc_x": 105.83,
+   "hc_y": 80.77,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "9cf28c7f-27b2-3f75-aaa9-d6261dc206e6",
+   "venue_id": 31,
+   "venue_name": "PNC Park",
+   "temp_f": 84.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 58.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823361,
    "date": "2026-07-07",
