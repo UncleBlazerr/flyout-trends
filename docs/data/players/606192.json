@@ -2,9 +2,9 @@
  "player_id": 606192,
  "player_name": "Teoscar Hern\u00e1ndez",
  "team": "LAD",
- "as_of": "2026-07-07",
+ "as_of": "2026-07-09",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.333,
   "slopes": {
    "max_ev": 4.2,
@@ -12,7 +12,7 @@
    "near_hr": 0.5
   },
   "intensity": 0.5,
-  "expectancy_score": 33.0,
+  "expectancy_score": 25.0,
   "last_appearance": "2026-07-06"
  },
  "days": [

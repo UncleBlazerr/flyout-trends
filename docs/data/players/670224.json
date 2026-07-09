@@ -2,9 +2,9 @@
  "player_id": 670224,
  "player_name": "Kameron Misner",
  "team": "KC",
- "as_of": "2026-07-07",
+ "as_of": "2026-07-09",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.5,
   "slopes": {
    "max_ev": 7.7,
@@ -12,7 +12,7 @@
    "near_hr": 1.0
   },
   "intensity": 0.778,
-  "expectancy_score": 46.3,
+  "expectancy_score": 38.3,
   "last_appearance": "2026-07-06"
  },
  "days": [
