@@ -2,9 +2,9 @@
  "player_id": 624585,
  "player_name": "Jorge Soler",
  "team": "LAA",
- "as_of": "2026-07-08",
+ "as_of": "2026-07-10",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.333,
   "slopes": {
    "max_ev": 10.6,
@@ -12,7 +12,7 @@
    "near_hr": 0.625
   },
   "intensity": 0.819,
-  "expectancy_score": 42.6,
+  "expectancy_score": 34.6,
   "last_appearance": "2026-07-07"
  },
  "days": [
