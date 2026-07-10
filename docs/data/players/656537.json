@@ -2,20 +2,38 @@
  "player_id": 656537,
  "player_name": "Derek Hill",
  "team": "PHI",
- "as_of": "2026-07-10",
+ "as_of": "2026-07-09",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 15.8,
+   "max_ev": 2.7,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.333,
   "expectancy_score": 10.0,
-  "last_appearance": "2026-07-07"
+  "last_appearance": "2026-07-09"
  },
  "days": [
+  {
+   "date": "2026-07-09",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 90.7,
+   "max_distance": 348.0,
+   "max_barrel_score": 67.8,
+   "temp_f": 86.0,
+   "wind_mph": 6.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-07",
    "bbe": 2,
@@ -54,6 +72,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824494,
+   "date": "2026-07-09",
+   "player_id": 656537,
+   "player_name": "Derek Hill",
+   "team": "PHI",
+   "opponent": "CIN",
+   "result": "Flyout",
+   "exit_velocity": 90.7,
+   "launch_angle": 31.0,
+   "hit_distance": 348.0,
+   "hc_x": 113.4,
+   "hc_y": 59.84,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "6a8f5357-bd70-3e74-9d53-b0009e479a4d",
+   "venue_id": 2602,
+   "venue_name": "Great American Ball Park",
+   "temp_f": 86.0,
+   "wind_mph": 6.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 67.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824495,
    "date": "2026-07-07",

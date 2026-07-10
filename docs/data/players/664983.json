@@ -2,20 +2,38 @@
  "player_id": 664983,
  "player_name": "Jake McCarthy",
  "team": "COL",
- "as_of": "2026-07-10",
+ "as_of": "2026-07-09",
  "form": {
-  "streak": 1,
-  "frequency": 0.4,
+  "streak": 0,
+  "frequency": 0.333,
   "slopes": {
-   "max_ev": 2.8,
+   "max_ev": -4.226,
    "parks_sum": 0.0,
-   "near_hr": 0.125
+   "near_hr": 0.0
   },
-  "intensity": 0.375,
-  "expectancy_score": 31.2,
-  "last_appearance": "2026-07-08"
+  "intensity": 0.0,
+  "expectancy_score": 10.0,
+  "last_appearance": "2026-07-09"
  },
  "days": [
+  {
+   "date": "2026-07-09",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 45.4,
+   "max_distance": 71.0,
+   "max_barrel_score": 15.6,
+   "temp_f": 59.0,
+   "wind_mph": 13.0,
+   "wind_dir": "varies",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-08",
    "bbe": 4,
@@ -108,6 +126,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823201,
+   "date": "2026-07-09",
+   "player_id": 664983,
+   "player_name": "Jake McCarthy",
+   "team": "COL",
+   "opponent": "SF",
+   "result": "Bunt Groundout",
+   "exit_velocity": 45.4,
+   "launch_angle": 10.0,
+   "hit_distance": 71.0,
+   "hc_x": 146.33,
+   "hc_y": 172.19,
+   "would_be_hr_count": 0,
+   "inning": 5,
+   "play_id": "3259c657-e81b-3095-91a0-e1084d840374",
+   "venue_id": 2395,
+   "venue_name": "Oracle Park",
+   "temp_f": 59.0,
+   "wind_mph": 13.0,
+   "wind_dir": "varies",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 15.6,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823928,
    "date": "2026-07-08",

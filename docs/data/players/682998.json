@@ -2,20 +2,38 @@
  "player_id": 682998,
  "player_name": "Corbin Carroll",
  "team": "AZ",
- "as_of": "2026-07-10",
+ "as_of": "2026-07-09",
  "form": {
   "streak": 0,
-  "frequency": 0.2,
+  "frequency": 0.167,
   "slopes": {
-   "max_ev": -6.12,
+   "max_ev": -1.871,
    "parks_sum": 0.0,
-   "near_hr": -0.2
+   "near_hr": -0.143
   },
   "intensity": 0.0,
-  "expectancy_score": 6.0,
-  "last_appearance": "2026-07-08"
+  "expectancy_score": 5.0,
+  "last_appearance": "2026-07-09"
  },
  "days": [
+  {
+   "date": "2026-07-09",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 104.0,
+   "max_distance": 42.0,
+   "max_barrel_score": 33.0,
+   "temp_f": 70.0,
+   "wind_mph": 6.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-08",
    "bbe": 2,
@@ -108,6 +126,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823277,
+   "date": "2026-07-09",
+   "player_id": 682998,
+   "player_name": "Corbin Carroll",
+   "team": "AZ",
+   "opponent": "SD",
+   "result": "Single",
+   "exit_velocity": 104.0,
+   "launch_angle": -2.0,
+   "hit_distance": 42.0,
+   "hc_x": 152.03,
+   "hc_y": 108.92,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "b6216abe-28f7-3eab-a01e-f26e496f6029",
+   "venue_id": 2680,
+   "venue_name": "Petco Park",
+   "temp_f": 70.0,
+   "wind_mph": 6.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 33.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823279,
    "date": "2026-07-08",

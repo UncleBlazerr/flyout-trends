@@ -2,20 +2,38 @@
  "player_id": 702176,
  "player_name": "Alan Roden",
  "team": "MIN",
- "as_of": "2026-07-10",
+ "as_of": "2026-07-09",
  "form": {
-  "streak": 1,
-  "frequency": 1.0,
+  "streak": 0,
+  "frequency": 0.5,
   "slopes": {
-   "max_ev": 0.0,
-   "parks_sum": 0.0,
-   "near_hr": 0.0
+   "max_ev": -8.1,
+   "parks_sum": -6.0,
+   "near_hr": -1.0
   },
   "intensity": 0.0,
-  "expectancy_score": 38.0,
-  "last_appearance": "2026-07-08"
+  "expectancy_score": 15.0,
+  "last_appearance": "2026-07-09"
  },
  "days": [
+  {
+   "date": "2026-07-09",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 96.4,
+   "max_distance": 10.0,
+   "max_barrel_score": 24.1,
+   "temp_f": 79.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-07-08",
    "bbe": 4,
@@ -36,6 +54,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823683,
+   "date": "2026-07-09",
+   "player_id": 702176,
+   "player_name": "Alan Roden",
+   "team": "MIN",
+   "opponent": "CLE",
+   "result": "Groundout",
+   "exit_velocity": 96.4,
+   "launch_angle": -14.0,
+   "hit_distance": 10.0,
+   "hc_x": 104.82,
+   "hc_y": 157.36,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "4f04b85b-7467-3571-8dc6-5eabb73f3736",
+   "venue_id": 3312,
+   "venue_name": "Target Field",
+   "temp_f": 79.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 24.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823684,
    "date": "2026-07-08",

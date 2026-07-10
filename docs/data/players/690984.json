@@ -1,0 +1,69 @@
+{
+ "player_id": 690984,
+ "player_name": "Petey Halpin",
+ "team": "CLE",
+ "as_of": "2026-07-09",
+ "form": {
+  "streak": 0,
+  "frequency": 0.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-09"
+ },
+ "days": [
+  {
+   "date": "2026-07-09",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 57.3,
+   "max_distance": 4.0,
+   "max_barrel_score": 0.3,
+   "temp_f": 79.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Sunny"
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 823683,
+   "date": "2026-07-09",
+   "player_id": 690984,
+   "player_name": "Petey Halpin",
+   "team": "CLE",
+   "opponent": "MIN",
+   "result": "Groundout",
+   "exit_velocity": 57.3,
+   "launch_angle": -50.0,
+   "hit_distance": 4.0,
+   "hc_x": 124.25,
+   "hc_y": 180.94,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "f1535c83-2fc5-31e0-ba76-674e62a22d7c",
+   "venue_id": 3312,
+   "venue_name": "Target Field",
+   "temp_f": 79.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 0.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  }
+ ]
+}

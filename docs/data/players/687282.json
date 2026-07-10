@@ -2,20 +2,38 @@
  "player_id": 687282,
  "player_name": "Gabriel Rincones Jr.",
  "team": "PHI",
- "as_of": "2026-07-10",
+ "as_of": "2026-07-09",
  "form": {
-  "streak": 1,
-  "frequency": 0.5,
+  "streak": 0,
+  "frequency": 0.4,
   "slopes": {
-   "max_ev": 3.14,
+   "max_ev": -2.2,
    "parks_sum": -2.3,
-   "near_hr": 0.25
+   "near_hr": 0.0
   },
-  "intensity": 0.417,
-  "expectancy_score": 35.5,
-  "last_appearance": "2026-07-08"
+  "intensity": 0.0,
+  "expectancy_score": 12.0,
+  "last_appearance": "2026-07-09"
  },
  "days": [
+  {
+   "date": "2026-07-09",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 88.0,
+   "max_distance": 8.0,
+   "max_barrel_score": 16.5,
+   "temp_f": 86.0,
+   "wind_mph": 6.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-08",
    "bbe": 2,
@@ -90,6 +108,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824494,
+   "date": "2026-07-09",
+   "player_id": 687282,
+   "player_name": "Gabriel Rincones Jr.",
+   "team": "PHI",
+   "opponent": "CIN",
+   "result": "Groundout",
+   "exit_velocity": 88.0,
+   "launch_angle": -27.0,
+   "hit_distance": 8.0,
+   "hc_x": 153.84,
+   "hc_y": 167.9,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "fb47fc3b-a785-3828-ba62-e041d1f5a28d",
+   "venue_id": 2602,
+   "venue_name": "Great American Ball Park",
+   "temp_f": 86.0,
+   "wind_mph": 6.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 16.5,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824496,
    "date": "2026-07-08",

@@ -2,20 +2,38 @@
  "player_id": 677587,
  "player_name": "Brayan Rocchio",
  "team": "CLE",
- "as_of": "2026-07-10",
+ "as_of": "2026-07-09",
  "form": {
-  "streak": 1,
-  "frequency": 0.25,
+  "streak": 0,
+  "frequency": 0.2,
   "slopes": {
-   "max_ev": -0.2,
+   "max_ev": -3.31,
    "parks_sum": 0.0,
-   "near_hr": 0.3
+   "near_hr": 0.1
   },
-  "intensity": 0.1,
-  "expectancy_score": 18.5,
-  "last_appearance": "2026-07-08"
+  "intensity": 0.033,
+  "expectancy_score": 7.0,
+  "last_appearance": "2026-07-09"
  },
  "days": [
+  {
+   "date": "2026-07-09",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 85.0,
+   "max_distance": 143.0,
+   "max_barrel_score": 33.8,
+   "temp_f": 79.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-07-08",
    "bbe": 5,
@@ -90,6 +108,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823683,
+   "date": "2026-07-09",
+   "player_id": 677587,
+   "player_name": "Brayan Rocchio",
+   "team": "CLE",
+   "opponent": "MIN",
+   "result": "Double",
+   "exit_velocity": 85.0,
+   "launch_angle": 10.0,
+   "hit_distance": 143.0,
+   "hc_x": 60.12,
+   "hc_y": 144.6,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "f9a42017-5e24-31fb-b862-6409e1be4fa9",
+   "venue_id": 3312,
+   "venue_name": "Target Field",
+   "temp_f": 79.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 33.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823684,
    "date": "2026-07-08",

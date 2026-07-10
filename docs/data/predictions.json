@@ -1,69 +1,69 @@
 {
- "as_of": "2026-07-10",
+ "as_of": "2026-07-09",
  "horizon_days": 3,
  "min_samples": 20,
  "players": [
   {
-   "player_id": 678011,
-   "player_name": "Anthony Seigler",
-   "team": "BOS",
-   "expectancy_score": 70.2,
-   "streak": 4,
-   "frequency": 1.0,
+   "player_id": 701852,
+   "player_name": "Drew Cavanaugh",
+   "team": "SF",
+   "expectancy_score": 61.0,
+   "streak": 2,
+   "frequency": 0.667,
    "slopes": {
-    "max_ev": 1.63,
-    "parks_sum": -1.2,
-    "near_hr": 0.0
+    "max_ev": 18.5,
+    "parks_sum": 4.0,
+    "near_hr": 0.5
    },
-   "near_hr_7d": 4,
+   "near_hr_7d": 2,
    "near_hr_xbh_7d": 0,
    "hr_7d": 0,
-   "max_ev_7d": 100.5,
-   "max_distance_7d": 372,
+   "max_ev_7d": 101.9,
+   "max_distance_7d": 349,
    "band": "60-80",
    "band_rate": null,
-   "band_samples": 3,
+   "band_samples": 4,
    "weather_factor": 1.0,
-   "adjusted_score": 70.2,
+   "adjusted_score": 61.0,
    "game_weather": {
-    "venue_name": "Citi Field",
+    "venue_name": "Oracle Park",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": true
+   "repeat": false
   },
   {
-   "player_id": 665019,
-   "player_name": "Kody Clemens",
-   "team": "MIN",
-   "expectancy_score": 65.6,
-   "streak": 3,
-   "frequency": 0.75,
+   "player_id": 673962,
+   "player_name": "Josh Jung",
+   "team": "TEX",
+   "expectancy_score": 58.0,
+   "streak": 1,
+   "frequency": 1.0,
    "slopes": {
-    "max_ev": 0.62,
-    "parks_sum": 2.7,
-    "near_hr": 0.7
+    "max_ev": 3.8,
+    "parks_sum": 0.0,
+    "near_hr": 1.0
    },
-   "near_hr_7d": 4,
+   "near_hr_7d": 3,
    "near_hr_xbh_7d": 2,
-   "hr_7d": 1,
-   "max_ev_7d": 104.9,
-   "max_distance_7d": 393,
-   "band": "60-80",
-   "band_rate": null,
-   "band_samples": 3,
+   "hr_7d": 0,
+   "max_ev_7d": 106.7,
+   "max_distance_7d": 377,
+   "band": "40-60",
+   "band_rate": 0.239,
+   "band_samples": 46,
    "weather_factor": 1.0,
-   "adjusted_score": 65.6,
+   "adjusted_score": 58.0,
    "game_weather": {
-    "venue_name": "Target Field",
+    "venue_name": "Globe Life Field",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": true
+   "repeat": false
   },
   {
    "player_id": 665966,
@@ -83,8 +83,8 @@
    "max_ev_7d": 104.4,
    "max_distance_7d": 379,
    "band": "40-60",
-   "band_rate": 0.2,
-   "band_samples": 35,
+   "band_rate": 0.239,
+   "band_samples": 46,
    "weather_factor": 1.0,
    "adjusted_score": 56.0,
    "game_weather": {
@@ -94,7 +94,7 @@
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 666126,
@@ -114,8 +114,8 @@
    "max_ev_7d": 105.7,
    "max_distance_7d": 365,
    "band": "40-60",
-   "band_rate": 0.2,
-   "band_samples": 35,
+   "band_rate": 0.239,
+   "band_samples": 46,
    "weather_factor": 1.0,
    "adjusted_score": 54.0,
    "game_weather": {
@@ -125,7 +125,38 @@
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": false
+   "repeat": true
+  },
+  {
+   "player_id": 657041,
+   "player_name": "Lane Thomas",
+   "team": "KC",
+   "expectancy_score": 53.1,
+   "streak": 3,
+   "frequency": 0.5,
+   "slopes": {
+    "max_ev": 1.391,
+    "parks_sum": 0.486,
+    "near_hr": 0.55
+   },
+   "near_hr_7d": 6,
+   "near_hr_xbh_7d": 3,
+   "hr_7d": 2,
+   "max_ev_7d": 108.4,
+   "max_distance_7d": 406,
+   "band": "40-60",
+   "band_rate": 0.239,
+   "band_samples": 46,
+   "weather_factor": 1.0,
+   "adjusted_score": 53.1,
+   "game_weather": {
+    "venue_name": "Oriole Park at Camden Yards",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
   },
   {
    "player_id": 681351,
@@ -145,8 +176,8 @@
    "max_ev_7d": 109.5,
    "max_distance_7d": 392,
    "band": "40-60",
-   "band_rate": 0.2,
-   "band_samples": 35,
+   "band_rate": 0.239,
+   "band_samples": 46,
    "weather_factor": 1.0,
    "adjusted_score": 51.0,
    "game_weather": {
@@ -159,29 +190,29 @@
    "repeat": true
   },
   {
-   "player_id": 805300,
-   "player_name": "Jakob Marsee",
-   "team": "MIA",
-   "expectancy_score": 49.5,
+   "player_id": 687263,
+   "player_name": "Zach Neto",
+   "team": "LAA",
+   "expectancy_score": 48.9,
    "streak": 2,
-   "frequency": 0.75,
+   "frequency": 0.4,
    "slopes": {
-    "max_ev": -0.33,
-    "parks_sum": 7.0,
-    "near_hr": 0.1
+    "max_ev": 1.54,
+    "parks_sum": 2.4,
+    "near_hr": 0.525
    },
    "near_hr_7d": 3,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 99.8,
-   "max_distance_7d": 384,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 1,
+   "max_ev_7d": 109.7,
+   "max_distance_7d": 397,
    "band": "40-60",
-   "band_rate": 0.2,
-   "band_samples": 35,
+   "band_rate": 0.239,
+   "band_samples": 46,
    "weather_factor": 1.0,
-   "adjusted_score": 49.5,
+   "adjusted_score": 48.9,
    "game_weather": {
-    "venue_name": "loanDepot park",
+    "venue_name": "Target Field",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -190,35 +221,66 @@
    "repeat": false
   },
   {
-   "player_id": 657041,
-   "player_name": "Lane Thomas",
-   "team": "KC",
-   "expectancy_score": 49.0,
-   "streak": 2,
-   "frequency": 0.4,
+   "player_id": 669477,
+   "player_name": "Casey Schmitt",
+   "team": "SF",
+   "expectancy_score": 48.3,
+   "streak": 3,
+   "frequency": 0.667,
    "slopes": {
-    "max_ev": 2.32,
-    "parks_sum": 1.2,
-    "near_hr": 0.7
+    "max_ev": 0.46,
+    "parks_sum": -0.571,
+    "near_hr": 0.2
    },
-   "near_hr_7d": 4,
-   "near_hr_xbh_7d": 3,
-   "hr_7d": 1,
-   "max_ev_7d": 108.4,
-   "max_distance_7d": 403,
+   "near_hr_7d": 5,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 2,
+   "max_ev_7d": 104.7,
+   "max_distance_7d": 420,
    "band": "40-60",
-   "band_rate": 0.2,
-   "band_samples": 35,
+   "band_rate": 0.239,
+   "band_samples": 46,
    "weather_factor": 1.0,
-   "adjusted_score": 49.0,
+   "adjusted_score": 48.3,
    "game_weather": {
-    "venue_name": "Oriole Park at Camden Yards",
+    "venue_name": "Oracle Park",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": true
+   "repeat": false
+  },
+  {
+   "player_id": 655316,
+   "player_name": "Andruw Monasterio",
+   "team": "BOS",
+   "expectancy_score": 47.6,
+   "streak": 2,
+   "frequency": 0.5,
+   "slopes": {
+    "max_ev": 1.92,
+    "parks_sum": 0.9,
+    "near_hr": 0.4
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
+   "max_ev_7d": 106.2,
+   "max_distance_7d": 384,
+   "band": "40-60",
+   "band_rate": 0.239,
+   "band_samples": 46,
+   "weather_factor": 1.0,
+   "adjusted_score": 47.6,
+   "game_weather": {
+    "venue_name": "Citi Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
   },
   {
    "player_id": 606192,
@@ -238,10 +300,41 @@
    "max_ev_7d": 104.1,
    "max_distance_7d": 374,
    "band": "40-60",
-   "band_rate": 0.2,
-   "band_samples": 35,
+   "band_rate": 0.239,
+   "band_samples": 46,
    "weather_factor": 1.0,
    "adjusted_score": 47.1,
+   "game_weather": {
+    "venue_name": "UNIQLO Field at Dodger Stadium",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 672695,
+   "player_name": "Geraldo Perdomo",
+   "team": "AZ",
+   "expectancy_score": 46.0,
+   "streak": 2,
+   "frequency": 0.6,
+   "slopes": {
+    "max_ev": 3.58,
+    "parks_sum": 0.0,
+    "near_hr": 0.2
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
+   "max_ev_7d": 101.0,
+   "max_distance_7d": 377,
+   "band": "40-60",
+   "band_rate": 0.239,
+   "band_samples": 46,
+   "weather_factor": 1.0,
+   "adjusted_score": 46.0,
    "game_weather": {
     "venue_name": "UNIQLO Field at Dodger Stadium",
     "temp_f": null,
@@ -252,91 +345,29 @@
    "repeat": false
   },
   {
-   "player_id": 681715,
-   "player_name": "Heriberto Hern\u00e1ndez",
-   "team": "MIA",
-   "expectancy_score": 46.8,
+   "player_id": 608324,
+   "player_name": "Alex Bregman",
+   "team": "CHC",
+   "expectancy_score": 45.3,
    "streak": 2,
-   "frequency": 0.5,
+   "frequency": 0.6,
    "slopes": {
-    "max_ev": 7.38,
-    "parks_sum": 0.3,
-    "near_hr": 0.475
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 3,
-   "max_ev_7d": 110.4,
-   "max_distance_7d": 437,
-   "band": "40-60",
-   "band_rate": 0.2,
-   "band_samples": 35,
-   "weather_factor": 1.0,
-   "adjusted_score": 46.8,
-   "game_weather": {
-    "venue_name": "loanDepot park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 682829,
-   "player_name": "Elly De La Cruz",
-   "team": "CIN",
-   "expectancy_score": 45.8,
-   "streak": 2,
-   "frequency": 0.5,
-   "slopes": {
-    "max_ev": 3.75,
-    "parks_sum": 0.0,
-    "near_hr": 0.475
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 1,
-   "max_ev_7d": 108.9,
-   "max_distance_7d": 387,
-   "band": "40-60",
-   "band_rate": 0.2,
-   "band_samples": 35,
-   "weather_factor": 1.0,
-   "adjusted_score": 45.8,
-   "game_weather": {
-    "venue_name": "Great American Ball Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 691026,
-   "player_name": "Masyn Winn",
-   "team": "STL",
-   "expectancy_score": 44.2,
-   "streak": 2,
-   "frequency": 0.8,
-   "slopes": {
-    "max_ev": -0.44,
-    "parks_sum": 1.1,
-    "near_hr": 0.05
+    "max_ev": 1.59,
+    "parks_sum": 0.1,
+    "near_hr": 0.3
    },
    "near_hr_7d": 4,
-   "near_hr_xbh_7d": 1,
+   "near_hr_xbh_7d": 0,
    "hr_7d": 0,
-   "max_ev_7d": 106.1,
-   "max_distance_7d": 369,
+   "max_ev_7d": 103.0,
+   "max_distance_7d": 376,
    "band": "40-60",
-   "band_rate": 0.2,
-   "band_samples": 35,
+   "band_rate": 0.239,
+   "band_samples": 46,
    "weather_factor": 1.0,
-   "adjusted_score": 44.2,
+   "adjusted_score": 45.3,
    "game_weather": {
-    "venue_name": "Busch Stadium",
+    "venue_name": "Great American Ball Park",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -362,12 +393,43 @@
    "max_ev_7d": 99.7,
    "max_distance_7d": 392,
    "band": "40-60",
-   "band_rate": 0.2,
-   "band_samples": 35,
+   "band_rate": 0.239,
+   "band_samples": 46,
    "weather_factor": 1.0,
    "adjusted_score": 44.2,
    "game_weather": {
     "venue_name": "Oriole Park at Camden Yards",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 666018,
+   "player_name": "Jonathan Aranda",
+   "team": "TB",
+   "expectancy_score": 44.1,
+   "streak": 2,
+   "frequency": 0.5,
+   "slopes": {
+    "max_ev": -0.097,
+    "parks_sum": 4.0,
+    "near_hr": 0.307
+   },
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 102.4,
+   "max_distance_7d": 404,
+   "band": "40-60",
+   "band_rate": 0.239,
+   "band_samples": 46,
+   "weather_factor": 1.0,
+   "adjusted_score": 44.1,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -393,8 +455,8 @@
    "max_ev_7d": 100.2,
    "max_distance_7d": 381,
    "band": "40-60",
-   "band_rate": 0.2,
-   "band_samples": 35,
+   "band_rate": 0.239,
+   "band_samples": 46,
    "weather_factor": 1.0,
    "adjusted_score": 43.0,
    "game_weather": {
@@ -404,95 +466,33 @@
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": false
-  },
-  {
-   "player_id": 609280,
-   "player_name": "Miguel Andujar",
-   "team": "SD",
-   "expectancy_score": 43.0,
-   "streak": 1,
-   "frequency": 0.333,
-   "slopes": {
-    "max_ev": 7.8,
-    "parks_sum": 7.0,
-    "near_hr": 0.5
-   },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 104.5,
-   "max_distance_7d": 390,
-   "band": "40-60",
-   "band_rate": 0.2,
-   "band_samples": 35,
-   "weather_factor": 1.0,
-   "adjusted_score": 43.0,
-   "game_weather": {
-    "venue_name": "Petco Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 687637,
-   "player_name": "Dylan Beavers",
-   "team": "BAL",
-   "expectancy_score": 43.0,
-   "streak": 1,
-   "frequency": 0.5,
-   "slopes": {
-    "max_ev": 5.8,
-    "parks_sum": 0.0,
-    "near_hr": 1.25
-   },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 100.5,
-   "max_distance_7d": 368,
-   "band": "40-60",
-   "band_rate": 0.2,
-   "band_samples": 35,
-   "weather_factor": 1.0,
-   "adjusted_score": 43.0,
-   "game_weather": {
-    "venue_name": "Oriole Park at Camden Yards",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
+   "repeat": true
   }
  ],
  "bands": {
   "<40": {
-   "samples": 530,
-   "hr_followed": 110,
-   "rate": 0.208
+   "samples": 671,
+   "hr_followed": 146,
+   "rate": 0.218
   },
   "40-60": {
-   "samples": 35,
-   "hr_followed": 7,
-   "rate": 0.2
+   "samples": 46,
+   "hr_followed": 11,
+   "rate": 0.239
   },
   "60-80": {
-   "samples": 3,
+   "samples": 4,
    "hr_followed": 0,
    "rate": 0.0
   }
  },
  "hit_rate": {
-  "resolved_records": 1,
+  "resolved_records": 2,
   "horizon_days": 3,
   "overall": {
-   "flagged": 15,
-   "hr_followed": 2,
-   "rate": 0.133
+   "flagged": 30,
+   "hr_followed": 5,
+   "rate": 0.167
   },
   "top_band": {
    "band": "80+",
@@ -501,5 +501,42 @@
    "rate": null
   }
  },
- "recent_hits": []
+ "recent_hits": [
+  {
+   "player_id": 669224,
+   "player_name": "Austin Wells",
+   "team": "NYY",
+   "flagged_on": "2026-07-07",
+   "flagged_score": 54.0,
+   "hr_on": "2026-07-09",
+   "hr_count": 1
+  },
+  {
+   "player_id": 668904,
+   "player_name": "Royce Lewis",
+   "team": "MIN",
+   "flagged_on": "2026-07-06",
+   "flagged_score": 53.0,
+   "hr_on": "2026-07-09",
+   "hr_count": 1
+  },
+  {
+   "player_id": 657041,
+   "player_name": "Lane Thomas",
+   "team": "KC",
+   "flagged_on": "2026-07-08",
+   "flagged_score": 49.0,
+   "hr_on": "2026-07-09",
+   "hr_count": 1
+  },
+  {
+   "player_id": 677951,
+   "player_name": "Bobby Witt Jr.",
+   "team": "KC",
+   "flagged_on": "2026-07-06",
+   "flagged_score": 48.0,
+   "hr_on": "2026-07-09",
+   "hr_count": 1
+  }
+ ]
 }

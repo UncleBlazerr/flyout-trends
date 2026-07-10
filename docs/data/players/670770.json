@@ -2,20 +2,38 @@
  "player_id": 670770,
  "player_name": "TJ Friedl",
  "team": "CIN",
- "as_of": "2026-07-10",
+ "as_of": "2026-07-09",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -6.16,
-   "parks_sum": -0.3,
+   "max_ev": -6.26,
+   "parks_sum": -0.2,
    "near_hr": 0.0
   },
   "intensity": 0.0,
   "expectancy_score": 0.0,
-  "last_appearance": "2026-07-08"
+  "last_appearance": "2026-07-09"
  },
  "days": [
+  {
+   "date": "2026-07-09",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 76.0,
+   "max_distance": 245.0,
+   "max_barrel_score": 35.8,
+   "temp_f": 86.0,
+   "wind_mph": 6.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-08",
    "bbe": 2,
@@ -90,6 +108,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824494,
+   "date": "2026-07-09",
+   "player_id": 670770,
+   "player_name": "TJ Friedl",
+   "team": "CIN",
+   "opponent": "PHI",
+   "result": "Flyout",
+   "exit_velocity": 76.0,
+   "launch_angle": 42.0,
+   "hit_distance": 245.0,
+   "hc_x": 69.64,
+   "hc_y": 118.89,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "f8369b41-64e9-3d49-85c6-e09e7104875e",
+   "venue_id": 2602,
+   "venue_name": "Great American Ball Park",
+   "temp_f": 86.0,
+   "wind_mph": 6.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 35.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824496,
    "date": "2026-07-08",

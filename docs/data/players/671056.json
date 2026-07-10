@@ -2,20 +2,38 @@
  "player_id": 671056,
  "player_name": "Iv\u00e1n Herrera",
  "team": "STL",
- "as_of": "2026-07-10",
+ "as_of": "2026-07-09",
  "form": {
   "streak": 0,
-  "frequency": 0.2,
+  "frequency": 0.167,
   "slopes": {
-   "max_ev": 2.08,
+   "max_ev": -1.171,
    "parks_sum": 0.0,
-   "near_hr": 0.0
+   "near_hr": -0.029
   },
-  "intensity": 0.333,
-  "expectancy_score": 16.0,
-  "last_appearance": "2026-07-08"
+  "intensity": 0.0,
+  "expectancy_score": 5.0,
+  "last_appearance": "2026-07-09"
  },
  "days": [
+  {
+   "date": "2026-07-09",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 75.8,
+   "max_distance": 24.0,
+   "max_barrel_score": 6.8,
+   "temp_f": 82.0,
+   "wind_mph": 9.0,
+   "wind_dir": "out",
+   "weather_condition": "Overcast"
+  },
   {
    "date": "2026-07-08",
    "bbe": 3,
@@ -108,6 +126,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823034,
+   "date": "2026-07-09",
+   "player_id": 671056,
+   "player_name": "Iv\u00e1n Herrera",
+   "team": "STL",
+   "opponent": "MIL",
+   "result": "Groundout",
+   "exit_velocity": 75.8,
+   "launch_angle": -3.0,
+   "hit_distance": 24.0,
+   "hc_x": 143.3,
+   "hc_y": 152.37,
+   "would_be_hr_count": 0,
+   "inning": 1,
+   "play_id": "03641228-fb72-322f-b581-544d60e1cd39",
+   "venue_id": 2889,
+   "venue_name": "Busch Stadium",
+   "temp_f": 82.0,
+   "wind_mph": 9.0,
+   "wind_dir": "out",
+   "weather_condition": "Overcast",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 6.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823032,
    "date": "2026-07-08",

@@ -1,0 +1,69 @@
+{
+ "player_id": 680664,
+ "player_name": "Eduardo Valencia",
+ "team": "DET",
+ "as_of": "2026-07-09",
+ "form": {
+  "streak": 0,
+  "frequency": 0.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-09"
+ },
+ "days": [
+  {
+   "date": "2026-07-09",
+   "bbe": 1,
+   "hr": 1,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 103.4,
+   "max_distance": 425.0,
+   "max_barrel_score": 86.4,
+   "temp_f": 80.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 824251,
+   "date": "2026-07-09",
+   "player_id": 680664,
+   "player_name": "Eduardo Valencia",
+   "team": "DET",
+   "opponent": "ATH",
+   "result": "Home Run",
+   "exit_velocity": 103.4,
+   "launch_angle": 29.0,
+   "hit_distance": 425.0,
+   "hc_x": 101.82,
+   "hc_y": 28.46,
+   "would_be_hr_count": 30,
+   "inning": 7,
+   "play_id": "95b227e4-1fba-3696-8931-ed0132fd7d0c",
+   "venue_id": 2394,
+   "venue_name": "Comerica Park",
+   "temp_f": 80.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 86.4,
+   "barrel_flag": false,
+   "is_home_run": true,
+   "is_near_hr": false
+  }
+ ]
+}
