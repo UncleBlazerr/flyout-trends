@@ -2,9 +2,9 @@
  "player_id": 575929,
  "player_name": "Willson Contreras",
  "team": "BOS",
- "as_of": "2026-07-09",
+ "as_of": "2026-07-11",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.25,
   "slopes": {
    "max_ev": -1.62,
@@ -12,7 +12,7 @@
    "near_hr": 0.3
   },
   "intensity": 0.411,
-  "expectancy_score": 27.8,
+  "expectancy_score": 19.8,
   "last_appearance": "2026-07-08"
  },
  "days": [

@@ -2,9 +2,9 @@
  "player_id": 665966,
  "player_name": "Carlos Narv\u00e1ez",
  "team": "BOS",
- "as_of": "2026-07-09",
+ "as_of": "2026-07-11",
  "form": {
-  "streak": 2,
+  "streak": 0,
   "frequency": 1.0,
   "slopes": {
    "max_ev": 4.3,
@@ -12,7 +12,7 @@
    "near_hr": 0.0
   },
   "intensity": 0.333,
-  "expectancy_score": 56.0,
+  "expectancy_score": 40.0,
   "last_appearance": "2026-07-08"
  },
  "days": [

@@ -2,9 +2,9 @@
  "player_id": 676391,
  "player_name": "Ernie Clement",
  "team": "TOR",
- "as_of": "2026-07-09",
+ "as_of": "2026-07-11",
  "form": {
-  "streak": 2,
+  "streak": 0,
   "frequency": 0.4,
   "slopes": {
    "max_ev": 1.61,
@@ -12,7 +12,7 @@
    "near_hr": 0.325
   },
   "intensity": 0.41,
-  "expectancy_score": 40.3,
+  "expectancy_score": 24.3,
   "last_appearance": "2026-07-08"
  },
  "days": [
