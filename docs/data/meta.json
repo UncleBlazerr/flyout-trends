@@ -1,26 +1,11 @@
 {
- "latest_date": "2026-07-11",
- "generated_at": "2026-07-11T05:37:42.743469+00:00",
- "games_processed": 0,
+ "latest_date": "2026-07-10",
+ "generated_at": "2026-07-11T11:02:46.751448+00:00",
+ "games_processed": 14,
  "games_skipped_not_final": [
-  823357,
-  823356,
-  823682,
-  824576,
-  823198,
-  822711,
-  823603,
-  822953,
-  823844,
-  824249,
-  824813,
-  822875,
-  824492,
-  823030,
-  823276,
-  823926
+  823357
  ],
- "total_events": 0,
- "near_hr_events": 0,
- "home_runs": 0
+ "total_events": 734,
+ "near_hr_events": 61,
+ "home_runs": 43
 }

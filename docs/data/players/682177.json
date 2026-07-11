@@ -2,20 +2,38 @@
  "player_id": 682177,
  "player_name": "Daniel Schneemann",
  "team": "CLE",
- "as_of": "2026-07-11",
+ "as_of": "2026-07-10",
  "form": {
-  "streak": 2,
-  "frequency": 0.4,
+  "streak": 0,
+  "frequency": 0.333,
   "slopes": {
-   "max_ev": 4.72,
-   "parks_sum": 0.5,
-   "near_hr": 0.3
+   "max_ev": 1.123,
+   "parks_sum": 0.143,
+   "near_hr": 0.114
   },
-  "intensity": 0.489,
-  "expectancy_score": 42.7,
-  "last_appearance": "2026-07-09"
+  "intensity": 0.241,
+  "expectancy_score": 17.2,
+  "last_appearance": "2026-07-10"
  },
  "days": [
+  {
+   "date": "2026-07-10",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 83.4,
+   "max_distance": 254.0,
+   "max_barrel_score": 35.4,
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-07-09",
    "bbe": 4,
@@ -108,6 +126,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823845,
+   "date": "2026-07-10",
+   "player_id": 682177,
+   "player_name": "Daniel Schneemann",
+   "team": "CLE",
+   "opponent": "MIA",
+   "result": "Flyout",
+   "exit_velocity": 83.4,
+   "launch_angle": 49.0,
+   "hit_distance": 254.0,
+   "hc_x": 125.73,
+   "hc_y": 98.32,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "efafeafc-ecff-3527-aba1-e79aa5f12254",
+   "venue_id": 4169,
+   "venue_name": "loanDepot park",
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 35.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823683,
    "date": "2026-07-09",

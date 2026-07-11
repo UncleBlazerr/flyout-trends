@@ -2,20 +2,38 @@
  "player_id": 668885,
  "player_name": "Austin Martin",
  "team": "MIN",
- "as_of": "2026-07-11",
+ "as_of": "2026-07-10",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 7.9,
+   "max_ev": 0.3,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.333,
-  "expectancy_score": 10.0,
-  "last_appearance": "2026-07-07"
+  "intensity": 0.05,
+  "expectancy_score": 1.5,
+  "last_appearance": "2026-07-10"
  },
  "days": [
+  {
+   "date": "2026-07-10",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 94.2,
+   "max_distance": 114.0,
+   "max_barrel_score": 35.7,
+   "temp_f": 85.0,
+   "wind_mph": 4.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-07",
    "bbe": 3,
@@ -54,6 +72,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823685,
+   "date": "2026-07-10",
+   "player_id": 668885,
+   "player_name": "Austin Martin",
+   "team": "MIN",
+   "opponent": "LAA",
+   "result": "Groundout",
+   "exit_velocity": 94.2,
+   "launch_angle": 6.0,
+   "hit_distance": 114.0,
+   "hc_x": 105.06,
+   "hc_y": 133.17,
+   "would_be_hr_count": 0,
+   "inning": 6,
+   "play_id": "455d9d20-ce33-36ef-b864-d91b9fe8f289",
+   "venue_id": 3312,
+   "venue_name": "Target Field",
+   "temp_f": 85.0,
+   "wind_mph": 4.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 35.7,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823687,
    "date": "2026-07-07",

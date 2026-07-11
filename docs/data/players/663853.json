@@ -2,20 +2,38 @@
  "player_id": 663853,
  "player_name": "Romy Gonzalez",
  "team": "BOS",
- "as_of": "2026-07-11",
+ "as_of": "2026-07-10",
  "form": {
   "streak": 0,
-  "frequency": 0.25,
+  "frequency": 0.2,
   "slopes": {
-   "max_ev": -2.09,
-   "parks_sum": -6.0,
-   "near_hr": -0.3
+   "max_ev": -2.46,
+   "parks_sum": -4.0,
+   "near_hr": -0.2
   },
   "intensity": 0.0,
-  "expectancy_score": 7.5,
-  "last_appearance": "2026-07-09"
+  "expectancy_score": 6.0,
+  "last_appearance": "2026-07-10"
  },
  "days": [
+  {
+   "date": "2026-07-10",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 81.3,
+   "max_distance": 2.0,
+   "max_barrel_score": 10.2,
+   "temp_f": 82.0,
+   "wind_mph": 6.0,
+   "wind_dir": "out",
+   "weather_condition": "Cloudy"
+  },
   {
    "date": "2026-07-09",
    "bbe": 2,
@@ -90,6 +108,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823604,
+   "date": "2026-07-10",
+   "player_id": 663853,
+   "player_name": "Romy Gonzalez",
+   "team": "BOS",
+   "opponent": "NYM",
+   "result": "Forceout",
+   "exit_velocity": 81.3,
+   "launch_angle": -31.0,
+   "hit_distance": 2.0,
+   "hc_x": 114.31,
+   "hc_y": 159.28,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "2c5dbbff-14ff-39ea-a4ae-e7211392d2ad",
+   "venue_id": 3289,
+   "venue_name": "Citi Field",
+   "temp_f": 82.0,
+   "wind_mph": 6.0,
+   "wind_dir": "out",
+   "weather_condition": "Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 10.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824577,
    "date": "2026-07-09",

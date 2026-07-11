@@ -2,9 +2,9 @@
  "player_id": 678577,
  "player_name": "Junior Perez",
  "team": "CWS",
- "as_of": "2026-07-11",
+ "as_of": "2026-07-10",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.667,
   "slopes": {
    "max_ev": 0.85,
@@ -12,7 +12,7 @@
    "near_hr": 0.0
   },
   "intensity": 0.475,
-  "expectancy_score": 34.2,
+  "expectancy_score": 42.2,
   "last_appearance": "2026-07-08"
  },
  "days": [
