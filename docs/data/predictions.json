@@ -4,37 +4,6 @@
  "min_samples": 20,
  "players": [
   {
-   "player_id": 665966,
-   "player_name": "Carlos Narv\u00e1ez",
-   "team": "BOS",
-   "expectancy_score": 56.0,
-   "streak": 2,
-   "frequency": 1.0,
-   "slopes": {
-    "max_ev": 4.3,
-    "parks_sum": -19.0,
-    "near_hr": 0.0
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 104.4,
-   "max_distance_7d": 379,
-   "band": "40-60",
-   "band_rate": 0.25,
-   "band_samples": 60,
-   "weather_factor": 1.0,
-   "adjusted_score": 56.0,
-   "game_weather": {
-    "venue_name": "Citi Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
    "player_id": 666126,
    "player_name": "Carlos Cortes",
    "team": "ATH",
@@ -54,14 +23,76 @@
    "band": "40-60",
    "band_rate": 0.25,
    "band_samples": 60,
-   "weather_factor": 1.0,
-   "adjusted_score": 54.0,
+   "weather_factor": 1.036,
+   "adjusted_score": 55.9,
    "game_weather": {
     "venue_name": "Rate Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 79.0,
+    "wind_mph": 14.0,
+    "wind_dir": "cross",
+    "weather_condition": "Sunny"
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 681351,
+   "player_name": "Logan O'Hoppe",
+   "team": "LAA",
+   "expectancy_score": 51.0,
+   "streak": 2,
+   "frequency": 0.667,
+   "slopes": {
+    "max_ev": 2.1,
+    "parks_sum": 0.0,
+    "near_hr": 0.5
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 109.5,
+   "max_distance_7d": 392,
+   "band": "40-60",
+   "band_rate": 0.25,
+   "band_samples": 60,
+   "weather_factor": 1.052,
+   "adjusted_score": 53.7,
+   "game_weather": {
+    "venue_name": "Target Field",
+    "temp_f": 83.0,
+    "wind_mph": 4.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 665966,
+   "player_name": "Carlos Narv\u00e1ez",
+   "team": "BOS",
+   "expectancy_score": 56.0,
+   "streak": 2,
+   "frequency": 1.0,
+   "slopes": {
+    "max_ev": 4.3,
+    "parks_sum": -19.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 104.4,
+   "max_distance_7d": 379,
+   "band": "40-60",
+   "band_rate": 0.25,
+   "band_samples": 60,
+   "weather_factor": 0.957,
+   "adjusted_score": 53.6,
+   "game_weather": {
+    "venue_name": "Citi Field",
+    "temp_f": 80.0,
+    "wind_mph": 10.0,
+    "wind_dir": "in",
+    "weather_condition": "Cloudy"
    },
    "repeat": true
   },
@@ -89,41 +120,10 @@
    "adjusted_score": 51.2,
    "game_weather": {
     "venue_name": "Tropicana Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
-   "player_id": 681351,
-   "player_name": "Logan O'Hoppe",
-   "team": "LAA",
-   "expectancy_score": 51.0,
-   "streak": 2,
-   "frequency": 0.667,
-   "slopes": {
-    "max_ev": 2.1,
-    "parks_sum": 0.0,
-    "near_hr": 0.5
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 109.5,
-   "max_distance_7d": 392,
-   "band": "40-60",
-   "band_rate": 0.25,
-   "band_samples": 60,
-   "weather_factor": 1.0,
-   "adjusted_score": 51.0,
-   "game_weather": {
-    "venue_name": "Target Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Dome"
    },
    "repeat": true
   },
@@ -190,6 +190,37 @@
    "repeat": true
   },
   {
+   "player_id": 694384,
+   "player_name": "Nolan Schanuel",
+   "team": "LAA",
+   "expectancy_score": 46.2,
+   "streak": 2,
+   "frequency": 0.5,
+   "slopes": {
+    "max_ev": 2.95,
+    "parks_sum": 0.3,
+    "near_hr": 0.425
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 101.2,
+   "max_distance_7d": 386,
+   "band": "40-60",
+   "band_rate": 0.25,
+   "band_samples": 60,
+   "weather_factor": 1.052,
+   "adjusted_score": 48.6,
+   "game_weather": {
+    "venue_name": "Target Field",
+    "temp_f": 83.0,
+    "wind_mph": 4.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
+  },
+  {
    "player_id": 680776,
    "player_name": "Jarren Duran",
    "team": "BOS",
@@ -209,14 +240,14 @@
    "band": "40-60",
    "band_rate": 0.25,
    "band_samples": 60,
-   "weather_factor": 1.0,
-   "adjusted_score": 48.3,
+   "weather_factor": 0.957,
+   "adjusted_score": 46.2,
    "game_weather": {
     "venue_name": "Citi Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 80.0,
+    "wind_mph": 10.0,
+    "wind_dir": "in",
+    "weather_condition": "Cloudy"
    },
    "repeat": false
   },
@@ -240,47 +271,16 @@
    "band": "40-60",
    "band_rate": 0.25,
    "band_samples": 60,
-   "weather_factor": 1.0,
-   "adjusted_score": 47.6,
+   "weather_factor": 0.957,
+   "adjusted_score": 45.6,
    "game_weather": {
     "venue_name": "Citi Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 80.0,
+    "wind_mph": 10.0,
+    "wind_dir": "in",
+    "weather_condition": "Cloudy"
    },
    "repeat": true
-  },
-  {
-   "player_id": 694384,
-   "player_name": "Nolan Schanuel",
-   "team": "LAA",
-   "expectancy_score": 46.2,
-   "streak": 2,
-   "frequency": 0.5,
-   "slopes": {
-    "max_ev": 2.95,
-    "parks_sum": 0.3,
-    "near_hr": 0.425
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 101.2,
-   "max_distance_7d": 386,
-   "band": "40-60",
-   "band_rate": 0.25,
-   "band_samples": 60,
-   "weather_factor": 1.0,
-   "adjusted_score": 46.2,
-   "game_weather": {
-    "venue_name": "Target Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
   },
   {
    "player_id": 683737,
@@ -310,6 +310,68 @@
     "wind_mph": null,
     "wind_dir": null,
     "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 678246,
+   "player_name": "Miguel Vargas",
+   "team": "CWS",
+   "expectancy_score": 42.7,
+   "streak": 1,
+   "frequency": 0.667,
+   "slopes": {
+    "max_ev": 1.526,
+    "parks_sum": 1.143,
+    "near_hr": 0.329
+   },
+   "near_hr_7d": 7,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 1,
+   "max_ev_7d": 111.2,
+   "max_distance_7d": 395,
+   "band": "40-60",
+   "band_rate": 0.25,
+   "band_samples": 60,
+   "weather_factor": 1.036,
+   "adjusted_score": 44.2,
+   "game_weather": {
+    "venue_name": "Rate Field",
+    "temp_f": 79.0,
+    "wind_mph": 14.0,
+    "wind_dir": "cross",
+    "weather_condition": "Sunny"
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 678577,
+   "player_name": "Junior Perez",
+   "team": "CWS",
+   "expectancy_score": 42.2,
+   "streak": 1,
+   "frequency": 0.667,
+   "slopes": {
+    "max_ev": 0.85,
+    "parks_sum": 3.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 104.1,
+   "max_distance_7d": 400,
+   "band": "40-60",
+   "band_rate": 0.25,
+   "band_samples": 60,
+   "weather_factor": 1.036,
+   "adjusted_score": 43.7,
+   "game_weather": {
+    "venue_name": "Rate Field",
+    "temp_f": 79.0,
+    "wind_mph": 14.0,
+    "wind_dir": "cross",
+    "weather_condition": "Sunny"
    },
    "repeat": false
   },
@@ -368,68 +430,6 @@
    "adjusted_score": 43.0,
    "game_weather": {
     "venue_name": "Oriole Park at Camden Yards",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 678246,
-   "player_name": "Miguel Vargas",
-   "team": "CWS",
-   "expectancy_score": 42.7,
-   "streak": 1,
-   "frequency": 0.667,
-   "slopes": {
-    "max_ev": 1.526,
-    "parks_sum": 1.143,
-    "near_hr": 0.329
-   },
-   "near_hr_7d": 7,
-   "near_hr_xbh_7d": 2,
-   "hr_7d": 1,
-   "max_ev_7d": 111.2,
-   "max_distance_7d": 395,
-   "band": "40-60",
-   "band_rate": 0.25,
-   "band_samples": 60,
-   "weather_factor": 1.0,
-   "adjusted_score": 42.7,
-   "game_weather": {
-    "venue_name": "Rate Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 678577,
-   "player_name": "Junior Perez",
-   "team": "CWS",
-   "expectancy_score": 42.2,
-   "streak": 1,
-   "frequency": 0.667,
-   "slopes": {
-    "max_ev": 0.85,
-    "parks_sum": 3.0,
-    "near_hr": 0.0
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 104.1,
-   "max_distance_7d": 400,
-   "band": "40-60",
-   "band_rate": 0.25,
-   "band_samples": 60,
-   "weather_factor": 1.0,
-   "adjusted_score": 42.2,
-   "game_weather": {
-    "venue_name": "Rate Field",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
