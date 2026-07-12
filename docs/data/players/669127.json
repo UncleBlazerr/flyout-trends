@@ -2,20 +2,38 @@
  "player_id": 669127,
  "player_name": "Shea Langeliers",
  "team": "ATH",
- "as_of": "2026-07-12",
+ "as_of": "2026-07-11",
  "form": {
   "streak": 0,
-  "frequency": 0.333,
+  "frequency": 0.25,
   "slopes": {
-   "max_ev": 0.65,
+   "max_ev": -2.58,
    "parks_sum": 0.0,
-   "near_hr": 0.0
+   "near_hr": -0.1
   },
-  "intensity": 0.108,
-  "expectancy_score": 13.2,
-  "last_appearance": "2026-07-09"
+  "intensity": 0.0,
+  "expectancy_score": 7.5,
+  "last_appearance": "2026-07-11"
  },
  "days": [
+  {
+   "date": "2026-07-11",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 96.6,
+   "max_distance": 307.0,
+   "max_barrel_score": 50.7,
+   "temp_f": 79.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-09",
    "bbe": 1,
@@ -72,6 +90,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824576,
+   "date": "2026-07-11",
+   "player_id": 669127,
+   "player_name": "Shea Langeliers",
+   "team": "ATH",
+   "opponent": "CWS",
+   "result": "Flyout",
+   "exit_velocity": 96.6,
+   "launch_angle": 49.0,
+   "hit_distance": 307.0,
+   "hc_x": 196.04,
+   "hc_y": 97.21,
+   "would_be_hr_count": 0,
+   "inning": 1,
+   "play_id": "4c6737b3-2919-3636-92dd-058706744ada",
+   "venue_id": 4,
+   "venue_name": "Rate Field",
+   "temp_f": 79.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 50.7,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824251,
    "date": "2026-07-09",

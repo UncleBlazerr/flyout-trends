@@ -2,20 +2,38 @@
  "player_id": 671976,
  "player_name": "Tristan Peters",
  "team": "CWS",
- "as_of": "2026-07-12",
+ "as_of": "2026-07-11",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 0.514,
+   "max_ev": -0.632,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.086,
-  "expectancy_score": 2.6,
-  "last_appearance": "2026-07-10"
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-11"
  },
  "days": [
+  {
+   "date": "2026-07-11",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 84.5,
+   "max_distance": 294.0,
+   "max_barrel_score": 49.9,
+   "temp_f": 79.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-10",
    "bbe": 4,
@@ -126,6 +144,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824576,
+   "date": "2026-07-11",
+   "player_id": 671976,
+   "player_name": "Tristan Peters",
+   "team": "CWS",
+   "opponent": "ATH",
+   "result": "Flyout",
+   "exit_velocity": 84.5,
+   "launch_angle": 39.0,
+   "hit_distance": 294.0,
+   "hc_x": 100.6,
+   "hc_y": 84.38,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "27bb4690-f1f8-3d16-bd65-d88c2c86fc48",
+   "venue_id": 4,
+   "venue_name": "Rate Field",
+   "temp_f": 79.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 49.9,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824575,
    "date": "2026-07-10",

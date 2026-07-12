@@ -2,20 +2,38 @@
  "player_id": 687515,
  "player_name": "Colby Thomas",
  "team": "ATH",
- "as_of": "2026-07-12",
+ "as_of": "2026-07-11",
  "form": {
   "streak": 0,
-  "frequency": 0.5,
+  "frequency": 0.333,
   "slopes": {
-   "max_ev": 2.8,
+   "max_ev": -18.5,
    "parks_sum": 0.0,
-   "near_hr": -1.0
+   "near_hr": -0.5
   },
-  "intensity": 0.333,
-  "expectancy_score": 25.0,
-  "last_appearance": "2026-07-10"
+  "intensity": 0.0,
+  "expectancy_score": 10.0,
+  "last_appearance": "2026-07-11"
  },
  "days": [
+  {
+   "date": "2026-07-11",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 56.8,
+   "max_distance": 166.0,
+   "max_barrel_score": 37.2,
+   "temp_f": 79.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-10",
    "bbe": 1,
@@ -54,6 +72,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824576,
+   "date": "2026-07-11",
+   "player_id": 687515,
+   "player_name": "Colby Thomas",
+   "team": "ATH",
+   "opponent": "CWS",
+   "result": "Pop Out",
+   "exit_velocity": 56.8,
+   "launch_angle": 31.0,
+   "hit_distance": 166.0,
+   "hc_x": 127.92,
+   "hc_y": 135.34,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "33e43cd9-3e31-3498-8655-23704c5e7da8",
+   "venue_id": 4,
+   "venue_name": "Rate Field",
+   "temp_f": 79.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 37.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824575,
    "date": "2026-07-10",

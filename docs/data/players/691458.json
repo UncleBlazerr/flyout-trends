@@ -2,20 +2,38 @@
  "player_id": 691458,
  "player_name": "Blaze Jordan",
  "team": "STL",
- "as_of": "2026-07-12",
+ "as_of": "2026-07-11",
  "form": {
-  "streak": 1,
-  "frequency": 0.5,
+  "streak": 0,
+  "frequency": 0.4,
   "slopes": {
-   "max_ev": 2.6,
-   "parks_sum": 0.3,
-   "near_hr": 0.075
+   "max_ev": 0.94,
+   "parks_sum": 0.1,
+   "near_hr": -0.075
   },
-  "intensity": 0.392,
-  "expectancy_score": 34.8,
-  "last_appearance": "2026-07-10"
+  "intensity": 0.168,
+  "expectancy_score": 17.0,
+  "last_appearance": "2026-07-11"
  },
  "days": [
+  {
+   "date": "2026-07-11",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 97.8,
+   "max_distance": 148.0,
+   "max_barrel_score": 41.1,
+   "temp_f": 79.0,
+   "wind_mph": 11.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-10",
    "bbe": 1,
@@ -90,6 +108,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823030,
+   "date": "2026-07-11",
+   "player_id": 691458,
+   "player_name": "Blaze Jordan",
+   "team": "STL",
+   "opponent": "ATL",
+   "result": "Single",
+   "exit_velocity": 97.8,
+   "launch_angle": 6.0,
+   "hit_distance": 148.0,
+   "hc_x": 129.29,
+   "hc_y": 81.75,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "0a25e835-bb89-3c7c-bef2-3285630cc29c",
+   "venue_id": 2889,
+   "venue_name": "Busch Stadium",
+   "temp_f": 79.0,
+   "wind_mph": 11.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 41.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823033,
    "date": "2026-07-10",

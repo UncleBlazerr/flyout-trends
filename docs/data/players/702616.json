@@ -2,20 +2,38 @@
  "player_id": 702616,
  "player_name": "Jackson Holliday",
  "team": "BAL",
- "as_of": "2026-07-12",
+ "as_of": "2026-07-11",
  "form": {
   "streak": 0,
-  "frequency": 0.25,
+  "frequency": 0.2,
   "slopes": {
-   "max_ev": -3.61,
-   "parks_sum": 1.4,
-   "near_hr": 0.125
+   "max_ev": -2.52,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
   },
-  "intensity": 0.197,
-  "expectancy_score": 13.4,
-  "last_appearance": "2026-07-10"
+  "intensity": 0.0,
+  "expectancy_score": 6.0,
+  "last_appearance": "2026-07-11"
  },
  "days": [
+  {
+   "date": "2026-07-11",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 86.6,
+   "max_distance": 38.0,
+   "max_barrel_score": 17.3,
+   "temp_f": 81.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Cloudy"
+  },
   {
    "date": "2026-07-10",
    "bbe": 3,
@@ -90,6 +108,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824813,
+   "date": "2026-07-11",
+   "player_id": 702616,
+   "player_name": "Jackson Holliday",
+   "team": "BAL",
+   "opponent": "KC",
+   "result": "Groundout",
+   "exit_velocity": 86.6,
+   "launch_angle": -1.0,
+   "hit_distance": 38.0,
+   "hc_x": 109.19,
+   "hc_y": 162.83,
+   "would_be_hr_count": 0,
+   "inning": 3,
+   "play_id": "2feef4e7-c0dc-357b-b0d1-eea351f6d9df",
+   "venue_id": 2,
+   "venue_name": "Oriole Park at Camden Yards",
+   "temp_f": 81.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 17.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824817,
    "date": "2026-07-10",

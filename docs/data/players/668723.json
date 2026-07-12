@@ -2,20 +2,38 @@
  "player_id": 668723,
  "player_name": "Ryan Vilade",
  "team": "TB",
- "as_of": "2026-07-12",
+ "as_of": "2026-07-11",
  "form": {
   "streak": 0,
-  "frequency": 0.667,
+  "frequency": 0.5,
   "slopes": {
-   "max_ev": -3.15,
+   "max_ev": 1.97,
    "parks_sum": 0.0,
-   "near_hr": 0.0
+   "near_hr": -0.2
   },
-  "intensity": 0.0,
-  "expectancy_score": 20.0,
-  "last_appearance": "2026-07-09"
+  "intensity": 0.328,
+  "expectancy_score": 24.9,
+  "last_appearance": "2026-07-11"
  },
  "days": [
+  {
+   "date": "2026-07-11",
+   "bbe": 1,
+   "hr": 1,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 103.0,
+   "max_distance": 387.0,
+   "max_barrel_score": 79.1,
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Dome"
+  },
   {
    "date": "2026-07-09",
    "bbe": 3,
@@ -72,6 +90,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822953,
+   "date": "2026-07-11",
+   "player_id": 668723,
+   "player_name": "Ryan Vilade",
+   "team": "TB",
+   "opponent": "SEA",
+   "result": "Home Run",
+   "exit_velocity": 103.0,
+   "launch_angle": 22.0,
+   "hit_distance": 387.0,
+   "hc_x": 50.97,
+   "hc_y": 61.99,
+   "would_be_hr_count": 29,
+   "inning": 7,
+   "play_id": "497cb0ad-8a21-3286-b7b9-d5994fa85f0a",
+   "venue_id": 12,
+   "venue_name": "Tropicana Field",
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Dome",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 79.1,
+   "barrel_flag": false,
+   "is_home_run": true,
+   "is_near_hr": false
+  },
   {
    "game_pk": 822954,
    "date": "2026-07-09",

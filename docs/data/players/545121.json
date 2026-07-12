@@ -2,20 +2,38 @@
  "player_id": 545121,
  "player_name": "Ildemaro Vargas",
  "team": "AZ",
- "as_of": "2026-07-12",
+ "as_of": "2026-07-11",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -1.923,
+   "max_ev": -1.546,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.0,
   "expectancy_score": 0.0,
-  "last_appearance": "2026-07-10"
+  "last_appearance": "2026-07-11"
  },
  "days": [
+  {
+   "date": "2026-07-11",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 95.1,
+   "max_distance": 113.0,
+   "max_barrel_score": 33.1,
+   "temp_f": 81.0,
+   "wind_mph": 4.0,
+   "wind_dir": "in",
+   "weather_condition": "Cloudy"
+  },
   {
    "date": "2026-07-10",
    "bbe": 2,
@@ -126,6 +144,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823926,
+   "date": "2026-07-11",
+   "player_id": 545121,
+   "player_name": "Ildemaro Vargas",
+   "team": "AZ",
+   "opponent": "LAD",
+   "result": "Groundout",
+   "exit_velocity": 95.1,
+   "launch_angle": 3.0,
+   "hit_distance": 113.0,
+   "hc_x": 105.18,
+   "hc_y": 150.82,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "5b2b26d7-f943-3d2a-b9bc-755488374ef2",
+   "venue_id": 22,
+   "venue_name": "UNIQLO Field at Dodger Stadium",
+   "temp_f": 81.0,
+   "wind_mph": 4.0,
+   "wind_dir": "in",
+   "weather_condition": "Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 33.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823927,
    "date": "2026-07-10",

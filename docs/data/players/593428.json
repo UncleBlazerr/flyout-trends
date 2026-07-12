@@ -2,20 +2,38 @@
  "player_id": 593428,
  "player_name": "Xander Bogaerts",
  "team": "SD",
- "as_of": "2026-07-12",
+ "as_of": "2026-07-11",
  "form": {
-  "streak": 0,
-  "frequency": 0.0,
+  "streak": 1,
+  "frequency": 0.143,
   "slopes": {
-   "max_ev": 0.466,
+   "max_ev": 0.339,
    "parks_sum": 0.0,
-   "near_hr": 0.0
+   "near_hr": 0.107
   },
-  "intensity": 0.078,
-  "expectancy_score": 2.3,
-  "last_appearance": "2026-07-10"
+  "intensity": 0.092,
+  "expectancy_score": 15.1,
+  "last_appearance": "2026-07-11"
  },
  "days": [
+  {
+   "date": "2026-07-11",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 100.0,
+   "max_distance": 348.0,
+   "max_barrel_score": 72.8,
+   "temp_f": 71.0,
+   "wind_mph": 8.0,
+   "wind_dir": "cross",
+   "weather_condition": "Cloudy"
+  },
   {
    "date": "2026-07-10",
    "bbe": 4,
@@ -126,6 +144,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823276,
+   "date": "2026-07-11",
+   "player_id": 593428,
+   "player_name": "Xander Bogaerts",
+   "team": "SD",
+   "opponent": "TOR",
+   "result": "Lineout",
+   "exit_velocity": 100.0,
+   "launch_angle": 21.0,
+   "hit_distance": 348.0,
+   "hc_x": 190.34,
+   "hc_y": 74.2,
+   "would_be_hr_count": 0,
+   "inning": 5,
+   "play_id": "eb4f4a71-976a-3f88-a1f4-8a50fea9b302",
+   "venue_id": 2680,
+   "venue_name": "Petco Park",
+   "temp_f": 71.0,
+   "wind_mph": 8.0,
+   "wind_dir": "cross",
+   "weather_condition": "Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 72.8,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 823278,
    "date": "2026-07-10",

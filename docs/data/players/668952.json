@@ -2,20 +2,38 @@
  "player_id": 668952,
  "player_name": "Ryan Kreidler",
  "team": "MIN",
- "as_of": "2026-07-12",
+ "as_of": "2026-07-11",
  "form": {
   "streak": 0,
-  "frequency": 0.25,
+  "frequency": 0.2,
   "slopes": {
-   "max_ev": 4.09,
+   "max_ev": 3.7,
    "parks_sum": 0.0,
-   "near_hr": -0.3
+   "near_hr": -0.2
   },
   "intensity": 0.333,
-  "expectancy_score": 17.5,
-  "last_appearance": "2026-07-08"
+  "expectancy_score": 16.0,
+  "last_appearance": "2026-07-11"
  },
  "days": [
+  {
+   "date": "2026-07-11",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 108.9,
+   "max_distance": 6.0,
+   "max_barrel_score": 35.0,
+   "temp_f": 86.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-08",
    "bbe": 1,
@@ -90,6 +108,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823682,
+   "date": "2026-07-11",
+   "player_id": 668952,
+   "player_name": "Ryan Kreidler",
+   "team": "MIN",
+   "opponent": "LAA",
+   "result": "GIDP",
+   "exit_velocity": 108.9,
+   "launch_angle": -19.0,
+   "hit_distance": 6.0,
+   "hc_x": 107.05,
+   "hc_y": 155.74,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "312fa8b7-08c8-33bf-88c5-6bde775350e8",
+   "venue_id": 3312,
+   "venue_name": "Target Field",
+   "temp_f": 86.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 35.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823684,
    "date": "2026-07-08",

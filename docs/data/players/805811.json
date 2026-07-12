@@ -2,20 +2,38 @@
  "player_id": 805811,
  "player_name": "Bryce Eldridge",
  "team": "SF",
- "as_of": "2026-07-12",
+ "as_of": "2026-07-11",
  "form": {
   "streak": 0,
-  "frequency": 0.286,
+  "frequency": 0.143,
   "slopes": {
-   "max_ev": 1.382,
-   "parks_sum": -3.036,
-   "near_hr": -0.098
+   "max_ev": 0.893,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
   },
-  "intensity": 0.23,
-  "expectancy_score": 15.5,
-  "last_appearance": "2026-07-10"
+  "intensity": 0.149,
+  "expectancy_score": 8.8,
+  "last_appearance": "2026-07-11"
  },
  "days": [
+  {
+   "date": "2026-07-11",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 88.3,
+   "max_distance": 276.0,
+   "max_barrel_score": 60.8,
+   "temp_f": 70.0,
+   "wind_mph": 8.0,
+   "wind_dir": "varies",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-10",
    "bbe": 3,
@@ -144,6 +162,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823198,
+   "date": "2026-07-11",
+   "player_id": 805811,
+   "player_name": "Bryce Eldridge",
+   "team": "SF",
+   "opponent": "COL",
+   "result": "Double",
+   "exit_velocity": 88.3,
+   "launch_angle": 24.0,
+   "hit_distance": 276.0,
+   "hc_x": 184.34,
+   "hc_y": 78.91,
+   "would_be_hr_count": 0,
+   "inning": 5,
+   "play_id": "58df4168-ca4a-36dc-ac76-d8e08612762e",
+   "venue_id": 2395,
+   "venue_name": "Oracle Park",
+   "temp_f": 70.0,
+   "wind_mph": 8.0,
+   "wind_dir": "varies",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 60.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823200,
    "date": "2026-07-10",
