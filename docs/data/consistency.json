@@ -72,16 +72,6 @@
    "game_streak": 3
   },
   {
-   "player_id": 681546,
-   "player_name": "James Outman",
-   "team": "DET",
-   "record_streak": 2,
-   "total_flags": 2,
-   "avg_score": 43.5,
-   "current_score": 43.5,
-   "game_streak": 2
-  },
-  {
    "player_id": 669236,
    "player_name": "Jeremiah Jackson",
    "team": "BAL",
@@ -149,6 +139,16 @@
    "total_flags": 1,
    "avg_score": 43.0,
    "current_score": 43.0,
+   "game_streak": 1
+  },
+  {
+   "player_id": 680777,
+   "player_name": "Ryan Jeffers",
+   "team": "MIN",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 38.0,
+   "current_score": 38.0,
    "game_streak": 1
   }
  ]
