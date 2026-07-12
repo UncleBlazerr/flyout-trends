@@ -2,9 +2,9 @@
  "player_id": 669236,
  "player_name": "Jeremiah Jackson",
  "team": "BAL",
- "as_of": "2026-07-10",
+ "as_of": "2026-07-12",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.5,
   "slopes": {
    "max_ev": 14.1,
@@ -12,7 +12,7 @@
    "near_hr": 1.25
   },
   "intensity": 0.667,
-  "expectancy_score": 43.0,
+  "expectancy_score": 35.0,
   "last_appearance": "2026-07-09"
  },
  "days": [
