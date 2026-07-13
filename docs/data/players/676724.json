@@ -2,9 +2,9 @@
  "player_id": 676724,
  "player_name": "Jared Young",
  "team": "NYM",
- "as_of": "2026-07-11",
+ "as_of": "2026-07-13",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.143,
   "slopes": {
    "max_ev": 1.971,
@@ -12,7 +12,7 @@
    "near_hr": 0.134
   },
   "intensity": 0.385,
-  "expectancy_score": 23.8,
+  "expectancy_score": 15.8,
   "last_appearance": "2026-07-10"
  },
  "days": [

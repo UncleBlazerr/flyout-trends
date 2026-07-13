@@ -2,9 +2,9 @@
  "player_id": 681546,
  "player_name": "James Outman",
  "team": "DET",
- "as_of": "2026-07-11",
+ "as_of": "2026-07-13",
  "form": {
-  "streak": 2,
+  "streak": 0,
   "frequency": 0.4,
   "slopes": {
    "max_ev": 4.09,
@@ -12,7 +12,7 @@
    "near_hr": 0.35
   },
   "intensity": 0.517,
-  "expectancy_score": 43.5,
+  "expectancy_score": 27.5,
   "last_appearance": "2026-07-10"
  },
  "days": [
