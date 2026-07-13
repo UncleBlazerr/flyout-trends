@@ -2,20 +2,38 @@
  "player_id": 666182,
  "player_name": "Bo Bichette",
  "team": "NYM",
- "as_of": "2026-07-13",
+ "as_of": "2026-07-12",
  "form": {
   "streak": 0,
-  "frequency": 0.333,
+  "frequency": 0.286,
   "slopes": {
-   "max_ev": 1.029,
-   "parks_sum": -0.943,
-   "near_hr": -0.021
+   "max_ev": 0.275,
+   "parks_sum": -0.786,
+   "near_hr": -0.054
   },
-  "intensity": 0.171,
-  "expectancy_score": 15.1,
-  "last_appearance": "2026-07-09"
+  "intensity": 0.046,
+  "expectancy_score": 9.9,
+  "last_appearance": "2026-07-12"
  },
  "days": [
+  {
+   "date": "2026-07-12",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 99.7,
+   "max_distance": 8.0,
+   "max_barrel_score": 26.9,
+   "temp_f": 83.0,
+   "wind_mph": 2.0,
+   "wind_dir": "in",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-07-09",
    "bbe": 4,
@@ -126,6 +144,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823602,
+   "date": "2026-07-12",
+   "player_id": 666182,
+   "player_name": "Bo Bichette",
+   "team": "NYM",
+   "opponent": "BOS",
+   "result": "Groundout",
+   "exit_velocity": 99.7,
+   "launch_angle": -20.0,
+   "hit_distance": 8.0,
+   "hc_x": 146.74,
+   "hc_y": 171.95,
+   "would_be_hr_count": 0,
+   "inning": 10,
+   "play_id": "6e35dd78-656c-3101-98a5-1df8ffdda966",
+   "venue_id": 3289,
+   "venue_name": "Citi Field",
+   "temp_f": 83.0,
+   "wind_mph": 2.0,
+   "wind_dir": "in",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 26.9,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823606,
    "date": "2026-07-09",

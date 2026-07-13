@@ -2,20 +2,38 @@
  "player_id": 668804,
  "player_name": "Bryan Reynolds",
  "team": "PIT",
- "as_of": "2026-07-13",
+ "as_of": "2026-07-12",
  "form": {
   "streak": 0,
-  "frequency": 0.167,
+  "frequency": 0.143,
   "slopes": {
-   "max_ev": 2.471,
+   "max_ev": 0.729,
    "parks_sum": 0.0,
-   "near_hr": 0.171
+   "near_hr": 0.071
   },
-  "intensity": 0.39,
-  "expectancy_score": 16.7,
-  "last_appearance": "2026-07-11"
+  "intensity": 0.145,
+  "expectancy_score": 8.6,
+  "last_appearance": "2026-07-12"
  },
  "days": [
+  {
+   "date": "2026-07-12",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 88.7,
+   "max_distance": 189.0,
+   "max_barrel_score": 43.4,
+   "temp_f": 81.0,
+   "wind_mph": 5.0,
+   "wind_dir": "cross",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-07-11",
    "bbe": 4,
@@ -126,6 +144,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823358,
+   "date": "2026-07-12",
+   "player_id": 668804,
+   "player_name": "Bryan Reynolds",
+   "team": "PIT",
+   "opponent": "MIL",
+   "result": "Single",
+   "exit_velocity": 88.7,
+   "launch_angle": 13.0,
+   "hit_distance": 189.0,
+   "hc_x": 188.92,
+   "hc_y": 122.57,
+   "would_be_hr_count": 0,
+   "inning": 3,
+   "play_id": "58875277-2471-3a29-b7fc-817e1b349896",
+   "venue_id": 31,
+   "venue_name": "PNC Park",
+   "temp_f": 81.0,
+   "wind_mph": 5.0,
+   "wind_dir": "cross",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 43.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823356,
    "date": "2026-07-11",

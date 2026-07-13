@@ -2,20 +2,38 @@
  "player_id": 673237,
  "player_name": "Yainer Diaz",
  "team": "HOU",
- "as_of": "2026-07-13",
+ "as_of": "2026-07-12",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -0.56,
+   "max_ev": 0.8,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.0,
-  "expectancy_score": 0.0,
-  "last_appearance": "2026-07-11"
+  "intensity": 0.133,
+  "expectancy_score": 4.0,
+  "last_appearance": "2026-07-12"
  },
  "days": [
+  {
+   "date": "2026-07-12",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 108.5,
+   "max_distance": 306.0,
+   "max_barrel_score": 67.7,
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-07-11",
    "bbe": 4,
@@ -108,6 +126,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822876,
+   "date": "2026-07-12",
+   "player_id": 673237,
+   "player_name": "Yainer Diaz",
+   "team": "HOU",
+   "opponent": "TEX",
+   "result": "Single",
+   "exit_velocity": 108.5,
+   "launch_angle": 12.0,
+   "hit_distance": 306.0,
+   "hc_x": 130.21,
+   "hc_y": 69.96,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "fda5f536-3c70-367f-a764-f54d0d16e862",
+   "venue_id": 5325,
+   "venue_name": "Globe Life Field",
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 67.7,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 822875,
    "date": "2026-07-11",

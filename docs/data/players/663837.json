@@ -2,20 +2,38 @@
  "player_id": 663837,
  "player_name": "Matt Vierling",
  "team": "DET",
- "as_of": "2026-07-13",
+ "as_of": "2026-07-12",
  "form": {
   "streak": 0,
-  "frequency": 0.167,
+  "frequency": 0.143,
   "slopes": {
-   "max_ev": -0.394,
+   "max_ev": -3.014,
    "parks_sum": 0.0,
-   "near_hr": 0.086
+   "near_hr": 0.036
   },
-  "intensity": 0.029,
-  "expectancy_score": 5.9,
-  "last_appearance": "2026-07-11"
+  "intensity": 0.012,
+  "expectancy_score": 4.6,
+  "last_appearance": "2026-07-12"
  },
  "days": [
+  {
+   "date": "2026-07-12",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 74.7,
+   "max_distance": 246.0,
+   "max_barrel_score": 29.3,
+   "temp_f": 83.0,
+   "wind_mph": 8.0,
+   "wind_dir": "in",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-07-11",
    "bbe": 3,
@@ -126,6 +144,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824250,
+   "date": "2026-07-12",
+   "player_id": 663837,
+   "player_name": "Matt Vierling",
+   "team": "DET",
+   "opponent": "PHI",
+   "result": "Flyout",
+   "exit_velocity": 74.7,
+   "launch_angle": 47.0,
+   "hit_distance": 246.0,
+   "hc_x": 138.15,
+   "hc_y": 102.32,
+   "would_be_hr_count": 0,
+   "inning": 5,
+   "play_id": "d714ba47-14bd-3149-843d-4a1112c28b01",
+   "venue_id": 2394,
+   "venue_name": "Comerica Park",
+   "temp_f": 83.0,
+   "wind_mph": 8.0,
+   "wind_dir": "in",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 29.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824249,
    "date": "2026-07-11",

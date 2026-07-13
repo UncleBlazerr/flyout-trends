@@ -1,0 +1,69 @@
+{
+ "player_id": 677956,
+ "player_name": "Rece Hinds",
+ "team": "MIA",
+ "as_of": "2026-07-12",
+ "form": {
+  "streak": 0,
+  "frequency": 0.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-12"
+ },
+ "days": [
+  {
+   "date": "2026-07-12",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 59.3,
+   "max_distance": 7.0,
+   "max_barrel_score": 0.5,
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 823842,
+   "date": "2026-07-12",
+   "player_id": 677956,
+   "player_name": "Rece Hinds",
+   "team": "MIA",
+   "opponent": "CLE",
+   "result": "Groundout",
+   "exit_velocity": 59.3,
+   "launch_angle": -12.0,
+   "hit_distance": 7.0,
+   "hc_x": 158.51,
+   "hc_y": 170.65,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "d4ee7f43-31c5-30b0-a73f-e6244784ffb5",
+   "venue_id": 4169,
+   "venue_name": "loanDepot park",
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 0.5,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  }
+ ]
+}

@@ -2,20 +2,38 @@
  "player_id": 695508,
  "player_name": "Cam Cauley",
  "team": "TEX",
- "as_of": "2026-07-13",
+ "as_of": "2026-07-12",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 0.46,
+   "max_ev": -1.45,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.077,
-  "expectancy_score": 2.3,
-  "last_appearance": "2026-07-11"
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-12"
  },
  "days": [
+  {
+   "date": "2026-07-12",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 81.6,
+   "max_distance": 181.0,
+   "max_barrel_score": 22.4,
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-07-11",
    "bbe": 1,
@@ -90,6 +108,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822876,
+   "date": "2026-07-12",
+   "player_id": 695508,
+   "player_name": "Cam Cauley",
+   "team": "TEX",
+   "opponent": "HOU",
+   "result": "Pop Out",
+   "exit_velocity": 81.6,
+   "launch_angle": 60.0,
+   "hit_distance": 181.0,
+   "hc_x": 166.16,
+   "hc_y": 140.68,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "10c4ddc2-1035-3c98-972b-22be9f2b309f",
+   "venue_id": 5325,
+   "venue_name": "Globe Life Field",
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 22.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 822875,
    "date": "2026-07-11",

@@ -2,20 +2,38 @@
  "player_id": 805999,
  "player_name": "A.J. Ewing",
  "team": "NYM",
- "as_of": "2026-07-13",
+ "as_of": "2026-07-12",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": -0.575,
+   "max_ev": 0.796,
    "parks_sum": 0.0,
-   "near_hr": 0.036
+   "near_hr": 0.0
   },
-  "intensity": 0.012,
-  "expectancy_score": 4.6,
-  "last_appearance": "2026-07-11"
+  "intensity": 0.133,
+  "expectancy_score": 8.3,
+  "last_appearance": "2026-07-12"
  },
  "days": [
+  {
+   "date": "2026-07-12",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 105.1,
+   "max_distance": 90.0,
+   "max_barrel_score": 41.6,
+   "temp_f": 83.0,
+   "wind_mph": 2.0,
+   "wind_dir": "in",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-07-11",
    "bbe": 3,
@@ -162,6 +180,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823602,
+   "date": "2026-07-12",
+   "player_id": 805999,
+   "player_name": "A.J. Ewing",
+   "team": "NYM",
+   "opponent": "BOS",
+   "result": "Double",
+   "exit_velocity": 105.1,
+   "launch_angle": 4.0,
+   "hit_distance": 90.0,
+   "hc_x": 175.12,
+   "hc_y": 148.64,
+   "would_be_hr_count": 0,
+   "inning": 1,
+   "play_id": "e9a47fa8-55c0-3ebd-b8e7-e292317f4a69",
+   "venue_id": 3289,
+   "venue_name": "Citi Field",
+   "temp_f": 83.0,
+   "wind_mph": 2.0,
+   "wind_dir": "in",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 41.6,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823603,
    "date": "2026-07-11",

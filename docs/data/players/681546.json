@@ -2,20 +2,38 @@
  "player_id": 681546,
  "player_name": "James Outman",
  "team": "DET",
- "as_of": "2026-07-13",
+ "as_of": "2026-07-12",
  "form": {
   "streak": 0,
-  "frequency": 0.4,
+  "frequency": 0.333,
   "slopes": {
-   "max_ev": 4.09,
-   "parks_sum": 0.6,
-   "near_hr": 0.35
+   "max_ev": 3.531,
+   "parks_sum": 0.257,
+   "near_hr": 0.136
   },
-  "intensity": 0.517,
-  "expectancy_score": 27.5,
-  "last_appearance": "2026-07-10"
+  "intensity": 0.407,
+  "expectancy_score": 22.2,
+  "last_appearance": "2026-07-12"
  },
  "days": [
+  {
+   "date": "2026-07-12",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 103.3,
+   "max_distance": 270.0,
+   "max_barrel_score": 50.9,
+   "temp_f": 83.0,
+   "wind_mph": 8.0,
+   "wind_dir": "in",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-07-10",
    "bbe": 3,
@@ -108,6 +126,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824250,
+   "date": "2026-07-12",
+   "player_id": 681546,
+   "player_name": "James Outman",
+   "team": "DET",
+   "opponent": "PHI",
+   "result": "Flyout",
+   "exit_velocity": 103.3,
+   "launch_angle": 52.0,
+   "hit_distance": 270.0,
+   "hc_x": 201.32,
+   "hc_y": 120.82,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "a8dbf936-9e08-37ff-9cdc-d6b65d774758",
+   "venue_id": 2394,
+   "venue_name": "Comerica Park",
+   "temp_f": 83.0,
+   "wind_mph": 8.0,
+   "wind_dir": "in",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 50.9,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824252,
    "date": "2026-07-10",

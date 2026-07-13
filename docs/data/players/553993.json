@@ -2,20 +2,38 @@
  "player_id": 553993,
  "player_name": "Eugenio Su\u00e1rez",
  "team": "CIN",
- "as_of": "2026-07-13",
+ "as_of": "2026-07-12",
  "form": {
   "streak": 0,
-  "frequency": 0.167,
+  "frequency": 0.143,
   "slopes": {
-   "max_ev": 2.074,
+   "max_ev": 2.661,
    "parks_sum": 0.0,
-   "near_hr": -0.143
+   "near_hr": -0.107
   },
   "intensity": 0.333,
-  "expectancy_score": 15.0,
-  "last_appearance": "2026-07-11"
+  "expectancy_score": 14.3,
+  "last_appearance": "2026-07-12"
  },
  "days": [
+  {
+   "date": "2026-07-12",
+   "bbe": 1,
+   "hr": 1,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 111.3,
+   "max_distance": 433.0,
+   "max_barrel_score": 91.8,
+   "temp_f": 81.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-11",
    "bbe": 2,
@@ -126,6 +144,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824491,
+   "date": "2026-07-12",
+   "player_id": 553993,
+   "player_name": "Eugenio Su\u00e1rez",
+   "team": "CIN",
+   "opponent": "CHC",
+   "result": "Home Run",
+   "exit_velocity": 111.3,
+   "launch_angle": 31.0,
+   "hit_distance": 433.0,
+   "hc_x": 15.77,
+   "hc_y": 60.86,
+   "would_be_hr_count": 30,
+   "inning": 3,
+   "play_id": "2bd07010-9bb2-3d8a-8eca-bae8e96802a4",
+   "venue_id": 2602,
+   "venue_name": "Great American Ball Park",
+   "temp_f": 81.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 91.8,
+   "barrel_flag": false,
+   "is_home_run": true,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824492,
    "date": "2026-07-11",
