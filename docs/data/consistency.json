@@ -1,52 +1,12 @@
 {
- "as_of": "2026-07-12",
+ "as_of": "2026-07-14",
  "players": [
-  {
-   "player_id": 665966,
-   "player_name": "Carlos Narv\u00e1ez",
-   "team": "BOS",
-   "record_streak": 5,
-   "total_flags": 5,
-   "avg_score": 55.2,
-   "current_score": 54.0,
-   "game_streak": 3
-  },
-  {
-   "player_id": 606192,
-   "player_name": "Teoscar Hern\u00e1ndez",
-   "team": "LAD",
-   "record_streak": 5,
-   "total_flags": 5,
-   "avg_score": 51.3,
-   "current_score": 56.8,
-   "game_streak": 4
-  },
-  {
-   "player_id": 573262,
-   "player_name": "Mike Yastrzemski",
-   "team": "ATL",
-   "record_streak": 3,
-   "total_flags": 3,
-   "avg_score": 49.0,
-   "current_score": 49.0,
-   "game_streak": 3
-  },
-  {
-   "player_id": 669236,
-   "player_name": "Jeremiah Jackson",
-   "team": "BAL",
-   "record_streak": 3,
-   "total_flags": 3,
-   "avg_score": 46.6,
-   "current_score": 53.9,
-   "game_streak": 2
-  },
   {
    "player_id": 677800,
    "player_name": "Wilyer Abreu",
    "team": "BOS",
-   "record_streak": 2,
-   "total_flags": 2,
+   "record_streak": 4,
+   "total_flags": 4,
    "avg_score": 53.7,
    "current_score": 59.6,
    "game_streak": 4
@@ -55,48 +15,68 @@
    "player_id": 665161,
    "player_name": "Jeremy Pe\u00f1a",
    "team": "HOU",
-   "record_streak": 2,
-   "total_flags": 2,
+   "record_streak": 4,
+   "total_flags": 4,
    "avg_score": 52.0,
    "current_score": 61.0,
    "game_streak": 2
   },
   {
-   "player_id": 670156,
-   "player_name": "Miles Mastrobuoni",
-   "team": "SEA",
-   "record_streak": 2,
-   "total_flags": 2,
-   "avg_score": 43.0,
-   "current_score": 43.0,
-   "game_streak": 1
+   "player_id": 663656,
+   "player_name": "Kyle Tucker",
+   "team": "LAD",
+   "record_streak": 3,
+   "total_flags": 3,
+   "avg_score": 45.2,
+   "current_score": 49.3,
+   "game_streak": 3
+  },
+  {
+   "player_id": 669236,
+   "player_name": "Jeremiah Jackson",
+   "team": "BAL",
+   "record_streak": 1,
+   "total_flags": 4,
+   "avg_score": 48.5,
+   "current_score": 53.9,
+   "game_streak": 2
   },
   {
    "player_id": 681297,
    "player_name": "Colton Cowser",
    "team": "BAL",
    "record_streak": 1,
-   "total_flags": 3,
-   "avg_score": 44.8,
+   "total_flags": 4,
+   "avg_score": 45.7,
    "current_score": 48.4,
    "game_streak": 3
   },
   {
-   "player_id": 663656,
-   "player_name": "Kyle Tucker",
-   "team": "LAD",
+   "player_id": 701852,
+   "player_name": "Drew Cavanaugh",
+   "team": "SF",
    "record_streak": 1,
-   "total_flags": 1,
-   "avg_score": 49.3,
-   "current_score": 49.3,
-   "game_streak": 3
+   "total_flags": 3,
+   "avg_score": 47.0,
+   "current_score": 37.0,
+   "game_streak": 1
+  },
+  {
+   "player_id": 673962,
+   "player_name": "Josh Jung",
+   "team": "TEX",
+   "record_streak": 1,
+   "total_flags": 2,
+   "avg_score": 47.0,
+   "current_score": 36.0,
+   "game_streak": 1
   },
   {
    "player_id": 694374,
    "player_name": "Tim Tawa",
    "team": "AZ",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 43.4,
    "current_score": 43.4,
    "game_streak": 3
@@ -106,7 +86,7 @@
    "player_name": "Zack Short",
    "team": "NYM",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 43.0,
    "current_score": 43.0,
    "game_streak": 1
@@ -116,7 +96,7 @@
    "player_name": "Edwin Arroyo",
    "team": "CIN",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 41.1,
    "current_score": 41.1,
    "game_streak": 2
@@ -126,7 +106,7 @@
    "player_name": "Daylen Lile",
    "team": "WSH",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 41.0,
    "current_score": 41.0,
    "game_streak": 3
@@ -136,7 +116,7 @@
    "player_name": "Jim Jarvis",
    "team": "ATL",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 40.1,
    "current_score": 40.1,
    "game_streak": 1
@@ -146,10 +126,30 @@
    "player_name": "Alec Burleson",
    "team": "STL",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 39.5,
    "current_score": 39.5,
    "game_streak": 2
+  },
+  {
+   "player_id": 671155,
+   "player_name": "Ivan Johnson",
+   "team": "CIN",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 38.0,
+   "current_score": 38.0,
+   "game_streak": 1
+  },
+  {
+   "player_id": 664034,
+   "player_name": "Ty France",
+   "team": "SD",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 36.7,
+   "current_score": 36.7,
+   "game_streak": 1
   }
  ]
 }
