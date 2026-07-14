@@ -2,9 +2,9 @@
  "player_id": 804668,
  "player_name": "Rafael Flores Jr.",
  "team": "PIT",
- "as_of": "2026-07-14",
+ "as_of": "2026-07-13",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.5,
   "slopes": {
    "max_ev": -4.9,
@@ -12,7 +12,7 @@
    "near_hr": 1.0
   },
   "intensity": 0.333,
-  "expectancy_score": 25.0,
+  "expectancy_score": 33.0,
   "last_appearance": "2026-07-11"
  },
  "days": [

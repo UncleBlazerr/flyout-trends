@@ -1,5 +1,5 @@
 {
- "as_of": "2026-07-14",
+ "as_of": "2026-07-13",
  "horizon_days": 3,
  "min_samples": 20,
  "players": [
@@ -54,6 +54,56 @@
    "repeat": true
   },
   {
+   "player_id": 606192,
+   "player_name": "Teoscar Hern\u00e1ndez",
+   "team": "LAD",
+   "expectancy_score": 56.8,
+   "streak": 4,
+   "frequency": 0.667,
+   "slopes": {
+    "max_ev": 0.409,
+    "parks_sum": 0.143,
+    "near_hr": 0.229
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 99.5,
+   "max_distance_7d": 392,
+   "band": "40-60",
+   "band_rate": 0.256,
+   "band_samples": 90,
+   "weather_factor": 1.0,
+   "adjusted_score": 56.8,
+   "game_weather": null,
+   "repeat": true
+  },
+  {
+   "player_id": 665966,
+   "player_name": "Carlos Narv\u00e1ez",
+   "team": "BOS",
+   "expectancy_score": 54.0,
+   "streak": 3,
+   "frequency": 1.0,
+   "slopes": {
+    "max_ev": -1.15,
+    "parks_sum": -9.5,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 104.4,
+   "max_distance_7d": 331,
+   "band": "40-60",
+   "band_rate": 0.256,
+   "band_samples": 90,
+   "weather_factor": 1.0,
+   "adjusted_score": 54.0,
+   "game_weather": null,
+   "repeat": true
+  },
+  {
    "player_id": 669236,
    "player_name": "Jeremiah Jackson",
    "team": "BAL",
@@ -76,7 +126,7 @@
    "weather_factor": 1.0,
    "adjusted_score": 53.9,
    "game_weather": null,
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 663656,
@@ -126,7 +176,7 @@
    "weather_factor": 1.0,
    "adjusted_score": 48.4,
    "game_weather": null,
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 694374,
@@ -151,7 +201,32 @@
    "weather_factor": 1.0,
    "adjusted_score": 43.4,
    "game_weather": null,
-   "repeat": false
+   "repeat": true
+  },
+  {
+   "player_id": 670156,
+   "player_name": "Miles Mastrobuoni",
+   "team": "SEA",
+   "expectancy_score": 43.0,
+   "streak": 1,
+   "frequency": 0.5,
+   "slopes": {
+    "max_ev": 7.5,
+    "parks_sum": 0.0,
+    "near_hr": 1.0
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 99.0,
+   "max_distance_7d": 358,
+   "band": "40-60",
+   "band_rate": 0.256,
+   "band_samples": 90,
+   "weather_factor": 1.0,
+   "adjusted_score": 43.0,
+   "game_weather": null,
+   "repeat": true
   },
   {
    "player_id": 670097,
@@ -176,7 +251,7 @@
    "weather_factor": 1.0,
    "adjusted_score": 43.0,
    "game_weather": null,
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 695490,
@@ -201,7 +276,7 @@
    "weather_factor": 1.0,
    "adjusted_score": 41.1,
    "game_weather": null,
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 695734,
@@ -226,7 +301,7 @@
    "weather_factor": 1.0,
    "adjusted_score": 41.0,
    "game_weather": null,
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 805347,
@@ -251,7 +326,7 @@
    "weather_factor": 1.0,
    "adjusted_score": 40.1,
    "game_weather": null,
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 676475,
@@ -276,7 +351,7 @@
    "weather_factor": 1.0,
    "adjusted_score": 39.5,
    "game_weather": null,
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 671155,
@@ -300,81 +375,6 @@
    "band_samples": 1436,
    "weather_factor": 1.0,
    "adjusted_score": 38.0,
-   "game_weather": null,
-   "repeat": false
-  },
-  {
-   "player_id": 701852,
-   "player_name": "Drew Cavanaugh",
-   "team": "SF",
-   "expectancy_score": 37.0,
-   "streak": 1,
-   "frequency": 0.6,
-   "slopes": {
-    "max_ev": 7.08,
-    "parks_sum": 0.0,
-    "near_hr": 0.1
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 101.9,
-   "max_distance_7d": 363,
-   "band": "<40",
-   "band_rate": 0.251,
-   "band_samples": 1436,
-   "weather_factor": 1.0,
-   "adjusted_score": 37.0,
-   "game_weather": null,
-   "repeat": false
-  },
-  {
-   "player_id": 664034,
-   "player_name": "Ty France",
-   "team": "SD",
-   "expectancy_score": 36.7,
-   "streak": 1,
-   "frequency": 0.333,
-   "slopes": {
-    "max_ev": 2.983,
-    "parks_sum": 2.0,
-    "near_hr": 0.2
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 1,
-   "max_ev_7d": 107.6,
-   "max_distance_7d": 388,
-   "band": "<40",
-   "band_rate": 0.251,
-   "band_samples": 1436,
-   "weather_factor": 1.0,
-   "adjusted_score": 36.7,
-   "game_weather": null,
-   "repeat": false
-  },
-  {
-   "player_id": 673962,
-   "player_name": "Josh Jung",
-   "team": "TEX",
-   "expectancy_score": 36.0,
-   "streak": 1,
-   "frequency": 0.6,
-   "slopes": {
-    "max_ev": -3.44,
-    "parks_sum": 4.2,
-    "near_hr": -0.225
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 2,
-   "hr_7d": 0,
-   "max_ev_7d": 106.7,
-   "max_distance_7d": 417,
-   "band": "<40",
-   "band_rate": 0.251,
-   "band_samples": 1436,
-   "weather_factor": 1.0,
-   "adjusted_score": 36.0,
    "game_weather": null,
    "repeat": false
   }
@@ -419,6 +419,15 @@
    "flagged_on": "2026-07-11",
    "flagged_score": 66.7,
    "hr_on": "2026-07-12",
+   "hr_count": 1
+  },
+  {
+   "player_id": 655316,
+   "player_name": "Andruw Monasterio",
+   "team": "BOS",
+   "flagged_on": "2026-07-10",
+   "flagged_score": 47.6,
+   "hr_on": "2026-07-11",
    "hr_count": 1
   }
  ]
