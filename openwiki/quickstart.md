@@ -117,6 +117,7 @@ in the repo.
 
 - `README.md` — Project overview, near-HR definitions, usage examples
 - `CLAUDE.md` — Agent instructions: commands, architecture, data rules, Savant gotchas, git conventions
+- `AGENTS.md` — Agent instructions: OpenWiki entry point and navigation guidance
 - `.claude/skills/hr-proximity/SKILL.md` — Claude Code Skill for ad hoc runs
 - `.claude/agents/savant-analyst.md` — Baseball Savant analyst subagent
 - `hermes/README.md` — Hermes-agent integration (LLM analysis + digest)
