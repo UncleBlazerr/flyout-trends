@@ -2,9 +2,9 @@
  "player_id": 701852,
  "player_name": "Drew Cavanaugh",
  "team": "SF",
- "as_of": "2026-07-13",
+ "as_of": "2026-07-15",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.6,
   "slopes": {
    "max_ev": 7.08,
@@ -12,7 +12,7 @@
    "near_hr": 0.1
   },
   "intensity": 0.367,
-  "expectancy_score": 37.0,
+  "expectancy_score": 29.0,
   "last_appearance": "2026-07-12"
  },
  "days": [

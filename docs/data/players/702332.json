@@ -2,9 +2,9 @@
  "player_id": 702332,
  "player_name": "Caleb Durbin",
  "team": "BOS",
- "as_of": "2026-07-13",
+ "as_of": "2026-07-15",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": -1.3,
@@ -12,7 +12,7 @@
    "near_hr": 0.036
   },
   "intensity": 0.012,
-  "expectancy_score": 16.9,
+  "expectancy_score": 8.9,
   "last_appearance": "2026-07-12"
  },
  "days": [

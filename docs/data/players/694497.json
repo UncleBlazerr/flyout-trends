@@ -2,9 +2,9 @@
  "player_id": 694497,
  "player_name": "Evan Carter",
  "team": "TEX",
- "as_of": "2026-07-13",
+ "as_of": "2026-07-15",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.167,
   "slopes": {
    "max_ev": 5.246,
@@ -12,7 +12,7 @@
    "near_hr": 0.179
   },
   "intensity": 0.393,
-  "expectancy_score": 24.8,
+  "expectancy_score": 16.8,
   "last_appearance": "2026-07-12"
  },
  "days": [

@@ -2,9 +2,9 @@
  "player_id": 660271,
  "player_name": "Shohei Ohtani",
  "team": "LAD",
- "as_of": "2026-07-13",
+ "as_of": "2026-07-15",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.429,
   "slopes": {
    "max_ev": 2.064,
@@ -12,7 +12,7 @@
    "near_hr": 0.098
   },
   "intensity": 0.366,
-  "expectancy_score": 31.8,
+  "expectancy_score": 23.8,
   "last_appearance": "2026-07-12"
  },
  "days": [

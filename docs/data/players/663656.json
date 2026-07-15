@@ -2,9 +2,9 @@
  "player_id": 663656,
  "player_name": "Kyle Tucker",
  "team": "LAD",
- "as_of": "2026-07-13",
+ "as_of": "2026-07-15",
  "form": {
-  "streak": 3,
+  "streak": 0,
   "frequency": 0.429,
   "slopes": {
    "max_ev": 2.275,
@@ -12,7 +12,7 @@
    "near_hr": 0.223
   },
   "intensity": 0.416,
-  "expectancy_score": 49.3,
+  "expectancy_score": 25.3,
   "last_appearance": "2026-07-12"
  },
  "days": [

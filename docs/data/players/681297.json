@@ -2,9 +2,9 @@
  "player_id": 681297,
  "player_name": "Colton Cowser",
  "team": "BAL",
- "as_of": "2026-07-13",
+ "as_of": "2026-07-15",
  "form": {
-  "streak": 3,
+  "streak": 0,
   "frequency": 0.6,
   "slopes": {
    "max_ev": 0.67,
@@ -12,7 +12,7 @@
    "near_hr": 0.3
   },
   "intensity": 0.212,
-  "expectancy_score": 48.4,
+  "expectancy_score": 24.3,
   "last_appearance": "2026-07-12"
  },
  "days": [

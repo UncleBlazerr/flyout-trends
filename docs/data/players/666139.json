@@ -2,9 +2,9 @@
  "player_id": 666139,
  "player_name": "Josh Lowe",
  "team": "LAA",
- "as_of": "2026-07-13",
+ "as_of": "2026-07-15",
  "form": {
-  "streak": 2,
+  "streak": 0,
   "frequency": 0.429,
   "slopes": {
    "max_ev": -0.261,
@@ -12,7 +12,7 @@
    "near_hr": 0.179
   },
   "intensity": 0.072,
-  "expectancy_score": 31.0,
+  "expectancy_score": 15.0,
   "last_appearance": "2026-07-12"
  },
  "days": [

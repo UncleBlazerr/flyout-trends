@@ -2,9 +2,9 @@
  "player_id": 592626,
  "player_name": "Joc Pederson",
  "team": "TEX",
- "as_of": "2026-07-13",
+ "as_of": "2026-07-15",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": -0.489,
@@ -12,7 +12,7 @@
    "near_hr": 0.062
   },
   "intensity": 0.021,
-  "expectancy_score": 17.2,
+  "expectancy_score": 9.2,
   "last_appearance": "2026-07-12"
  },
  "days": [

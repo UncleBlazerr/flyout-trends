@@ -2,9 +2,9 @@
  "player_id": 665742,
  "player_name": "Juan Soto",
  "team": "NYM",
- "as_of": "2026-07-13",
+ "as_of": "2026-07-15",
  "form": {
-  "streak": 2,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": -0.346,
@@ -12,7 +12,7 @@
    "near_hr": 0.179
   },
   "intensity": 0.06,
-  "expectancy_score": 26.4,
+  "expectancy_score": 10.4,
   "last_appearance": "2026-07-12"
  },
  "days": [

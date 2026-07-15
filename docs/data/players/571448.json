@@ -2,9 +2,9 @@
  "player_id": 571448,
  "player_name": "Nolan Arenado",
  "team": "AZ",
- "as_of": "2026-07-13",
+ "as_of": "2026-07-15",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.143,
   "slopes": {
    "max_ev": 1.914,
@@ -12,7 +12,7 @@
    "near_hr": 0.241
   },
   "intensity": 0.399,
-  "expectancy_score": 24.3,
+  "expectancy_score": 16.3,
   "last_appearance": "2026-07-12"
  },
  "days": [
