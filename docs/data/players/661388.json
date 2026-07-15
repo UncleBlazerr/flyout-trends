@@ -1,21 +1,39 @@
 {
  "player_id": 661388,
  "player_name": "William Contreras",
- "team": "MIL",
- "as_of": "2026-07-15",
+ "team": "NL",
+ "as_of": "2026-07-14",
  "form": {
   "streak": 0,
-  "frequency": 0.333,
+  "frequency": 0.286,
   "slopes": {
-   "max_ev": 0.686,
+   "max_ev": -0.85,
    "parks_sum": 0.0,
-   "near_hr": 0.171
+   "near_hr": 0.071
   },
-  "intensity": 0.171,
-  "expectancy_score": 15.1,
-  "last_appearance": "2026-07-11"
+  "intensity": 0.024,
+  "expectancy_score": 9.3,
+  "last_appearance": "2026-07-14"
  },
  "days": [
+  {
+   "date": "2026-07-14",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 87.3,
+   "max_distance": 210.0,
+   "max_barrel_score": 29.4,
+   "temp_f": 88.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-11",
    "bbe": 4,
@@ -126,6 +144,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823443,
+   "date": "2026-07-14",
+   "player_id": 661388,
+   "player_name": "William Contreras",
+   "team": "NL",
+   "opponent": "AL",
+   "result": "Flyout",
+   "exit_velocity": 87.3,
+   "launch_angle": 59.0,
+   "hit_distance": 210.0,
+   "hc_x": 175.87,
+   "hc_y": 132.21,
+   "would_be_hr_count": 0,
+   "inning": 6,
+   "play_id": "d9e479f7-c831-39f0-8a9c-42ebe515b859",
+   "venue_id": 2681,
+   "venue_name": "Citizens Bank Park",
+   "temp_f": 88.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 29.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823357,
    "date": "2026-07-11",

@@ -2,9 +2,9 @@
  "player_id": 805779,
  "player_name": "Jacob Wilson",
  "team": "ATH",
- "as_of": "2026-07-15",
+ "as_of": "2026-07-14",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.333,
   "slopes": {
    "max_ev": 1.537,
@@ -12,7 +12,7 @@
    "near_hr": 0.114
   },
   "intensity": 0.294,
-  "expectancy_score": 18.8,
+  "expectancy_score": 26.8,
   "last_appearance": "2026-07-12"
  },
  "days": [

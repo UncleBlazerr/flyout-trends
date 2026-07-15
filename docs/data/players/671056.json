@@ -1,21 +1,39 @@
 {
  "player_id": 671056,
  "player_name": "Iv\u00e1n Herrera",
- "team": "STL",
- "as_of": "2026-07-15",
+ "team": "NL",
+ "as_of": "2026-07-14",
  "form": {
   "streak": 0,
-  "frequency": 0.429,
+  "frequency": 0.286,
   "slopes": {
-   "max_ev": -0.889,
+   "max_ev": -1.114,
    "parks_sum": 0.0,
-   "near_hr": 0.036
+   "near_hr": 0.071
   },
-  "intensity": 0.012,
-  "expectancy_score": 13.2,
-  "last_appearance": "2026-07-12"
+  "intensity": 0.024,
+  "expectancy_score": 9.3,
+  "last_appearance": "2026-07-14"
  },
  "days": [
+  {
+   "date": "2026-07-14",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 85.6,
+   "max_distance": 30.0,
+   "max_barrel_score": 15.9,
+   "temp_f": 88.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-12",
    "bbe": 4,
@@ -180,6 +198,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823443,
+   "date": "2026-07-14",
+   "player_id": 671056,
+   "player_name": "Iv\u00e1n Herrera",
+   "team": "NL",
+   "opponent": "AL",
+   "result": "Forceout",
+   "exit_velocity": 85.6,
+   "launch_angle": -4.0,
+   "hit_distance": 30.0,
+   "hc_x": 101.81,
+   "hc_y": 167.02,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "4d2e8768-fc01-3857-af71-51ebe8be894d",
+   "venue_id": 2681,
+   "venue_name": "Citizens Bank Park",
+   "temp_f": 88.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 15.9,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823029,
    "date": "2026-07-12",

@@ -1,21 +1,39 @@
 {
  "player_id": 672640,
  "player_name": "Otto Lopez",
- "team": "MIA",
- "as_of": "2026-07-15",
+ "team": "NL",
+ "as_of": "2026-07-14",
  "form": {
   "streak": 0,
-  "frequency": 0.143,
+  "frequency": 0.0,
   "slopes": {
-   "max_ev": -7.107,
-   "parks_sum": -0.214,
-   "near_hr": -0.134
+   "max_ev": -4.782,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
   },
   "intensity": 0.0,
-  "expectancy_score": 4.3,
-  "last_appearance": "2026-07-12"
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-14"
  },
  "days": [
+  {
+   "date": "2026-07-14",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 99.4,
+   "max_distance": 243.0,
+   "max_barrel_score": 54.3,
+   "temp_f": 88.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-12",
    "bbe": 1,
@@ -162,6 +180,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823443,
+   "date": "2026-07-14",
+   "player_id": 672640,
+   "player_name": "Otto Lopez",
+   "team": "NL",
+   "opponent": "AL",
+   "result": "Single",
+   "exit_velocity": 99.4,
+   "launch_angle": 11.0,
+   "hit_distance": 243.0,
+   "hc_x": 183.53,
+   "hc_y": 97.34,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "aa20959c-7d34-3c84-bab7-432813c51634",
+   "venue_id": 2681,
+   "venue_name": "Citizens Bank Park",
+   "temp_f": 88.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 54.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823842,
    "date": "2026-07-12",

@@ -2,9 +2,9 @@
  "player_id": 518692,
  "player_name": "Freddie Freeman",
  "team": "LAD",
- "as_of": "2026-07-15",
+ "as_of": "2026-07-14",
  "form": {
-  "streak": 0,
+  "streak": 2,
   "frequency": 0.429,
   "slopes": {
    "max_ev": 0.85,
@@ -12,7 +12,7 @@
    "near_hr": -0.036
   },
   "intensity": 0.142,
-  "expectancy_score": 17.1,
+  "expectancy_score": 33.1,
   "last_appearance": "2026-07-12"
  },
  "days": [

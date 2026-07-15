@@ -1,21 +1,39 @@
 {
  "player_id": 691718,
  "player_name": "Pete Crow-Armstrong",
- "team": "CHC",
- "as_of": "2026-07-15",
+ "team": "NL",
+ "as_of": "2026-07-14",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -2.086,
+   "max_ev": -2.807,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.0,
   "expectancy_score": 0.0,
-  "last_appearance": "2026-07-12"
+  "last_appearance": "2026-07-14"
  },
  "days": [
+  {
+   "date": "2026-07-14",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 91.1,
+   "max_distance": 69.0,
+   "max_barrel_score": 27.7,
+   "temp_f": 88.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-12",
    "bbe": 3,
@@ -162,6 +180,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823443,
+   "date": "2026-07-14",
+   "player_id": 691718,
+   "player_name": "Pete Crow-Armstrong",
+   "team": "NL",
+   "opponent": "AL",
+   "result": "Single",
+   "exit_velocity": 91.1,
+   "launch_angle": 4.0,
+   "hit_distance": 69.0,
+   "hc_x": 167.14,
+   "hc_y": 102.7,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "8190e367-c921-303e-8fdb-3b416741708c",
+   "venue_id": 2681,
+   "venue_name": "Citizens Bank Park",
+   "temp_f": 88.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 27.7,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824491,
    "date": "2026-07-12",

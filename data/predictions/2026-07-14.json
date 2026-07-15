@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-07-14T05:26:39.832677+00:00",
+ "generated_at": "2026-07-15T11:27:09.695103+00:00",
  "as_of": "2026-07-14",
  "config": {
   "min_near_hr_events": 1,
@@ -74,7 +74,7 @@
    "max_distance_7d": 384,
    "band": "60-80",
    "band_rate": null,
-   "band_samples": 11,
+   "band_samples": 13,
    "weather_factor": 1.0,
    "adjusted_score": 61.0,
    "game_weather": null,
@@ -98,8 +98,8 @@
    "max_ev_7d": 111.0,
    "max_distance_7d": 385,
    "band": "40-60",
-   "band_rate": 0.256,
-   "band_samples": 90,
+   "band_rate": 0.214,
+   "band_samples": 112,
    "weather_factor": 1.0,
    "adjusted_score": 59.6,
    "game_weather": null,
@@ -123,12 +123,12 @@
    "max_ev_7d": 106.5,
    "max_distance_7d": 376,
    "band": "40-60",
-   "band_rate": 0.256,
-   "band_samples": 90,
+   "band_rate": 0.214,
+   "band_samples": 112,
    "weather_factor": 1.0,
    "adjusted_score": 53.9,
    "game_weather": null,
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 663656,
@@ -148,8 +148,8 @@
    "max_ev_7d": 102.5,
    "max_distance_7d": 382,
    "band": "40-60",
-   "band_rate": 0.256,
-   "band_samples": 90,
+   "band_rate": 0.214,
+   "band_samples": 112,
    "weather_factor": 1.0,
    "adjusted_score": 49.3,
    "game_weather": null,
@@ -173,12 +173,12 @@
    "max_ev_7d": 100.2,
    "max_distance_7d": 381,
    "band": "40-60",
-   "band_rate": 0.256,
-   "band_samples": 90,
+   "band_rate": 0.214,
+   "band_samples": 112,
    "weather_factor": 1.0,
    "adjusted_score": 48.4,
    "game_weather": null,
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 694374,
@@ -198,12 +198,12 @@
    "max_ev_7d": 105.4,
    "max_distance_7d": 429,
    "band": "40-60",
-   "band_rate": 0.256,
-   "band_samples": 90,
+   "band_rate": 0.214,
+   "band_samples": 112,
    "weather_factor": 1.0,
    "adjusted_score": 43.4,
    "game_weather": null,
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 670097,
@@ -223,12 +223,12 @@
    "max_ev_7d": 94.7,
    "max_distance_7d": 347,
    "band": "40-60",
-   "band_rate": 0.256,
-   "band_samples": 90,
+   "band_rate": 0.214,
+   "band_samples": 112,
    "weather_factor": 1.0,
    "adjusted_score": 43.0,
    "game_weather": null,
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 695490,
@@ -248,12 +248,12 @@
    "max_ev_7d": 105.1,
    "max_distance_7d": 372,
    "band": "40-60",
-   "band_rate": 0.256,
-   "band_samples": 90,
+   "band_rate": 0.214,
+   "band_samples": 112,
    "weather_factor": 1.0,
    "adjusted_score": 41.1,
    "game_weather": null,
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 695734,
@@ -273,12 +273,12 @@
    "max_ev_7d": 104.8,
    "max_distance_7d": 397,
    "band": "40-60",
-   "band_rate": 0.256,
-   "band_samples": 90,
+   "band_rate": 0.214,
+   "band_samples": 112,
    "weather_factor": 1.0,
    "adjusted_score": 41.0,
    "game_weather": null,
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 805347,
@@ -298,12 +298,12 @@
    "max_ev_7d": 105.1,
    "max_distance_7d": 398,
    "band": "40-60",
-   "band_rate": 0.256,
-   "band_samples": 90,
+   "band_rate": 0.214,
+   "band_samples": 112,
    "weather_factor": 1.0,
    "adjusted_score": 40.1,
    "game_weather": null,
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 676475,
@@ -323,12 +323,12 @@
    "max_ev_7d": 109.4,
    "max_distance_7d": 443,
    "band": "<40",
-   "band_rate": 0.251,
-   "band_samples": 1436,
+   "band_rate": 0.218,
+   "band_samples": 1968,
    "weather_factor": 1.0,
    "adjusted_score": 39.5,
    "game_weather": null,
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 671155,
@@ -348,12 +348,12 @@
    "max_ev_7d": 97.0,
    "max_distance_7d": 351,
    "band": "<40",
-   "band_rate": 0.251,
-   "band_samples": 1436,
+   "band_rate": 0.218,
+   "band_samples": 1968,
    "weather_factor": 1.0,
    "adjusted_score": 38.0,
    "game_weather": null,
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 701852,
@@ -373,8 +373,8 @@
    "max_ev_7d": 101.9,
    "max_distance_7d": 363,
    "band": "<40",
-   "band_rate": 0.251,
-   "band_samples": 1436,
+   "band_rate": 0.218,
+   "band_samples": 1968,
    "weather_factor": 1.0,
    "adjusted_score": 37.0,
    "game_weather": null,
@@ -398,8 +398,8 @@
    "max_ev_7d": 107.6,
    "max_distance_7d": 388,
    "band": "<40",
-   "band_rate": 0.251,
-   "band_samples": 1436,
+   "band_rate": 0.218,
+   "band_samples": 1968,
    "weather_factor": 1.0,
    "adjusted_score": 36.7,
    "game_weather": null,
@@ -423,8 +423,8 @@
    "max_ev_7d": 106.7,
    "max_distance_7d": 417,
    "band": "<40",
-   "band_rate": 0.251,
-   "band_samples": 1436,
+   "band_rate": 0.218,
+   "band_samples": 1968,
    "weather_factor": 1.0,
    "adjusted_score": 36.0,
    "game_weather": null,

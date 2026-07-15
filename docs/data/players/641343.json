@@ -2,9 +2,9 @@
  "player_id": 641343,
  "player_name": "Jake Bauers",
  "team": "MIL",
- "as_of": "2026-07-15",
+ "as_of": "2026-07-14",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.286,
   "slopes": {
    "max_ev": -1.171,
@@ -12,7 +12,7 @@
    "near_hr": 0.0
   },
   "intensity": 0.012,
-  "expectancy_score": 8.9,
+  "expectancy_score": 16.9,
   "last_appearance": "2026-07-12"
  },
  "days": [

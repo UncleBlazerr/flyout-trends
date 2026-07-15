@@ -1,21 +1,39 @@
 {
  "player_id": 691406,
  "player_name": "Junior Caminero",
- "team": "TB",
- "as_of": "2026-07-15",
+ "team": "AL",
+ "as_of": "2026-07-14",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 2.646,
+   "max_ev": -1.636,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.333,
-  "expectancy_score": 10.0,
-  "last_appearance": "2026-07-11"
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-14"
  },
  "days": [
+  {
+   "date": "2026-07-14",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 68.5,
+   "max_distance": 1.0,
+   "max_barrel_score": 0.1,
+   "temp_f": 88.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-11",
    "bbe": 1,
@@ -162,6 +180,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823443,
+   "date": "2026-07-14",
+   "player_id": 691406,
+   "player_name": "Junior Caminero",
+   "team": "AL",
+   "opponent": "NL",
+   "result": "Groundout",
+   "exit_velocity": 68.5,
+   "launch_angle": -76.0,
+   "hit_distance": 1.0,
+   "hc_x": 119.53,
+   "hc_y": 185.76,
+   "would_be_hr_count": 0,
+   "inning": 1,
+   "play_id": "7adcc6d5-c7e3-3abf-807c-52d90ab860e2",
+   "venue_id": 2681,
+   "venue_name": "Citizens Bank Park",
+   "temp_f": 88.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 0.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 822953,
    "date": "2026-07-11",

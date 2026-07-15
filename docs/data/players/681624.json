@@ -1,21 +1,39 @@
 {
  "player_id": 681624,
  "player_name": "Andy Pages",
- "team": "LAD",
- "as_of": "2026-07-15",
+ "team": "NL",
+ "as_of": "2026-07-14",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 0.246,
+   "max_ev": -0.489,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.041,
-  "expectancy_score": 1.2,
-  "last_appearance": "2026-07-12"
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-14"
  },
  "days": [
+  {
+   "date": "2026-07-14",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 96.2,
+   "max_distance": 27.0,
+   "max_barrel_score": 25.1,
+   "temp_f": 88.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-12",
    "bbe": 1,
@@ -144,6 +162,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823443,
+   "date": "2026-07-14",
+   "player_id": 681624,
+   "player_name": "Andy Pages",
+   "team": "NL",
+   "opponent": "AL",
+   "result": "Groundout",
+   "exit_velocity": 96.2,
+   "launch_angle": -4.0,
+   "hit_distance": 27.0,
+   "hc_x": 129.16,
+   "hc_y": 141.19,
+   "would_be_hr_count": 0,
+   "inning": 5,
+   "play_id": "989f6c62-435f-3421-a47d-f4b898648b0f",
+   "venue_id": 2681,
+   "venue_name": "Citizens Bank Park",
+   "temp_f": 88.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 25.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823925,
    "date": "2026-07-12",

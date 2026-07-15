@@ -2583,7 +2583,7 @@
   },
   "700250": {
    "player_name": "Ben Rice",
-   "team": "NYY",
+   "team": "AL",
    "days": {
     "2026-07-04": {
      "bbe": 3,
@@ -2737,12 +2737,29 @@
      "wind_mph": 7.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-07-14": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 106.8,
+     "max_distance": 37.0,
+     "max_barrel_score": 35.2,
+     "temp_f": 88.0,
+     "wind_mph": 4.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
   "641355": {
    "player_name": "Cody Bellinger",
-   "team": "NYY",
+   "team": "AL",
    "days": {
     "2026-07-04": {
      "bbe": 4,
@@ -2896,6 +2913,23 @@
      "wind_mph": 7.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-07-14": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 101.1,
+     "max_distance": 354.0,
+     "max_barrel_score": 73.5,
+     "temp_f": 88.0,
+     "wind_mph": 4.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -4214,7 +4248,7 @@
   },
   "805808": {
    "player_name": "Kevin McGonigle",
-   "team": "DET",
+   "team": "AL",
    "days": {
     "2026-07-04": {
      "bbe": 3,
@@ -4351,6 +4385,23 @@
      "wind_mph": 8.0,
      "wind_dir": "in",
      "weather_condition": "Sunny"
+    },
+    "2026-07-14": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 98.7,
+     "max_distance": 16.0,
+     "max_barrel_score": 26.6,
+     "temp_f": 88.0,
+     "wind_mph": 4.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -6453,7 +6504,7 @@
   },
   "668227": {
    "player_name": "Randy Arozarena",
-   "team": "SEA",
+   "team": "AL",
    "days": {
     "2026-07-04": {
      "bbe": 4,
@@ -6590,6 +6641,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Dome"
+    },
+    "2026-07-14": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 91.0,
+     "max_distance": 42.0,
+     "max_barrel_score": 21.3,
+     "temp_f": 88.0,
+     "wind_mph": 4.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -6987,7 +7055,7 @@
   },
   "676391": {
    "player_name": "Ernie Clement",
-   "team": "TOR",
+   "team": "AL",
    "days": {
     "2026-07-04": {
      "bbe": 3,
@@ -7124,6 +7192,23 @@
      "wind_mph": 6.0,
      "wind_dir": "cross",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-07-14": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 72.1,
+     "max_distance": 24.0,
+     "max_barrel_score": 2.5,
+     "temp_f": 88.0,
+     "wind_mph": 4.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -8925,7 +9010,7 @@
   },
   "701398": {
    "player_name": "Sal Stewart",
-   "team": "CIN",
+   "team": "NL",
    "days": {
     "2026-07-04": {
      "bbe": 2,
@@ -9062,6 +9147,23 @@
      "wind_mph": 6.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-07-14": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 59.4,
+     "max_distance": 1.0,
+     "max_barrel_score": 0.1,
+     "temp_f": 88.0,
+     "wind_mph": 4.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -9766,7 +9868,7 @@
   },
   "668939": {
    "player_name": "Adley Rutschman",
-   "team": "BAL",
+   "team": "AL",
    "days": {
     "2026-07-04": {
      "bbe": 4,
@@ -9886,6 +9988,23 @@
      "wind_mph": 8.0,
      "wind_dir": "out",
      "weather_condition": "Cloudy"
+    },
+    "2026-07-14": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 86.6,
+     "max_distance": 4.0,
+     "max_barrel_score": 15.0,
+     "temp_f": 88.0,
+     "wind_mph": 4.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -10511,7 +10630,7 @@
   },
   "691406": {
    "player_name": "Junior Caminero",
-   "team": "TB",
+   "team": "AL",
    "days": {
     "2026-07-04": {
      "bbe": 3,
@@ -10648,6 +10767,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Dome"
+    },
+    "2026-07-14": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 68.5,
+     "max_distance": 1.0,
+     "max_barrel_score": 0.1,
+     "temp_f": 88.0,
+     "wind_mph": 4.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -11011,7 +11147,7 @@
   },
   "670541": {
    "player_name": "Yordan Alvarez",
-   "team": "HOU",
+   "team": "AL",
    "days": {
     "2026-07-04": {
      "bbe": 5,
@@ -11148,6 +11284,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-07-14": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 90.9,
+     "max_distance": 247.0,
+     "max_barrel_score": 40.3,
+     "temp_f": 88.0,
+     "wind_mph": 4.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -14313,7 +14466,7 @@
   },
   "678246": {
    "player_name": "Miguel Vargas",
-   "team": "CWS",
+   "team": "AL",
    "days": {
     "2026-07-04": {
      "bbe": 3,
@@ -14450,6 +14603,23 @@
      "wind_mph": 9.0,
      "wind_dir": "in",
      "weather_condition": "Sunny"
+    },
+    "2026-07-14": {
+     "bbe": 2,
+     "hr": 1,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 107.3,
+     "max_distance": 433.0,
+     "max_barrel_score": 87.1,
+     "temp_f": 88.0,
+     "wind_mph": 4.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -14563,7 +14733,7 @@
   },
   "683953": {
    "player_name": "Travis Bazzana",
-   "team": "CLE",
+   "team": "AL",
    "days": {
     "2026-07-04": {
      "bbe": 2,
@@ -14700,6 +14870,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-07-14": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 86.1,
+     "max_distance": 3.0,
+     "max_barrel_score": 14.5,
+     "temp_f": 88.0,
+     "wind_mph": 4.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -15728,7 +15915,7 @@
   },
   "671056": {
    "player_name": "Iv\u00e1n Herrera",
-   "team": "STL",
+   "team": "NL",
    "days": {
     "2026-07-04": {
      "bbe": 1,
@@ -15882,6 +16069,23 @@
      "wind_mph": 8.0,
      "wind_dir": "out",
      "weather_condition": "Cloudy"
+    },
+    "2026-07-14": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 85.6,
+     "max_distance": 30.0,
+     "max_barrel_score": 15.9,
+     "temp_f": 88.0,
+     "wind_mph": 4.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -17080,7 +17284,7 @@
   },
   "691718": {
    "player_name": "Pete Crow-Armstrong",
-   "team": "CHC",
+   "team": "NL",
    "days": {
     "2026-07-04": {
      "bbe": 1,
@@ -17217,6 +17421,23 @@
      "wind_mph": 6.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-07-14": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 91.1,
+     "max_distance": 69.0,
+     "max_barrel_score": 27.7,
+     "temp_f": 88.0,
+     "wind_mph": 4.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -17586,7 +17807,7 @@
   },
   "665742": {
    "player_name": "Juan Soto",
-   "team": "NYM",
+   "team": "NL",
    "days": {
     "2026-07-04": {
      "bbe": 3,
@@ -17740,6 +17961,23 @@
      "wind_mph": 2.0,
      "wind_dir": "in",
      "weather_condition": "Sunny"
+    },
+    "2026-07-14": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 101.7,
+     "max_distance": 41.0,
+     "max_barrel_score": 30.9,
+     "temp_f": 88.0,
+     "wind_mph": 4.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -18188,7 +18426,7 @@
   },
   "645277": {
    "player_name": "Ozzie Albies",
-   "team": "ATL",
+   "team": "NL",
    "days": {
     "2026-07-04": {
      "bbe": 4,
@@ -18342,6 +18580,23 @@
      "wind_mph": 8.0,
      "wind_dir": "out",
      "weather_condition": "Cloudy"
+    },
+    "2026-07-14": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 92.6,
+     "max_distance": 61.0,
+     "max_barrel_score": 27.4,
+     "temp_f": 88.0,
+     "wind_mph": 4.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -19097,7 +19352,7 @@
   },
   "621566": {
    "player_name": "Matt Olson",
-   "team": "ATL",
+   "team": "NL",
    "days": {
     "2026-07-04": {
      "bbe": 3,
@@ -19251,6 +19506,23 @@
      "wind_mph": 8.0,
      "wind_dir": "out",
      "weather_condition": "Cloudy"
+    },
+    "2026-07-14": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 76.9,
+     "max_distance": 263.0,
+     "max_barrel_score": 43.3,
+     "temp_f": 88.0,
+     "wind_mph": 4.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -21182,7 +21454,7 @@
   },
   "696100": {
    "player_name": "Hunter Goodman",
-   "team": "COL",
+   "team": "NL",
    "days": {
     "2026-07-04": {
      "bbe": 2,
@@ -21302,6 +21574,23 @@
      "wind_mph": 6.0,
      "wind_dir": "out",
      "weather_condition": "Cloudy"
+    },
+    "2026-07-14": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 81.3,
+     "max_distance": 170.0,
+     "max_barrel_score": 35.6,
+     "temp_f": 88.0,
+     "wind_mph": 4.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -22756,7 +23045,7 @@
   },
   "656941": {
    "player_name": "Kyle Schwarber",
-   "team": "PHI",
+   "team": "NL",
    "days": {
     "2026-07-04": {
      "bbe": 3,
@@ -22893,6 +23182,23 @@
      "wind_mph": 8.0,
      "wind_dir": "in",
      "weather_condition": "Sunny"
+    },
+    "2026-07-14": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 106.8,
+     "max_distance": 126.0,
+     "max_barrel_score": 47.7,
+     "temp_f": 88.0,
+     "wind_mph": 4.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -23466,7 +23772,7 @@
   },
   "677951": {
    "player_name": "Bobby Witt Jr.",
-   "team": "KC",
+   "team": "AL",
    "days": {
     "2026-07-04": {
      "bbe": 3,
@@ -23620,6 +23926,23 @@
      "wind_mph": 7.0,
      "wind_dir": "cross",
      "weather_condition": "Cloudy"
+    },
+    "2026-07-14": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 80.8,
+     "max_distance": 6.0,
+     "max_barrel_score": 10.0,
+     "temp_f": 88.0,
+     "wind_mph": 4.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -25034,7 +25357,7 @@
   },
   "678882": {
    "player_name": "Ceddanne Rafaela",
-   "team": "BOS",
+   "team": "AL",
    "days": {
     "2026-07-04": {
      "bbe": 3,
@@ -25171,12 +25494,29 @@
      "wind_mph": 2.0,
      "wind_dir": "in",
      "weather_condition": "Sunny"
+    },
+    "2026-07-14": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 79.8,
+     "max_distance": 7.0,
+     "max_barrel_score": 9.2,
+     "temp_f": 88.0,
+     "wind_mph": 4.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
   "575929": {
    "player_name": "Willson Contreras",
-   "team": "BOS",
+   "team": "AL",
    "days": {
     "2026-07-04": {
      "bbe": 5,
@@ -25243,6 +25583,23 @@
      "max_barrel_score": 87.8,
      "temp_f": 83.0,
      "wind_mph": 8.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
+    },
+    "2026-07-14": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 104.7,
+     "max_distance": 7.0,
+     "max_barrel_score": 31.3,
+     "temp_f": 88.0,
+     "wind_mph": 4.0,
      "wind_dir": "out",
      "weather_condition": "Clear"
     }
@@ -28546,7 +28903,7 @@
   },
   "661388": {
    "player_name": "William Contreras",
-   "team": "MIL",
+   "team": "NL",
    "days": {
     "2026-07-04": {
      "bbe": 4,
@@ -28649,6 +29006,23 @@
      "wind_mph": 1.0,
      "wind_dir": "out",
      "weather_condition": "Overcast"
+    },
+    "2026-07-14": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 87.3,
+     "max_distance": 210.0,
+     "max_barrel_score": 29.4,
+     "temp_f": 88.0,
+     "wind_mph": 4.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -29722,7 +30096,7 @@
   },
   "672640": {
    "player_name": "Otto Lopez",
-   "team": "MIA",
+   "team": "NL",
    "days": {
     "2026-07-04": {
      "bbe": 5,
@@ -29859,6 +30233,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-07-14": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 99.4,
+     "max_distance": 243.0,
+     "max_barrel_score": 54.3,
+     "temp_f": 88.0,
+     "wind_mph": 4.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -32404,7 +32795,7 @@
   },
   "681624": {
    "player_name": "Andy Pages",
-   "team": "LAD",
+   "team": "NL",
    "days": {
     "2026-07-04": {
      "bbe": 4,
@@ -32524,6 +32915,23 @@
      "wind_mph": 4.0,
      "wind_dir": "out",
      "weather_condition": "Cloudy"
+    },
+    "2026-07-14": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 96.2,
+     "max_distance": 27.0,
+     "max_barrel_score": 25.1,
+     "temp_f": 88.0,
+     "wind_mph": 4.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -33205,7 +33613,7 @@
   },
   "571970": {
    "player_name": "Max Muncy",
-   "team": "LAD",
+   "team": "NL",
    "days": {
     "2026-07-04": {
      "bbe": 3,
@@ -33308,6 +33716,23 @@
      "wind_mph": 4.0,
      "wind_dir": "out",
      "weather_condition": "Cloudy"
+    },
+    "2026-07-14": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 95.4,
+     "max_distance": 200.0,
+     "max_barrel_score": 35.9,
+     "temp_f": 88.0,
+     "wind_mph": 4.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -40630,7 +41055,7 @@
   },
   "669127": {
    "player_name": "Shea Langeliers",
-   "team": "ATH",
+   "team": "AL",
    "days": {
     "2026-07-07": {
      "bbe": 1,
@@ -40716,6 +41141,23 @@
      "wind_mph": 9.0,
      "wind_dir": "in",
      "weather_condition": "Sunny"
+    },
+    "2026-07-14": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 91.1,
+     "max_distance": 308.0,
+     "max_barrel_score": 63.3,
+     "temp_f": 88.0,
+     "wind_mph": 4.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -41622,7 +42064,7 @@
   },
   "545361": {
    "player_name": "Mike Trout",
-   "team": "LAA",
+   "team": "AL",
    "days": {
     "2026-07-08": {
      "bbe": 3,
@@ -41691,6 +42133,23 @@
      "wind_mph": 11.0,
      "wind_dir": "out",
      "weather_condition": "Sunny"
+    },
+    "2026-07-14": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 100.6,
+     "max_distance": 129.0,
+     "max_barrel_score": 27.5,
+     "temp_f": 88.0,
+     "wind_mph": 4.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },

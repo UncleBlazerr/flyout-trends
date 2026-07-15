@@ -1,21 +1,39 @@
 {
  "player_id": 677951,
  "player_name": "Bobby Witt Jr.",
- "team": "KC",
- "as_of": "2026-07-15",
+ "team": "AL",
+ "as_of": "2026-07-14",
  "form": {
   "streak": 0,
-  "frequency": 0.429,
+  "frequency": 0.286,
   "slopes": {
-   "max_ev": -2.057,
-   "parks_sum": -0.75,
-   "near_hr": -0.062
+   "max_ev": -3.346,
+   "parks_sum": 0.0,
+   "near_hr": -0.071
   },
   "intensity": 0.0,
-  "expectancy_score": 12.9,
-  "last_appearance": "2026-07-12"
+  "expectancy_score": 8.6,
+  "last_appearance": "2026-07-14"
  },
  "days": [
+  {
+   "date": "2026-07-14",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 80.8,
+   "max_distance": 6.0,
+   "max_barrel_score": 10.0,
+   "temp_f": 88.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-12",
    "bbe": 5,
@@ -180,6 +198,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823443,
+   "date": "2026-07-14",
+   "player_id": 677951,
+   "player_name": "Bobby Witt Jr.",
+   "team": "AL",
+   "opponent": "NL",
+   "result": "Forceout",
+   "exit_velocity": 80.8,
+   "launch_angle": -31.0,
+   "hit_distance": 6.0,
+   "hc_x": 101.3,
+   "hc_y": 171.07,
+   "would_be_hr_count": 0,
+   "inning": 3,
+   "play_id": "d5e6d635-779c-37c8-a78c-c8dbac20919f",
+   "venue_id": 2681,
+   "venue_name": "Citizens Bank Park",
+   "temp_f": 88.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 10.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824814,
    "date": "2026-07-12",

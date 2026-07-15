@@ -1,32 +1,408 @@
 {
- "as_of": "2026-07-15",
+ "as_of": "2026-07-14",
  "horizon_days": 3,
  "min_samples": 20,
- "players": [],
+ "players": [
+  {
+   "player_id": 665161,
+   "player_name": "Jeremy Pe\u00f1a",
+   "team": "HOU",
+   "expectancy_score": 61.0,
+   "streak": 2,
+   "frequency": 0.667,
+   "slopes": {
+    "max_ev": 2.1,
+    "parks_sum": 3.0,
+    "near_hr": 0.5
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 104.4,
+   "max_distance_7d": 384,
+   "band": "60-80",
+   "band_rate": null,
+   "band_samples": 13,
+   "weather_factor": 1.0,
+   "adjusted_score": 61.0,
+   "game_weather": null,
+   "repeat": true
+  },
+  {
+   "player_id": 677800,
+   "player_name": "Wilyer Abreu",
+   "team": "BOS",
+   "expectancy_score": 59.6,
+   "streak": 4,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": 1.432,
+    "parks_sum": 0.321,
+    "near_hr": 0.223
+   },
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 1,
+   "max_ev_7d": 111.0,
+   "max_distance_7d": 385,
+   "band": "40-60",
+   "band_rate": 0.214,
+   "band_samples": 112,
+   "weather_factor": 1.0,
+   "adjusted_score": 59.6,
+   "game_weather": null,
+   "repeat": true
+  },
+  {
+   "player_id": 669236,
+   "player_name": "Jeremiah Jackson",
+   "team": "BAL",
+   "expectancy_score": 53.9,
+   "streak": 2,
+   "frequency": 0.667,
+   "slopes": {
+    "max_ev": 3.8,
+    "parks_sum": 0.5,
+    "near_hr": 0.625
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 0,
+   "max_ev_7d": 106.5,
+   "max_distance_7d": 376,
+   "band": "40-60",
+   "band_rate": 0.214,
+   "band_samples": 112,
+   "weather_factor": 1.0,
+   "adjusted_score": 53.9,
+   "game_weather": null,
+   "repeat": true
+  },
+  {
+   "player_id": 663656,
+   "player_name": "Kyle Tucker",
+   "team": "LAD",
+   "expectancy_score": 49.3,
+   "streak": 3,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 2.275,
+    "parks_sum": 0.071,
+    "near_hr": 0.223
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 102.5,
+   "max_distance_7d": 382,
+   "band": "40-60",
+   "band_rate": 0.214,
+   "band_samples": 112,
+   "weather_factor": 1.0,
+   "adjusted_score": 49.3,
+   "game_weather": null,
+   "repeat": true
+  },
+  {
+   "player_id": 681297,
+   "player_name": "Colton Cowser",
+   "team": "BAL",
+   "expectancy_score": 48.4,
+   "streak": 3,
+   "frequency": 0.6,
+   "slopes": {
+    "max_ev": 0.67,
+    "parks_sum": 0.0,
+    "near_hr": 0.3
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 100.2,
+   "max_distance_7d": 381,
+   "band": "40-60",
+   "band_rate": 0.214,
+   "band_samples": 112,
+   "weather_factor": 1.0,
+   "adjusted_score": 48.4,
+   "game_weather": null,
+   "repeat": true
+  },
+  {
+   "player_id": 694374,
+   "player_name": "Tim Tawa",
+   "team": "AZ",
+   "expectancy_score": 43.4,
+   "streak": 3,
+   "frequency": 0.5,
+   "slopes": {
+    "max_ev": 0.309,
+    "parks_sum": 0.029,
+    "near_hr": 0.279
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 2,
+   "max_ev_7d": 105.4,
+   "max_distance_7d": 429,
+   "band": "40-60",
+   "band_rate": 0.214,
+   "band_samples": 112,
+   "weather_factor": 1.0,
+   "adjusted_score": 43.4,
+   "game_weather": null,
+   "repeat": true
+  },
+  {
+   "player_id": 670097,
+   "player_name": "Zack Short",
+   "team": "NYM",
+   "expectancy_score": 43.0,
+   "streak": 1,
+   "frequency": 0.5,
+   "slopes": {
+    "max_ev": 15.0,
+    "parks_sum": 0.0,
+    "near_hr": 1.0
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 94.7,
+   "max_distance_7d": 347,
+   "band": "40-60",
+   "band_rate": 0.214,
+   "band_samples": 112,
+   "weather_factor": 1.0,
+   "adjusted_score": 43.0,
+   "game_weather": null,
+   "repeat": true
+  },
+  {
+   "player_id": 695490,
+   "player_name": "Edwin Arroyo",
+   "team": "CIN",
+   "expectancy_score": 41.1,
+   "streak": 2,
+   "frequency": 0.333,
+   "slopes": {
+    "max_ev": 5.689,
+    "parks_sum": 0.857,
+    "near_hr": 0.229
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 105.1,
+   "max_distance_7d": 372,
+   "band": "40-60",
+   "band_rate": 0.214,
+   "band_samples": 112,
+   "weather_factor": 1.0,
+   "adjusted_score": 41.1,
+   "game_weather": null,
+   "repeat": true
+  },
+  {
+   "player_id": 695734,
+   "player_name": "Daylen Lile",
+   "team": "WSH",
+   "expectancy_score": 41.0,
+   "streak": 3,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": -0.114,
+    "parks_sum": 0.036,
+    "near_hr": 0.402
+   },
+   "near_hr_7d": 6,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 104.8,
+   "max_distance_7d": 397,
+   "band": "40-60",
+   "band_rate": 0.214,
+   "band_samples": 112,
+   "weather_factor": 1.0,
+   "adjusted_score": 41.0,
+   "game_weather": null,
+   "repeat": true
+  },
+  {
+   "player_id": 805347,
+   "player_name": "Jim Jarvis",
+   "team": "ATL",
+   "expectancy_score": 40.1,
+   "streak": 1,
+   "frequency": 0.333,
+   "slopes": {
+    "max_ev": 2.934,
+    "parks_sum": 3.743,
+    "near_hr": 0.214
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 1,
+   "max_ev_7d": 105.1,
+   "max_distance_7d": 398,
+   "band": "40-60",
+   "band_rate": 0.214,
+   "band_samples": 112,
+   "weather_factor": 1.0,
+   "adjusted_score": 40.1,
+   "game_weather": null,
+   "repeat": true
+  },
+  {
+   "player_id": 676475,
+   "player_name": "Alec Burleson",
+   "team": "STL",
+   "expectancy_score": 39.5,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 0.225,
+    "parks_sum": 2.036,
+    "near_hr": 0.277
+   },
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 1,
+   "max_ev_7d": 109.4,
+   "max_distance_7d": 443,
+   "band": "<40",
+   "band_rate": 0.218,
+   "band_samples": 1968,
+   "weather_factor": 1.0,
+   "adjusted_score": 39.5,
+   "game_weather": null,
+   "repeat": true
+  },
+  {
+   "player_id": 671155,
+   "player_name": "Ivan Johnson",
+   "team": "CIN",
+   "expectancy_score": 38.0,
+   "streak": 1,
+   "frequency": 1.0,
+   "slopes": {
+    "max_ev": 0.0,
+    "parks_sum": 0.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 97.0,
+   "max_distance_7d": 351,
+   "band": "<40",
+   "band_rate": 0.218,
+   "band_samples": 1968,
+   "weather_factor": 1.0,
+   "adjusted_score": 38.0,
+   "game_weather": null,
+   "repeat": true
+  },
+  {
+   "player_id": 701852,
+   "player_name": "Drew Cavanaugh",
+   "team": "SF",
+   "expectancy_score": 37.0,
+   "streak": 1,
+   "frequency": 0.6,
+   "slopes": {
+    "max_ev": 7.08,
+    "parks_sum": 0.0,
+    "near_hr": 0.1
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 101.9,
+   "max_distance_7d": 363,
+   "band": "<40",
+   "band_rate": 0.218,
+   "band_samples": 1968,
+   "weather_factor": 1.0,
+   "adjusted_score": 37.0,
+   "game_weather": null,
+   "repeat": false
+  },
+  {
+   "player_id": 664034,
+   "player_name": "Ty France",
+   "team": "SD",
+   "expectancy_score": 36.7,
+   "streak": 1,
+   "frequency": 0.333,
+   "slopes": {
+    "max_ev": 2.983,
+    "parks_sum": 2.0,
+    "near_hr": 0.2
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
+   "max_ev_7d": 107.6,
+   "max_distance_7d": 388,
+   "band": "<40",
+   "band_rate": 0.218,
+   "band_samples": 1968,
+   "weather_factor": 1.0,
+   "adjusted_score": 36.7,
+   "game_weather": null,
+   "repeat": false
+  },
+  {
+   "player_id": 673962,
+   "player_name": "Josh Jung",
+   "team": "TEX",
+   "expectancy_score": 36.0,
+   "streak": 1,
+   "frequency": 0.6,
+   "slopes": {
+    "max_ev": -3.44,
+    "parks_sum": 4.2,
+    "near_hr": -0.225
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 0,
+   "max_ev_7d": 106.7,
+   "max_distance_7d": 417,
+   "band": "<40",
+   "band_rate": 0.218,
+   "band_samples": 1968,
+   "weather_factor": 1.0,
+   "adjusted_score": 36.0,
+   "game_weather": null,
+   "repeat": false
+  }
+ ],
  "bands": {
   "<40": {
-   "samples": 1436,
-   "hr_followed": 361,
-   "rate": 0.251
+   "samples": 1968,
+   "hr_followed": 429,
+   "rate": 0.218
   },
   "40-60": {
-   "samples": 90,
-   "hr_followed": 23,
-   "rate": 0.256
+   "samples": 112,
+   "hr_followed": 24,
+   "rate": 0.214
   },
   "60-80": {
-   "samples": 11,
-   "hr_followed": 2,
-   "rate": 0.182
+   "samples": 13,
+   "hr_followed": 3,
+   "rate": 0.231
   }
  },
  "hit_rate": {
-  "resolved_records": 5,
+  "resolved_records": 7,
   "horizon_days": 3,
   "overall": {
-   "flagged": 75,
-   "hr_followed": 17,
-   "rate": 0.227
+   "flagged": 105,
+   "hr_followed": 20,
+   "rate": 0.19
   },
   "top_band": {
    "band": "80+",
@@ -35,5 +411,15 @@
    "rate": null
   }
  },
- "recent_hits": []
+ "recent_hits": [
+  {
+   "player_id": 666018,
+   "player_name": "Jonathan Aranda",
+   "team": "TB",
+   "flagged_on": "2026-07-11",
+   "flagged_score": 66.7,
+   "hr_on": "2026-07-12",
+   "hr_count": 1
+  }
+ ]
 }

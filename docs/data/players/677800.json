@@ -2,9 +2,9 @@
  "player_id": 677800,
  "player_name": "Wilyer Abreu",
  "team": "BOS",
- "as_of": "2026-07-15",
+ "as_of": "2026-07-14",
  "form": {
-  "streak": 0,
+  "streak": 4,
   "frequency": 0.571,
   "slopes": {
    "max_ev": 1.432,
@@ -12,7 +12,7 @@
    "near_hr": 0.223
   },
   "intensity": 0.349,
-  "expectancy_score": 27.6,
+  "expectancy_score": 59.6,
   "last_appearance": "2026-07-12"
  },
  "days": [

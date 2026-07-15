@@ -1,21 +1,39 @@
 {
  "player_id": 700250,
  "player_name": "Ben Rice",
- "team": "NYY",
- "as_of": "2026-07-15",
+ "team": "AL",
+ "as_of": "2026-07-14",
  "form": {
   "streak": 0,
-  "frequency": 0.286,
+  "frequency": 0.143,
   "slopes": {
-   "max_ev": 0.3,
+   "max_ev": 0.729,
    "parks_sum": 0.0,
-   "near_hr": 0.027
+   "near_hr": 0.089
   },
-  "intensity": 0.059,
-  "expectancy_score": 10.3,
-  "last_appearance": "2026-07-12"
+  "intensity": 0.151,
+  "expectancy_score": 8.8,
+  "last_appearance": "2026-07-14"
  },
  "days": [
+  {
+   "date": "2026-07-14",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 106.8,
+   "max_distance": 37.0,
+   "max_barrel_score": 35.2,
+   "temp_f": 88.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-12",
    "bbe": 2,
@@ -180,6 +198,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823443,
+   "date": "2026-07-14",
+   "player_id": 700250,
+   "player_name": "Ben Rice",
+   "team": "AL",
+   "opponent": "NL",
+   "result": "Single",
+   "exit_velocity": 106.8,
+   "launch_angle": -2.0,
+   "hit_distance": 37.0,
+   "hc_x": 148.91,
+   "hc_y": 101.68,
+   "would_be_hr_count": 0,
+   "inning": 1,
+   "play_id": "b2cf36ef-8131-30c6-a5f0-0b261e439cb2",
+   "venue_id": 2681,
+   "venue_name": "Citizens Bank Park",
+   "temp_f": 88.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 35.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 822708,
    "date": "2026-07-12",

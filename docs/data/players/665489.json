@@ -2,9 +2,9 @@
  "player_id": 665489,
  "player_name": "Vladimir Guerrero Jr.",
  "team": "TOR",
- "as_of": "2026-07-15",
+ "as_of": "2026-07-14",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.429,
   "slopes": {
    "max_ev": -0.079,
@@ -12,7 +12,7 @@
    "near_hr": -0.027
   },
   "intensity": 0.0,
-  "expectancy_score": 12.9,
+  "expectancy_score": 20.9,
   "last_appearance": "2026-07-12"
  },
  "days": [

@@ -2,9 +2,9 @@
  "player_id": 671218,
  "player_name": "Heliot Ramos",
  "team": "SF",
- "as_of": "2026-07-15",
+ "as_of": "2026-07-14",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.571,
   "slopes": {
    "max_ev": 0.786,
@@ -12,7 +12,7 @@
    "near_hr": 0.045
   },
   "intensity": 0.146,
-  "expectancy_score": 21.5,
+  "expectancy_score": 29.5,
   "last_appearance": "2026-07-12"
  },
  "days": [

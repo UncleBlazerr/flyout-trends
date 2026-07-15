@@ -2,9 +2,9 @@
  "player_id": 695600,
  "player_name": "Carter Jensen",
  "team": "KC",
- "as_of": "2026-07-15",
+ "as_of": "2026-07-14",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.143,
   "slopes": {
    "max_ev": 0.618,
@@ -12,7 +12,7 @@
    "near_hr": 0.107
   },
   "intensity": 0.174,
-  "expectancy_score": 9.5,
+  "expectancy_score": 17.5,
   "last_appearance": "2026-07-12"
  },
  "days": [

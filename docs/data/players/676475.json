@@ -2,9 +2,9 @@
  "player_id": 676475,
  "player_name": "Alec Burleson",
  "team": "STL",
- "as_of": "2026-07-15",
+ "as_of": "2026-07-14",
  "form": {
-  "streak": 0,
+  "streak": 2,
   "frequency": 0.429,
   "slopes": {
    "max_ev": 0.225,
@@ -12,7 +12,7 @@
    "near_hr": 0.277
   },
   "intensity": 0.356,
-  "expectancy_score": 23.5,
+  "expectancy_score": 39.5,
   "last_appearance": "2026-07-12"
  },
  "days": [

@@ -2,9 +2,9 @@
  "player_id": 686948,
  "player_name": "Drake Baldwin",
  "team": "ATL",
- "as_of": "2026-07-15",
+ "as_of": "2026-07-14",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.429,
   "slopes": {
    "max_ev": 0.796,
@@ -12,7 +12,7 @@
    "near_hr": -0.071
   },
   "intensity": 0.18,
-  "expectancy_score": 18.3,
+  "expectancy_score": 26.3,
   "last_appearance": "2026-07-12"
  },
  "days": [

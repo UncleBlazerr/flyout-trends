@@ -2,9 +2,9 @@
  "player_id": 593428,
  "player_name": "Xander Bogaerts",
  "team": "SD",
- "as_of": "2026-07-15",
+ "as_of": "2026-07-14",
  "form": {
-  "streak": 0,
+  "streak": 2,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 0.9,
@@ -12,7 +12,7 @@
    "near_hr": 0.179
   },
   "intensity": 0.21,
-  "expectancy_score": 14.9,
+  "expectancy_score": 30.9,
   "last_appearance": "2026-07-12"
  },
  "days": [

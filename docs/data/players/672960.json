@@ -2,9 +2,9 @@
  "player_id": 672960,
  "player_name": "Kazuma Okamoto",
  "team": "TOR",
- "as_of": "2026-07-15",
+ "as_of": "2026-07-14",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 1.021,
@@ -12,7 +12,7 @@
    "near_hr": 0.134
   },
   "intensity": 0.263,
-  "expectancy_score": 16.4,
+  "expectancy_score": 24.4,
   "last_appearance": "2026-07-12"
  },
  "days": [

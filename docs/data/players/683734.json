@@ -2,9 +2,9 @@
  "player_id": 683734,
  "player_name": "Andrew Vaughn",
  "team": "MIL",
- "as_of": "2026-07-15",
+ "as_of": "2026-07-14",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 3.821,
@@ -12,7 +12,7 @@
    "near_hr": 0.143
   },
   "intensity": 0.381,
-  "expectancy_score": 20.0,
+  "expectancy_score": 28.0,
   "last_appearance": "2026-07-12"
  },
  "days": [
