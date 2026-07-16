@@ -2,9 +2,9 @@
  "player_id": 664770,
  "player_name": "Nathan Lukes",
  "team": "TOR",
- "as_of": "2026-07-14",
+ "as_of": "2026-07-16",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.143,
   "slopes": {
    "max_ev": -0.436,
@@ -12,7 +12,7 @@
    "near_hr": 0.107
   },
   "intensity": 0.036,
-  "expectancy_score": 13.4,
+  "expectancy_score": 5.4,
   "last_appearance": "2026-07-12"
  },
  "days": [

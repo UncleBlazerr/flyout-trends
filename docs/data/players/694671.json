@@ -2,9 +2,9 @@
  "player_id": 694671,
  "player_name": "Wyatt Langford",
  "team": "TEX",
- "as_of": "2026-07-14",
+ "as_of": "2026-07-16",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.5,
   "slopes": {
    "max_ev": 0.12,
@@ -12,7 +12,7 @@
    "near_hr": 0.3
   },
   "intensity": 0.12,
-  "expectancy_score": 26.6,
+  "expectancy_score": 18.6,
   "last_appearance": "2026-07-12"
  },
  "days": [

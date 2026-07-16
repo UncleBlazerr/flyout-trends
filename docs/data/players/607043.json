@@ -2,9 +2,9 @@
  "player_id": 607043,
  "player_name": "Brandon Nimmo",
  "team": "TEX",
- "as_of": "2026-07-14",
+ "as_of": "2026-07-16",
  "form": {
-  "streak": 2,
+  "streak": 0,
   "frequency": 0.429,
   "slopes": {
    "max_ev": 0.45,
@@ -12,7 +12,7 @@
    "near_hr": 0.116
   },
   "intensity": 0.114,
-  "expectancy_score": 32.3,
+  "expectancy_score": 16.3,
   "last_appearance": "2026-07-12"
  },
  "days": [
