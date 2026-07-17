@@ -1,3 +1,10 @@
+---
+type: Integrations
+title: Integrations
+description: Agent skills, subagents, and LLM integrations layered on top of the HR-Proximity Tracker pipeline — Claude Code skill, savant-analyst subagent, and Hermes-agent integration.
+tags: [integrations, claude-code, hermes, llm, agents]
+---
+
 # Integrations
 
 Agent skills, subagents, and LLM integrations that layer on top of the

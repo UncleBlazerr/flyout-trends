@@ -1,3 +1,10 @@
+---
+type: Quickstart
+title: Quickstart — Daily HR-Proximity Tracker
+description: Entry point for the Daily HR-Proximity Tracker (flyout-trends) wiki. Explains what the pipeline does, how to run it, the repository layout, and links to all major documentation sections.
+tags: [quickstart, overview, mlb, statcast, hr-proximity]
+---
+
 # Quickstart — Daily HR-Proximity Tracker
 
 The **Daily HR-Proximity Tracker** (repo: `flyout-trends`) surfaces MLB hitters
@@ -85,6 +92,7 @@ docs/                 GitHub Pages source (generated, committed)
 .claude/skills/hr-proximity/SKILL.md   Claude Code Skill for ad hoc runs
 .claude/agents/savant-analyst.md       Baseball Savant analyst subagent
 .github/workflows/hr-tracker.yml       cron (06:00 + 12:00 + 23:00 ET) + dispatch
+.github/workflows/openwiki-update.yml  daily cron (08:00 UTC) + dispatch — refreshes this wiki via PR
 hermes/                                Hermes-agent integration (skill + daily analysis)
 ```
 

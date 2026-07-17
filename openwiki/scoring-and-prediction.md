@@ -1,3 +1,10 @@
+---
+type: Domain Model
+title: Scoring & Prediction
+description: Near-HR scoring definitions, expectancy model, weather adjustment, empirical follow-up rates, and self-checking receipts for the Daily HR-Proximity Tracker.
+tags: [scoring, prediction, near-hr, expectancy, weather, receipts]
+---
+
 # Scoring & Prediction
 
 How batted-ball events are classified as "near-HR" and how players are ranked
