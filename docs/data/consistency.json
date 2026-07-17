@@ -1,4 +1,155 @@
 {
- "as_of": "2026-07-17",
- "players": []
+ "as_of": "2026-07-16",
+ "players": [
+  {
+   "player_id": 678246,
+   "player_name": "Miguel Vargas",
+   "team": "AL",
+   "record_streak": 2,
+   "total_flags": 5,
+   "avg_score": 43.1,
+   "current_score": 30.3,
+   "game_streak": 1
+  },
+  {
+   "player_id": 571970,
+   "player_name": "Max Muncy",
+   "team": "NL",
+   "record_streak": 2,
+   "total_flags": 4,
+   "avg_score": 41.0,
+   "current_score": 17.1,
+   "game_streak": 0
+  },
+  {
+   "player_id": 641355,
+   "player_name": "Cody Bellinger",
+   "team": "AL",
+   "record_streak": 2,
+   "total_flags": 3,
+   "avg_score": 36.8,
+   "current_score": 27.2,
+   "game_streak": 1
+  },
+  {
+   "player_id": 701398,
+   "player_name": "Sal Stewart",
+   "team": "NL",
+   "record_streak": 2,
+   "total_flags": 2,
+   "avg_score": 13.4,
+   "current_score": 13.4,
+   "game_streak": 0
+  },
+  {
+   "player_id": 670541,
+   "player_name": "Yordan Alvarez",
+   "team": "AL",
+   "record_streak": 2,
+   "total_flags": 2,
+   "avg_score": 12.9,
+   "current_score": 12.9,
+   "game_streak": 0
+  },
+  {
+   "player_id": 696100,
+   "player_name": "Hunter Goodman",
+   "team": "NL",
+   "record_streak": 2,
+   "total_flags": 2,
+   "avg_score": 11.7,
+   "current_score": 11.7,
+   "game_streak": 0
+  },
+  {
+   "player_id": 665742,
+   "player_name": "Juan Soto",
+   "team": "NYM",
+   "record_streak": 2,
+   "total_flags": 2,
+   "avg_score": 11.7,
+   "current_score": 13.3,
+   "game_streak": 0
+  },
+  {
+   "player_id": 645277,
+   "player_name": "Ozzie Albies",
+   "team": "NL",
+   "record_streak": 2,
+   "total_flags": 2,
+   "avg_score": 11.0,
+   "current_score": 11.0,
+   "game_streak": 0
+  },
+  {
+   "player_id": 607208,
+   "player_name": "Trea Turner",
+   "team": "PHI",
+   "record_streak": 1,
+   "total_flags": 3,
+   "avg_score": 36.2,
+   "current_score": 12.9,
+   "game_streak": 0
+  },
+  {
+   "player_id": 681082,
+   "player_name": "Bryson Stott",
+   "team": "PHI",
+   "record_streak": 1,
+   "total_flags": 2,
+   "avg_score": 47.0,
+   "current_score": 25.5,
+   "game_streak": 1
+  },
+  {
+   "player_id": 687282,
+   "player_name": "Gabriel Rincones Jr.",
+   "team": "PHI",
+   "record_streak": 1,
+   "total_flags": 2,
+   "avg_score": 37.0,
+   "current_score": 20.9,
+   "game_streak": 1
+  },
+  {
+   "player_id": 656941,
+   "player_name": "Kyle Schwarber",
+   "team": "PHI",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 27.3,
+   "current_score": 27.3,
+   "game_streak": 1
+  },
+  {
+   "player_id": 596019,
+   "player_name": "Francisco Lindor",
+   "team": "NYM",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 12.9,
+   "current_score": 12.9,
+   "game_streak": 0
+  },
+  {
+   "player_id": 547180,
+   "player_name": "Bryce Harper",
+   "team": "PHI",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 10.6,
+   "current_score": 10.6,
+   "game_streak": 0
+  },
+  {
+   "player_id": 702222,
+   "player_name": "Justin Crawford",
+   "team": "PHI",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 10.0,
+   "current_score": 10.0,
+   "game_streak": 0
+  }
+ ]
 }

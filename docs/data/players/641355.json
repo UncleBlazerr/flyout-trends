@@ -2,9 +2,9 @@
  "player_id": 641355,
  "player_name": "Cody Bellinger",
  "team": "AL",
- "as_of": "2026-07-17",
+ "as_of": "2026-07-16",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.571,
   "slopes": {
    "max_ev": 0.129,
@@ -12,7 +12,7 @@
    "near_hr": 0.071
   },
   "intensity": 0.069,
-  "expectancy_score": 19.2,
+  "expectancy_score": 27.2,
   "last_appearance": "2026-07-14"
  },
  "days": [
