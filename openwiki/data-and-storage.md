@@ -1,3 +1,10 @@
+---
+type: Data Model
+title: Data & Storage
+description: Data flow and storage model for the Daily HR-Proximity Tracker — raw per-date JSON files, player index rollup, prediction receipts, EventStore protocol, and published dashboard JSON.
+tags: [data, storage, json, schema, eventstore]
+---
+
 # Data & Storage
 
 How data flows through the system: raw files → player rollup → prediction

@@ -1,3 +1,10 @@
+---
+type: Operations
+title: Operations
+description: How the Daily HR-Proximity Tracker pipeline runs in production and locally, plus CI/CD, testing, deployment, git conventions, and the OpenWiki update workflow.
+tags: [operations, ci-cd, testing, deployment, github-actions]
+---
+
 # Operations
 
 How the pipeline runs in production and locally, plus testing, deployment, and
@@ -154,10 +161,23 @@ Python 3.12, stdlib + `requests` + `PyYAML` only (`requirements.txt`). The
 frontend is vanilla HTML/CSS/JS embedded in `hr_tracker/site.py` — no build
 step, no npm packages in the repo.
 
+## OpenWiki update workflow
+
+**File:** `.github/workflows/openwiki-update.yml`
+
+A separate GitHub Actions workflow refreshes this documentation under `openwiki/`
+on a daily cron (`0 8 * * *` UTC) and via `workflow_dispatch`. It runs
+`openwiki code --update --print` with the `openrouter` provider and the
+`z-ai/glm-5.2` model, then opens a pull request (branch `openwiki/update`) via
+`peter-evans/create-pull-request`. The PR includes changes to `openwiki/`,
+`AGENTS.md`, `CLAUDE.md`, and the workflow file itself. The PR is **not**
+auto-merged — it requires manual review before merging.
+
 ## Agent skills and integrations
 
 See [Integrations](integrations.md) for the Claude Code skill, savant-analyst
 subagent, and Hermes-agent integration.
 
-**Sources:** `.github/workflows/hr-tracker.yml`, `scripts/run_pipeline.py`,
+**Sources:** `.github/workflows/hr-tracker.yml`,
+`.github/workflows/openwiki-update.yml`, `scripts/run_pipeline.py`,
 `scripts/backfill.py`, `CLAUDE.md`, `tests/`

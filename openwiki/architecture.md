@@ -1,3 +1,10 @@
+---
+type: Architecture
+title: Architecture
+description: Pipeline architecture for the Daily HR-Proximity Tracker — linear data pipeline with one CLI entrypoint, module-per-stage design, and shared code path for Actions, local, and agent runs.
+tags: [architecture, pipeline, modules, design]
+---
+
 # Architecture
 
 The project is a linear data pipeline: each stage is one Python module, orchestrated by a single CLI entrypoint. The same code path runs in GitHub Actions, locally, and via agent skills — no duplicated logic.
