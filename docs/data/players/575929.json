@@ -1,21 +1,39 @@
 {
  "player_id": 575929,
  "player_name": "Willson Contreras",
- "team": "AL",
- "as_of": "2026-07-18",
+ "team": "BOS",
+ "as_of": "2026-07-17",
  "form": {
   "streak": 0,
-  "frequency": 0.2,
+  "frequency": 0.167,
   "slopes": {
-   "max_ev": -1.31,
-   "parks_sum": 0.9,
-   "near_hr": 0.1
+   "max_ev": -0.62,
+   "parks_sum": 0.229,
+   "near_hr": 0.029
   },
-  "intensity": 0.133,
-  "expectancy_score": 10.0,
-  "last_appearance": "2026-07-14"
+  "intensity": 0.035,
+  "expectancy_score": 6.1,
+  "last_appearance": "2026-07-17"
  },
  "days": [
+  {
+   "date": "2026-07-17",
+   "bbe": 1,
+   "hr": 1,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 107.6,
+   "max_distance": 367.0,
+   "max_barrel_score": 72.1,
+   "temp_f": 84.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-14",
    "bbe": 1,
@@ -108,6 +126,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824737,
+   "date": "2026-07-17",
+   "player_id": 575929,
+   "player_name": "Willson Contreras",
+   "team": "BOS",
+   "opponent": "TB",
+   "result": "Home Run",
+   "exit_velocity": 107.6,
+   "launch_angle": 42.0,
+   "hit_distance": 367.0,
+   "hc_x": 73.62,
+   "hc_y": 60.43,
+   "would_be_hr_count": 2,
+   "inning": 1,
+   "play_id": "516fa3ea-9690-316e-af0e-0e06e3fc7547",
+   "venue_id": 3,
+   "venue_name": "Fenway Park",
+   "temp_f": 84.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 72.1,
+   "barrel_flag": false,
+   "is_home_run": true,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823443,
    "date": "2026-07-14",

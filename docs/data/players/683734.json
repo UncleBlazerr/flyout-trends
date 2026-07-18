@@ -2,20 +2,38 @@
  "player_id": 683734,
  "player_name": "Andrew Vaughn",
  "team": "MIL",
- "as_of": "2026-07-18",
+ "as_of": "2026-07-17",
  "form": {
   "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": 3.821,
+   "max_ev": 1.236,
    "parks_sum": 0.0,
-   "near_hr": 0.143
+   "near_hr": 0.071
   },
-  "intensity": 0.381,
-  "expectancy_score": 20.0,
-  "last_appearance": "2026-07-12"
+  "intensity": 0.23,
+  "expectancy_score": 15.5,
+  "last_appearance": "2026-07-17"
  },
  "days": [
+  {
+   "date": "2026-07-17",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 87.1,
+   "max_distance": 87.0,
+   "max_barrel_score": 21.0,
+   "temp_f": 92.0,
+   "wind_mph": 5.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-12",
    "bbe": 2,
@@ -144,6 +162,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823766,
+   "date": "2026-07-17",
+   "player_id": 683734,
+   "player_name": "Andrew Vaughn",
+   "team": "MIL",
+   "opponent": "MIA",
+   "result": "Pop Out",
+   "exit_velocity": 87.1,
+   "launch_angle": 73.0,
+   "hit_distance": 87.0,
+   "hc_x": 148.26,
+   "hc_y": 171.95,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "95340948-4180-3e3e-b61f-9b459889e631",
+   "venue_id": 32,
+   "venue_name": "American Family Field",
+   "temp_f": 92.0,
+   "wind_mph": 5.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 21.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823358,
    "date": "2026-07-12",

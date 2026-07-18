@@ -2,20 +2,38 @@
  "player_id": 622761,
  "player_name": "Jorge Mateo",
  "team": "ATL",
- "as_of": "2026-07-18",
+ "as_of": "2026-07-17",
  "form": {
-  "streak": 0,
-  "frequency": 0.0,
+  "streak": 1,
+  "frequency": 0.2,
   "slopes": {
-   "max_ev": 0.37,
+   "max_ev": 4.13,
    "parks_sum": 0.0,
-   "near_hr": 0.0
+   "near_hr": 0.25
   },
-  "intensity": 0.062,
-  "expectancy_score": 1.8,
-  "last_appearance": "2026-07-11"
+  "intensity": 0.417,
+  "expectancy_score": 26.5,
+  "last_appearance": "2026-07-17"
  },
  "days": [
+  {
+   "date": "2026-07-17",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 1,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 102.7,
+   "max_distance": 331.0,
+   "max_barrel_score": 76.2,
+   "temp_f": 75.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Cloudy"
+  },
   {
    "date": "2026-07-11",
    "bbe": 2,
@@ -90,6 +108,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824901,
+   "date": "2026-07-17",
+   "player_id": 622761,
+   "player_name": "Jorge Mateo",
+   "team": "ATL",
+   "opponent": "TEX",
+   "result": "Double",
+   "exit_velocity": 102.7,
+   "launch_angle": 23.0,
+   "hit_distance": 331.0,
+   "hc_x": 37.5,
+   "hc_y": 98.47,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "fe0ed46e-dbbc-36b9-b812-9c48368a7958",
+   "venue_id": 4705,
+   "venue_name": "Truist Park",
+   "temp_f": 75.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 76.2,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 823030,
    "date": "2026-07-11",

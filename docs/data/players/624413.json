@@ -2,20 +2,38 @@
  "player_id": 624413,
  "player_name": "Pete Alonso",
  "team": "BAL",
- "as_of": "2026-07-18",
+ "as_of": "2026-07-17",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": -0.664,
+   "max_ev": -1.014,
    "parks_sum": 0.0,
-   "near_hr": -0.036
+   "near_hr": -0.071
   },
   "intensity": 0.0,
   "expectancy_score": 4.3,
-  "last_appearance": "2026-07-12"
+  "last_appearance": "2026-07-17"
  },
  "days": [
+  {
+   "date": "2026-07-17",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 100.4,
+   "max_distance": 130.0,
+   "max_barrel_score": 44.4,
+   "temp_f": 73.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-07-12",
    "bbe": 3,
@@ -144,6 +162,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824170,
+   "date": "2026-07-17",
+   "player_id": 624413,
+   "player_name": "Pete Alonso",
+   "team": "BAL",
+   "opponent": "HOU",
+   "result": "Groundout",
+   "exit_velocity": 100.4,
+   "launch_angle": 8.0,
+   "hit_distance": 130.0,
+   "hc_x": 105.88,
+   "hc_y": 156.65,
+   "would_be_hr_count": 0,
+   "inning": 1,
+   "play_id": "cc27ebc7-c886-3d65-8aab-84469624a5a1",
+   "venue_id": 2392,
+   "venue_name": "Daikin Park",
+   "temp_f": 73.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 44.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824814,
    "date": "2026-07-12",

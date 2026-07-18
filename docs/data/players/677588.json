@@ -2,20 +2,38 @@
  "player_id": 677588,
  "player_name": "Jos\u00e9 Tena",
  "team": "WSH",
- "as_of": "2026-07-18",
+ "as_of": "2026-07-17",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -0.9,
+   "max_ev": -0.02,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.0,
   "expectancy_score": 0.0,
-  "last_appearance": "2026-07-12"
+  "last_appearance": "2026-07-17"
  },
  "days": [
+  {
+   "date": "2026-07-17",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 104.9,
+   "max_distance": 281.0,
+   "max_barrel_score": 66.1,
+   "temp_f": 85.0,
+   "wind_mph": 11.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-12",
    "bbe": 2,
@@ -108,6 +126,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824981,
+   "date": "2026-07-17",
+   "player_id": 677588,
+   "player_name": "Jos\u00e9 Tena",
+   "team": "WSH",
+   "opponent": "ATH",
+   "result": "Single",
+   "exit_velocity": 104.9,
+   "launch_angle": 15.0,
+   "hit_distance": 281.0,
+   "hc_x": 123.14,
+   "hc_y": 64.58,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "e924461f-c458-3fb9-9b91-a664e7a38611",
+   "venue_id": 2529,
+   "venue_name": "Sutter Health Park",
+   "temp_f": 85.0,
+   "wind_mph": 11.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 66.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 822708,
    "date": "2026-07-12",

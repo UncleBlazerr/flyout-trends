@@ -1,0 +1,69 @@
+{
+ "player_id": 682989,
+ "player_name": "Victor Mederos",
+ "team": "ATL",
+ "as_of": "2026-07-17",
+ "form": {
+  "streak": 0,
+  "frequency": 0.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-17"
+ },
+ "days": [
+  {
+   "date": "2026-07-17",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 103.7,
+   "max_distance": 101.0,
+   "max_barrel_score": 42.1,
+   "temp_f": 75.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Cloudy"
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 824901,
+   "date": "2026-07-17",
+   "player_id": 682989,
+   "player_name": "Victor Mederos",
+   "team": "ATL",
+   "opponent": "TEX",
+   "result": "Single",
+   "exit_velocity": 103.7,
+   "launch_angle": 5.0,
+   "hit_distance": 101.0,
+   "hc_x": 62.51,
+   "hc_y": 121.65,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "832936db-88df-34e0-a792-2c64b8fc5592",
+   "venue_id": 4705,
+   "venue_name": "Truist Park",
+   "temp_f": 75.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 42.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  }
+ ]
+}

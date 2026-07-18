@@ -2,20 +2,38 @@
  "player_id": 656484,
  "player_name": "Tristan Gray",
  "team": "MIN",
- "as_of": "2026-07-18",
+ "as_of": "2026-07-17",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -14.2,
+   "max_ev": -8.49,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.0,
   "expectancy_score": 0.0,
-  "last_appearance": "2026-07-11"
+  "last_appearance": "2026-07-17"
  },
  "days": [
+  {
+   "date": "2026-07-17",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 84.7,
+   "max_distance": 2.0,
+   "max_barrel_score": 13.2,
+   "temp_f": 87.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Cloudy"
+  },
   {
    "date": "2026-07-11",
    "bbe": 2,
@@ -72,6 +90,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824655,
+   "date": "2026-07-17",
+   "player_id": 656484,
+   "player_name": "Tristan Gray",
+   "team": "MIN",
+   "opponent": "CHC",
+   "result": "Fielders Choice",
+   "exit_velocity": 84.7,
+   "launch_angle": -45.0,
+   "hit_distance": 2.0,
+   "hc_x": 149.23,
+   "hc_y": 172.0,
+   "would_be_hr_count": 0,
+   "inning": 3,
+   "play_id": "55f971c5-25ec-31f9-91fe-f76448022524",
+   "venue_id": 17,
+   "venue_name": "Wrigley Field",
+   "temp_f": 87.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 13.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823682,
    "date": "2026-07-11",

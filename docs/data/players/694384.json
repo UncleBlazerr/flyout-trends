@@ -2,20 +2,38 @@
  "player_id": 694384,
  "player_name": "Nolan Schanuel",
  "team": "LAA",
- "as_of": "2026-07-18",
+ "as_of": "2026-07-17",
  "form": {
   "streak": 0,
-  "frequency": 0.5,
+  "frequency": 0.429,
   "slopes": {
-   "max_ev": 1.026,
-   "parks_sum": -0.086,
-   "near_hr": 0.079
+   "max_ev": -0.725,
+   "parks_sum": -0.107,
+   "near_hr": -0.009
   },
-  "intensity": 0.197,
-  "expectancy_score": 20.9,
-  "last_appearance": "2026-07-12"
+  "intensity": 0.0,
+  "expectancy_score": 12.9,
+  "last_appearance": "2026-07-17"
  },
  "days": [
+  {
+   "date": "2026-07-17",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 84.1,
+   "max_distance": 12.0,
+   "max_barrel_score": 13.3,
+   "temp_f": 80.0,
+   "wind_mph": 9.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-12",
    "bbe": 3,
@@ -126,6 +144,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824009,
+   "date": "2026-07-17",
+   "player_id": 694384,
+   "player_name": "Nolan Schanuel",
+   "team": "LAA",
+   "opponent": "DET",
+   "result": "Groundout",
+   "exit_velocity": 84.1,
+   "launch_angle": -10.0,
+   "hit_distance": 12.0,
+   "hc_x": 149.06,
+   "hc_y": 150.8,
+   "would_be_hr_count": 0,
+   "inning": 5,
+   "play_id": "b5bb3062-68bc-3881-912f-45a1483323d2",
+   "venue_id": 1,
+   "venue_name": "Angel Stadium",
+   "temp_f": 80.0,
+   "wind_mph": 9.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 13.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823681,
    "date": "2026-07-12",

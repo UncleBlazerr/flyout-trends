@@ -1,21 +1,39 @@
 {
  "player_id": 663330,
  "player_name": "Jahmai Jones",
- "team": "DET",
- "as_of": "2026-07-18",
+ "team": "BOS",
+ "as_of": "2026-07-17",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 0.0,
+   "max_ev": -28.0,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.0,
   "expectancy_score": 0.0,
-  "last_appearance": "2026-07-08"
+  "last_appearance": "2026-07-17"
  },
  "days": [
+  {
+   "date": "2026-07-17",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 59.5,
+   "max_distance": 12.0,
+   "max_barrel_score": 0.8,
+   "temp_f": 84.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-08",
    "bbe": 1,
@@ -36,6 +54,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824737,
+   "date": "2026-07-17",
+   "player_id": 663330,
+   "player_name": "Jahmai Jones",
+   "team": "BOS",
+   "opponent": "TB",
+   "result": "Groundout",
+   "exit_velocity": 59.5,
+   "launch_angle": -14.0,
+   "hit_distance": 12.0,
+   "hc_x": 149.76,
+   "hc_y": 175.01,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "a69562e2-4f81-3996-afd3-e560fda042d8",
+   "venue_id": 3,
+   "venue_name": "Fenway Park",
+   "temp_f": 84.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 0.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824253,
    "date": "2026-07-08",

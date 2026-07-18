@@ -2,20 +2,38 @@
  "player_id": 680664,
  "player_name": "Eduardo Valencia",
  "team": "DET",
- "as_of": "2026-07-18",
+ "as_of": "2026-07-17",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 0.05,
+   "max_ev": -10.64,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.008,
-  "expectancy_score": 0.2,
-  "last_appearance": "2026-07-11"
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-17"
  },
  "days": [
+  {
+   "date": "2026-07-17",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 66.6,
+   "max_distance": 190.0,
+   "max_barrel_score": 19.2,
+   "temp_f": 80.0,
+   "wind_mph": 9.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-11",
    "bbe": 4,
@@ -72,6 +90,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824009,
+   "date": "2026-07-17",
+   "player_id": 680664,
+   "player_name": "Eduardo Valencia",
+   "team": "DET",
+   "opponent": "LAA",
+   "result": "Flyout",
+   "exit_velocity": 66.6,
+   "launch_angle": 49.0,
+   "hit_distance": 190.0,
+   "hc_x": 161.37,
+   "hc_y": 133.57,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "afed73fe-5691-3dee-94f4-dd37cf0b1eb5",
+   "venue_id": 1,
+   "venue_name": "Angel Stadium",
+   "temp_f": 80.0,
+   "wind_mph": 9.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 19.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824249,
    "date": "2026-07-11",
