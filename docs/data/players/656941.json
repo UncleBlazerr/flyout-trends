@@ -2,9 +2,9 @@
  "player_id": 656941,
  "player_name": "Kyle Schwarber",
  "team": "PHI",
- "as_of": "2026-07-17",
+ "as_of": "2026-07-19",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 1.804,
@@ -12,7 +12,7 @@
    "near_hr": 0.134
   },
   "intensity": 0.357,
-  "expectancy_score": 27.3,
+  "expectancy_score": 19.3,
   "last_appearance": "2026-07-16"
  },
  "days": [
