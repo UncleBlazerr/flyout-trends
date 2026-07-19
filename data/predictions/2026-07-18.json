@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-07-19T11:07:41.400542+00:00",
+ "generated_at": "2026-07-19T17:05:28.347284+00:00",
  "as_of": "2026-07-18",
  "config": {
   "min_near_hr_events": 1,
@@ -56,37 +56,6 @@
  },
  "players": [
   {
-   "player_id": 681082,
-   "player_name": "Bryson Stott",
-   "team": "PHI",
-   "expectancy_score": 43.5,
-   "streak": 2,
-   "frequency": 0.714,
-   "slopes": {
-    "max_ev": 0.582,
-    "parks_sum": 0.857,
-    "near_hr": 0.027
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 106.7,
-   "max_distance_7d": 395,
-   "band": "40-60",
-   "band_rate": 0.198,
-   "band_samples": 121,
-   "weather_factor": 1.0,
-   "adjusted_score": 43.5,
-   "game_weather": {
-    "venue_name": "Citizens Bank Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
    "player_id": 553993,
    "player_name": "Eugenio Su\u00e1rez",
    "team": "CIN",
@@ -106,14 +75,45 @@
    "band": "40-60",
    "band_rate": 0.198,
    "band_samples": 121,
-   "weather_factor": 1.0,
-   "adjusted_score": 43.1,
+   "weather_factor": 1.048,
+   "adjusted_score": 45.2,
    "game_weather": {
     "venue_name": "Coors Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 93.0,
+    "wind_mph": 5.0,
+    "wind_dir": "in",
+    "weather_condition": "Sunny"
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 681082,
+   "player_name": "Bryson Stott",
+   "team": "PHI",
+   "expectancy_score": 43.5,
+   "streak": 2,
+   "frequency": 0.714,
+   "slopes": {
+    "max_ev": 0.582,
+    "parks_sum": 0.857,
+    "near_hr": 0.027
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 106.7,
+   "max_distance_7d": 395,
+   "band": "40-60",
+   "band_rate": 0.198,
+   "band_samples": 121,
+   "weather_factor": 1.04,
+   "adjusted_score": 45.2,
+   "game_weather": {
+    "venue_name": "Citizens Bank Park",
+    "temp_f": 80.0,
+    "wind_mph": 11.0,
+    "wind_dir": "cross",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   },
@@ -137,14 +137,14 @@
    "band": "40-60",
    "band_rate": 0.198,
    "band_samples": 121,
-   "weather_factor": 1.0,
-   "adjusted_score": 41.8,
+   "weather_factor": 1.068,
+   "adjusted_score": 44.6,
    "game_weather": {
     "venue_name": "Sutter Health Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 87.0,
+    "wind_mph": 3.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   },
@@ -168,78 +168,16 @@
    "band": "40-60",
    "band_rate": 0.198,
    "band_samples": 121,
-   "weather_factor": 1.0,
-   "adjusted_score": 40.7,
+   "weather_factor": 1.032,
+   "adjusted_score": 42.0,
    "game_weather": {
     "venue_name": "Fenway Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 78.0,
+    "wind_mph": 14.0,
+    "wind_dir": "cross",
+    "weather_condition": "Sunny"
    },
    "repeat": true
-  },
-  {
-   "player_id": 664702,
-   "player_name": "Myles Straw",
-   "team": "TOR",
-   "expectancy_score": 40.6,
-   "streak": 2,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 2.736,
-    "parks_sum": 0.0,
-    "near_hr": 0.179
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 99.5,
-   "max_distance_7d": 388,
-   "band": "40-60",
-   "band_rate": 0.198,
-   "band_samples": 121,
-   "weather_factor": 1.0,
-   "adjusted_score": 40.6,
-   "game_weather": {
-    "venue_name": "Rogers Centre",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 662139,
-   "player_name": "Daulton Varsho",
-   "team": "TOR",
-   "expectancy_score": 38.9,
-   "streak": 2,
-   "frequency": 0.571,
-   "slopes": {
-    "max_ev": 0.811,
-    "parks_sum": 0.0,
-    "near_hr": 0.17
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 107.3,
-   "max_distance_7d": 392,
-   "band": "<40",
-   "band_rate": 0.192,
-   "band_samples": 2269,
-   "weather_factor": 1.0,
-   "adjusted_score": 38.9,
-   "game_weather": {
-    "venue_name": "Rogers Centre",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
   },
   {
    "player_id": 696285,
@@ -261,47 +199,16 @@
    "band": "<40",
    "band_rate": 0.192,
    "band_samples": 2269,
-   "weather_factor": 1.0,
-   "adjusted_score": 38.7,
+   "weather_factor": 1.068,
+   "adjusted_score": 41.3,
    "game_weather": {
     "venue_name": "Sutter Health Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 87.0,
+    "wind_mph": 3.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": true
-  },
-  {
-   "player_id": 667472,
-   "player_name": "Dane Myers",
-   "team": "CIN",
-   "expectancy_score": 38.0,
-   "streak": 1,
-   "frequency": 1.0,
-   "slopes": {
-    "max_ev": 0.0,
-    "parks_sum": 0.0,
-    "near_hr": 0.0
-   },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 97.0,
-   "max_distance_7d": 367,
-   "band": "<40",
-   "band_rate": 0.192,
-   "band_samples": 2269,
-   "weather_factor": 1.0,
-   "adjusted_score": 38.0,
-   "game_weather": {
-    "venue_name": "Coors Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
   },
   {
    "player_id": 666023,
@@ -323,14 +230,45 @@
    "band": "<40",
    "band_rate": 0.192,
    "band_samples": 2269,
-   "weather_factor": 1.0,
-   "adjusted_score": 38.0,
+   "weather_factor": 1.084,
+   "adjusted_score": 41.2,
    "game_weather": {
     "venue_name": "Kauffman Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 91.0,
+    "wind_mph": 3.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 664702,
+   "player_name": "Myles Straw",
+   "team": "TOR",
+   "expectancy_score": 40.6,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 2.736,
+    "parks_sum": 0.0,
+    "near_hr": 0.179
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 99.5,
+   "max_distance_7d": 388,
+   "band": "40-60",
+   "band_rate": 0.198,
+   "band_samples": 121,
+   "weather_factor": 0.992,
+   "adjusted_score": 40.3,
+   "game_weather": {
+    "venue_name": "Rogers Centre",
+    "temp_f": 68.0,
+    "wind_mph": 3.0,
+    "wind_dir": "out",
+    "weather_condition": "Sunny"
    },
    "repeat": false
   },
@@ -354,45 +292,45 @@
    "band": "<40",
    "band_rate": 0.192,
    "band_samples": 2269,
-   "weather_factor": 1.0,
-   "adjusted_score": 37.0,
+   "weather_factor": 1.084,
+   "adjusted_score": 40.1,
    "game_weather": {
     "venue_name": "Kauffman Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 91.0,
+    "wind_mph": 3.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": true
   },
   {
-   "player_id": 543807,
-   "player_name": "George Springer",
-   "team": "TOR",
-   "expectancy_score": 37.0,
-   "streak": 2,
-   "frequency": 0.6,
+   "player_id": 667472,
+   "player_name": "Dane Myers",
+   "team": "CIN",
+   "expectancy_score": 38.0,
+   "streak": 1,
+   "frequency": 1.0,
    "slopes": {
-    "max_ev": -0.11,
+    "max_ev": 0.0,
     "parks_sum": 0.0,
-    "near_hr": 0.3
+    "near_hr": 0.0
    },
-   "near_hr_7d": 2,
+   "near_hr_7d": 1,
    "near_hr_xbh_7d": 0,
-   "hr_7d": 1,
-   "max_ev_7d": 102.6,
-   "max_distance_7d": 377,
+   "hr_7d": 0,
+   "max_ev_7d": 97.0,
+   "max_distance_7d": 367,
    "band": "<40",
    "band_rate": 0.192,
    "band_samples": 2269,
-   "weather_factor": 1.0,
-   "adjusted_score": 37.0,
+   "weather_factor": 1.048,
+   "adjusted_score": 39.8,
    "game_weather": {
-    "venue_name": "Rogers Centre",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "venue_name": "Coors Field",
+    "temp_f": 93.0,
+    "wind_mph": 5.0,
+    "wind_dir": "in",
+    "weather_condition": "Sunny"
    },
    "repeat": false
   },
@@ -416,14 +354,107 @@
    "band": "<40",
    "band_rate": 0.192,
    "band_samples": 2269,
-   "weather_factor": 1.0,
-   "adjusted_score": 36.9,
+   "weather_factor": 1.048,
+   "adjusted_score": 38.7,
    "game_weather": {
     "venue_name": "Coors Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 93.0,
+    "wind_mph": 5.0,
+    "wind_dir": "in",
+    "weather_condition": "Sunny"
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 662139,
+   "player_name": "Daulton Varsho",
+   "team": "TOR",
+   "expectancy_score": 38.9,
+   "streak": 2,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": 0.811,
+    "parks_sum": 0.0,
+    "near_hr": 0.17
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 107.3,
+   "max_distance_7d": 392,
+   "band": "<40",
+   "band_rate": 0.192,
+   "band_samples": 2269,
+   "weather_factor": 0.992,
+   "adjusted_score": 38.6,
+   "game_weather": {
+    "venue_name": "Rogers Centre",
+    "temp_f": 68.0,
+    "wind_mph": 3.0,
+    "wind_dir": "out",
+    "weather_condition": "Sunny"
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 543807,
+   "player_name": "George Springer",
+   "team": "TOR",
+   "expectancy_score": 37.0,
+   "streak": 2,
+   "frequency": 0.6,
+   "slopes": {
+    "max_ev": -0.11,
+    "parks_sum": 0.0,
+    "near_hr": 0.3
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
+   "max_ev_7d": 102.6,
+   "max_distance_7d": 377,
+   "band": "<40",
+   "band_rate": 0.192,
+   "band_samples": 2269,
+   "weather_factor": 0.992,
+   "adjusted_score": 36.7,
+   "game_weather": {
+    "venue_name": "Rogers Centre",
+    "temp_f": 68.0,
+    "wind_mph": 3.0,
+    "wind_dir": "out",
+    "weather_condition": "Sunny"
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 695506,
+   "player_name": "Jac Caglianone",
+   "team": "KC",
+   "expectancy_score": 33.6,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 0.218,
+    "parks_sum": 0.893,
+    "near_hr": 0.071
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 112.2,
+   "max_distance_7d": 374,
+   "band": "<40",
+   "band_rate": 0.192,
+   "band_samples": 2269,
+   "weather_factor": 1.084,
+   "adjusted_score": 36.4,
+   "game_weather": {
+    "venue_name": "Kauffman Stadium",
+    "temp_f": 91.0,
+    "wind_mph": 3.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   },
@@ -459,64 +490,33 @@
    "repeat": true
   },
   {
-   "player_id": 695506,
-   "player_name": "Jac Caglianone",
-   "team": "KC",
-   "expectancy_score": 33.6,
-   "streak": 2,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 0.218,
-    "parks_sum": 0.893,
-    "near_hr": 0.071
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 112.2,
-   "max_distance_7d": 374,
-   "band": "<40",
-   "band_rate": 0.192,
-   "band_samples": 2269,
-   "weather_factor": 1.0,
-   "adjusted_score": 33.6,
-   "game_weather": {
-    "venue_name": "Kauffman Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 668670,
-   "player_name": "Jake Rogers",
-   "team": "DET",
-   "expectancy_score": 33.0,
+   "player_id": 666397,
+   "player_name": "Edouard Julien",
+   "team": "COL",
+   "expectancy_score": 31.9,
    "streak": 1,
-   "frequency": 0.4,
+   "frequency": 0.167,
    "slopes": {
-    "max_ev": 2.15,
-    "parks_sum": 0.0,
-    "near_hr": 0.3
+    "max_ev": 5.714,
+    "parks_sum": 2.143,
+    "near_hr": 0.179
    },
    "near_hr_7d": 1,
-   "near_hr_xbh_7d": 0,
+   "near_hr_xbh_7d": 1,
    "hr_7d": 0,
-   "max_ev_7d": 96.2,
-   "max_distance_7d": 353,
+   "max_ev_7d": 108.0,
+   "max_distance_7d": 405,
    "band": "<40",
    "band_rate": 0.192,
    "band_samples": 2269,
-   "weather_factor": 1.0,
-   "adjusted_score": 33.0,
+   "weather_factor": 1.048,
+   "adjusted_score": 33.4,
    "game_weather": {
-    "venue_name": "Angel Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "venue_name": "Coors Field",
+    "temp_f": 93.0,
+    "wind_mph": 5.0,
+    "wind_dir": "in",
+    "weather_condition": "Sunny"
    },
    "repeat": false
   }
