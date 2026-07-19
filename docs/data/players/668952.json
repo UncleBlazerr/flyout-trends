@@ -2,20 +2,38 @@
  "player_id": 668952,
  "player_name": "Ryan Kreidler",
  "team": "MIN",
- "as_of": "2026-07-19",
+ "as_of": "2026-07-18",
  "form": {
   "streak": 0,
-  "frequency": 0.143,
+  "frequency": 0.0,
   "slopes": {
-   "max_ev": 0.261,
+   "max_ev": 0.3,
    "parks_sum": 0.0,
-   "near_hr": -0.107
+   "near_hr": 0.0
   },
-  "intensity": 0.044,
-  "expectancy_score": 5.6,
-  "last_appearance": "2026-07-17"
+  "intensity": 0.05,
+  "expectancy_score": 1.5,
+  "last_appearance": "2026-07-18"
  },
  "days": [
+  {
+   "date": "2026-07-18",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 106.7,
+   "max_distance": 151.0,
+   "max_barrel_score": 50.3,
+   "temp_f": 81.0,
+   "wind_mph": 12.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-17",
    "bbe": 2,
@@ -144,6 +162,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824657,
+   "date": "2026-07-18",
+   "player_id": 668952,
+   "player_name": "Ryan Kreidler",
+   "team": "MIN",
+   "opponent": "CHC",
+   "result": "Groundout",
+   "exit_velocity": 106.7,
+   "launch_angle": 7.0,
+   "hit_distance": 151.0,
+   "hc_x": 141.62,
+   "hc_y": 152.09,
+   "would_be_hr_count": 0,
+   "inning": 5,
+   "play_id": "07d20301-6cb2-354c-b480-983b7251e390",
+   "venue_id": 17,
+   "venue_name": "Wrigley Field",
+   "temp_f": 81.0,
+   "wind_mph": 12.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 50.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824655,
    "date": "2026-07-17",

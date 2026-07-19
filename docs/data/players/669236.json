@@ -2,20 +2,38 @@
  "player_id": 669236,
  "player_name": "Jeremiah Jackson",
  "team": "BAL",
- "as_of": "2026-07-19",
+ "as_of": "2026-07-18",
  "form": {
   "streak": 0,
-  "frequency": 0.667,
+  "frequency": 0.5,
   "slopes": {
-   "max_ev": 3.8,
-   "parks_sum": 0.5,
-   "near_hr": 0.625
+   "max_ev": -20.75,
+   "parks_sum": 0.1,
+   "near_hr": 0.0
   },
-  "intensity": 0.597,
-  "expectancy_score": 37.9,
-  "last_appearance": "2026-07-12"
+  "intensity": 0.011,
+  "expectancy_score": 15.3,
+  "last_appearance": "2026-07-18"
  },
  "days": [
+  {
+   "date": "2026-07-18",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 25.4,
+   "max_distance": 18.0,
+   "max_barrel_score": 5.6,
+   "temp_f": 73.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-07-12",
    "bbe": 2,
@@ -72,6 +90,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824169,
+   "date": "2026-07-18",
+   "player_id": 669236,
+   "player_name": "Jeremiah Jackson",
+   "team": "BAL",
+   "opponent": "HOU",
+   "result": "Sac Bunt",
+   "exit_velocity": 25.4,
+   "launch_angle": 4.0,
+   "hit_distance": 18.0,
+   "hc_x": 137.06,
+   "hc_y": 190.06,
+   "would_be_hr_count": 0,
+   "inning": 10,
+   "play_id": "5e184cf3-80a8-3c82-828d-d65803c27958",
+   "venue_id": 2392,
+   "venue_name": "Daikin Park",
+   "temp_f": 73.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 5.6,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824814,
    "date": "2026-07-12",

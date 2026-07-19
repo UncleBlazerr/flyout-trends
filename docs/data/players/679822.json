@@ -2,20 +2,38 @@
  "player_id": 679822,
  "player_name": "Justin Foscue",
  "team": "TEX",
- "as_of": "2026-07-19",
+ "as_of": "2026-07-18",
  "form": {
   "streak": 0,
-  "frequency": 0.2,
+  "frequency": 0.167,
   "slopes": {
-   "max_ev": -3.75,
+   "max_ev": -2.02,
    "parks_sum": 0.0,
-   "near_hr": 0.0
+   "near_hr": -0.029
   },
   "intensity": 0.0,
-  "expectancy_score": 6.0,
-  "last_appearance": "2026-07-17"
+  "expectancy_score": 5.0,
+  "last_appearance": "2026-07-18"
  },
  "days": [
+  {
+   "date": "2026-07-18",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 95.6,
+   "max_distance": 28.0,
+   "max_barrel_score": 24.6,
+   "temp_f": 92.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-17",
    "bbe": 4,
@@ -108,6 +126,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824899,
+   "date": "2026-07-18",
+   "player_id": 679822,
+   "player_name": "Justin Foscue",
+   "team": "TEX",
+   "opponent": "ATL",
+   "result": "GIDP",
+   "exit_velocity": 95.6,
+   "launch_angle": -4.0,
+   "hit_distance": 28.0,
+   "hc_x": 112.85,
+   "hc_y": 159.69,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "a96c5960-fe50-3cd2-b8f2-5fdd28e5c150",
+   "venue_id": 4705,
+   "venue_name": "Truist Park",
+   "temp_f": 92.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 24.6,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824901,
    "date": "2026-07-17",

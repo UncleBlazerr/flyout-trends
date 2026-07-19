@@ -2,20 +2,38 @@
  "player_id": 804668,
  "player_name": "Rafael Flores Jr.",
  "team": "PIT",
- "as_of": "2026-07-19",
+ "as_of": "2026-07-18",
  "form": {
   "streak": 0,
-  "frequency": 0.5,
+  "frequency": 0.333,
   "slopes": {
-   "max_ev": -4.9,
+   "max_ev": -6.35,
    "parks_sum": 0.0,
-   "near_hr": 1.0
+   "near_hr": 0.0
   },
-  "intensity": 0.333,
-  "expectancy_score": 25.0,
-  "last_appearance": "2026-07-11"
+  "intensity": 0.0,
+  "expectancy_score": 10.0,
+  "last_appearance": "2026-07-18"
  },
  "days": [
+  {
+   "date": "2026-07-18",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 90.3,
+   "max_distance": 310.0,
+   "max_barrel_score": 63.8,
+   "temp_f": 79.0,
+   "wind_mph": 6.0,
+   "wind_dir": "cross",
+   "weather_condition": "Cloudy"
+  },
   {
    "date": "2026-07-11",
    "bbe": 3,
@@ -54,6 +72,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824412,
+   "date": "2026-07-18",
+   "player_id": 804668,
+   "player_name": "Rafael Flores Jr.",
+   "team": "PIT",
+   "opponent": "CLE",
+   "result": "Flyout",
+   "exit_velocity": 90.3,
+   "launch_angle": 32.0,
+   "hit_distance": 310.0,
+   "hc_x": 130.94,
+   "hc_y": 75.0,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "f0f5a22b-66a8-3e98-b98b-95a2417fc290",
+   "venue_id": 5,
+   "venue_name": "Progressive Field",
+   "temp_f": 79.0,
+   "wind_mph": 6.0,
+   "wind_dir": "cross",
+   "weather_condition": "Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 63.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823356,
    "date": "2026-07-11",

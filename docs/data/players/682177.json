@@ -2,20 +2,38 @@
  "player_id": 682177,
  "player_name": "Daniel Schneemann",
  "team": "CLE",
- "as_of": "2026-07-19",
+ "as_of": "2026-07-18",
  "form": {
   "streak": 0,
-  "frequency": 0.333,
+  "frequency": 0.286,
   "slopes": {
-   "max_ev": 1.123,
-   "parks_sum": 0.143,
-   "near_hr": 0.114
+   "max_ev": 0.886,
+   "parks_sum": 0.0,
+   "near_hr": 0.036
   },
-  "intensity": 0.241,
-  "expectancy_score": 17.2,
-  "last_appearance": "2026-07-10"
+  "intensity": 0.16,
+  "expectancy_score": 13.4,
+  "last_appearance": "2026-07-18"
  },
  "days": [
+  {
+   "date": "2026-07-18",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 94.3,
+   "max_distance": 25.0,
+   "max_barrel_score": 23.3,
+   "temp_f": 79.0,
+   "wind_mph": 6.0,
+   "wind_dir": "cross",
+   "weather_condition": "Cloudy"
+  },
   {
    "date": "2026-07-10",
    "bbe": 1,
@@ -126,6 +144,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824412,
+   "date": "2026-07-18",
+   "player_id": 682177,
+   "player_name": "Daniel Schneemann",
+   "team": "CLE",
+   "opponent": "PIT",
+   "result": "Single",
+   "exit_velocity": 94.3,
+   "launch_angle": -4.0,
+   "hit_distance": 25.0,
+   "hc_x": 101.04,
+   "hc_y": 152.85,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "d81824dd-32c7-3665-9a87-807c561d402c",
+   "venue_id": 5,
+   "venue_name": "Progressive Field",
+   "temp_f": 79.0,
+   "wind_mph": 6.0,
+   "wind_dir": "cross",
+   "weather_condition": "Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 23.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823845,
    "date": "2026-07-10",

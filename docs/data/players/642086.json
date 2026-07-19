@@ -2,20 +2,38 @@
  "player_id": 642086,
  "player_name": "Dominic Smith",
  "team": "ATL",
- "as_of": "2026-07-19",
+ "as_of": "2026-07-18",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 0.129,
+   "max_ev": -0.807,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.022,
-  "expectancy_score": 0.6,
-  "last_appearance": "2026-07-17"
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-18"
  },
  "days": [
+  {
+   "date": "2026-07-18",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 87.5,
+   "max_distance": 130.0,
+   "max_barrel_score": 34.0,
+   "temp_f": 92.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-17",
    "bbe": 2,
@@ -144,6 +162,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824899,
+   "date": "2026-07-18",
+   "player_id": 642086,
+   "player_name": "Dominic Smith",
+   "team": "ATL",
+   "opponent": "TEX",
+   "result": "Lineout",
+   "exit_velocity": 87.5,
+   "launch_angle": 9.0,
+   "hit_distance": 130.0,
+   "hc_x": 162.08,
+   "hc_y": 163.83,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "98efefcc-f6e3-3a11-8a90-bd8434aab360",
+   "venue_id": 4705,
+   "venue_name": "Truist Park",
+   "temp_f": 92.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 34.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824901,
    "date": "2026-07-17",

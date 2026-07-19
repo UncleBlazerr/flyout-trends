@@ -2,20 +2,38 @@
  "player_id": 683737,
  "player_name": "Michael Busch",
  "team": "CHC",
- "as_of": "2026-07-19",
+ "as_of": "2026-07-18",
  "form": {
   "streak": 0,
   "frequency": 0.571,
   "slopes": {
-   "max_ev": 0.564,
-   "parks_sum": 0.071,
-   "near_hr": 0.071
+   "max_ev": 0.193,
+   "parks_sum": 0.036,
+   "near_hr": -0.125
   },
-  "intensity": 0.126,
-  "expectancy_score": 20.9,
-  "last_appearance": "2026-07-17"
+  "intensity": 0.036,
+  "expectancy_score": 18.2,
+  "last_appearance": "2026-07-18"
  },
  "days": [
+  {
+   "date": "2026-07-18",
+   "bbe": 1,
+   "hr": 1,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 101.6,
+   "max_distance": 402.0,
+   "max_barrel_score": 84.3,
+   "temp_f": 81.0,
+   "wind_mph": 12.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-17",
    "bbe": 3,
@@ -180,6 +198,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824657,
+   "date": "2026-07-18",
+   "player_id": 683737,
+   "player_name": "Michael Busch",
+   "team": "CHC",
+   "opponent": "MIN",
+   "result": "Home Run",
+   "exit_velocity": 101.6,
+   "launch_angle": 28.0,
+   "hit_distance": 402.0,
+   "hc_x": 211.06,
+   "hc_y": 59.79,
+   "would_be_hr_count": 30,
+   "inning": 1,
+   "play_id": "f20c9942-9a83-3192-8299-1bb637d391ca",
+   "venue_id": 17,
+   "venue_name": "Wrigley Field",
+   "temp_f": 81.0,
+   "wind_mph": 12.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 84.3,
+   "barrel_flag": false,
+   "is_home_run": true,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824655,
    "date": "2026-07-17",

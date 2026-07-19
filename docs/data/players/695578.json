@@ -2,20 +2,38 @@
  "player_id": 695578,
  "player_name": "James Wood",
  "team": "WSH",
- "as_of": "2026-07-19",
+ "as_of": "2026-07-18",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -0.261,
+   "max_ev": 1.064,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.0,
-  "expectancy_score": 0.0,
-  "last_appearance": "2026-07-17"
+  "intensity": 0.177,
+  "expectancy_score": 5.3,
+  "last_appearance": "2026-07-18"
  },
  "days": [
+  {
+   "date": "2026-07-18",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 100.3,
+   "max_distance": 30.0,
+   "max_barrel_score": 28.9,
+   "temp_f": 88.0,
+   "wind_mph": 9.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-17",
    "bbe": 1,
@@ -180,6 +198,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824979,
+   "date": "2026-07-18",
+   "player_id": 695578,
+   "player_name": "James Wood",
+   "team": "WSH",
+   "opponent": "ATH",
+   "result": "Groundout",
+   "exit_velocity": 100.3,
+   "launch_angle": -4.0,
+   "hit_distance": 30.0,
+   "hc_x": 151.52,
+   "hc_y": 171.3,
+   "would_be_hr_count": 0,
+   "inning": 6,
+   "play_id": "4dd9acca-cb92-30c6-b029-68fd45e4f41e",
+   "venue_id": 2529,
+   "venue_name": "Sutter Health Park",
+   "temp_f": 88.0,
+   "wind_mph": 9.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 28.9,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824981,
    "date": "2026-07-17",

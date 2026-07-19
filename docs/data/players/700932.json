@@ -2,20 +2,38 @@
  "player_id": 700932,
  "player_name": "Kyle Manzardo",
  "team": "CLE",
- "as_of": "2026-07-19",
+ "as_of": "2026-07-18",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": 1.996,
-   "parks_sum": 0.071,
-   "near_hr": 0.036
+   "max_ev": 3.493,
+   "parks_sum": 0.036,
+   "near_hr": 0.0
   },
-  "intensity": 0.353,
-  "expectancy_score": 14.9,
-  "last_appearance": "2026-07-12"
+  "intensity": 0.337,
+  "expectancy_score": 14.4,
+  "last_appearance": "2026-07-18"
  },
  "days": [
+  {
+   "date": "2026-07-18",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 98.5,
+   "max_distance": 134.0,
+   "max_barrel_score": 44.1,
+   "temp_f": 89.0,
+   "wind_mph": 14.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-12",
    "bbe": 4,
@@ -162,6 +180,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824414,
+   "date": "2026-07-18",
+   "player_id": 700932,
+   "player_name": "Kyle Manzardo",
+   "team": "CLE",
+   "opponent": "PIT",
+   "result": "Groundout",
+   "exit_velocity": 98.5,
+   "launch_angle": 9.0,
+   "hit_distance": 134.0,
+   "hc_x": 148.52,
+   "hc_y": 153.23,
+   "would_be_hr_count": 0,
+   "inning": 6,
+   "play_id": "d7fa4aeb-6612-33a4-9e6d-444e2f7d59c3",
+   "venue_id": 5,
+   "venue_name": "Progressive Field",
+   "temp_f": 89.0,
+   "wind_mph": 14.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 44.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823842,
    "date": "2026-07-12",
