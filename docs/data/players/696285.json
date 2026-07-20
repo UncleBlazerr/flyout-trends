@@ -2,9 +2,9 @@
  "player_id": 696285,
  "player_name": "Jacob Young",
  "team": "WSH",
- "as_of": "2026-07-18",
+ "as_of": "2026-07-20",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.5,
   "slopes": {
    "max_ev": 2.86,
@@ -12,7 +12,7 @@
    "near_hr": 0.575
   },
   "intensity": 0.525,
-  "expectancy_score": 38.7,
+  "expectancy_score": 30.8,
   "last_appearance": "2026-07-17"
  },
  "days": [

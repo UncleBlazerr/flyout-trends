@@ -2,9 +2,9 @@
  "player_id": 676609,
  "player_name": "Jos\u00e9 Caballero",
  "team": "NYY",
- "as_of": "2026-07-18",
+ "as_of": "2026-07-20",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.143,
   "slopes": {
    "max_ev": 1.414,
@@ -12,7 +12,7 @@
    "near_hr": 0.107
   },
   "intensity": 0.271,
-  "expectancy_score": 20.4,
+  "expectancy_score": 12.4,
   "last_appearance": "2026-07-17"
  },
  "days": [

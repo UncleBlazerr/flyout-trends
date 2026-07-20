@@ -2,9 +2,9 @@
  "player_id": 624424,
  "player_name": "Michael Conforto",
  "team": "CHC",
- "as_of": "2026-07-18",
+ "as_of": "2026-07-20",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.2,
   "slopes": {
    "max_ev": 2.84,
@@ -12,7 +12,7 @@
    "near_hr": 0.2
   },
   "intensity": 0.4,
-  "expectancy_score": 26.0,
+  "expectancy_score": 18.0,
   "last_appearance": "2026-07-17"
  },
  "days": [

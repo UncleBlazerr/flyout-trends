@@ -2,9 +2,9 @@
  "player_id": 678554,
  "player_name": "Curtis Mead",
  "team": "WSH",
- "as_of": "2026-07-18",
+ "as_of": "2026-07-20",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.429,
   "slopes": {
    "max_ev": 0.243,
@@ -12,7 +12,7 @@
    "near_hr": -0.188
   },
   "intensity": 0.041,
-  "expectancy_score": 22.1,
+  "expectancy_score": 14.1,
   "last_appearance": "2026-07-17"
  },
  "days": [
