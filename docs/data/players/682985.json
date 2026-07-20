@@ -2,20 +2,38 @@
  "player_id": 682985,
  "player_name": "Riley Greene",
  "team": "DET",
- "as_of": "2026-07-20",
+ "as_of": "2026-07-19",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": 0.843,
-   "parks_sum": -0.036,
-   "near_hr": 0.17
+   "max_ev": 2.096,
+   "parks_sum": -0.071,
+   "near_hr": 0.054
   },
-  "intensity": 0.197,
-  "expectancy_score": 22.5,
-  "last_appearance": "2026-07-18"
+  "intensity": 0.351,
+  "expectancy_score": 19.1,
+  "last_appearance": "2026-07-19"
  },
  "days": [
+  {
+   "date": "2026-07-19",
+   "bbe": 1,
+   "hr": 1,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 105.6,
+   "max_distance": 390.0,
+   "max_barrel_score": 71.8,
+   "temp_f": 84.0,
+   "wind_mph": 9.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-07-18",
    "bbe": 3,
@@ -198,6 +216,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824007,
+   "date": "2026-07-19",
+   "player_id": 682985,
+   "player_name": "Riley Greene",
+   "team": "DET",
+   "opponent": "LAA",
+   "result": "Home Run",
+   "exit_velocity": 105.6,
+   "launch_angle": 42.0,
+   "hit_distance": 390.0,
+   "hc_x": 168.25,
+   "hc_y": 47.02,
+   "would_be_hr_count": 17,
+   "inning": 9,
+   "play_id": "4e8b5ac9-4a9e-34af-b5f8-96be6c7f71aa",
+   "venue_id": 1,
+   "venue_name": "Angel Stadium",
+   "temp_f": 84.0,
+   "wind_mph": 9.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 71.8,
+   "barrel_flag": false,
+   "is_home_run": true,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824008,
    "date": "2026-07-18",

@@ -2,20 +2,38 @@
  "player_id": 642201,
  "player_name": "Eli White",
  "team": "ATL",
- "as_of": "2026-07-20",
+ "as_of": "2026-07-19",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -0.62,
+   "max_ev": -4.39,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.0,
   "expectancy_score": 0.0,
-  "last_appearance": "2026-07-18"
+  "last_appearance": "2026-07-19"
  },
  "days": [
+  {
+   "date": "2026-07-19",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 70.2,
+   "max_distance": 5.0,
+   "max_barrel_score": 0.5,
+   "temp_f": 91.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-18",
    "bbe": 2,
@@ -90,6 +108,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824897,
+   "date": "2026-07-19",
+   "player_id": 642201,
+   "player_name": "Eli White",
+   "team": "ATL",
+   "opponent": "TEX",
+   "result": "Fielders Choice",
+   "exit_velocity": 70.2,
+   "launch_angle": -26.0,
+   "hit_distance": 5.0,
+   "hc_x": 109.51,
+   "hc_y": 149.83,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "01f819ca-a44c-3ff5-a63c-da1bdef9541b",
+   "venue_id": 4705,
+   "venue_name": "Truist Park",
+   "temp_f": 91.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 0.5,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824899,
    "date": "2026-07-18",

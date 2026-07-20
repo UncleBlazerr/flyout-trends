@@ -2,20 +2,38 @@
  "player_id": 607208,
  "player_name": "Trea Turner",
  "team": "PHI",
- "as_of": "2026-07-20",
+ "as_of": "2026-07-19",
  "form": {
   "streak": 0,
-  "frequency": 0.286,
+  "frequency": 0.143,
   "slopes": {
-   "max_ev": 0.343,
+   "max_ev": 0.436,
    "parks_sum": 0.0,
-   "near_hr": -0.071
+   "near_hr": 0.0
   },
-  "intensity": 0.057,
-  "expectancy_score": 10.3,
-  "last_appearance": "2026-07-18"
+  "intensity": 0.073,
+  "expectancy_score": 6.5,
+  "last_appearance": "2026-07-19"
  },
  "days": [
+  {
+   "date": "2026-07-19",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 102.4,
+   "max_distance": 35.0,
+   "max_barrel_score": 31.1,
+   "temp_f": 80.0,
+   "wind_mph": 14.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-18",
    "bbe": 4,
@@ -198,6 +216,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823439,
+   "date": "2026-07-19",
+   "player_id": 607208,
+   "player_name": "Trea Turner",
+   "team": "PHI",
+   "opponent": "NYM",
+   "result": "Double",
+   "exit_velocity": 102.4,
+   "launch_angle": -4.0,
+   "hit_distance": 35.0,
+   "hc_x": 32.98,
+   "hc_y": 103.85,
+   "would_be_hr_count": 0,
+   "inning": 6,
+   "play_id": "f58315a7-9c5c-33a5-9d7a-9ad3dddc51bf",
+   "venue_id": 2681,
+   "venue_name": "Citizens Bank Park",
+   "temp_f": 80.0,
+   "wind_mph": 14.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 31.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823441,
    "date": "2026-07-18",

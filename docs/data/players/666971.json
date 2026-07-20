@@ -2,9 +2,9 @@
  "player_id": 666971,
  "player_name": "Lourdes Gurriel Jr.",
  "team": "AZ",
- "as_of": "2026-07-20",
+ "as_of": "2026-07-19",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.143,
   "slopes": {
    "max_ev": 1.418,
@@ -12,7 +12,7 @@
    "near_hr": 0.107
   },
   "intensity": 0.272,
-  "expectancy_score": 12.4,
+  "expectancy_score": 20.4,
   "last_appearance": "2026-07-17"
  },
  "days": [

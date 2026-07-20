@@ -2,20 +2,38 @@
  "player_id": 682729,
  "player_name": "Jonatan Clase",
  "team": "TOR",
- "as_of": "2026-07-20",
+ "as_of": "2026-07-19",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -0.151,
+   "max_ev": 0.464,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.0,
-  "expectancy_score": 0.0,
-  "last_appearance": "2026-07-18"
+  "intensity": 0.077,
+  "expectancy_score": 2.3,
+  "last_appearance": "2026-07-19"
  },
  "days": [
+  {
+   "date": "2026-07-19",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 98.4,
+   "max_distance": 13.0,
+   "max_barrel_score": 26.1,
+   "temp_f": 68.0,
+   "wind_mph": 3.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-07-18",
    "bbe": 1,
@@ -126,6 +144,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822786,
+   "date": "2026-07-19",
+   "player_id": 682729,
+   "player_name": "Jonatan Clase",
+   "team": "TOR",
+   "opponent": "CWS",
+   "result": "Groundout",
+   "exit_velocity": 98.4,
+   "launch_angle": -10.0,
+   "hit_distance": 13.0,
+   "hc_x": 114.96,
+   "hc_y": 148.01,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "c0f5a4dc-50e4-37ea-98b1-6c82257d3aa9",
+   "venue_id": 14,
+   "venue_name": "Rogers Centre",
+   "temp_f": 68.0,
+   "wind_mph": 3.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 26.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 822790,
    "date": "2026-07-18",

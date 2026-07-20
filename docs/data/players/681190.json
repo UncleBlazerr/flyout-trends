@@ -1,0 +1,69 @@
+{
+ "player_id": 681190,
+ "player_name": "Randy V\u00e1squez",
+ "team": "SD",
+ "as_of": "2026-07-19",
+ "form": {
+  "streak": 0,
+  "frequency": 0.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-19"
+ },
+ "days": [
+  {
+   "date": "2026-07-19",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 66.1,
+   "max_distance": 9.0,
+   "max_barrel_score": 0.6,
+   "temp_f": 90.0,
+   "wind_mph": 2.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 824086,
+   "date": "2026-07-19",
+   "player_id": 681190,
+   "player_name": "Randy V\u00e1squez",
+   "team": "SD",
+   "opponent": "KC",
+   "result": "Groundout",
+   "exit_velocity": 66.1,
+   "launch_angle": -22.0,
+   "hit_distance": 9.0,
+   "hc_x": 95.05,
+   "hc_y": 159.66,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "6e2f239a-f383-3706-b625-873dc3d84753",
+   "venue_id": 7,
+   "venue_name": "Kauffman Stadium",
+   "temp_f": 90.0,
+   "wind_mph": 2.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 0.6,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  }
+ ]
+}

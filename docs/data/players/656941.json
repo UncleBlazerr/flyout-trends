@@ -2,20 +2,38 @@
  "player_id": 656941,
  "player_name": "Kyle Schwarber",
  "team": "PHI",
- "as_of": "2026-07-20",
+ "as_of": "2026-07-19",
  "form": {
-  "streak": 0,
-  "frequency": 0.286,
+  "streak": 1,
+  "frequency": 0.429,
   "slopes": {
-   "max_ev": 3.307,
-   "parks_sum": 0.071,
-   "near_hr": 0.054
+   "max_ev": 1.554,
+   "parks_sum": 0.036,
+   "near_hr": 0.08
   },
-  "intensity": 0.359,
-  "expectancy_score": 19.3,
-  "last_appearance": "2026-07-18"
+  "intensity": 0.29,
+  "expectancy_score": 29.5,
+  "last_appearance": "2026-07-19"
  },
  "days": [
+  {
+   "date": "2026-07-19",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 106.0,
+   "max_distance": 312.0,
+   "max_barrel_score": 70.3,
+   "temp_f": 80.0,
+   "wind_mph": 14.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-18",
    "bbe": 3,
@@ -216,6 +234,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823439,
+   "date": "2026-07-19",
+   "player_id": 656941,
+   "player_name": "Kyle Schwarber",
+   "team": "PHI",
+   "opponent": "NYM",
+   "result": "Lineout",
+   "exit_velocity": 106.0,
+   "launch_angle": 16.0,
+   "hit_distance": 312.0,
+   "hc_x": 139.2,
+   "hc_y": 74.66,
+   "would_be_hr_count": 0,
+   "inning": 1,
+   "play_id": "2606b51e-8b48-3dcb-afd4-abe82672a8bd",
+   "venue_id": 2681,
+   "venue_name": "Citizens Bank Park",
+   "temp_f": 80.0,
+   "wind_mph": 14.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 70.3,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 823441,
    "date": "2026-07-18",

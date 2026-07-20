@@ -2,20 +2,38 @@
  "player_id": 671277,
  "player_name": "Luis Garc\u00eda Jr.",
  "team": "WSH",
- "as_of": "2026-07-20",
+ "as_of": "2026-07-19",
  "form": {
   "streak": 0,
-  "frequency": 0.286,
+  "frequency": 0.143,
   "slopes": {
-   "max_ev": -1.125,
+   "max_ev": -1.15,
    "parks_sum": 0.0,
-   "near_hr": -0.071
+   "near_hr": 0.0
   },
   "intensity": 0.0,
-  "expectancy_score": 8.6,
-  "last_appearance": "2026-07-18"
+  "expectancy_score": 4.3,
+  "last_appearance": "2026-07-19"
  },
  "days": [
+  {
+   "date": "2026-07-19",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 92.6,
+   "max_distance": 170.0,
+   "max_barrel_score": 40.1,
+   "temp_f": 86.0,
+   "wind_mph": 3.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-18",
    "bbe": 1,
@@ -180,6 +198,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824978,
+   "date": "2026-07-19",
+   "player_id": 671277,
+   "player_name": "Luis Garc\u00eda Jr.",
+   "team": "WSH",
+   "opponent": "ATH",
+   "result": "Double Play",
+   "exit_velocity": 92.6,
+   "launch_angle": 8.0,
+   "hit_distance": 170.0,
+   "hc_x": 116.02,
+   "hc_y": 152.53,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "ddd75a92-bfda-3257-b77a-d19e937bdea0",
+   "venue_id": 2529,
+   "venue_name": "Sutter Health Park",
+   "temp_f": 86.0,
+   "wind_mph": 3.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 40.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824979,
    "date": "2026-07-18",

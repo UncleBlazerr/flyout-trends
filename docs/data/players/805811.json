@@ -2,20 +2,38 @@
  "player_id": 805811,
  "player_name": "Bryce Eldridge",
  "team": "SF",
- "as_of": "2026-07-20",
+ "as_of": "2026-07-19",
  "form": {
   "streak": 0,
-  "frequency": 0.143,
+  "frequency": 0.0,
   "slopes": {
-   "max_ev": 0.157,
-   "parks_sum": -0.214,
-   "near_hr": -0.107
+   "max_ev": 0.829,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
   },
-  "intensity": 0.026,
-  "expectancy_score": 5.1,
-  "last_appearance": "2026-07-18"
+  "intensity": 0.138,
+  "expectancy_score": 4.1,
+  "last_appearance": "2026-07-19"
  },
  "days": [
+  {
+   "date": "2026-07-19",
+   "bbe": 1,
+   "hr": 1,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 107.0,
+   "max_distance": 407.0,
+   "max_barrel_score": 85.1,
+   "temp_f": 71.0,
+   "wind_mph": 8.0,
+   "wind_dir": "cross",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-07-18",
    "bbe": 4,
@@ -216,6 +234,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823113,
+   "date": "2026-07-19",
+   "player_id": 805811,
+   "player_name": "Bryce Eldridge",
+   "team": "SF",
+   "opponent": "SEA",
+   "result": "Home Run",
+   "exit_velocity": 107.0,
+   "launch_angle": 23.0,
+   "hit_distance": 407.0,
+   "hc_x": 101.84,
+   "hc_y": 36.34,
+   "would_be_hr_count": 16,
+   "inning": 1,
+   "play_id": "d7ae2519-02d8-3887-bb97-91bd6c47352e",
+   "venue_id": 680,
+   "venue_name": "T-Mobile Park",
+   "temp_f": 71.0,
+   "wind_mph": 8.0,
+   "wind_dir": "cross",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 85.1,
+   "barrel_flag": false,
+   "is_home_run": true,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823116,
    "date": "2026-07-18",

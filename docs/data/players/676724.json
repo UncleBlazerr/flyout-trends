@@ -2,20 +2,38 @@
  "player_id": 676724,
  "player_name": "Jared Young",
  "team": "NYM",
- "as_of": "2026-07-20",
+ "as_of": "2026-07-19",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": 0.925,
-   "parks_sum": 0.071,
-   "near_hr": 0.089
+   "max_ev": 2.129,
+   "parks_sum": 0.036,
+   "near_hr": 0.045
   },
-  "intensity": 0.192,
-  "expectancy_score": 10.0,
-  "last_appearance": "2026-07-12"
+  "intensity": 0.352,
+  "expectancy_score": 14.9,
+  "last_appearance": "2026-07-19"
  },
  "days": [
+  {
+   "date": "2026-07-19",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 109.0,
+   "max_distance": 124.0,
+   "max_barrel_score": 50.6,
+   "temp_f": 80.0,
+   "wind_mph": 14.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-12",
    "bbe": 1,
@@ -162,6 +180,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823439,
+   "date": "2026-07-19",
+   "player_id": 676724,
+   "player_name": "Jared Young",
+   "team": "NYM",
+   "opponent": "PHI",
+   "result": "Lineout",
+   "exit_velocity": 109.0,
+   "launch_angle": 7.0,
+   "hit_distance": 124.0,
+   "hc_x": 160.0,
+   "hc_y": 165.72,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "cc6fa404-bb68-36d0-b8b0-4186df3e86f0",
+   "venue_id": 2681,
+   "venue_name": "Citizens Bank Park",
+   "temp_f": 80.0,
+   "wind_mph": 14.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 50.6,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823602,
    "date": "2026-07-12",
