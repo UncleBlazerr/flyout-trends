@@ -2,9 +2,9 @@
  "player_id": 545121,
  "player_name": "Ildemaro Vargas",
  "team": "AZ",
- "as_of": "2026-07-19",
+ "as_of": "2026-07-21",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.143,
   "slopes": {
    "max_ev": 0.1,
@@ -12,7 +12,7 @@
    "near_hr": 0.134
   },
   "intensity": 0.061,
-  "expectancy_score": 14.1,
+  "expectancy_score": 6.1,
   "last_appearance": "2026-07-17"
  },
  "days": [

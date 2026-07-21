@@ -2,9 +2,9 @@
  "player_id": 686469,
  "player_name": "Vinnie Pasquantino",
  "team": "KC",
- "as_of": "2026-07-19",
+ "as_of": "2026-07-21",
  "form": {
-  "streak": 2,
+  "streak": 0,
   "frequency": 0.5,
   "slopes": {
    "max_ev": -0.78,
@@ -12,7 +12,7 @@
    "near_hr": 0.5
   },
   "intensity": 0.2,
-  "expectancy_score": 37.0,
+  "expectancy_score": 21.0,
   "last_appearance": "2026-07-18"
  },
  "days": [

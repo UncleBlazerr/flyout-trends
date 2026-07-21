@@ -2,9 +2,9 @@
  "player_id": 691907,
  "player_name": "Tsung-Che Cheng",
  "team": "BOS",
- "as_of": "2026-07-19",
+ "as_of": "2026-07-21",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.25,
   "slopes": {
    "max_ev": 7.09,
@@ -12,7 +12,7 @@
    "near_hr": 0.3
   },
   "intensity": 0.433,
-  "expectancy_score": 28.5,
+  "expectancy_score": 20.5,
   "last_appearance": "2026-07-17"
  },
  "days": [

@@ -2,9 +2,9 @@
  "player_id": 543807,
  "player_name": "George Springer",
  "team": "TOR",
- "as_of": "2026-07-19",
+ "as_of": "2026-07-21",
  "form": {
-  "streak": 2,
+  "streak": 0,
   "frequency": 0.6,
   "slopes": {
    "max_ev": -0.11,
@@ -12,7 +12,7 @@
    "near_hr": 0.3
   },
   "intensity": 0.1,
-  "expectancy_score": 37.0,
+  "expectancy_score": 21.0,
   "last_appearance": "2026-07-18"
  },
  "days": [

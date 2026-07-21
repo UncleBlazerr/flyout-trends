@@ -1,22 +1,12 @@
 {
- "as_of": "2026-07-19",
+ "as_of": "2026-07-21",
  "players": [
-  {
-   "player_id": 686469,
-   "player_name": "Vinnie Pasquantino",
-   "team": "KC",
-   "record_streak": 3,
-   "total_flags": 3,
-   "avg_score": 36.6,
-   "current_score": 37.0,
-   "game_streak": 2
-  },
   {
    "player_id": 667472,
    "player_name": "Dane Myers",
    "team": "CIN",
-   "record_streak": 2,
-   "total_flags": 2,
+   "record_streak": 4,
+   "total_flags": 4,
    "avg_score": 48.2,
    "current_score": 58.5,
    "game_streak": 2
@@ -25,8 +15,8 @@
    "player_id": 662139,
    "player_name": "Daulton Varsho",
    "team": "TOR",
-   "record_streak": 2,
-   "total_flags": 2,
+   "record_streak": 4,
+   "total_flags": 4,
    "avg_score": 44.6,
    "current_score": 50.4,
    "game_streak": 3
@@ -35,39 +25,19 @@
    "player_id": 687859,
    "player_name": "Troy Johnston",
    "team": "COL",
-   "record_streak": 2,
-   "total_flags": 2,
+   "record_streak": 4,
+   "total_flags": 4,
    "avg_score": 43.3,
    "current_score": 49.7,
    "game_streak": 3
-  },
-  {
-   "player_id": 664702,
-   "player_name": "Myles Straw",
-   "team": "TOR",
-   "record_streak": 2,
-   "total_flags": 2,
-   "avg_score": 40.6,
-   "current_score": 40.6,
-   "game_streak": 2
-  },
-  {
-   "player_id": 543807,
-   "player_name": "George Springer",
-   "team": "TOR",
-   "record_streak": 2,
-   "total_flags": 2,
-   "avg_score": 37.0,
-   "current_score": 37.0,
-   "game_streak": 2
   },
   {
    "player_id": 678246,
    "player_name": "Miguel Vargas",
    "team": "CWS",
    "record_streak": 1,
-   "total_flags": 6,
-   "avg_score": 41.4,
+   "total_flags": 7,
+   "avg_score": 40.2,
    "current_score": 33.1,
    "game_streak": 2
   },
@@ -76,8 +46,8 @@
    "player_name": "Ben Rice",
    "team": "NYY",
    "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 24.6,
+   "total_flags": 3,
+   "avg_score": 29.9,
    "current_score": 40.5,
    "game_streak": 2
   },
@@ -86,7 +56,7 @@
    "player_name": "Billy Cook",
    "team": "PIT",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 53.0,
    "current_score": 53.0,
    "game_streak": 1
@@ -96,7 +66,7 @@
    "player_name": "Harry Ford",
    "team": "WSH",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 43.0,
    "current_score": 43.0,
    "game_streak": 1
@@ -106,7 +76,7 @@
    "player_name": "Shohei Ohtani",
    "team": "LAD",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 41.0,
    "current_score": 41.0,
    "game_streak": 2
@@ -116,7 +86,7 @@
    "player_name": "Tyler Freeman",
    "team": "COL",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 39.9,
    "current_score": 39.9,
    "game_streak": 2
@@ -126,7 +96,7 @@
    "player_name": "Pete Crow-Armstrong",
    "team": "CHC",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 36.6,
    "current_score": 36.6,
    "game_streak": 2
@@ -136,7 +106,7 @@
    "player_name": "Carson Kelly",
    "team": "CHC",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 34.6,
    "current_score": 34.6,
    "game_streak": 2
@@ -146,9 +116,39 @@
    "player_name": "Max Schuemann",
    "team": "NYY",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 33.4,
    "current_score": 33.4,
+   "game_streak": 1
+  },
+  {
+   "player_id": 543760,
+   "player_name": "Marcus Semien",
+   "team": "NYM",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 33.0,
+   "current_score": 33.0,
+   "game_streak": 1
+  },
+  {
+   "player_id": 669242,
+   "player_name": "Tommy Edman",
+   "team": "LAD",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 32.5,
+   "current_score": 32.5,
+   "game_streak": 2
+  },
+  {
+   "player_id": 668942,
+   "player_name": "Josh Rojas",
+   "team": "KC",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 30.6,
+   "current_score": 30.6,
    "game_streak": 1
   }
  ]
