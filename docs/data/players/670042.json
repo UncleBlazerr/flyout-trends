@@ -2,20 +2,38 @@
  "player_id": 670042,
  "player_name": "Luke Raley",
  "team": "SEA",
- "as_of": "2026-07-21",
+ "as_of": "2026-07-20",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": 3.939,
-   "parks_sum": 0.179,
-   "near_hr": 0.036
+   "max_ev": -0.45,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
   },
-  "intensity": 0.365,
-  "expectancy_score": 15.2,
-  "last_appearance": "2026-07-19"
+  "intensity": 0.0,
+  "expectancy_score": 4.3,
+  "last_appearance": "2026-07-20"
  },
  "days": [
+  {
+   "date": "2026-07-20",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 105.0,
+   "max_distance": 162.0,
+   "max_barrel_score": 50.6,
+   "temp_f": 80.0,
+   "wind_mph": 4.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-19",
    "bbe": 2,
@@ -198,6 +216,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823112,
+   "date": "2026-07-20",
+   "player_id": 670042,
+   "player_name": "Luke Raley",
+   "team": "SEA",
+   "opponent": "CIN",
+   "result": "Single",
+   "exit_velocity": 105.0,
+   "launch_angle": 8.0,
+   "hit_distance": 162.0,
+   "hc_x": 188.51,
+   "hc_y": 122.18,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "21a7850c-89db-3f82-bc18-28588f2a7bdd",
+   "venue_id": 680,
+   "venue_name": "T-Mobile Park",
+   "temp_f": 80.0,
+   "wind_mph": 4.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 50.6,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823113,
    "date": "2026-07-19",

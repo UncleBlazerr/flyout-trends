@@ -2,20 +2,38 @@
  "player_id": 624424,
  "player_name": "Michael Conforto",
  "team": "CHC",
- "as_of": "2026-07-21",
+ "as_of": "2026-07-20",
  "form": {
-  "streak": 0,
-  "frequency": 0.2,
+  "streak": 2,
+  "frequency": 0.333,
   "slopes": {
-   "max_ev": 2.84,
-   "parks_sum": 0.0,
-   "near_hr": 0.2
+   "max_ev": 1.226,
+   "parks_sum": -0.029,
+   "near_hr": 0.229
   },
-  "intensity": 0.4,
-  "expectancy_score": 18.0,
-  "last_appearance": "2026-07-17"
+  "intensity": 0.281,
+  "expectancy_score": 34.4,
+  "last_appearance": "2026-07-20"
  },
  "days": [
+  {
+   "date": "2026-07-20",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 1,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 96.5,
+   "max_distance": 382.0,
+   "max_barrel_score": 65.4,
+   "temp_f": 79.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-17",
    "bbe": 3,
@@ -108,6 +126,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824654,
+   "date": "2026-07-20",
+   "player_id": 624424,
+   "player_name": "Michael Conforto",
+   "team": "CHC",
+   "opponent": "DET",
+   "result": "Flyout",
+   "exit_velocity": 96.5,
+   "launch_angle": 40.0,
+   "hit_distance": 382.0,
+   "hc_x": 149.28,
+   "hc_y": 52.36,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "46b51e3d-b775-3a48-8646-4fbec3bb9d87",
+   "venue_id": 17,
+   "venue_name": "Wrigley Field",
+   "temp_f": 79.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": true,
+   "would_be_hr_flag": false,
+   "barrel_score": 65.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 824655,
    "date": "2026-07-17",

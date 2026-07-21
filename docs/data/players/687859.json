@@ -2,20 +2,38 @@
  "player_id": 687859,
  "player_name": "Troy Johnston",
  "team": "COL",
- "as_of": "2026-07-21",
+ "as_of": "2026-07-20",
  "form": {
-  "streak": 3,
+  "streak": 0,
   "frequency": 0.429,
   "slopes": {
-   "max_ev": 2.182,
-   "parks_sum": 0.071,
-   "near_hr": 0.259
+   "max_ev": -0.189,
+   "parks_sum": 0.0,
+   "near_hr": 0.107
   },
-  "intensity": 0.428,
-  "expectancy_score": 49.7,
-  "last_appearance": "2026-07-19"
+  "intensity": 0.036,
+  "expectancy_score": 13.9,
+  "last_appearance": "2026-07-20"
  },
  "days": [
+  {
+   "date": "2026-07-20",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 91.6,
+   "max_distance": 321.0,
+   "max_barrel_score": 63.5,
+   "temp_f": 90.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-19",
    "bbe": 3,
@@ -180,6 +198,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824328,
+   "date": "2026-07-20",
+   "player_id": 687859,
+   "player_name": "Troy Johnston",
+   "team": "COL",
+   "opponent": "WSH",
+   "result": "Lineout",
+   "exit_velocity": 91.6,
+   "launch_angle": 21.0,
+   "hit_distance": 321.0,
+   "hc_x": 75.05,
+   "hc_y": 80.44,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "510a1c02-7587-3dc5-8d2b-8ed4ffaee05b",
+   "venue_id": 19,
+   "venue_name": "Coors Field",
+   "temp_f": 90.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 63.5,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824330,
    "date": "2026-07-19",

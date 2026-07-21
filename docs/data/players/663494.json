@@ -2,9 +2,9 @@
  "player_id": 663494,
  "player_name": "Bryan Torres",
  "team": "STL",
- "as_of": "2026-07-21",
+ "as_of": "2026-07-20",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.5,
   "slopes": {
    "max_ev": -4.463,
@@ -12,7 +12,7 @@
    "near_hr": 0.029
   },
   "intensity": 0.01,
-  "expectancy_score": 15.3,
+  "expectancy_score": 23.3,
   "last_appearance": "2026-07-18"
  },
  "days": [

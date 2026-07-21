@@ -2,20 +2,38 @@
  "player_id": 814439,
  "player_name": "Ryan Waldschmidt",
  "team": "AZ",
- "as_of": "2026-07-21",
+ "as_of": "2026-07-20",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 0.2,
+   "max_ev": -6.97,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.033,
-  "expectancy_score": 1.0,
-  "last_appearance": "2026-07-19"
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-20"
  },
  "days": [
+  {
+   "date": "2026-07-20",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 73.1,
+   "max_distance": 238.0,
+   "max_barrel_score": 45.9,
+   "temp_f": 75.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-07-19",
    "bbe": 3,
@@ -72,6 +90,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 825058,
+   "date": "2026-07-20",
+   "player_id": 814439,
+   "player_name": "Ryan Waldschmidt",
+   "team": "AZ",
+   "opponent": "ATH",
+   "result": "Single",
+   "exit_velocity": 73.1,
+   "launch_angle": 25.0,
+   "hit_distance": 238.0,
+   "hc_x": 128.7,
+   "hc_y": 93.93,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "85f71918-e8f7-3285-8cf3-f06696f2244f",
+   "venue_id": 15,
+   "venue_name": "Chase Field",
+   "temp_f": 75.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 45.9,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 825057,
    "date": "2026-07-19",

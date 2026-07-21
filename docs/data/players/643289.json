@@ -2,20 +2,38 @@
  "player_id": 643289,
  "player_name": "Mauricio Dub\u00f3n",
  "team": "ATL",
- "as_of": "2026-07-21",
+ "as_of": "2026-07-20",
  "form": {
-  "streak": 0,
-  "frequency": 0.143,
+  "streak": 1,
+  "frequency": 0.286,
   "slopes": {
-   "max_ev": -0.811,
+   "max_ev": -1.504,
    "parks_sum": 0.0,
-   "near_hr": 0.089
+   "near_hr": 0.152
   },
-  "intensity": 0.03,
-  "expectancy_score": 5.2,
-  "last_appearance": "2026-07-19"
+  "intensity": 0.051,
+  "expectancy_score": 18.1,
+  "last_appearance": "2026-07-20"
  },
  "days": [
+  {
+   "date": "2026-07-20",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 1,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 92.4,
+   "max_distance": 359.0,
+   "max_barrel_score": 67.8,
+   "temp_f": 91.0,
+   "wind_mph": 5.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-19",
    "bbe": 4,
@@ -234,6 +252,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824898,
+   "date": "2026-07-20",
+   "player_id": 643289,
+   "player_name": "Mauricio Dub\u00f3n",
+   "team": "ATL",
+   "opponent": "SD",
+   "result": "Flyout",
+   "exit_velocity": 92.4,
+   "launch_angle": 33.0,
+   "hit_distance": 359.0,
+   "hc_x": 91.8,
+   "hc_y": 58.36,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "2e315809-5e05-3ada-ba13-520cbdb4dfea",
+   "venue_id": 4705,
+   "venue_name": "Truist Park",
+   "temp_f": 91.0,
+   "wind_mph": 5.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": true,
+   "would_be_hr_flag": false,
+   "barrel_score": 67.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 824897,
    "date": "2026-07-19",

@@ -2,20 +2,38 @@
  "player_id": 691019,
  "player_name": "Kyle Teel",
  "team": "CWS",
- "as_of": "2026-07-21",
+ "as_of": "2026-07-20",
  "form": {
-  "streak": 0,
-  "frequency": 0.286,
+  "streak": 1,
+  "frequency": 0.429,
   "slopes": {
-   "max_ev": -6.175,
+   "max_ev": -3.846,
    "parks_sum": 0.0,
-   "near_hr": 0.036
+   "near_hr": 0.071
   },
-  "intensity": 0.012,
-  "expectancy_score": 8.9,
-  "last_appearance": "2026-07-18"
+  "intensity": 0.024,
+  "expectancy_score": 21.6,
+  "last_appearance": "2026-07-20"
  },
  "days": [
+  {
+   "date": "2026-07-20",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 1,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 97.4,
+   "max_distance": 352.0,
+   "max_barrel_score": 66.4,
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-07-18",
    "bbe": 1,
@@ -162,6 +180,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822874,
+   "date": "2026-07-20",
+   "player_id": 691019,
+   "player_name": "Kyle Teel",
+   "team": "CWS",
+   "opponent": "TEX",
+   "result": "Flyout",
+   "exit_velocity": 97.4,
+   "launch_angle": 38.0,
+   "hit_distance": 352.0,
+   "hc_x": 66.34,
+   "hc_y": 69.99,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "d6843b17-68c2-3b18-a99f-ffbaab979227",
+   "venue_id": 5325,
+   "venue_name": "Globe Life Field",
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": true,
+   "would_be_hr_flag": false,
+   "barrel_score": 66.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 822790,
    "date": "2026-07-18",

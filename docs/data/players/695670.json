@@ -2,20 +2,38 @@
  "player_id": 695670,
  "player_name": "Harry Ford",
  "team": "WSH",
- "as_of": "2026-07-21",
+ "as_of": "2026-07-20",
  "form": {
-  "streak": 1,
-  "frequency": 0.5,
+  "streak": 0,
+  "frequency": 0.333,
   "slopes": {
-   "max_ev": 11.6,
+   "max_ev": -38.05,
    "parks_sum": 0.0,
-   "near_hr": 1.25
+   "near_hr": 0.0
   },
-  "intensity": 0.667,
-  "expectancy_score": 43.0,
-  "last_appearance": "2026-07-19"
+  "intensity": 0.0,
+  "expectancy_score": 10.0,
+  "last_appearance": "2026-07-20"
  },
  "days": [
+  {
+   "date": "2026-07-20",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 13.5,
+   "max_distance": 7.0,
+   "max_barrel_score": 0.5,
+   "temp_f": 90.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-19",
    "bbe": 2,
@@ -54,6 +72,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824328,
+   "date": "2026-07-20",
+   "player_id": 695670,
+   "player_name": "Harry Ford",
+   "team": "WSH",
+   "opponent": "COL",
+   "result": "Forceout",
+   "exit_velocity": 13.5,
+   "launch_angle": 70.0,
+   "hit_distance": 7.0,
+   "hc_x": 126.47,
+   "hc_y": 197.8,
+   "would_be_hr_count": 0,
+   "inning": 1,
+   "play_id": "f8b4d3c1-3807-3b23-b2e7-ace38dd2a722",
+   "venue_id": 19,
+   "venue_name": "Coors Field",
+   "temp_f": 90.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 0.5,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824978,
    "date": "2026-07-19",

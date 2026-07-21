@@ -2,20 +2,38 @@
  "player_id": 690976,
  "player_name": "Alex Freeland",
  "team": "LAD",
- "as_of": "2026-07-21",
+ "as_of": "2026-07-20",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 10.05,
+   "max_ev": 2.97,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.333,
   "expectancy_score": 10.0,
-  "last_appearance": "2026-07-07"
+  "last_appearance": "2026-07-20"
  },
  "days": [
+  {
+   "date": "2026-07-20",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 88.9,
+   "max_distance": 2.0,
+   "max_barrel_score": 16.9,
+   "temp_f": 82.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-07",
    "bbe": 3,
@@ -72,6 +90,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823436,
+   "date": "2026-07-20",
+   "player_id": 690976,
+   "player_name": "Alex Freeland",
+   "team": "LAD",
+   "opponent": "PHI",
+   "result": "Groundout",
+   "exit_velocity": 88.9,
+   "launch_angle": -47.0,
+   "hit_distance": 2.0,
+   "hc_x": 140.41,
+   "hc_y": 153.04,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "0f154e9f-5bcb-3451-a484-d05dfd8df8ff",
+   "venue_id": 2681,
+   "venue_name": "Citizens Bank Park",
+   "temp_f": 82.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 16.9,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823929,
    "date": "2026-07-07",

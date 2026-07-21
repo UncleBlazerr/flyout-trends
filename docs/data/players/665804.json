@@ -2,20 +2,38 @@
  "player_id": 665804,
  "player_name": "Miguel Amaya",
  "team": "CHC",
- "as_of": "2026-07-21",
+ "as_of": "2026-07-20",
  "form": {
   "streak": 0,
-  "frequency": 0.4,
+  "frequency": 0.333,
   "slopes": {
-   "max_ev": -0.79,
+   "max_ev": -5.131,
    "parks_sum": 0.0,
-   "near_hr": -0.125
+   "near_hr": -0.136
   },
   "intensity": 0.0,
-  "expectancy_score": 12.0,
-  "last_appearance": "2026-07-18"
+  "expectancy_score": 10.0,
+  "last_appearance": "2026-07-20"
  },
  "days": [
+  {
+   "date": "2026-07-20",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 65.0,
+   "max_distance": 212.0,
+   "max_barrel_score": 39.2,
+   "temp_f": 79.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-18",
    "bbe": 3,
@@ -108,6 +126,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824654,
+   "date": "2026-07-20",
+   "player_id": 665804,
+   "player_name": "Miguel Amaya",
+   "team": "CHC",
+   "opponent": "DET",
+   "result": "Single",
+   "exit_velocity": 65.0,
+   "launch_angle": 32.0,
+   "hit_distance": 212.0,
+   "hc_x": 63.56,
+   "hc_y": 122.13,
+   "would_be_hr_count": 0,
+   "inning": 3,
+   "play_id": "9c437caa-e9d9-3fac-9d08-add799ff6fb7",
+   "venue_id": 17,
+   "venue_name": "Wrigley Field",
+   "temp_f": 79.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 39.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824657,
    "date": "2026-07-18",

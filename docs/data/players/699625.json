@@ -2,20 +2,38 @@
  "player_id": 699625,
  "player_name": "Jimmy Crooks",
  "team": "STL",
- "as_of": "2026-07-21",
+ "as_of": "2026-07-20",
  "form": {
-  "streak": 0,
-  "frequency": 0.0,
+  "streak": 1,
+  "frequency": 0.25,
   "slopes": {
-   "max_ev": 3.05,
+   "max_ev": 0.49,
    "parks_sum": 0.0,
-   "near_hr": 0.0
+   "near_hr": 0.3
   },
-  "intensity": 0.333,
-  "expectancy_score": 10.0,
-  "last_appearance": "2026-07-18"
+  "intensity": 0.182,
+  "expectancy_score": 20.9,
+  "last_appearance": "2026-07-20"
  },
  "days": [
+  {
+   "date": "2026-07-20",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 1,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 102.8,
+   "max_distance": 368.0,
+   "max_barrel_score": 70.1,
+   "temp_f": 79.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-18",
    "bbe": 1,
@@ -72,6 +90,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824006,
+   "date": "2026-07-20",
+   "player_id": 699625,
+   "player_name": "Jimmy Crooks",
+   "team": "STL",
+   "opponent": "LAA",
+   "result": "Flyout",
+   "exit_velocity": 102.8,
+   "launch_angle": 40.0,
+   "hit_distance": 368.0,
+   "hc_x": 89.81,
+   "hc_y": 54.98,
+   "would_be_hr_count": 0,
+   "inning": 5,
+   "play_id": "1ca34b89-165f-389e-8963-1c9af215c083",
+   "venue_id": 1,
+   "venue_name": "Angel Stadium",
+   "temp_f": 79.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": true,
+   "would_be_hr_flag": false,
+   "barrel_score": 70.1,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 825059,
    "date": "2026-07-18",

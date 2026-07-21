@@ -2,20 +2,38 @@
  "player_id": 641343,
  "player_name": "Jake Bauers",
  "team": "MIL",
- "as_of": "2026-07-21",
+ "as_of": "2026-07-20",
  "form": {
   "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": -0.918,
-   "parks_sum": 0.071,
-   "near_hr": 0.179
+   "max_ev": 1.146,
+   "parks_sum": 0.036,
+   "near_hr": 0.107
   },
-  "intensity": 0.068,
-  "expectancy_score": 10.6,
-  "last_appearance": "2026-07-18"
+  "intensity": 0.231,
+  "expectancy_score": 15.5,
+  "last_appearance": "2026-07-20"
  },
  "days": [
+  {
+   "date": "2026-07-20",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 107.2,
+   "max_distance": 63.0,
+   "max_barrel_score": 38.4,
+   "temp_f": 82.0,
+   "wind_mph": 14.0,
+   "wind_dir": "cross",
+   "weather_condition": "Cloudy"
+  },
   {
    "date": "2026-07-18",
    "bbe": 3,
@@ -180,6 +198,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823762,
+   "date": "2026-07-20",
+   "player_id": 641343,
+   "player_name": "Jake Bauers",
+   "team": "MIL",
+   "opponent": "NYM",
+   "result": "Groundout",
+   "exit_velocity": 107.2,
+   "launch_angle": 1.0,
+   "hit_distance": 63.0,
+   "hc_x": 112.28,
+   "hc_y": 144.59,
+   "would_be_hr_count": 0,
+   "inning": 3,
+   "play_id": "69420054-f6a5-3760-922a-1c01e7533bd0",
+   "venue_id": 32,
+   "venue_name": "American Family Field",
+   "temp_f": 82.0,
+   "wind_mph": 14.0,
+   "wind_dir": "cross",
+   "weather_condition": "Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 38.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823763,
    "date": "2026-07-18",

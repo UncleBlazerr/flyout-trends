@@ -2,20 +2,38 @@
  "player_id": 668715,
  "player_name": "Spencer Steer",
  "team": "CIN",
- "as_of": "2026-07-21",
+ "as_of": "2026-07-20",
  "form": {
   "streak": 0,
-  "frequency": 0.286,
+  "frequency": 0.143,
   "slopes": {
-   "max_ev": -0.471,
-   "parks_sum": 0.036,
-   "near_hr": 0.027
+   "max_ev": -2.443,
+   "parks_sum": 0.071,
+   "near_hr": 0.08
   },
-  "intensity": 0.013,
-  "expectancy_score": 9.0,
-  "last_appearance": "2026-07-19"
+  "intensity": 0.035,
+  "expectancy_score": 5.3,
+  "last_appearance": "2026-07-20"
  },
  "days": [
+  {
+   "date": "2026-07-20",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 81.0,
+   "max_distance": 7.0,
+   "max_barrel_score": 10.2,
+   "temp_f": 80.0,
+   "wind_mph": 4.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-19",
    "bbe": 4,
@@ -198,6 +216,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823112,
+   "date": "2026-07-20",
+   "player_id": 668715,
+   "player_name": "Spencer Steer",
+   "team": "CIN",
+   "opponent": "SEA",
+   "result": "Groundout",
+   "exit_velocity": 81.0,
+   "launch_angle": -27.0,
+   "hit_distance": 7.0,
+   "hc_x": 101.31,
+   "hc_y": 166.28,
+   "would_be_hr_count": 0,
+   "inning": 1,
+   "play_id": "a47fa7c8-d3e2-3d93-acae-39fabb1be74c",
+   "venue_id": 680,
+   "venue_name": "T-Mobile Park",
+   "temp_f": 80.0,
+   "wind_mph": 4.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 10.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824330,
    "date": "2026-07-19",

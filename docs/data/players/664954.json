@@ -2,20 +2,38 @@
  "player_id": 664954,
  "player_name": "Brett Sullivan",
  "team": "COL",
- "as_of": "2026-07-21",
+ "as_of": "2026-07-20",
  "form": {
   "streak": 0,
-  "frequency": 0.25,
+  "frequency": 0.2,
   "slopes": {
-   "max_ev": 0.37,
+   "max_ev": -4.25,
    "parks_sum": 0.0,
-   "near_hr": -0.6
+   "near_hr": -0.4
   },
-  "intensity": 0.062,
-  "expectancy_score": 9.3,
-  "last_appearance": "2026-07-18"
+  "intensity": 0.0,
+  "expectancy_score": 6.0,
+  "last_appearance": "2026-07-20"
  },
  "days": [
+  {
+   "date": "2026-07-20",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 73.3,
+   "max_distance": 96.0,
+   "max_barrel_score": 9.3,
+   "temp_f": 90.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-18",
    "bbe": 2,
@@ -90,6 +108,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824328,
+   "date": "2026-07-20",
+   "player_id": 664954,
+   "player_name": "Brett Sullivan",
+   "team": "COL",
+   "opponent": "WSH",
+   "result": "Pop Out",
+   "exit_velocity": 73.3,
+   "launch_angle": 72.0,
+   "hit_distance": 96.0,
+   "hc_x": 108.23,
+   "hc_y": 168.4,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "2aef2d20-737f-341f-8e4c-adc5c435beb6",
+   "venue_id": 19,
+   "venue_name": "Coors Field",
+   "temp_f": 90.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 9.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824331,
    "date": "2026-07-18",

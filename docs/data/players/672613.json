@@ -2,20 +2,38 @@
  "player_id": 672613,
  "player_name": "Eliezer Alfonzo",
  "team": "LAD",
- "as_of": "2026-07-21",
+ "as_of": "2026-07-20",
  "form": {
   "streak": 0,
-  "frequency": 0.167,
+  "frequency": 0.143,
   "slopes": {
-   "max_ev": 1.054,
+   "max_ev": -0.393,
    "parks_sum": 0.0,
-   "near_hr": -0.143
+   "near_hr": -0.107
   },
-  "intensity": 0.176,
-  "expectancy_score": 10.3,
-  "last_appearance": "2026-07-19"
+  "intensity": 0.0,
+  "expectancy_score": 4.3,
+  "last_appearance": "2026-07-20"
  },
  "days": [
+  {
+   "date": "2026-07-20",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 83.5,
+   "max_distance": 123.0,
+   "max_barrel_score": 30.0,
+   "temp_f": 82.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-19",
    "bbe": 1,
@@ -126,6 +144,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823436,
+   "date": "2026-07-20",
+   "player_id": 672613,
+   "player_name": "Eliezer Alfonzo",
+   "team": "LAD",
+   "opponent": "PHI",
+   "result": "Forceout",
+   "exit_velocity": 83.5,
+   "launch_angle": 9.0,
+   "hit_distance": 123.0,
+   "hc_x": 154.48,
+   "hc_y": 134.5,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "6e699647-2bb0-3a46-863e-f02d517854e1",
+   "venue_id": 2681,
+   "venue_name": "Citizens Bank Park",
+   "temp_f": 82.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 30.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823521,
    "date": "2026-07-19",

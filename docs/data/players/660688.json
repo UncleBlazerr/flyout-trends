@@ -2,9 +2,9 @@
  "player_id": 660688,
  "player_name": "Keibert Ruiz",
  "team": "WSH",
- "as_of": "2026-07-21",
+ "as_of": "2026-07-20",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.333,
   "slopes": {
    "max_ev": 1.077,
@@ -12,7 +12,7 @@
    "near_hr": 0.093
   },
   "intensity": 0.21,
-  "expectancy_score": 16.3,
+  "expectancy_score": 24.3,
   "last_appearance": "2026-07-18"
  },
  "days": [
