@@ -1,22 +1,12 @@
 {
- "as_of": "2026-07-20",
+ "as_of": "2026-07-22",
  "players": [
-  {
-   "player_id": 686469,
-   "player_name": "Vinnie Pasquantino",
-   "team": "KC",
-   "record_streak": 4,
-   "total_flags": 4,
-   "avg_score": 39.3,
-   "current_score": 47.4,
-   "game_streak": 3
-  },
   {
    "player_id": 671289,
    "player_name": "Tyler Freeman",
    "team": "COL",
-   "record_streak": 2,
-   "total_flags": 2,
+   "record_streak": 4,
+   "total_flags": 4,
    "avg_score": 46.9,
    "current_score": 53.9,
    "game_streak": 3
@@ -25,8 +15,8 @@
    "player_id": 691718,
    "player_name": "Pete Crow-Armstrong",
    "team": "CHC",
-   "record_streak": 2,
-   "total_flags": 2,
+   "record_streak": 4,
+   "total_flags": 4,
    "avg_score": 42.9,
    "current_score": 49.2,
    "game_streak": 3
@@ -36,18 +26,28 @@
    "player_name": "Daylen Lile",
    "team": "WSH",
    "record_streak": 1,
-   "total_flags": 5,
-   "avg_score": 39.0,
+   "total_flags": 6,
+   "avg_score": 38.8,
    "current_score": 37.6,
    "game_streak": 1
+  },
+  {
+   "player_id": 686469,
+   "player_name": "Vinnie Pasquantino",
+   "team": "KC",
+   "record_streak": 1,
+   "total_flags": 5,
+   "avg_score": 40.9,
+   "current_score": 47.4,
+   "game_streak": 3
   },
   {
    "player_id": 805808,
    "player_name": "Kevin McGonigle",
    "team": "DET",
    "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 22.6,
+   "total_flags": 3,
+   "avg_score": 27.1,
    "current_score": 36.2,
    "game_streak": 2
   },
@@ -56,7 +56,7 @@
    "player_name": "Daniel Susac",
    "team": "SF",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 43.0,
    "current_score": 43.0,
    "game_streak": 1
@@ -66,7 +66,7 @@
    "player_name": "Tyler Locklear",
    "team": "AZ",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 43.0,
    "current_score": 43.0,
    "game_streak": 1
@@ -76,7 +76,7 @@
    "player_name": "Colt Keith",
    "team": "DET",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 42.8,
    "current_score": 42.8,
    "game_streak": 3
@@ -86,7 +86,7 @@
    "player_name": "Carter Jensen",
    "team": "KC",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 40.5,
    "current_score": 40.5,
    "game_streak": 1
@@ -96,7 +96,7 @@
    "player_name": "Isaac Paredes",
    "team": "HOU",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 40.2,
    "current_score": 40.2,
    "game_streak": 2
@@ -106,7 +106,7 @@
    "player_name": "Willi Castro",
    "team": "COL",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 39.7,
    "current_score": 39.7,
    "game_streak": 1
@@ -116,7 +116,7 @@
    "player_name": "Kyle Karros",
    "team": "COL",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 37.3,
    "current_score": 37.3,
    "game_streak": 2
@@ -126,7 +126,7 @@
    "player_name": "Ryan McMahon",
    "team": "NYY",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 37.2,
    "current_score": 37.2,
    "game_streak": 2
@@ -136,7 +136,7 @@
    "player_name": "Braden Montgomery",
    "team": "CWS",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 36.4,
    "current_score": 36.4,
    "game_streak": 2
@@ -146,7 +146,7 @@
    "player_name": "Jorge Barrosa",
    "team": "AZ",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 35.9,
    "current_score": 35.9,
    "game_streak": 1

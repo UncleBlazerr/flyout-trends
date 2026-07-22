@@ -2,9 +2,9 @@
  "player_id": 682998,
  "player_name": "Corbin Carroll",
  "team": "AZ",
- "as_of": "2026-07-20",
+ "as_of": "2026-07-22",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.429,
   "slopes": {
    "max_ev": -1.775,
@@ -12,7 +12,7 @@
    "near_hr": 0.17
   },
   "intensity": 0.307,
-  "expectancy_score": 30.1,
+  "expectancy_score": 22.1,
   "last_appearance": "2026-07-19"
  },
  "days": [

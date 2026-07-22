@@ -2,9 +2,9 @@
  "player_id": 543760,
  "player_name": "Marcus Semien",
  "team": "NYM",
- "as_of": "2026-07-20",
+ "as_of": "2026-07-22",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.5,
   "slopes": {
    "max_ev": -0.4,
@@ -12,7 +12,7 @@
    "near_hr": 1.0
   },
   "intensity": 0.333,
-  "expectancy_score": 33.0,
+  "expectancy_score": 25.0,
   "last_appearance": "2026-07-19"
  },
  "days": [

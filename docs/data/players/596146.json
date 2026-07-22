@@ -2,9 +2,9 @@
  "player_id": 596146,
  "player_name": "Max Kepler",
  "team": "AZ",
- "as_of": "2026-07-20",
+ "as_of": "2026-07-22",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": -2.175,
@@ -12,7 +12,7 @@
    "near_hr": 0.241
   },
   "intensity": 0.104,
-  "expectancy_score": 19.7,
+  "expectancy_score": 11.7,
   "last_appearance": "2026-07-19"
  },
  "days": [

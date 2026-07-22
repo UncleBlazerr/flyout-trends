@@ -2,9 +2,9 @@
  "player_id": 666160,
  "player_name": "Mickey Moniak",
  "team": "COL",
- "as_of": "2026-07-20",
+ "as_of": "2026-07-22",
  "form": {
-  "streak": 2,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 0.639,
@@ -12,7 +12,7 @@
    "near_hr": 0.25
   },
   "intensity": 0.19,
-  "expectancy_score": 30.3,
+  "expectancy_score": 14.3,
   "last_appearance": "2026-07-19"
  },
  "days": [

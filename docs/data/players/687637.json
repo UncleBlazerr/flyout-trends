@@ -2,9 +2,9 @@
  "player_id": 687637,
  "player_name": "Dylan Beavers",
  "team": "BAL",
- "as_of": "2026-07-20",
+ "as_of": "2026-07-22",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.333,
   "slopes": {
    "max_ev": 1.289,
@@ -12,7 +12,7 @@
    "near_hr": 0.071
   },
   "intensity": 0.302,
-  "expectancy_score": 27.1,
+  "expectancy_score": 19.1,
   "last_appearance": "2026-07-19"
  },
  "days": [
