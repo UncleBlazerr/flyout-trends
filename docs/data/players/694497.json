@@ -2,20 +2,38 @@
  "player_id": 694497,
  "player_name": "Evan Carter",
  "team": "TEX",
- "as_of": "2026-07-22",
+ "as_of": "2026-07-21",
  "form": {
-  "streak": 0,
-  "frequency": 0.143,
+  "streak": 1,
+  "frequency": 0.286,
   "slopes": {
-   "max_ev": 0.521,
+   "max_ev": -0.014,
    "parks_sum": 0.0,
-   "near_hr": -0.045
+   "near_hr": 0.018
   },
-  "intensity": 0.087,
-  "expectancy_score": 6.9,
-  "last_appearance": "2026-07-20"
+  "intensity": 0.006,
+  "expectancy_score": 16.8,
+  "last_appearance": "2026-07-21"
  },
  "days": [
+  {
+   "date": "2026-07-21",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 95.0,
+   "max_distance": 341.0,
+   "max_barrel_score": 72.2,
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-07-20",
    "bbe": 4,
@@ -198,6 +216,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822871,
+   "date": "2026-07-21",
+   "player_id": 694497,
+   "player_name": "Evan Carter",
+   "team": "TEX",
+   "opponent": "CWS",
+   "result": "Flyout",
+   "exit_velocity": 95.0,
+   "launch_angle": 30.0,
+   "hit_distance": 341.0,
+   "hc_x": 55.9,
+   "hc_y": 80.54,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "c566519e-5218-36fd-ad4d-d5f4bf1e070d",
+   "venue_id": 5325,
+   "venue_name": "Globe Life Field",
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 72.2,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 822874,
    "date": "2026-07-20",

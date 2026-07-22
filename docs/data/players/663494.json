@@ -2,20 +2,38 @@
  "player_id": 663494,
  "player_name": "Bryan Torres",
  "team": "STL",
- "as_of": "2026-07-22",
+ "as_of": "2026-07-21",
  "form": {
   "streak": 0,
-  "frequency": 0.5,
+  "frequency": 0.429,
   "slopes": {
-   "max_ev": -4.463,
-   "parks_sum": -0.514,
-   "near_hr": 0.029
+   "max_ev": -1.807,
+   "parks_sum": -0.429,
+   "near_hr": -0.036
   },
-  "intensity": 0.01,
-  "expectancy_score": 15.3,
-  "last_appearance": "2026-07-18"
+  "intensity": 0.0,
+  "expectancy_score": 12.9,
+  "last_appearance": "2026-07-21"
  },
  "days": [
+  {
+   "date": "2026-07-21",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 97.8,
+   "max_distance": 25.0,
+   "max_barrel_score": 26.4,
+   "temp_f": 83.0,
+   "wind_mph": 9.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-18",
    "bbe": 1,
@@ -126,6 +144,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824005,
+   "date": "2026-07-21",
+   "player_id": 663494,
+   "player_name": "Bryan Torres",
+   "team": "STL",
+   "opponent": "LAA",
+   "result": "Single",
+   "exit_velocity": 97.8,
+   "launch_angle": -2.0,
+   "hit_distance": 25.0,
+   "hc_x": 201.69,
+   "hc_y": 106.02,
+   "would_be_hr_count": 0,
+   "inning": 5,
+   "play_id": "bbae6df5-aae7-3437-9325-72ee96fe82a0",
+   "venue_id": 1,
+   "venue_name": "Angel Stadium",
+   "temp_f": 83.0,
+   "wind_mph": 9.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 26.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 825059,
    "date": "2026-07-18",

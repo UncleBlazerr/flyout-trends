@@ -2,20 +2,38 @@
  "player_id": 666126,
  "player_name": "Carlos Cortes",
  "team": "ATH",
- "as_of": "2026-07-22",
+ "as_of": "2026-07-21",
  "form": {
   "streak": 0,
-  "frequency": 0.714,
+  "frequency": 0.571,
   "slopes": {
-   "max_ev": -1.157,
-   "parks_sum": -0.107,
-   "near_hr": -0.116
+   "max_ev": -0.821,
+   "parks_sum": 0.0,
+   "near_hr": -0.134
   },
   "intensity": 0.0,
-  "expectancy_score": 21.4,
-  "last_appearance": "2026-07-19"
+  "expectancy_score": 17.1,
+  "last_appearance": "2026-07-21"
  },
  "days": [
+  {
+   "date": "2026-07-21",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 93.2,
+   "max_distance": 305.0,
+   "max_barrel_score": 62.8,
+   "temp_f": 75.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-07-19",
    "bbe": 1,
@@ -162,6 +180,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 825056,
+   "date": "2026-07-21",
+   "player_id": 666126,
+   "player_name": "Carlos Cortes",
+   "team": "ATH",
+   "opponent": "AZ",
+   "result": "Lineout",
+   "exit_velocity": 93.2,
+   "launch_angle": 20.0,
+   "hit_distance": 305.0,
+   "hc_x": 71.4,
+   "hc_y": 89.41,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "1573ebc2-cac4-308e-899f-b205aa872c03",
+   "venue_id": 15,
+   "venue_name": "Chase Field",
+   "temp_f": 75.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 62.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824978,
    "date": "2026-07-19",

@@ -2,20 +2,38 @@
  "player_id": 690993,
  "player_name": "Colt Keith",
  "team": "DET",
- "as_of": "2026-07-22",
+ "as_of": "2026-07-21",
  "form": {
-  "streak": 3,
+  "streak": 0,
   "frequency": 0.429,
   "slopes": {
-   "max_ev": 0.2,
-   "parks_sum": 0.75,
-   "near_hr": 0.241
+   "max_ev": -2.364,
+   "parks_sum": 0.5,
+   "near_hr": 0.125
   },
-  "intensity": 0.197,
-  "expectancy_score": 42.8,
-  "last_appearance": "2026-07-20"
+  "intensity": 0.097,
+  "expectancy_score": 15.8,
+  "last_appearance": "2026-07-21"
  },
  "days": [
+  {
+   "date": "2026-07-21",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 84.7,
+   "max_distance": 243.0,
+   "max_barrel_score": 39.1,
+   "temp_f": 82.0,
+   "wind_mph": 14.0,
+   "wind_dir": "in",
+   "weather_condition": "Cloudy"
+  },
   {
    "date": "2026-07-20",
    "bbe": 2,
@@ -198,6 +216,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824652,
+   "date": "2026-07-21",
+   "player_id": 690993,
+   "player_name": "Colt Keith",
+   "team": "DET",
+   "opponent": "CHC",
+   "result": "Flyout",
+   "exit_velocity": 84.7,
+   "launch_angle": 46.0,
+   "hit_distance": 243.0,
+   "hc_x": 70.86,
+   "hc_y": 119.39,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "4c932d91-21d4-3483-906f-61f89ab9b275",
+   "venue_id": 17,
+   "venue_name": "Wrigley Field",
+   "temp_f": 82.0,
+   "wind_mph": 14.0,
+   "wind_dir": "in",
+   "weather_condition": "Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 39.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824654,
    "date": "2026-07-20",

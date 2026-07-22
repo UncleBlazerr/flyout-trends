@@ -2,20 +2,38 @@
  "player_id": 605141,
  "player_name": "Mookie Betts",
  "team": "LAD",
- "as_of": "2026-07-22",
+ "as_of": "2026-07-21",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 0.782,
+   "max_ev": 0.311,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.13,
-  "expectancy_score": 3.9,
-  "last_appearance": "2026-07-20"
+  "intensity": 0.052,
+  "expectancy_score": 1.6,
+  "last_appearance": "2026-07-21"
  },
  "days": [
+  {
+   "date": "2026-07-21",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 93.5,
+   "max_distance": 284.0,
+   "max_barrel_score": 44.2,
+   "temp_f": 73.0,
+   "wind_mph": 11.0,
+   "wind_dir": "out",
+   "weather_condition": "Cloudy"
+  },
   {
    "date": "2026-07-20",
    "bbe": 5,
@@ -198,6 +216,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823437,
+   "date": "2026-07-21",
+   "player_id": 605141,
+   "player_name": "Mookie Betts",
+   "team": "LAD",
+   "opponent": "PHI",
+   "result": "Flyout",
+   "exit_velocity": 93.5,
+   "launch_angle": 51.0,
+   "hit_distance": 284.0,
+   "hc_x": 131.31,
+   "hc_y": 86.07,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "d4bc5e61-b819-3873-9886-714e08faeeff",
+   "venue_id": 2681,
+   "venue_name": "Citizens Bank Park",
+   "temp_f": 73.0,
+   "wind_mph": 11.0,
+   "wind_dir": "out",
+   "weather_condition": "Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 44.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823436,
    "date": "2026-07-20",

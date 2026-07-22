@@ -2,20 +2,38 @@
  "player_id": 695506,
  "player_name": "Jac Caglianone",
  "team": "KC",
- "as_of": "2026-07-22",
+ "as_of": "2026-07-21",
  "form": {
   "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": 0.354,
-   "parks_sum": 0.036,
-   "near_hr": 0.045
+   "max_ev": -0.486,
+   "parks_sum": -0.393,
+   "near_hr": -0.036
   },
-  "intensity": 0.078,
-  "expectancy_score": 10.9,
-  "last_appearance": "2026-07-20"
+  "intensity": 0.0,
+  "expectancy_score": 8.6,
+  "last_appearance": "2026-07-21"
  },
  "days": [
+  {
+   "date": "2026-07-21",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 100.5,
+   "max_distance": 136.0,
+   "max_barrel_score": 44.9,
+   "temp_f": 87.0,
+   "wind_mph": 6.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-20",
    "bbe": 3,
@@ -252,6 +270,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824085,
+   "date": "2026-07-21",
+   "player_id": 695506,
+   "player_name": "Jac Caglianone",
+   "team": "KC",
+   "opponent": "SF",
+   "result": "Groundout",
+   "exit_velocity": 100.5,
+   "launch_angle": 8.0,
+   "hit_distance": 136.0,
+   "hc_x": 159.18,
+   "hc_y": 158.35,
+   "would_be_hr_count": 0,
+   "inning": 1,
+   "play_id": "e4604ff5-4125-3fa3-9742-41714c1b7379",
+   "venue_id": 7,
+   "venue_name": "Kauffman Stadium",
+   "temp_f": 87.0,
+   "wind_mph": 6.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 44.9,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824087,
    "date": "2026-07-20",

@@ -2,9 +2,9 @@
  "player_id": 543309,
  "player_name": "Kyle Higashioka",
  "team": "TEX",
- "as_of": "2026-07-22",
+ "as_of": "2026-07-21",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 3.332,
@@ -12,7 +12,7 @@
    "near_hr": 0.17
   },
   "intensity": 0.39,
-  "expectancy_score": 20.3,
+  "expectancy_score": 28.3,
   "last_appearance": "2026-07-19"
  },
  "days": [

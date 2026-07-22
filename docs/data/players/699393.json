@@ -2,20 +2,38 @@
  "player_id": 699393,
  "player_name": "Pedro Ram\u00edrez",
  "team": "CHC",
- "as_of": "2026-07-22",
+ "as_of": "2026-07-21",
  "form": {
   "streak": 0,
-  "frequency": 0.2,
+  "frequency": 0.167,
   "slopes": {
-   "max_ev": 0.93,
+   "max_ev": 0.271,
    "parks_sum": 0.0,
-   "near_hr": 0.1
+   "near_hr": 0.029
   },
-  "intensity": 0.188,
-  "expectancy_score": 11.6,
-  "last_appearance": "2026-07-20"
+  "intensity": 0.055,
+  "expectancy_score": 6.6,
+  "last_appearance": "2026-07-21"
  },
  "days": [
+  {
+   "date": "2026-07-21",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 93.9,
+   "max_distance": 289.0,
+   "max_barrel_score": 62.3,
+   "temp_f": 82.0,
+   "wind_mph": 14.0,
+   "wind_dir": "in",
+   "weather_condition": "Cloudy"
+  },
   {
    "date": "2026-07-20",
    "bbe": 3,
@@ -108,6 +126,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824652,
+   "date": "2026-07-21",
+   "player_id": 699393,
+   "player_name": "Pedro Ram\u00edrez",
+   "team": "CHC",
+   "opponent": "DET",
+   "result": "Double",
+   "exit_velocity": 93.9,
+   "launch_angle": 20.0,
+   "hit_distance": 289.0,
+   "hc_x": 88.74,
+   "hc_y": 74.7,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "97d4b1a5-b413-3865-8ea4-b2924f145629",
+   "venue_id": 17,
+   "venue_name": "Wrigley Field",
+   "temp_f": 82.0,
+   "wind_mph": 14.0,
+   "wind_dir": "in",
+   "weather_condition": "Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 62.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824654,
    "date": "2026-07-20",

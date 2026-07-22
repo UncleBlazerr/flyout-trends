@@ -2,9 +2,9 @@
  "player_id": 621438,
  "player_name": "Tyrone Taylor",
  "team": "NYM",
- "as_of": "2026-07-22",
+ "as_of": "2026-07-21",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.429,
   "slopes": {
    "max_ev": 0.457,
@@ -12,7 +12,7 @@
    "near_hr": 0.089
   },
   "intensity": 0.118,
-  "expectancy_score": 16.4,
+  "expectancy_score": 24.4,
   "last_appearance": "2026-07-19"
  },
  "days": [

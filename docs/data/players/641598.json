@@ -2,9 +2,9 @@
  "player_id": 641598,
  "player_name": "Mitch Garver",
  "team": "SEA",
- "as_of": "2026-07-22",
+ "as_of": "2026-07-21",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.25,
   "slopes": {
    "max_ev": 1.13,
@@ -12,7 +12,7 @@
    "near_hr": 0.375
   },
   "intensity": 0.313,
-  "expectancy_score": 16.9,
+  "expectancy_score": 24.9,
   "last_appearance": "2026-07-19"
  },
  "days": [

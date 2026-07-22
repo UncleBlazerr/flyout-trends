@@ -2,20 +2,38 @@
  "player_id": 500743,
  "player_name": "Miguel Rojas",
  "team": "LAD",
- "as_of": "2026-07-22",
+ "as_of": "2026-07-21",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -3.283,
+   "max_ev": -2.882,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.0,
   "expectancy_score": 0.0,
-  "last_appearance": "2026-07-20"
+  "last_appearance": "2026-07-21"
  },
  "days": [
+  {
+   "date": "2026-07-21",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 83.6,
+   "max_distance": 158.0,
+   "max_barrel_score": 22.6,
+   "temp_f": 73.0,
+   "wind_mph": 11.0,
+   "wind_dir": "out",
+   "weather_condition": "Cloudy"
+  },
   {
    "date": "2026-07-20",
    "bbe": 3,
@@ -126,6 +144,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823437,
+   "date": "2026-07-21",
+   "player_id": 500743,
+   "player_name": "Miguel Rojas",
+   "team": "LAD",
+   "opponent": "PHI",
+   "result": "Pop Out",
+   "exit_velocity": 83.6,
+   "launch_angle": 68.0,
+   "hit_distance": 158.0,
+   "hc_x": 184.48,
+   "hc_y": 169.27,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "19b294c4-b7f0-3f74-8213-81659fc1c0fa",
+   "venue_id": 2681,
+   "venue_name": "Citizens Bank Park",
+   "temp_f": 73.0,
+   "wind_mph": 11.0,
+   "wind_dir": "out",
+   "weather_condition": "Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 22.6,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823436,
    "date": "2026-07-20",
