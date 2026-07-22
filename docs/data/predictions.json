@@ -23,14 +23,14 @@
    "band": "40-60",
    "band_rate": 0.203,
    "band_samples": 128,
-   "weather_factor": 1.0,
-   "adjusted_score": 53.9,
+   "weather_factor": 1.031,
+   "adjusted_score": 55.6,
    "game_weather": {
     "venue_name": "Coors Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 93.0,
+    "wind_mph": 7.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": true
   },
@@ -54,14 +54,14 @@
    "band": "40-60",
    "band_rate": 0.203,
    "band_samples": 128,
-   "weather_factor": 1.0,
-   "adjusted_score": 51.8,
+   "weather_factor": 1.031,
+   "adjusted_score": 53.4,
    "game_weather": {
     "venue_name": "Coors Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 93.0,
+    "wind_mph": 7.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": true
   },
@@ -85,14 +85,14 @@
    "band": "40-60",
    "band_rate": 0.203,
    "band_samples": 128,
-   "weather_factor": 1.0,
-   "adjusted_score": 51.0,
+   "weather_factor": 1.012,
+   "adjusted_score": 51.6,
    "game_weather": {
     "venue_name": "American Family Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 73.0,
+    "wind_mph": 2.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   },
@@ -126,6 +126,68 @@
     "weather_condition": ""
    },
    "repeat": false
+  },
+  {
+   "player_id": 691740,
+   "player_name": "Daniel Susac",
+   "team": "SF",
+   "expectancy_score": 43.0,
+   "streak": 1,
+   "frequency": 0.5,
+   "slopes": {
+    "max_ev": 14.9,
+    "parks_sum": 0.0,
+    "near_hr": 1.25
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 102.8,
+   "max_distance_7d": 377,
+   "band": "40-60",
+   "band_rate": 0.203,
+   "band_samples": 128,
+   "weather_factor": 1.044,
+   "adjusted_score": 44.9,
+   "game_weather": {
+    "venue_name": "Kauffman Stadium",
+    "temp_f": 81.0,
+    "wind_mph": 9.0,
+    "wind_dir": "cross",
+    "weather_condition": "Sunny"
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 641857,
+   "player_name": "Ryan McMahon",
+   "team": "NYY",
+   "expectancy_score": 37.2,
+   "streak": 2,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": 3.357,
+    "parks_sum": 0.214,
+    "near_hr": 0.196
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 104.6,
+   "max_distance_7d": 392,
+   "band": "<40",
+   "band_rate": 0.207,
+   "band_samples": 2802,
+   "weather_factor": 1.2,
+   "adjusted_score": 44.6,
+   "game_weather": {
+    "venue_name": "Yankee Stadium",
+    "temp_f": 83.0,
+    "wind_mph": 14.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": true
   },
   {
    "player_id": 669394,
@@ -213,43 +275,12 @@
    "adjusted_score": 43.1,
    "game_weather": {
     "venue_name": "T-Mobile Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": false
-  },
-  {
-   "player_id": 691740,
-   "player_name": "Daniel Susac",
-   "team": "SF",
-   "expectancy_score": 43.0,
-   "streak": 1,
-   "frequency": 0.5,
-   "slopes": {
-    "max_ev": 14.9,
-    "parks_sum": 0.0,
-    "near_hr": 1.25
-   },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 102.8,
-   "max_distance_7d": 377,
-   "band": "40-60",
-   "band_rate": 0.203,
-   "band_samples": 128,
-   "weather_factor": 1.0,
-   "adjusted_score": 43.0,
-   "game_weather": {
-    "venue_name": "Kauffman Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
   },
   {
    "player_id": 682988,
@@ -275,10 +306,10 @@
    "adjusted_score": 43.0,
    "game_weather": {
     "venue_name": "Chase Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": true
   },
@@ -302,14 +333,45 @@
    "band": "<40",
    "band_rate": 0.207,
    "band_samples": 2802,
-   "weather_factor": 1.0,
-   "adjusted_score": 39.7,
+   "weather_factor": 1.012,
+   "adjusted_score": 40.2,
    "game_weather": {
     "venue_name": "American Family Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 73.0,
+    "wind_mph": 2.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 680474,
+   "player_name": "Max Schuemann",
+   "team": "NYY",
+   "expectancy_score": 33.4,
+   "streak": 1,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 2.014,
+    "parks_sum": 0.107,
+    "near_hr": 0.214
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 101.2,
+   "max_distance_7d": 366,
+   "band": "<40",
+   "band_rate": 0.207,
+   "band_samples": 2802,
+   "weather_factor": 1.2,
+   "adjusted_score": 40.1,
+   "game_weather": {
+    "venue_name": "Yankee Stadium",
+    "temp_f": 83.0,
+    "wind_mph": 14.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   },
@@ -345,6 +407,37 @@
    "repeat": false
   },
   {
+   "player_id": 663757,
+   "player_name": "Trent Grisham",
+   "team": "NYY",
+   "expectancy_score": 31.7,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 0.171,
+    "parks_sum": 0.071,
+    "near_hr": 0.179
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
+   "max_ev_7d": 108.4,
+   "max_distance_7d": 402,
+   "band": "<40",
+   "band_rate": 0.207,
+   "band_samples": 2802,
+   "weather_factor": 1.2,
+   "adjusted_score": 38.0,
+   "game_weather": {
+    "venue_name": "Yankee Stadium",
+    "temp_f": 83.0,
+    "wind_mph": 14.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
+  },
+  {
    "player_id": 694374,
    "player_name": "Tim Tawa",
    "team": "AZ",
@@ -368,103 +461,10 @@
    "adjusted_score": 37.4,
    "game_weather": {
     "venue_name": "Chase Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 641857,
-   "player_name": "Ryan McMahon",
-   "team": "NYY",
-   "expectancy_score": 37.2,
-   "streak": 2,
-   "frequency": 0.286,
-   "slopes": {
-    "max_ev": 3.357,
-    "parks_sum": 0.214,
-    "near_hr": 0.196
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 104.6,
-   "max_distance_7d": 392,
-   "band": "<40",
-   "band_rate": 0.207,
-   "band_samples": 2802,
-   "weather_factor": 1.0,
-   "adjusted_score": 37.2,
-   "game_weather": {
-    "venue_name": "Yankee Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
-   "player_id": 593428,
-   "player_name": "Xander Bogaerts",
-   "team": "SD",
-   "expectancy_score": 33.4,
-   "streak": 1,
-   "frequency": 0.714,
-   "slopes": {
-    "max_ev": 0.396,
-    "parks_sum": 0.607,
-    "near_hr": -0.107
-   },
-   "near_hr_7d": 4,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 111.0,
-   "max_distance_7d": 407,
-   "band": "<40",
-   "band_rate": 0.207,
-   "band_samples": 2802,
-   "weather_factor": 1.0,
-   "adjusted_score": 33.4,
-   "game_weather": {
-    "venue_name": "Truist Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 680474,
-   "player_name": "Max Schuemann",
-   "team": "NYY",
-   "expectancy_score": 33.4,
-   "streak": 1,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 2.014,
-    "parks_sum": 0.107,
-    "near_hr": 0.214
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 101.2,
-   "max_distance_7d": 366,
-   "band": "<40",
-   "band_rate": 0.207,
-   "band_samples": 2802,
-   "weather_factor": 1.0,
-   "adjusted_score": 33.4,
-   "game_weather": {
-    "venue_name": "Yankee Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": false
   }
