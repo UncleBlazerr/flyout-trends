@@ -1,54 +1,14 @@
 {
- "as_of": "2026-07-21",
+ "as_of": "2026-07-23",
  "players": [
-  {
-   "player_id": 671289,
-   "player_name": "Tyler Freeman",
-   "team": "COL",
-   "record_streak": 3,
-   "total_flags": 3,
-   "avg_score": 49.2,
-   "current_score": 53.9,
-   "game_streak": 3
-  },
   {
    "player_id": 650489,
    "player_name": "Willi Castro",
    "team": "COL",
-   "record_streak": 2,
-   "total_flags": 2,
+   "record_streak": 4,
+   "total_flags": 4,
    "avg_score": 45.8,
    "current_score": 51.8,
-   "game_streak": 2
-  },
-  {
-   "player_id": 691740,
-   "player_name": "Daniel Susac",
-   "team": "SF",
-   "record_streak": 2,
-   "total_flags": 2,
-   "avg_score": 43.0,
-   "current_score": 43.0,
-   "game_streak": 1
-  },
-  {
-   "player_id": 682988,
-   "player_name": "Tyler Locklear",
-   "team": "AZ",
-   "record_streak": 2,
-   "total_flags": 2,
-   "avg_score": 43.0,
-   "current_score": 43.0,
-   "game_streak": 1
-  },
-  {
-   "player_id": 641857,
-   "player_name": "Ryan McMahon",
-   "team": "NYY",
-   "record_streak": 2,
-   "total_flags": 2,
-   "avg_score": 37.2,
-   "current_score": 37.2,
    "game_streak": 2
   },
   {
@@ -56,8 +16,8 @@
    "player_name": "Tim Tawa",
    "team": "AZ",
    "record_streak": 1,
-   "total_flags": 4,
-   "avg_score": 41.9,
+   "total_flags": 5,
+   "avg_score": 41.0,
    "current_score": 37.4,
    "game_streak": 2
   },
@@ -66,19 +26,19 @@
    "player_name": "Heriberto Hern\u00e1ndez",
    "team": "MIA",
    "record_streak": 1,
-   "total_flags": 2,
+   "total_flags": 3,
    "avg_score": 46.5,
    "current_score": 46.3,
    "game_streak": 2
   },
   {
-   "player_id": 680474,
-   "player_name": "Max Schuemann",
-   "team": "NYY",
+   "player_id": 543807,
+   "player_name": "George Springer",
+   "team": "TOR",
    "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 33.4,
-   "current_score": 33.4,
+   "total_flags": 3,
+   "avg_score": 35.3,
+   "current_score": 32.0,
    "game_streak": 1
   },
   {
@@ -86,7 +46,7 @@
    "player_name": "Marcus Semien",
    "team": "NYM",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 51.0,
    "current_score": 51.0,
    "game_streak": 2
@@ -96,7 +56,7 @@
    "player_name": "Jake Burger",
    "team": "TEX",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 43.8,
    "current_score": 43.8,
    "game_streak": 2
@@ -106,7 +66,7 @@
    "player_name": "Austin Riley",
    "team": "ATL",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 43.7,
    "current_score": 43.7,
    "game_streak": 2
@@ -116,7 +76,7 @@
    "player_name": "JJ Bleday",
    "team": "CIN",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 43.1,
    "current_score": 43.1,
    "game_streak": 3
@@ -126,9 +86,19 @@
    "player_name": "Andrew Vaughn",
    "team": "MIL",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 39.7,
    "current_score": 39.7,
+   "game_streak": 2
+  },
+  {
+   "player_id": 672695,
+   "player_name": "Geraldo Perdomo",
+   "team": "AZ",
+   "record_streak": 1,
+   "total_flags": 2,
+   "avg_score": 39.6,
+   "current_score": 33.3,
    "game_streak": 2
   },
   {
@@ -136,19 +106,49 @@
    "player_name": "Munetaka Murakami",
    "team": "CWS",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 38.7,
    "current_score": 38.7,
    "game_streak": 2
   },
   {
-   "player_id": 663757,
-   "player_name": "Trent Grisham",
-   "team": "NYY",
+   "player_id": 593428,
+   "player_name": "Xander Bogaerts",
+   "team": "SD",
    "record_streak": 1,
    "total_flags": 1,
-   "avg_score": 31.7,
-   "current_score": 31.7,
+   "avg_score": 33.4,
+   "current_score": 33.4,
+   "game_streak": 1
+  },
+  {
+   "player_id": 693307,
+   "player_name": "Dillon Dingler",
+   "team": "DET",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 31.8,
+   "current_score": 31.8,
+   "game_streak": 1
+  },
+  {
+   "player_id": 828599,
+   "player_name": "Lucas Spence",
+   "team": "HOU",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 31.5,
+   "current_score": 31.5,
+   "game_streak": 2
+  },
+  {
+   "player_id": 665052,
+   "player_name": "Griffin Conine",
+   "team": "MIA",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 29.6,
+   "current_score": 29.6,
    "game_streak": 2
   }
  ]

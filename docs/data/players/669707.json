@@ -2,9 +2,9 @@
  "player_id": 669707,
  "player_name": "Jared Triolo",
  "team": "PIT",
- "as_of": "2026-07-21",
+ "as_of": "2026-07-23",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.143,
   "slopes": {
    "max_ev": 3.0,
@@ -12,7 +12,7 @@
    "near_hr": 0.134
   },
   "intensity": 0.426,
-  "expectancy_score": 25.1,
+  "expectancy_score": 17.1,
   "last_appearance": "2026-07-20"
  },
  "days": [
