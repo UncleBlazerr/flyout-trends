@@ -2,20 +2,38 @@
  "player_id": 572233,
  "player_name": "Christian Walker",
  "team": "HOU",
- "as_of": "2026-07-23",
+ "as_of": "2026-07-22",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": -3.082,
+   "max_ev": -1.15,
    "parks_sum": 0.0,
-   "near_hr": 0.0
+   "near_hr": -0.036
   },
   "intensity": 0.0,
   "expectancy_score": 4.3,
-  "last_appearance": "2026-07-21"
+  "last_appearance": "2026-07-22"
  },
  "days": [
+  {
+   "date": "2026-07-22",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 99.4,
+   "max_distance": 10.0,
+   "max_barrel_score": 26.8,
+   "temp_f": 73.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-07-21",
    "bbe": 3,
@@ -216,6 +234,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824166,
+   "date": "2026-07-22",
+   "player_id": 572233,
+   "player_name": "Christian Walker",
+   "team": "HOU",
+   "opponent": "MIA",
+   "result": "Single",
+   "exit_velocity": 99.4,
+   "launch_angle": -13.0,
+   "hit_distance": 10.0,
+   "hc_x": 122.1,
+   "hc_y": 84.66,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "908d9780-5581-30d7-8062-97d5ae99e461",
+   "venue_id": 2392,
+   "venue_name": "Daikin Park",
+   "temp_f": 73.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 26.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824165,
    "date": "2026-07-21",

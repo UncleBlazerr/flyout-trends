@@ -2,20 +2,38 @@
  "player_id": 620443,
  "player_name": "Luis Torrens",
  "team": "NYM",
- "as_of": "2026-07-23",
+ "as_of": "2026-07-22",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 0.346,
+   "max_ev": 1.114,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.058,
-  "expectancy_score": 1.7,
-  "last_appearance": "2026-07-21"
+  "intensity": 0.186,
+  "expectancy_score": 5.6,
+  "last_appearance": "2026-07-22"
  },
  "days": [
+  {
+   "date": "2026-07-22",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 101.8,
+   "max_distance": 296.0,
+   "max_barrel_score": 64.4,
+   "temp_f": 72.0,
+   "wind_mph": 2.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-21",
    "bbe": 4,
@@ -144,6 +162,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823761,
+   "date": "2026-07-22",
+   "player_id": 620443,
+   "player_name": "Luis Torrens",
+   "team": "NYM",
+   "opponent": "MIL",
+   "result": "Lineout",
+   "exit_velocity": 101.8,
+   "launch_angle": 15.0,
+   "hit_distance": 296.0,
+   "hc_x": 193.42,
+   "hc_y": 100.79,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "007949eb-9ce2-337b-b9a4-0aa1922abd36",
+   "venue_id": 32,
+   "venue_name": "American Family Field",
+   "temp_f": 72.0,
+   "wind_mph": 2.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 64.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823760,
    "date": "2026-07-21",

@@ -2,20 +2,38 @@
  "player_id": 666176,
  "player_name": "Jo Adell",
  "team": "LAA",
- "as_of": "2026-07-23",
+ "as_of": "2026-07-22",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 3.989,
+   "max_ev": 2.029,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.333,
   "expectancy_score": 10.0,
-  "last_appearance": "2026-07-21"
+  "last_appearance": "2026-07-22"
  },
  "days": [
+  {
+   "date": "2026-07-22",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 87.2,
+   "max_distance": 283.0,
+   "max_barrel_score": 44.0,
+   "temp_f": 84.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-07-21",
    "bbe": 4,
@@ -252,6 +270,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824004,
+   "date": "2026-07-22",
+   "player_id": 666176,
+   "player_name": "Jo Adell",
+   "team": "LAA",
+   "opponent": "STL",
+   "result": "Flyout",
+   "exit_velocity": 87.2,
+   "launch_angle": 46.0,
+   "hit_distance": 283.0,
+   "hc_x": 81.94,
+   "hc_y": 94.99,
+   "would_be_hr_count": 0,
+   "inning": 6,
+   "play_id": "5789878f-3ee6-318e-b384-6779d6c92bc9",
+   "venue_id": 1,
+   "venue_name": "Angel Stadium",
+   "temp_f": 84.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 44.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824005,
    "date": "2026-07-21",

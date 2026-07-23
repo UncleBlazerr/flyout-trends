@@ -1,0 +1,69 @@
+{
+ "player_id": 650559,
+ "player_name": "Bryan De La Cruz",
+ "team": "PHI",
+ "as_of": "2026-07-22",
+ "form": {
+  "streak": 0,
+  "frequency": 0.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-22"
+ },
+ "days": [
+  {
+   "date": "2026-07-22",
+   "bbe": 1,
+   "hr": 1,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 105.8,
+   "max_distance": 404.0,
+   "max_barrel_score": 79.5,
+   "temp_f": 89.0,
+   "wind_mph": 12.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 823438,
+   "date": "2026-07-22",
+   "player_id": 650559,
+   "player_name": "Bryan De La Cruz",
+   "team": "PHI",
+   "opponent": "LAD",
+   "result": "Home Run",
+   "exit_velocity": 105.8,
+   "launch_angle": 36.0,
+   "hit_distance": 404.0,
+   "hc_x": 141.55,
+   "hc_y": 36.48,
+   "would_be_hr_count": 14,
+   "inning": 5,
+   "play_id": "769f0494-1f82-3010-a469-b63ca740065a",
+   "venue_id": 2681,
+   "venue_name": "Citizens Bank Park",
+   "temp_f": 89.0,
+   "wind_mph": 12.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 79.5,
+   "barrel_flag": false,
+   "is_home_run": true,
+   "is_near_hr": false
+  }
+ ]
+}

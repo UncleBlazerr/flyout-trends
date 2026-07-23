@@ -2,20 +2,38 @@
  "player_id": 665966,
  "player_name": "Carlos Narv\u00e1ez",
  "team": "BOS",
- "as_of": "2026-07-23",
+ "as_of": "2026-07-22",
  "form": {
-  "streak": 0,
-  "frequency": 0.75,
+  "streak": 1,
+  "frequency": 0.8,
   "slopes": {
-   "max_ev": 1.38,
-   "parks_sum": -5.7,
-   "near_hr": -0.3
+   "max_ev": -0.19,
+   "parks_sum": -3.8,
+   "near_hr": -0.1
   },
-  "intensity": 0.23,
-  "expectancy_score": 29.4,
-  "last_appearance": "2026-07-17"
+  "intensity": 0.0,
+  "expectancy_score": 32.0,
+  "last_appearance": "2026-07-22"
  },
  "days": [
+  {
+   "date": "2026-07-22",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 1,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 97.9,
+   "max_distance": 362.0,
+   "max_barrel_score": 72.9,
+   "temp_f": 77.0,
+   "wind_mph": 2.0,
+   "wind_dir": "out",
+   "weather_condition": "Overcast"
+  },
   {
    "date": "2026-07-17",
    "bbe": 4,
@@ -90,6 +108,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824732,
+   "date": "2026-07-22",
+   "player_id": 665966,
+   "player_name": "Carlos Narv\u00e1ez",
+   "team": "BOS",
+   "opponent": "BAL",
+   "result": "Flyout",
+   "exit_velocity": 97.9,
+   "launch_angle": 33.0,
+   "hit_distance": 362.0,
+   "hc_x": 167.61,
+   "hc_y": 59.22,
+   "would_be_hr_count": 0,
+   "inning": 3,
+   "play_id": "66e73985-37f1-3ea2-a4a3-db72ebb28aa5",
+   "venue_id": 3,
+   "venue_name": "Fenway Park",
+   "temp_f": 77.0,
+   "wind_mph": 2.0,
+   "wind_dir": "out",
+   "weather_condition": "Overcast",
+   "distance_flag": true,
+   "would_be_hr_flag": false,
+   "barrel_score": 72.9,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 824766,
    "date": "2026-07-17",

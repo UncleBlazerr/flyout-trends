@@ -2,20 +2,38 @@
  "player_id": 606192,
  "player_name": "Teoscar Hern\u00e1ndez",
  "team": "LAD",
- "as_of": "2026-07-23",
+ "as_of": "2026-07-22",
  "form": {
   "streak": 0,
-  "frequency": 0.571,
+  "frequency": 0.429,
   "slopes": {
-   "max_ev": 1.261,
-   "parks_sum": -0.357,
+   "max_ev": -3.375,
+   "parks_sum": -0.536,
    "near_hr": -0.214
   },
-  "intensity": 0.21,
-  "expectancy_score": 23.4,
-  "last_appearance": "2026-07-20"
+  "intensity": 0.0,
+  "expectancy_score": 12.9,
+  "last_appearance": "2026-07-22"
  },
  "days": [
+  {
+   "date": "2026-07-22",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 57.1,
+   "max_distance": 3.0,
+   "max_barrel_score": 0.2,
+   "temp_f": 89.0,
+   "wind_mph": 12.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-20",
    "bbe": 5,
@@ -180,6 +198,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823438,
+   "date": "2026-07-22",
+   "player_id": 606192,
+   "player_name": "Teoscar Hern\u00e1ndez",
+   "team": "LAD",
+   "opponent": "PHI",
+   "result": "Single",
+   "exit_velocity": 57.1,
+   "launch_angle": -58.0,
+   "hit_distance": 3.0,
+   "hc_x": 117.84,
+   "hc_y": 162.56,
+   "would_be_hr_count": 0,
+   "inning": 5,
+   "play_id": "1839eff7-b696-358c-931f-9d6532cd412a",
+   "venue_id": 2681,
+   "venue_name": "Citizens Bank Park",
+   "temp_f": 89.0,
+   "wind_mph": 12.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 0.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823436,
    "date": "2026-07-20",

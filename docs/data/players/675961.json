@@ -2,20 +2,38 @@
  "player_id": 675961,
  "player_name": "Alika Williams",
  "team": "ATH",
- "as_of": "2026-07-23",
+ "as_of": "2026-07-22",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -0.682,
-   "parks_sum": 0.071,
+   "max_ev": -0.557,
+   "parks_sum": 0.036,
    "near_hr": 0.0
   },
-  "intensity": 0.008,
-  "expectancy_score": 0.2,
-  "last_appearance": "2026-07-21"
+  "intensity": 0.004,
+  "expectancy_score": 0.1,
+  "last_appearance": "2026-07-22"
  },
  "days": [
+  {
+   "date": "2026-07-22",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 83.1,
+   "max_distance": 309.0,
+   "max_barrel_score": 61.7,
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-07-21",
    "bbe": 2,
@@ -144,6 +162,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 825055,
+   "date": "2026-07-22",
+   "player_id": 675961,
+   "player_name": "Alika Williams",
+   "team": "ATH",
+   "opponent": "AZ",
+   "result": "Sac Fly",
+   "exit_velocity": 83.1,
+   "launch_angle": 28.0,
+   "hit_distance": 309.0,
+   "hc_x": 110.94,
+   "hc_y": 76.35,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "47be3126-eb28-32f0-ad60-5906ab8a4c4b",
+   "venue_id": 15,
+   "venue_name": "Chase Field",
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 61.7,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 825056,
    "date": "2026-07-21",

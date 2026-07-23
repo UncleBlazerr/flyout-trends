@@ -2,20 +2,38 @@
  "player_id": 657136,
  "player_name": "Connor Wong",
  "team": "BOS",
- "as_of": "2026-07-23",
+ "as_of": "2026-07-22",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 9.014,
+   "max_ev": 1.046,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.333,
-  "expectancy_score": 10.0,
-  "last_appearance": "2026-07-20"
+  "intensity": 0.174,
+  "expectancy_score": 5.2,
+  "last_appearance": "2026-07-22"
  },
  "days": [
+  {
+   "date": "2026-07-22",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 74.2,
+   "max_distance": 84.0,
+   "max_barrel_score": 17.0,
+   "temp_f": 82.0,
+   "wind_mph": 11.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-20",
    "bbe": 2,
@@ -162,6 +180,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824735,
+   "date": "2026-07-22",
+   "player_id": 657136,
+   "player_name": "Connor Wong",
+   "team": "BOS",
+   "opponent": "BAL",
+   "result": "Groundout",
+   "exit_velocity": 74.2,
+   "launch_angle": 7.0,
+   "hit_distance": 84.0,
+   "hc_x": 134.9,
+   "hc_y": 142.21,
+   "would_be_hr_count": 0,
+   "inning": 6,
+   "play_id": "08e37208-e0e5-37f2-b2c0-cbe32418700a",
+   "venue_id": 3,
+   "venue_name": "Fenway Park",
+   "temp_f": 82.0,
+   "wind_mph": 11.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 17.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824736,
    "date": "2026-07-20",

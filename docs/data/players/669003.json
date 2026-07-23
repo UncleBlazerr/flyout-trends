@@ -2,20 +2,38 @@
  "player_id": 669003,
  "player_name": "Garrett Mitchell",
  "team": "MIL",
- "as_of": "2026-07-23",
+ "as_of": "2026-07-22",
  "form": {
-  "streak": 2,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": -0.679,
+   "max_ev": -0.961,
    "parks_sum": 0.0,
-   "near_hr": 0.196
+   "near_hr": 0.116
   },
-  "intensity": 0.065,
-  "expectancy_score": 26.5,
-  "last_appearance": "2026-07-21"
+  "intensity": 0.039,
+  "expectancy_score": 9.7,
+  "last_appearance": "2026-07-22"
  },
  "days": [
+  {
+   "date": "2026-07-22",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 93.4,
+   "max_distance": 7.0,
+   "max_barrel_score": 21.3,
+   "temp_f": 72.0,
+   "wind_mph": 2.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-21",
    "bbe": 3,
@@ -252,6 +270,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823761,
+   "date": "2026-07-22",
+   "player_id": 669003,
+   "player_name": "Garrett Mitchell",
+   "team": "MIL",
+   "opponent": "NYM",
+   "result": "Groundout",
+   "exit_velocity": 93.4,
+   "launch_angle": -23.0,
+   "hit_distance": 7.0,
+   "hc_x": 141.17,
+   "hc_y": 152.19,
+   "would_be_hr_count": 0,
+   "inning": 3,
+   "play_id": "c1625cd6-91c8-3dde-8de2-be442de3c659",
+   "venue_id": 32,
+   "venue_name": "American Family Field",
+   "temp_f": 72.0,
+   "wind_mph": 2.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 21.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823760,
    "date": "2026-07-21",

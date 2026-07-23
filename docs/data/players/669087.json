@@ -1,0 +1,69 @@
+{
+ "player_id": 669087,
+ "player_name": "Sam Huff",
+ "team": "BAL",
+ "as_of": "2026-07-22",
+ "form": {
+  "streak": 0,
+  "frequency": 0.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-22"
+ },
+ "days": [
+  {
+   "date": "2026-07-22",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 101.1,
+   "max_distance": 10.0,
+   "max_barrel_score": 28.3,
+   "temp_f": 82.0,
+   "wind_mph": 11.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 824735,
+   "date": "2026-07-22",
+   "player_id": 669087,
+   "player_name": "Sam Huff",
+   "team": "BAL",
+   "opponent": "BOS",
+   "result": "Groundout",
+   "exit_velocity": 101.1,
+   "launch_angle": -12.0,
+   "hit_distance": 10.0,
+   "hc_x": 101.14,
+   "hc_y": 164.35,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "8006eb52-9351-3fd9-b696-e3861c6228ac",
+   "venue_id": 3,
+   "venue_name": "Fenway Park",
+   "temp_f": 82.0,
+   "wind_mph": 11.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 28.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  }
+ ]
+}

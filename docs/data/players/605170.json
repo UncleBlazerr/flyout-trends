@@ -2,20 +2,38 @@
  "player_id": 605170,
  "player_name": "Victor Caratini",
  "team": "MIN",
- "as_of": "2026-07-23",
+ "as_of": "2026-07-22",
  "form": {
-  "streak": 0,
-  "frequency": 0.0,
+  "streak": 1,
+  "frequency": 0.143,
   "slopes": {
-   "max_ev": -0.071,
-   "parks_sum": 0.071,
-   "near_hr": 0.0
+   "max_ev": -0.696,
+   "parks_sum": 0.036,
+   "near_hr": 0.107
   },
-  "intensity": 0.008,
-  "expectancy_score": 0.2,
-  "last_appearance": "2026-07-21"
+  "intensity": 0.04,
+  "expectancy_score": 13.5,
+  "last_appearance": "2026-07-22"
  },
  "days": [
+  {
+   "date": "2026-07-22",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 1,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 95.1,
+   "max_distance": 368.0,
+   "max_barrel_score": 73.0,
+   "temp_f": 70.0,
+   "wind_mph": 6.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-21",
    "bbe": 3,
@@ -180,6 +198,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824408,
+   "date": "2026-07-22",
+   "player_id": 605170,
+   "player_name": "Victor Caratini",
+   "team": "MIN",
+   "opponent": "CLE",
+   "result": "Lineout",
+   "exit_velocity": 95.1,
+   "launch_angle": 24.0,
+   "hit_distance": 368.0,
+   "hc_x": 173.92,
+   "hc_y": 58.32,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "5ea817d7-d003-3c96-8655-b6207adcb9da",
+   "venue_id": 5,
+   "venue_name": "Progressive Field",
+   "temp_f": 70.0,
+   "wind_mph": 6.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": true,
+   "would_be_hr_flag": false,
+   "barrel_score": 73.0,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 824409,
    "date": "2026-07-21",
