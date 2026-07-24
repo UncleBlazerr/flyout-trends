@@ -2,9 +2,9 @@
  "player_id": 687859,
  "player_name": "Troy Johnston",
  "team": "COL",
- "as_of": "2026-07-22",
+ "as_of": "2026-07-24",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.571,
   "slopes": {
    "max_ev": -0.582,
@@ -12,7 +12,7 @@
    "near_hr": 0.062
   },
   "intensity": 0.021,
-  "expectancy_score": 25.8,
+  "expectancy_score": 17.8,
   "last_appearance": "2026-07-21"
  },
  "days": [

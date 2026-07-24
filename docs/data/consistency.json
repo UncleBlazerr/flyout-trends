@@ -1,23 +1,13 @@
 {
- "as_of": "2026-07-22",
+ "as_of": "2026-07-24",
  "players": [
-  {
-   "player_id": 671289,
-   "player_name": "Tyler Freeman",
-   "team": "COL",
-   "record_streak": 4,
-   "total_flags": 4,
-   "avg_score": 50.4,
-   "current_score": 53.9,
-   "game_streak": 3
-  },
   {
    "player_id": 694374,
    "player_name": "Tim Tawa",
    "team": "AZ",
-   "record_streak": 2,
-   "total_flags": 5,
-   "avg_score": 44.1,
+   "record_streak": 4,
+   "total_flags": 7,
+   "avg_score": 44.4,
    "current_score": 53.0,
    "game_streak": 3
   },
@@ -25,9 +15,9 @@
    "player_id": 681715,
    "player_name": "Heriberto Hern\u00e1ndez",
    "team": "MIA",
-   "record_streak": 2,
-   "total_flags": 3,
-   "avg_score": 49.9,
+   "record_streak": 4,
+   "total_flags": 5,
+   "avg_score": 50.6,
    "current_score": 56.7,
    "game_streak": 3
   },
@@ -35,30 +25,30 @@
    "player_id": 668709,
    "player_name": "JJ Bleday",
    "team": "CIN",
-   "record_streak": 2,
-   "total_flags": 2,
+   "record_streak": 4,
+   "total_flags": 4,
    "avg_score": 52.0,
    "current_score": 60.8,
    "game_streak": 4
   },
   {
-   "player_id": 808959,
-   "player_name": "Munetaka Murakami",
-   "team": "CWS",
-   "record_streak": 2,
-   "total_flags": 2,
-   "avg_score": 38.7,
-   "current_score": 38.7,
-   "game_streak": 2
-  },
-  {
    "player_id": 672695,
    "player_name": "Geraldo Perdomo",
    "team": "AZ",
-   "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 44.6,
+   "record_streak": 3,
+   "total_flags": 4,
+   "avg_score": 41.4,
    "current_score": 43.2,
+   "game_streak": 3
+  },
+  {
+   "player_id": 665052,
+   "player_name": "Griffin Conine",
+   "team": "MIA",
+   "record_streak": 3,
+   "total_flags": 3,
+   "avg_score": 38.3,
+   "current_score": 42.7,
    "game_streak": 3
   },
   {
@@ -66,7 +56,7 @@
    "player_name": "Kyle Stowers",
    "team": "MIA",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 50.0,
    "current_score": 50.0,
    "game_streak": 3
@@ -76,27 +66,17 @@
    "player_name": "Jorbit Vivas",
    "team": "WSH",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 45.9,
    "current_score": 45.9,
    "game_streak": 2
-  },
-  {
-   "player_id": 665052,
-   "player_name": "Griffin Conine",
-   "team": "MIA",
-   "record_streak": 1,
-   "total_flags": 1,
-   "avg_score": 42.7,
-   "current_score": 42.7,
-   "game_streak": 3
   },
   {
    "player_id": 663853,
    "player_name": "Romy Gonzalez",
    "team": "BOS",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 39.9,
    "current_score": 39.9,
    "game_streak": 2
@@ -106,7 +86,7 @@
    "player_name": "Brandon Lowe",
    "team": "PIT",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 39.7,
    "current_score": 39.7,
    "game_streak": 1
@@ -116,7 +96,7 @@
    "player_name": "James Wood",
    "team": "WSH",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 38.8,
    "current_score": 38.8,
    "game_streak": 2
@@ -126,7 +106,7 @@
    "player_name": "Johnathan Rodr\u00edguez",
    "team": "BAL",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 38.0,
    "current_score": 38.0,
    "game_streak": 1
@@ -136,7 +116,7 @@
    "player_name": "Edgar Quero",
    "team": "CWS",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 38.0,
    "current_score": 38.0,
    "game_streak": 1
@@ -146,10 +126,30 @@
    "player_name": "Corbin Carroll",
    "team": "AZ",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 37.6,
    "current_score": 37.6,
    "game_streak": 1
+  },
+  {
+   "player_id": 694671,
+   "player_name": "Wyatt Langford",
+   "team": "TEX",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 35.0,
+   "current_score": 35.0,
+   "game_streak": 2
+  },
+  {
+   "player_id": 668952,
+   "player_name": "Ryan Kreidler",
+   "team": "MIN",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 34.6,
+   "current_score": 34.6,
+   "game_streak": 2
   }
  ]
 }
