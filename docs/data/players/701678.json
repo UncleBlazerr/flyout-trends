@@ -2,20 +2,38 @@
  "player_id": 701678,
  "player_name": "Hao-Yu Lee",
  "team": "DET",
- "as_of": "2026-07-24",
+ "as_of": "2026-07-23",
  "form": {
   "streak": 0,
-  "frequency": 0.429,
+  "frequency": 0.286,
   "slopes": {
-   "max_ev": -0.211,
+   "max_ev": -0.861,
    "parks_sum": 0.0,
-   "near_hr": -0.116
+   "near_hr": -0.125
   },
   "intensity": 0.0,
-  "expectancy_score": 12.9,
-  "last_appearance": "2026-07-22"
+  "expectancy_score": 8.6,
+  "last_appearance": "2026-07-23"
  },
  "days": [
+  {
+   "date": "2026-07-23",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 99.7,
+   "max_distance": 20.0,
+   "max_barrel_score": 27.7,
+   "temp_f": 76.0,
+   "wind_mph": 7.0,
+   "wind_dir": "in",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-22",
    "bbe": 3,
@@ -180,6 +198,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824247,
+   "date": "2026-07-23",
+   "player_id": 701678,
+   "player_name": "Hao-Yu Lee",
+   "team": "DET",
+   "opponent": "KC",
+   "result": "Single",
+   "exit_velocity": 99.7,
+   "launch_angle": -7.0,
+   "hit_distance": 20.0,
+   "hc_x": 130.53,
+   "hc_y": 94.93,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "f5390a43-a43a-340e-8dc9-2357574da0f9",
+   "venue_id": 2394,
+   "venue_name": "Comerica Park",
+   "temp_f": 76.0,
+   "wind_mph": 7.0,
+   "wind_dir": "in",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 27.7,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824650,
    "date": "2026-07-22",

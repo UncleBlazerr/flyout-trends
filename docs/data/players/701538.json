@@ -2,20 +2,38 @@
  "player_id": 701538,
  "player_name": "Jackson Merrill",
  "team": "SD",
- "as_of": "2026-07-24",
+ "as_of": "2026-07-23",
  "form": {
-  "streak": 1,
-  "frequency": 0.429,
+  "streak": 2,
+  "frequency": 0.571,
   "slopes": {
-   "max_ev": 4.764,
-   "parks_sum": -0.357,
-   "near_hr": -0.071
+   "max_ev": 0.082,
+   "parks_sum": -0.536,
+   "near_hr": -0.107
   },
-  "intensity": 0.333,
-  "expectancy_score": 30.9,
-  "last_appearance": "2026-07-22"
+  "intensity": 0.014,
+  "expectancy_score": 33.6,
+  "last_appearance": "2026-07-23"
  },
  "days": [
+  {
+   "date": "2026-07-23",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 1,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 98.2,
+   "max_distance": 357.0,
+   "max_barrel_score": 77.2,
+   "temp_f": 82.0,
+   "wind_mph": 6.0,
+   "wind_dir": "out",
+   "weather_condition": "Cloudy"
+  },
   {
    "date": "2026-07-22",
    "bbe": 4,
@@ -288,6 +306,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824893,
+   "date": "2026-07-23",
+   "player_id": 701538,
+   "player_name": "Jackson Merrill",
+   "team": "SD",
+   "opponent": "ATL",
+   "result": "Flyout",
+   "exit_velocity": 98.2,
+   "launch_angle": 26.0,
+   "hit_distance": 357.0,
+   "hc_x": 70.54,
+   "hc_y": 66.13,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "62861b46-fa09-336e-b48e-80e087a8ac6d",
+   "venue_id": 4705,
+   "venue_name": "Truist Park",
+   "temp_f": 82.0,
+   "wind_mph": 6.0,
+   "wind_dir": "out",
+   "weather_condition": "Cloudy",
+   "distance_flag": true,
+   "would_be_hr_flag": false,
+   "barrel_score": 77.2,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 824896,
    "date": "2026-07-22",

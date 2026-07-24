@@ -2,9 +2,9 @@
  "player_id": 663837,
  "player_name": "Matt Vierling",
  "team": "DET",
- "as_of": "2026-07-24",
+ "as_of": "2026-07-23",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.286,
   "slopes": {
    "max_ev": -1.25,
@@ -12,7 +12,7 @@
    "near_hr": 0.107
   },
   "intensity": 0.036,
-  "expectancy_score": 9.6,
+  "expectancy_score": 17.6,
   "last_appearance": "2026-07-21"
  },
  "days": [

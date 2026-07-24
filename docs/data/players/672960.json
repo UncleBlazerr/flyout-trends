@@ -2,20 +2,38 @@
  "player_id": 672960,
  "player_name": "Kazuma Okamoto",
  "team": "TOR",
- "as_of": "2026-07-24",
+ "as_of": "2026-07-23",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": -3.414,
-   "parks_sum": -0.286,
-   "near_hr": -0.089
+   "max_ev": -3.429,
+   "parks_sum": -0.429,
+   "near_hr": -0.134
   },
   "intensity": 0.0,
   "expectancy_score": 4.3,
-  "last_appearance": "2026-07-21"
+  "last_appearance": "2026-07-23"
  },
  "days": [
+  {
+   "date": "2026-07-23",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 97.7,
+   "max_distance": 291.0,
+   "max_barrel_score": 53.8,
+   "temp_f": 68.0,
+   "wind_mph": 13.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-07-21",
    "bbe": 2,
@@ -252,6 +270,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822785,
+   "date": "2026-07-23",
+   "player_id": 672960,
+   "player_name": "Kazuma Okamoto",
+   "team": "TOR",
+   "opponent": "TB",
+   "result": "Flyout",
+   "exit_velocity": 97.7,
+   "launch_angle": 46.0,
+   "hit_distance": 291.0,
+   "hc_x": 149.13,
+   "hc_y": 85.18,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "0893794d-e227-3965-992f-6798782a4e7e",
+   "venue_id": 14,
+   "venue_name": "Rogers Centre",
+   "temp_f": 68.0,
+   "wind_mph": 13.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 53.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 822787,
    "date": "2026-07-21",

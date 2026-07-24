@@ -2,20 +2,38 @@
  "player_id": 686780,
  "player_name": "Pedro Pag\u00e9s",
  "team": "STL",
- "as_of": "2026-07-24",
+ "as_of": "2026-07-23",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 3.9,
+   "max_ev": -13.15,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.333,
-  "expectancy_score": 10.0,
-  "last_appearance": "2026-07-06"
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-23"
  },
  "days": [
+  {
+   "date": "2026-07-23",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 75.5,
+   "max_distance": 20.0,
+   "max_barrel_score": 6.2,
+   "temp_f": 78.0,
+   "wind_mph": 4.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-06",
    "bbe": 3,
@@ -54,6 +72,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823042,
+   "date": "2026-07-23",
+   "player_id": 686780,
+   "player_name": "Pedro Pag\u00e9s",
+   "team": "STL",
+   "opponent": "AZ",
+   "result": "Pop Out",
+   "exit_velocity": 75.5,
+   "launch_angle": 84.0,
+   "hit_distance": 20.0,
+   "hc_x": 136.61,
+   "hc_y": 213.5,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "0042bbd9-a49a-3ddd-a82c-a9e2d548f55e",
+   "venue_id": 2889,
+   "venue_name": "Busch Stadium",
+   "temp_f": 78.0,
+   "wind_mph": 4.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 6.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823036,
    "date": "2026-07-06",

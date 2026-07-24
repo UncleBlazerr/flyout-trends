@@ -2,9 +2,9 @@
  "player_id": 547180,
  "player_name": "Bryce Harper",
  "team": "PHI",
- "as_of": "2026-07-24",
+ "as_of": "2026-07-23",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 0.436,
@@ -12,7 +12,7 @@
    "near_hr": 0.0
   },
   "intensity": 0.073,
-  "expectancy_score": 10.8,
+  "expectancy_score": 18.8,
   "last_appearance": "2026-07-21"
  },
  "days": [

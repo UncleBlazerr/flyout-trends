@@ -2,9 +2,9 @@
  "player_id": 686475,
  "player_name": "Tyler Tolbert",
  "team": "KC",
- "as_of": "2026-07-24",
+ "as_of": "2026-07-23",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.286,
   "slopes": {
    "max_ev": -6.993,
@@ -12,7 +12,7 @@
    "near_hr": 0.179
   },
   "intensity": 0.072,
-  "expectancy_score": 10.7,
+  "expectancy_score": 18.7,
   "last_appearance": "2026-07-21"
  },
  "days": [

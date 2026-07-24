@@ -2,20 +2,38 @@
  "player_id": 605137,
  "player_name": "Josh Bell",
  "team": "MIN",
- "as_of": "2026-07-24",
+ "as_of": "2026-07-23",
  "form": {
-  "streak": 2,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": -0.257,
+   "max_ev": -1.743,
    "parks_sum": 0.0,
-   "near_hr": 0.196
+   "near_hr": 0.116
   },
-  "intensity": 0.065,
-  "expectancy_score": 26.5,
-  "last_appearance": "2026-07-22"
+  "intensity": 0.039,
+  "expectancy_score": 9.7,
+  "last_appearance": "2026-07-23"
  },
  "days": [
+  {
+   "date": "2026-07-23",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 84.0,
+   "max_distance": 9.0,
+   "max_barrel_score": 13.0,
+   "temp_f": 72.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-07-22",
    "bbe": 5,
@@ -270,6 +288,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824406,
+   "date": "2026-07-23",
+   "player_id": 605137,
+   "player_name": "Josh Bell",
+   "team": "MIN",
+   "opponent": "CLE",
+   "result": "GIDP",
+   "exit_velocity": 84.0,
+   "launch_angle": -22.0,
+   "hit_distance": 9.0,
+   "hc_x": 144.61,
+   "hc_y": 149.22,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "7555caa4-fd46-3189-8b64-5d09bb138954",
+   "venue_id": 5,
+   "venue_name": "Progressive Field",
+   "temp_f": 72.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 13.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824408,
    "date": "2026-07-22",

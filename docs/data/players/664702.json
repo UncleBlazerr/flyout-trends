@@ -2,20 +2,38 @@
  "player_id": 664702,
  "player_name": "Myles Straw",
  "team": "TOR",
- "as_of": "2026-07-24",
+ "as_of": "2026-07-23",
  "form": {
   "streak": 0,
   "frequency": 0.429,
   "slopes": {
-   "max_ev": -1.129,
+   "max_ev": -2.461,
    "parks_sum": 0.0,
-   "near_hr": -0.036
+   "near_hr": -0.143
   },
   "intensity": 0.0,
   "expectancy_score": 12.9,
-  "last_appearance": "2026-07-21"
+  "last_appearance": "2026-07-23"
  },
  "days": [
+  {
+   "date": "2026-07-23",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 78.3,
+   "max_distance": 34.0,
+   "max_barrel_score": 9.6,
+   "temp_f": 68.0,
+   "wind_mph": 13.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-07-21",
    "bbe": 3,
@@ -180,6 +198,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822785,
+   "date": "2026-07-23",
+   "player_id": 664702,
+   "player_name": "Myles Straw",
+   "team": "TOR",
+   "opponent": "TB",
+   "result": "Pop Out",
+   "exit_velocity": 78.3,
+   "launch_angle": 80.0,
+   "hit_distance": 34.0,
+   "hc_x": 125.25,
+   "hc_y": 190.37,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "1a1b6188-31f0-3805-b054-35aa48ea5583",
+   "venue_id": 14,
+   "venue_name": "Rogers Centre",
+   "temp_f": 68.0,
+   "wind_mph": 13.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 9.6,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 822787,
    "date": "2026-07-21",

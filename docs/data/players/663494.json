@@ -2,20 +2,38 @@
  "player_id": 663494,
  "player_name": "Bryan Torres",
  "team": "STL",
- "as_of": "2026-07-24",
+ "as_of": "2026-07-23",
  "form": {
   "streak": 0,
   "frequency": 0.429,
   "slopes": {
-   "max_ev": -1.807,
-   "parks_sum": -0.429,
-   "near_hr": -0.036
+   "max_ev": -0.411,
+   "parks_sum": -0.643,
+   "near_hr": -0.143
   },
   "intensity": 0.0,
   "expectancy_score": 12.9,
-  "last_appearance": "2026-07-21"
+  "last_appearance": "2026-07-23"
  },
  "days": [
+  {
+   "date": "2026-07-23",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 93.3,
+   "max_distance": 180.0,
+   "max_barrel_score": 48.0,
+   "temp_f": 78.0,
+   "wind_mph": 4.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-21",
    "bbe": 1,
@@ -144,6 +162,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823042,
+   "date": "2026-07-23",
+   "player_id": 663494,
+   "player_name": "Bryan Torres",
+   "team": "STL",
+   "opponent": "AZ",
+   "result": "Single",
+   "exit_velocity": 93.3,
+   "launch_angle": 14.0,
+   "hit_distance": 180.0,
+   "hc_x": 177.84,
+   "hc_y": 111.76,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "daae32c2-8627-369f-84e5-c7f14998f5b7",
+   "venue_id": 2889,
+   "venue_name": "Busch Stadium",
+   "temp_f": 78.0,
+   "wind_mph": 4.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 48.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824005,
    "date": "2026-07-21",

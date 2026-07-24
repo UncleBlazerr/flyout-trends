@@ -1,0 +1,69 @@
+{
+ "player_id": 676914,
+ "player_name": "Davis Schneider",
+ "team": "TOR",
+ "as_of": "2026-07-23",
+ "form": {
+  "streak": 0,
+  "frequency": 0.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-23"
+ },
+ "days": [
+  {
+   "date": "2026-07-23",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 88.2,
+   "max_distance": 268.0,
+   "max_barrel_score": 38.4,
+   "temp_f": 68.0,
+   "wind_mph": 13.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny"
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 822785,
+   "date": "2026-07-23",
+   "player_id": 676914,
+   "player_name": "Davis Schneider",
+   "team": "TOR",
+   "opponent": "TB",
+   "result": "Flyout",
+   "exit_velocity": 88.2,
+   "launch_angle": 51.0,
+   "hit_distance": 268.0,
+   "hc_x": 173.56,
+   "hc_y": 103.29,
+   "would_be_hr_count": 0,
+   "inning": 6,
+   "play_id": "5291d6c0-10d3-3018-94c7-97090d983a91",
+   "venue_id": 14,
+   "venue_name": "Rogers Centre",
+   "temp_f": 68.0,
+   "wind_mph": 13.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 38.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  }
+ ]
+}
