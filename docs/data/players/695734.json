@@ -2,9 +2,9 @@
  "player_id": 695734,
  "player_name": "Daylen Lile",
  "team": "WSH",
- "as_of": "2026-07-23",
+ "as_of": "2026-07-25",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.571,
   "slopes": {
    "max_ev": -0.232,
@@ -12,7 +12,7 @@
    "near_hr": -0.134
   },
   "intensity": 0.095,
-  "expectancy_score": 28.0,
+  "expectancy_score": 20.0,
   "last_appearance": "2026-07-22"
  },
  "days": [

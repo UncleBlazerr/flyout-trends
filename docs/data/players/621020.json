@@ -2,9 +2,9 @@
  "player_id": 621020,
  "player_name": "Dansby Swanson",
  "team": "CHC",
- "as_of": "2026-07-23",
+ "as_of": "2026-07-25",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.429,
   "slopes": {
    "max_ev": 0.289,
@@ -12,7 +12,7 @@
    "near_hr": 0.098
   },
   "intensity": 0.085,
-  "expectancy_score": 23.4,
+  "expectancy_score": 15.4,
   "last_appearance": "2026-07-22"
  },
  "days": [

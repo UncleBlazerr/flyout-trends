@@ -2,9 +2,9 @@
  "player_id": 678882,
  "player_name": "Ceddanne Rafaela",
  "team": "BOS",
- "as_of": "2026-07-23",
+ "as_of": "2026-07-25",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.429,
   "slopes": {
    "max_ev": 1.839,
@@ -12,7 +12,7 @@
    "near_hr": 0.17
   },
   "intensity": 0.363,
-  "expectancy_score": 31.8,
+  "expectancy_score": 23.8,
   "last_appearance": "2026-07-22"
  },
  "days": [

@@ -2,9 +2,9 @@
  "player_id": 678391,
  "player_name": "Jorbit Vivas",
  "team": "WSH",
- "as_of": "2026-07-23",
+ "as_of": "2026-07-25",
  "form": {
-  "streak": 2,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 2.732,
@@ -12,7 +12,7 @@
    "near_hr": 0.205
   },
   "intensity": 0.711,
-  "expectancy_score": 45.9,
+  "expectancy_score": 29.9,
   "last_appearance": "2026-07-22"
  },
  "days": [

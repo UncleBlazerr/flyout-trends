@@ -2,9 +2,9 @@
  "player_id": 671976,
  "player_name": "Tristan Peters",
  "team": "CWS",
- "as_of": "2026-07-23",
+ "as_of": "2026-07-25",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.429,
   "slopes": {
    "max_ev": 0.45,
@@ -12,7 +12,7 @@
    "near_hr": 0.08
   },
   "intensity": 0.181,
-  "expectancy_score": 26.3,
+  "expectancy_score": 18.3,
   "last_appearance": "2026-07-22"
  },
  "days": [

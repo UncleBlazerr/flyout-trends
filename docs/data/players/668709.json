@@ -2,9 +2,9 @@
  "player_id": 668709,
  "player_name": "JJ Bleday",
  "team": "CIN",
- "as_of": "2026-07-23",
+ "as_of": "2026-07-25",
  "form": {
-  "streak": 4,
+  "streak": 0,
   "frequency": 0.714,
   "slopes": {
    "max_ev": 1.179,
@@ -12,7 +12,7 @@
    "near_hr": 0.143
   },
   "intensity": 0.244,
-  "expectancy_score": 60.8,
+  "expectancy_score": 28.8,
   "last_appearance": "2026-07-22"
  },
  "days": [

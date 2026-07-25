@@ -2,9 +2,9 @@
  "player_id": 663538,
  "player_name": "Nico Hoerner",
  "team": "CHC",
- "as_of": "2026-07-23",
+ "as_of": "2026-07-25",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.143,
   "slopes": {
    "max_ev": 1.086,
@@ -12,7 +12,7 @@
    "near_hr": 0.107
   },
   "intensity": 0.217,
-  "expectancy_score": 18.8,
+  "expectancy_score": 10.8,
   "last_appearance": "2026-07-22"
  },
  "days": [

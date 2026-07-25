@@ -2,9 +2,9 @@
  "player_id": 695578,
  "player_name": "James Wood",
  "team": "WSH",
- "as_of": "2026-07-23",
+ "as_of": "2026-07-25",
  "form": {
-  "streak": 2,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 1.521,
@@ -12,7 +12,7 @@
    "near_hr": 0.304
   },
   "intensity": 0.474,
-  "expectancy_score": 38.8,
+  "expectancy_score": 22.8,
   "last_appearance": "2026-07-22"
  },
  "days": [

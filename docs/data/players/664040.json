@@ -2,9 +2,9 @@
  "player_id": 664040,
  "player_name": "Brandon Lowe",
  "team": "PIT",
- "as_of": "2026-07-23",
+ "as_of": "2026-07-25",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.714,
   "slopes": {
    "max_ev": 1.764,
@@ -12,7 +12,7 @@
    "near_hr": -0.009
   },
   "intensity": 0.342,
-  "expectancy_score": 39.7,
+  "expectancy_score": 31.7,
   "last_appearance": "2026-07-22"
  },
  "days": [

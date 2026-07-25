@@ -2,9 +2,9 @@
  "player_id": 672640,
  "player_name": "Otto Lopez",
  "team": "MIA",
- "as_of": "2026-07-23",
+ "as_of": "2026-07-25",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 4.204,
@@ -12,7 +12,7 @@
    "near_hr": 0.143
   },
   "intensity": 0.393,
-  "expectancy_score": 28.4,
+  "expectancy_score": 20.4,
   "last_appearance": "2026-07-22"
  },
  "days": [
