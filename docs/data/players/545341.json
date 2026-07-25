@@ -2,20 +2,38 @@
  "player_id": 545341,
  "player_name": "Randal Grichuk",
  "team": "CWS",
- "as_of": "2026-07-25",
+ "as_of": "2026-07-24",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 3.0,
+   "max_ev": -0.432,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.333,
-  "expectancy_score": 10.0,
-  "last_appearance": "2026-07-20"
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-07-24"
  },
  "days": [
+  {
+   "date": "2026-07-24",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 91.3,
+   "max_distance": 106.0,
+   "max_barrel_score": 26.0,
+   "temp_f": 76.0,
+   "wind_mph": 8.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-20",
    "bbe": 1,
@@ -180,6 +198,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824573,
+   "date": "2026-07-24",
+   "player_id": 545341,
+   "player_name": "Randal Grichuk",
+   "team": "CWS",
+   "opponent": "HOU",
+   "result": "Pop Out",
+   "exit_velocity": 91.3,
+   "launch_angle": 70.0,
+   "hit_distance": 106.0,
+   "hc_x": 100.42,
+   "hc_y": 165.27,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "f435c066-00b7-3d8a-b602-5ee508d6f8ae",
+   "venue_id": 4,
+   "venue_name": "Rate Field",
+   "temp_f": 76.0,
+   "wind_mph": 8.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 26.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 822874,
    "date": "2026-07-20",

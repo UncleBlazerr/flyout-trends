@@ -2,20 +2,38 @@
  "player_id": 669236,
  "player_name": "Jeremiah Jackson",
  "team": "BAL",
- "as_of": "2026-07-25",
+ "as_of": "2026-07-24",
  "form": {
   "streak": 0,
-  "frequency": 0.4,
+  "frequency": 0.333,
   "slopes": {
-   "max_ev": -6.45,
-   "parks_sum": 0.0,
-   "near_hr": -0.125
+   "max_ev": -1.286,
+   "parks_sum": -0.029,
+   "near_hr": -0.143
   },
   "intensity": 0.0,
-  "expectancy_score": 12.0,
-  "last_appearance": "2026-07-20"
+  "expectancy_score": 10.0,
+  "last_appearance": "2026-07-24"
  },
  "days": [
+  {
+   "date": "2026-07-24",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 101.8,
+   "max_distance": 326.0,
+   "max_barrel_score": 64.2,
+   "temp_f": 77.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-20",
    "bbe": 3,
@@ -108,6 +126,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824812,
+   "date": "2026-07-24",
+   "player_id": 669236,
+   "player_name": "Jeremiah Jackson",
+   "team": "BAL",
+   "opponent": "ATL",
+   "result": "Sac Fly",
+   "exit_velocity": 101.8,
+   "launch_angle": 42.0,
+   "hit_distance": 326.0,
+   "hc_x": 82.44,
+   "hc_y": 75.38,
+   "would_be_hr_count": 0,
+   "inning": 10,
+   "play_id": "cd68025a-855a-3549-8e25-70278fb4c189",
+   "venue_id": 2,
+   "venue_name": "Oriole Park at Camden Yards",
+   "temp_f": 77.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 64.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824736,
    "date": "2026-07-20",

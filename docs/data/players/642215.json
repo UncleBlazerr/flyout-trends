@@ -2,20 +2,38 @@
  "player_id": 642215,
  "player_name": "Weston Wilson",
  "team": "SEA",
- "as_of": "2026-07-25",
+ "as_of": "2026-07-24",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -0.56,
+   "max_ev": 1.175,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.0,
-  "expectancy_score": 0.0,
-  "last_appearance": "2026-07-22"
+  "intensity": 0.196,
+  "expectancy_score": 5.9,
+  "last_appearance": "2026-07-24"
  },
  "days": [
+  {
+   "date": "2026-07-24",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 107.7,
+   "max_distance": 209.0,
+   "max_barrel_score": 56.2,
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-07-22",
    "bbe": 2,
@@ -126,6 +144,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822872,
+   "date": "2026-07-24",
+   "player_id": 642215,
+   "player_name": "Weston Wilson",
+   "team": "SEA",
+   "opponent": "TEX",
+   "result": "Single",
+   "exit_velocity": 107.7,
+   "launch_angle": 8.0,
+   "hit_distance": 209.0,
+   "hc_x": 157.38,
+   "hc_y": 92.17,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "c6892f6d-21c0-3ba4-bb74-d747a2668b93",
+   "venue_id": 5325,
+   "venue_name": "Globe Life Field",
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 56.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823110,
    "date": "2026-07-22",

@@ -2,20 +2,38 @@
  "player_id": 605170,
  "player_name": "Victor Caratini",
  "team": "MIN",
- "as_of": "2026-07-25",
+ "as_of": "2026-07-24",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": -0.696,
-   "parks_sum": 0.036,
-   "near_hr": 0.107
+   "max_ev": -1.096,
+   "parks_sum": 0.0,
+   "near_hr": 0.071
   },
-  "intensity": 0.04,
-  "expectancy_score": 5.5,
-  "last_appearance": "2026-07-22"
+  "intensity": 0.024,
+  "expectancy_score": 5.0,
+  "last_appearance": "2026-07-24"
  },
  "days": [
+  {
+   "date": "2026-07-24",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 91.4,
+   "max_distance": 272.0,
+   "max_barrel_score": 44.8,
+   "temp_f": 79.0,
+   "wind_mph": 12.0,
+   "wind_dir": "out",
+   "weather_condition": "Cloudy"
+  },
   {
    "date": "2026-07-22",
    "bbe": 1,
@@ -198,6 +216,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823680,
+   "date": "2026-07-24",
+   "player_id": 605170,
+   "player_name": "Victor Caratini",
+   "team": "MIN",
+   "opponent": "ATH",
+   "result": "Flyout",
+   "exit_velocity": 91.4,
+   "launch_angle": 48.0,
+   "hit_distance": 272.0,
+   "hc_x": 127.99,
+   "hc_y": 90.37,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "1c1b324b-3e7a-379d-a835-079a59f177c6",
+   "venue_id": 3312,
+   "venue_name": "Target Field",
+   "temp_f": 79.0,
+   "wind_mph": 12.0,
+   "wind_dir": "out",
+   "weather_condition": "Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 44.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824408,
    "date": "2026-07-22",

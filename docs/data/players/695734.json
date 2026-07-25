@@ -2,20 +2,38 @@
  "player_id": 695734,
  "player_name": "Daylen Lile",
  "team": "WSH",
- "as_of": "2026-07-25",
+ "as_of": "2026-07-24",
  "form": {
-  "streak": 0,
+  "streak": 2,
   "frequency": 0.571,
   "slopes": {
-   "max_ev": -0.232,
-   "parks_sum": 0.857,
-   "near_hr": -0.134
+   "max_ev": 0.336,
+   "parks_sum": 0.0,
+   "near_hr": 0.071
   },
-  "intensity": 0.095,
-  "expectancy_score": 20.0,
-  "last_appearance": "2026-07-22"
+  "intensity": 0.08,
+  "expectancy_score": 35.5,
+  "last_appearance": "2026-07-24"
  },
  "days": [
+  {
+   "date": "2026-07-24",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 1,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 95.8,
+   "max_distance": 363.0,
+   "max_barrel_score": 72.2,
+   "temp_f": 79.0,
+   "wind_mph": 7.0,
+   "wind_dir": "in",
+   "weather_condition": "Cloudy"
+  },
   {
    "date": "2026-07-22",
    "bbe": 4,
@@ -252,6 +270,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822707,
+   "date": "2026-07-24",
+   "player_id": 695734,
+   "player_name": "Daylen Lile",
+   "team": "WSH",
+   "opponent": "AZ",
+   "result": "Flyout",
+   "exit_velocity": 95.8,
+   "launch_angle": 32.0,
+   "hit_distance": 363.0,
+   "hc_x": 143.25,
+   "hc_y": 53.88,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "f3f4aa4b-8bdd-3805-a1ae-4974914114d2",
+   "venue_id": 3309,
+   "venue_name": "Nationals Park",
+   "temp_f": 79.0,
+   "wind_mph": 7.0,
+   "wind_dir": "in",
+   "weather_condition": "Cloudy",
+   "distance_flag": true,
+   "would_be_hr_flag": false,
+   "barrel_score": 72.2,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 824327,
    "date": "2026-07-22",
