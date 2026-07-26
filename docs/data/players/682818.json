@@ -2,20 +2,38 @@
  "player_id": 682818,
  "player_name": "Yohendrick Pi\u00f1ango",
  "team": "TOR",
- "as_of": "2026-07-26",
+ "as_of": "2026-07-25",
  "form": {
   "streak": 0,
-  "frequency": 0.25,
+  "frequency": 0.2,
   "slopes": {
-   "max_ev": 4.4,
+   "max_ev": -0.25,
    "parks_sum": 0.0,
-   "near_hr": 0.675
+   "near_hr": 0.225
   },
-  "intensity": 0.558,
-  "expectancy_score": 24.2,
-  "last_appearance": "2026-07-23"
+  "intensity": 0.075,
+  "expectancy_score": 8.2,
+  "last_appearance": "2026-07-25"
  },
  "days": [
+  {
+   "date": "2026-07-25",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 79.8,
+   "max_distance": 252.0,
+   "max_barrel_score": 43.0,
+   "temp_f": 78.0,
+   "wind_mph": 8.0,
+   "wind_dir": "in",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-07-23",
    "bbe": 3,
@@ -90,6 +108,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824734,
+   "date": "2026-07-25",
+   "player_id": 682818,
+   "player_name": "Yohendrick Pi\u00f1ango",
+   "team": "TOR",
+   "opponent": "BOS",
+   "result": "Double Play",
+   "exit_velocity": 79.8,
+   "launch_angle": 16.0,
+   "hit_distance": 252.0,
+   "hc_x": 133.59,
+   "hc_y": 99.4,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "4234c4eb-3401-35c6-888a-d61093aff5a3",
+   "venue_id": 3,
+   "venue_name": "Fenway Park",
+   "temp_f": 78.0,
+   "wind_mph": 8.0,
+   "wind_dir": "in",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 43.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 822785,
    "date": "2026-07-23",

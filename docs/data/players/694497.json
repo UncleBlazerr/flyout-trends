@@ -2,20 +2,38 @@
  "player_id": 694497,
  "player_name": "Evan Carter",
  "team": "TEX",
- "as_of": "2026-07-26",
+ "as_of": "2026-07-25",
  "form": {
-  "streak": 2,
-  "frequency": 0.429,
+  "streak": 0,
+  "frequency": 0.286,
   "slopes": {
-   "max_ev": -0.096,
+   "max_ev": -0.582,
    "parks_sum": 0.0,
-   "near_hr": 0.045
+   "near_hr": 0.107
   },
-  "intensity": 0.015,
-  "expectancy_score": 29.3,
-  "last_appearance": "2026-07-24"
+  "intensity": 0.036,
+  "expectancy_score": 9.6,
+  "last_appearance": "2026-07-25"
  },
  "days": [
+  {
+   "date": "2026-07-25",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 84.5,
+   "max_distance": 59.0,
+   "max_barrel_score": 16.8,
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-07-24",
    "bbe": 3,
@@ -234,6 +252,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822869,
+   "date": "2026-07-25",
+   "player_id": 694497,
+   "player_name": "Evan Carter",
+   "team": "TEX",
+   "opponent": "SEA",
+   "result": "Double",
+   "exit_velocity": 84.5,
+   "launch_angle": null,
+   "hit_distance": 59.0,
+   "hc_x": 45.8,
+   "hc_y": 114.07,
+   "would_be_hr_count": 0,
+   "inning": 1,
+   "play_id": "3bfa7466-27c5-3c43-90d6-17f5845a1cac",
+   "venue_id": 5325,
+   "venue_name": "Globe Life Field",
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 16.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 822872,
    "date": "2026-07-24",

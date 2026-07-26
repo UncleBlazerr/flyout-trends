@@ -1,75 +1,85 @@
 {
- "as_of": "2026-07-26",
+ "as_of": "2026-07-25",
  "players": [
   {
-   "player_id": 694374,
-   "player_name": "Tim Tawa",
-   "team": "AZ",
-   "record_streak": 6,
-   "total_flags": 9,
-   "avg_score": 53.0,
-   "current_score": 69.7,
-   "game_streak": 5
-  },
-  {
-   "player_id": 682998,
-   "player_name": "Corbin Carroll",
-   "team": "AZ",
+   "player_id": 808959,
+   "player_name": "Munetaka Murakami",
+   "team": "CWS",
    "record_streak": 5,
    "total_flags": 5,
-   "avg_score": 51.7,
-   "current_score": 59.3,
-   "game_streak": 3
+   "avg_score": 43.8,
+   "current_score": 52.5,
+   "game_streak": 4
   },
   {
    "player_id": 682985,
    "player_name": "Riley Greene",
    "team": "DET",
-   "record_streak": 4,
-   "total_flags": 6,
-   "avg_score": 46.6,
-   "current_score": 49.8,
-   "game_streak": 3
-  },
-  {
-   "player_id": 672515,
-   "player_name": "Gabriel Moreno",
-   "team": "AZ",
-   "record_streak": 4,
+   "record_streak": 3,
    "total_flags": 5,
-   "avg_score": 42.2,
-   "current_score": 50.1,
-   "game_streak": 3
-  },
-  {
-   "player_id": 695734,
-   "player_name": "Daylen Lile",
-   "team": "WSH",
-   "record_streak": 1,
-   "total_flags": 7,
-   "avg_score": 38.0,
-   "current_score": 35.5,
-   "game_streak": 2
-  },
-  {
-   "player_id": 808959,
-   "player_name": "Munetaka Murakami",
-   "team": "CWS",
-   "record_streak": 1,
-   "total_flags": 5,
-   "avg_score": 43.4,
-   "current_score": 50.4,
-   "game_streak": 3
+   "avg_score": 50.6,
+   "current_score": 60.1,
+   "game_streak": 4
   },
   {
    "player_id": 691740,
    "player_name": "Daniel Susac",
    "team": "SF",
-   "record_streak": 1,
+   "record_streak": 2,
    "total_flags": 4,
-   "avg_score": 40.4,
-   "current_score": 37.7,
+   "avg_score": 42.5,
+   "current_score": 46.2,
+   "game_streak": 2
+  },
+  {
+   "player_id": 592885,
+   "player_name": "Christian Yelich",
+   "team": "MIL",
+   "record_streak": 2,
+   "total_flags": 2,
+   "avg_score": 51.8,
+   "current_score": 59.1,
+   "game_streak": 4
+  },
+  {
+   "player_id": 623168,
+   "player_name": "Tyler Heineman",
+   "team": "LAA",
+   "record_streak": 2,
+   "total_flags": 2,
+   "avg_score": 33.9,
+   "current_score": 33.9,
    "game_streak": 1
+  },
+  {
+   "player_id": 681297,
+   "player_name": "Colton Cowser",
+   "team": "BAL",
+   "record_streak": 1,
+   "total_flags": 6,
+   "avg_score": 44.1,
+   "current_score": 33.1,
+   "game_streak": 2
+  },
+  {
+   "player_id": 700337,
+   "player_name": "Edgar Quero",
+   "team": "CWS",
+   "record_streak": 1,
+   "total_flags": 3,
+   "avg_score": 44.0,
+   "current_score": 56.0,
+   "game_streak": 2
+  },
+  {
+   "player_id": 691718,
+   "player_name": "Pete Crow-Armstrong",
+   "team": "CHC",
+   "record_streak": 1,
+   "total_flags": 3,
+   "avg_score": 42.3,
+   "current_score": 41.2,
+   "game_streak": 2
   },
   {
    "player_id": 687859,
@@ -82,73 +92,63 @@
    "game_streak": 2
   },
   {
-   "player_id": 687952,
-   "player_name": "Christian Encarnacion-Strand",
-   "team": "BAL",
-   "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 48.4,
-   "current_score": 48.4,
-   "game_streak": 2
-  },
-  {
-   "player_id": 694671,
-   "player_name": "Wyatt Langford",
-   "team": "TEX",
-   "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 48.0,
-   "current_score": 48.0,
-   "game_streak": 3
-  },
-  {
-   "player_id": 592885,
-   "player_name": "Christian Yelich",
-   "team": "MIL",
-   "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 44.4,
-   "current_score": 44.4,
-   "game_streak": 3
-  },
-  {
-   "player_id": 650333,
-   "player_name": "Luis Arraez",
-   "team": "SF",
-   "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 42.6,
-   "current_score": 42.6,
-   "game_streak": 3
-  },
-  {
-   "player_id": 621020,
-   "player_name": "Dansby Swanson",
-   "team": "CHC",
-   "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 42.1,
-   "current_score": 42.1,
-   "game_streak": 2
-  },
-  {
    "player_id": 660271,
    "player_name": "Shohei Ohtani",
    "team": "LAD",
    "record_streak": 1,
    "total_flags": 2,
-   "avg_score": 39.2,
-   "current_score": 37.4,
+   "avg_score": 43.3,
+   "current_score": 45.6,
+   "game_streak": 3
+  },
+  {
+   "player_id": 686681,
+   "player_name": "Michael Massey",
+   "team": "KC",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 46.5,
+   "current_score": 46.5,
    "game_streak": 2
   },
   {
-   "player_id": 681624,
-   "player_name": "Andy Pages",
-   "team": "LAD",
+   "player_id": 666152,
+   "player_name": "David Hamilton",
+   "team": "MIL",
    "record_streak": 1,
    "total_flags": 1,
-   "avg_score": 35.4,
-   "current_score": 35.4,
+   "avg_score": 34.8,
+   "current_score": 34.8,
+   "game_streak": 1
+  },
+  {
+   "player_id": 800050,
+   "player_name": "Chase DeLauter",
+   "team": "CLE",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 34.4,
+   "current_score": 34.4,
+   "game_streak": 1
+  },
+  {
+   "player_id": 621439,
+   "player_name": "Byron Buxton",
+   "team": "MIN",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 34.3,
+   "current_score": 34.3,
+   "game_streak": 2
+  },
+  {
+   "player_id": 693304,
+   "player_name": "Nick Gonzales",
+   "team": "PIT",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 32.6,
+   "current_score": 32.6,
    "game_streak": 2
   }
  ]

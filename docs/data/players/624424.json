@@ -2,20 +2,38 @@
  "player_id": 624424,
  "player_name": "Michael Conforto",
  "team": "CHC",
- "as_of": "2026-07-26",
+ "as_of": "2026-07-25",
  "form": {
   "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": -5.05,
-   "parks_sum": -0.071,
-   "near_hr": 0.036
+   "max_ev": -6.157,
+   "parks_sum": -0.107,
+   "near_hr": -0.036
   },
-  "intensity": 0.012,
-  "expectancy_score": 8.9,
-  "last_appearance": "2026-07-24"
+  "intensity": 0.0,
+  "expectancy_score": 8.6,
+  "last_appearance": "2026-07-25"
  },
  "days": [
+  {
+   "date": "2026-07-25",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 74.7,
+   "max_distance": 217.0,
+   "max_barrel_score": 21.9,
+   "temp_f": 79.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-24",
    "bbe": 1,
@@ -162,6 +180,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823355,
+   "date": "2026-07-25",
+   "player_id": 624424,
+   "player_name": "Michael Conforto",
+   "team": "CHC",
+   "opponent": "PIT",
+   "result": "Flyout",
+   "exit_velocity": 74.7,
+   "launch_angle": 52.0,
+   "hit_distance": 217.0,
+   "hc_x": 93.58,
+   "hc_y": 119.66,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "b445c74e-3994-3699-bf80-2c10c7926041",
+   "venue_id": 31,
+   "venue_name": "PNC Park",
+   "temp_f": 79.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 21.9,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823352,
    "date": "2026-07-24",

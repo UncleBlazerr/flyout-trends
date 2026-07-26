@@ -2,20 +2,38 @@
  "player_id": 663586,
  "player_name": "Austin Riley",
  "team": "ATL",
- "as_of": "2026-07-26",
+ "as_of": "2026-07-25",
  "form": {
   "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": 0.275,
-   "parks_sum": -0.25,
-   "near_hr": -0.071
+   "max_ev": -2.839,
+   "parks_sum": -0.5,
+   "near_hr": -0.179
   },
-  "intensity": 0.046,
-  "expectancy_score": 9.9,
-  "last_appearance": "2026-07-24"
+  "intensity": 0.0,
+  "expectancy_score": 8.6,
+  "last_appearance": "2026-07-25"
  },
  "days": [
+  {
+   "date": "2026-07-25",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 81.4,
+   "max_distance": 3.0,
+   "max_barrel_score": 10.3,
+   "temp_f": 80.0,
+   "wind_mph": 3.0,
+   "wind_dir": "in",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-24",
    "bbe": 4,
@@ -324,6 +342,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824811,
+   "date": "2026-07-25",
+   "player_id": 663586,
+   "player_name": "Austin Riley",
+   "team": "ATL",
+   "opponent": "BAL",
+   "result": "Groundout",
+   "exit_velocity": 81.4,
+   "launch_angle": -41.0,
+   "hit_distance": 3.0,
+   "hc_x": 110.26,
+   "hc_y": 176.01,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "d880b28f-7835-3ae0-8f82-7fce83e86187",
+   "venue_id": 2,
+   "venue_name": "Oriole Park at Camden Yards",
+   "temp_f": 80.0,
+   "wind_mph": 3.0,
+   "wind_dir": "in",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 10.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824812,
    "date": "2026-07-24",

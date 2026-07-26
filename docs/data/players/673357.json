@@ -2,20 +2,38 @@
  "player_id": 673357,
  "player_name": "Luis Robert Jr.",
  "team": "NYM",
- "as_of": "2026-07-26",
+ "as_of": "2026-07-25",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -2.45,
+   "max_ev": -11.24,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.0,
   "expectancy_score": 0.0,
-  "last_appearance": "2026-07-24"
+  "last_appearance": "2026-07-25"
  },
  "days": [
+  {
+   "date": "2026-07-25",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 72.7,
+   "max_distance": 160.0,
+   "max_barrel_score": 13.1,
+   "temp_f": 77.0,
+   "wind_mph": 12.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-24",
    "bbe": 3,
@@ -72,6 +90,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823600,
+   "date": "2026-07-25",
+   "player_id": 673357,
+   "player_name": "Luis Robert Jr.",
+   "team": "NYM",
+   "opponent": "LAD",
+   "result": "Pop Out",
+   "exit_velocity": 72.7,
+   "launch_angle": 59.0,
+   "hit_distance": 160.0,
+   "hc_x": 151.89,
+   "hc_y": 142.95,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "2e3bd309-e0e1-31c4-986b-a78a72250016",
+   "venue_id": 3289,
+   "venue_name": "Citi Field",
+   "temp_f": 77.0,
+   "wind_mph": 12.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 13.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823601,
    "date": "2026-07-24",

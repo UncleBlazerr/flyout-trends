@@ -2,20 +2,38 @@
  "player_id": 682626,
  "player_name": "Francisco Alvarez",
  "team": "NYM",
- "as_of": "2026-07-26",
+ "as_of": "2026-07-25",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": 0.311,
+   "max_ev": 0.629,
    "parks_sum": 0.0,
-   "near_hr": 0.0
+   "near_hr": -0.036
   },
-  "intensity": 0.052,
-  "expectancy_score": 5.8,
-  "last_appearance": "2026-07-24"
+  "intensity": 0.105,
+  "expectancy_score": 7.4,
+  "last_appearance": "2026-07-25"
  },
  "days": [
+  {
+   "date": "2026-07-25",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 101.5,
+   "max_distance": 161.0,
+   "max_barrel_score": 49.6,
+   "temp_f": 77.0,
+   "wind_mph": 12.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-24",
    "bbe": 2,
@@ -216,6 +234,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823600,
+   "date": "2026-07-25",
+   "player_id": 682626,
+   "player_name": "Francisco Alvarez",
+   "team": "NYM",
+   "opponent": "LAD",
+   "result": "Single",
+   "exit_velocity": 101.5,
+   "launch_angle": 10.0,
+   "hit_distance": 161.0,
+   "hc_x": 66.14,
+   "hc_y": 122.58,
+   "would_be_hr_count": 0,
+   "inning": 5,
+   "play_id": "fdf7b7be-eace-3af9-95bb-714a57e1a77c",
+   "venue_id": 3289,
+   "venue_name": "Citi Field",
+   "temp_f": 77.0,
+   "wind_mph": 12.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 49.6,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823601,
    "date": "2026-07-24",
