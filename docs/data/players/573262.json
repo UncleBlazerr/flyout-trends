@@ -2,9 +2,9 @@
  "player_id": 573262,
  "player_name": "Mike Yastrzemski",
  "team": "ATL",
- "as_of": "2026-07-24",
+ "as_of": "2026-07-26",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.571,
   "slopes": {
    "max_ev": -0.825,
@@ -12,7 +12,7 @@
    "near_hr": -0.018
   },
   "intensity": 0.0,
-  "expectancy_score": 25.1,
+  "expectancy_score": 17.1,
   "last_appearance": "2026-07-23"
  },
  "days": [
