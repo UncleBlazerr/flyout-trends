@@ -2,9 +2,9 @@
  "player_id": 805811,
  "player_name": "Bryce Eldridge",
  "team": "SF",
- "as_of": "2026-07-25",
+ "as_of": "2026-07-27",
  "form": {
-  "streak": 2,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": -1.357,
@@ -12,7 +12,7 @@
    "near_hr": 0.312
   },
   "intensity": 0.104,
-  "expectancy_score": 27.7,
+  "expectancy_score": 11.7,
   "last_appearance": "2026-07-24"
  },
  "days": [

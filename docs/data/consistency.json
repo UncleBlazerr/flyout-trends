@@ -1,13 +1,13 @@
 {
- "as_of": "2026-07-25",
+ "as_of": "2026-07-27",
  "players": [
   {
    "player_id": 808959,
    "player_name": "Munetaka Murakami",
    "team": "CWS",
-   "record_streak": 5,
-   "total_flags": 5,
-   "avg_score": 43.8,
+   "record_streak": 7,
+   "total_flags": 7,
+   "avg_score": 46.0,
    "current_score": 52.5,
    "game_streak": 4
   },
@@ -15,9 +15,9 @@
    "player_id": 682985,
    "player_name": "Riley Greene",
    "team": "DET",
-   "record_streak": 3,
-   "total_flags": 5,
-   "avg_score": 50.6,
+   "record_streak": 5,
+   "total_flags": 7,
+   "avg_score": 51.8,
    "current_score": 60.1,
    "game_streak": 4
   },
@@ -25,9 +25,9 @@
    "player_id": 691740,
    "player_name": "Daniel Susac",
    "team": "SF",
-   "record_streak": 2,
-   "total_flags": 4,
-   "avg_score": 42.5,
+   "record_streak": 4,
+   "total_flags": 6,
+   "avg_score": 42.3,
    "current_score": 46.2,
    "game_streak": 2
   },
@@ -35,29 +35,39 @@
    "player_id": 592885,
    "player_name": "Christian Yelich",
    "team": "MIL",
-   "record_streak": 2,
-   "total_flags": 2,
+   "record_streak": 4,
+   "total_flags": 4,
    "avg_score": 51.8,
    "current_score": 59.1,
    "game_streak": 4
   },
   {
-   "player_id": 623168,
-   "player_name": "Tyler Heineman",
-   "team": "LAA",
+   "player_id": 660271,
+   "player_name": "Shohei Ohtani",
+   "team": "LAD",
+   "record_streak": 3,
+   "total_flags": 4,
+   "avg_score": 42.4,
+   "current_score": 45.6,
+   "game_streak": 3
+  },
+  {
+   "player_id": 694374,
+   "player_name": "Tim Tawa",
+   "team": "AZ",
    "record_streak": 2,
-   "total_flags": 2,
-   "avg_score": 33.9,
-   "current_score": 33.9,
-   "game_streak": 1
+   "total_flags": 9,
+   "avg_score": 50.0,
+   "current_score": 31.0,
+   "game_streak": 0
   },
   {
    "player_id": 681297,
    "player_name": "Colton Cowser",
    "team": "BAL",
    "record_streak": 1,
-   "total_flags": 6,
-   "avg_score": 44.1,
+   "total_flags": 7,
+   "avg_score": 42.5,
    "current_score": 33.1,
    "game_streak": 2
   },
@@ -66,47 +76,37 @@
    "player_name": "Edgar Quero",
    "team": "CWS",
    "record_streak": 1,
-   "total_flags": 3,
-   "avg_score": 44.0,
+   "total_flags": 4,
+   "avg_score": 47.0,
    "current_score": 56.0,
    "game_streak": 2
+  },
+  {
+   "player_id": 663656,
+   "player_name": "Kyle Tucker",
+   "team": "LAD",
+   "record_streak": 1,
+   "total_flags": 4,
+   "avg_score": 44.4,
+   "current_score": 29.8,
+   "game_streak": 1
   },
   {
    "player_id": 691718,
    "player_name": "Pete Crow-Armstrong",
    "team": "CHC",
    "record_streak": 1,
-   "total_flags": 3,
-   "avg_score": 42.3,
+   "total_flags": 4,
+   "avg_score": 42.1,
    "current_score": 41.2,
    "game_streak": 2
-  },
-  {
-   "player_id": 687859,
-   "player_name": "Troy Johnston",
-   "team": "COL",
-   "record_streak": 1,
-   "total_flags": 3,
-   "avg_score": 41.6,
-   "current_score": 38.3,
-   "game_streak": 2
-  },
-  {
-   "player_id": 660271,
-   "player_name": "Shohei Ohtani",
-   "team": "LAD",
-   "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 43.3,
-   "current_score": 45.6,
-   "game_streak": 3
   },
   {
    "player_id": 686681,
    "player_name": "Michael Massey",
    "team": "KC",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 46.5,
    "current_score": 46.5,
    "game_streak": 2
@@ -116,19 +116,9 @@
    "player_name": "David Hamilton",
    "team": "MIL",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 34.8,
    "current_score": 34.8,
-   "game_streak": 1
-  },
-  {
-   "player_id": 800050,
-   "player_name": "Chase DeLauter",
-   "team": "CLE",
-   "record_streak": 1,
-   "total_flags": 1,
-   "avg_score": 34.4,
-   "current_score": 34.4,
    "game_streak": 1
   },
   {
@@ -136,7 +126,7 @@
    "player_name": "Byron Buxton",
    "team": "MIN",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 34.3,
    "current_score": 34.3,
    "game_streak": 2
@@ -146,9 +136,19 @@
    "player_name": "Nick Gonzales",
    "team": "PIT",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 32.6,
    "current_score": 32.6,
+   "game_streak": 2
+  },
+  {
+   "player_id": 673237,
+   "player_name": "Yainer Diaz",
+   "team": "HOU",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 30.3,
+   "current_score": 30.3,
    "game_streak": 2
   }
  ]
