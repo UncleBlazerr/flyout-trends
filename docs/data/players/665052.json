@@ -2,20 +2,38 @@
  "player_id": 665052,
  "player_name": "Griffin Conine",
  "team": "MIA",
- "as_of": "2026-07-27",
+ "as_of": "2026-07-26",
  "form": {
   "streak": 0,
   "frequency": 0.429,
   "slopes": {
-   "max_ev": 0.775,
-   "parks_sum": 0.357,
-   "near_hr": 0.0
+   "max_ev": 1.45,
+   "parks_sum": 0.0,
+   "near_hr": -0.116
   },
-  "intensity": 0.169,
-  "expectancy_score": 17.9,
-  "last_appearance": "2026-07-25"
+  "intensity": 0.242,
+  "expectancy_score": 20.1,
+  "last_appearance": "2026-07-26"
  },
  "days": [
+  {
+   "date": "2026-07-26",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 97.8,
+   "max_distance": 11.0,
+   "max_barrel_score": 25.4,
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-07-25",
    "bbe": 1,
@@ -306,6 +324,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823840,
+   "date": "2026-07-26",
+   "player_id": 665052,
+   "player_name": "Griffin Conine",
+   "team": "MIA",
+   "opponent": "SD",
+   "result": "Groundout",
+   "exit_velocity": 97.8,
+   "launch_angle": -13.0,
+   "hit_distance": 11.0,
+   "hc_x": 133.61,
+   "hc_y": 183.49,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "ac5c1fa5-a94d-3360-8d44-f3b6da39e347",
+   "venue_id": 4169,
+   "venue_name": "loanDepot park",
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 25.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823841,
    "date": "2026-07-25",

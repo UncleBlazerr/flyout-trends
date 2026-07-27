@@ -2,9 +2,9 @@
  "player_id": 800050,
  "player_name": "Chase DeLauter",
  "team": "CLE",
- "as_of": "2026-07-27",
+ "as_of": "2026-07-26",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.429,
   "slopes": {
    "max_ev": 1.214,
@@ -12,7 +12,7 @@
    "near_hr": -0.062
   },
   "intensity": 0.452,
-  "expectancy_score": 26.4,
+  "expectancy_score": 34.4,
   "last_appearance": "2026-07-24"
  },
  "days": [

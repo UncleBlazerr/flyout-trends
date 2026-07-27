@@ -2,20 +2,38 @@
  "player_id": 663728,
  "player_name": "Cal Raleigh",
  "team": "SEA",
- "as_of": "2026-07-27",
+ "as_of": "2026-07-26",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": 0.579,
+   "max_ev": -0.636,
    "parks_sum": 0.0,
-   "near_hr": -0.071
+   "near_hr": -0.107
   },
-  "intensity": 0.096,
-  "expectancy_score": 7.2,
-  "last_appearance": "2026-07-25"
+  "intensity": 0.0,
+  "expectancy_score": 4.3,
+  "last_appearance": "2026-07-26"
  },
  "days": [
+  {
+   "date": "2026-07-26",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 95.0,
+   "max_distance": 282.0,
+   "max_barrel_score": 61.7,
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-07-25",
    "bbe": 2,
@@ -306,6 +324,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822870,
+   "date": "2026-07-26",
+   "player_id": 663728,
+   "player_name": "Cal Raleigh",
+   "team": "SEA",
+   "opponent": "TEX",
+   "result": "Single",
+   "exit_velocity": 95.0,
+   "launch_angle": 19.0,
+   "hit_distance": 282.0,
+   "hc_x": 178.14,
+   "hc_y": 76.88,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "aabc4420-018f-3486-867f-16ef23466c02",
+   "venue_id": 5325,
+   "venue_name": "Globe Life Field",
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 61.7,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 822869,
    "date": "2026-07-25",
