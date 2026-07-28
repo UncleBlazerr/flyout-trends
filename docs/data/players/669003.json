@@ -2,9 +2,9 @@
  "player_id": 669003,
  "player_name": "Garrett Mitchell",
  "team": "MIL",
- "as_of": "2026-07-26",
+ "as_of": "2026-07-28",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.429,
   "slopes": {
    "max_ev": -0.264,
@@ -12,7 +12,7 @@
    "near_hr": 0.062
   },
   "intensity": 0.021,
-  "expectancy_score": 21.5,
+  "expectancy_score": 13.5,
   "last_appearance": "2026-07-25"
  },
  "days": [

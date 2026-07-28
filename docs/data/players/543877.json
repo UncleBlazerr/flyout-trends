@@ -2,9 +2,9 @@
  "player_id": 543877,
  "player_name": "Christian V\u00e1zquez",
  "team": "HOU",
- "as_of": "2026-07-26",
+ "as_of": "2026-07-28",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.143,
   "slopes": {
    "max_ev": -1.546,
@@ -12,7 +12,7 @@
    "near_hr": 0.134
   },
   "intensity": 0.045,
-  "expectancy_score": 13.6,
+  "expectancy_score": 5.6,
   "last_appearance": "2026-07-24"
  },
  "days": [

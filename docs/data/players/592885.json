@@ -2,9 +2,9 @@
  "player_id": 592885,
  "player_name": "Christian Yelich",
  "team": "MIL",
- "as_of": "2026-07-26",
+ "as_of": "2026-07-28",
  "form": {
-  "streak": 4,
+  "streak": 0,
   "frequency": 0.571,
   "slopes": {
    "max_ev": 0.611,
@@ -12,7 +12,7 @@
    "near_hr": 0.402
   },
   "intensity": 0.331,
-  "expectancy_score": 59.1,
+  "expectancy_score": 27.1,
   "last_appearance": "2026-07-25"
  },
  "days": [

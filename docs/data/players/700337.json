@@ -2,9 +2,9 @@
  "player_id": 700337,
  "player_name": "Edgar Quero",
  "team": "CWS",
- "as_of": "2026-07-26",
+ "as_of": "2026-07-28",
  "form": {
-  "streak": 2,
+  "streak": 0,
   "frequency": 1.0,
   "slopes": {
    "max_ev": 5.7,
@@ -12,7 +12,7 @@
    "near_hr": 0.0
   },
   "intensity": 0.333,
-  "expectancy_score": 56.0,
+  "expectancy_score": 40.0,
   "last_appearance": "2026-07-25"
  },
  "days": [
