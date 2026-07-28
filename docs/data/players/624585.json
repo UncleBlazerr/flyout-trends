@@ -2,20 +2,38 @@
  "player_id": 624585,
  "player_name": "Jorge Soler",
  "team": "LAA",
- "as_of": "2026-07-28",
+ "as_of": "2026-07-27",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": 2.104,
+   "max_ev": 2.418,
    "parks_sum": 0.0,
-   "near_hr": 0.071
+   "near_hr": 0.036
   },
-  "intensity": 0.357,
-  "expectancy_score": 15.0,
-  "last_appearance": "2026-07-26"
+  "intensity": 0.345,
+  "expectancy_score": 14.6,
+  "last_appearance": "2026-07-27"
  },
  "days": [
+  {
+   "date": "2026-07-27",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 96.7,
+   "max_distance": 340.0,
+   "max_barrel_score": 62.8,
+   "temp_f": 82.0,
+   "wind_mph": 9.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-26",
    "bbe": 4,
@@ -270,6 +288,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824001,
+   "date": "2026-07-27",
+   "player_id": 624585,
+   "player_name": "Jorge Soler",
+   "team": "LAA",
+   "opponent": "HOU",
+   "result": "Flyout",
+   "exit_velocity": 96.7,
+   "launch_angle": 40.0,
+   "hit_distance": 340.0,
+   "hc_x": 127.26,
+   "hc_y": 62.7,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "474ec5ac-81bd-391f-8fa7-1e6822c96908",
+   "venue_id": 1,
+   "venue_name": "Angel Stadium",
+   "temp_f": 82.0,
+   "wind_mph": 9.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 62.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823194,
    "date": "2026-07-26",

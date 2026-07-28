@@ -2,20 +2,38 @@
  "player_id": 666176,
  "player_name": "Jo Adell",
  "team": "LAA",
- "as_of": "2026-07-28",
+ "as_of": "2026-07-27",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": -3.354,
+   "max_ev": -3.829,
    "parks_sum": 0.0,
-   "near_hr": 0.143
+   "near_hr": 0.071
   },
-  "intensity": 0.048,
-  "expectancy_score": 18.0,
-  "last_appearance": "2026-07-26"
+  "intensity": 0.024,
+  "expectancy_score": 9.3,
+  "last_appearance": "2026-07-27"
  },
  "days": [
+  {
+   "date": "2026-07-27",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 81.3,
+   "max_distance": 196.0,
+   "max_barrel_score": 23.1,
+   "temp_f": 82.0,
+   "wind_mph": 9.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-26",
    "bbe": 2,
@@ -324,6 +342,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824001,
+   "date": "2026-07-27",
+   "player_id": 666176,
+   "player_name": "Jo Adell",
+   "team": "LAA",
+   "opponent": "HOU",
+   "result": "Double",
+   "exit_velocity": 81.3,
+   "launch_angle": 57.0,
+   "hit_distance": 196.0,
+   "hc_x": 182.19,
+   "hc_y": 144.93,
+   "would_be_hr_count": 0,
+   "inning": 3,
+   "play_id": "72ccd934-8fd8-3d45-971d-5ccb866560d9",
+   "venue_id": 1,
+   "venue_name": "Angel Stadium",
+   "temp_f": 82.0,
+   "wind_mph": 9.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 23.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823194,
    "date": "2026-07-26",

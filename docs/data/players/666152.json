@@ -2,9 +2,9 @@
  "player_id": 666152,
  "player_name": "David Hamilton",
  "team": "MIL",
- "as_of": "2026-07-28",
+ "as_of": "2026-07-27",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.5,
   "slopes": {
    "max_ev": 2.58,
@@ -12,7 +12,7 @@
    "near_hr": 0.175
   },
   "intensity": 0.392,
-  "expectancy_score": 26.7,
+  "expectancy_score": 34.8,
   "last_appearance": "2026-07-25"
  },
  "days": [

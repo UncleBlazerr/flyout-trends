@@ -2,20 +2,38 @@
  "player_id": 641680,
  "player_name": "Jonah Heim",
  "team": "ATH",
- "as_of": "2026-07-28",
+ "as_of": "2026-07-27",
  "form": {
-  "streak": 1,
-  "frequency": 0.429,
+  "streak": 0,
+  "frequency": 0.286,
   "slopes": {
-   "max_ev": 1.407,
+   "max_ev": 2.093,
    "parks_sum": 0.0,
    "near_hr": 0.107
   },
-  "intensity": 0.27,
-  "expectancy_score": 29.0,
-  "last_appearance": "2026-07-26"
+  "intensity": 0.369,
+  "expectancy_score": 19.6,
+  "last_appearance": "2026-07-27"
  },
  "days": [
+  {
+   "date": "2026-07-27",
+   "bbe": 1,
+   "hr": 1,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 103.4,
+   "max_distance": 419.0,
+   "max_barrel_score": 86.0,
+   "temp_f": 88.0,
+   "wind_mph": 8.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-26",
    "bbe": 4,
@@ -270,6 +288,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824977,
+   "date": "2026-07-27",
+   "player_id": 641680,
+   "player_name": "Jonah Heim",
+   "team": "ATH",
+   "opponent": "BOS",
+   "result": "Home Run",
+   "exit_velocity": 103.4,
+   "launch_angle": 26.0,
+   "hit_distance": 419.0,
+   "hc_x": 106.78,
+   "hc_y": 30.53,
+   "would_be_hr_count": 24,
+   "inning": 6,
+   "play_id": "f795b824-5fce-3f62-8d74-09deade5b069",
+   "venue_id": 2529,
+   "venue_name": "Sutter Health Park",
+   "temp_f": 88.0,
+   "wind_mph": 8.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 86.0,
+   "barrel_flag": false,
+   "is_home_run": true,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823678,
    "date": "2026-07-26",
