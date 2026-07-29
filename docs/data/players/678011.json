@@ -2,20 +2,38 @@
  "player_id": 678011,
  "player_name": "Anthony Seigler",
  "team": "BOS",
- "as_of": "2026-07-29",
+ "as_of": "2026-07-28",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": 0.375,
-   "parks_sum": -2.786,
-   "near_hr": -0.089
+   "max_ev": 2.711,
+   "parks_sum": 0.75,
+   "near_hr": 0.107
   },
-  "intensity": 0.062,
-  "expectancy_score": 10.4,
-  "last_appearance": "2026-07-27"
+  "intensity": 0.452,
+  "expectancy_score": 30.1,
+  "last_appearance": "2026-07-28"
  },
  "days": [
+  {
+   "date": "2026-07-28",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 1,
+   "near_hr_parks": 1,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 7,
+   "max_ev": 98.8,
+   "max_distance": 397.0,
+   "max_barrel_score": 81.5,
+   "temp_f": 92.0,
+   "wind_mph": 6.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-27",
    "bbe": 1,
@@ -288,6 +306,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824976,
+   "date": "2026-07-28",
+   "player_id": 678011,
+   "player_name": "Anthony Seigler",
+   "team": "BOS",
+   "opponent": "ATH",
+   "result": "Flyout",
+   "exit_velocity": 98.8,
+   "launch_angle": 27.0,
+   "hit_distance": 397.0,
+   "hc_x": 95.04,
+   "hc_y": 41.72,
+   "would_be_hr_count": 7,
+   "inning": 9,
+   "play_id": "cd4dae3e-44c6-3747-bc59-59af78da2286",
+   "venue_id": 2529,
+   "venue_name": "Sutter Health Park",
+   "temp_f": 92.0,
+   "wind_mph": 6.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": true,
+   "would_be_hr_flag": true,
+   "barrel_score": 81.5,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 824977,
    "date": "2026-07-27",

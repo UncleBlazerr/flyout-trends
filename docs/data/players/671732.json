@@ -2,20 +2,38 @@
  "player_id": 671732,
  "player_name": "Lawrence Butler",
  "team": "ATH",
- "as_of": "2026-07-29",
+ "as_of": "2026-07-28",
  "form": {
-  "streak": 0,
-  "frequency": 0.286,
+  "streak": 1,
+  "frequency": 0.429,
   "slopes": {
-   "max_ev": -6.557,
-   "parks_sum": -0.393,
-   "near_hr": 0.036
+   "max_ev": -1.886,
+   "parks_sum": -0.679,
+   "near_hr": 0.098
   },
-  "intensity": 0.012,
-  "expectancy_score": 8.9,
-  "last_appearance": "2026-07-27"
+  "intensity": 0.033,
+  "expectancy_score": 21.8,
+  "last_appearance": "2026-07-28"
  },
  "days": [
+  {
+   "date": "2026-07-28",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 1,
+   "near_hr_distance": 1,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 1,
+   "max_ev": 106.8,
+   "max_distance": 399.0,
+   "max_barrel_score": 80.0,
+   "temp_f": 92.0,
+   "wind_mph": 6.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-27",
    "bbe": 1,
@@ -324,6 +342,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824976,
+   "date": "2026-07-28",
+   "player_id": 671732,
+   "player_name": "Lawrence Butler",
+   "team": "ATH",
+   "opponent": "BOS",
+   "result": "Double",
+   "exit_velocity": 106.8,
+   "launch_angle": 19.0,
+   "hit_distance": 399.0,
+   "hc_x": 110.98,
+   "hc_y": 50.45,
+   "would_be_hr_count": 1,
+   "inning": 8,
+   "play_id": "3b37b6b4-9634-3bdf-85f6-521412e23f84",
+   "venue_id": 2529,
+   "venue_name": "Sutter Health Park",
+   "temp_f": 92.0,
+   "wind_mph": 6.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": true,
+   "would_be_hr_flag": false,
+   "barrel_score": 80.0,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 824977,
    "date": "2026-07-27",

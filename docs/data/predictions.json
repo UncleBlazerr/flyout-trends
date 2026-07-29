@@ -1,32 +1,32 @@
 {
- "as_of": "2026-07-29",
+ "as_of": "2026-07-28",
  "horizon_days": 3,
  "min_samples": 20,
  "players": [
   {
-   "player_id": 671277,
-   "player_name": "Luis Garc\u00eda Jr.",
-   "team": "WSH",
-   "expectancy_score": 50.5,
-   "streak": 2,
+   "player_id": 661388,
+   "player_name": "William Contreras",
+   "team": "MIL",
+   "expectancy_score": 52.0,
+   "streak": 3,
    "frequency": 0.571,
    "slopes": {
-    "max_ev": 1.196,
-    "parks_sum": 4.179,
-    "near_hr": 0.134
+    "max_ev": 1.461,
+    "parks_sum": 0.107,
+    "near_hr": 0.321
    },
-   "near_hr_7d": 3,
+   "near_hr_7d": 6,
    "near_hr_xbh_7d": 2,
    "hr_7d": 0,
-   "max_ev_7d": 107.4,
-   "max_distance_7d": 383,
+   "max_ev_7d": 112.8,
+   "max_distance_7d": 365,
    "band": "40-60",
-   "band_rate": 0.217,
-   "band_samples": 166,
+   "band_rate": 0.225,
+   "band_samples": 173,
    "weather_factor": 1.0,
-   "adjusted_score": 50.5,
+   "adjusted_score": 52.0,
    "game_weather": {
-    "venue_name": "Truist Park",
+    "venue_name": "Oracle Park",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -35,53 +35,189 @@
    "repeat": true
   },
   {
-   "player_id": 661388,
-   "player_name": "William Contreras",
-   "team": "MIL",
-   "expectancy_score": 42.4,
-   "streak": 2,
-   "frequency": 0.429,
+   "player_id": 665019,
+   "player_name": "Kody Clemens",
+   "team": "MIN",
+   "expectancy_score": 52.0,
+   "streak": 3,
+   "frequency": 0.571,
    "slopes": {
-    "max_ev": 1.968,
-    "parks_sum": 0.0,
-    "near_hr": 0.375
+    "max_ev": 0.65,
+    "parks_sum": 1.5,
+    "near_hr": 0.259
    },
-   "near_hr_7d": 5,
-   "near_hr_xbh_7d": 1,
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 2,
    "hr_7d": 0,
-   "max_ev_7d": 112.8,
-   "max_distance_7d": 365,
+   "max_ev_7d": 105.1,
+   "max_distance_7d": 378,
    "band": "40-60",
-   "band_rate": 0.217,
-   "band_samples": 166,
+   "band_rate": 0.225,
+   "band_samples": 173,
    "weather_factor": 1.0,
-   "adjusted_score": 42.4,
-   "game_weather": null,
-   "repeat": false
+   "adjusted_score": 52.0,
+   "game_weather": {
+    "venue_name": "Target Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
   },
   {
    "player_id": 672515,
    "player_name": "Gabriel Moreno",
    "team": "AZ",
-   "expectancy_score": 38.8,
+   "expectancy_score": 49.9,
+   "streak": 3,
+   "frequency": 0.857,
+   "slopes": {
+    "max_ev": -1.561,
+    "parks_sum": -0.286,
+    "near_hr": 0.018
+   },
+   "near_hr_7d": 7,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 1,
+   "max_ev_7d": 108.4,
+   "max_distance_7d": 427,
+   "band": "40-60",
+   "band_rate": 0.225,
+   "band_samples": 173,
+   "weather_factor": 1.0,
+   "adjusted_score": 49.9,
+   "game_weather": {
+    "venue_name": "PNC Park",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 656716,
+   "player_name": "Zach McKinstry",
+   "team": "DET",
+   "expectancy_score": 48.4,
+   "streak": 3,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": 1.132,
+    "parks_sum": 0.036,
+    "near_hr": 0.143
+   },
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 101.4,
+   "max_distance_7d": 390,
+   "band": "40-60",
+   "band_rate": 0.225,
+   "band_samples": 173,
+   "weather_factor": 1.0,
+   "adjusted_score": 48.4,
+   "game_weather": {
+    "venue_name": "Comerica Park",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 687637,
+   "player_name": "Dylan Beavers",
+   "team": "BAL",
+   "expectancy_score": 43.7,
+   "streak": 3,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": -0.2,
+    "parks_sum": -0.429,
+    "near_hr": 0.259
+   },
+   "near_hr_7d": 5,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 106.8,
+   "max_distance_7d": 388,
+   "band": "40-60",
+   "band_rate": 0.225,
+   "band_samples": 173,
+   "weather_factor": 1.0,
+   "adjusted_score": 43.7,
+   "game_weather": {
+    "venue_name": "Comerica Park",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 668709,
+   "player_name": "JJ Bleday",
+   "team": "CIN",
+   "expectancy_score": 42.2,
    "streak": 2,
    "frequency": 0.714,
    "slopes": {
-    "max_ev": -0.175,
-    "parks_sum": -0.143,
-    "near_hr": 0.134
+    "max_ev": 0.957,
+    "parks_sum": 0.0,
+    "near_hr": -0.036
    },
-   "near_hr_7d": 5,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 107.2,
-   "max_distance_7d": 385,
-   "band": "<40",
-   "band_rate": 0.202,
-   "band_samples": 4279,
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 2,
+   "max_ev_7d": 106.1,
+   "max_distance_7d": 399,
+   "band": "40-60",
+   "band_rate": 0.225,
+   "band_samples": 173,
    "weather_factor": 1.0,
-   "adjusted_score": 38.8,
-   "game_weather": null,
+   "adjusted_score": 42.2,
+   "game_weather": {
+    "venue_name": "Great American Ball Park",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 605141,
+   "player_name": "Mookie Betts",
+   "team": "LAD",
+   "expectancy_score": 39.3,
+   "streak": 2,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": 0.904,
+    "parks_sum": 0.071,
+    "near_hr": 0.143
+   },
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 103.2,
+   "max_distance_7d": 379,
+   "band": "<40",
+   "band_rate": 0.203,
+   "band_samples": 4555,
+   "weather_factor": 1.0,
+   "adjusted_score": 39.3,
+   "game_weather": {
+    "venue_name": "UNIQLO Field at Dodger Stadium",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
    "repeat": false
   },
   {
@@ -96,18 +232,80 @@
     "parks_sum": 1.179,
     "near_hr": 0.107
    },
-   "near_hr_7d": 4,
+   "near_hr_7d": 5,
    "near_hr_xbh_7d": 0,
    "hr_7d": 0,
    "max_ev_7d": 105.6,
    "max_distance_7d": 370,
    "band": "<40",
-   "band_rate": 0.202,
-   "band_samples": 4279,
+   "band_rate": 0.203,
+   "band_samples": 4555,
    "weather_factor": 1.0,
    "adjusted_score": 38.1,
    "game_weather": {
-    "venue_name": "Truist Park",
+    "venue_name": "Citi Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 596117,
+   "player_name": "Garrett Stubbs",
+   "team": "PHI",
+   "expectancy_score": 38.0,
+   "streak": 1,
+   "frequency": 0.667,
+   "slopes": {
+    "max_ev": 2.3,
+    "parks_sum": 0.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 97.7,
+   "max_distance_7d": 371,
+   "band": "<40",
+   "band_rate": 0.203,
+   "band_samples": 4555,
+   "weather_factor": 1.0,
+   "adjusted_score": 38.0,
+   "game_weather": {
+    "venue_name": "loanDepot park",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 608701,
+   "player_name": "Rob Refsnyder",
+   "team": "SEA",
+   "expectancy_score": 38.0,
+   "streak": 1,
+   "frequency": 1.0,
+   "slopes": {
+    "max_ev": 0.0,
+    "parks_sum": 0.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 1,
+   "max_ev_7d": 112.3,
+   "max_distance_7d": 356,
+   "band": "<40",
+   "band_rate": 0.203,
+   "band_samples": 4555,
+   "weather_factor": 1.0,
+   "adjusted_score": 38.0,
+   "game_weather": {
+    "venue_name": "UNIQLO Field at Dodger Stadium",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -133,8 +331,8 @@
    "max_ev_7d": 106.8,
    "max_distance_7d": 361,
    "band": "<40",
-   "band_rate": 0.202,
-   "band_samples": 4279,
+   "band_rate": 0.203,
+   "band_samples": 4555,
    "weather_factor": 1.0,
    "adjusted_score": 36.6,
    "game_weather": {
@@ -144,32 +342,7 @@
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": false
-  },
-  {
-   "player_id": 682985,
-   "player_name": "Riley Greene",
-   "team": "DET",
-   "expectancy_score": 36.1,
-   "streak": 1,
-   "frequency": 0.714,
-   "slopes": {
-    "max_ev": 1.157,
-    "parks_sum": -0.393,
-    "near_hr": 0.089
-   },
-   "near_hr_7d": 6,
-   "near_hr_xbh_7d": 2,
-   "hr_7d": 0,
-   "max_ev_7d": 110.0,
-   "max_distance_7d": 408,
-   "band": "<40",
-   "band_rate": 0.202,
-   "band_samples": 4279,
-   "weather_factor": 1.0,
-   "adjusted_score": 36.1,
-   "game_weather": null,
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 701678,
@@ -185,141 +358,47 @@
    },
    "near_hr_7d": 3,
    "near_hr_xbh_7d": 2,
-   "hr_7d": 1,
-   "max_ev_7d": 105.5,
+   "hr_7d": 2,
+   "max_ev_7d": 105.9,
    "max_distance_7d": 404,
    "band": "<40",
-   "band_rate": 0.202,
-   "band_samples": 4279,
+   "band_rate": 0.203,
+   "band_samples": 4555,
    "weather_factor": 1.0,
    "adjusted_score": 35.3,
-   "game_weather": null,
-   "repeat": false
+   "game_weather": {
+    "venue_name": "Comerica Park",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
   },
   {
-   "player_id": 656716,
-   "player_name": "Zach McKinstry",
-   "team": "DET",
-   "expectancy_score": 34.5,
+   "player_id": 682829,
+   "player_name": "Elly De La Cruz",
+   "team": "CIN",
+   "expectancy_score": 34.7,
    "streak": 2,
-   "frequency": 0.429,
+   "frequency": 0.286,
    "slopes": {
-    "max_ev": 0.839,
-    "parks_sum": -0.036,
-    "near_hr": 0.143
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 101.4,
-   "max_distance_7d": 390,
-   "band": "<40",
-   "band_rate": 0.202,
-   "band_samples": 4279,
-   "weather_factor": 1.0,
-   "adjusted_score": 34.5,
-   "game_weather": null,
-   "repeat": false
-  },
-  {
-   "player_id": 681082,
-   "player_name": "Bryson Stott",
-   "team": "PHI",
-   "expectancy_score": 31.2,
-   "streak": 1,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 0.979,
-    "parks_sum": 1.643,
-    "near_hr": -0.045
-   },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 1,
-   "max_ev_7d": 110.5,
-   "max_distance_7d": 369,
-   "band": "<40",
-   "band_rate": 0.202,
-   "band_samples": 4279,
-   "weather_factor": 1.0,
-   "adjusted_score": 31.2,
-   "game_weather": null,
-   "repeat": false
-  },
-  {
-   "player_id": 663837,
-   "player_name": "Matt Vierling",
-   "team": "DET",
-   "expectancy_score": 30.9,
-   "streak": 1,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 4.368,
+    "max_ev": 1.454,
     "parks_sum": 0.0,
-    "near_hr": -0.107
-   },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 103.0,
-   "max_distance_7d": 373,
-   "band": "<40",
-   "band_rate": 0.202,
-   "band_samples": 4279,
-   "weather_factor": 1.0,
-   "adjusted_score": 30.9,
-   "game_weather": null,
-   "repeat": false
-  },
-  {
-   "player_id": 687637,
-   "player_name": "Dylan Beavers",
-   "team": "BAL",
-   "expectancy_score": 30.8,
-   "streak": 2,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": -1.079,
-    "parks_sum": -0.286,
-    "near_hr": 0.196
+    "near_hr": 0.286
    },
    "near_hr_7d": 3,
    "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 106.8,
-   "max_distance_7d": 366,
+   "hr_7d": 1,
+   "max_ev_7d": 112.5,
+   "max_distance_7d": 410,
    "band": "<40",
-   "band_rate": 0.202,
-   "band_samples": 4279,
+   "band_rate": 0.203,
+   "band_samples": 4555,
    "weather_factor": 1.0,
-   "adjusted_score": 30.8,
-   "game_weather": null,
-   "repeat": false
-  },
-  {
-   "player_id": 700337,
-   "player_name": "Edgar Quero",
-   "team": "CWS",
-   "expectancy_score": 30.0,
-   "streak": 0,
-   "frequency": 0.667,
-   "slopes": {
-    "max_ev": 2.7,
-    "parks_sum": 0.0,
-    "near_hr": -0.5
-   },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 102.0,
-   "max_distance_7d": 364,
-   "band": "<40",
-   "band_rate": 0.202,
-   "band_samples": 4279,
-   "weather_factor": 1.0,
-   "adjusted_score": 30.0,
+   "adjusted_score": 34.7,
    "game_weather": {
-    "venue_name": "Rate Field",
+    "venue_name": "Great American Ball Park",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -328,85 +407,60 @@
    "repeat": false
   },
   {
-   "player_id": 665489,
-   "player_name": "Vladimir Guerrero Jr.",
-   "team": "TOR",
-   "expectancy_score": 29.7,
+   "player_id": 693304,
+   "player_name": "Nick Gonzales",
+   "team": "PIT",
+   "expectancy_score": 34.6,
    "streak": 2,
-   "frequency": 0.429,
+   "frequency": 0.571,
    "slopes": {
-    "max_ev": -1.339,
-    "parks_sum": -0.214,
-    "near_hr": 0.089
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 109.1,
-   "max_distance_7d": 380,
-   "band": "<40",
-   "band_rate": 0.202,
-   "band_samples": 4279,
-   "weather_factor": 1.0,
-   "adjusted_score": 29.7,
-   "game_weather": null,
-   "repeat": false
-  },
-  {
-   "player_id": 687551,
-   "player_name": "Drew Gilbert",
-   "team": "SF",
-   "expectancy_score": 29.6,
-   "streak": 2,
-   "frequency": 0.286,
-   "slopes": {
-    "max_ev": 0.607,
-    "parks_sum": 0.071,
-    "near_hr": 0.179
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 108.0,
-   "max_distance_7d": 389,
-   "band": "<40",
-   "band_rate": 0.202,
-   "band_samples": 4279,
-   "weather_factor": 1.0,
-   "adjusted_score": 29.6,
-   "game_weather": {
-    "venue_name": "Petco Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 669364,
-   "player_name": "Xavier Edwards",
-   "team": "MIA",
-   "expectancy_score": 28.0,
-   "streak": 1,
-   "frequency": 0.286,
-   "slopes": {
-    "max_ev": 3.018,
+    "max_ev": -0.414,
     "parks_sum": 0.0,
     "near_hr": 0.143
    },
-   "near_hr_7d": 2,
+   "near_hr_7d": 4,
    "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 101.5,
-   "max_distance_7d": 364,
+   "hr_7d": 1,
+   "max_ev_7d": 105.7,
+   "max_distance_7d": 397,
    "band": "<40",
-   "band_rate": 0.202,
-   "band_samples": 4279,
+   "band_rate": 0.203,
+   "band_samples": 4555,
    "weather_factor": 1.0,
-   "adjusted_score": 28.0,
+   "adjusted_score": 34.6,
    "game_weather": {
-    "venue_name": "Citi Field",
+    "venue_name": "PNC Park",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 690993,
+   "player_name": "Colt Keith",
+   "team": "DET",
+   "expectancy_score": 34.1,
+   "streak": 2,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": 1.418,
+    "parks_sum": 0.071,
+    "near_hr": 0.223
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 0,
+   "max_ev_7d": 104.2,
+   "max_distance_7d": 387,
+   "band": "<40",
+   "band_rate": 0.203,
+   "band_samples": 4555,
+   "weather_factor": 1.0,
+   "adjusted_score": 34.1,
+   "game_weather": {
+    "venue_name": "Comerica Park",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -417,28 +471,28 @@
  ],
  "bands": {
   "<40": {
-   "samples": 4279,
-   "hr_followed": 866,
-   "rate": 0.202
+   "samples": 4555,
+   "hr_followed": 925,
+   "rate": 0.203
   },
   "40-60": {
-   "samples": 166,
-   "hr_followed": 36,
-   "rate": 0.217
+   "samples": 173,
+   "hr_followed": 39,
+   "rate": 0.225
   },
   "60-80": {
-   "samples": 16,
+   "samples": 17,
    "hr_followed": 3,
-   "rate": 0.188
+   "rate": 0.176
   }
  },
  "hit_rate": {
-  "resolved_records": 20,
+  "resolved_records": 21,
   "horizon_days": 3,
   "overall": {
-   "flagged": 300,
-   "hr_followed": 53,
-   "rate": 0.177
+   "flagged": 315,
+   "hr_followed": 56,
+   "rate": 0.178
   },
   "top_band": {
    "band": "80+",
@@ -447,5 +501,51 @@
    "rate": null
   }
  },
- "recent_hits": []
+ "recent_hits": [
+  {
+   "player_id": 660271,
+   "player_name": "Shohei Ohtani",
+   "team": "LAD",
+   "flagged_on": "2026-07-27",
+   "flagged_score": 54.5,
+   "hr_on": "2026-07-28",
+   "hr_count": 1
+  },
+  {
+   "player_id": 671277,
+   "player_name": "Luis Garc\u00eda Jr.",
+   "team": "WSH",
+   "flagged_on": "2026-07-27",
+   "flagged_score": 50.5,
+   "hr_on": "2026-07-28",
+   "hr_count": 1
+  },
+  {
+   "player_id": 669065,
+   "player_name": "Kyle Stowers",
+   "team": "MIA",
+   "flagged_on": "2026-07-26",
+   "flagged_score": 38.2,
+   "hr_on": "2026-07-28",
+   "hr_count": 1
+  },
+  {
+   "player_id": 808959,
+   "player_name": "Munetaka Murakami",
+   "team": "CWS",
+   "flagged_on": "2026-07-25",
+   "flagged_score": 52.5,
+   "hr_on": "2026-07-26",
+   "hr_count": 2
+  },
+  {
+   "player_id": 686681,
+   "player_name": "Michael Massey",
+   "team": "KC",
+   "flagged_on": "2026-07-25",
+   "flagged_score": 46.5,
+   "hr_on": "2026-07-26",
+   "hr_count": 1
+  }
+ ]
 }
