@@ -1,113 +1,63 @@
 {
- "as_of": "2026-07-27",
+ "as_of": "2026-07-29",
  "players": [
-  {
-   "player_id": 687859,
-   "player_name": "Troy Johnston",
-   "team": "COL",
-   "record_streak": 3,
-   "total_flags": 5,
-   "avg_score": 44.9,
-   "current_score": 49.7,
-   "game_streak": 3
-  },
-  {
-   "player_id": 660271,
-   "player_name": "Shohei Ohtani",
-   "team": "LAD",
-   "record_streak": 3,
-   "total_flags": 4,
-   "avg_score": 48.9,
-   "current_score": 54.5,
-   "game_streak": 4
-  },
-  {
-   "player_id": 686681,
-   "player_name": "Michael Massey",
-   "team": "KC",
-   "record_streak": 3,
-   "total_flags": 3,
-   "avg_score": 48.9,
-   "current_score": 50.1,
-   "game_streak": 3
-  },
-  {
-   "player_id": 666152,
-   "player_name": "David Hamilton",
-   "team": "MIL",
-   "record_streak": 3,
-   "total_flags": 3,
-   "avg_score": 34.8,
-   "current_score": 34.8,
-   "game_streak": 1
-  },
-  {
-   "player_id": 665019,
-   "player_name": "Kody Clemens",
-   "team": "MIN",
-   "record_streak": 2,
-   "total_flags": 4,
-   "avg_score": 50.3,
-   "current_score": 44.1,
-   "game_streak": 2
-  },
   {
    "player_id": 671277,
    "player_name": "Luis Garc\u00eda Jr.",
    "team": "WSH",
-   "record_streak": 2,
-   "total_flags": 3,
-   "avg_score": 40.8,
+   "record_streak": 4,
+   "total_flags": 5,
+   "avg_score": 42.1,
    "current_score": 50.5,
    "game_streak": 2
-  },
-  {
-   "player_id": 668952,
-   "player_name": "Ryan Kreidler",
-   "team": "MIN",
-   "record_streak": 2,
-   "total_flags": 2,
-   "avg_score": 42.4,
-   "current_score": 42.4,
-   "game_streak": 2
-  },
-  {
-   "player_id": 691781,
-   "player_name": "Brady House",
-   "team": "WSH",
-   "record_streak": 2,
-   "total_flags": 2,
-   "avg_score": 38.0,
-   "current_score": 38.0,
-   "game_streak": 1
   },
   {
    "player_id": 682985,
    "player_name": "Riley Greene",
    "team": "DET",
    "record_streak": 1,
-   "total_flags": 6,
-   "avg_score": 48.2,
+   "total_flags": 7,
+   "avg_score": 46.4,
    "current_score": 36.1,
    "game_streak": 1
+  },
+  {
+   "player_id": 700337,
+   "player_name": "Edgar Quero",
+   "team": "CWS",
+   "record_streak": 1,
+   "total_flags": 5,
+   "avg_score": 43.6,
+   "current_score": 30.0,
+   "game_streak": 0
   },
   {
    "player_id": 672515,
    "player_name": "Gabriel Moreno",
    "team": "AZ",
    "record_streak": 1,
-   "total_flags": 4,
-   "avg_score": 40.6,
+   "total_flags": 5,
+   "avg_score": 40.2,
    "current_score": 38.8,
    "game_streak": 2
+  },
+  {
+   "player_id": 681082,
+   "player_name": "Bryson Stott",
+   "team": "PHI",
+   "record_streak": 1,
+   "total_flags": 4,
+   "avg_score": 42.2,
+   "current_score": 31.2,
+   "game_streak": 1
   },
   {
    "player_id": 701678,
    "player_name": "Hao-Yu Lee",
    "team": "DET",
    "record_streak": 1,
-   "total_flags": 3,
-   "avg_score": 34.8,
+   "total_flags": 4,
+   "avg_score": 34.9,
    "current_score": 35.3,
    "game_streak": 2
   },
@@ -116,8 +66,8 @@
    "player_name": "William Contreras",
    "team": "MIL",
    "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 25.9,
+   "total_flags": 3,
+   "avg_score": 31.4,
    "current_score": 42.4,
    "game_streak": 2
   },
@@ -126,9 +76,19 @@
    "player_name": "Mauricio Dub\u00f3n",
    "team": "ATL",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 38.1,
    "current_score": 38.1,
+   "game_streak": 2
+  },
+  {
+   "player_id": 687637,
+   "player_name": "Dylan Beavers",
+   "team": "BAL",
+   "record_streak": 1,
+   "total_flags": 2,
+   "avg_score": 36.9,
+   "current_score": 30.8,
    "game_streak": 2
   },
   {
@@ -136,7 +96,7 @@
    "player_name": "Luis Torrens",
    "team": "NYM",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 36.6,
    "current_score": 36.6,
    "game_streak": 2
@@ -146,10 +106,50 @@
    "player_name": "Zach McKinstry",
    "team": "DET",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 34.5,
    "current_score": 34.5,
    "game_streak": 2
+  },
+  {
+   "player_id": 663837,
+   "player_name": "Matt Vierling",
+   "team": "DET",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 30.9,
+   "current_score": 30.9,
+   "game_streak": 1
+  },
+  {
+   "player_id": 665489,
+   "player_name": "Vladimir Guerrero Jr.",
+   "team": "TOR",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 29.7,
+   "current_score": 29.7,
+   "game_streak": 2
+  },
+  {
+   "player_id": 687551,
+   "player_name": "Drew Gilbert",
+   "team": "SF",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 29.6,
+   "current_score": 29.6,
+   "game_streak": 2
+  },
+  {
+   "player_id": 669364,
+   "player_name": "Xavier Edwards",
+   "team": "MIA",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 28.0,
+   "current_score": 28.0,
+   "game_streak": 1
   }
  ]
 }

@@ -2,9 +2,9 @@
  "player_id": 668952,
  "player_name": "Ryan Kreidler",
  "team": "MIN",
- "as_of": "2026-07-27",
+ "as_of": "2026-07-29",
  "form": {
-  "streak": 2,
+  "streak": 0,
   "frequency": 0.571,
   "slopes": {
    "max_ev": 0.668,
@@ -12,7 +12,7 @@
    "near_hr": 0.339
   },
   "intensity": 0.308,
-  "expectancy_score": 42.4,
+  "expectancy_score": 26.4,
   "last_appearance": "2026-07-26"
  },
  "days": [
