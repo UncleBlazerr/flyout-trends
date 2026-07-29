@@ -1,7 +1,7 @@
 {
  "schema_version": 2,
  "date": "2026-07-28",
- "generated_at": "2026-07-29T11:59:05.561763+00:00",
+ "generated_at": "2026-07-29T17:21:25.570720+00:00",
  "events": [
   {
    "game_pk": 824490,
@@ -8391,7 +8391,7 @@
    "player_name": "Liam Hicks",
    "team": "MIA",
    "opponent": "PHI",
-   "result": "Double Play",
+   "result": "GIDP",
    "exit_velocity": 97.1,
    "launch_angle": -8.0,
    "hit_distance": 16.0,
