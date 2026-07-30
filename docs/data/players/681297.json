@@ -2,20 +2,38 @@
  "player_id": 681297,
  "player_name": "Colton Cowser",
  "team": "BAL",
- "as_of": "2026-07-30",
+ "as_of": "2026-07-29",
  "form": {
   "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": -5.261,
+   "max_ev": -5.246,
    "parks_sum": 0.0,
-   "near_hr": 0.036
+   "near_hr": -0.036
   },
-  "intensity": 0.012,
-  "expectancy_score": 8.9,
-  "last_appearance": "2026-07-28"
+  "intensity": 0.0,
+  "expectancy_score": 8.6,
+  "last_appearance": "2026-07-29"
  },
  "days": [
+  {
+   "date": "2026-07-29",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 79.6,
+   "max_distance": 110.0,
+   "max_barrel_score": 24.6,
+   "temp_f": 79.0,
+   "wind_mph": 11.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-07-28",
    "bbe": 1,
@@ -234,6 +252,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824242,
+   "date": "2026-07-29",
+   "player_id": 681297,
+   "player_name": "Colton Cowser",
+   "team": "BAL",
+   "opponent": "DET",
+   "result": "Single",
+   "exit_velocity": 79.6,
+   "launch_angle": 8.0,
+   "hit_distance": 110.0,
+   "hc_x": 129.16,
+   "hc_y": 141.52,
+   "would_be_hr_count": 0,
+   "inning": 12,
+   "play_id": "c1cca582-a3cb-34ac-b41a-21c93ab581f9",
+   "venue_id": 2394,
+   "venue_name": "Comerica Park",
+   "temp_f": 79.0,
+   "wind_mph": 11.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 24.6,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824243,
    "date": "2026-07-28",

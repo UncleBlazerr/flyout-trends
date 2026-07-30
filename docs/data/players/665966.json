@@ -2,20 +2,38 @@
  "player_id": 665966,
  "player_name": "Carlos Narv\u00e1ez",
  "team": "BOS",
- "as_of": "2026-07-30",
+ "as_of": "2026-07-29",
  "form": {
-  "streak": 0,
-  "frequency": 0.667,
+  "streak": 1,
+  "frequency": 0.714,
   "slopes": {
-   "max_ev": -11.297,
-   "parks_sum": -2.714,
-   "near_hr": -0.171
+   "max_ev": -6.725,
+   "parks_sum": -2.036,
+   "near_hr": -0.071
   },
   "intensity": 0.0,
-  "expectancy_score": 20.0,
-  "last_appearance": "2026-07-26"
+  "expectancy_score": 29.4,
+  "last_appearance": "2026-07-29"
  },
  "days": [
+  {
+   "date": "2026-07-29",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 1,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 91.5,
+   "max_distance": 352.0,
+   "max_barrel_score": 72.0,
+   "temp_f": 91.0,
+   "wind_mph": 10.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-26",
    "bbe": 2,
@@ -126,6 +144,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824973,
+   "date": "2026-07-29",
+   "player_id": 665966,
+   "player_name": "Carlos Narv\u00e1ez",
+   "team": "BOS",
+   "opponent": "ATH",
+   "result": "Flyout",
+   "exit_velocity": 91.5,
+   "launch_angle": 28.0,
+   "hit_distance": 352.0,
+   "hc_x": 140.5,
+   "hc_y": 58.27,
+   "would_be_hr_count": 0,
+   "inning": 10,
+   "play_id": "1737ff82-5087-3bb4-8abf-3bcceb9a5901",
+   "venue_id": 2529,
+   "venue_name": "Sutter Health Park",
+   "temp_f": 91.0,
+   "wind_mph": 10.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": true,
+   "would_be_hr_flag": false,
+   "barrel_score": 72.0,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 824730,
    "date": "2026-07-26",

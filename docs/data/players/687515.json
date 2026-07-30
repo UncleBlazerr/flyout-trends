@@ -2,20 +2,38 @@
  "player_id": 687515,
  "player_name": "Colby Thomas",
  "team": "ATH",
- "as_of": "2026-07-30",
+ "as_of": "2026-07-29",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 4.779,
+   "max_ev": 1.239,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.333,
-  "expectancy_score": 10.0,
-  "last_appearance": "2026-07-28"
+  "intensity": 0.207,
+  "expectancy_score": 6.2,
+  "last_appearance": "2026-07-29"
  },
  "days": [
+  {
+   "date": "2026-07-29",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 88.9,
+   "max_distance": 144.0,
+   "max_barrel_score": 26.4,
+   "temp_f": 91.0,
+   "wind_mph": 10.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-28",
    "bbe": 3,
@@ -180,6 +198,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824973,
+   "date": "2026-07-29",
+   "player_id": 687515,
+   "player_name": "Colby Thomas",
+   "team": "ATH",
+   "opponent": "BOS",
+   "result": "Pop Out",
+   "exit_velocity": 88.9,
+   "launch_angle": 69.0,
+   "hit_distance": 144.0,
+   "hc_x": 146.24,
+   "hc_y": 145.6,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "9bed22ce-fbf8-374d-913d-bd0405320b8f",
+   "venue_id": 2529,
+   "venue_name": "Sutter Health Park",
+   "temp_f": 91.0,
+   "wind_mph": 10.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 26.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824976,
    "date": "2026-07-28",
