@@ -23,14 +23,14 @@
    "band": "40-60",
    "band_rate": 0.225,
    "band_samples": 178,
-   "weather_factor": 1.0,
-   "adjusted_score": 54.8,
+   "weather_factor": 1.056,
+   "adjusted_score": 57.9,
    "game_weather": {
     "venue_name": "Busch Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 84.0,
+    "wind_mph": 4.0,
+    "wind_dir": "in",
+    "weather_condition": "Cloudy"
    },
    "repeat": false
   },
@@ -116,6 +116,37 @@
    "repeat": false
   },
   {
+   "player_id": 691718,
+   "player_name": "Pete Crow-Armstrong",
+   "team": "CHC",
+   "expectancy_score": 43.6,
+   "streak": 2,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": 5.986,
+    "parks_sum": -0.5,
+    "near_hr": 0.045
+   },
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 3,
+   "max_ev_7d": 109.1,
+   "max_distance_7d": 424,
+   "band": "40-60",
+   "band_rate": 0.225,
+   "band_samples": 178,
+   "weather_factor": 1.056,
+   "adjusted_score": 46.0,
+   "game_weather": {
+    "venue_name": "Busch Stadium",
+    "temp_f": 84.0,
+    "wind_mph": 4.0,
+    "wind_dir": "in",
+    "weather_condition": "Cloudy"
+   },
+   "repeat": false
+  },
+  {
    "player_id": 694384,
    "player_name": "Nolan Schanuel",
    "team": "LAA",
@@ -166,33 +197,33 @@
    "repeat": false
   },
   {
-   "player_id": 691718,
-   "player_name": "Pete Crow-Armstrong",
+   "player_id": 608324,
+   "player_name": "Alex Bregman",
    "team": "CHC",
-   "expectancy_score": 43.6,
+   "expectancy_score": 41.1,
    "streak": 2,
-   "frequency": 0.571,
+   "frequency": 0.429,
    "slopes": {
-    "max_ev": 5.986,
-    "parks_sum": -0.5,
-    "near_hr": 0.045
+    "max_ev": 2.629,
+    "parks_sum": 0.0,
+    "near_hr": 0.223
    },
-   "near_hr_7d": 4,
+   "near_hr_7d": 3,
    "near_hr_xbh_7d": 2,
-   "hr_7d": 3,
-   "max_ev_7d": 109.1,
-   "max_distance_7d": 424,
+   "hr_7d": 1,
+   "max_ev_7d": 101.2,
+   "max_distance_7d": 376,
    "band": "40-60",
    "band_rate": 0.225,
    "band_samples": 178,
-   "weather_factor": 1.0,
-   "adjusted_score": 43.6,
+   "weather_factor": 1.056,
+   "adjusted_score": 43.4,
    "game_weather": {
     "venue_name": "Busch Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 84.0,
+    "wind_mph": 4.0,
+    "wind_dir": "in",
+    "weather_condition": "Cloudy"
    },
    "repeat": false
   },
@@ -259,33 +290,33 @@
    "repeat": true
   },
   {
-   "player_id": 608324,
-   "player_name": "Alex Bregman",
+   "player_id": 664023,
+   "player_name": "Ian Happ",
    "team": "CHC",
-   "expectancy_score": 41.1,
+   "expectancy_score": 39.1,
    "streak": 2,
-   "frequency": 0.429,
+   "frequency": 0.286,
    "slopes": {
-    "max_ev": 2.629,
-    "parks_sum": 0.0,
-    "near_hr": 0.223
+    "max_ev": 4.357,
+    "parks_sum": 0.5,
+    "near_hr": 0.286
    },
    "near_hr_7d": 3,
    "near_hr_xbh_7d": 2,
-   "hr_7d": 1,
-   "max_ev_7d": 101.2,
-   "max_distance_7d": 376,
-   "band": "40-60",
-   "band_rate": 0.225,
-   "band_samples": 178,
-   "weather_factor": 1.0,
-   "adjusted_score": 41.1,
+   "hr_7d": 0,
+   "max_ev_7d": 103.6,
+   "max_distance_7d": 379,
+   "band": "<40",
+   "band_rate": 0.203,
+   "band_samples": 4845,
+   "weather_factor": 1.056,
+   "adjusted_score": 41.3,
    "game_weather": {
     "venue_name": "Busch Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 84.0,
+    "wind_mph": 4.0,
+    "wind_dir": "in",
+    "weather_condition": "Cloudy"
    },
    "repeat": false
   },
@@ -346,33 +377,33 @@
    "repeat": false
   },
   {
-   "player_id": 664023,
-   "player_name": "Ian Happ",
-   "team": "CHC",
-   "expectancy_score": 39.1,
-   "streak": 2,
-   "frequency": 0.286,
+   "player_id": 686681,
+   "player_name": "Michael Massey",
+   "team": "KC",
+   "expectancy_score": 32.8,
+   "streak": 1,
+   "frequency": 0.571,
    "slopes": {
-    "max_ev": 4.357,
-    "parks_sum": 0.5,
-    "near_hr": 0.286
+    "max_ev": 1.339,
+    "parks_sum": 0.0,
+    "near_hr": 0.098
    },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 2,
-   "hr_7d": 0,
-   "max_ev_7d": 103.6,
-   "max_distance_7d": 379,
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 1,
+   "max_ev_7d": 105.2,
+   "max_distance_7d": 409,
    "band": "<40",
    "band_rate": 0.203,
    "band_samples": 4845,
-   "weather_factor": 1.0,
-   "adjusted_score": 39.1,
+   "weather_factor": 1.183,
+   "adjusted_score": 38.8,
    "game_weather": {
-    "venue_name": "Busch Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "venue_name": "Target Field",
+    "temp_f": 84.0,
+    "wind_mph": 10.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   },
@@ -406,31 +437,6 @@
     "weather_condition": ""
    },
    "repeat": false
-  },
-  {
-   "player_id": 596117,
-   "player_name": "Garrett Stubbs",
-   "team": "PHI",
-   "expectancy_score": 38.0,
-   "streak": 1,
-   "frequency": 0.667,
-   "slopes": {
-    "max_ev": 2.3,
-    "parks_sum": 0.0,
-    "near_hr": 0.0
-   },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 97.7,
-   "max_distance_7d": 371,
-   "band": "<40",
-   "band_rate": 0.203,
-   "band_samples": 4845,
-   "weather_factor": 1.0,
-   "adjusted_score": 38.0,
-   "game_weather": null,
-   "repeat": true
   }
  ],
  "bands": {
