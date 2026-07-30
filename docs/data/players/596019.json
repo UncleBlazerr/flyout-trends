@@ -2,9 +2,9 @@
  "player_id": 596019,
  "player_name": "Francisco Lindor",
  "team": "NYM",
- "as_of": "2026-07-28",
+ "as_of": "2026-07-30",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 0.346,
@@ -12,7 +12,7 @@
    "near_hr": 0.205
   },
   "intensity": 0.364,
-  "expectancy_score": 27.5,
+  "expectancy_score": 19.5,
   "last_appearance": "2026-07-27"
  },
  "days": [

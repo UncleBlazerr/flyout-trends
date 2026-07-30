@@ -2,9 +2,9 @@
  "player_id": 666182,
  "player_name": "Bo Bichette",
  "team": "NYM",
- "as_of": "2026-07-28",
+ "as_of": "2026-07-30",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 2.818,
@@ -12,7 +12,7 @@
    "near_hr": 0.036
   },
   "intensity": 0.345,
-  "expectancy_score": 26.9,
+  "expectancy_score": 18.9,
   "last_appearance": "2026-07-27"
  },
  "days": [

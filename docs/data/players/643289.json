@@ -2,9 +2,9 @@
  "player_id": 643289,
  "player_name": "Mauricio Dub\u00f3n",
  "team": "ATL",
- "as_of": "2026-07-28",
+ "as_of": "2026-07-30",
  "form": {
-  "streak": 2,
+  "streak": 0,
   "frequency": 0.571,
   "slopes": {
    "max_ev": -0.029,
@@ -12,7 +12,7 @@
    "near_hr": 0.107
   },
   "intensity": 0.167,
-  "expectancy_score": 38.1,
+  "expectancy_score": 22.1,
   "last_appearance": "2026-07-27"
  },
  "days": [

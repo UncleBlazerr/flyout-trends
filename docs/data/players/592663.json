@@ -2,9 +2,9 @@
  "player_id": 592663,
  "player_name": "J.T. Realmuto",
  "team": "PHI",
- "as_of": "2026-07-28",
+ "as_of": "2026-07-30",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.143,
   "slopes": {
    "max_ev": 0.025,
@@ -12,7 +12,7 @@
    "near_hr": 0.241
   },
   "intensity": 0.085,
-  "expectancy_score": 14.8,
+  "expectancy_score": 6.8,
   "last_appearance": "2026-07-27"
  },
  "days": [
