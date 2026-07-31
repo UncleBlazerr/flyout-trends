@@ -2,9 +2,9 @@
  "player_id": 642708,
  "player_name": "Amed Rosario",
  "team": "NYY",
- "as_of": "2026-07-29",
+ "as_of": "2026-07-31",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.167,
   "slopes": {
    "max_ev": 1.491,
@@ -12,7 +12,7 @@
    "near_hr": 0.143
   },
   "intensity": 0.296,
-  "expectancy_score": 21.9,
+  "expectancy_score": 13.9,
   "last_appearance": "2026-07-28"
  },
  "days": [

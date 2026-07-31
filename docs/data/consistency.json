@@ -1,63 +1,53 @@
 {
- "as_of": "2026-07-29",
+ "as_of": "2026-07-31",
  "players": [
-  {
-   "player_id": 661388,
-   "player_name": "William Contreras",
-   "team": "MIL",
-   "record_streak": 3,
-   "total_flags": 4,
-   "avg_score": 38.9,
-   "current_score": 52.0,
-   "game_streak": 3
-  },
-  {
-   "player_id": 668709,
-   "player_name": "JJ Bleday",
-   "team": "CIN",
-   "record_streak": 2,
-   "total_flags": 5,
-   "avg_score": 49.8,
-   "current_score": 42.2,
-   "game_streak": 2
-  },
   {
    "player_id": 690993,
    "player_name": "Colt Keith",
    "team": "DET",
-   "record_streak": 2,
-   "total_flags": 3,
-   "avg_score": 41.5,
+   "record_streak": 4,
+   "total_flags": 5,
+   "avg_score": 41.3,
    "current_score": 47.7,
    "game_streak": 3
-  },
-  {
-   "player_id": 686681,
-   "player_name": "Michael Massey",
-   "team": "KC",
-   "record_streak": 1,
-   "total_flags": 4,
-   "avg_score": 44.9,
-   "current_score": 32.8,
-   "game_streak": 1
   },
   {
    "player_id": 691718,
    "player_name": "Pete Crow-Armstrong",
    "team": "CHC",
-   "record_streak": 1,
-   "total_flags": 4,
-   "avg_score": 42.7,
+   "record_streak": 3,
+   "total_flags": 6,
+   "avg_score": 41.2,
    "current_score": 43.6,
    "game_streak": 2
+  },
+  {
+   "player_id": 671056,
+   "player_name": "Iv\u00e1n Herrera",
+   "team": "STL",
+   "record_streak": 3,
+   "total_flags": 4,
+   "avg_score": 37.9,
+   "current_score": 54.8,
+   "game_streak": 3
+  },
+  {
+   "player_id": 666018,
+   "player_name": "Jonathan Aranda",
+   "team": "TB",
+   "record_streak": 1,
+   "total_flags": 4,
+   "avg_score": 49.2,
+   "current_score": 35.0,
+   "game_streak": 1
   },
   {
    "player_id": 694384,
    "player_name": "Nolan Schanuel",
    "team": "LAA",
    "record_streak": 1,
-   "total_flags": 3,
-   "avg_score": 48.9,
+   "total_flags": 4,
+   "avg_score": 48.0,
    "current_score": 45.5,
    "game_streak": 3
   },
@@ -66,7 +56,7 @@
    "player_name": "Brady House",
    "team": "WSH",
    "record_streak": 1,
-   "total_flags": 3,
+   "total_flags": 4,
    "avg_score": 38.0,
    "current_score": 38.0,
    "game_streak": 1
@@ -76,8 +66,8 @@
    "player_name": "Alex Bregman",
    "team": "CHC",
    "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 43.2,
+   "total_flags": 3,
+   "avg_score": 42.5,
    "current_score": 41.1,
    "game_streak": 2
   },
@@ -86,28 +76,18 @@
    "player_name": "Davis Schneider",
    "team": "TOR",
    "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 39.0,
+   "total_flags": 3,
+   "avg_score": 41.0,
    "current_score": 45.0,
    "game_streak": 2
-  },
-  {
-   "player_id": 671056,
-   "player_name": "Iv\u00e1n Herrera",
-   "team": "STL",
-   "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 32.0,
-   "current_score": 54.8,
-   "game_streak": 3
   },
   {
    "player_id": 596019,
    "player_name": "Francisco Lindor",
    "team": "NYM",
    "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 27.8,
+   "total_flags": 3,
+   "avg_score": 32.8,
    "current_score": 42.7,
    "game_streak": 2
   },
@@ -116,7 +96,7 @@
    "player_name": "Lawrence Butler",
    "team": "ATH",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 46.7,
    "current_score": 46.7,
    "game_streak": 2
@@ -126,7 +106,7 @@
    "player_name": "Alec Bohm",
    "team": "PHI",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 40.2,
    "current_score": 40.2,
    "game_streak": 3
@@ -136,7 +116,7 @@
    "player_name": "Francisco Alvarez",
    "team": "NYM",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 40.1,
    "current_score": 40.1,
    "game_streak": 2
@@ -146,9 +126,29 @@
    "player_name": "Ian Happ",
    "team": "CHC",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 39.1,
    "current_score": 39.1,
+   "game_streak": 2
+  },
+  {
+   "player_id": 691723,
+   "player_name": "Coby Mayo",
+   "team": "BAL",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 36.8,
+   "current_score": 36.8,
+   "game_streak": 1
+  },
+  {
+   "player_id": 800325,
+   "player_name": "Luis Lara",
+   "team": "MIL",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 36.5,
+   "current_score": 36.5,
    "game_streak": 2
   }
  ]
