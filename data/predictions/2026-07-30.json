@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-07-31T11:57:20.571489+00:00",
+ "generated_at": "2026-07-31T17:45:48.026211+00:00",
  "as_of": "2026-07-30",
  "config": {
   "min_near_hr_events": 1,
@@ -75,14 +75,45 @@
    "band": "40-60",
    "band_rate": 0.228,
    "band_samples": 180,
-   "weather_factor": 1.0,
-   "adjusted_score": 57.8,
+   "weather_factor": 1.036,
+   "adjusted_score": 59.9,
    "game_weather": {
     "venue_name": "Wrigley Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 79.0,
+    "wind_mph": 12.0,
+    "wind_dir": "cross",
+    "weather_condition": "Cloudy"
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 691718,
+   "player_name": "Pete Crow-Armstrong",
+   "team": "CHC",
+   "expectancy_score": 51.2,
+   "streak": 3,
+   "frequency": 0.714,
+   "slopes": {
+    "max_ev": 0.671,
+    "parks_sum": 0.679,
+    "near_hr": 0.018
+   },
+   "near_hr_7d": 5,
+   "near_hr_xbh_7d": 3,
+   "hr_7d": 3,
+   "max_ev_7d": 109.1,
+   "max_distance_7d": 424,
+   "band": "40-60",
+   "band_rate": 0.228,
+   "band_samples": 180,
+   "weather_factor": 1.036,
+   "adjusted_score": 53.0,
+   "game_weather": {
+    "venue_name": "Wrigley Field",
+    "temp_f": 79.0,
+    "wind_mph": 12.0,
+    "wind_dir": "cross",
+    "weather_condition": "Cloudy"
    },
    "repeat": true
   },
@@ -110,37 +141,6 @@
    "adjusted_score": 52.0,
    "game_weather": {
     "venue_name": "Angel Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
-   "player_id": 691718,
-   "player_name": "Pete Crow-Armstrong",
-   "team": "CHC",
-   "expectancy_score": 51.2,
-   "streak": 3,
-   "frequency": 0.714,
-   "slopes": {
-    "max_ev": 0.671,
-    "parks_sum": 0.679,
-    "near_hr": 0.018
-   },
-   "near_hr_7d": 5,
-   "near_hr_xbh_7d": 3,
-   "hr_7d": 3,
-   "max_ev_7d": 109.1,
-   "max_distance_7d": 424,
-   "band": "40-60",
-   "band_rate": 0.228,
-   "band_samples": 180,
-   "weather_factor": 1.0,
-   "adjusted_score": 51.2,
-   "game_weather": {
-    "venue_name": "Wrigley Field",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -199,14 +199,14 @@
    "band": "40-60",
    "band_rate": 0.228,
    "band_samples": 180,
-   "weather_factor": 1.0,
-   "adjusted_score": 45.9,
+   "weather_factor": 1.036,
+   "adjusted_score": 47.6,
    "game_weather": {
     "venue_name": "Wrigley Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 79.0,
+    "wind_mph": 12.0,
+    "wind_dir": "cross",
+    "weather_condition": "Cloudy"
    },
    "repeat": false
   },
