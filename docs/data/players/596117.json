@@ -2,9 +2,9 @@
  "player_id": 596117,
  "player_name": "Garrett Stubbs",
  "team": "PHI",
- "as_of": "2026-07-31",
+ "as_of": "2026-07-30",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.667,
   "slopes": {
    "max_ev": 2.3,
@@ -12,7 +12,7 @@
    "near_hr": 0.0
   },
   "intensity": 0.333,
-  "expectancy_score": 30.0,
+  "expectancy_score": 38.0,
   "last_appearance": "2026-07-28"
  },
  "days": [

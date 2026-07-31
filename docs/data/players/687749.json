@@ -2,20 +2,38 @@
  "player_id": 687749,
  "player_name": "Jase Bowen",
  "team": "SD",
- "as_of": "2026-07-31",
+ "as_of": "2026-07-30",
  "form": {
   "streak": 0,
-  "frequency": 0.333,
+  "frequency": 0.286,
   "slopes": {
-   "max_ev": -1.269,
-   "parks_sum": -0.171,
-   "near_hr": -0.229
+   "max_ev": -0.196,
+   "parks_sum": -0.143,
+   "near_hr": -0.179
   },
   "intensity": 0.0,
-  "expectancy_score": 10.0,
-  "last_appearance": "2026-07-25"
+  "expectancy_score": 8.6,
+  "last_appearance": "2026-07-30"
  },
  "days": [
+  {
+   "date": "2026-07-30",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 105.7,
+   "max_distance": 166.0,
+   "max_barrel_score": 54.8,
+   "temp_f": 75.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-25",
    "bbe": 1,
@@ -126,6 +144,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823271,
+   "date": "2026-07-30",
+   "player_id": 687749,
+   "player_name": "Jase Bowen",
+   "team": "SD",
+   "opponent": "SF",
+   "result": "Lineout",
+   "exit_velocity": 105.7,
+   "launch_angle": 11.0,
+   "hit_distance": 166.0,
+   "hc_x": 131.94,
+   "hc_y": 135.52,
+   "would_be_hr_count": 0,
+   "inning": 3,
+   "play_id": "753d275b-5d94-301a-af62-74ef935b9aaa",
+   "venue_id": 2680,
+   "venue_name": "Petco Park",
+   "temp_f": 75.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 54.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823841,
    "date": "2026-07-25",

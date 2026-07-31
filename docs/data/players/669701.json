@@ -2,20 +2,38 @@
  "player_id": 669701,
  "player_name": "Josh Smith",
  "team": "TEX",
- "as_of": "2026-07-31",
+ "as_of": "2026-07-30",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -1.611,
+   "max_ev": -2.096,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.0,
   "expectancy_score": 0.0,
-  "last_appearance": "2026-07-28"
+  "last_appearance": "2026-07-30"
  },
  "days": [
+  {
+   "date": "2026-07-30",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 80.8,
+   "max_distance": 8.0,
+   "max_barrel_score": 10.1,
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Dome"
+  },
   {
    "date": "2026-07-28",
    "bbe": 2,
@@ -162,6 +180,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822946,
+   "date": "2026-07-30",
+   "player_id": 669701,
+   "player_name": "Josh Smith",
+   "team": "TEX",
+   "opponent": "TB",
+   "result": "Groundout",
+   "exit_velocity": 80.8,
+   "launch_angle": -22.0,
+   "hit_distance": 8.0,
+   "hc_x": 138.13,
+   "hc_y": 148.14,
+   "would_be_hr_count": 0,
+   "inning": 6,
+   "play_id": "0552d448-8f1a-38cd-b42f-8b84aa84e2d3",
+   "venue_id": 12,
+   "venue_name": "Tropicana Field",
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Dome",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 10.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 822949,
    "date": "2026-07-28",

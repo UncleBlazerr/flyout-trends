@@ -2,20 +2,38 @@
  "player_id": 663457,
  "player_name": "Lars Nootbaar",
  "team": "STL",
- "as_of": "2026-07-31",
+ "as_of": "2026-07-30",
  "form": {
   "streak": 0,
-  "frequency": 0.286,
+  "frequency": 0.143,
   "slopes": {
-   "max_ev": -0.564,
-   "parks_sum": -0.143,
-   "near_hr": -0.027
+   "max_ev": -0.257,
+   "parks_sum": -0.214,
+   "near_hr": 0.0
   },
   "intensity": 0.0,
-  "expectancy_score": 8.6,
-  "last_appearance": "2026-07-29"
+  "expectancy_score": 4.3,
+  "last_appearance": "2026-07-30"
  },
  "days": [
+  {
+   "date": "2026-07-30",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 93.5,
+   "max_distance": 192.0,
+   "max_barrel_score": 33.7,
+   "temp_f": 85.0,
+   "wind_mph": 4.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-29",
    "bbe": 1,
@@ -396,6 +414,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823023,
+   "date": "2026-07-30",
+   "player_id": 663457,
+   "player_name": "Lars Nootbaar",
+   "team": "STL",
+   "opponent": "CHC",
+   "result": "Pop Out",
+   "exit_velocity": 93.5,
+   "launch_angle": 62.0,
+   "hit_distance": 192.0,
+   "hc_x": 112.28,
+   "hc_y": 125.33,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "a82d20a9-fdca-39a2-96a4-6212aeb39ae2",
+   "venue_id": 2889,
+   "venue_name": "Busch Stadium",
+   "temp_f": 85.0,
+   "wind_mph": 4.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 33.7,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823022,
    "date": "2026-07-29",

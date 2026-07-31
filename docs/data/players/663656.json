@@ -2,20 +2,38 @@
  "player_id": 663656,
  "player_name": "Kyle Tucker",
  "team": "LAD",
- "as_of": "2026-07-31",
+ "as_of": "2026-07-30",
  "form": {
   "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": -1.011,
-   "parks_sum": 0.0,
-   "near_hr": -0.143
+   "max_ev": -1.739,
+   "parks_sum": -0.071,
+   "near_hr": -0.25
   },
   "intensity": 0.0,
   "expectancy_score": 8.6,
-  "last_appearance": "2026-07-29"
+  "last_appearance": "2026-07-30"
  },
  "days": [
+  {
+   "date": "2026-07-30",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 91.2,
+   "max_distance": 295.0,
+   "max_barrel_score": 46.1,
+   "temp_f": 78.0,
+   "wind_mph": 3.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-29",
    "bbe": 4,
@@ -324,6 +342,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823921,
+   "date": "2026-07-30",
+   "player_id": 663656,
+   "player_name": "Kyle Tucker",
+   "team": "LAD",
+   "opponent": "SEA",
+   "result": "Flyout",
+   "exit_velocity": 91.2,
+   "launch_angle": 48.0,
+   "hit_distance": 295.0,
+   "hc_x": 44.62,
+   "hc_y": 112.02,
+   "would_be_hr_count": 0,
+   "inning": 1,
+   "play_id": "3cc9350c-f01d-374a-a98d-a3f488b8240e",
+   "venue_id": 22,
+   "venue_name": "UNIQLO Field at Dodger Stadium",
+   "temp_f": 78.0,
+   "wind_mph": 3.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 46.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823924,
    "date": "2026-07-29",

@@ -2,20 +2,38 @@
  "player_id": 663886,
  "player_name": "Tyler Stephenson",
  "team": "CIN",
- "as_of": "2026-07-31",
+ "as_of": "2026-07-30",
  "form": {
   "streak": 0,
-  "frequency": 0.571,
+  "frequency": 0.429,
   "slopes": {
-   "max_ev": -1.246,
-   "parks_sum": -1.393,
-   "near_hr": -0.205
+   "max_ev": -1.211,
+   "parks_sum": 0.0,
+   "near_hr": -0.08
   },
   "intensity": 0.0,
-  "expectancy_score": 17.1,
-  "last_appearance": "2026-07-29"
+  "expectancy_score": 12.9,
+  "last_appearance": "2026-07-30"
  },
  "days": [
+  {
+   "date": "2026-07-30",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 94.1,
+   "max_distance": 11.0,
+   "max_barrel_score": 22.2,
+   "temp_f": 84.0,
+   "wind_mph": 4.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-29",
    "bbe": 2,
@@ -270,6 +288,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824488,
+   "date": "2026-07-30",
+   "player_id": 663886,
+   "player_name": "Tyler Stephenson",
+   "team": "CIN",
+   "opponent": "PIT",
+   "result": "Single",
+   "exit_velocity": 94.1,
+   "launch_angle": -14.0,
+   "hit_distance": 11.0,
+   "hc_x": 101.14,
+   "hc_y": 152.7,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "7b4b105d-8800-3df9-a762-4403439be064",
+   "venue_id": 2602,
+   "venue_name": "Great American Ball Park",
+   "temp_f": 84.0,
+   "wind_mph": 4.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 22.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824487,
    "date": "2026-07-29",

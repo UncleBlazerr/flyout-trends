@@ -2,20 +2,38 @@
  "player_id": 621020,
  "player_name": "Dansby Swanson",
  "team": "CHC",
- "as_of": "2026-07-31",
+ "as_of": "2026-07-30",
  "form": {
   "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": -2.875,
-   "parks_sum": -0.143,
-   "near_hr": -0.107
+   "max_ev": -3.504,
+   "parks_sum": -0.286,
+   "near_hr": -0.179
   },
   "intensity": 0.0,
   "expectancy_score": 8.6,
-  "last_appearance": "2026-07-29"
+  "last_appearance": "2026-07-30"
  },
  "days": [
+  {
+   "date": "2026-07-30",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 88.7,
+   "max_distance": 38.0,
+   "max_barrel_score": 19.2,
+   "temp_f": 85.0,
+   "wind_mph": 4.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-29",
    "bbe": 3,
@@ -360,6 +378,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823023,
+   "date": "2026-07-30",
+   "player_id": 621020,
+   "player_name": "Dansby Swanson",
+   "team": "CHC",
+   "opponent": "STL",
+   "result": "GIDP",
+   "exit_velocity": 88.7,
+   "launch_angle": -1.0,
+   "hit_distance": 38.0,
+   "hc_x": 108.23,
+   "hc_y": 176.01,
+   "would_be_hr_count": 0,
+   "inning": 3,
+   "play_id": "5730a2d4-d8a7-372b-b314-f3ec75ddb245",
+   "venue_id": 2889,
+   "venue_name": "Busch Stadium",
+   "temp_f": 85.0,
+   "wind_mph": 4.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 19.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823022,
    "date": "2026-07-29",
