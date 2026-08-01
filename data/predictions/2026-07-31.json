@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-08-01T11:14:44.449363+00:00",
+ "generated_at": "2026-08-01T17:07:12.841017+00:00",
  "as_of": "2026-07-31",
  "config": {
   "min_near_hr_events": 1,
@@ -234,10 +234,10 @@
    "adjusted_score": 45.0,
    "game_weather": {
     "venue_name": "Rogers Centre",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": true
   },
@@ -397,6 +397,37 @@
    "repeat": false
   },
   {
+   "player_id": 676439,
+   "player_name": "Hunter Feduccia",
+   "team": "TB",
+   "expectancy_score": 31.1,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": -0.536,
+    "parks_sum": 0.214,
+    "near_hr": 0.152
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 107.4,
+   "max_distance_7d": 381,
+   "band": "<40",
+   "band_rate": 0.2,
+   "band_samples": 5334,
+   "weather_factor": 1.2,
+   "adjusted_score": 37.3,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": 84.0,
+    "wind_mph": 14.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
+  },
+  {
    "player_id": 687952,
    "player_name": "Christian Encarnacion-Strand",
    "team": "BAL",
@@ -451,10 +482,10 @@
    "adjusted_score": 36.6,
    "game_weather": {
     "venue_name": "Rogers Centre",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": false
   },
@@ -482,37 +513,6 @@
    "adjusted_score": 35.4,
    "game_weather": {
     "venue_name": "Sutter Health Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 665804,
-   "player_name": "Miguel Amaya",
-   "team": "CHC",
-   "expectancy_score": 35.2,
-   "streak": 2,
-   "frequency": 0.286,
-   "slopes": {
-    "max_ev": 1.671,
-    "parks_sum": 0.071,
-    "near_hr": 0.205
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 99.5,
-   "max_distance_7d": 358,
-   "band": "<40",
-   "band_rate": 0.2,
-   "band_samples": 5334,
-   "weather_factor": 1.0,
-   "adjusted_score": 35.2,
-   "game_weather": {
-    "venue_name": "Wrigley Field",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
