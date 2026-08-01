@@ -2,9 +2,9 @@
  "player_id": 691723,
  "player_name": "Coby Mayo",
  "team": "BAL",
- "as_of": "2026-07-30",
+ "as_of": "2026-08-01",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.571,
   "slopes": {
    "max_ev": -1.261,
@@ -12,7 +12,7 @@
    "near_hr": 0.17
   },
   "intensity": 0.39,
-  "expectancy_score": 36.8,
+  "expectancy_score": 28.8,
   "last_appearance": "2026-07-29"
  },
  "days": [
