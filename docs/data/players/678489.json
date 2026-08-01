@@ -2,9 +2,9 @@
  "player_id": 678489,
  "player_name": "Jorge Barrosa",
  "team": "AZ",
- "as_of": "2026-08-01",
+ "as_of": "2026-07-31",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.286,
   "slopes": {
    "max_ev": -5.132,
@@ -12,7 +12,7 @@
    "near_hr": 0.062
   },
   "intensity": 0.021,
-  "expectancy_score": 9.2,
+  "expectancy_score": 17.2,
   "last_appearance": "2026-07-29"
  },
  "days": [

@@ -2,20 +2,38 @@
  "player_id": 691406,
  "player_name": "Junior Caminero",
  "team": "TB",
- "as_of": "2026-08-01",
+ "as_of": "2026-07-31",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.429,
   "slopes": {
-   "max_ev": 1.346,
-   "parks_sum": 2.25,
-   "near_hr": 0.062
+   "max_ev": -0.086,
+   "parks_sum": 1.071,
+   "near_hr": -0.054
   },
-  "intensity": 0.495,
-  "expectancy_score": 35.7,
-  "last_appearance": "2026-07-30"
+  "intensity": 0.119,
+  "expectancy_score": 16.4,
+  "last_appearance": "2026-07-31"
  },
  "days": [
+  {
+   "date": "2026-07-31",
+   "bbe": 1,
+   "hr": 1,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 109.5,
+   "max_distance": 453.0,
+   "max_barrel_score": 93.5,
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Dome"
+  },
   {
    "date": "2026-07-30",
    "bbe": 3,
@@ -414,6 +432,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822945,
+   "date": "2026-07-31",
+   "player_id": 691406,
+   "player_name": "Junior Caminero",
+   "team": "TB",
+   "opponent": "CWS",
+   "result": "Home Run",
+   "exit_velocity": 109.5,
+   "launch_angle": 29.0,
+   "hit_distance": 453.0,
+   "hc_x": 91.99,
+   "hc_y": 18.33,
+   "would_be_hr_count": 30,
+   "inning": 4,
+   "play_id": "e0c6bfaa-bdf8-3135-8aee-6cbaf1a39700",
+   "venue_id": 12,
+   "venue_name": "Tropicana Field",
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Dome",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 93.5,
+   "barrel_flag": false,
+   "is_home_run": true,
+   "is_near_hr": false
+  },
   {
    "game_pk": 822946,
    "date": "2026-07-30",
