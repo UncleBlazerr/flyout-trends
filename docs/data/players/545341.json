@@ -2,20 +2,38 @@
  "player_id": 545341,
  "player_name": "Randal Grichuk",
  "team": "CWS",
- "as_of": "2026-08-02",
+ "as_of": "2026-08-01",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 2.443,
+   "max_ev": 0.132,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.333,
-  "expectancy_score": 10.0,
-  "last_appearance": "2026-07-30"
+  "intensity": 0.022,
+  "expectancy_score": 0.7,
+  "last_appearance": "2026-08-01"
  },
  "days": [
+  {
+   "date": "2026-08-01",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 65.9,
+   "max_distance": 220.0,
+   "max_barrel_score": 38.7,
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Dome"
+  },
   {
    "date": "2026-07-30",
    "bbe": 2,
@@ -306,6 +324,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822944,
+   "date": "2026-08-01",
+   "player_id": 545341,
+   "player_name": "Randal Grichuk",
+   "team": "CWS",
+   "opponent": "TB",
+   "result": "Single",
+   "exit_velocity": 65.9,
+   "launch_angle": 33.0,
+   "hit_distance": 220.0,
+   "hc_x": 155.84,
+   "hc_y": 108.97,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "b91dffb9-b77f-3195-99aa-5ca458790e47",
+   "venue_id": 12,
+   "venue_name": "Tropicana Field",
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Dome",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 38.7,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824568,
    "date": "2026-07-30",

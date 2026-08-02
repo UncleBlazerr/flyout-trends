@@ -2,20 +2,38 @@
  "player_id": 694497,
  "player_name": "Evan Carter",
  "team": "TEX",
- "as_of": "2026-08-02",
+ "as_of": "2026-08-01",
  "form": {
   "streak": 0,
-  "frequency": 0.143,
+  "frequency": 0.0,
   "slopes": {
-   "max_ev": 1.457,
+   "max_ev": -0.675,
    "parks_sum": 0.0,
-   "near_hr": -0.107
+   "near_hr": 0.0
   },
-  "intensity": 0.243,
-  "expectancy_score": 11.6,
-  "last_appearance": "2026-07-31"
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-08-01"
  },
  "days": [
+  {
+   "date": "2026-08-01",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 75.2,
+   "max_distance": 198.0,
+   "max_barrel_score": 17.8,
+   "temp_f": 73.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-07-31",
    "bbe": 4,
@@ -342,6 +360,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824162,
+   "date": "2026-08-01",
+   "player_id": 694497,
+   "player_name": "Evan Carter",
+   "team": "TEX",
+   "opponent": "HOU",
+   "result": "Flyout",
+   "exit_velocity": 75.2,
+   "launch_angle": 55.0,
+   "hit_distance": 198.0,
+   "hc_x": 79.01,
+   "hc_y": 147.52,
+   "would_be_hr_count": 0,
+   "inning": 1,
+   "play_id": "239ce754-1b73-3680-b371-db1bbceb38d7",
+   "venue_id": 2392,
+   "venue_name": "Daikin Park",
+   "temp_f": 73.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 17.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824164,
    "date": "2026-07-31",

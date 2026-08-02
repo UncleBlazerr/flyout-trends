@@ -2,20 +2,38 @@
  "player_id": 571970,
  "player_name": "Max Muncy",
  "team": "LAD",
- "as_of": "2026-08-02",
+ "as_of": "2026-08-01",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -3.6,
+   "max_ev": -2.836,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.0,
   "expectancy_score": 0.0,
-  "last_appearance": "2026-07-31"
+  "last_appearance": "2026-08-01"
  },
  "days": [
+  {
+   "date": "2026-08-01",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 97.2,
+   "max_distance": 282.0,
+   "max_barrel_score": 67.0,
+   "temp_f": 85.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-07-31",
    "bbe": 1,
@@ -324,6 +342,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823920,
+   "date": "2026-08-01",
+   "player_id": 571970,
+   "player_name": "Max Muncy",
+   "team": "LAD",
+   "opponent": "BOS",
+   "result": "Single",
+   "exit_velocity": 97.2,
+   "launch_angle": 22.0,
+   "hit_distance": 282.0,
+   "hc_x": 198.84,
+   "hc_y": 111.92,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "260d710f-5ccc-3ecf-bc81-288619e102e0",
+   "venue_id": 22,
+   "venue_name": "UNIQLO Field at Dodger Stadium",
+   "temp_f": 85.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 67.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823922,
    "date": "2026-07-31",
