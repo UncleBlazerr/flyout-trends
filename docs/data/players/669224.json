@@ -2,9 +2,9 @@
  "player_id": 669224,
  "player_name": "Austin Wells",
  "team": "NYY",
- "as_of": "2026-07-31",
+ "as_of": "2026-08-02",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.143,
   "slopes": {
    "max_ev": 3.282,
@@ -12,7 +12,7 @@
    "near_hr": 0.134
   },
   "intensity": 0.378,
-  "expectancy_score": 23.6,
+  "expectancy_score": 15.6,
   "last_appearance": "2026-07-30"
  },
  "days": [

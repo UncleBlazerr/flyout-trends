@@ -2,9 +2,9 @@
  "player_id": 641933,
  "player_name": "Tyler O'Neill",
  "team": "BAL",
- "as_of": "2026-07-31",
+ "as_of": "2026-08-02",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 1.243,
@@ -12,7 +12,7 @@
    "near_hr": 0.036
   },
   "intensity": 0.219,
-  "expectancy_score": 23.1,
+  "expectancy_score": 15.1,
   "last_appearance": "2026-07-29"
  },
  "days": [
