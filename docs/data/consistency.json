@@ -102,29 +102,9 @@
    "game_streak": 2
   },
   {
-   "player_id": 665804,
-   "player_name": "Miguel Amaya",
-   "team": "CHC",
-   "record_streak": 1,
-   "total_flags": 1,
-   "avg_score": 35.2,
-   "current_score": 35.2,
-   "game_streak": 2
-  },
-  {
    "player_id": 691458,
    "player_name": "Blaze Jordan",
    "team": "STL",
-   "record_streak": 1,
-   "total_flags": 1,
-   "avg_score": 35.0,
-   "current_score": 35.0,
-   "game_streak": 2
-  },
-  {
-   "player_id": 691176,
-   "player_name": "Jasson Dom\u00ednguez",
-   "team": "NYY",
    "record_streak": 1,
    "total_flags": 1,
    "avg_score": 35.0,
@@ -149,6 +129,26 @@
    "total_flags": 1,
    "avg_score": 32.3,
    "current_score": 32.3,
+   "game_streak": 1
+  },
+  {
+   "player_id": 641680,
+   "player_name": "Jonah Heim",
+   "team": "ATH",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 30.6,
+   "current_score": 30.6,
+   "game_streak": 2
+  },
+  {
+   "player_id": 669003,
+   "player_name": "Garrett Mitchell",
+   "team": "MIL",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 28.6,
+   "current_score": 28.6,
    "game_streak": 1
   }
  ]

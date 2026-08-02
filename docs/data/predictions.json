@@ -23,14 +23,14 @@
    "band": "60-80",
    "band_rate": null,
    "band_samples": 17,
-   "weather_factor": 1.0,
-   "adjusted_score": 66.2,
+   "weather_factor": 1.158,
+   "adjusted_score": 76.7,
    "game_weather": {
     "venue_name": "Angel Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 87.0,
+    "wind_mph": 7.0,
+    "wind_dir": "out",
+    "weather_condition": "Sunny"
    },
    "repeat": true
   },
@@ -54,14 +54,14 @@
    "band": "60-80",
    "band_rate": null,
    "band_samples": 17,
-   "weather_factor": 1.0,
-   "adjusted_score": 60.1,
+   "weather_factor": 1.104,
+   "adjusted_score": 66.4,
    "game_weather": {
     "venue_name": "Sutter Health Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 96.0,
+    "wind_mph": 2.0,
+    "wind_dir": "out",
+    "weather_condition": "Sunny"
    },
    "repeat": true
   },
@@ -85,14 +85,14 @@
    "band": "40-60",
    "band_rate": 0.23,
    "band_samples": 196,
-   "weather_factor": 1.0,
-   "adjusted_score": 53.0,
+   "weather_factor": 1.158,
+   "adjusted_score": 61.4,
    "game_weather": {
     "venue_name": "Angel Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 87.0,
+    "wind_mph": 7.0,
+    "wind_dir": "out",
+    "weather_condition": "Sunny"
    },
    "repeat": false
   },
@@ -116,14 +116,14 @@
    "band": "40-60",
    "band_rate": 0.23,
    "band_samples": 196,
-   "weather_factor": 1.0,
-   "adjusted_score": 43.9,
+   "weather_factor": 1.024,
+   "adjusted_score": 45.0,
    "game_weather": {
     "venue_name": "Petco Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 76.0,
+    "wind_mph": 9.0,
+    "wind_dir": "cross",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": true
   },
@@ -147,14 +147,45 @@
    "band": "40-60",
    "band_rate": 0.23,
    "band_samples": 196,
-   "weather_factor": 1.0,
-   "adjusted_score": 43.0,
+   "weather_factor": 1.024,
+   "adjusted_score": 44.0,
    "game_weather": {
     "venue_name": "Petco Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 76.0,
+    "wind_mph": 9.0,
+    "wind_dir": "cross",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 666176,
+   "player_name": "Jo Adell",
+   "team": "LAA",
+   "expectancy_score": 35.9,
+   "streak": 1,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": 2.796,
+    "parks_sum": 0.214,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
+   "max_ev_7d": 108.6,
+   "max_distance_7d": 446,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 5622,
+   "weather_factor": 1.158,
+   "adjusted_score": 41.6,
+   "game_weather": {
+    "venue_name": "Angel Stadium",
+    "temp_f": 87.0,
+    "wind_mph": 7.0,
+    "wind_dir": "out",
+    "weather_condition": "Sunny"
    },
    "repeat": false
   },
@@ -190,6 +221,37 @@
    "repeat": false
   },
   {
+   "player_id": 691016,
+   "player_name": "Tyler Soderstrom",
+   "team": "ATH",
+   "expectancy_score": 35.6,
+   "streak": 2,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": 0.582,
+    "parks_sum": 1.821,
+    "near_hr": 0.205
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 1,
+   "max_ev_7d": 109.4,
+   "max_distance_7d": 391,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 5622,
+   "weather_factor": 1.104,
+   "adjusted_score": 39.3,
+   "game_weather": {
+    "venue_name": "Sutter Health Park",
+    "temp_f": 96.0,
+    "wind_mph": 2.0,
+    "wind_dir": "out",
+    "weather_condition": "Sunny"
+   },
+   "repeat": false
+  },
+  {
    "player_id": 682829,
    "player_name": "Elly De La Cruz",
    "team": "CIN",
@@ -209,14 +271,14 @@
    "band": "<40",
    "band_rate": 0.201,
    "band_samples": 5622,
-   "weather_factor": 1.0,
-   "adjusted_score": 37.3,
+   "weather_factor": 0.987,
+   "adjusted_score": 36.8,
    "game_weather": {
     "venue_name": "Great American Ball Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 77.0,
+    "wind_mph": 5.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   },
@@ -244,103 +306,41 @@
    "adjusted_score": 36.2,
    "game_weather": {
     "venue_name": "Daikin Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 73.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": false
   },
   {
-   "player_id": 666176,
-   "player_name": "Jo Adell",
-   "team": "LAA",
-   "expectancy_score": 35.9,
+   "player_id": 686475,
+   "player_name": "Tyler Tolbert",
+   "team": "KC",
+   "expectancy_score": 33.5,
    "streak": 1,
-   "frequency": 0.571,
+   "frequency": 0.429,
    "slopes": {
-    "max_ev": 2.796,
-    "parks_sum": 0.214,
-    "near_hr": 0.0
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 1,
-   "max_ev_7d": 108.6,
-   "max_distance_7d": 446,
-   "band": "<40",
-   "band_rate": 0.201,
-   "band_samples": 5622,
-   "weather_factor": 1.0,
-   "adjusted_score": 35.9,
-   "game_weather": {
-    "venue_name": "Angel Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 691016,
-   "player_name": "Tyler Soderstrom",
-   "team": "ATH",
-   "expectancy_score": 35.6,
-   "streak": 2,
-   "frequency": 0.286,
-   "slopes": {
-    "max_ev": 0.582,
-    "parks_sum": 1.821,
-    "near_hr": 0.205
+    "max_ev": 9.232,
+    "parks_sum": 0.679,
+    "near_hr": 0.036
    },
    "near_hr_7d": 2,
-   "near_hr_xbh_7d": 1,
+   "near_hr_xbh_7d": 2,
    "hr_7d": 1,
-   "max_ev_7d": 109.4,
-   "max_distance_7d": 391,
+   "max_ev_7d": 105.2,
+   "max_distance_7d": 404,
    "band": "<40",
    "band_rate": 0.201,
    "band_samples": 5622,
-   "weather_factor": 1.0,
-   "adjusted_score": 35.6,
+   "weather_factor": 1.075,
+   "adjusted_score": 36.0,
    "game_weather": {
-    "venue_name": "Sutter Health Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 665804,
-   "player_name": "Miguel Amaya",
-   "team": "CHC",
-   "expectancy_score": 35.2,
-   "streak": 2,
-   "frequency": 0.286,
-   "slopes": {
-    "max_ev": 1.671,
-    "parks_sum": 0.071,
-    "near_hr": 0.205
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 99.5,
-   "max_distance_7d": 358,
-   "band": "<40",
-   "band_rate": 0.201,
-   "band_samples": 5622,
-   "weather_factor": 1.0,
-   "adjusted_score": 35.2,
-   "game_weather": {
-    "venue_name": "Wrigley Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "venue_name": "Coors Field",
+    "temp_f": 100.0,
+    "wind_mph": 5.0,
+    "wind_dir": "in",
+    "weather_condition": "Sunny"
    },
    "repeat": false
   },
@@ -368,72 +368,41 @@
    "adjusted_score": 35.0,
    "game_weather": {
     "venue_name": "Rogers Centre",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 68.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": false
   },
   {
-   "player_id": 691176,
-   "player_name": "Jasson Dom\u00ednguez",
-   "team": "NYY",
-   "expectancy_score": 35.0,
+   "player_id": 641680,
+   "player_name": "Jonah Heim",
+   "team": "ATH",
+   "expectancy_score": 30.6,
    "streak": 2,
-   "frequency": 0.286,
-   "slopes": {
-    "max_ev": 1.486,
-    "parks_sum": 0.286,
-    "near_hr": 0.205
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 110.2,
-   "max_distance_7d": 348,
-   "band": "<40",
-   "band_rate": 0.201,
-   "band_samples": 5622,
-   "weather_factor": 1.0,
-   "adjusted_score": 35.0,
-   "game_weather": {
-    "venue_name": "Wrigley Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 686475,
-   "player_name": "Tyler Tolbert",
-   "team": "KC",
-   "expectancy_score": 33.5,
-   "streak": 1,
    "frequency": 0.429,
    "slopes": {
-    "max_ev": 9.232,
-    "parks_sum": 0.679,
-    "near_hr": 0.036
+    "max_ev": -0.671,
+    "parks_sum": 0.536,
+    "near_hr": -0.036
    },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 2,
-   "hr_7d": 1,
-   "max_ev_7d": 105.2,
-   "max_distance_7d": 404,
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 2,
+   "max_ev_7d": 104.2,
+   "max_distance_7d": 419,
    "band": "<40",
    "band_rate": 0.201,
    "band_samples": 5622,
-   "weather_factor": 1.0,
-   "adjusted_score": 33.5,
+   "weather_factor": 1.104,
+   "adjusted_score": 33.8,
    "game_weather": {
-    "venue_name": "Coors Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "venue_name": "Sutter Health Park",
+    "temp_f": 96.0,
+    "wind_mph": 2.0,
+    "wind_dir": "out",
+    "weather_condition": "Sunny"
    },
    "repeat": false
   },
@@ -457,14 +426,45 @@
    "band": "<40",
    "band_rate": 0.201,
    "band_samples": 5622,
-   "weather_factor": 1.0,
-   "adjusted_score": 32.3,
+   "weather_factor": 1.044,
+   "adjusted_score": 33.7,
    "game_weather": {
     "venue_name": "Citi Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 81.0,
+    "wind_mph": 16.0,
+    "wind_dir": "cross",
+    "weather_condition": "Cloudy"
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 669003,
+   "player_name": "Garrett Mitchell",
+   "team": "MIL",
+   "expectancy_score": 28.6,
+   "streak": 1,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": 2.086,
+    "parks_sum": 0.0,
+    "near_hr": 0.205
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 111.3,
+   "max_distance_7d": 396,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 5622,
+   "weather_factor": 1.158,
+   "adjusted_score": 33.1,
+   "game_weather": {
+    "venue_name": "Angel Stadium",
+    "temp_f": 87.0,
+    "wind_mph": 7.0,
+    "wind_dir": "out",
+    "weather_condition": "Sunny"
    },
    "repeat": false
   }
