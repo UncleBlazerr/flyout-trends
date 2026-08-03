@@ -2,20 +2,38 @@
  "player_id": 694671,
  "player_name": "Wyatt Langford",
  "team": "TEX",
- "as_of": "2026-08-03",
+ "as_of": "2026-08-02",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": 1.096,
+   "max_ev": -2.05,
    "parks_sum": 0.0,
-   "near_hr": -0.045
+   "near_hr": -0.089
   },
-  "intensity": 0.183,
-  "expectancy_score": 9.8,
-  "last_appearance": "2026-08-01"
+  "intensity": 0.0,
+  "expectancy_score": 4.3,
+  "last_appearance": "2026-08-02"
  },
  "days": [
+  {
+   "date": "2026-08-02",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 80.6,
+   "max_distance": 4.0,
+   "max_barrel_score": 9.7,
+   "temp_f": 73.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-08-01",
    "bbe": 3,
@@ -360,6 +378,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824163,
+   "date": "2026-08-02",
+   "player_id": 694671,
+   "player_name": "Wyatt Langford",
+   "team": "TEX",
+   "opponent": "HOU",
+   "result": "Field Error",
+   "exit_velocity": 80.6,
+   "launch_angle": -36.0,
+   "hit_distance": 4.0,
+   "hc_x": 113.48,
+   "hc_y": 159.18,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "d522c3e5-5e0c-3c70-9ca2-be3ba0626271",
+   "venue_id": 2392,
+   "venue_name": "Daikin Park",
+   "temp_f": 73.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 9.7,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824162,
    "date": "2026-08-01",

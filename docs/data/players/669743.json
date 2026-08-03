@@ -2,20 +2,38 @@
  "player_id": 669743,
  "player_name": "Alex Call",
  "team": "LAD",
- "as_of": "2026-08-03",
+ "as_of": "2026-08-02",
  "form": {
-  "streak": 0,
-  "frequency": 0.167,
+  "streak": 1,
+  "frequency": 0.286,
   "slopes": {
-   "max_ev": -0.334,
-   "parks_sum": 0.0,
-   "near_hr": -0.143
+   "max_ev": 1.746,
+   "parks_sum": 0.429,
+   "near_hr": 0.027
   },
-  "intensity": 0.0,
-  "expectancy_score": 5.0,
-  "last_appearance": "2026-08-01"
+  "intensity": 0.348,
+  "expectancy_score": 27.0,
+  "last_appearance": "2026-08-02"
  },
  "days": [
+  {
+   "date": "2026-08-02",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 1,
+   "near_hr_distance": 1,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 4,
+   "max_ev": 102.2,
+   "max_distance": 355.0,
+   "max_barrel_score": 75.2,
+   "temp_f": 87.0,
+   "wind_mph": 2.0,
+   "wind_dir": "none",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-08-01",
    "bbe": 1,
@@ -126,6 +144,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823919,
+   "date": "2026-08-02",
+   "player_id": 669743,
+   "player_name": "Alex Call",
+   "team": "LAD",
+   "opponent": "BOS",
+   "result": "Double",
+   "exit_velocity": 102.2,
+   "launch_angle": 21.0,
+   "hit_distance": 355.0,
+   "hc_x": 40.96,
+   "hc_y": 82.83,
+   "would_be_hr_count": 4,
+   "inning": 8,
+   "play_id": "cbe1c7e7-2bc5-328c-a52d-9e1c7e7dcdce",
+   "venue_id": 22,
+   "venue_name": "UNIQLO Field at Dodger Stadium",
+   "temp_f": 87.0,
+   "wind_mph": 2.0,
+   "wind_dir": "none",
+   "weather_condition": "Sunny",
+   "distance_flag": true,
+   "would_be_hr_flag": false,
+   "barrel_score": 75.2,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 823920,
    "date": "2026-08-01",

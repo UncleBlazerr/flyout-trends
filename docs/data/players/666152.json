@@ -2,20 +2,38 @@
  "player_id": 666152,
  "player_name": "David Hamilton",
  "team": "MIL",
- "as_of": "2026-08-03",
+ "as_of": "2026-08-02",
  "form": {
   "streak": 0,
   "frequency": 0.429,
   "slopes": {
-   "max_ev": 0.064,
-   "parks_sum": 0.107,
-   "near_hr": 0.018
+   "max_ev": -0.821,
+   "parks_sum": 0.071,
+   "near_hr": -0.098
   },
-  "intensity": 0.029,
-  "expectancy_score": 13.7,
-  "last_appearance": "2026-07-31"
+  "intensity": 0.008,
+  "expectancy_score": 13.1,
+  "last_appearance": "2026-08-02"
  },
  "days": [
+  {
+   "date": "2026-08-02",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 98.4,
+   "max_distance": 322.0,
+   "max_barrel_score": 66.3,
+   "temp_f": 87.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-07-31",
    "bbe": 5,
@@ -144,6 +162,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823996,
+   "date": "2026-08-02",
+   "player_id": 666152,
+   "player_name": "David Hamilton",
+   "team": "MIL",
+   "opponent": "LAA",
+   "result": "Lineout",
+   "exit_velocity": 98.4,
+   "launch_angle": 18.0,
+   "hit_distance": 322.0,
+   "hc_x": 73.78,
+   "hc_y": 80.4,
+   "would_be_hr_count": 0,
+   "inning": 5,
+   "play_id": "acb2eedf-4d71-301a-828c-ac7f3dc1c1c0",
+   "venue_id": 1,
+   "venue_name": "Angel Stadium",
+   "temp_f": 87.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 66.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823999,
    "date": "2026-07-31",

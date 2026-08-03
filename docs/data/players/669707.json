@@ -2,20 +2,38 @@
  "player_id": 669707,
  "player_name": "Jared Triolo",
  "team": "PIT",
- "as_of": "2026-08-03",
+ "as_of": "2026-08-02",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": -1.907,
+   "max_ev": -4.425,
    "parks_sum": 0.0,
-   "near_hr": -0.071
+   "near_hr": -0.107
   },
   "intensity": 0.0,
   "expectancy_score": 4.3,
-  "last_appearance": "2026-08-01"
+  "last_appearance": "2026-08-02"
  },
  "days": [
+  {
+   "date": "2026-08-02",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 68.7,
+   "max_distance": 208.0,
+   "max_barrel_score": 39.0,
+   "temp_f": 74.0,
+   "wind_mph": 5.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-01",
    "bbe": 2,
@@ -324,6 +342,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824483,
+   "date": "2026-08-02",
+   "player_id": 669707,
+   "player_name": "Jared Triolo",
+   "team": "PIT",
+   "opponent": "CIN",
+   "result": "Single",
+   "exit_velocity": 68.7,
+   "launch_angle": 23.0,
+   "hit_distance": 208.0,
+   "hc_x": 119.69,
+   "hc_y": 106.69,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "69513f92-4a23-3521-8ca2-50d60bb7c898",
+   "venue_id": 2602,
+   "venue_name": "Great American Ball Park",
+   "temp_f": 74.0,
+   "wind_mph": 5.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 39.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824485,
    "date": "2026-08-01",

@@ -2,20 +2,38 @@
  "player_id": 691373,
  "player_name": "Jhostynxon Garcia",
  "team": "PIT",
- "as_of": "2026-08-03",
+ "as_of": "2026-08-02",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -12.8,
+   "max_ev": -0.45,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.0,
   "expectancy_score": 0.0,
-  "last_appearance": "2026-07-30"
+  "last_appearance": "2026-08-02"
  },
  "days": [
+  {
+   "date": "2026-08-02",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 99.8,
+   "max_distance": 50.0,
+   "max_barrel_score": 29.8,
+   "temp_f": 74.0,
+   "wind_mph": 5.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-30",
    "bbe": 2,
@@ -54,6 +72,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824483,
+   "date": "2026-08-02",
+   "player_id": 691373,
+   "player_name": "Jhostynxon Garcia",
+   "team": "PIT",
+   "opponent": "CIN",
+   "result": "Groundout",
+   "exit_velocity": 99.8,
+   "launch_angle": -1.0,
+   "hit_distance": 50.0,
+   "hc_x": 112.73,
+   "hc_y": 154.62,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "cd4712fc-550c-3aa7-aae7-d8beb551da15",
+   "venue_id": 2602,
+   "venue_name": "Great American Ball Park",
+   "temp_f": 74.0,
+   "wind_mph": 5.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 29.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824488,
    "date": "2026-07-30",
