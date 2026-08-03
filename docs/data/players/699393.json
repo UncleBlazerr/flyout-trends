@@ -2,9 +2,9 @@
  "player_id": 699393,
  "player_name": "Pedro Ram\u00edrez",
  "team": "CHC",
- "as_of": "2026-08-01",
+ "as_of": "2026-08-03",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": -0.818,
@@ -12,7 +12,7 @@
    "near_hr": 0.107
   },
   "intensity": 0.036,
-  "expectancy_score": 17.6,
+  "expectancy_score": 9.6,
   "last_appearance": "2026-07-31"
  },
  "days": [
@@ -231,24 +231,6 @@
    "wind_mph": 8.0,
    "wind_dir": "cross",
    "weather_condition": "Partly Cloudy"
-  },
-  {
-   "date": "2026-07-04",
-   "bbe": 1,
-   "hr": 0,
-   "near_hr_any": 0,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 0,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 0,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 102.3,
-   "max_distance": 66.0,
-   "max_barrel_score": 33.1,
-   "temp_f": 70.0,
-   "wind_mph": 6.0,
-   "wind_dir": "in",
-   "weather_condition": "Cloudy"
   }
  ],
  "events": [
@@ -1205,35 +1187,6 @@
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 51.2,
-   "barrel_flag": false,
-   "is_home_run": false,
-   "is_near_hr": false
-  },
-  {
-   "game_pk": 824658,
-   "date": "2026-07-04",
-   "player_id": 699393,
-   "player_name": "Pedro Ram\u00edrez",
-   "team": "CHC",
-   "opponent": "STL",
-   "result": "GIDP",
-   "exit_velocity": 102.3,
-   "launch_angle": null,
-   "hit_distance": 66.0,
-   "hc_x": 124.57,
-   "hc_y": 146.77,
-   "would_be_hr_count": 0,
-   "inning": 9,
-   "play_id": "d6525f11-1e89-351a-b935-1d96e0e40d04",
-   "venue_id": 17,
-   "venue_name": "Wrigley Field",
-   "temp_f": 70.0,
-   "wind_mph": 6.0,
-   "wind_dir": "in",
-   "weather_condition": "Cloudy",
-   "distance_flag": false,
-   "would_be_hr_flag": false,
-   "barrel_score": 33.1,
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false

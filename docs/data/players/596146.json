@@ -2,9 +2,9 @@
  "player_id": 596146,
  "player_name": "Max Kepler",
  "team": "AZ",
- "as_of": "2026-08-01",
+ "as_of": "2026-08-03",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 1.486,
@@ -12,7 +12,7 @@
    "near_hr": 0.179
   },
   "intensity": 0.307,
-  "expectancy_score": 25.8,
+  "expectancy_score": 17.8,
   "last_appearance": "2026-07-31"
  },
  "days": [
@@ -321,24 +321,6 @@
    "wind_mph": 11.0,
    "wind_dir": "cross",
    "weather_condition": "Clear"
-  },
-  {
-   "date": "2026-07-04",
-   "bbe": 1,
-   "hr": 0,
-   "near_hr_any": 0,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 0,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 0,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 92.8,
-   "max_distance": 285.0,
-   "max_barrel_score": 44.7,
-   "temp_f": 73.0,
-   "wind_mph": 0.0,
-   "wind_dir": "none",
-   "weather_condition": "Roof Closed"
   }
  ],
  "events": [
@@ -1788,35 +1770,6 @@
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 24.1,
-   "barrel_flag": false,
-   "is_home_run": false,
-   "is_near_hr": false
-  },
-  {
-   "game_pk": 825063,
-   "date": "2026-07-04",
-   "player_id": 596146,
-   "player_name": "Max Kepler",
-   "team": "AZ",
-   "opponent": "MIL",
-   "result": "Flyout",
-   "exit_velocity": 92.8,
-   "launch_angle": 50.0,
-   "hit_distance": 285.0,
-   "hc_x": 66.66,
-   "hc_y": 101.52,
-   "would_be_hr_count": 0,
-   "inning": 5,
-   "play_id": "b6e49181-4b59-3fd0-a486-d1b65bfd4ce1",
-   "venue_id": 15,
-   "venue_name": "Chase Field",
-   "temp_f": 73.0,
-   "wind_mph": 0.0,
-   "wind_dir": "none",
-   "weather_condition": "Roof Closed",
-   "distance_flag": false,
-   "would_be_hr_flag": false,
-   "barrel_score": 44.7,
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
