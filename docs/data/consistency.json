@@ -1,44 +1,24 @@
 {
- "as_of": "2026-08-02",
+ "as_of": "2026-08-04",
  "players": [
-  {
-   "player_id": 665487,
-   "player_name": "Fernando Tatis Jr.",
-   "team": "SD",
-   "record_streak": 3,
-   "total_flags": 3,
-   "avg_score": 42.3,
-   "current_score": 43.9,
-   "game_streak": 3
-  },
-  {
-   "player_id": 518595,
-   "player_name": "Travis d'Arnaud",
-   "team": "LAA",
-   "record_streak": 2,
-   "total_flags": 2,
-   "avg_score": 53.0,
-   "current_score": 53.0,
-   "game_streak": 1
-  },
   {
    "player_id": 691016,
    "player_name": "Tyler Soderstrom",
    "team": "ATH",
-   "record_streak": 2,
-   "total_flags": 2,
+   "record_streak": 4,
+   "total_flags": 4,
    "avg_score": 43.6,
    "current_score": 51.6,
    "game_streak": 3
   },
   {
-   "player_id": 671277,
-   "player_name": "Luis Garc\u00eda Jr.",
-   "team": "WSH",
+   "player_id": 672515,
+   "player_name": "Gabriel Moreno",
+   "team": "AZ",
    "record_streak": 1,
-   "total_flags": 4,
-   "avg_score": 38.0,
-   "current_score": 29.7,
+   "total_flags": 6,
+   "avg_score": 40.3,
+   "current_score": 29.5,
    "game_streak": 1
   },
   {
@@ -46,8 +26,8 @@
    "player_name": "Sam Antonacci",
    "team": "CWS",
    "record_streak": 1,
-   "total_flags": 3,
-   "avg_score": 48.2,
+   "total_flags": 4,
+   "avg_score": 45.8,
    "current_score": 38.6,
    "game_streak": 2
   },
@@ -56,8 +36,8 @@
    "player_name": "Ryan Kreidler",
    "team": "MIN",
    "record_streak": 1,
-   "total_flags": 3,
-   "avg_score": 39.3,
+   "total_flags": 4,
+   "avg_score": 37.8,
    "current_score": 33.1,
    "game_streak": 2
   },
@@ -66,8 +46,8 @@
    "player_name": "Salvador Perez",
    "team": "KC",
    "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 45.8,
+   "total_flags": 3,
+   "avg_score": 43.1,
    "current_score": 37.7,
    "game_streak": 2
   },
@@ -76,8 +56,8 @@
    "player_name": "Drake Baldwin",
    "team": "ATL",
    "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 39.4,
+   "total_flags": 3,
+   "avg_score": 39.9,
    "current_score": 40.8,
    "game_streak": 2
   },
@@ -86,19 +66,9 @@
    "player_name": "Francisco Alvarez",
    "team": "NYM",
    "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 39.2,
+   "total_flags": 3,
+   "avg_score": 38.9,
    "current_score": 38.3,
-   "game_streak": 2
-  },
-  {
-   "player_id": 676439,
-   "player_name": "Hunter Feduccia",
-   "team": "TB",
-   "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 31.1,
-   "current_score": 31.1,
    "game_streak": 2
   },
   {
@@ -106,7 +76,7 @@
    "player_name": "Everson Pereira",
    "team": "CWS",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 53.0,
    "current_score": 53.0,
    "game_streak": 1
@@ -116,7 +86,7 @@
    "player_name": "Brice Turang",
    "team": "MIL",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 35.6,
    "current_score": 35.6,
    "game_streak": 2
@@ -126,7 +96,7 @@
    "player_name": "Travis Bazzana",
    "team": "CLE",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 33.6,
    "current_score": 33.6,
    "game_streak": 2
@@ -136,7 +106,7 @@
    "player_name": "Dylan Crews",
    "team": "WSH",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 33.5,
    "current_score": 33.5,
    "game_streak": 2
@@ -146,9 +116,39 @@
    "player_name": "Jacob Gonzalez",
    "team": "PIT",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 31.2,
    "current_score": 31.2,
+   "game_streak": 1
+  },
+  {
+   "player_id": 666160,
+   "player_name": "Mickey Moniak",
+   "team": "COL",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 29.5,
+   "current_score": 29.5,
+   "game_streak": 2
+  },
+  {
+   "player_id": 663728,
+   "player_name": "Cal Raleigh",
+   "team": "SEA",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 28.4,
+   "current_score": 28.4,
+   "game_streak": 1
+  },
+  {
+   "player_id": 691406,
+   "player_name": "Junior Caminero",
+   "team": "TB",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 28.4,
+   "current_score": 28.4,
    "game_streak": 1
   }
  ]
