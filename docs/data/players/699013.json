@@ -2,9 +2,9 @@
  "player_id": 699013,
  "player_name": "Esmerlyn Valdez",
  "team": "PIT",
- "as_of": "2026-08-04",
+ "as_of": "2026-08-03",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.286,
   "slopes": {
    "max_ev": -2.189,
@@ -12,7 +12,7 @@
    "near_hr": 0.062
   },
   "intensity": 0.025,
-  "expectancy_score": 9.3,
+  "expectancy_score": 17.3,
   "last_appearance": "2026-08-01"
  },
  "days": [
@@ -337,6 +337,24 @@
    "max_barrel_score": 36.3,
    "temp_f": 86.0,
    "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
+  {
+   "date": "2026-07-05",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 83.9,
+   "max_distance": 15.0,
+   "max_barrel_score": 13.4,
+   "temp_f": 92.0,
+   "wind_mph": 2.0,
    "wind_dir": "out",
    "weather_condition": "Partly Cloudy"
   }
@@ -1585,6 +1603,35 @@
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 25.6,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
+  {
+   "game_pk": 822715,
+   "date": "2026-07-05",
+   "player_id": 699013,
+   "player_name": "Esmerlyn Valdez",
+   "team": "PIT",
+   "opponent": "WSH",
+   "result": "Groundout",
+   "exit_velocity": 83.9,
+   "launch_angle": -6.0,
+   "hit_distance": 15.0,
+   "hc_x": 105.47,
+   "hc_y": 159.79,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "418ffa0f-97cb-3c80-953b-30665cab90e5",
+   "venue_id": 3309,
+   "venue_name": "Nationals Park",
+   "temp_f": 92.0,
+   "wind_mph": 2.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 13.4,
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
