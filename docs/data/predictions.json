@@ -151,10 +151,10 @@
    "adjusted_score": 46.2,
    "game_weather": {
     "venue_name": "Daikin Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 73.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": false
   },
@@ -186,6 +186,37 @@
     "wind_mph": null,
     "wind_dir": null,
     "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 608324,
+   "player_name": "Alex Bregman",
+   "team": "CHC",
+   "expectancy_score": 42.7,
+   "streak": 3,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": -0.464,
+    "parks_sum": 0.107,
+    "near_hr": 0.125
+   },
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 3,
+   "hr_7d": 0,
+   "max_ev_7d": 103.2,
+   "max_distance_7d": 379,
+   "band": "40-60",
+   "band_rate": 0.229,
+   "band_samples": 210,
+   "weather_factor": 1.032,
+   "adjusted_score": 44.1,
+   "game_weather": {
+    "venue_name": "Wrigley Field",
+    "temp_f": 78.0,
+    "wind_mph": 9.0,
+    "wind_dir": "varies",
+    "weather_condition": "Overcast"
    },
    "repeat": false
   },
@@ -252,37 +283,6 @@
    "repeat": false
   },
   {
-   "player_id": 608324,
-   "player_name": "Alex Bregman",
-   "team": "CHC",
-   "expectancy_score": 42.7,
-   "streak": 3,
-   "frequency": 0.571,
-   "slopes": {
-    "max_ev": -0.464,
-    "parks_sum": 0.107,
-    "near_hr": 0.125
-   },
-   "near_hr_7d": 4,
-   "near_hr_xbh_7d": 3,
-   "hr_7d": 0,
-   "max_ev_7d": 103.2,
-   "max_distance_7d": 379,
-   "band": "40-60",
-   "band_rate": 0.229,
-   "band_samples": 210,
-   "weather_factor": 1.0,
-   "adjusted_score": 42.7,
-   "game_weather": {
-    "venue_name": "Wrigley Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
    "player_id": 686611,
    "player_name": "Dylan Crews",
    "team": "WSH",
@@ -333,14 +333,14 @@
    "band": "<40",
    "band_rate": 0.203,
    "band_samples": 6376,
-   "weather_factor": 1.0,
-   "adjusted_score": 39.8,
+   "weather_factor": 1.028,
+   "adjusted_score": 40.9,
    "game_weather": {
     "venue_name": "Coors Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 77.0,
+    "wind_mph": 7.0,
+    "wind_dir": "varies",
+    "weather_condition": "Sunny"
    },
    "repeat": false
   },
@@ -364,14 +364,14 @@
    "band": "<40",
    "band_rate": 0.203,
    "band_samples": 6376,
-   "weather_factor": 1.0,
-   "adjusted_score": 38.0,
+   "weather_factor": 1.028,
+   "adjusted_score": 39.1,
    "game_weather": {
     "venue_name": "Coors Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 77.0,
+    "wind_mph": 7.0,
+    "wind_dir": "varies",
+    "weather_condition": "Sunny"
    },
    "repeat": false
   },
@@ -438,35 +438,35 @@
    "repeat": false
   },
   {
-   "player_id": 663886,
-   "player_name": "Tyler Stephenson",
-   "team": "CIN",
-   "expectancy_score": 32.9,
-   "streak": 2,
+   "player_id": 683748,
+   "player_name": "Victor Mesa Jr.",
+   "team": "TB",
+   "expectancy_score": 32.6,
+   "streak": 0,
    "frequency": 0.429,
    "slopes": {
-    "max_ev": 0.486,
-    "parks_sum": 0.107,
-    "near_hr": 0.125
+    "max_ev": 4.486,
+    "parks_sum": 2.286,
+    "near_hr": 0.214
    },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 1,
-   "max_ev_7d": 102.6,
-   "max_distance_7d": 386,
+   "near_hr_7d": 5,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 110.4,
+   "max_distance_7d": 413,
    "band": "<40",
    "band_rate": 0.203,
    "band_samples": 6376,
-   "weather_factor": 1.0,
-   "adjusted_score": 32.9,
+   "weather_factor": 1.028,
+   "adjusted_score": 33.5,
    "game_weather": {
-    "venue_name": "Great American Ball Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "venue_name": "Coors Field",
+    "temp_f": 77.0,
+    "wind_mph": 7.0,
+    "wind_dir": "varies",
+    "weather_condition": "Sunny"
    },
-   "repeat": false
+   "repeat": true
   }
  ],
  "bands": {

@@ -12,6 +12,16 @@
    "game_streak": 1
   },
   {
+   "player_id": 683748,
+   "player_name": "Victor Mesa Jr.",
+   "team": "TB",
+   "record_streak": 2,
+   "total_flags": 2,
+   "avg_score": 42.7,
+   "current_score": 32.6,
+   "game_streak": 0
+  },
+  {
    "player_id": 677800,
    "player_name": "Wilyer Abreu",
    "team": "BOS",
@@ -139,16 +149,6 @@
    "total_flags": 1,
    "avg_score": 33.9,
    "current_score": 33.9,
-   "game_streak": 2
-  },
-  {
-   "player_id": 663886,
-   "player_name": "Tyler Stephenson",
-   "team": "CIN",
-   "record_streak": 1,
-   "total_flags": 1,
-   "avg_score": 32.9,
-   "current_score": 32.9,
    "game_streak": 2
   }
  ]
