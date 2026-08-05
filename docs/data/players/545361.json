@@ -2,9 +2,9 @@
  "player_id": 545361,
  "player_name": "Mike Trout",
  "team": "LAA",
- "as_of": "2026-08-03",
+ "as_of": "2026-08-05",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 2.736,
@@ -12,7 +12,7 @@
    "near_hr": 0.143
   },
   "intensity": 0.381,
-  "expectancy_score": 28.0,
+  "expectancy_score": 20.0,
   "last_appearance": "2026-08-02"
  },
  "days": [

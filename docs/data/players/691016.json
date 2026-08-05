@@ -2,9 +2,9 @@
  "player_id": 691016,
  "player_name": "Tyler Soderstrom",
  "team": "ATH",
- "as_of": "2026-08-03",
+ "as_of": "2026-08-05",
  "form": {
-  "streak": 3,
+  "streak": 0,
   "frequency": 0.429,
   "slopes": {
    "max_ev": 1.579,
@@ -12,7 +12,7 @@
    "near_hr": 0.259
   },
   "intensity": 0.492,
-  "expectancy_score": 51.6,
+  "expectancy_score": 27.6,
   "last_appearance": "2026-08-02"
  },
  "days": [

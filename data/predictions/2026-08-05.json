@@ -1,7 +1,59 @@
 {
+ "schema_version": 2,
+ "generated_at": "2026-08-05T05:42:59.239766+00:00",
  "as_of": "2026-08-05",
- "horizon_days": 3,
- "min_samples": 20,
+ "config": {
+  "min_near_hr_events": 1,
+  "max_gap_days": 2,
+  "slope_window": 7,
+  "streak_cap": 5,
+  "weights": {
+   "streak": 0.4,
+   "frequency": 0.3,
+   "intensity": 0.3
+  },
+  "intensity_scales": {
+   "max_ev": 2.0,
+   "parks_sum": 3.0,
+   "near_hr": 1.0
+  },
+  "xbh_weight": 1.25,
+  "horizon_days": 3,
+  "score_bands": [
+   40,
+   60,
+   80
+  ],
+  "min_samples": 20,
+  "top_n": 15,
+  "consistency_top_n": 15,
+  "records_dir": "data/predictions",
+  "weather": {
+   "enabled": true,
+   "temp_ref_f": 70,
+   "temp_per_deg": 0.004,
+   "wind_out_min_mph": 5,
+   "wind_out_per_mph": 0.012,
+   "wind_out_cap_mph": 20,
+   "wind_in_min_mph": 5,
+   "wind_in_per_mph": 0.008,
+   "wind_in_cap_mph": 20,
+   "clamp": [
+    0.85,
+    1.2
+   ],
+   "neutral_conditions": [
+    "Dome",
+    "Roof Closed"
+   ],
+   "temp_bands": [
+    55,
+    70,
+    85
+   ],
+   "min_samples": 25
+  }
+ },
  "players": [
   {
    "player_id": 665487,
@@ -407,49 +459,6 @@
    "adjusted_score": 30.8,
    "game_weather": null,
    "repeat": false
-  }
- ],
- "bands": {
-  "<40": {
-   "samples": 6095,
-   "hr_followed": 1238,
-   "rate": 0.203
-  },
-  "40-60": {
-   "samples": 206,
-   "hr_followed": 47,
-   "rate": 0.228
-  },
-  "60-80": {
-   "samples": 18,
-   "hr_followed": 3,
-   "rate": 0.167
-  }
- },
- "hit_rate": {
-  "resolved_records": 27,
-  "horizon_days": 3,
-  "overall": {
-   "flagged": 405,
-   "hr_followed": 74,
-   "rate": 0.183
-  },
-  "top_band": {
-   "band": "80+",
-   "flagged": 0,
-   "hr_followed": 0,
-   "rate": null
-  }
- },
- "recent_hits": [
-  {
-   "player_id": 671277,
-   "player_name": "Luis Garc\u00eda Jr.",
-   "team": "WSH",
-   "flagged_on": "2026-08-02",
-   "flagged_score": 29.7,
-   "hr_on": "2026-08-03",
-   "hr_count": 1
   }
  ]
 }

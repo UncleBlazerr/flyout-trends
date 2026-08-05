@@ -2,7 +2,7 @@
  "player_id": 690993,
  "player_name": "Colt Keith",
  "team": "DET",
- "as_of": "2026-08-03",
+ "as_of": "2026-08-05",
  "form": {
   "streak": 0,
   "frequency": 0.571,
@@ -357,24 +357,6 @@
    "wind_mph": 5.0,
    "wind_dir": "in",
    "weather_condition": "Clear"
-  },
-  {
-   "date": "2026-07-05",
-   "bbe": 1,
-   "hr": 0,
-   "near_hr_any": 1,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 1,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 1,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 98.3,
-   "max_distance": 380.0,
-   "max_barrel_score": 76.7,
-   "temp_f": 74.0,
-   "wind_mph": 0.0,
-   "wind_dir": "none",
-   "weather_condition": "Roof Closed"
   }
  ],
  "events": [
@@ -1653,35 +1635,6 @@
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
-  },
-  {
-   "game_pk": 822879,
-   "date": "2026-07-05",
-   "player_id": 690993,
-   "player_name": "Colt Keith",
-   "team": "DET",
-   "opponent": "TEX",
-   "result": "Lineout",
-   "exit_velocity": 98.3,
-   "launch_angle": 24.0,
-   "hit_distance": 380.0,
-   "hc_x": 136.29,
-   "hc_y": 68.44,
-   "would_be_hr_count": 0,
-   "inning": 2,
-   "play_id": "308cf24e-202f-37d1-8b2e-3c11d161e6c0",
-   "venue_id": 5325,
-   "venue_name": "Globe Life Field",
-   "temp_f": 74.0,
-   "wind_mph": 0.0,
-   "wind_dir": "none",
-   "weather_condition": "Roof Closed",
-   "distance_flag": true,
-   "would_be_hr_flag": false,
-   "barrel_score": 76.7,
-   "barrel_flag": true,
-   "is_home_run": false,
-   "is_near_hr": true
   }
  ]
 }

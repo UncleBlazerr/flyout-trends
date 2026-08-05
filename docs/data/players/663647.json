@@ -2,9 +2,9 @@
  "player_id": 663647,
  "player_name": "Ke'Bryan Hayes",
  "team": "CIN",
- "as_of": "2026-08-03",
+ "as_of": "2026-08-05",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": -0.064,
@@ -12,7 +12,7 @@
    "near_hr": 0.179
   },
   "intensity": 0.06,
-  "expectancy_score": 18.4,
+  "expectancy_score": 10.4,
   "last_appearance": "2026-08-02"
  },
  "days": [

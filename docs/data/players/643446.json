@@ -2,9 +2,9 @@
  "player_id": 643446,
  "player_name": "Jeff McNeil",
  "team": "ATH",
- "as_of": "2026-08-03",
+ "as_of": "2026-08-05",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": -1.286,
@@ -12,7 +12,7 @@
    "near_hr": 0.107
   },
   "intensity": 0.036,
-  "expectancy_score": 17.6,
+  "expectancy_score": 9.6,
   "last_appearance": "2026-08-02"
  },
  "days": [

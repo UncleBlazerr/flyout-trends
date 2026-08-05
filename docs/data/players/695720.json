@@ -2,9 +2,9 @@
  "player_id": 695720,
  "player_name": "Tommy White",
  "team": "ATH",
- "as_of": "2026-08-03",
+ "as_of": "2026-08-05",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.143,
   "slopes": {
    "max_ev": 1.807,
@@ -12,7 +12,7 @@
    "near_hr": 0.107
   },
   "intensity": 0.337,
-  "expectancy_score": 22.4,
+  "expectancy_score": 14.4,
   "last_appearance": "2026-08-02"
  },
  "days": [
