@@ -2,9 +2,9 @@
  "player_id": 643217,
  "player_name": "Andrew Benintendi",
  "team": "CWS",
- "as_of": "2026-08-05",
+ "as_of": "2026-08-04",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.143,
   "slopes": {
    "max_ev": 4.275,
@@ -12,7 +12,7 @@
    "near_hr": 0.214
   },
   "intensity": 0.488,
-  "expectancy_score": 18.9,
+  "expectancy_score": 26.9,
   "last_appearance": "2026-08-02"
  },
  "days": [

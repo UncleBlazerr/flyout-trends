@@ -2,17 +2,17 @@
  "player_id": 670224,
  "player_name": "Kameron Misner",
  "team": "KC",
- "as_of": "2026-08-03",
+ "as_of": "2026-08-04",
  "form": {
   "streak": 0,
-  "frequency": 0.5,
+  "frequency": 1.0,
   "slopes": {
-   "max_ev": 7.7,
-   "parks_sum": 1.0,
-   "near_hr": 1.0
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
   },
-  "intensity": 0.778,
-  "expectancy_score": 38.3,
+  "intensity": 0.0,
+  "expectancy_score": 30.0,
   "last_appearance": "2026-07-06"
  },
  "days": [
@@ -33,24 +33,6 @@
    "wind_mph": 4.0,
    "wind_dir": "cross",
    "weather_condition": "Sunny"
-  },
-  {
-   "date": "2026-07-05",
-   "bbe": 1,
-   "hr": 0,
-   "near_hr_any": 0,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 0,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 0,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 90.9,
-   "max_distance": 152.0,
-   "max_barrel_score": 28.7,
-   "temp_f": 87.0,
-   "wind_mph": 7.0,
-   "wind_dir": "cross",
-   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -82,35 +64,6 @@
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": true
-  },
-  {
-   "game_pk": 824091,
-   "date": "2026-07-05",
-   "player_id": 670224,
-   "player_name": "Kameron Misner",
-   "team": "KC",
-   "opponent": "PHI",
-   "result": "Pop Out",
-   "exit_velocity": 90.9,
-   "launch_angle": 67.0,
-   "hit_distance": 152.0,
-   "hc_x": 102.67,
-   "hc_y": 145.36,
-   "would_be_hr_count": 0,
-   "inning": 2,
-   "play_id": "fa95d26b-372e-31ed-a5d0-990b7278d064",
-   "venue_id": 7,
-   "venue_name": "Kauffman Stadium",
-   "temp_f": 87.0,
-   "wind_mph": 7.0,
-   "wind_dir": "cross",
-   "weather_condition": "Partly Cloudy",
-   "distance_flag": false,
-   "would_be_hr_flag": false,
-   "barrel_score": 28.7,
-   "barrel_flag": false,
-   "is_home_run": false,
-   "is_near_hr": false
   }
  ]
 }

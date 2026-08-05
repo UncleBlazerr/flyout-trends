@@ -2,20 +2,38 @@
  "player_id": 678011,
  "player_name": "Anthony Seigler",
  "team": "BOS",
- "as_of": "2026-08-05",
+ "as_of": "2026-08-04",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": -0.175,
-   "parks_sum": -0.25,
-   "near_hr": -0.036
+   "max_ev": -4.168,
+   "parks_sum": -0.5,
+   "near_hr": -0.071
   },
   "intensity": 0.0,
   "expectancy_score": 4.3,
-  "last_appearance": "2026-08-02"
+  "last_appearance": "2026-08-04"
  },
  "days": [
+  {
+   "date": "2026-08-04",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 66.4,
+   "max_distance": 24.0,
+   "max_barrel_score": 1.6,
+   "temp_f": 82.0,
+   "wind_mph": 2.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-08-02",
    "bbe": 1,
@@ -342,6 +360,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824731,
+   "date": "2026-08-04",
+   "player_id": 678011,
+   "player_name": "Anthony Seigler",
+   "team": "BOS",
+   "opponent": "CWS",
+   "result": "Groundout",
+   "exit_velocity": 66.4,
+   "launch_angle": -4.0,
+   "hit_distance": 24.0,
+   "hc_x": 146.24,
+   "hc_y": 173.47,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "331d2854-88fe-3fc1-be3f-4f1b1ede1da0",
+   "venue_id": 3,
+   "venue_name": "Fenway Park",
+   "temp_f": 82.0,
+   "wind_mph": 2.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 1.6,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823919,
    "date": "2026-08-02",
