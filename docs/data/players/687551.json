@@ -2,20 +2,38 @@
  "player_id": 687551,
  "player_name": "Drew Gilbert",
  "team": "SF",
- "as_of": "2026-08-06",
+ "as_of": "2026-08-05",
  "form": {
   "streak": 0,
-  "frequency": 0.143,
+  "frequency": 0.0,
   "slopes": {
-   "max_ev": -1.468,
+   "max_ev": -2.596,
    "parks_sum": 0.0,
-   "near_hr": -0.107
+   "near_hr": 0.0
   },
   "intensity": 0.0,
-  "expectancy_score": 4.3,
-  "last_appearance": "2026-08-04"
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-08-05"
  },
  "days": [
+  {
+   "date": "2026-08-05",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 73.2,
+   "max_distance": 25.0,
+   "max_barrel_score": 4.5,
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-08-04",
    "bbe": 1,
@@ -360,6 +378,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822866,
+   "date": "2026-08-05",
+   "player_id": 687551,
+   "player_name": "Drew Gilbert",
+   "team": "SF",
+   "opponent": "TEX",
+   "result": "Pop Out",
+   "exit_velocity": 73.2,
+   "launch_angle": 83.0,
+   "hit_distance": 25.0,
+   "hc_x": 117.58,
+   "hc_y": 198.51,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "6e8d698c-950c-3887-9935-5b010ec70c96",
+   "venue_id": 5325,
+   "venue_name": "Globe Life Field",
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 4.5,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 822865,
    "date": "2026-08-04",

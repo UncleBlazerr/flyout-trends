@@ -2,20 +2,38 @@
  "player_id": 694497,
  "player_name": "Evan Carter",
  "team": "TEX",
- "as_of": "2026-08-06",
+ "as_of": "2026-08-05",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": -0.475,
-   "parks_sum": 0.393,
-   "near_hr": 0.036
+   "max_ev": -1.039,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
   },
-  "intensity": 0.056,
-  "expectancy_score": 6.0,
-  "last_appearance": "2026-08-04"
+  "intensity": 0.0,
+  "expectancy_score": 4.3,
+  "last_appearance": "2026-08-05"
  },
  "days": [
+  {
+   "date": "2026-08-05",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 82.8,
+   "max_distance": 312.0,
+   "max_barrel_score": 60.5,
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-08-04",
    "bbe": 4,
@@ -378,6 +396,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822866,
+   "date": "2026-08-05",
+   "player_id": 694497,
+   "player_name": "Evan Carter",
+   "team": "TEX",
+   "opponent": "SF",
+   "result": "Flyout",
+   "exit_velocity": 82.8,
+   "launch_angle": 29.0,
+   "hit_distance": 312.0,
+   "hc_x": 129.7,
+   "hc_y": 82.63,
+   "would_be_hr_count": 0,
+   "inning": 6,
+   "play_id": "c4796e58-d588-35c5-911e-1ba3af110f99",
+   "venue_id": 5325,
+   "venue_name": "Globe Life Field",
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 60.5,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 822865,
    "date": "2026-08-04",

@@ -2,20 +2,38 @@
  "player_id": 682626,
  "player_name": "Francisco Alvarez",
  "team": "NYM",
- "as_of": "2026-08-06",
+ "as_of": "2026-08-05",
  "form": {
   "streak": 0,
   "frequency": 0.571,
   "slopes": {
-   "max_ev": 0.475,
-   "parks_sum": 0.464,
-   "near_hr": 0.009
+   "max_ev": -2.268,
+   "parks_sum": -0.107,
+   "near_hr": -0.152
   },
-  "intensity": 0.134,
-  "expectancy_score": 21.2,
-  "last_appearance": "2026-08-04"
+  "intensity": 0.0,
+  "expectancy_score": 17.1,
+  "last_appearance": "2026-08-05"
  },
  "days": [
+  {
+   "date": "2026-08-05",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 71.2,
+   "max_distance": 105.0,
+   "max_barrel_score": 8.1,
+   "temp_f": 81.0,
+   "wind_mph": 5.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-04",
    "bbe": 1,
@@ -306,6 +324,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824402,
+   "date": "2026-08-05",
+   "player_id": 682626,
+   "player_name": "Francisco Alvarez",
+   "team": "NYM",
+   "opponent": "CLE",
+   "result": "Pop Out",
+   "exit_velocity": 71.2,
+   "launch_angle": 71.0,
+   "hit_distance": 105.0,
+   "hc_x": 94.99,
+   "hc_y": 184.93,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "a9b1541e-a5d5-3e02-bbcc-368a22e70811",
+   "venue_id": 5,
+   "venue_name": "Progressive Field",
+   "temp_f": 81.0,
+   "wind_mph": 5.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 8.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824403,
    "date": "2026-08-04",

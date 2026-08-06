@@ -2,20 +2,38 @@
  "player_id": 665966,
  "player_name": "Carlos Narv\u00e1ez",
  "team": "BAL",
- "as_of": "2026-08-06",
+ "as_of": "2026-08-05",
  "form": {
   "streak": 0,
-  "frequency": 0.429,
+  "frequency": 0.286,
   "slopes": {
-   "max_ev": -0.875,
+   "max_ev": 1.164,
    "parks_sum": 0.0,
-   "near_hr": -0.107
+   "near_hr": -0.071
   },
-  "intensity": 0.0,
-  "expectancy_score": 12.9,
-  "last_appearance": "2026-08-04"
+  "intensity": 0.194,
+  "expectancy_score": 14.4,
+  "last_appearance": "2026-08-05"
  },
  "days": [
+  {
+   "date": "2026-08-05",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 93.4,
+   "max_distance": 118.0,
+   "max_barrel_score": 28.7,
+   "temp_f": 83.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-04",
    "bbe": 2,
@@ -162,6 +180,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824806,
+   "date": "2026-08-05",
+   "player_id": 665966,
+   "player_name": "Carlos Narv\u00e1ez",
+   "team": "BAL",
+   "opponent": "LAA",
+   "result": "Pop Out",
+   "exit_velocity": 93.4,
+   "launch_angle": 70.0,
+   "hit_distance": 118.0,
+   "hc_x": 116.34,
+   "hc_y": 153.2,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "91513c65-0317-3b21-9fb7-f344b5cce857",
+   "venue_id": 2,
+   "venue_name": "Oriole Park at Camden Yards",
+   "temp_f": 83.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 28.7,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824805,
    "date": "2026-08-04",
