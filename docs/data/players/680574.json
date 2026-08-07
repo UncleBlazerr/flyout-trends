@@ -2,20 +2,38 @@
  "player_id": 680574,
  "player_name": "Matt McLain",
  "team": "CIN",
- "as_of": "2026-08-07",
+ "as_of": "2026-08-06",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 2.766,
+   "max_ev": 0.2,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.333,
-  "expectancy_score": 10.0,
-  "last_appearance": "2026-08-05"
+  "intensity": 0.033,
+  "expectancy_score": 1.0,
+  "last_appearance": "2026-08-06"
  },
  "days": [
+  {
+   "date": "2026-08-06",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 73.5,
+   "max_distance": 236.0,
+   "max_barrel_score": 30.8,
+   "temp_f": 84.0,
+   "wind_mph": 5.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-05",
    "bbe": 2,
@@ -126,6 +144,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824481,
+   "date": "2026-08-06",
+   "player_id": 680574,
+   "player_name": "Matt McLain",
+   "team": "CIN",
+   "opponent": "ATH",
+   "result": "Flyout",
+   "exit_velocity": 73.5,
+   "launch_angle": 44.0,
+   "hit_distance": 236.0,
+   "hc_x": 135.67,
+   "hc_y": 106.42,
+   "would_be_hr_count": 0,
+   "inning": 6,
+   "play_id": "9e69b95b-6953-33ce-95e4-7858d6eb24e9",
+   "venue_id": 2602,
+   "venue_name": "Great American Ball Park",
+   "temp_f": 84.0,
+   "wind_mph": 5.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 30.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824482,
    "date": "2026-08-05",

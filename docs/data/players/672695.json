@@ -2,20 +2,38 @@
  "player_id": 672695,
  "player_name": "Geraldo Perdomo",
  "team": "AZ",
- "as_of": "2026-08-07",
+ "as_of": "2026-08-06",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.429,
   "slopes": {
-   "max_ev": 1.054,
-   "parks_sum": 1.929,
-   "near_hr": 0.036
+   "max_ev": -0.657,
+   "parks_sum": 1.286,
+   "near_hr": -0.071
   },
-  "intensity": 0.402,
-  "expectancy_score": 32.9,
-  "last_appearance": "2026-08-05"
+  "intensity": 0.143,
+  "expectancy_score": 17.1,
+  "last_appearance": "2026-08-06"
  },
  "days": [
+  {
+   "date": "2026-08-06",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 94.0,
+   "max_distance": 333.0,
+   "max_barrel_score": 68.6,
+   "temp_f": 76.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-08-05",
    "bbe": 4,
@@ -432,6 +450,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 825053,
+   "date": "2026-08-06",
+   "player_id": 672695,
+   "player_name": "Geraldo Perdomo",
+   "team": "AZ",
+   "opponent": "SD",
+   "result": "Lineout",
+   "exit_velocity": 94.0,
+   "launch_angle": 23.0,
+   "hit_distance": 333.0,
+   "hc_x": 84.16,
+   "hc_y": 71.66,
+   "would_be_hr_count": 0,
+   "inning": 5,
+   "play_id": "2c06b614-00dd-3059-a749-ddc83ee0721e",
+   "venue_id": 15,
+   "venue_name": "Chase Field",
+   "temp_f": 76.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 68.6,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 825052,
    "date": "2026-08-05",
