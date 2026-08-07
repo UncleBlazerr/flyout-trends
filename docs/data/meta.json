@@ -1,9 +1,25 @@
 {
- "latest_date": "2026-08-05",
- "generated_at": "2026-08-06T12:00:44.029759+00:00",
- "games_processed": 15,
- "games_skipped_not_final": [],
- "total_events": 705,
- "near_hr_events": 75,
- "home_runs": 30
+ "latest_date": "2026-08-07",
+ "generated_at": "2026-08-07T04:51:43.757999+00:00",
+ "games_processed": 0,
+ "games_skipped_not_final": [
+  823349,
+  823428,
+  822699,
+  823515,
+  824727,
+  823836,
+  824566,
+  823750,
+  824081,
+  823024,
+  822863,
+  825051,
+  823266,
+  823103,
+  823191
+ ],
+ "total_events": 0,
+ "near_hr_events": 0,
+ "home_runs": 0
 }

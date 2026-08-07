@@ -1,22 +1,12 @@
 {
- "as_of": "2026-08-05",
+ "as_of": "2026-08-07",
  "players": [
-  {
-   "player_id": 691777,
-   "player_name": "Max Muncy",
-   "team": "ATH",
-   "record_streak": 2,
-   "total_flags": 2,
-   "avg_score": 46.3,
-   "current_score": 46.3,
-   "game_streak": 1
-  },
   {
    "player_id": 805999,
    "player_name": "A.J. Ewing",
    "team": "NYM",
-   "record_streak": 2,
-   "total_flags": 2,
+   "record_streak": 4,
+   "total_flags": 4,
    "avg_score": 42.3,
    "current_score": 50.8,
    "game_streak": 3
@@ -26,8 +16,8 @@
    "player_name": "Alec Bohm",
    "team": "PHI",
    "record_streak": 1,
-   "total_flags": 4,
-   "avg_score": 42.6,
+   "total_flags": 5,
+   "avg_score": 41.7,
    "current_score": 37.8,
    "game_streak": 2
   },
@@ -36,8 +26,8 @@
    "player_name": "Christian Encarnacion-Strand",
    "team": "BAL",
    "record_streak": 1,
-   "total_flags": 3,
-   "avg_score": 42.4,
+   "total_flags": 4,
+   "avg_score": 42.2,
    "current_score": 41.6,
    "game_streak": 2
   },
@@ -46,8 +36,8 @@
    "player_name": "Bobby Witt Jr.",
    "team": "KC",
    "record_streak": 1,
-   "total_flags": 3,
-   "avg_score": 31.3,
+   "total_flags": 4,
+   "avg_score": 32.9,
    "current_score": 37.4,
    "game_streak": 1
   },
@@ -56,19 +46,9 @@
    "player_name": "Jo Adell",
    "team": "CLE",
    "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 39.7,
+   "total_flags": 3,
+   "avg_score": 41.0,
    "current_score": 43.5,
-   "game_streak": 2
-  },
-  {
-   "player_id": 680777,
-   "player_name": "Ryan Jeffers",
-   "team": "MIN",
-   "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 37.0,
-   "current_score": 36.1,
    "game_streak": 2
   },
   {
@@ -76,9 +56,19 @@
    "player_name": "Michael Harris II",
    "team": "ATL",
    "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 35.5,
+   "total_flags": 3,
+   "avg_score": 37.2,
    "current_score": 40.4,
+   "game_streak": 2
+  },
+  {
+   "player_id": 680777,
+   "player_name": "Ryan Jeffers",
+   "team": "MIN",
+   "record_streak": 1,
+   "total_flags": 3,
+   "avg_score": 36.7,
+   "current_score": 36.1,
    "game_streak": 2
   },
   {
@@ -86,7 +76,7 @@
    "player_name": "Eddys Leonard",
    "team": "SF",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 43.0,
    "current_score": 43.0,
    "game_streak": 1
@@ -96,7 +86,7 @@
    "player_name": "Elias D\u00edaz",
    "team": "TEX",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 41.3,
    "current_score": 41.3,
    "game_streak": 2
@@ -106,7 +96,7 @@
    "player_name": "Masataka Yoshida",
    "team": "BOS",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 40.5,
    "current_score": 40.5,
    "game_streak": 2
@@ -116,7 +106,7 @@
    "player_name": "Jimmy Crooks",
    "team": "STL",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 39.8,
    "current_score": 39.8,
    "game_streak": 2
@@ -126,7 +116,7 @@
    "player_name": "Jackson Chourio",
    "team": "MIL",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 38.3,
    "current_score": 38.3,
    "game_streak": 2
@@ -136,7 +126,7 @@
    "player_name": "TJ Rumfield",
    "team": "COL",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 38.0,
    "current_score": 38.0,
    "game_streak": 2
@@ -146,9 +136,19 @@
    "player_name": "Angel Genao",
    "team": "CLE",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 38.0,
    "current_score": 38.0,
+   "game_streak": 1
+  },
+  {
+   "player_id": 671083,
+   "player_name": "Buddy Kennedy",
+   "team": "SF",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 36.0,
+   "current_score": 36.0,
    "game_streak": 1
   }
  ]
