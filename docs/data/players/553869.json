@@ -2,20 +2,38 @@
  "player_id": 553869,
  "player_name": "Elias D\u00edaz",
  "team": "TEX",
- "as_of": "2026-08-08",
+ "as_of": "2026-08-07",
  "form": {
   "streak": 0,
   "frequency": 0.429,
   "slopes": {
-   "max_ev": 3.546,
-   "parks_sum": -0.464,
-   "near_hr": 0.241
+   "max_ev": -3.957,
+   "parks_sum": -0.929,
+   "near_hr": 0.089
   },
-  "intensity": 0.414,
-  "expectancy_score": 25.3,
-  "last_appearance": "2026-08-05"
+  "intensity": 0.03,
+  "expectancy_score": 13.7,
+  "last_appearance": "2026-08-07"
  },
  "days": [
+  {
+   "date": "2026-08-07",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 48.8,
+   "max_distance": 3.0,
+   "max_barrel_score": 0.2,
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-08-05",
    "bbe": 4,
@@ -288,6 +306,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822863,
+   "date": "2026-08-07",
+   "player_id": 553869,
+   "player_name": "Elias D\u00edaz",
+   "team": "TEX",
+   "opponent": "BAL",
+   "result": "Single",
+   "exit_velocity": 48.8,
+   "launch_angle": -41.0,
+   "hit_distance": 3.0,
+   "hc_x": 137.76,
+   "hc_y": 184.27,
+   "would_be_hr_count": 0,
+   "inning": 6,
+   "play_id": "aaa2e72d-1164-3b8a-846e-bc2d30dbcf88",
+   "venue_id": 5325,
+   "venue_name": "Globe Life Field",
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 0.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 822866,
    "date": "2026-08-05",

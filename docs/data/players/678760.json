@@ -2,9 +2,9 @@
  "player_id": 678760,
  "player_name": "Eddys Leonard",
  "team": "SF",
- "as_of": "2026-08-08",
+ "as_of": "2026-08-07",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.5,
   "slopes": {
    "max_ev": 35.2,
@@ -12,7 +12,7 @@
    "near_hr": 1.25
   },
   "intensity": 0.667,
-  "expectancy_score": 35.0,
+  "expectancy_score": 43.0,
   "last_appearance": "2026-08-05"
  },
  "days": [

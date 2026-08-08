@@ -2,20 +2,38 @@
  "player_id": 669236,
  "player_name": "Jeremiah Jackson",
  "team": "BAL",
- "as_of": "2026-08-08",
+ "as_of": "2026-08-07",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": 1.011,
+   "max_ev": 1.696,
    "parks_sum": 0.0,
-   "near_hr": 0.143
+   "near_hr": 0.071
   },
-  "intensity": 0.216,
-  "expectancy_score": 23.1,
-  "last_appearance": "2026-08-06"
+  "intensity": 0.306,
+  "expectancy_score": 17.8,
+  "last_appearance": "2026-08-07"
  },
  "days": [
+  {
+   "date": "2026-08-07",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 96.5,
+   "max_distance": 318.0,
+   "max_barrel_score": 55.7,
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-08-06",
    "bbe": 3,
@@ -177,9 +195,56 @@
    "wind_mph": 7.0,
    "wind_dir": "cross",
    "weather_condition": "Cloudy"
+  },
+  {
+   "date": "2026-07-09",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 1,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 106.5,
+   "max_distance": 337.0,
+   "max_barrel_score": 74.5,
+   "temp_f": 83.0,
+   "wind_mph": 4.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
+  {
+   "game_pk": 822863,
+   "date": "2026-08-07",
+   "player_id": 669236,
+   "player_name": "Jeremiah Jackson",
+   "team": "BAL",
+   "opponent": "TEX",
+   "result": "Flyout",
+   "exit_velocity": 96.5,
+   "launch_angle": 45.0,
+   "hit_distance": 318.0,
+   "hc_x": 128.54,
+   "hc_y": 71.72,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "a5477029-b260-3dfd-89f0-5202f53b48f4",
+   "venue_id": 5325,
+   "venue_name": "Globe Life Field",
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 55.7,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824804,
    "date": "2026-08-06",
@@ -701,6 +766,35 @@
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
+  },
+  {
+   "game_pk": 824816,
+   "date": "2026-07-09",
+   "player_id": 669236,
+   "player_name": "Jeremiah Jackson",
+   "team": "BAL",
+   "opponent": "CHC",
+   "result": "Double",
+   "exit_velocity": 106.5,
+   "launch_angle": 18.0,
+   "hit_distance": 337.0,
+   "hc_x": 163.79,
+   "hc_y": 68.83,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "338997c2-fed3-3de8-a520-2848f916570b",
+   "venue_id": 2,
+   "venue_name": "Oriole Park at Camden Yards",
+   "temp_f": 83.0,
+   "wind_mph": 4.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 74.5,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
   }
  ]
 }

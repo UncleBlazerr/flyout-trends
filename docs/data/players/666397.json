@@ -2,20 +2,38 @@
  "player_id": 666397,
  "player_name": "Edouard Julien",
  "team": "COL",
- "as_of": "2026-08-08",
+ "as_of": "2026-08-07",
  "form": {
   "streak": 0,
-  "frequency": 0.429,
+  "frequency": 0.286,
   "slopes": {
-   "max_ev": -0.85,
-   "parks_sum": -1.607,
-   "near_hr": -0.062
+   "max_ev": -3.196,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
   },
   "intensity": 0.0,
-  "expectancy_score": 12.9,
-  "last_appearance": "2026-08-05"
+  "expectancy_score": 8.6,
+  "last_appearance": "2026-08-07"
  },
  "days": [
+  {
+   "date": "2026-08-07",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 68.6,
+   "max_distance": 3.0,
+   "max_barrel_score": 0.2,
+   "temp_f": 85.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Cloudy"
+  },
   {
    "date": "2026-08-05",
    "bbe": 2,
@@ -180,6 +198,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823024,
+   "date": "2026-08-07",
+   "player_id": 666397,
+   "player_name": "Edouard Julien",
+   "team": "COL",
+   "opponent": "STL",
+   "result": "Groundout",
+   "exit_velocity": 68.6,
+   "launch_angle": -35.0,
+   "hit_distance": 3.0,
+   "hc_x": 150.8,
+   "hc_y": 172.46,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "385e9a0d-dac7-310e-8600-88745c12f3c2",
+   "venue_id": 2889,
+   "venue_name": "Busch Stadium",
+   "temp_f": 85.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 0.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824322,
    "date": "2026-08-05",
