@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-08-08T10:29:21.230233+00:00",
+ "generated_at": "2026-08-08T16:41:09.450361+00:00",
  "as_of": "2026-08-07",
  "config": {
   "min_near_hr_events": 1,
@@ -55,6 +55,37 @@
   }
  },
  "players": [
+  {
+   "player_id": 677800,
+   "player_name": "Wilyer Abreu",
+   "team": "BOS",
+   "expectancy_score": 51.8,
+   "streak": 2,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": 1.382,
+    "parks_sum": 3.107,
+    "near_hr": 0.17
+   },
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 4,
+   "max_ev_7d": 109.3,
+   "max_distance_7d": 431,
+   "band": "40-60",
+   "band_rate": 0.24,
+   "band_samples": 229,
+   "weather_factor": 1.2,
+   "adjusted_score": 62.2,
+   "game_weather": {
+    "venue_name": "Fenway Park",
+    "temp_f": 88.0,
+    "wind_mph": 11.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
+  },
   {
    "player_id": 677951,
    "player_name": "Bobby Witt Jr.",
@@ -178,37 +209,6 @@
     "weather_condition": ""
    },
    "repeat": true
-  },
-  {
-   "player_id": 677800,
-   "player_name": "Wilyer Abreu",
-   "team": "BOS",
-   "expectancy_score": 51.8,
-   "streak": 2,
-   "frequency": 0.571,
-   "slopes": {
-    "max_ev": 1.382,
-    "parks_sum": 3.107,
-    "near_hr": 0.17
-   },
-   "near_hr_7d": 4,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 4,
-   "max_ev_7d": 109.3,
-   "max_distance_7d": 431,
-   "band": "40-60",
-   "band_rate": 0.24,
-   "band_samples": 229,
-   "weather_factor": 1.0,
-   "adjusted_score": 51.8,
-   "game_weather": {
-    "venue_name": "Fenway Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
   },
   {
    "player_id": 669016,
@@ -459,64 +459,64 @@
    "repeat": false
   },
   {
-   "player_id": 671083,
-   "player_name": "Buddy Kennedy",
-   "team": "SF",
-   "expectancy_score": 36.0,
-   "streak": 1,
-   "frequency": 0.2,
+   "player_id": 678011,
+   "player_name": "Anthony Seigler",
+   "team": "BOS",
+   "expectancy_score": 30.9,
+   "streak": 2,
+   "frequency": 0.286,
    "slopes": {
-    "max_ev": 2.43,
-    "parks_sum": 5.2,
-    "near_hr": 0.2
+    "max_ev": 0.789,
+    "parks_sum": 0.107,
+    "near_hr": 0.205
    },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 0,
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 1,
    "hr_7d": 0,
-   "max_ev_7d": 96.1,
-   "max_distance_7d": 367,
+   "max_ev_7d": 100.9,
+   "max_distance_7d": 379,
    "band": "<40",
    "band_rate": 0.204,
    "band_samples": 7073,
-   "weather_factor": 1.0,
-   "adjusted_score": 36.0,
+   "weather_factor": 1.2,
+   "adjusted_score": 37.1,
    "game_weather": {
-    "venue_name": "Oracle Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "venue_name": "Fenway Park",
+    "temp_f": 88.0,
+    "wind_mph": 11.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
    },
-   "repeat": true
+   "repeat": false
   },
   {
-   "player_id": 668904,
-   "player_name": "Royce Lewis",
-   "team": "MIN",
-   "expectancy_score": 35.3,
-   "streak": 2,
-   "frequency": 0.429,
+   "player_id": 807799,
+   "player_name": "Masataka Yoshida",
+   "team": "BOS",
+   "expectancy_score": 30.1,
+   "streak": 1,
+   "frequency": 0.571,
    "slopes": {
-    "max_ev": -1.332,
-    "parks_sum": 1.5,
-    "near_hr": 0.143
+    "max_ev": 0.871,
+    "parks_sum": 0.0,
+    "near_hr": 0.062
    },
    "near_hr_7d": 3,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 2,
-   "max_ev_7d": 108.2,
-   "max_distance_7d": 421,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 1,
+   "max_ev_7d": 108.4,
+   "max_distance_7d": 374,
    "band": "<40",
    "band_rate": 0.204,
    "band_samples": 7073,
-   "weather_factor": 1.0,
-   "adjusted_score": 35.3,
+   "weather_factor": 1.2,
+   "adjusted_score": 36.1,
    "game_weather": {
-    "venue_name": "American Family Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "venue_name": "Fenway Park",
+    "temp_f": 88.0,
+    "wind_mph": 11.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   }

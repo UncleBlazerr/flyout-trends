@@ -52,16 +52,6 @@
    "game_streak": 1
   },
   {
-   "player_id": 671083,
-   "player_name": "Buddy Kennedy",
-   "team": "SF",
-   "record_streak": 2,
-   "total_flags": 2,
-   "avg_score": 36.0,
-   "current_score": 36.0,
-   "game_streak": 1
-  },
-  {
    "player_id": 677800,
    "player_name": "Wilyer Abreu",
    "team": "BOS",
@@ -72,13 +62,13 @@
    "game_streak": 2
   },
   {
-   "player_id": 668904,
-   "player_name": "Royce Lewis",
-   "team": "MIN",
+   "player_id": 678011,
+   "player_name": "Anthony Seigler",
+   "team": "BOS",
    "record_streak": 1,
-   "total_flags": 3,
-   "avg_score": 47.1,
-   "current_score": 35.3,
+   "total_flags": 5,
+   "avg_score": 52.0,
+   "current_score": 30.9,
    "game_streak": 2
   },
   {
@@ -110,6 +100,16 @@
    "avg_score": 42.9,
    "current_score": 42.8,
    "game_streak": 2
+  },
+  {
+   "player_id": 807799,
+   "player_name": "Masataka Yoshida",
+   "team": "BOS",
+   "record_streak": 1,
+   "total_flags": 2,
+   "avg_score": 35.3,
+   "current_score": 30.1,
+   "game_streak": 1
   },
   {
    "player_id": 650490,
