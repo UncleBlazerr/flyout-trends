@@ -1,13 +1,13 @@
 {
- "as_of": "2026-08-06",
+ "as_of": "2026-08-08",
  "players": [
   {
    "player_id": 664761,
    "player_name": "Alec Bohm",
    "team": "PHI",
-   "record_streak": 2,
-   "total_flags": 5,
-   "avg_score": 43.5,
+   "record_streak": 4,
+   "total_flags": 7,
+   "avg_score": 43.2,
    "current_score": 47.1,
    "game_streak": 3
   },
@@ -15,9 +15,9 @@
    "player_id": 687952,
    "player_name": "Christian Encarnacion-Strand",
    "team": "BAL",
-   "record_streak": 2,
-   "total_flags": 4,
-   "avg_score": 45.6,
+   "record_streak": 4,
+   "total_flags": 6,
+   "avg_score": 46.6,
    "current_score": 55.4,
    "game_streak": 3
   },
@@ -25,9 +25,9 @@
    "player_id": 677951,
    "player_name": "Bobby Witt Jr.",
    "team": "KC",
-   "record_streak": 2,
-   "total_flags": 4,
-   "avg_score": 35.8,
+   "record_streak": 4,
+   "total_flags": 6,
+   "avg_score": 38.3,
    "current_score": 49.2,
    "game_streak": 2
   },
@@ -35,9 +35,9 @@
    "player_id": 666176,
    "player_name": "Jo Adell",
    "team": "CLE",
-   "record_streak": 2,
-   "total_flags": 3,
-   "avg_score": 42.0,
+   "record_streak": 4,
+   "total_flags": 5,
+   "avg_score": 43.2,
    "current_score": 46.6,
    "game_streak": 3
   },
@@ -45,9 +45,9 @@
    "player_id": 671739,
    "player_name": "Michael Harris II",
    "team": "ATL",
-   "record_streak": 2,
-   "total_flags": 3,
-   "avg_score": 40.3,
+   "record_streak": 4,
+   "total_flags": 5,
+   "avg_score": 42.2,
    "current_score": 49.8,
    "game_streak": 3
   },
@@ -55,8 +55,8 @@
    "player_id": 694197,
    "player_name": "Angel Genao",
    "team": "CLE",
-   "record_streak": 2,
-   "total_flags": 2,
+   "record_streak": 4,
+   "total_flags": 4,
    "avg_score": 47.0,
    "current_score": 56.0,
    "game_streak": 2
@@ -65,91 +65,91 @@
    "player_id": 694192,
    "player_name": "Jackson Chourio",
    "team": "MIL",
-   "record_streak": 2,
-   "total_flags": 2,
+   "record_streak": 4,
+   "total_flags": 4,
    "avg_score": 45.0,
    "current_score": 51.7,
    "game_streak": 3
-  },
-  {
-   "player_id": 678760,
-   "player_name": "Eddys Leonard",
-   "team": "SF",
-   "record_streak": 2,
-   "total_flags": 2,
-   "avg_score": 43.0,
-   "current_score": 43.0,
-   "game_streak": 1
-  },
-  {
-   "player_id": 553869,
-   "player_name": "Elias D\u00edaz",
-   "team": "TEX",
-   "record_streak": 2,
-   "total_flags": 2,
-   "avg_score": 41.3,
-   "current_score": 41.3,
-   "game_streak": 2
-  },
-  {
-   "player_id": 699625,
-   "player_name": "Jimmy Crooks",
-   "team": "STL",
-   "record_streak": 2,
-   "total_flags": 2,
-   "avg_score": 39.8,
-   "current_score": 39.8,
-   "game_streak": 2
-  },
-  {
-   "player_id": 681198,
-   "player_name": "TJ Rumfield",
-   "team": "COL",
-   "record_streak": 2,
-   "total_flags": 2,
-   "avg_score": 38.0,
-   "current_score": 38.0,
-   "game_streak": 2
   },
   {
    "player_id": 691718,
    "player_name": "Pete Crow-Armstrong",
    "team": "CHC",
    "record_streak": 1,
-   "total_flags": 7,
-   "avg_score": 46.9,
+   "total_flags": 8,
+   "avg_score": 47.0,
    "current_score": 47.6,
    "game_streak": 2
+  },
+  {
+   "player_id": 665487,
+   "player_name": "Fernando Tatis Jr.",
+   "team": "SD",
+   "record_streak": 1,
+   "total_flags": 5,
+   "avg_score": 43.2,
+   "current_score": 33.2,
+   "game_streak": 1
   },
   {
    "player_id": 695600,
    "player_name": "Carter Jensen",
    "team": "KC",
    "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 43.8,
+   "total_flags": 3,
+   "avg_score": 44.8,
    "current_score": 47.0,
    "game_streak": 3
+  },
+  {
+   "player_id": 669016,
+   "player_name": "Brandon Marsh",
+   "team": "PHI",
+   "record_streak": 1,
+   "total_flags": 2,
+   "avg_score": 48.8,
+   "current_score": 31.6,
+   "game_streak": 2
   },
   {
    "player_id": 630105,
    "player_name": "Jake Cronenworth",
    "team": "SD",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 40.9,
    "current_score": 40.9,
    "game_streak": 2
   },
   {
-   "player_id": 671083,
-   "player_name": "Buddy Kennedy",
-   "team": "SF",
+   "player_id": 666023,
+   "player_name": "Freddy Fermin",
+   "team": "SD",
+   "record_streak": 1,
+   "total_flags": 2,
+   "avg_score": 36.2,
+   "current_score": 34.5,
+   "game_streak": 2
+  },
+  {
+   "player_id": 680779,
+   "player_name": "Henry Davis",
+   "team": "PIT",
    "record_streak": 1,
    "total_flags": 1,
-   "avg_score": 36.0,
-   "current_score": 36.0,
-   "game_streak": 1
+   "avg_score": 32.3,
+   "current_score": 32.3,
+   "game_streak": 2
+  },
+  {
+   "player_id": 649966,
+   "player_name": "Luis Ur\u00edas",
+   "team": "TOR",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 31.9,
+   "current_score": 31.9,
+   "game_streak": 2
   }
  ]
 }

@@ -2,9 +2,9 @@
  "player_id": 699625,
  "player_name": "Jimmy Crooks",
  "team": "STL",
- "as_of": "2026-08-06",
+ "as_of": "2026-08-08",
  "form": {
-  "streak": 2,
+  "streak": 0,
   "frequency": 0.714,
   "slopes": {
    "max_ev": -1.664,
@@ -12,7 +12,7 @@
    "near_hr": 0.0
   },
   "intensity": 0.079,
-  "expectancy_score": 39.8,
+  "expectancy_score": 23.8,
   "last_appearance": "2026-08-05"
  },
  "days": [
