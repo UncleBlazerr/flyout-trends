@@ -2,20 +2,38 @@
  "player_id": 672275,
  "player_name": "Patrick Bailey",
  "team": "CLE",
- "as_of": "2026-08-09",
+ "as_of": "2026-08-08",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 1.011,
+   "max_ev": -0.011,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.168,
-  "expectancy_score": 5.1,
-  "last_appearance": "2026-08-06"
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-08-08"
  },
  "days": [
+  {
+   "date": "2026-08-08",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 95.0,
+   "max_distance": 332.0,
+   "max_barrel_score": 65.1,
+   "temp_f": 82.0,
+   "wind_mph": 8.0,
+   "wind_dir": "in",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-08-06",
    "bbe": 3,
@@ -270,6 +288,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824565,
+   "date": "2026-08-08",
+   "player_id": 672275,
+   "player_name": "Patrick Bailey",
+   "team": "CLE",
+   "opponent": "CWS",
+   "result": "Flyout",
+   "exit_velocity": 95.0,
+   "launch_angle": 36.0,
+   "hit_distance": 332.0,
+   "hc_x": 194.7,
+   "hc_y": 84.26,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "0a1f340b-8cf3-35d7-8968-0b72d911604b",
+   "venue_id": 4,
+   "venue_name": "Rate Field",
+   "temp_f": 82.0,
+   "wind_mph": 8.0,
+   "wind_dir": "in",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 65.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824401,
    "date": "2026-08-06",

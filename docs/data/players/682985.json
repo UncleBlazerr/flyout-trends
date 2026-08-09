@@ -2,20 +2,38 @@
  "player_id": 682985,
  "player_name": "Riley Greene",
  "team": "DET",
- "as_of": "2026-08-09",
+ "as_of": "2026-08-08",
  "form": {
   "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": 2.318,
+   "max_ev": 0.3,
    "parks_sum": 0.0,
-   "near_hr": -0.036
+   "near_hr": -0.143
   },
-  "intensity": 0.333,
-  "expectancy_score": 18.6,
-  "last_appearance": "2026-08-07"
+  "intensity": 0.05,
+  "expectancy_score": 10.1,
+  "last_appearance": "2026-08-08"
  },
  "days": [
+  {
+   "date": "2026-08-08",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 90.5,
+   "max_distance": 253.0,
+   "max_barrel_score": 54.7,
+   "temp_f": 68.0,
+   "wind_mph": 16.0,
+   "wind_dir": "varies",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-07",
    "bbe": 4,
@@ -393,9 +411,56 @@
    "wind_mph": 11.0,
    "wind_dir": "in",
    "weather_condition": "Partly Cloudy"
+  },
+  {
+   "date": "2026-07-10",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 1,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 1,
+   "max_ev": 100.6,
+   "max_distance": 334.0,
+   "max_barrel_score": 78.9,
+   "temp_f": 82.0,
+   "wind_mph": 5.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
+  {
+   "game_pk": 823188,
+   "date": "2026-08-08",
+   "player_id": 682985,
+   "player_name": "Riley Greene",
+   "team": "DET",
+   "opponent": "SF",
+   "result": "Single",
+   "exit_velocity": 90.5,
+   "launch_angle": 18.0,
+   "hit_distance": 253.0,
+   "hc_x": 73.23,
+   "hc_y": 97.09,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "718ead63-9f9f-38c5-8631-fa2b6e655928",
+   "venue_id": 2395,
+   "venue_name": "Oracle Park",
+   "temp_f": 68.0,
+   "wind_mph": 16.0,
+   "wind_dir": "varies",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 54.7,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823191,
    "date": "2026-08-07",
@@ -2019,6 +2084,35 @@
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
+  },
+  {
+   "game_pk": 824252,
+   "date": "2026-07-10",
+   "player_id": 682985,
+   "player_name": "Riley Greene",
+   "team": "DET",
+   "opponent": "PHI",
+   "result": "Double",
+   "exit_velocity": 100.6,
+   "launch_angle": 28.0,
+   "hit_distance": 334.0,
+   "hc_x": 219.94,
+   "hc_y": 101.61,
+   "would_be_hr_count": 1,
+   "inning": 3,
+   "play_id": "1aa19f23-1f63-37ba-b15c-adf853a4ed59",
+   "venue_id": 2394,
+   "venue_name": "Comerica Park",
+   "temp_f": 82.0,
+   "wind_mph": 5.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 78.9,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
   }
  ]
 }

@@ -2,20 +2,38 @@
  "player_id": 608070,
  "player_name": "Jos\u00e9 Ram\u00edrez",
  "team": "CLE",
- "as_of": "2026-08-09",
+ "as_of": "2026-08-08",
  "form": {
   "streak": 0,
-  "frequency": 0.286,
+  "frequency": 0.143,
   "slopes": {
-   "max_ev": 0.757,
+   "max_ev": -1.621,
    "parks_sum": 0.0,
-   "near_hr": -0.179
+   "near_hr": -0.143
   },
-  "intensity": 0.126,
-  "expectancy_score": 12.4,
-  "last_appearance": "2026-08-07"
+  "intensity": 0.0,
+  "expectancy_score": 4.3,
+  "last_appearance": "2026-08-08"
  },
  "days": [
+  {
+   "date": "2026-08-08",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 78.2,
+   "max_distance": 266.0,
+   "max_barrel_score": 41.4,
+   "temp_f": 82.0,
+   "wind_mph": 8.0,
+   "wind_dir": "in",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-08-07",
    "bbe": 4,
@@ -216,6 +234,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824565,
+   "date": "2026-08-08",
+   "player_id": 608070,
+   "player_name": "Jos\u00e9 Ram\u00edrez",
+   "team": "CLE",
+   "opponent": "CWS",
+   "result": "Flyout",
+   "exit_velocity": 78.2,
+   "launch_angle": 40.0,
+   "hit_distance": 266.0,
+   "hc_x": 81.69,
+   "hc_y": 102.46,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "40ee2722-1728-3ea2-bcf0-e611d9a517ab",
+   "venue_id": 4,
+   "venue_name": "Rate Field",
+   "temp_f": 82.0,
+   "wind_mph": 8.0,
+   "wind_dir": "in",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 41.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824566,
    "date": "2026-08-07",

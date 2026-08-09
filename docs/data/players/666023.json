@@ -2,9 +2,9 @@
  "player_id": 666023,
  "player_name": "Freddy Fermin",
  "team": "SD",
- "as_of": "2026-08-09",
+ "as_of": "2026-08-08",
  "form": {
-  "streak": 0,
+  "streak": 2,
   "frequency": 0.429,
   "slopes": {
    "max_ev": 0.775,
@@ -12,7 +12,7 @@
    "near_hr": 0.179
   },
   "intensity": 0.189,
-  "expectancy_score": 18.5,
+  "expectancy_score": 34.5,
   "last_appearance": "2026-08-06"
  },
  "days": [

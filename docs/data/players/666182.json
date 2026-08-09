@@ -2,20 +2,38 @@
  "player_id": 666182,
  "player_name": "Bo Bichette",
  "team": "NYM",
- "as_of": "2026-08-09",
+ "as_of": "2026-08-08",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": -2.211,
+   "max_ev": -3.661,
    "parks_sum": 0.0,
-   "near_hr": 0.0
+   "near_hr": -0.036
   },
   "intensity": 0.0,
   "expectancy_score": 4.3,
-  "last_appearance": "2026-08-07"
+  "last_appearance": "2026-08-08"
  },
  "days": [
+  {
+   "date": "2026-08-08",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 85.3,
+   "max_distance": 133.0,
+   "max_barrel_score": 31.2,
+   "temp_f": 84.0,
+   "wind_mph": 11.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-07",
    "bbe": 5,
@@ -378,6 +396,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823348,
+   "date": "2026-08-08",
+   "player_id": 666182,
+   "player_name": "Bo Bichette",
+   "team": "NYM",
+   "opponent": "PIT",
+   "result": "Groundout",
+   "exit_velocity": 85.3,
+   "launch_angle": 8.0,
+   "hit_distance": 133.0,
+   "hc_x": 109.24,
+   "hc_y": 165.36,
+   "would_be_hr_count": 0,
+   "inning": 1,
+   "play_id": "50940c09-eed0-3d35-be3b-419cddc053b4",
+   "venue_id": 31,
+   "venue_name": "PNC Park",
+   "temp_f": 84.0,
+   "wind_mph": 11.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 31.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823349,
    "date": "2026-08-07",
