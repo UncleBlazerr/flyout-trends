@@ -165,13 +165,22 @@ step, no npm packages in the repo.
 
 **File:** `.github/workflows/openwiki-update.yml`
 
-A separate GitHub Actions workflow refreshes this documentation under `openwiki/`
-on a daily cron (`0 8 * * *` UTC) and via `workflow_dispatch`. It runs
-`openwiki code --update --print` with the `openrouter` provider and the
-`z-ai/glm-5.2` model, then opens a pull request (branch `openwiki/update`) via
-`peter-evans/create-pull-request`. The PR includes changes to `openwiki/`,
-`AGENTS.md`, `CLAUDE.md`, and the workflow file itself. The PR is **not**
-auto-merged — it requires manual review before merging.
+A separate GitHub Actions workflow refreshes this documentation under `openwiki/`.
+It triggers on a daily cron (`0 8 * * *` UTC), on `workflow_dispatch`, and on
+`push` to `main` — though the push trigger ignores `data/**`, `docs/**`,
+`openwiki/**`, and `*.md` so the twice-daily data commits and the merged update
+PR itself don't re-trigger a doc-gen run.
+
+The workflow runs `openwiki --update --print`, selecting the
+`z-ai/glm-5.2` model via the `OPENWIKI_MODEL_ID` env var (authenticated with the
+`OPENROUTER_API_KEY` secret). It then opens a pull request (branch
+`openwiki/update`) via `peter-evans/create-pull-request@v7` with
+`add-paths: openwiki` — only the generated wiki directory is included in the
+PR, not `AGENTS.md`, `CLAUDE.md`, or the workflow file.
+
+The PR is **auto-merged** immediately via `gh pr merge --squash` (the PR body
+states it is LLM-authored with no human gate), so `main` always reflects the
+latest generated docs for the next session or agent to read.
 
 ## Agent skills and integrations
 
