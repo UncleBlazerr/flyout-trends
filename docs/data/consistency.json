@@ -92,26 +92,6 @@
    "game_streak": 2
   },
   {
-   "player_id": 682657,
-   "player_name": "Angel Mart\u00ednez",
-   "team": "CLE",
-   "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 40.5,
-   "current_score": 37.9,
-   "game_streak": 2
-  },
-  {
-   "player_id": 666023,
-   "player_name": "Freddy Fermin",
-   "team": "SD",
-   "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 36.2,
-   "current_score": 34.5,
-   "game_streak": 2
-  },
-  {
    "player_id": 687597,
    "player_name": "Jordan Beck",
    "team": "COL",
@@ -142,13 +122,33 @@
    "game_streak": 2
   },
   {
-   "player_id": 669242,
-   "player_name": "Tommy Edman",
-   "team": "LAD",
+   "player_id": 624424,
+   "player_name": "Michael Conforto",
+   "team": "CHC",
    "record_streak": 1,
    "total_flags": 1,
-   "avg_score": 35.0,
-   "current_score": 35.0,
+   "avg_score": 32.2,
+   "current_score": 32.2,
+   "game_streak": 1
+  },
+  {
+   "player_id": 802139,
+   "player_name": "JJ Wetherholt",
+   "team": "STL",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 31.9,
+   "current_score": 31.9,
+   "game_streak": 1
+  },
+  {
+   "player_id": 649966,
+   "player_name": "Luis Ur\u00edas",
+   "team": "TOR",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 31.9,
+   "current_score": 31.9,
    "game_streak": 2
   }
  ]
