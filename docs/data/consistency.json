@@ -1,33 +1,23 @@
 {
- "as_of": "2026-08-07",
+ "as_of": "2026-08-09",
  "players": [
   {
    "player_id": 664761,
    "player_name": "Alec Bohm",
    "team": "PHI",
-   "record_streak": 3,
-   "total_flags": 6,
-   "avg_score": 45.7,
+   "record_streak": 5,
+   "total_flags": 8,
+   "avg_score": 47.2,
    "current_score": 56.3,
    "game_streak": 4
-  },
-  {
-   "player_id": 687952,
-   "player_name": "Christian Encarnacion-Strand",
-   "team": "BAL",
-   "record_streak": 3,
-   "total_flags": 5,
-   "avg_score": 47.6,
-   "current_score": 55.4,
-   "game_streak": 3
   },
   {
    "player_id": 677951,
    "player_name": "Bobby Witt Jr.",
    "team": "KC",
-   "record_streak": 3,
-   "total_flags": 5,
-   "avg_score": 40.0,
+   "record_streak": 5,
+   "total_flags": 7,
+   "avg_score": 43.7,
    "current_score": 56.7,
    "game_streak": 3
   },
@@ -35,40 +25,30 @@
    "player_id": 694197,
    "player_name": "Angel Genao",
    "team": "CLE",
-   "record_streak": 3,
-   "total_flags": 3,
-   "avg_score": 49.3,
+   "record_streak": 5,
+   "total_flags": 5,
+   "avg_score": 51.6,
    "current_score": 54.0,
    "game_streak": 3
   },
   {
-   "player_id": 678760,
-   "player_name": "Eddys Leonard",
-   "team": "SF",
+   "player_id": 669016,
+   "player_name": "Brandon Marsh",
+   "team": "PHI",
    "record_streak": 3,
-   "total_flags": 3,
-   "avg_score": 43.0,
-   "current_score": 43.0,
-   "game_streak": 1
+   "total_flags": 4,
+   "avg_score": 46.0,
+   "current_score": 43.1,
+   "game_streak": 3
   },
   {
    "player_id": 677800,
    "player_name": "Wilyer Abreu",
    "team": "BOS",
    "record_streak": 1,
-   "total_flags": 6,
+   "total_flags": 7,
    "avg_score": 52.4,
    "current_score": 51.8,
-   "game_streak": 2
-  },
-  {
-   "player_id": 678011,
-   "player_name": "Anthony Seigler",
-   "team": "BOS",
-   "record_streak": 1,
-   "total_flags": 5,
-   "avg_score": 52.0,
-   "current_score": 30.9,
    "game_streak": 2
   },
   {
@@ -76,47 +56,47 @@
    "player_name": "Victor Mesa Jr.",
    "team": "TB",
    "record_streak": 1,
-   "total_flags": 3,
-   "avg_score": 41.1,
+   "total_flags": 4,
+   "avg_score": 40.4,
    "current_score": 38.0,
    "game_streak": 2
   },
   {
-   "player_id": 669016,
-   "player_name": "Brandon Marsh",
-   "team": "PHI",
+   "player_id": 668904,
+   "player_name": "Royce Lewis",
+   "team": "MIN",
    "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 54.5,
-   "current_score": 43.1,
-   "game_streak": 3
+   "total_flags": 3,
+   "avg_score": 47.1,
+   "current_score": 35.3,
+   "game_streak": 2
   },
   {
    "player_id": 660821,
    "player_name": "Jes\u00fas S\u00e1nchez",
    "team": "TOR",
    "record_streak": 1,
-   "total_flags": 2,
+   "total_flags": 3,
    "avg_score": 42.9,
    "current_score": 42.8,
    "game_streak": 2
   },
   {
-   "player_id": 807799,
-   "player_name": "Masataka Yoshida",
-   "team": "BOS",
+   "player_id": 620443,
+   "player_name": "Luis Torrens",
+   "team": "NYM",
    "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 35.3,
-   "current_score": 30.1,
-   "game_streak": 1
+   "total_flags": 3,
+   "avg_score": 35.6,
+   "current_score": 33.6,
+   "game_streak": 2
   },
   {
    "player_id": 650490,
    "player_name": "Yandy D\u00edaz",
    "team": "TB",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 41.5,
    "current_score": 41.5,
    "game_streak": 2
@@ -126,7 +106,7 @@
    "player_name": "Pete Alonso",
    "team": "BAL",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 39.3,
    "current_score": 39.3,
    "game_streak": 2
@@ -136,9 +116,19 @@
    "player_name": "Brett Bateman",
    "team": "TOR",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 38.0,
    "current_score": 38.0,
+   "game_streak": 1
+  },
+  {
+   "player_id": 682657,
+   "player_name": "Angel Mart\u00ednez",
+   "team": "CLE",
+   "record_streak": 1,
+   "total_flags": 2,
+   "avg_score": 37.3,
+   "current_score": 31.5,
    "game_streak": 1
   },
   {
@@ -146,9 +136,19 @@
    "player_name": "Lars Nootbaar",
    "team": "AZ",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 37.3,
    "current_score": 37.3,
+   "game_streak": 2
+  },
+  {
+   "player_id": 701675,
+   "player_name": "Nathan Church",
+   "team": "STL",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 33.7,
+   "current_score": 33.7,
    "game_streak": 2
   }
  ]

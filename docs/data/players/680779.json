@@ -2,9 +2,9 @@
  "player_id": 680779,
  "player_name": "Henry Davis",
  "team": "PIT",
- "as_of": "2026-08-07",
+ "as_of": "2026-08-09",
  "form": {
-  "streak": 2,
+  "streak": 0,
   "frequency": 0.429,
   "slopes": {
    "max_ev": 0.471,
@@ -12,7 +12,7 @@
    "near_hr": 0.107
   },
   "intensity": 0.114,
-  "expectancy_score": 32.3,
+  "expectancy_score": 16.3,
   "last_appearance": "2026-08-06"
  },
  "days": [

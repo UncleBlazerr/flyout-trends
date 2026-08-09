@@ -2,9 +2,9 @@
  "player_id": 661531,
  "player_name": "Brian Serven",
  "team": "ATH",
- "as_of": "2026-08-07",
+ "as_of": "2026-08-09",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.2,
   "slopes": {
    "max_ev": -1.43,
@@ -12,7 +12,7 @@
    "near_hr": 0.2
   },
   "intensity": 0.067,
-  "expectancy_score": 16.0,
+  "expectancy_score": 8.0,
   "last_appearance": "2026-08-06"
  },
  "days": [
