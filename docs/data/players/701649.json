@@ -2,20 +2,38 @@
  "player_id": 701649,
  "player_name": "James Triantos",
  "team": "CHC",
- "as_of": "2026-08-10",
+ "as_of": "2026-08-09",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -17.1,
+   "max_ev": -4.47,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.0,
   "expectancy_score": 0.0,
-  "last_appearance": "2026-08-01"
+  "last_appearance": "2026-08-09"
  },
  "days": [
+  {
+   "date": "2026-08-09",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 89.7,
+   "max_distance": 0.0,
+   "max_barrel_score": 43.7,
+   "temp_f": 90.0,
+   "wind_mph": 15.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-01",
    "bbe": 1,
@@ -72,6 +90,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824078,
+   "date": "2026-08-09",
+   "player_id": 701649,
+   "player_name": "James Triantos",
+   "team": "CHC",
+   "opponent": "KC",
+   "result": "Flyout",
+   "exit_velocity": 89.7,
+   "launch_angle": 31.0,
+   "hit_distance": null,
+   "hc_x": 194.59,
+   "hc_y": 96.83,
+   "would_be_hr_count": null,
+   "inning": 9,
+   "play_id": "ce1dfa64-a79d-34f7-9561-2f1bf579219b",
+   "venue_id": 7,
+   "venue_name": "Kauffman Stadium",
+   "temp_f": 90.0,
+   "wind_mph": 15.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 43.7,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824649,
    "date": "2026-08-01",

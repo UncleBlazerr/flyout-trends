@@ -2,20 +2,38 @@
  "player_id": 687952,
  "player_name": "Christian Encarnacion-Strand",
  "team": "BAL",
- "as_of": "2026-08-10",
+ "as_of": "2026-08-09",
  "form": {
   "streak": 0,
-  "frequency": 0.714,
+  "frequency": 0.571,
   "slopes": {
-   "max_ev": 0.539,
-   "parks_sum": -1.321,
-   "near_hr": -0.08
+   "max_ev": -2.475,
+   "parks_sum": 0.25,
+   "near_hr": -0.17
   },
-  "intensity": 0.09,
-  "expectancy_score": 24.1,
-  "last_appearance": "2026-08-08"
+  "intensity": 0.028,
+  "expectancy_score": 18.0,
+  "last_appearance": "2026-08-09"
  },
  "days": [
+  {
+   "date": "2026-08-09",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 76.7,
+   "max_distance": 229.0,
+   "max_barrel_score": 27.8,
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-08-08",
    "bbe": 2,
@@ -252,6 +270,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822862,
+   "date": "2026-08-09",
+   "player_id": 687952,
+   "player_name": "Christian Encarnacion-Strand",
+   "team": "BAL",
+   "opponent": "TEX",
+   "result": "Flyout",
+   "exit_velocity": 76.7,
+   "launch_angle": 49.0,
+   "hit_distance": 229.0,
+   "hc_x": 121.64,
+   "hc_y": 108.83,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "d8f4c5d9-0d43-398b-9664-cd96901f7cb4",
+   "venue_id": 5325,
+   "venue_name": "Globe Life Field",
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 27.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 822864,
    "date": "2026-08-08",
