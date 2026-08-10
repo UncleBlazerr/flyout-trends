@@ -2,9 +2,9 @@
  "player_id": 620443,
  "player_name": "Luis Torrens",
  "team": "NYM",
- "as_of": "2026-08-08",
+ "as_of": "2026-08-10",
  "form": {
-  "streak": 2,
+  "streak": 0,
   "frequency": 0.571,
   "slopes": {
    "max_ev": -0.961,
@@ -12,7 +12,7 @@
    "near_hr": -0.018
   },
   "intensity": 0.016,
-  "expectancy_score": 33.6,
+  "expectancy_score": 17.6,
   "last_appearance": "2026-08-07"
  },
  "days": [

@@ -1,33 +1,23 @@
 {
- "as_of": "2026-08-08",
+ "as_of": "2026-08-10",
  "players": [
   {
    "player_id": 677951,
    "player_name": "Bobby Witt Jr.",
    "team": "KC",
-   "record_streak": 4,
-   "total_flags": 6,
-   "avg_score": 44.1,
+   "record_streak": 6,
+   "total_flags": 8,
+   "avg_score": 48.3,
    "current_score": 64.9,
    "game_streak": 4
-  },
-  {
-   "player_id": 677800,
-   "player_name": "Wilyer Abreu",
-   "team": "BOS",
-   "record_streak": 2,
-   "total_flags": 7,
-   "avg_score": 52.4,
-   "current_score": 51.8,
-   "game_streak": 2
   },
   {
    "player_id": 669016,
    "player_name": "Brandon Marsh",
    "team": "PHI",
-   "record_streak": 2,
-   "total_flags": 3,
-   "avg_score": 56.3,
+   "record_streak": 4,
+   "total_flags": 5,
+   "avg_score": 54.4,
    "current_score": 59.9,
    "game_streak": 4
   },
@@ -35,8 +25,8 @@
    "player_id": 703520,
    "player_name": "Brett Bateman",
    "team": "TOR",
-   "record_streak": 2,
-   "total_flags": 2,
+   "record_streak": 4,
+   "total_flags": 4,
    "avg_score": 47.0,
    "current_score": 56.0,
    "game_streak": 2
@@ -45,19 +35,39 @@
    "player_id": 624413,
    "player_name": "Pete Alonso",
    "team": "BAL",
-   "record_streak": 2,
-   "total_flags": 2,
+   "record_streak": 4,
+   "total_flags": 4,
    "avg_score": 45.6,
    "current_score": 51.9,
    "game_streak": 3
+  },
+  {
+   "player_id": 668904,
+   "player_name": "Royce Lewis",
+   "team": "MIN",
+   "record_streak": 3,
+   "total_flags": 5,
+   "avg_score": 46.7,
+   "current_score": 46.2,
+   "game_streak": 3
+  },
+  {
+   "player_id": 682657,
+   "player_name": "Angel Mart\u00ednez",
+   "team": "CLE",
+   "record_streak": 2,
+   "total_flags": 3,
+   "avg_score": 37.5,
+   "current_score": 37.9,
+   "game_streak": 2
   },
   {
    "player_id": 694384,
    "player_name": "Nolan Schanuel",
    "team": "LAA",
    "record_streak": 1,
-   "total_flags": 6,
-   "avg_score": 48.9,
+   "total_flags": 7,
+   "avg_score": 47.4,
    "current_score": 38.8,
    "game_streak": 2
   },
@@ -66,29 +76,9 @@
    "player_name": "Michael Massey",
    "team": "KC",
    "record_streak": 1,
-   "total_flags": 5,
-   "avg_score": 43.1,
+   "total_flags": 6,
+   "avg_score": 41.9,
    "current_score": 35.9,
-   "game_streak": 2
-  },
-  {
-   "player_id": 668904,
-   "player_name": "Royce Lewis",
-   "team": "MIN",
-   "record_streak": 1,
-   "total_flags": 3,
-   "avg_score": 50.7,
-   "current_score": 46.2,
-   "game_streak": 3
-  },
-  {
-   "player_id": 620443,
-   "player_name": "Luis Torrens",
-   "team": "NYM",
-   "record_streak": 1,
-   "total_flags": 3,
-   "avg_score": 35.6,
-   "current_score": 33.6,
    "game_streak": 2
   },
   {
@@ -96,8 +86,8 @@
    "player_name": "Jordan Beck",
    "team": "COL",
    "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 35.5,
+   "total_flags": 3,
+   "avg_score": 34.7,
    "current_score": 33.0,
    "game_streak": 1
   },
@@ -106,7 +96,7 @@
    "player_name": "Spencer Jones",
    "team": "NYY",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 44.5,
    "current_score": 44.5,
    "game_streak": 2
@@ -116,7 +106,7 @@
    "player_name": "Eduardo Valencia",
    "team": "DET",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 43.2,
    "current_score": 43.2,
    "game_streak": 2
@@ -126,7 +116,7 @@
    "player_name": "Michael Conforto",
    "team": "CHC",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 32.2,
    "current_score": 32.2,
    "game_streak": 1
@@ -136,19 +126,29 @@
    "player_name": "JJ Wetherholt",
    "team": "STL",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 31.9,
    "current_score": 31.9,
    "game_streak": 1
   },
   {
-   "player_id": 649966,
-   "player_name": "Luis Ur\u00edas",
-   "team": "TOR",
+   "player_id": 669242,
+   "player_name": "Tommy Edman",
+   "team": "LAD",
    "record_streak": 1,
    "total_flags": 1,
-   "avg_score": 31.9,
-   "current_score": 31.9,
+   "avg_score": 35.0,
+   "current_score": 35.0,
+   "game_streak": 2
+  },
+  {
+   "player_id": 694208,
+   "player_name": "Mois\u00e9s Ballesteros",
+   "team": "LAA",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 31.3,
+   "current_score": 31.3,
    "game_streak": 2
   }
  ]
