@@ -2,20 +2,38 @@
  "player_id": 664954,
  "player_name": "Brett Sullivan",
  "team": "COL",
- "as_of": "2026-08-11",
+ "as_of": "2026-08-10",
  "form": {
-  "streak": 1,
-  "frequency": 0.286,
+  "streak": 2,
+  "frequency": 0.429,
   "slopes": {
-   "max_ev": 1.671,
+   "max_ev": 0.107,
    "parks_sum": 0.0,
-   "near_hr": 0.143
+   "near_hr": 0.179
   },
-  "intensity": 0.326,
-  "expectancy_score": 26.4,
-  "last_appearance": "2026-08-09"
+  "intensity": 0.077,
+  "expectancy_score": 31.2,
+  "last_appearance": "2026-08-10"
  },
  "days": [
+  {
+   "date": "2026-08-10",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 1,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 97.7,
+   "max_distance": 373.0,
+   "max_barrel_score": 70.2,
+   "temp_f": 77.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-08-09",
    "bbe": 3,
@@ -162,6 +180,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 825048,
+   "date": "2026-08-10",
+   "player_id": 664954,
+   "player_name": "Brett Sullivan",
+   "team": "COL",
+   "opponent": "AZ",
+   "result": "Flyout",
+   "exit_velocity": 97.7,
+   "launch_angle": 36.0,
+   "hit_distance": 373.0,
+   "hc_x": 170.34,
+   "hc_y": 54.93,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "a07b6be3-3579-37e3-9af5-42944ef9939b",
+   "venue_id": 15,
+   "venue_name": "Chase Field",
+   "temp_f": 77.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": true,
+   "would_be_hr_flag": false,
+   "barrel_score": 70.2,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 823020,
    "date": "2026-08-09",

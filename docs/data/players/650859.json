@@ -2,20 +2,38 @@
  "player_id": 650859,
  "player_name": "Luis Rengifo",
  "team": "SD",
- "as_of": "2026-08-11",
+ "as_of": "2026-08-10",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": 0.514,
-   "parks_sum": 0.0,
-   "near_hr": 0.107
+   "max_ev": -0.346,
+   "parks_sum": -0.036,
+   "near_hr": 0.071
   },
-  "intensity": 0.121,
-  "expectancy_score": 15.9,
-  "last_appearance": "2026-08-09"
+  "intensity": 0.024,
+  "expectancy_score": 5.0,
+  "last_appearance": "2026-08-10"
  },
  "days": [
+  {
+   "date": "2026-08-10",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 94.0,
+   "max_distance": 289.0,
+   "max_barrel_score": 51.5,
+   "temp_f": 75.0,
+   "wind_mph": 6.0,
+   "wind_dir": "cross",
+   "weather_condition": "Cloudy"
+  },
   {
    "date": "2026-08-09",
    "bbe": 4,
@@ -378,6 +396,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823265,
+   "date": "2026-08-10",
+   "player_id": 650859,
+   "player_name": "Luis Rengifo",
+   "team": "SD",
+   "opponent": "MIL",
+   "result": "Flyout",
+   "exit_velocity": 94.0,
+   "launch_angle": 45.0,
+   "hit_distance": 289.0,
+   "hc_x": 121.68,
+   "hc_y": 83.96,
+   "would_be_hr_count": 0,
+   "inning": 5,
+   "play_id": "90a38743-580d-36a1-a88a-eb8a84d9230b",
+   "venue_id": 2680,
+   "venue_name": "Petco Park",
+   "temp_f": 75.0,
+   "wind_mph": 6.0,
+   "wind_dir": "cross",
+   "weather_condition": "Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 51.5,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823268,
    "date": "2026-08-09",

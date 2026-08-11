@@ -2,20 +2,38 @@
  "player_id": 700246,
  "player_name": "Carson Williams",
  "team": "TB",
- "as_of": "2026-08-11",
+ "as_of": "2026-08-10",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -10.9,
+   "max_ev": -7.7,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.0,
   "expectancy_score": 0.0,
-  "last_appearance": "2026-08-09"
+  "last_appearance": "2026-08-10"
  },
  "days": [
+  {
+   "date": "2026-08-10",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 73.0,
+   "max_distance": 252.0,
+   "max_barrel_score": 32.6,
+   "temp_f": 87.0,
+   "wind_mph": 8.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-08-09",
    "bbe": 1,
@@ -54,6 +72,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824969,
+   "date": "2026-08-10",
+   "player_id": 700246,
+   "player_name": "Carson Williams",
+   "team": "TB",
+   "opponent": "ATH",
+   "result": "Flyout",
+   "exit_velocity": 73.0,
+   "launch_angle": 43.0,
+   "hit_distance": 252.0,
+   "hc_x": 119.73,
+   "hc_y": 99.54,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "2ec97507-06ef-3709-ad08-0579f7d77d03",
+   "venue_id": 2529,
+   "venue_name": "Sutter Health Park",
+   "temp_f": 87.0,
+   "wind_mph": 8.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 32.6,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823104,
    "date": "2026-08-09",
