@@ -1,23 +1,13 @@
 {
- "as_of": "2026-08-09",
+ "as_of": "2026-08-11",
  "players": [
-  {
-   "player_id": 677800,
-   "player_name": "Wilyer Abreu",
-   "team": "BOS",
-   "record_streak": 3,
-   "total_flags": 8,
-   "avg_score": 52.5,
-   "current_score": 53.6,
-   "game_streak": 3
-  },
   {
    "player_id": 624413,
    "player_name": "Pete Alonso",
    "team": "BAL",
-   "record_streak": 3,
-   "total_flags": 3,
-   "avg_score": 52.2,
+   "record_streak": 5,
+   "total_flags": 5,
+   "avg_score": 54.8,
    "current_score": 65.5,
    "game_streak": 4
   },
@@ -25,9 +15,9 @@
    "player_id": 686681,
    "player_name": "Michael Massey",
    "team": "KC",
-   "record_streak": 2,
-   "total_flags": 6,
-   "avg_score": 43.9,
+   "record_streak": 4,
+   "total_flags": 8,
+   "avg_score": 43.3,
    "current_score": 47.7,
    "game_streak": 3
   },
@@ -35,8 +25,8 @@
    "player_id": 680664,
    "player_name": "Eduardo Valencia",
    "team": "DET",
-   "record_streak": 2,
-   "total_flags": 2,
+   "record_streak": 4,
+   "total_flags": 4,
    "avg_score": 48.7,
    "current_score": 54.1,
    "game_streak": 3
@@ -45,19 +35,39 @@
    "player_id": 802139,
    "player_name": "JJ Wetherholt",
    "team": "STL",
-   "record_streak": 2,
-   "total_flags": 2,
+   "record_streak": 4,
+   "total_flags": 4,
    "avg_score": 38.1,
    "current_score": 44.3,
    "game_streak": 2
+  },
+  {
+   "player_id": 694208,
+   "player_name": "Mois\u00e9s Ballesteros",
+   "team": "LAA",
+   "record_streak": 3,
+   "total_flags": 3,
+   "avg_score": 38.5,
+   "current_score": 42.1,
+   "game_streak": 3
+  },
+  {
+   "player_id": 677800,
+   "player_name": "Wilyer Abreu",
+   "team": "BOS",
+   "record_streak": 1,
+   "total_flags": 9,
+   "avg_score": 52.6,
+   "current_score": 53.6,
+   "game_streak": 3
   },
   {
    "player_id": 808959,
    "player_name": "Munetaka Murakami",
    "team": "CWS",
    "record_streak": 1,
-   "total_flags": 6,
-   "avg_score": 42.6,
+   "total_flags": 7,
+   "avg_score": 41.7,
    "current_score": 36.6,
    "game_streak": 2
   },
@@ -66,8 +76,8 @@
    "player_name": "Mike Yastrzemski",
    "team": "ATL",
    "record_streak": 1,
-   "total_flags": 4,
-   "avg_score": 46.1,
+   "total_flags": 5,
+   "avg_score": 44.4,
    "current_score": 37.6,
    "game_streak": 2
   },
@@ -76,28 +86,28 @@
    "player_name": "Victor Mesa Jr.",
    "team": "TB",
    "record_streak": 1,
-   "total_flags": 4,
-   "avg_score": 39.2,
+   "total_flags": 5,
+   "avg_score": 38.1,
    "current_score": 33.6,
    "game_streak": 1
   },
   {
-   "player_id": 682657,
-   "player_name": "Angel Mart\u00ednez",
+   "player_id": 694197,
+   "player_name": "Angel Genao",
    "team": "CLE",
    "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 40.5,
-   "current_score": 37.9,
-   "game_streak": 2
+   "total_flags": 4,
+   "avg_score": 45.0,
+   "current_score": 32.0,
+   "game_streak": 1
   },
   {
    "player_id": 664034,
    "player_name": "Ty France",
    "team": "SD",
    "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 39.7,
+   "total_flags": 3,
+   "avg_score": 40.6,
    "current_score": 42.6,
    "game_streak": 3
   },
@@ -106,27 +116,17 @@
    "player_name": "Travis Bazzana",
    "team": "CLE",
    "record_streak": 1,
-   "total_flags": 2,
+   "total_flags": 3,
    "avg_score": 33.9,
    "current_score": 34.1,
    "game_streak": 2
-  },
-  {
-   "player_id": 694208,
-   "player_name": "Mois\u00e9s Ballesteros",
-   "team": "LAA",
-   "record_streak": 1,
-   "total_flags": 1,
-   "avg_score": 42.1,
-   "current_score": 42.1,
-   "game_streak": 3
   },
   {
    "player_id": 686797,
    "player_name": "Brooks Lee",
    "team": "MIN",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 39.1,
    "current_score": 39.1,
    "game_streak": 2
@@ -136,7 +136,7 @@
    "player_name": "Drew Gilbert",
    "team": "SF",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 38.5,
    "current_score": 38.5,
    "game_streak": 2
@@ -146,7 +146,7 @@
    "player_name": "Jonah Bride",
    "team": "TEX",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 38.0,
    "current_score": 38.0,
    "game_streak": 1
