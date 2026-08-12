@@ -2,9 +2,9 @@
  "player_id": 665966,
  "player_name": "Carlos Narv\u00e1ez",
  "team": "BAL",
- "as_of": "2026-08-10",
+ "as_of": "2026-08-12",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": -0.004,
@@ -12,7 +12,7 @@
    "near_hr": 0.0
   },
   "intensity": 0.155,
-  "expectancy_score": 21.2,
+  "expectancy_score": 13.2,
   "last_appearance": "2026-08-09"
  },
  "days": [

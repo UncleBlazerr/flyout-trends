@@ -1,62 +1,32 @@
 {
- "as_of": "2026-08-10",
+ "as_of": "2026-08-12",
  "players": [
   {
    "player_id": 624413,
    "player_name": "Pete Alonso",
    "team": "BAL",
-   "record_streak": 4,
-   "total_flags": 4,
-   "avg_score": 56.6,
+   "record_streak": 6,
+   "total_flags": 6,
+   "avg_score": 60.3,
    "current_score": 69.9,
    "game_streak": 5
-  },
-  {
-   "player_id": 680664,
-   "player_name": "Eduardo Valencia",
-   "team": "DET",
-   "record_streak": 3,
-   "total_flags": 3,
-   "avg_score": 50.5,
-   "current_score": 54.1,
-   "game_streak": 3
   },
   {
    "player_id": 802139,
    "player_name": "JJ Wetherholt",
    "team": "STL",
-   "record_streak": 3,
-   "total_flags": 3,
-   "avg_score": 42.2,
+   "record_streak": 5,
+   "total_flags": 5,
+   "avg_score": 44.2,
    "current_score": 50.3,
    "game_streak": 3
-  },
-  {
-   "player_id": 808959,
-   "player_name": "Munetaka Murakami",
-   "team": "CWS",
-   "record_streak": 2,
-   "total_flags": 7,
-   "avg_score": 41.7,
-   "current_score": 36.6,
-   "game_streak": 2
-  },
-  {
-   "player_id": 682657,
-   "player_name": "Angel Mart\u00ednez",
-   "team": "CLE",
-   "record_streak": 2,
-   "total_flags": 3,
-   "avg_score": 39.6,
-   "current_score": 37.9,
-   "game_streak": 2
   },
   {
    "player_id": 686797,
    "player_name": "Brooks Lee",
    "team": "MIN",
-   "record_streak": 2,
-   "total_flags": 2,
+   "record_streak": 4,
+   "total_flags": 4,
    "avg_score": 46.0,
    "current_score": 53.0,
    "game_streak": 3
@@ -65,8 +35,8 @@
    "player_id": 687551,
    "player_name": "Drew Gilbert",
    "team": "SF",
-   "record_streak": 2,
-   "total_flags": 2,
+   "record_streak": 4,
+   "total_flags": 4,
    "avg_score": 44.3,
    "current_score": 50.1,
    "game_streak": 3
@@ -76,8 +46,8 @@
    "player_name": "Drake Baldwin",
    "team": "ATL",
    "record_streak": 1,
-   "total_flags": 4,
-   "avg_score": 39.4,
+   "total_flags": 5,
+   "avg_score": 39.1,
    "current_score": 38.0,
    "game_streak": 2
   },
@@ -86,18 +56,28 @@
    "player_name": "Yordan Alvarez",
    "team": "HOU",
    "record_streak": 1,
-   "total_flags": 4,
-   "avg_score": 24.6,
+   "total_flags": 5,
+   "avg_score": 27.0,
    "current_score": 36.4,
    "game_streak": 2
+  },
+  {
+   "player_id": 521692,
+   "player_name": "Salvador Perez",
+   "team": "KC",
+   "record_streak": 1,
+   "total_flags": 4,
+   "avg_score": 43.3,
+   "current_score": 34.3,
+   "game_streak": 1
   },
   {
    "player_id": 662139,
    "player_name": "Daulton Varsho",
    "team": "HOU",
    "record_streak": 1,
-   "total_flags": 3,
-   "avg_score": 42.3,
+   "total_flags": 4,
+   "avg_score": 41.1,
    "current_score": 37.6,
    "game_streak": 2
   },
@@ -106,8 +86,8 @@
    "player_name": "Jackson Holliday",
    "team": "BAL",
    "record_streak": 1,
-   "total_flags": 3,
-   "avg_score": 41.6,
+   "total_flags": 4,
+   "avg_score": 40.3,
    "current_score": 36.4,
    "game_streak": 2
   },
@@ -116,8 +96,8 @@
    "player_name": "Jackson Merrill",
    "team": "SD",
    "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 42.8,
+   "total_flags": 3,
+   "avg_score": 43.1,
    "current_score": 43.7,
    "game_streak": 2
   },
@@ -126,8 +106,8 @@
    "player_name": "Lars Nootbaar",
    "team": "AZ",
    "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 37.6,
+   "total_flags": 3,
+   "avg_score": 37.8,
    "current_score": 38.0,
    "game_streak": 1
   },
@@ -136,7 +116,7 @@
    "player_name": "Ezequiel Duran",
    "team": "TEX",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 39.2,
    "current_score": 39.2,
    "game_streak": 2
@@ -146,10 +126,30 @@
    "player_name": "Zack Gelof",
    "team": "ATH",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 35.6,
    "current_score": 35.6,
    "game_streak": 1
+  },
+  {
+   "player_id": 681624,
+   "player_name": "Andy Pages",
+   "team": "LAD",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 35.5,
+   "current_score": 35.5,
+   "game_streak": 1
+  },
+  {
+   "player_id": 664954,
+   "player_name": "Brett Sullivan",
+   "team": "COL",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 31.2,
+   "current_score": 31.2,
+   "game_streak": 2
   }
  ]
 }

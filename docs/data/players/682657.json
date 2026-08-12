@@ -2,9 +2,9 @@
  "player_id": 682657,
  "player_name": "Angel Mart\u00ednez",
  "team": "CLE",
- "as_of": "2026-08-10",
+ "as_of": "2026-08-12",
  "form": {
-  "streak": 2,
+  "streak": 0,
   "frequency": 0.571,
   "slopes": {
    "max_ev": 0.857,
@@ -12,7 +12,7 @@
    "near_hr": 0.045
   },
   "intensity": 0.158,
-  "expectancy_score": 37.9,
+  "expectancy_score": 21.9,
   "last_appearance": "2026-08-08"
  },
  "days": [
