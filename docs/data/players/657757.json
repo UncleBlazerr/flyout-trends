@@ -2,20 +2,38 @@
  "player_id": 657757,
  "player_name": "Gavin Sheets",
  "team": "SD",
- "as_of": "2026-08-12",
+ "as_of": "2026-08-11",
  "form": {
-  "streak": 0,
-  "frequency": 0.143,
+  "streak": 1,
+  "frequency": 0.286,
   "slopes": {
-   "max_ev": 6.364,
-   "parks_sum": 0.0,
-   "near_hr": 0.0
+   "max_ev": -0.461,
+   "parks_sum": -0.5,
+   "near_hr": 0.071
   },
-  "intensity": 0.333,
-  "expectancy_score": 14.3,
-  "last_appearance": "2026-08-09"
+  "intensity": 0.024,
+  "expectancy_score": 17.3,
+  "last_appearance": "2026-08-11"
  },
  "days": [
+  {
+   "date": "2026-08-11",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 1,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 103.1,
+   "max_distance": 377.0,
+   "max_barrel_score": 77.5,
+   "temp_f": 77.0,
+   "wind_mph": 9.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-09",
    "bbe": 2,
@@ -360,6 +378,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823264,
+   "date": "2026-08-11",
+   "player_id": 657757,
+   "player_name": "Gavin Sheets",
+   "team": "SD",
+   "opponent": "MIL",
+   "result": "Lineout",
+   "exit_velocity": 103.1,
+   "launch_angle": 21.0,
+   "hit_distance": 377.0,
+   "hc_x": 89.83,
+   "hc_y": 51.43,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "b93c9fa8-54b3-321d-becb-aae7ed47b5a5",
+   "venue_id": 2680,
+   "venue_name": "Petco Park",
+   "temp_f": 77.0,
+   "wind_mph": 9.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": true,
+   "would_be_hr_flag": false,
+   "barrel_score": 77.5,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 823268,
    "date": "2026-08-09",

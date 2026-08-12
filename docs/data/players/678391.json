@@ -2,20 +2,38 @@
  "player_id": 678391,
  "player_name": "Jorbit Vivas",
  "team": "WSH",
- "as_of": "2026-08-12",
+ "as_of": "2026-08-11",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -3.179,
+   "max_ev": -1.396,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.0,
   "expectancy_score": 0.0,
-  "last_appearance": "2026-08-09"
+  "last_appearance": "2026-08-11"
  },
  "days": [
+  {
+   "date": "2026-08-11",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 94.3,
+   "max_distance": 259.0,
+   "max_barrel_score": 56.3,
+   "temp_f": 87.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-09",
    "bbe": 4,
@@ -252,6 +270,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822697,
+   "date": "2026-08-11",
+   "player_id": 678391,
+   "player_name": "Jorbit Vivas",
+   "team": "WSH",
+   "opponent": "CHC",
+   "result": "Single",
+   "exit_velocity": 94.3,
+   "launch_angle": 16.0,
+   "hit_distance": 259.0,
+   "hc_x": 67.87,
+   "hc_y": 113.5,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "f793e676-4dc5-3067-90c4-b41a78bd306c",
+   "venue_id": 3309,
+   "venue_name": "Nationals Park",
+   "temp_f": 87.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 56.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 822700,
    "date": "2026-08-09",

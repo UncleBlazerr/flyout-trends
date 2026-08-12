@@ -2,20 +2,38 @@
  "player_id": 656555,
  "player_name": "Rhys Hoskins",
  "team": "CLE",
- "as_of": "2026-08-12",
+ "as_of": "2026-08-11",
  "form": {
   "streak": 0,
-  "frequency": 0.286,
+  "frequency": 0.143,
   "slopes": {
-   "max_ev": -0.504,
-   "parks_sum": -2.357,
-   "near_hr": -0.107
+   "max_ev": -1.939,
+   "parks_sum": 0.0,
+   "near_hr": -0.036
   },
   "intensity": 0.0,
-  "expectancy_score": 8.6,
-  "last_appearance": "2026-08-09"
+  "expectancy_score": 4.3,
+  "last_appearance": "2026-08-11"
  },
  "days": [
+  {
+   "date": "2026-08-11",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 84.0,
+   "max_distance": 8.0,
+   "max_barrel_score": 13.0,
+   "temp_f": 78.0,
+   "wind_mph": 1.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-09",
    "bbe": 2,
@@ -270,6 +288,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824240,
+   "date": "2026-08-11",
+   "player_id": 656555,
+   "player_name": "Rhys Hoskins",
+   "team": "CLE",
+   "opponent": "DET",
+   "result": "Groundout",
+   "exit_velocity": 84.0,
+   "launch_angle": -20.0,
+   "hit_distance": 8.0,
+   "hc_x": 113.35,
+   "hc_y": 151.18,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "276b1750-9439-3451-a3a3-312d02889bf6",
+   "venue_id": 2394,
+   "venue_name": "Comerica Park",
+   "temp_f": 78.0,
+   "wind_mph": 1.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 13.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824564,
    "date": "2026-08-09",

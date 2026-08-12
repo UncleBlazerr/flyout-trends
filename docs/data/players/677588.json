@@ -2,20 +2,38 @@
  "player_id": 677588,
  "player_name": "Jos\u00e9 Tena",
  "team": "WSH",
- "as_of": "2026-08-12",
+ "as_of": "2026-08-11",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": 4.675,
+   "max_ev": -0.225,
    "parks_sum": 0.0,
-   "near_hr": -0.036
+   "near_hr": -0.071
   },
-  "intensity": 0.333,
-  "expectancy_score": 14.3,
-  "last_appearance": "2026-08-09"
+  "intensity": 0.0,
+  "expectancy_score": 4.3,
+  "last_appearance": "2026-08-11"
  },
  "days": [
+  {
+   "date": "2026-08-11",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 66.4,
+   "max_distance": 3.0,
+   "max_barrel_score": 0.2,
+   "temp_f": 87.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-09",
    "bbe": 1,
@@ -306,6 +324,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822697,
+   "date": "2026-08-11",
+   "player_id": 677588,
+   "player_name": "Jos\u00e9 Tena",
+   "team": "WSH",
+   "opponent": "CHC",
+   "result": "Groundout",
+   "exit_velocity": 66.4,
+   "launch_angle": -42.0,
+   "hit_distance": 3.0,
+   "hc_x": 129.51,
+   "hc_y": 183.61,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "57ba628e-272d-3dba-bf70-42efe8712ab8",
+   "venue_id": 3309,
+   "venue_name": "Nationals Park",
+   "temp_f": 87.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 0.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 822700,
    "date": "2026-08-09",

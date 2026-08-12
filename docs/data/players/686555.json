@@ -2,20 +2,38 @@
  "player_id": 686555,
  "player_name": "Isaac Collins",
  "team": "KC",
- "as_of": "2026-08-12",
+ "as_of": "2026-08-11",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.429,
   "slopes": {
-   "max_ev": 0.096,
+   "max_ev": -1.486,
    "parks_sum": 0.0,
-   "near_hr": 0.152
+   "near_hr": 0.036
   },
-  "intensity": 0.067,
-  "expectancy_score": 22.9,
-  "last_appearance": "2026-08-10"
+  "intensity": 0.012,
+  "expectancy_score": 13.2,
+  "last_appearance": "2026-08-11"
  },
  "days": [
+  {
+   "date": "2026-08-11",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 83.4,
+   "max_distance": 70.0,
+   "max_barrel_score": 16.6,
+   "temp_f": 78.0,
+   "wind_mph": 2.0,
+   "wind_dir": "none",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-08-10",
    "bbe": 3,
@@ -396,6 +414,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823917,
+   "date": "2026-08-11",
+   "player_id": 686555,
+   "player_name": "Isaac Collins",
+   "team": "KC",
+   "opponent": "LAD",
+   "result": "Pop Out",
+   "exit_velocity": 83.4,
+   "launch_angle": 78.0,
+   "hit_distance": 70.0,
+   "hc_x": 96.53,
+   "hc_y": 186.56,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "d084f039-e62c-300b-8bd8-2c3b138547fe",
+   "venue_id": 22,
+   "venue_name": "UNIQLO Field at Dodger Stadium",
+   "temp_f": 78.0,
+   "wind_mph": 2.0,
+   "wind_dir": "none",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 16.6,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823918,
    "date": "2026-08-10",

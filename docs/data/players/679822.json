@@ -2,20 +2,38 @@
  "player_id": 679822,
  "player_name": "Justin Foscue",
  "team": "TEX",
- "as_of": "2026-08-12",
+ "as_of": "2026-08-11",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 3.661,
+   "max_ev": 3.182,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.333,
   "expectancy_score": 10.0,
-  "last_appearance": "2026-08-10"
+  "last_appearance": "2026-08-11"
  },
  "days": [
+  {
+   "date": "2026-08-11",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 103.0,
+   "max_distance": 317.0,
+   "max_barrel_score": 67.9,
+   "temp_f": 83.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-08-10",
    "bbe": 2,
@@ -216,6 +234,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823997,
+   "date": "2026-08-11",
+   "player_id": 679822,
+   "player_name": "Justin Foscue",
+   "team": "TEX",
+   "opponent": "LAA",
+   "result": "Lineout",
+   "exit_velocity": 103.0,
+   "launch_angle": 16.0,
+   "hit_distance": 317.0,
+   "hc_x": 59.32,
+   "hc_y": 90.24,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "6bd3fdbe-6ada-31fe-8ae3-cd76cfe99348",
+   "venue_id": 1,
+   "venue_name": "Angel Stadium",
+   "temp_f": 83.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 67.9,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823998,
    "date": "2026-08-10",

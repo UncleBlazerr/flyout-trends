@@ -2,20 +2,38 @@
  "player_id": 670231,
  "player_name": "John Rave",
  "team": "KC",
- "as_of": "2026-08-12",
+ "as_of": "2026-08-11",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -2.546,
-   "parks_sum": 0.071,
+   "max_ev": -2.325,
+   "parks_sum": 0.036,
    "near_hr": 0.0
   },
-  "intensity": 0.008,
-  "expectancy_score": 0.2,
-  "last_appearance": "2026-08-08"
+  "intensity": 0.004,
+  "expectancy_score": 0.1,
+  "last_appearance": "2026-08-11"
  },
  "days": [
+  {
+   "date": "2026-08-11",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 83.5,
+   "max_distance": 305.0,
+   "max_barrel_score": 58.5,
+   "temp_f": 78.0,
+   "wind_mph": 2.0,
+   "wind_dir": "none",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-08-08",
    "bbe": 3,
@@ -162,6 +180,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823917,
+   "date": "2026-08-11",
+   "player_id": 670231,
+   "player_name": "John Rave",
+   "team": "KC",
+   "opponent": "LAD",
+   "result": "Flyout",
+   "exit_velocity": 83.5,
+   "launch_angle": 31.0,
+   "hit_distance": 305.0,
+   "hc_x": 112.28,
+   "hc_y": 91.46,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "7d9e6de6-29b7-3e03-aef0-b714b7510774",
+   "venue_id": 22,
+   "venue_name": "UNIQLO Field at Dodger Stadium",
+   "temp_f": 78.0,
+   "wind_mph": 2.0,
+   "wind_dir": "none",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 58.5,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824079,
    "date": "2026-08-08",
