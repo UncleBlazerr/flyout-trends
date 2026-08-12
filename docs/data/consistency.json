@@ -82,6 +82,16 @@
    "game_streak": 2
   },
   {
+   "player_id": 668930,
+   "player_name": "Brice Turang",
+   "team": "MIL",
+   "record_streak": 1,
+   "total_flags": 3,
+   "avg_score": 39.5,
+   "current_score": 33.9,
+   "game_streak": 2
+  },
+  {
    "player_id": 683953,
    "player_name": "Travis Bazzana",
    "team": "CLE",
@@ -139,16 +149,6 @@
    "total_flags": 1,
    "avg_score": 42.2,
    "current_score": 42.2,
-   "game_streak": 2
-  },
-  {
-   "player_id": 663886,
-   "player_name": "Tyler Stephenson",
-   "team": "CIN",
-   "record_streak": 1,
-   "total_flags": 1,
-   "avg_score": 37.2,
-   "current_score": 37.2,
    "game_streak": 2
   }
  ]

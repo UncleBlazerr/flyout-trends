@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-08-12T10:58:11.179828+00:00",
+ "generated_at": "2026-08-12T17:02:36.507119+00:00",
  "as_of": "2026-08-11",
  "config": {
   "min_near_hr_events": 1,
@@ -56,37 +56,6 @@
  },
  "players": [
   {
-   "player_id": 687551,
-   "player_name": "Drew Gilbert",
-   "team": "SF",
-   "expectancy_score": 61.4,
-   "streak": 4,
-   "frequency": 0.571,
-   "slopes": {
-    "max_ev": 3.193,
-    "parks_sum": 0.0,
-    "near_hr": 0.223
-   },
-   "near_hr_7d": 4,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 1,
-   "max_ev_7d": 108.7,
-   "max_distance_7d": 407,
-   "band": "60-80",
-   "band_rate": 0.143,
-   "band_samples": 21,
-   "weather_factor": 1.0,
-   "adjusted_score": 61.4,
-   "game_weather": {
-    "venue_name": "Oracle Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
    "player_id": 802139,
    "player_name": "JJ Wetherholt",
    "team": "STL",
@@ -106,14 +75,45 @@
    "band": "40-60",
    "band_rate": 0.236,
    "band_samples": 259,
-   "weather_factor": 1.0,
-   "adjusted_score": 55.1,
+   "weather_factor": 1.175,
+   "adjusted_score": 64.7,
    "game_weather": {
     "venue_name": "Busch Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 94.0,
+    "wind_mph": 6.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 687551,
+   "player_name": "Drew Gilbert",
+   "team": "SF",
+   "expectancy_score": 61.4,
+   "streak": 4,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": 3.193,
+    "parks_sum": 0.0,
+    "near_hr": 0.223
+   },
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 1,
+   "max_ev_7d": 108.7,
+   "max_distance_7d": 407,
+   "band": "60-80",
+   "band_rate": 0.143,
+   "band_samples": 21,
+   "weather_factor": 1.046,
+   "adjusted_score": 64.2,
+   "game_weather": {
+    "venue_name": "Oracle Park",
+    "temp_f": 64.0,
+    "wind_mph": 6.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": true
   },
@@ -168,14 +168,14 @@
    "band": "40-60",
    "band_rate": 0.236,
    "band_samples": 259,
-   "weather_factor": 1.0,
-   "adjusted_score": 50.9,
+   "weather_factor": 1.046,
+   "adjusted_score": 53.2,
    "game_weather": {
     "venue_name": "Oracle Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 64.0,
+    "wind_mph": 6.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": true
   },
@@ -203,10 +203,10 @@
    "adjusted_score": 49.8,
    "game_weather": {
     "venue_name": "Chase Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": false
   },
@@ -304,6 +304,37 @@
    "repeat": false
   },
   {
+   "player_id": 671056,
+   "player_name": "Iv\u00e1n Herrera",
+   "team": "STL",
+   "expectancy_score": 36.9,
+   "streak": 2,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": -0.796,
+    "parks_sum": 0.857,
+    "near_hr": 0.089
+   },
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 1,
+   "max_ev_7d": 109.8,
+   "max_distance_7d": 393,
+   "band": "<40",
+   "band_rate": 0.205,
+   "band_samples": 8117,
+   "weather_factor": 1.175,
+   "adjusted_score": 43.4,
+   "game_weather": {
+    "venue_name": "Busch Stadium",
+    "temp_f": 94.0,
+    "wind_mph": 6.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
+  },
+  {
    "player_id": 681624,
    "player_name": "Andy Pages",
    "team": "LAD",
@@ -331,6 +362,68 @@
     "wind_mph": null,
     "wind_dir": null,
     "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 664761,
+   "player_name": "Alec Bohm",
+   "team": "PHI",
+   "expectancy_score": 35.5,
+   "streak": 1,
+   "frequency": 0.714,
+   "slopes": {
+    "max_ev": -0.061,
+    "parks_sum": 1.821,
+    "near_hr": -0.223
+   },
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 105.9,
+   "max_distance_7d": 399,
+   "band": "<40",
+   "band_rate": 0.205,
+   "band_samples": 8117,
+   "weather_factor": 1.175,
+   "adjusted_score": 41.7,
+   "game_weather": {
+    "venue_name": "Busch Stadium",
+    "temp_f": 94.0,
+    "wind_mph": 6.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 641343,
+   "player_name": "Jake Bauers",
+   "team": "MIL",
+   "expectancy_score": 36.7,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 1.282,
+    "parks_sum": -0.286,
+    "near_hr": 0.143
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
+   "max_ev_7d": 103.8,
+   "max_distance_7d": 389,
+   "band": "<40",
+   "band_rate": 0.205,
+   "band_samples": 8117,
+   "weather_factor": 1.126,
+   "adjusted_score": 41.3,
+   "game_weather": {
+    "venue_name": "Petco Park",
+    "temp_f": 74.0,
+    "wind_mph": 9.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   },
@@ -397,126 +490,33 @@
    "repeat": false
   },
   {
-   "player_id": 663886,
-   "player_name": "Tyler Stephenson",
-   "team": "CIN",
-   "expectancy_score": 37.2,
-   "streak": 2,
-   "frequency": 0.571,
-   "slopes": {
-    "max_ev": 0.446,
-    "parks_sum": 0.393,
-    "near_hr": 0.054
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 1,
-   "max_ev_7d": 104.3,
-   "max_distance_7d": 406,
-   "band": "<40",
-   "band_rate": 0.205,
-   "band_samples": 8117,
-   "weather_factor": 1.0,
-   "adjusted_score": 37.2,
-   "game_weather": {
-    "venue_name": "Rate Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 671056,
-   "player_name": "Iv\u00e1n Herrera",
-   "team": "STL",
-   "expectancy_score": 36.9,
-   "streak": 2,
-   "frequency": 0.571,
-   "slopes": {
-    "max_ev": -0.796,
-    "parks_sum": 0.857,
-    "near_hr": 0.089
-   },
-   "near_hr_7d": 4,
-   "near_hr_xbh_7d": 2,
-   "hr_7d": 1,
-   "max_ev_7d": 109.8,
-   "max_distance_7d": 393,
-   "band": "<40",
-   "band_rate": 0.205,
-   "band_samples": 8117,
-   "weather_factor": 1.0,
-   "adjusted_score": 36.9,
-   "game_weather": {
-    "venue_name": "Busch Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 641343,
-   "player_name": "Jake Bauers",
+   "player_id": 668930,
+   "player_name": "Brice Turang",
    "team": "MIL",
-   "expectancy_score": 36.7,
+   "expectancy_score": 33.9,
    "streak": 2,
-   "frequency": 0.429,
+   "frequency": 0.571,
    "slopes": {
-    "max_ev": 1.282,
-    "parks_sum": -0.286,
-    "near_hr": 0.143
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 1,
-   "max_ev_7d": 103.8,
-   "max_distance_7d": 389,
-   "band": "<40",
-   "band_rate": 0.205,
-   "band_samples": 8117,
-   "weather_factor": 1.0,
-   "adjusted_score": 36.7,
-   "game_weather": {
-    "venue_name": "Petco Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 664761,
-   "player_name": "Alec Bohm",
-   "team": "PHI",
-   "expectancy_score": 35.5,
-   "streak": 1,
-   "frequency": 0.714,
-   "slopes": {
-    "max_ev": -0.061,
-    "parks_sum": 1.821,
-    "near_hr": -0.223
+    "max_ev": -0.246,
+    "parks_sum": 0.0,
+    "near_hr": 0.071
    },
    "near_hr_7d": 4,
    "near_hr_xbh_7d": 1,
    "hr_7d": 0,
-   "max_ev_7d": 105.9,
-   "max_distance_7d": 399,
+   "max_ev_7d": 106.6,
+   "max_distance_7d": 366,
    "band": "<40",
    "band_rate": 0.205,
    "band_samples": 8117,
-   "weather_factor": 1.0,
-   "adjusted_score": 35.5,
+   "weather_factor": 1.126,
+   "adjusted_score": 38.2,
    "game_weather": {
-    "venue_name": "Busch Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "venue_name": "Petco Park",
+    "temp_f": 74.0,
+    "wind_mph": 9.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   }
