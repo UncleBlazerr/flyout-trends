@@ -2,9 +2,9 @@
  "player_id": 694197,
  "player_name": "Angel Genao",
  "team": "CLE",
- "as_of": "2026-08-11",
+ "as_of": "2026-08-13",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.8,
   "slopes": {
    "max_ev": -0.88,
@@ -12,7 +12,7 @@
    "near_hr": -0.1
   },
   "intensity": 0.0,
-  "expectancy_score": 32.0,
+  "expectancy_score": 24.0,
   "last_appearance": "2026-08-09"
  },
  "days": [
