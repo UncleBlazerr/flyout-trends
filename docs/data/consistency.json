@@ -22,16 +22,6 @@
    "game_streak": 3
   },
   {
-   "player_id": 678246,
-   "player_name": "Miguel Vargas",
-   "team": "CWS",
-   "record_streak": 1,
-   "total_flags": 7,
-   "avg_score": 40.3,
-   "current_score": 33.5,
-   "game_streak": 2
-  },
-  {
    "player_id": 694197,
    "player_name": "Angel Genao",
    "team": "CLE",
@@ -92,13 +82,23 @@
    "game_streak": 3
   },
   {
-   "player_id": 624424,
-   "player_name": "Michael Conforto",
-   "team": "CHC",
+   "player_id": 682987,
+   "player_name": "Spencer Jones",
+   "team": "NYY",
    "record_streak": 1,
    "total_flags": 2,
-   "avg_score": 32.5,
-   "current_score": 32.8,
+   "avg_score": 36.5,
+   "current_score": 28.5,
+   "game_streak": 1
+  },
+  {
+   "player_id": 663757,
+   "player_name": "Trent Grisham",
+   "team": "NYY",
+   "record_streak": 1,
+   "total_flags": 2,
+   "avg_score": 31.4,
+   "current_score": 31.0,
    "game_streak": 1
   },
   {
@@ -112,9 +112,9 @@
    "game_streak": 2
   },
   {
-   "player_id": 681393,
-   "player_name": "Connor Norby",
-   "team": "COL",
+   "player_id": 667452,
+   "player_name": "Corey Julks",
+   "team": "DET",
    "record_streak": 1,
    "total_flags": 1,
    "avg_score": 38.0,
@@ -122,9 +122,9 @@
    "game_streak": 1
   },
   {
-   "player_id": 667452,
-   "player_name": "Corey Julks",
-   "team": "DET",
+   "player_id": 681393,
+   "player_name": "Connor Norby",
+   "team": "COL",
    "record_streak": 1,
    "total_flags": 1,
    "avg_score": 38.0,
