@@ -2,20 +2,38 @@
  "player_id": 678662,
  "player_name": "Ezequiel Tovar",
  "team": "COL",
- "as_of": "2026-08-13",
+ "as_of": "2026-08-12",
  "form": {
-  "streak": 0,
-  "frequency": 0.143,
+  "streak": 1,
+  "frequency": 0.286,
   "slopes": {
-   "max_ev": -4.268,
-   "parks_sum": 0.0,
-   "near_hr": 0.071
+   "max_ev": -1.343,
+   "parks_sum": 1.071,
+   "near_hr": 0.17
   },
-  "intensity": 0.024,
-  "expectancy_score": 5.0,
-  "last_appearance": "2026-08-11"
+  "intensity": 0.176,
+  "expectancy_score": 21.8,
+  "last_appearance": "2026-08-12"
  },
  "days": [
+  {
+   "date": "2026-08-12",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 1,
+   "near_hr_distance": 1,
+   "near_hr_parks": 1,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 10,
+   "max_ev": 103.9,
+   "max_distance": 366.0,
+   "max_barrel_score": 80.7,
+   "temp_f": 75.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-08-11",
    "bbe": 3,
@@ -324,6 +342,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 825047,
+   "date": "2026-08-12",
+   "player_id": 678662,
+   "player_name": "Ezequiel Tovar",
+   "team": "COL",
+   "opponent": "AZ",
+   "result": "Double",
+   "exit_velocity": 103.9,
+   "launch_angle": 24.0,
+   "hit_distance": 366.0,
+   "hc_x": 45.51,
+   "hc_y": 74.4,
+   "would_be_hr_count": 10,
+   "inning": 8,
+   "play_id": "17f3ce28-3c7e-3650-b374-d4aec3d22e65",
+   "venue_id": 15,
+   "venue_name": "Chase Field",
+   "temp_f": 75.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": true,
+   "would_be_hr_flag": true,
+   "barrel_score": 80.7,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 825046,
    "date": "2026-08-11",

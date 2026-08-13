@@ -2,20 +2,38 @@
  "player_id": 621438,
  "player_name": "Tyrone Taylor",
  "team": "CHC",
- "as_of": "2026-08-13",
+ "as_of": "2026-08-12",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": -2.939,
+   "max_ev": -5.268,
    "parks_sum": 0.0,
-   "near_hr": -0.071
+   "near_hr": -0.107
   },
   "intensity": 0.0,
   "expectancy_score": 4.3,
-  "last_appearance": "2026-08-09"
+  "last_appearance": "2026-08-12"
  },
  "days": [
+  {
+   "date": "2026-08-12",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 54.3,
+   "max_distance": 4.0,
+   "max_barrel_score": 0.3,
+   "temp_f": 86.0,
+   "wind_mph": 6.0,
+   "wind_dir": "out",
+   "weather_condition": "Cloudy"
+  },
   {
    "date": "2026-08-09",
    "bbe": 4,
@@ -216,6 +234,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822698,
+   "date": "2026-08-12",
+   "player_id": 621438,
+   "player_name": "Tyrone Taylor",
+   "team": "CHC",
+   "opponent": "WSH",
+   "result": "Groundout",
+   "exit_velocity": 54.3,
+   "launch_angle": -39.0,
+   "hit_distance": 4.0,
+   "hc_x": 127.73,
+   "hc_y": 179.11,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "ff047066-4650-3aea-8eb1-75106fafff6a",
+   "venue_id": 3309,
+   "venue_name": "Nationals Park",
+   "temp_f": 86.0,
+   "wind_mph": 6.0,
+   "wind_dir": "out",
+   "weather_condition": "Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 0.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824078,
    "date": "2026-08-09",

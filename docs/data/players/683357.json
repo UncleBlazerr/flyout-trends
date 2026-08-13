@@ -2,20 +2,38 @@
  "player_id": 683357,
  "player_name": "Owen Caissie",
  "team": "MIA",
- "as_of": "2026-08-13",
+ "as_of": "2026-08-12",
  "form": {
-  "streak": 0,
-  "frequency": 0.143,
+  "streak": 1,
+  "frequency": 0.286,
   "slopes": {
-   "max_ev": 0.561,
+   "max_ev": 0.307,
    "parks_sum": 0.0,
-   "near_hr": 0.0
+   "near_hr": 0.071
   },
-  "intensity": 0.094,
-  "expectancy_score": 7.1,
-  "last_appearance": "2026-08-11"
+  "intensity": 0.075,
+  "expectancy_score": 18.8,
+  "last_appearance": "2026-08-12"
  },
  "days": [
+  {
+   "date": "2026-08-12",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 1,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 97.0,
+   "max_distance": 376.0,
+   "max_barrel_score": 76.3,
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-08-11",
    "bbe": 1,
@@ -144,6 +162,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823833,
+   "date": "2026-08-12",
+   "player_id": 683357,
+   "player_name": "Owen Caissie",
+   "team": "MIA",
+   "opponent": "PIT",
+   "result": "Flyout",
+   "exit_velocity": 97.0,
+   "launch_angle": 30.0,
+   "hit_distance": 376.0,
+   "hc_x": 159.55,
+   "hc_y": 51.09,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "ce36b6a8-20a3-332d-8923-a4ad2037dc59",
+   "venue_id": 4169,
+   "venue_name": "loanDepot park",
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": true,
+   "would_be_hr_flag": false,
+   "barrel_score": 76.3,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 823832,
    "date": "2026-08-11",

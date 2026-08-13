@@ -2,9 +2,9 @@
  "player_id": 656537,
  "player_name": "Derek Hill",
  "team": "PHI",
- "as_of": "2026-08-13",
+ "as_of": "2026-08-12",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.143,
   "slopes": {
    "max_ev": 5.629,
@@ -12,7 +12,7 @@
    "near_hr": 0.107
   },
   "intensity": 0.381,
-  "expectancy_score": 15.7,
+  "expectancy_score": 23.7,
   "last_appearance": "2026-08-10"
  },
  "days": [

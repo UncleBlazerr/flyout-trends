@@ -2,20 +2,38 @@
  "player_id": 681047,
  "player_name": "Christian Franklin",
  "team": "BAL",
- "as_of": "2026-08-13",
+ "as_of": "2026-08-12",
  "form": {
-  "streak": 1,
-  "frequency": 0.25,
+  "streak": 0,
+  "frequency": 0.2,
   "slopes": {
-   "max_ev": 4.24,
+   "max_ev": 3.18,
    "parks_sum": 0.0,
-   "near_hr": 0.3
+   "near_hr": 0.1
   },
-  "intensity": 0.433,
-  "expectancy_score": 28.5,
-  "last_appearance": "2026-08-11"
+  "intensity": 0.367,
+  "expectancy_score": 17.0,
+  "last_appearance": "2026-08-12"
  },
  "days": [
+  {
+   "date": "2026-08-12",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 101.4,
+   "max_distance": 160.0,
+   "max_barrel_score": 46.2,
+   "temp_f": 86.0,
+   "wind_mph": 7.0,
+   "wind_dir": "in",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-08-11",
    "bbe": 3,
@@ -90,6 +108,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823672,
+   "date": "2026-08-12",
+   "player_id": 681047,
+   "player_name": "Christian Franklin",
+   "team": "BAL",
+   "opponent": "MIN",
+   "result": "Single",
+   "exit_velocity": 101.4,
+   "launch_angle": 7.0,
+   "hit_distance": 160.0,
+   "hc_x": 178.16,
+   "hc_y": 97.46,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "5f930bda-2f19-3c29-8d83-59962c14479b",
+   "venue_id": 3312,
+   "venue_name": "Target Field",
+   "temp_f": 86.0,
+   "wind_mph": 7.0,
+   "wind_dir": "in",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 46.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823673,
    "date": "2026-08-11",

@@ -2,20 +2,38 @@
  "player_id": 669016,
  "player_name": "Brandon Marsh",
  "team": "PHI",
- "as_of": "2026-08-13",
+ "as_of": "2026-08-12",
  "form": {
   "streak": 0,
-  "frequency": 0.571,
+  "frequency": 0.429,
   "slopes": {
-   "max_ev": -0.907,
+   "max_ev": -4.036,
    "parks_sum": 0.0,
-   "near_hr": -0.232
+   "near_hr": -0.241
   },
   "intensity": 0.0,
-  "expectancy_score": 17.1,
-  "last_appearance": "2026-08-11"
+  "expectancy_score": 12.9,
+  "last_appearance": "2026-08-12"
  },
  "days": [
+  {
+   "date": "2026-08-12",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 69.7,
+   "max_distance": 5.0,
+   "max_barrel_score": 0.3,
+   "temp_f": 94.0,
+   "wind_mph": 11.0,
+   "wind_dir": "out",
+   "weather_condition": "Overcast"
+  },
   {
    "date": "2026-08-11",
    "bbe": 4,
@@ -432,6 +450,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823017,
+   "date": "2026-08-12",
+   "player_id": 669016,
+   "player_name": "Brandon Marsh",
+   "team": "PHI",
+   "opponent": "STL",
+   "result": "GIDP",
+   "exit_velocity": 69.7,
+   "launch_angle": -26.0,
+   "hit_distance": 5.0,
+   "hc_x": 140.66,
+   "hc_y": 166.88,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "e435ab8b-075a-3941-ad91-e95fdb4f6041",
+   "venue_id": 2889,
+   "venue_name": "Busch Stadium",
+   "temp_f": 94.0,
+   "wind_mph": 11.0,
+   "wind_dir": "out",
+   "weather_condition": "Overcast",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 0.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823019,
    "date": "2026-08-11",

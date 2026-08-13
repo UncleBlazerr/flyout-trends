@@ -1,0 +1,69 @@
+{
+ "player_id": 668800,
+ "player_name": "Andrew Knizner",
+ "team": "SF",
+ "as_of": "2026-08-12",
+ "form": {
+  "streak": 0,
+  "frequency": 0.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-08-12"
+ },
+ "days": [
+  {
+   "date": "2026-08-12",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 81.5,
+   "max_distance": 75.0,
+   "max_barrel_score": 15.2,
+   "temp_f": 64.0,
+   "wind_mph": 6.0,
+   "wind_dir": "varies",
+   "weather_condition": "Overcast"
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 823187,
+   "date": "2026-08-12",
+   "player_id": 668800,
+   "player_name": "Andrew Knizner",
+   "team": "SF",
+   "opponent": "HOU",
+   "result": "Pop Out",
+   "exit_velocity": 81.5,
+   "launch_angle": 79.0,
+   "hit_distance": 75.0,
+   "hc_x": 155.86,
+   "hc_y": 187.66,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "61e28b1b-2fcc-3eb8-af5a-75fb3d134adb",
+   "venue_id": 2395,
+   "venue_name": "Oracle Park",
+   "temp_f": 64.0,
+   "wind_mph": 6.0,
+   "wind_dir": "varies",
+   "weather_condition": "Overcast",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 15.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  }
+ ]
+}

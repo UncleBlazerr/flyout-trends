@@ -2,20 +2,38 @@
  "player_id": 666139,
  "player_name": "Josh Lowe",
  "team": "LAA",
- "as_of": "2026-08-13",
+ "as_of": "2026-08-12",
  "form": {
   "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": 1.807,
+   "max_ev": -2.029,
    "parks_sum": 0.0,
-   "near_hr": -0.045
+   "near_hr": -0.125
   },
-  "intensity": 0.301,
-  "expectancy_score": 17.6,
-  "last_appearance": "2026-08-10"
+  "intensity": 0.0,
+  "expectancy_score": 8.6,
+  "last_appearance": "2026-08-12"
  },
  "days": [
+  {
+   "date": "2026-08-12",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 96.8,
+   "max_distance": 69.0,
+   "max_barrel_score": 30.6,
+   "temp_f": 78.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-10",
    "bbe": 1,
@@ -252,6 +270,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823994,
+   "date": "2026-08-12",
+   "player_id": 666139,
+   "player_name": "Josh Lowe",
+   "team": "LAA",
+   "opponent": "TEX",
+   "result": "Groundout",
+   "exit_velocity": 96.8,
+   "launch_angle": 2.0,
+   "hit_distance": 69.0,
+   "hc_x": 117.06,
+   "hc_y": 142.9,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "2f1c350f-0498-3bee-a2b9-9a0ca4f3dc02",
+   "venue_id": 1,
+   "venue_name": "Angel Stadium",
+   "temp_f": 78.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 30.6,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823998,
    "date": "2026-08-10",

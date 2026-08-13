@@ -2,20 +2,38 @@
  "player_id": 805811,
  "player_name": "Bryce Eldridge",
  "team": "SF",
- "as_of": "2026-08-13",
+ "as_of": "2026-08-12",
  "form": {
   "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": 0.461,
-   "parks_sum": 0.071,
-   "near_hr": 0.018
+   "max_ev": 0.493,
+   "parks_sum": -1.107,
+   "near_hr": -0.062
   },
-  "intensity": 0.091,
-  "expectancy_score": 11.3,
-  "last_appearance": "2026-08-11"
+  "intensity": 0.082,
+  "expectancy_score": 11.0,
+  "last_appearance": "2026-08-12"
  },
  "days": [
+  {
+   "date": "2026-08-12",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 98.2,
+   "max_distance": 13.0,
+   "max_barrel_score": 25.9,
+   "temp_f": 64.0,
+   "wind_mph": 6.0,
+   "wind_dir": "varies",
+   "weather_condition": "Overcast"
+  },
   {
    "date": "2026-08-11",
    "bbe": 3,
@@ -396,6 +414,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823187,
+   "date": "2026-08-12",
+   "player_id": 805811,
+   "player_name": "Bryce Eldridge",
+   "team": "SF",
+   "opponent": "HOU",
+   "result": "Groundout",
+   "exit_velocity": 98.2,
+   "launch_angle": -8.0,
+   "hit_distance": 13.0,
+   "hc_x": 122.61,
+   "hc_y": 139.14,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "0d3d1bb3-e145-35c4-a55a-03fc337f70c4",
+   "venue_id": 2395,
+   "venue_name": "Oracle Park",
+   "temp_f": 64.0,
+   "wind_mph": 6.0,
+   "wind_dir": "varies",
+   "weather_condition": "Overcast",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 25.9,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823186,
    "date": "2026-08-11",

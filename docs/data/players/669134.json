@@ -2,20 +2,38 @@
  "player_id": 669134,
  "player_name": "Luis Campusano",
  "team": "SD",
- "as_of": "2026-08-13",
+ "as_of": "2026-08-12",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": 0.654,
-   "parks_sum": 0.0,
-   "near_hr": 0.0
+   "max_ev": 0.382,
+   "parks_sum": -0.25,
+   "near_hr": -0.071
   },
-  "intensity": 0.109,
-  "expectancy_score": 7.6,
-  "last_appearance": "2026-08-11"
+  "intensity": 0.064,
+  "expectancy_score": 6.2,
+  "last_appearance": "2026-08-12"
  },
  "days": [
+  {
+   "date": "2026-08-12",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 85.7,
+   "max_distance": 208.0,
+   "max_barrel_score": 42.0,
+   "temp_f": 79.0,
+   "wind_mph": 8.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-11",
    "bbe": 4,
@@ -270,6 +288,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823263,
+   "date": "2026-08-12",
+   "player_id": 669134,
+   "player_name": "Luis Campusano",
+   "team": "SD",
+   "opponent": "MIL",
+   "result": "Single",
+   "exit_velocity": 85.7,
+   "launch_angle": 13.0,
+   "hit_distance": 208.0,
+   "hc_x": 176.62,
+   "hc_y": 129.71,
+   "would_be_hr_count": 0,
+   "inning": 11,
+   "play_id": "be245a27-3e91-3792-b903-4ac66008fae7",
+   "venue_id": 2680,
+   "venue_name": "Petco Park",
+   "temp_f": 79.0,
+   "wind_mph": 8.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 42.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823264,
    "date": "2026-08-11",
