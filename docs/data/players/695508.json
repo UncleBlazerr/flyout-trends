@@ -2,20 +2,38 @@
  "player_id": 695508,
  "player_name": "Cam Cauley",
  "team": "TEX",
- "as_of": "2026-08-14",
+ "as_of": "2026-08-13",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -0.186,
+   "max_ev": 1.964,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.0,
-  "expectancy_score": 0.0,
-  "last_appearance": "2026-08-10"
+  "intensity": 0.327,
+  "expectancy_score": 9.8,
+  "last_appearance": "2026-08-13"
  },
  "days": [
+  {
+   "date": "2026-08-13",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 90.0,
+   "max_distance": 310.0,
+   "max_barrel_score": 55.9,
+   "temp_f": 75.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-10",
    "bbe": 2,
@@ -270,6 +288,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823995,
+   "date": "2026-08-13",
+   "player_id": 695508,
+   "player_name": "Cam Cauley",
+   "team": "TEX",
+   "opponent": "LAA",
+   "result": "Flyout",
+   "exit_velocity": 90.0,
+   "launch_angle": 39.0,
+   "hit_distance": 310.0,
+   "hc_x": 163.18,
+   "hc_y": 80.61,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "6c0ece1b-748c-3c7c-9eb4-1c4c775225f6",
+   "venue_id": 1,
+   "venue_name": "Angel Stadium",
+   "temp_f": 75.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 55.9,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823998,
    "date": "2026-08-10",

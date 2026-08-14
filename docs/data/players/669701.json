@@ -2,20 +2,38 @@
  "player_id": 669701,
  "player_name": "Josh Smith",
  "team": "TOR",
- "as_of": "2026-08-14",
+ "as_of": "2026-08-13",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": 0.0,
+   "max_ev": 0.839,
    "parks_sum": 0.0,
-   "near_hr": 0.0
+   "near_hr": -0.036
   },
-  "intensity": 0.0,
-  "expectancy_score": 4.3,
-  "last_appearance": "2026-08-10"
+  "intensity": 0.14,
+  "expectancy_score": 8.5,
+  "last_appearance": "2026-08-13"
  },
  "days": [
+  {
+   "date": "2026-08-13",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 95.1,
+   "max_distance": 64.0,
+   "max_barrel_score": 27.7,
+   "temp_f": 83.0,
+   "wind_mph": 13.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-10",
    "bbe": 1,
@@ -216,6 +234,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822776,
+   "date": "2026-08-13",
+   "player_id": 669701,
+   "player_name": "Josh Smith",
+   "team": "TOR",
+   "opponent": "BOS",
+   "result": "Groundout",
+   "exit_velocity": 95.1,
+   "launch_angle": 1.0,
+   "hit_distance": 64.0,
+   "hc_x": 103.46,
+   "hc_y": 164.35,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "c896a787-7904-3d1f-99b8-fec603af2815",
+   "venue_id": 14,
+   "venue_name": "Rogers Centre",
+   "temp_f": 83.0,
+   "wind_mph": 13.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 27.7,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 822780,
    "date": "2026-08-10",
