@@ -23,14 +23,14 @@
    "band": "40-60",
    "band_rate": 0.238,
    "band_samples": 277,
-   "weather_factor": 1.0,
-   "adjusted_score": 48.6,
+   "weather_factor": 1.008,
+   "adjusted_score": 49.0,
    "game_weather": {
     "venue_name": "Rogers Centre",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   },
@@ -190,37 +190,6 @@
    "repeat": false
   },
   {
-   "player_id": 667452,
-   "player_name": "Corey Julks",
-   "team": "DET",
-   "expectancy_score": 38.0,
-   "streak": 1,
-   "frequency": 1.0,
-   "slopes": {
-    "max_ev": 0.0,
-    "parks_sum": 0.0,
-    "near_hr": 0.0
-   },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 96.4,
-   "max_distance_7d": 366,
-   "band": "<40",
-   "band_rate": 0.205,
-   "band_samples": 8859,
-   "weather_factor": 1.0,
-   "adjusted_score": 38.0,
-   "game_weather": {
-    "venue_name": "Comerica Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
    "player_id": 813841,
    "player_name": "Jonah Cox",
    "team": "SF",
@@ -283,6 +252,37 @@
    "repeat": false
   },
   {
+   "player_id": 667452,
+   "player_name": "Corey Julks",
+   "team": "DET",
+   "expectancy_score": 38.0,
+   "streak": 1,
+   "frequency": 1.0,
+   "slopes": {
+    "max_ev": 0.0,
+    "parks_sum": 0.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 96.4,
+   "max_distance_7d": 366,
+   "band": "<40",
+   "band_rate": 0.205,
+   "band_samples": 8859,
+   "weather_factor": 0.967,
+   "adjusted_score": 36.7,
+   "game_weather": {
+    "venue_name": "Comerica Park",
+    "temp_f": 76.0,
+    "wind_mph": 7.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": true
+  },
+  {
    "player_id": 686611,
    "player_name": "Dylan Crews",
    "team": "WSH",
@@ -306,37 +306,6 @@
    "adjusted_score": 36.2,
    "game_weather": {
     "venue_name": "Citi Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 695731,
-   "player_name": "Braden Montgomery",
-   "team": "CWS",
-   "expectancy_score": 35.8,
-   "streak": 1,
-   "frequency": 0.286,
-   "slopes": {
-    "max_ev": 1.718,
-    "parks_sum": 2.679,
-    "near_hr": 0.17
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 106.2,
-   "max_distance_7d": 418,
-   "band": "<40",
-   "band_rate": 0.205,
-   "band_samples": 8859,
-   "weather_factor": 1.0,
-   "adjusted_score": 35.8,
-   "game_weather": {
-    "venue_name": "Comerica Park",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -372,6 +341,37 @@
     "wind_mph": null,
     "wind_dir": null,
     "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 695731,
+   "player_name": "Braden Montgomery",
+   "team": "CWS",
+   "expectancy_score": 35.8,
+   "streak": 1,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": 1.718,
+    "parks_sum": 2.679,
+    "near_hr": 0.17
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 106.2,
+   "max_distance_7d": 418,
+   "band": "<40",
+   "band_rate": 0.205,
+   "band_samples": 8859,
+   "weather_factor": 0.967,
+   "adjusted_score": 34.6,
+   "game_weather": {
+    "venue_name": "Comerica Park",
+    "temp_f": 76.0,
+    "wind_mph": 7.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   },
@@ -438,33 +438,33 @@
    "repeat": false
   },
   {
-   "player_id": 664040,
-   "player_name": "Brandon Lowe",
-   "team": "PIT",
-   "expectancy_score": 31.7,
-   "streak": 2,
-   "frequency": 0.286,
+   "player_id": 665804,
+   "player_name": "Miguel Amaya",
+   "team": "CHC",
+   "expectancy_score": 27.9,
+   "streak": 1,
+   "frequency": 0.571,
    "slopes": {
-    "max_ev": 0.179,
-    "parks_sum": 1.321,
-    "near_hr": 0.179
+    "max_ev": 0.382,
+    "parks_sum": -0.107,
+    "near_hr": 0.089
    },
-   "near_hr_7d": 2,
+   "near_hr_7d": 3,
    "near_hr_xbh_7d": 0,
-   "hr_7d": 2,
-   "max_ev_7d": 104.0,
-   "max_distance_7d": 380,
+   "hr_7d": 1,
+   "max_ev_7d": 101.0,
+   "max_distance_7d": 388,
    "band": "<40",
    "band_rate": 0.205,
    "band_samples": 8859,
-   "weather_factor": 1.0,
-   "adjusted_score": 31.7,
+   "weather_factor": 1.142,
+   "adjusted_score": 31.9,
    "game_weather": {
-    "venue_name": "PNC Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "venue_name": "Wrigley Field",
+    "temp_f": 75.0,
+    "wind_mph": 10.0,
+    "wind_dir": "out",
+    "weather_condition": "Cloudy"
    },
    "repeat": false
   }
