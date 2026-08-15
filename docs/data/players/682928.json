@@ -2,20 +2,38 @@
  "player_id": 682928,
  "player_name": "CJ Abrams",
  "team": "WSH",
- "as_of": "2026-08-13",
+ "as_of": "2026-08-14",
  "form": {
   "streak": 0,
-  "frequency": 0.143,
+  "frequency": 0.0,
   "slopes": {
-   "max_ev": -0.925,
-   "parks_sum": -1.071,
-   "near_hr": -0.134
+   "max_ev": -1.736,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
   },
   "intensity": 0.0,
-  "expectancy_score": 4.3,
-  "last_appearance": "2026-08-13"
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-08-14"
  },
  "days": [
+  {
+   "date": "2026-08-14",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 86.2,
+   "max_distance": 322.0,
+   "max_barrel_score": 58.8,
+   "temp_f": 80.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-13",
    "bbe": 3,
@@ -450,6 +468,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823591,
+   "date": "2026-08-14",
+   "player_id": 682928,
+   "player_name": "CJ Abrams",
+   "team": "WSH",
+   "opponent": "NYM",
+   "result": "Flyout",
+   "exit_velocity": 86.2,
+   "launch_angle": 34.0,
+   "hit_distance": 322.0,
+   "hc_x": 122.47,
+   "hc_y": 70.0,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "bd93afc7-b14d-3a44-850b-ced2bcd90855",
+   "venue_id": 3289,
+   "venue_name": "Citi Field",
+   "temp_f": 80.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 58.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 822696,
    "date": "2026-08-13",

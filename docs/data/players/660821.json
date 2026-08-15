@@ -2,20 +2,38 @@
  "player_id": 660821,
  "player_name": "Jes\u00fas S\u00e1nchez",
  "team": "TOR",
- "as_of": "2026-08-13",
+ "as_of": "2026-08-14",
  "form": {
   "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": -4.529,
+   "max_ev": -3.014,
    "parks_sum": 0.0,
-   "near_hr": -0.116
+   "near_hr": -0.196
   },
   "intensity": 0.0,
   "expectancy_score": 8.6,
-  "last_appearance": "2026-08-12"
+  "last_appearance": "2026-08-14"
  },
  "days": [
+  {
+   "date": "2026-08-14",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 101.3,
+   "max_distance": 87.0,
+   "max_barrel_score": 38.0,
+   "temp_f": 77.0,
+   "wind_mph": 2.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-08-12",
    "bbe": 1,
@@ -198,6 +216,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822777,
+   "date": "2026-08-14",
+   "player_id": 660821,
+   "player_name": "Jes\u00fas S\u00e1nchez",
+   "team": "TOR",
+   "opponent": "NYY",
+   "result": "Groundout",
+   "exit_velocity": 101.3,
+   "launch_angle": 4.0,
+   "hit_distance": 87.0,
+   "hc_x": 144.25,
+   "hc_y": 135.14,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "80f8180d-9f62-3cc2-8c7f-124d5352b768",
+   "venue_id": 14,
+   "venue_name": "Rogers Centre",
+   "temp_f": 77.0,
+   "wind_mph": 2.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 38.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 822779,
    "date": "2026-08-12",

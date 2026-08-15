@@ -1,72 +1,12 @@
 {
- "as_of": "2026-08-13",
+ "as_of": "2026-08-14",
  "players": [
-  {
-   "player_id": 671056,
-   "player_name": "Iv\u00e1n Herrera",
-   "team": "STL",
-   "record_streak": 3,
-   "total_flags": 5,
-   "avg_score": 39.8,
-   "current_score": 49.0,
-   "game_streak": 3
-  },
-  {
-   "player_id": 694197,
-   "player_name": "Angel Genao",
-   "team": "CLE",
-   "record_streak": 2,
-   "total_flags": 5,
-   "avg_score": 48.0,
-   "current_score": 50.6,
-   "game_streak": 3
-  },
-  {
-   "player_id": 645277,
-   "player_name": "Ozzie Albies",
-   "team": "ATL",
-   "record_streak": 2,
-   "total_flags": 5,
-   "avg_score": 28.3,
-   "current_score": 37.4,
-   "game_streak": 2
-  },
-  {
-   "player_id": 807799,
-   "player_name": "Masataka Yoshida",
-   "team": "BOS",
-   "record_streak": 2,
-   "total_flags": 4,
-   "avg_score": 38.5,
-   "current_score": 46.2,
-   "game_streak": 3
-  },
-  {
-   "player_id": 663586,
-   "player_name": "Austin Riley",
-   "team": "ATL",
-   "record_streak": 2,
-   "total_flags": 3,
-   "avg_score": 43.9,
-   "current_score": 44.0,
-   "game_streak": 2
-  },
-  {
-   "player_id": 663757,
-   "player_name": "Trent Grisham",
-   "team": "NYY",
-   "record_streak": 2,
-   "total_flags": 3,
-   "avg_score": 35.8,
-   "current_score": 44.7,
-   "game_streak": 2
-  },
   {
    "player_id": 683766,
    "player_name": "Christian Koss",
    "team": "SF",
-   "record_streak": 2,
-   "total_flags": 2,
+   "record_streak": 3,
+   "total_flags": 3,
    "avg_score": 38.7,
    "current_score": 38.7,
    "game_streak": 2
@@ -75,8 +15,8 @@
    "player_id": 667452,
    "player_name": "Corey Julks",
    "team": "DET",
-   "record_streak": 2,
-   "total_flags": 2,
+   "record_streak": 3,
+   "total_flags": 3,
    "avg_score": 38.0,
    "current_score": 38.0,
    "game_streak": 1
@@ -85,71 +25,131 @@
    "player_id": 681393,
    "player_name": "Connor Norby",
    "team": "COL",
-   "record_streak": 2,
-   "total_flags": 2,
+   "record_streak": 3,
+   "total_flags": 3,
    "avg_score": 38.0,
    "current_score": 38.0,
    "game_streak": 1
   },
   {
-   "player_id": 678246,
-   "player_name": "Miguel Vargas",
-   "team": "CWS",
-   "record_streak": 1,
-   "total_flags": 7,
-   "avg_score": 42.1,
-   "current_score": 46.0,
-   "game_streak": 3
-  },
-  {
-   "player_id": 680776,
-   "player_name": "Jarren Duran",
-   "team": "BOS",
-   "record_streak": 1,
-   "total_flags": 3,
-   "avg_score": 39.5,
-   "current_score": 41.7,
-   "game_streak": 2
-  },
-  {
    "player_id": 694497,
    "player_name": "Evan Carter",
    "team": "TEX",
-   "record_streak": 1,
-   "total_flags": 1,
+   "record_streak": 2,
+   "total_flags": 2,
    "avg_score": 44.6,
    "current_score": 44.6,
-   "game_streak": 2
-  },
-  {
-   "player_id": 680574,
-   "player_name": "Matt McLain",
-   "team": "CIN",
-   "record_streak": 1,
-   "total_flags": 1,
-   "avg_score": 41.4,
-   "current_score": 41.4,
    "game_streak": 2
   },
   {
    "player_id": 663616,
    "player_name": "Trevor Larnach",
    "team": "MIN",
-   "record_streak": 1,
-   "total_flags": 1,
+   "record_streak": 2,
+   "total_flags": 2,
    "avg_score": 40.3,
    "current_score": 40.3,
    "game_streak": 2
   },
   {
-   "player_id": 663647,
-   "player_name": "Ke'Bryan Hayes",
-   "team": "CIN",
+   "player_id": 664761,
+   "player_name": "Alec Bohm",
+   "team": "PHI",
+   "record_streak": 1,
+   "total_flags": 8,
+   "avg_score": 42.9,
+   "current_score": 33.5,
+   "game_streak": 1
+  },
+  {
+   "player_id": 670541,
+   "player_name": "Yordan Alvarez",
+   "team": "HOU",
+   "record_streak": 1,
+   "total_flags": 5,
+   "avg_score": 26.1,
+   "current_score": 31.9,
+   "game_streak": 1
+  },
+  {
+   "player_id": 682987,
+   "player_name": "Spencer Jones",
+   "team": "NYY",
+   "record_streak": 1,
+   "total_flags": 3,
+   "avg_score": 40.5,
+   "current_score": 48.6,
+   "game_streak": 3
+  },
+  {
+   "player_id": 686611,
+   "player_name": "Dylan Crews",
+   "team": "WSH",
+   "record_streak": 1,
+   "total_flags": 3,
+   "avg_score": 37.3,
+   "current_score": 36.2,
+   "game_streak": 2
+  },
+  {
+   "player_id": 664034,
+   "player_name": "Ty France",
+   "team": "SD",
+   "record_streak": 1,
+   "total_flags": 3,
+   "avg_score": 37.1,
+   "current_score": 32.0,
+   "game_streak": 1
+  },
+  {
+   "player_id": 664040,
+   "player_name": "Brandon Lowe",
+   "team": "PIT",
+   "record_streak": 1,
+   "total_flags": 3,
+   "avg_score": 37.0,
+   "current_score": 31.7,
+   "game_streak": 2
+  },
+  {
+   "player_id": 695731,
+   "player_name": "Braden Montgomery",
+   "team": "CWS",
+   "record_streak": 1,
+   "total_flags": 2,
+   "avg_score": 36.1,
+   "current_score": 35.8,
+   "game_streak": 1
+  },
+  {
+   "player_id": 694378,
+   "player_name": "Jacob Gonzalez",
+   "team": "PIT",
+   "record_streak": 1,
+   "total_flags": 2,
+   "avg_score": 35.7,
+   "current_score": 40.2,
+   "game_streak": 2
+  },
+  {
+   "player_id": 593428,
+   "player_name": "Xander Bogaerts",
+   "team": "SD",
    "record_streak": 1,
    "total_flags": 1,
-   "avg_score": 36.4,
-   "current_score": 36.4,
+   "avg_score": 38.5,
+   "current_score": 38.5,
    "game_streak": 2
+  },
+  {
+   "player_id": 668804,
+   "player_name": "Bryan Reynolds",
+   "team": "PIT",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 35.1,
+   "current_score": 35.1,
+   "game_streak": 1
   }
  ]
 }

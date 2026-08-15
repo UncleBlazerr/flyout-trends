@@ -2,20 +2,38 @@
  "player_id": 686668,
  "player_name": "Brenton Doyle",
  "team": "CWS",
- "as_of": "2026-08-13",
+ "as_of": "2026-08-14",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": -0.721,
+   "max_ev": -1.679,
    "parks_sum": 0.0,
-   "near_hr": -0.036
+   "near_hr": -0.071
   },
   "intensity": 0.0,
   "expectancy_score": 4.3,
-  "last_appearance": "2026-08-13"
+  "last_appearance": "2026-08-14"
  },
  "days": [
+  {
+   "date": "2026-08-14",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 91.2,
+   "max_distance": 47.0,
+   "max_barrel_score": 22.0,
+   "temp_f": 81.0,
+   "wind_mph": 5.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-13",
    "bbe": 3,
@@ -180,6 +198,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824237,
+   "date": "2026-08-14",
+   "player_id": 686668,
+   "player_name": "Brenton Doyle",
+   "team": "CWS",
+   "opponent": "DET",
+   "result": "GIDP",
+   "exit_velocity": 91.2,
+   "launch_angle": null,
+   "hit_distance": 47.0,
+   "hc_x": 102.09,
+   "hc_y": 163.84,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "42a1b011-1d31-36ea-aba3-25bc83797af6",
+   "venue_id": 2394,
+   "venue_name": "Comerica Park",
+   "temp_f": 81.0,
+   "wind_mph": 5.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 22.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824561,
    "date": "2026-08-13",

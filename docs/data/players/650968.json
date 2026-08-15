@@ -2,20 +2,38 @@
  "player_id": 650968,
  "player_name": "Yohel Pozo",
  "team": "BAL",
- "as_of": "2026-08-13",
+ "as_of": "2026-08-14",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -2.09,
+   "max_ev": 0.943,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.0,
-  "expectancy_score": 0.0,
-  "last_appearance": "2026-08-11"
+  "intensity": 0.157,
+  "expectancy_score": 4.7,
+  "last_appearance": "2026-08-14"
  },
  "days": [
+  {
+   "date": "2026-08-14",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 99.0,
+   "max_distance": 144.0,
+   "max_barrel_score": 44.1,
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Dome"
+  },
   {
    "date": "2026-08-11",
    "bbe": 1,
@@ -108,6 +126,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822942,
+   "date": "2026-08-14",
+   "player_id": 650968,
+   "player_name": "Yohel Pozo",
+   "team": "BAL",
+   "opponent": "TB",
+   "result": "Lineout",
+   "exit_velocity": 99.0,
+   "launch_angle": 8.0,
+   "hit_distance": 144.0,
+   "hc_x": 93.48,
+   "hc_y": 153.86,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "69429059-e809-300e-8019-36e10097be00",
+   "venue_id": 12,
+   "venue_name": "Tropicana Field",
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Dome",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 44.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823673,
    "date": "2026-08-11",
