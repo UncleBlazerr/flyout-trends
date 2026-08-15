@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-08-15T03:35:27.726655+00:00",
+ "generated_at": "2026-08-15T10:19:03.438923+00:00",
  "as_of": "2026-08-14",
  "config": {
   "min_near_hr_events": 1,
@@ -73,7 +73,7 @@
    "max_ev_7d": 111.9,
    "max_distance_7d": 385,
    "band": "40-60",
-   "band_rate": 0.235,
+   "band_rate": 0.238,
    "band_samples": 277,
    "weather_factor": 1.0,
    "adjusted_score": 48.6,
@@ -87,35 +87,66 @@
    "repeat": false
   },
   {
-   "player_id": 694497,
-   "player_name": "Evan Carter",
-   "team": "TEX",
-   "expectancy_score": 44.6,
-   "streak": 2,
-   "frequency": 0.286,
+   "player_id": 664954,
+   "player_name": "Brett Sullivan",
+   "team": "COL",
+   "expectancy_score": 46.1,
+   "streak": 1,
+   "frequency": 0.571,
    "slopes": {
-    "max_ev": 2.404,
-    "parks_sum": 2.464,
-    "near_hr": 0.179
+    "max_ev": 2.279,
+    "parks_sum": 3.107,
+    "near_hr": 0.098
    },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 98.7,
-   "max_distance_7d": 347,
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 2,
+   "max_ev_7d": 105.5,
+   "max_distance_7d": 413,
    "band": "40-60",
-   "band_rate": 0.235,
+   "band_rate": 0.238,
    "band_samples": 277,
    "weather_factor": 1.0,
-   "adjusted_score": 44.6,
+   "adjusted_score": 46.1,
    "game_weather": {
-    "venue_name": "Sutter Health Park",
+    "venue_name": "Oracle Park",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": true
+   "repeat": false
+  },
+  {
+   "player_id": 670541,
+   "player_name": "Yordan Alvarez",
+   "team": "HOU",
+   "expectancy_score": 40.9,
+   "streak": 2,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": -0.268,
+    "parks_sum": 1.893,
+    "near_hr": 0.143
+   },
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 1,
+   "max_ev_7d": 118.5,
+   "max_distance_7d": 372,
+   "band": "40-60",
+   "band_rate": 0.238,
+   "band_samples": 277,
+   "weather_factor": 1.0,
+   "adjusted_score": 40.9,
+   "game_weather": {
+    "venue_name": "Daikin Park",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
   },
   {
    "player_id": 663616,
@@ -135,7 +166,7 @@
    "max_ev_7d": 105.4,
    "max_distance_7d": 371,
    "band": "40-60",
-   "band_rate": 0.235,
+   "band_rate": 0.238,
    "band_samples": 277,
    "weather_factor": 1.0,
    "adjusted_score": 40.3,
@@ -166,7 +197,7 @@
    "max_ev_7d": 108.6,
    "max_distance_7d": 396,
    "band": "40-60",
-   "band_rate": 0.235,
+   "band_rate": 0.238,
    "band_samples": 277,
    "weather_factor": 1.0,
    "adjusted_score": 40.2,
@@ -178,37 +209,6 @@
     "weather_condition": ""
    },
    "repeat": false
-  },
-  {
-   "player_id": 683766,
-   "player_name": "Christian Koss",
-   "team": "SF",
-   "expectancy_score": 38.7,
-   "streak": 2,
-   "frequency": 0.286,
-   "slopes": {
-    "max_ev": 2.025,
-    "parks_sum": 0.429,
-    "near_hr": 0.268
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 108.7,
-   "max_distance_7d": 386,
-   "band": "<40",
-   "band_rate": 0.204,
-   "band_samples": 8859,
-   "weather_factor": 1.0,
-   "adjusted_score": 38.7,
-   "game_weather": {
-    "venue_name": "Oracle Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
   },
   {
    "player_id": 593428,
@@ -228,7 +228,7 @@
    "max_ev_7d": 109.4,
    "max_distance_7d": 426,
    "band": "<40",
-   "band_rate": 0.204,
+   "band_rate": 0.205,
    "band_samples": 8859,
    "weather_factor": 1.0,
    "adjusted_score": 38.5,
@@ -240,37 +240,6 @@
     "weather_condition": ""
    },
    "repeat": false
-  },
-  {
-   "player_id": 681393,
-   "player_name": "Connor Norby",
-   "team": "COL",
-   "expectancy_score": 38.0,
-   "streak": 1,
-   "frequency": 1.0,
-   "slopes": {
-    "max_ev": 0.0,
-    "parks_sum": 0.0,
-    "near_hr": 0.0
-   },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 101.6,
-   "max_distance_7d": 376,
-   "band": "<40",
-   "band_rate": 0.204,
-   "band_samples": 8859,
-   "weather_factor": 1.0,
-   "adjusted_score": 38.0,
-   "game_weather": {
-    "venue_name": "Oracle Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
   },
   {
    "player_id": 667452,
@@ -290,7 +259,7 @@
    "max_ev_7d": 96.4,
    "max_distance_7d": 366,
    "band": "<40",
-   "band_rate": 0.204,
+   "band_rate": 0.205,
    "band_samples": 8859,
    "weather_factor": 1.0,
    "adjusted_score": 38.0,
@@ -302,6 +271,68 @@
     "weather_condition": ""
    },
    "repeat": true
+  },
+  {
+   "player_id": 813841,
+   "player_name": "Jonah Cox",
+   "team": "SF",
+   "expectancy_score": 38.0,
+   "streak": 1,
+   "frequency": 1.0,
+   "slopes": {
+    "max_ev": 0.0,
+    "parks_sum": 0.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 102.4,
+   "max_distance_7d": 398,
+   "band": "<40",
+   "band_rate": 0.205,
+   "band_samples": 8859,
+   "weather_factor": 1.0,
+   "adjusted_score": 38.0,
+   "game_weather": {
+    "venue_name": "Oracle Park",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 661388,
+   "player_name": "William Contreras",
+   "team": "MIL",
+   "expectancy_score": 37.1,
+   "streak": 2,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": 0.504,
+    "parks_sum": -0.071,
+    "near_hr": 0.143
+   },
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 104.9,
+   "max_distance_7d": 396,
+   "band": "<40",
+   "band_rate": 0.205,
+   "band_samples": 8859,
+   "weather_factor": 1.0,
+   "adjusted_score": 37.1,
+   "game_weather": {
+    "venue_name": "UNIQLO Field at Dodger Stadium",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
   },
   {
    "player_id": 686611,
@@ -321,7 +352,7 @@
    "max_ev_7d": 106.9,
    "max_distance_7d": 414,
    "band": "<40",
-   "band_rate": 0.204,
+   "band_rate": 0.205,
    "band_samples": 8859,
    "weather_factor": 1.0,
    "adjusted_score": 36.2,
@@ -352,7 +383,7 @@
    "max_ev_7d": 106.2,
    "max_distance_7d": 418,
    "band": "<40",
-   "band_rate": 0.204,
+   "band_rate": 0.205,
    "band_samples": 8859,
    "weather_factor": 1.0,
    "adjusted_score": 35.8,
@@ -383,7 +414,7 @@
    "max_ev_7d": 110.5,
    "max_distance_7d": 337,
    "band": "<40",
-   "band_rate": 0.204,
+   "band_rate": 0.205,
    "band_samples": 8859,
    "weather_factor": 1.0,
    "adjusted_score": 35.1,
@@ -414,7 +445,7 @@
    "max_ev_7d": 106.2,
    "max_distance_7d": 399,
    "band": "<40",
-   "band_rate": 0.204,
+   "band_rate": 0.205,
    "band_samples": 8859,
    "weather_factor": 1.0,
    "adjusted_score": 33.5,
@@ -445,43 +476,12 @@
    "max_ev_7d": 108.5,
    "max_distance_7d": 386,
    "band": "<40",
-   "band_rate": 0.204,
+   "band_rate": 0.205,
    "band_samples": 8859,
    "weather_factor": 1.0,
    "adjusted_score": 32.0,
    "game_weather": {
     "venue_name": "Progressive Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 670541,
-   "player_name": "Yordan Alvarez",
-   "team": "HOU",
-   "expectancy_score": 31.9,
-   "streak": 1,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": -1.836,
-    "parks_sum": 2.857,
-    "near_hr": 0.152
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 118.5,
-   "max_distance_7d": 372,
-   "band": "<40",
-   "band_rate": 0.204,
-   "band_samples": 8859,
-   "weather_factor": 1.0,
-   "adjusted_score": 31.9,
-   "game_weather": {
-    "venue_name": "Daikin Park",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -507,7 +507,7 @@
    "max_ev_7d": 104.0,
    "max_distance_7d": 380,
    "band": "<40",
-   "band_rate": 0.204,
+   "band_rate": 0.205,
    "band_samples": 8859,
    "weather_factor": 1.0,
    "adjusted_score": 31.7,

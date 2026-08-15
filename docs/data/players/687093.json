@@ -7,15 +7,33 @@
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": 1.896,
+   "max_ev": 1.618,
    "parks_sum": 0.0,
-   "near_hr": 0.045
+   "near_hr": 0.0
   },
-  "intensity": 0.331,
-  "expectancy_score": 14.2,
-  "last_appearance": "2026-08-13"
+  "intensity": 0.27,
+  "expectancy_score": 12.4,
+  "last_appearance": "2026-08-14"
  },
  "days": [
+  {
+   "date": "2026-08-14",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 103.4,
+   "max_distance": 162.0,
+   "max_barrel_score": 49.2,
+   "temp_f": 78.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-08-13",
    "bbe": 4,
@@ -450,6 +468,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823993,
+   "date": "2026-08-14",
+   "player_id": 687093,
+   "player_name": "Vaughn Grissom",
+   "team": "LAA",
+   "opponent": "KC",
+   "result": "Lineout",
+   "exit_velocity": 103.4,
+   "launch_angle": 8.0,
+   "hit_distance": 162.0,
+   "hc_x": 102.25,
+   "hc_y": 141.33,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "46190136-85ef-374b-9240-e4d80bf2ad24",
+   "venue_id": 1,
+   "venue_name": "Angel Stadium",
+   "temp_f": 78.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 49.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823995,
    "date": "2026-08-13",

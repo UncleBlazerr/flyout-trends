@@ -2,16 +2,6 @@
  "as_of": "2026-08-14",
  "players": [
   {
-   "player_id": 683766,
-   "player_name": "Christian Koss",
-   "team": "SF",
-   "record_streak": 3,
-   "total_flags": 3,
-   "avg_score": 38.7,
-   "current_score": 38.7,
-   "game_streak": 2
-  },
-  {
    "player_id": 667452,
    "player_name": "Corey Julks",
    "team": "DET",
@@ -22,26 +12,6 @@
    "game_streak": 1
   },
   {
-   "player_id": 681393,
-   "player_name": "Connor Norby",
-   "team": "COL",
-   "record_streak": 3,
-   "total_flags": 3,
-   "avg_score": 38.0,
-   "current_score": 38.0,
-   "game_streak": 1
-  },
-  {
-   "player_id": 694497,
-   "player_name": "Evan Carter",
-   "team": "TEX",
-   "record_streak": 2,
-   "total_flags": 2,
-   "avg_score": 44.6,
-   "current_score": 44.6,
-   "game_streak": 2
-  },
-  {
    "player_id": 663616,
    "player_name": "Trevor Larnach",
    "team": "MIN",
@@ -49,6 +19,16 @@
    "total_flags": 2,
    "avg_score": 40.3,
    "current_score": 40.3,
+   "game_streak": 2
+  },
+  {
+   "player_id": 661388,
+   "player_name": "William Contreras",
+   "team": "MIL",
+   "record_streak": 1,
+   "total_flags": 8,
+   "avg_score": 46.2,
+   "current_score": 37.1,
    "game_streak": 2
   },
   {
@@ -67,9 +47,9 @@
    "team": "HOU",
    "record_streak": 1,
    "total_flags": 5,
-   "avg_score": 26.1,
-   "current_score": 31.9,
-   "game_streak": 1
+   "avg_score": 27.9,
+   "current_score": 40.9,
+   "game_streak": 2
   },
   {
    "player_id": 682987,
@@ -132,6 +112,16 @@
    "game_streak": 2
   },
   {
+   "player_id": 664954,
+   "player_name": "Brett Sullivan",
+   "team": "COL",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 46.1,
+   "current_score": 46.1,
+   "game_streak": 1
+  },
+  {
    "player_id": 593428,
    "player_name": "Xander Bogaerts",
    "team": "SD",
@@ -140,6 +130,16 @@
    "avg_score": 38.5,
    "current_score": 38.5,
    "game_streak": 2
+  },
+  {
+   "player_id": 813841,
+   "player_name": "Jonah Cox",
+   "team": "SF",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 38.0,
+   "current_score": 38.0,
+   "game_streak": 1
   },
   {
    "player_id": 668804,
