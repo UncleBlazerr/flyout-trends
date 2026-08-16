@@ -2,20 +2,38 @@
  "player_id": 690993,
  "player_name": "Colt Keith",
  "team": "DET",
- "as_of": "2026-08-14",
+ "as_of": "2026-08-15",
  "form": {
   "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": 1.389,
-   "parks_sum": -0.5,
-   "near_hr": -0.071
+   "max_ev": -2.736,
+   "parks_sum": -0.75,
+   "near_hr": -0.143
   },
-  "intensity": 0.232,
-  "expectancy_score": 15.5,
-  "last_appearance": "2026-08-14"
+  "intensity": 0.0,
+  "expectancy_score": 8.6,
+  "last_appearance": "2026-08-15"
  },
  "days": [
+  {
+   "date": "2026-08-15",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 80.1,
+   "max_distance": 30.0,
+   "max_barrel_score": 11.0,
+   "temp_f": 76.0,
+   "wind_mph": 7.0,
+   "wind_dir": "in",
+   "weather_condition": "Cloudy"
+  },
   {
    "date": "2026-08-14",
    "bbe": 3,
@@ -396,6 +414,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824239,
+   "date": "2026-08-15",
+   "player_id": 690993,
+   "player_name": "Colt Keith",
+   "team": "DET",
+   "opponent": "CWS",
+   "result": "GIDP",
+   "exit_velocity": 80.1,
+   "launch_angle": -2.0,
+   "hit_distance": 30.0,
+   "hc_x": 151.81,
+   "hc_y": 171.95,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "e2da1461-aa4e-31d6-9e30-ea2fdbaa6f35",
+   "venue_id": 2394,
+   "venue_name": "Comerica Park",
+   "temp_f": 76.0,
+   "wind_mph": 7.0,
+   "wind_dir": "in",
+   "weather_condition": "Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 11.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824237,
    "date": "2026-08-14",

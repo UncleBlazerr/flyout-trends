@@ -2,9 +2,9 @@
  "player_id": 676369,
  "player_name": "Nelson Vel\u00e1zquez",
  "team": "HOU",
- "as_of": "2026-08-14",
+ "as_of": "2026-08-15",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 1.882,
@@ -12,7 +12,7 @@
    "near_hr": 0.152
   },
   "intensity": 0.4,
-  "expectancy_score": 28.6,
+  "expectancy_score": 20.6,
   "last_appearance": "2026-08-12"
  },
  "days": [

@@ -2,20 +2,38 @@
  "player_id": 801126,
  "player_name": "Brock Rodden",
  "team": "SEA",
- "as_of": "2026-08-14",
+ "as_of": "2026-08-15",
  "form": {
-  "streak": 0,
-  "frequency": 0.0,
+  "streak": 1,
+  "frequency": 0.5,
   "slopes": {
-   "max_ev": 0.0,
-   "parks_sum": 0.0,
-   "near_hr": 0.0
+   "max_ev": 3.8,
+   "parks_sum": 7.0,
+   "near_hr": 1.25
   },
-  "intensity": 0.0,
-  "expectancy_score": 0.0,
-  "last_appearance": "2026-08-14"
+  "intensity": 1.0,
+  "expectancy_score": 53.0,
+  "last_appearance": "2026-08-15"
  },
  "days": [
+  {
+   "date": "2026-08-15",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 1,
+   "near_hr_distance": 1,
+   "near_hr_parks": 1,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 7,
+   "max_ev": 100.1,
+   "max_distance": 376.0,
+   "max_barrel_score": 75.8,
+   "temp_f": 73.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-08-14",
    "bbe": 3,
@@ -36,6 +54,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824157,
+   "date": "2026-08-15",
+   "player_id": 801126,
+   "player_name": "Brock Rodden",
+   "team": "SEA",
+   "opponent": "HOU",
+   "result": "Double",
+   "exit_velocity": 100.1,
+   "launch_angle": 33.0,
+   "hit_distance": 376.0,
+   "hc_x": 78.5,
+   "hc_y": 55.77,
+   "would_be_hr_count": 7,
+   "inning": 8,
+   "play_id": "dc0f50c6-5358-3122-945e-bcf5d4d25d4c",
+   "venue_id": 2392,
+   "venue_name": "Daikin Park",
+   "temp_f": 73.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": true,
+   "would_be_hr_flag": true,
+   "barrel_score": 75.8,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 824159,
    "date": "2026-08-14",

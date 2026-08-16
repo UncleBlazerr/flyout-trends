@@ -2,20 +2,38 @@
  "player_id": 695670,
  "player_name": "Harry Ford",
  "team": "WSH",
- "as_of": "2026-08-14",
+ "as_of": "2026-08-15",
  "form": {
-  "streak": 0,
-  "frequency": 0.286,
+  "streak": 1,
+  "frequency": 0.429,
   "slopes": {
-   "max_ev": 0.739,
-   "parks_sum": -0.071,
-   "near_hr": -0.089
+   "max_ev": -0.971,
+   "parks_sum": -0.107,
+   "near_hr": -0.071
   },
-  "intensity": 0.123,
-  "expectancy_score": 12.3,
-  "last_appearance": "2026-08-12"
+  "intensity": 0.0,
+  "expectancy_score": 20.9,
+  "last_appearance": "2026-08-15"
  },
  "days": [
+  {
+   "date": "2026-08-15",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 92.1,
+   "max_distance": 329.0,
+   "max_barrel_score": 71.0,
+   "temp_f": 83.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-08-12",
    "bbe": 5,
@@ -270,6 +288,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823588,
+   "date": "2026-08-15",
+   "player_id": 695670,
+   "player_name": "Harry Ford",
+   "team": "WSH",
+   "opponent": "NYM",
+   "result": "Flyout",
+   "exit_velocity": 92.1,
+   "launch_angle": 27.0,
+   "hit_distance": 329.0,
+   "hc_x": 38.22,
+   "hc_y": 98.83,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "f11173ea-6b30-3765-b4b5-b65120c928a6",
+   "venue_id": 3289,
+   "venue_name": "Citi Field",
+   "temp_f": 83.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 71.0,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 822698,
    "date": "2026-08-12",
