@@ -72,16 +72,6 @@
    "game_streak": 2
   },
   {
-   "player_id": 678011,
-   "player_name": "Anthony Seigler",
-   "team": "BOS",
-   "record_streak": 1,
-   "total_flags": 6,
-   "avg_score": 48.7,
-   "current_score": 31.9,
-   "game_streak": 1
-  },
-  {
    "player_id": 694197,
    "player_name": "Angel Genao",
    "team": "CLE",
@@ -90,16 +80,6 @@
    "avg_score": 45.6,
    "current_score": 33.4,
    "game_streak": 1
-  },
-  {
-   "player_id": 672515,
-   "player_name": "Gabriel Moreno",
-   "team": "AZ",
-   "record_streak": 1,
-   "total_flags": 6,
-   "avg_score": 40.8,
-   "current_score": 32.3,
-   "game_streak": 2
   },
   {
    "player_id": 668904,
@@ -119,6 +99,26 @@
    "total_flags": 4,
    "avg_score": 41.5,
    "current_score": 39.8,
+   "game_streak": 2
+  },
+  {
+   "player_id": 694497,
+   "player_name": "Evan Carter",
+   "team": "TEX",
+   "record_streak": 1,
+   "total_flags": 2,
+   "avg_score": 40.7,
+   "current_score": 36.7,
+   "game_streak": 1
+  },
+  {
+   "player_id": 641680,
+   "player_name": "Jonah Heim",
+   "team": "ATH",
+   "record_streak": 1,
+   "total_flags": 2,
+   "avg_score": 33.5,
+   "current_score": 36.3,
    "game_streak": 2
   },
   {

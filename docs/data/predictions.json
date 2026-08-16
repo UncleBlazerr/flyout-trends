@@ -221,6 +221,37 @@
    "repeat": false
   },
   {
+   "player_id": 694497,
+   "player_name": "Evan Carter",
+   "team": "TEX",
+   "expectancy_score": 36.7,
+   "streak": 1,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 3.707,
+    "parks_sum": 1.25,
+    "near_hr": 0.17
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 102.7,
+   "max_distance_7d": 394,
+   "band": "<40",
+   "band_rate": 0.205,
+   "band_samples": 9148,
+   "weather_factor": 1.0,
+   "adjusted_score": 36.7,
+   "game_weather": {
+    "venue_name": "Sutter Health Park",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
    "player_id": 678246,
    "player_name": "Miguel Vargas",
    "team": "CWS",
@@ -275,6 +306,37 @@
    "adjusted_score": 36.5,
    "game_weather": {
     "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 641680,
+   "player_name": "Jonah Heim",
+   "team": "ATH",
+   "expectancy_score": 36.3,
+   "streak": 2,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": 0.068,
+    "parks_sum": 0.0,
+    "near_hr": 0.286
+   },
+   "near_hr_7d": 5,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 101.0,
+   "max_distance_7d": 397,
+   "band": "<40",
+   "band_rate": 0.205,
+   "band_samples": 9148,
+   "weather_factor": 1.0,
+   "adjusted_score": 36.3,
+   "game_weather": {
+    "venue_name": "Sutter Health Park",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -405,74 +467,12 @@
     "weather_condition": ""
    },
    "repeat": true
-  },
-  {
-   "player_id": 672515,
-   "player_name": "Gabriel Moreno",
-   "team": "AZ",
-   "expectancy_score": 32.3,
-   "streak": 2,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": -0.654,
-    "parks_sum": 0.429,
-    "near_hr": 0.205
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 104.9,
-   "max_distance_7d": 349,
-   "band": "<40",
-   "band_rate": 0.205,
-   "band_samples": 9148,
-   "weather_factor": 1.0,
-   "adjusted_score": 32.3,
-   "game_weather": {
-    "venue_name": "Truist Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 678011,
-   "player_name": "Anthony Seigler",
-   "team": "BOS",
-   "expectancy_score": 31.9,
-   "streak": 1,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 2.654,
-    "parks_sum": 0.107,
-    "near_hr": 0.071
-   },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 96.5,
-   "max_distance_7d": 352,
-   "band": "<40",
-   "band_rate": 0.205,
-   "band_samples": 9148,
-   "weather_factor": 1.0,
-   "adjusted_score": 31.9,
-   "game_weather": {
-    "venue_name": "PNC Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
   }
  ],
  "bands": {
   "<40": {
    "samples": 9148,
-   "hr_followed": 1872,
+   "hr_followed": 1874,
    "rate": 0.205
   },
   "40-60": {

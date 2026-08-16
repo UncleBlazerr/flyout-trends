@@ -7,15 +7,33 @@
   "streak": 0,
   "frequency": 0.429,
   "slopes": {
-   "max_ev": 2.164,
-   "parks_sum": -0.107,
-   "near_hr": 0.071
+   "max_ev": -1.418,
+   "parks_sum": -0.429,
+   "near_hr": -0.036
   },
-  "intensity": 0.357,
-  "expectancy_score": 23.6,
-  "last_appearance": "2026-08-12"
+  "intensity": 0.0,
+  "expectancy_score": 12.9,
+  "last_appearance": "2026-08-15"
  },
  "days": [
+  {
+   "date": "2026-08-15",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 74.5,
+   "max_distance": 241.0,
+   "max_barrel_score": 35.3,
+   "temp_f": 78.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-08-12",
    "bbe": 2,
@@ -450,6 +468,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823990,
+   "date": "2026-08-15",
+   "player_id": 521692,
+   "player_name": "Salvador Perez",
+   "team": "KC",
+   "opponent": "LAA",
+   "result": "Flyout",
+   "exit_velocity": 74.5,
+   "launch_angle": 41.0,
+   "hit_distance": 241.0,
+   "hc_x": 151.78,
+   "hc_y": 107.01,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "2494b443-ac05-3770-a29b-117d29526ed6",
+   "venue_id": 1,
+   "venue_name": "Angel Stadium",
+   "temp_f": 78.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 35.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823916,
    "date": "2026-08-12",
