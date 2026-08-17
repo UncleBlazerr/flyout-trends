@@ -1,0 +1,69 @@
+{
+ "player_id": 687231,
+ "player_name": "Darell Hernaiz",
+ "team": "ATH",
+ "as_of": "2026-08-16",
+ "form": {
+  "streak": 0,
+  "frequency": 0.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-08-16"
+ },
+ "days": [
+  {
+   "date": "2026-08-16",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 96.4,
+   "max_distance": 273.0,
+   "max_barrel_score": 58.0,
+   "temp_f": 85.0,
+   "wind_mph": 4.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 824965,
+   "date": "2026-08-16",
+   "player_id": 687231,
+   "player_name": "Darell Hernaiz",
+   "team": "ATH",
+   "opponent": "TEX",
+   "result": "Single",
+   "exit_velocity": 96.4,
+   "launch_angle": 15.0,
+   "hit_distance": 273.0,
+   "hc_x": 161.36,
+   "hc_y": 96.28,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "1b54f49f-71ef-3333-b044-0a06f560d075",
+   "venue_id": 2529,
+   "venue_name": "Sutter Health Park",
+   "temp_f": 85.0,
+   "wind_mph": 4.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 58.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  }
+ ]
+}

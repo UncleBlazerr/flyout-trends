@@ -2,20 +2,38 @@
  "player_id": 518595,
  "player_name": "Travis d'Arnaud",
  "team": "LAA",
- "as_of": "2026-08-15",
+ "as_of": "2026-08-16",
  "form": {
   "streak": 0,
-  "frequency": 0.25,
+  "frequency": 0.2,
   "slopes": {
-   "max_ev": -8.1,
+   "max_ev": -6.15,
    "parks_sum": -0.4,
    "near_hr": -0.1
   },
   "intensity": 0.0,
-  "expectancy_score": 7.5,
-  "last_appearance": "2026-08-05"
+  "expectancy_score": 6.0,
+  "last_appearance": "2026-08-16"
  },
  "days": [
+  {
+   "date": "2026-08-16",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 76.0,
+   "max_distance": 3.0,
+   "max_barrel_score": 5.5,
+   "temp_f": 84.0,
+   "wind_mph": 8.0,
+   "wind_dir": "cross",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-08-05",
    "bbe": 1,
@@ -90,6 +108,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823991,
+   "date": "2026-08-16",
+   "player_id": 518595,
+   "player_name": "Travis d'Arnaud",
+   "team": "LAA",
+   "opponent": "KC",
+   "result": "Groundout",
+   "exit_velocity": 76.0,
+   "launch_angle": -41.0,
+   "hit_distance": 3.0,
+   "hc_x": 106.1,
+   "hc_y": 176.65,
+   "would_be_hr_count": 0,
+   "inning": 6,
+   "play_id": "27da1f4c-6084-3fa2-b6ed-1757bb568a12",
+   "venue_id": 1,
+   "venue_name": "Angel Stadium",
+   "temp_f": 84.0,
+   "wind_mph": 8.0,
+   "wind_dir": "cross",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 5.5,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824806,
    "date": "2026-08-05",

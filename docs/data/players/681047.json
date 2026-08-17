@@ -2,20 +2,38 @@
  "player_id": 681047,
  "player_name": "Christian Franklin",
  "team": "BAL",
- "as_of": "2026-08-15",
+ "as_of": "2026-08-16",
  "form": {
-  "streak": 1,
-  "frequency": 0.333,
+  "streak": 0,
+  "frequency": 0.286,
   "slopes": {
-   "max_ev": 1.737,
+   "max_ev": -3.239,
    "parks_sum": 0.0,
-   "near_hr": 0.171
+   "near_hr": 0.071
   },
-  "intensity": 0.347,
-  "expectancy_score": 28.4,
-  "last_appearance": "2026-08-15"
+  "intensity": 0.024,
+  "expectancy_score": 9.3,
+  "last_appearance": "2026-08-16"
  },
  "days": [
+  {
+   "date": "2026-08-16",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 56.7,
+   "max_distance": 120.0,
+   "max_barrel_score": 8.0,
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Dome"
+  },
   {
    "date": "2026-08-15",
    "bbe": 1,
@@ -126,6 +144,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822940,
+   "date": "2026-08-16",
+   "player_id": 681047,
+   "player_name": "Christian Franklin",
+   "team": "BAL",
+   "opponent": "TB",
+   "result": "Pop Out",
+   "exit_velocity": 56.7,
+   "launch_angle": 60.0,
+   "hit_distance": 120.0,
+   "hc_x": 169.35,
+   "hc_y": 179.61,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "332085f7-93e0-377a-8291-9a38f1b2e3ac",
+   "venue_id": 12,
+   "venue_name": "Tropicana Field",
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Dome",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 8.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 822941,
    "date": "2026-08-15",

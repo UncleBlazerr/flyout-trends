@@ -2,20 +2,38 @@
  "player_id": 688363,
  "player_name": "Graham Pauley",
  "team": "MIA",
- "as_of": "2026-08-15",
+ "as_of": "2026-08-16",
  "form": {
-  "streak": 1,
-  "frequency": 0.167,
+  "streak": 0,
+  "frequency": 0.143,
   "slopes": {
-   "max_ev": 2.091,
-   "parks_sum": 0.429,
-   "near_hr": 0.179
+   "max_ev": -0.511,
+   "parks_sum": 0.214,
+   "near_hr": 0.089
   },
-  "intensity": 0.441,
-  "expectancy_score": 26.2,
-  "last_appearance": "2026-08-15"
+  "intensity": 0.053,
+  "expectancy_score": 5.9,
+  "last_appearance": "2026-08-16"
  },
  "days": [
+  {
+   "date": "2026-08-16",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 79.6,
+   "max_distance": 39.0,
+   "max_barrel_score": 11.1,
+   "temp_f": 87.0,
+   "wind_mph": 9.0,
+   "wind_dir": "out",
+   "weather_condition": "Overcast"
+  },
   {
    "date": "2026-08-15",
    "bbe": 4,
@@ -126,6 +144,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824477,
+   "date": "2026-08-16",
+   "player_id": 688363,
+   "player_name": "Graham Pauley",
+   "team": "MIA",
+   "opponent": "CIN",
+   "result": "Field Error",
+   "exit_velocity": 79.6,
+   "launch_angle": null,
+   "hit_distance": 39.0,
+   "hc_x": 155.82,
+   "hc_y": 169.32,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "78dfacbe-3cda-30b5-be95-4dc74144335c",
+   "venue_id": 2602,
+   "venue_name": "Great American Ball Park",
+   "temp_f": 87.0,
+   "wind_mph": 9.0,
+   "wind_dir": "out",
+   "weather_condition": "Overcast",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 11.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824480,
    "date": "2026-08-15",
