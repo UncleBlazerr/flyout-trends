@@ -60,6 +60,37 @@
    "repeat": true
   },
   {
+   "player_id": 695491,
+   "player_name": "Joshua B\u00e1ez",
+   "team": "STL",
+   "expectancy_score": 43.0,
+   "streak": 1,
+   "frequency": 0.5,
+   "slopes": {
+    "max_ev": -12.3,
+    "parks_sum": 16.0,
+    "near_hr": 2.0
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 3,
+   "max_ev_7d": 108.6,
+   "max_distance_7d": 449,
+   "band": "40-60",
+   "band_rate": 0.239,
+   "band_samples": 289,
+   "weather_factor": 1.107,
+   "adjusted_score": 47.6,
+   "game_weather": {
+    "venue_name": "Great American Ball Park",
+    "temp_f": 81.0,
+    "wind_mph": 5.0,
+    "wind_dir": "out",
+    "weather_condition": "Overcast"
+   },
+   "repeat": false
+  },
+  {
    "player_id": 677594,
    "player_name": "Julio Rodr\u00edguez",
    "team": "SEA",
@@ -145,37 +176,6 @@
     "weather_condition": ""
    },
    "repeat": true
-  },
-  {
-   "player_id": 695491,
-   "player_name": "Joshua B\u00e1ez",
-   "team": "STL",
-   "expectancy_score": 43.0,
-   "streak": 1,
-   "frequency": 0.5,
-   "slopes": {
-    "max_ev": -12.3,
-    "parks_sum": 16.0,
-    "near_hr": 2.0
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 3,
-   "max_ev_7d": 108.6,
-   "max_distance_7d": 449,
-   "band": "40-60",
-   "band_rate": 0.239,
-   "band_samples": 289,
-   "weather_factor": 1.0,
-   "adjusted_score": 43.0,
-   "game_weather": {
-    "venue_name": "Great American Ball Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
   },
   {
    "player_id": 699013,
