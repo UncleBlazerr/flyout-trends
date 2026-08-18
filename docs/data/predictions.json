@@ -1,38 +1,38 @@
 {
- "as_of": "2026-08-16",
+ "as_of": "2026-08-17",
  "horizon_days": 3,
  "min_samples": 20,
  "players": [
   {
-   "player_id": 545341,
-   "player_name": "Randal Grichuk",
-   "team": "CWS",
-   "expectancy_score": 54.5,
-   "streak": 3,
-   "frequency": 0.429,
+   "player_id": 695491,
+   "player_name": "Joshua B\u00e1ez",
+   "team": "STL",
+   "expectancy_score": 54.2,
+   "streak": 2,
+   "frequency": 0.667,
    "slopes": {
-    "max_ev": 2.611,
-    "parks_sum": 1.5,
-    "near_hr": 0.268
+    "max_ev": 1.65,
+    "parks_sum": 0.0,
+    "near_hr": 1.0
    },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 3,
-   "hr_7d": 0,
-   "max_ev_7d": 113.0,
-   "max_distance_7d": 415,
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 3,
+   "max_ev_7d": 111.9,
+   "max_distance_7d": 449,
    "band": "40-60",
    "band_rate": 0.239,
-   "band_samples": 289,
+   "band_samples": 293,
    "weather_factor": 1.0,
-   "adjusted_score": 54.5,
+   "adjusted_score": 54.2,
    "game_weather": {
-    "venue_name": "Wrigley Field",
+    "venue_name": "Great American Ball Park",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 666176,
@@ -53,42 +53,17 @@
    "max_distance_7d": 428,
    "band": "40-60",
    "band_rate": 0.239,
-   "band_samples": 289,
+   "band_samples": 293,
    "weather_factor": 1.0,
    "adjusted_score": 49.5,
-   "game_weather": null,
-   "repeat": true
-  },
-  {
-   "player_id": 695491,
-   "player_name": "Joshua B\u00e1ez",
-   "team": "STL",
-   "expectancy_score": 43.0,
-   "streak": 1,
-   "frequency": 0.5,
-   "slopes": {
-    "max_ev": -12.3,
-    "parks_sum": 16.0,
-    "near_hr": 2.0
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 3,
-   "max_ev_7d": 108.6,
-   "max_distance_7d": 449,
-   "band": "40-60",
-   "band_rate": 0.239,
-   "band_samples": 289,
-   "weather_factor": 1.107,
-   "adjusted_score": 47.6,
    "game_weather": {
-    "venue_name": "Great American Ball Park",
-    "temp_f": 81.0,
-    "wind_mph": 5.0,
-    "wind_dir": "out",
-    "weather_condition": "Overcast"
+    "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
    },
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 677594,
@@ -109,36 +84,11 @@
    "max_distance_7d": 413,
    "band": "40-60",
    "band_rate": 0.239,
-   "band_samples": 289,
+   "band_samples": 293,
    "weather_factor": 1.0,
    "adjusted_score": 45.3,
-   "game_weather": null,
-   "repeat": false
-  },
-  {
-   "player_id": 678246,
-   "player_name": "Miguel Vargas",
-   "team": "CWS",
-   "expectancy_score": 44.9,
-   "streak": 2,
-   "frequency": 0.714,
-   "slopes": {
-    "max_ev": 1.318,
-    "parks_sum": -0.214,
-    "near_hr": 0.089
-   },
-   "near_hr_7d": 4,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 4,
-   "max_ev_7d": 109.8,
-   "max_distance_7d": 407,
-   "band": "40-60",
-   "band_rate": 0.239,
-   "band_samples": 289,
-   "weather_factor": 1.0,
-   "adjusted_score": 44.9,
    "game_weather": {
-    "venue_name": "Wrigley Field",
+    "venue_name": "American Family Field",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -161,11 +111,11 @@
    "near_hr_7d": 2,
    "near_hr_xbh_7d": 1,
    "hr_7d": 0,
-   "max_ev_7d": 96.5,
+   "max_ev_7d": 96.2,
    "max_distance_7d": 352,
    "band": "40-60",
    "band_rate": 0.239,
-   "band_samples": 289,
+   "band_samples": 293,
    "weather_factor": 1.0,
    "adjusted_score": 44.2,
    "game_weather": {
@@ -178,27 +128,27 @@
    "repeat": true
   },
   {
-   "player_id": 699013,
-   "player_name": "Esmerlyn Valdez",
-   "team": "PIT",
-   "expectancy_score": 38.0,
-   "streak": 1,
-   "frequency": 0.429,
+   "player_id": 805808,
+   "player_name": "Kevin McGonigle",
+   "team": "DET",
+   "expectancy_score": 43.6,
+   "streak": 3,
+   "frequency": 0.571,
    "slopes": {
-    "max_ev": 1.196,
-    "parks_sum": 2.964,
-    "near_hr": 0.125
+    "max_ev": -0.075,
+    "parks_sum": 0.0,
+    "near_hr": 0.25
    },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 2,
-   "hr_7d": 0,
-   "max_ev_7d": 110.5,
-   "max_distance_7d": 390,
-   "band": "<40",
-   "band_rate": 0.205,
-   "band_samples": 9312,
+   "near_hr_7d": 5,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
+   "max_ev_7d": 104.6,
+   "max_distance_7d": 405,
+   "band": "40-60",
+   "band_rate": 0.239,
+   "band_samples": 293,
    "weather_factor": 1.0,
-   "adjusted_score": 38.0,
+   "adjusted_score": 43.6,
    "game_weather": {
     "venue_name": "PNC Park",
     "temp_f": null,
@@ -209,9 +159,71 @@
    "repeat": false
   },
   {
-   "player_id": 813841,
-   "player_name": "Jonah Cox",
-   "team": "SF",
+   "player_id": 694377,
+   "player_name": "Nick Yorke",
+   "team": "PIT",
+   "expectancy_score": 43.0,
+   "streak": 1,
+   "frequency": 0.5,
+   "slopes": {
+    "max_ev": 12.0,
+    "parks_sum": 0.0,
+    "near_hr": 1.25
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 111.0,
+   "max_distance_7d": 276,
+   "band": "40-60",
+   "band_rate": 0.239,
+   "band_samples": 293,
+   "weather_factor": 1.0,
+   "adjusted_score": 43.0,
+   "game_weather": {
+    "venue_name": "PNC Park",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 666018,
+   "player_name": "Jonathan Aranda",
+   "team": "TB",
+   "expectancy_score": 42.3,
+   "streak": 2,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": -0.814,
+    "parks_sum": 2.464,
+    "near_hr": 0.098
+   },
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 110.9,
+   "max_distance_7d": 395,
+   "band": "40-60",
+   "band_rate": 0.239,
+   "band_samples": 293,
+   "weather_factor": 1.0,
+   "adjusted_score": 42.3,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 699912,
+   "player_name": "Jose Fernandez",
+   "team": "AZ",
    "expectancy_score": 38.0,
    "streak": 1,
    "frequency": 1.0,
@@ -221,17 +233,54 @@
     "near_hr": 0.0
    },
    "near_hr_7d": 1,
-   "near_hr_xbh_7d": 1,
+   "near_hr_xbh_7d": 0,
    "hr_7d": 0,
-   "max_ev_7d": 102.4,
-   "max_distance_7d": 398,
+   "max_ev_7d": 104.3,
+   "max_distance_7d": 334,
    "band": "<40",
-   "band_rate": 0.205,
-   "band_samples": 9312,
+   "band_rate": 0.206,
+   "band_samples": 9572,
    "weather_factor": 1.0,
    "adjusted_score": 38.0,
-   "game_weather": null,
-   "repeat": true
+   "game_weather": {
+    "venue_name": "Fenway Park",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 678882,
+   "player_name": "Ceddanne Rafaela",
+   "team": "BOS",
+   "expectancy_score": 37.4,
+   "streak": 2,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": 1.45,
+    "parks_sum": 0.643,
+    "near_hr": 0.339
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 1,
+   "max_ev_7d": 104.5,
+   "max_distance_7d": 411,
+   "band": "<40",
+   "band_rate": 0.206,
+   "band_samples": 9572,
+   "weather_factor": 1.0,
+   "adjusted_score": 37.4,
+   "game_weather": {
+    "venue_name": "Fenway Park",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
   },
   {
    "player_id": 690984,
@@ -251,11 +300,17 @@
    "max_ev_7d": 103.4,
    "max_distance_7d": 393,
    "band": "<40",
-   "band_rate": 0.205,
-   "band_samples": 9312,
+   "band_rate": 0.206,
+   "band_samples": 9572,
    "weather_factor": 1.0,
    "adjusted_score": 36.5,
-   "game_weather": null,
+   "game_weather": {
+    "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
    "repeat": true
   },
   {
@@ -276,43 +331,18 @@
    "max_ev_7d": 104.1,
    "max_distance_7d": 396,
    "band": "<40",
-   "band_rate": 0.205,
-   "band_samples": 9312,
+   "band_rate": 0.206,
+   "band_samples": 9572,
    "weather_factor": 1.0,
    "adjusted_score": 36.4,
-   "game_weather": null,
-   "repeat": false
-  },
-  {
-   "player_id": 668804,
-   "player_name": "Bryan Reynolds",
-   "team": "PIT",
-   "expectancy_score": 35.9,
-   "streak": 1,
-   "frequency": 0.571,
-   "slopes": {
-    "max_ev": 2.139,
-    "parks_sum": 0.107,
-    "near_hr": 0.036
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 2,
-   "hr_7d": 0,
-   "max_ev_7d": 110.5,
-   "max_distance_7d": 383,
-   "band": "<40",
-   "band_rate": 0.205,
-   "band_samples": 9312,
-   "weather_factor": 1.0,
-   "adjusted_score": 35.9,
    "game_weather": {
-    "venue_name": "PNC Park",
+    "venue_name": "American Family Field",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 646240,
@@ -332,11 +362,79 @@
    "max_ev_7d": 109.0,
    "max_distance_7d": 380,
    "band": "<40",
-   "band_rate": 0.205,
-   "band_samples": 9312,
+   "band_rate": 0.206,
+   "band_samples": 9572,
    "weather_factor": 1.0,
    "adjusted_score": 33.9,
-   "game_weather": null,
+   "game_weather": {
+    "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 622268,
+   "player_name": "Donovan Walton",
+   "team": "ATH",
+   "expectancy_score": 33.9,
+   "streak": 1,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 1.654,
+    "parks_sum": 1.286,
+    "near_hr": 0.045
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 100.2,
+   "max_distance_7d": 380,
+   "band": "<40",
+   "band_rate": 0.206,
+   "band_samples": 9572,
+   "weather_factor": 1.0,
+   "adjusted_score": 33.9,
+   "game_weather": {
+    "venue_name": "Kauffman Stadium",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 645277,
+   "player_name": "Ozzie Albies",
+   "team": "ATL",
+   "expectancy_score": 33.5,
+   "streak": 2,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": -1.446,
+    "parks_sum": 0.0,
+    "near_hr": 0.036
+   },
+   "near_hr_7d": 5,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
+   "max_ev_7d": 103.5,
+   "max_distance_7d": 386,
+   "band": "<40",
+   "band_rate": 0.206,
+   "band_samples": 9572,
+   "weather_factor": 1.0,
+   "adjusted_score": 33.5,
+   "game_weather": {
+    "venue_name": "Target Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
    "repeat": false
   },
   {
@@ -357,85 +455,29 @@
    "max_ev_7d": 105.4,
    "max_distance_7d": 356,
    "band": "<40",
-   "band_rate": 0.205,
-   "band_samples": 9312,
+   "band_rate": 0.206,
+   "band_samples": 9572,
    "weather_factor": 1.0,
    "adjusted_score": 33.4,
-   "game_weather": null,
+   "game_weather": {
+    "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
    "repeat": true
-  },
-  {
-   "player_id": 680779,
-   "player_name": "Henry Davis",
-   "team": "PIT",
-   "expectancy_score": 32.1,
-   "streak": 2,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": -1.454,
-    "parks_sum": 0.75,
-    "near_hr": 0.071
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 100.3,
-   "max_distance_7d": 376,
-   "band": "<40",
-   "band_rate": 0.205,
-   "band_samples": 9312,
-   "weather_factor": 1.0,
-   "adjusted_score": 32.1,
-   "game_weather": {
-    "venue_name": "PNC Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 650402,
-   "player_name": "Gleyber Torres",
-   "team": "DET",
-   "expectancy_score": 32.1,
-   "streak": 2,
-   "frequency": 0.286,
-   "slopes": {
-    "max_ev": 1.118,
-    "parks_sum": 0.0,
-    "near_hr": 0.196
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 1,
-   "max_ev_7d": 105.5,
-   "max_distance_7d": 421,
-   "band": "<40",
-   "band_rate": 0.205,
-   "band_samples": 9312,
-   "weather_factor": 1.0,
-   "adjusted_score": 32.1,
-   "game_weather": {
-    "venue_name": "PNC Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
   }
  ],
  "bands": {
   "<40": {
-   "samples": 9312,
-   "hr_followed": 1908,
-   "rate": 0.205
+   "samples": 9572,
+   "hr_followed": 1970,
+   "rate": 0.206
   },
   "40-60": {
-   "samples": 289,
-   "hr_followed": 69,
+   "samples": 293,
+   "hr_followed": 70,
    "rate": 0.239
   },
   "60-80": {
@@ -445,12 +487,12 @@
   }
  },
  "hit_rate": {
-  "resolved_records": 40,
+  "resolved_records": 41,
   "horizon_days": 3,
   "overall": {
-   "flagged": 600,
-   "hr_followed": 116,
-   "rate": 0.193
+   "flagged": 615,
+   "hr_followed": 120,
+   "rate": 0.195
   },
   "top_band": {
    "band": "80+",
@@ -460,6 +502,15 @@
   }
  },
  "recent_hits": [
+  {
+   "player_id": 545341,
+   "player_name": "Randal Grichuk",
+   "team": "CWS",
+   "flagged_on": "2026-08-16",
+   "flagged_score": 54.5,
+   "hr_on": "2026-08-17",
+   "hr_count": 1
+  },
   {
    "player_id": 664761,
    "player_name": "Alec Bohm",
@@ -506,39 +557,12 @@
    "hr_count": 1
   },
   {
-   "player_id": 680574,
-   "player_name": "Matt McLain",
-   "team": "CIN",
-   "flagged_on": "2026-08-13",
-   "flagged_score": 41.4,
-   "hr_on": "2026-08-15",
-   "hr_count": 1
-  },
-  {
    "player_id": 661388,
    "player_name": "William Contreras",
    "team": "MIL",
    "flagged_on": "2026-08-14",
    "flagged_score": 37.1,
    "hr_on": "2026-08-15",
-   "hr_count": 1
-  },
-  {
-   "player_id": 663647,
-   "player_name": "Ke'Bryan Hayes",
-   "team": "CIN",
-   "flagged_on": "2026-08-13",
-   "flagged_score": 36.4,
-   "hr_on": "2026-08-15",
-   "hr_count": 1
-  },
-  {
-   "player_id": 663757,
-   "player_name": "Trent Grisham",
-   "team": "NYY",
-   "flagged_on": "2026-08-13",
-   "flagged_score": 44.7,
-   "hr_on": "2026-08-14",
    "hr_count": 1
   }
  ]
