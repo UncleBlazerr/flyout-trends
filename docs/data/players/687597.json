@@ -2,20 +2,38 @@
  "player_id": 687597,
  "player_name": "Jordan Beck",
  "team": "COL",
- "as_of": "2026-08-17",
+ "as_of": "2026-08-18",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": 0.364,
-   "parks_sum": 2.25,
-   "near_hr": 0.071
+   "max_ev": -7.95,
+   "parks_sum": 1.5,
+   "near_hr": 0.0
   },
-  "intensity": 0.334,
-  "expectancy_score": 26.6,
-  "last_appearance": "2026-08-17"
+  "intensity": 0.167,
+  "expectancy_score": 13.6,
+  "last_appearance": "2026-08-18"
  },
  "days": [
+  {
+   "date": "2026-08-18",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 36.7,
+   "max_distance": 5.0,
+   "max_barrel_score": 0.3,
+   "temp_f": 86.0,
+   "wind_mph": 3.0,
+   "wind_dir": "cross",
+   "weather_condition": "Cloudy"
+  },
   {
    "date": "2026-08-17",
    "bbe": 4,
@@ -162,6 +180,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824319,
+   "date": "2026-08-18",
+   "player_id": 687597,
+   "player_name": "Jordan Beck",
+   "team": "COL",
+   "opponent": "LAD",
+   "result": "Bunt Groundout",
+   "exit_velocity": 36.7,
+   "launch_angle": -36.0,
+   "hit_distance": 5.0,
+   "hc_x": 113.69,
+   "hc_y": 188.33,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "dbeabd15-7ce3-39fd-a801-8c56dc4e712c",
+   "venue_id": 19,
+   "venue_name": "Coors Field",
+   "temp_f": 86.0,
+   "wind_mph": 3.0,
+   "wind_dir": "cross",
+   "weather_condition": "Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 0.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824320,
    "date": "2026-08-17",

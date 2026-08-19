@@ -2,20 +2,38 @@
  "player_id": 806367,
  "player_name": "Turner Hill",
  "team": "SF",
- "as_of": "2026-08-17",
+ "as_of": "2026-08-18",
  "form": {
   "streak": 0,
-  "frequency": 0.5,
+  "frequency": 0.333,
   "slopes": {
-   "max_ev": -9.1,
+   "max_ev": 1.45,
    "parks_sum": 0.0,
-   "near_hr": -1.0
+   "near_hr": -0.5
   },
-  "intensity": 0.0,
-  "expectancy_score": 15.0,
-  "last_appearance": "2026-08-16"
+  "intensity": 0.242,
+  "expectancy_score": 17.2,
+  "last_appearance": "2026-08-18"
  },
  "days": [
+  {
+   "date": "2026-08-18",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 101.3,
+   "max_distance": 59.0,
+   "max_barrel_score": 31.8,
+   "temp_f": 77.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-16",
    "bbe": 2,
@@ -54,6 +72,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824398,
+   "date": "2026-08-18",
+   "player_id": 806367,
+   "player_name": "Turner Hill",
+   "team": "SF",
+   "opponent": "CLE",
+   "result": "Double",
+   "exit_velocity": 101.3,
+   "launch_angle": null,
+   "hit_distance": 59.0,
+   "hc_x": 191.2,
+   "hc_y": 133.49,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "2750d1d6-e089-31db-9922-92441e7ae04c",
+   "venue_id": 5,
+   "venue_name": "Progressive Field",
+   "temp_f": 77.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 31.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823182,
    "date": "2026-08-16",

@@ -2,17 +2,17 @@
  "player_id": 687282,
  "player_name": "Gabriel Rincones Jr.",
  "team": "PHI",
- "as_of": "2026-08-17",
+ "as_of": "2026-08-18",
  "form": {
   "streak": 0,
-  "frequency": 0.25,
+  "frequency": 0.333,
   "slopes": {
-   "max_ev": -2.87,
+   "max_ev": 3.05,
    "parks_sum": 0.0,
-   "near_hr": 0.3
+   "near_hr": 0.5
   },
-  "intensity": 0.1,
-  "expectancy_score": 10.5,
+  "intensity": 0.5,
+  "expectancy_score": 25.0,
   "last_appearance": "2026-07-27"
  },
  "days": [
@@ -69,24 +69,6 @@
    "wind_mph": 7.0,
    "wind_dir": "out",
    "weather_condition": "Clear"
-  },
-  {
-   "date": "2026-07-19",
-   "bbe": 1,
-   "hr": 0,
-   "near_hr_any": 0,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 0,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 0,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 92.3,
-   "max_distance": 339.0,
-   "max_barrel_score": 68.6,
-   "temp_f": 80.0,
-   "wind_mph": 14.0,
-   "wind_dir": "in",
-   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -231,35 +213,6 @@
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 42.9,
-   "barrel_flag": false,
-   "is_home_run": false,
-   "is_near_hr": false
-  },
-  {
-   "game_pk": 823439,
-   "date": "2026-07-19",
-   "player_id": 687282,
-   "player_name": "Gabriel Rincones Jr.",
-   "team": "PHI",
-   "opponent": "NYM",
-   "result": "Flyout",
-   "exit_velocity": 92.3,
-   "launch_angle": 31.0,
-   "hit_distance": 339.0,
-   "hc_x": 53.56,
-   "hc_y": 82.83,
-   "would_be_hr_count": 0,
-   "inning": 3,
-   "play_id": "b64f9fc3-16f1-3d41-ba07-f4b5786addd8",
-   "venue_id": 2681,
-   "venue_name": "Citizens Bank Park",
-   "temp_f": 80.0,
-   "wind_mph": 14.0,
-   "wind_dir": "in",
-   "weather_condition": "Partly Cloudy",
-   "distance_flag": false,
-   "would_be_hr_flag": false,
-   "barrel_score": 68.6,
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false

@@ -2,20 +2,38 @@
  "player_id": 668800,
  "player_name": "Andrew Knizner",
  "team": "SF",
- "as_of": "2026-08-17",
+ "as_of": "2026-08-18",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 25.1,
+   "max_ev": -4.2,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.333,
-  "expectancy_score": 10.0,
-  "last_appearance": "2026-08-14"
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-08-18"
  },
  "days": [
+  {
+   "date": "2026-08-18",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 73.1,
+   "max_distance": 114.0,
+   "max_barrel_score": 21.3,
+   "temp_f": 77.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-14",
    "bbe": 2,
@@ -54,6 +72,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824398,
+   "date": "2026-08-18",
+   "player_id": 668800,
+   "player_name": "Andrew Knizner",
+   "team": "SF",
+   "opponent": "CLE",
+   "result": "GIDP",
+   "exit_velocity": 73.1,
+   "launch_angle": 10.0,
+   "hit_distance": 114.0,
+   "hc_x": 142.2,
+   "hc_y": 138.74,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "88a2bab3-3260-350e-86cb-5e6bb3afe69e",
+   "venue_id": 5,
+   "venue_name": "Progressive Field",
+   "temp_f": 77.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 21.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823185,
    "date": "2026-08-14",

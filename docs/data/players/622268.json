@@ -2,20 +2,38 @@
  "player_id": 622268,
  "player_name": "Donovan Walton",
  "team": "ATH",
- "as_of": "2026-08-17",
+ "as_of": "2026-08-18",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.429,
   "slopes": {
-   "max_ev": 1.654,
-   "parks_sum": 1.286,
-   "near_hr": 0.045
+   "max_ev": 1.143,
+   "parks_sum": 0.857,
+   "near_hr": -0.08
   },
-  "intensity": 0.434,
-  "expectancy_score": 33.9,
-  "last_appearance": "2026-08-17"
+  "intensity": 0.286,
+  "expectancy_score": 21.4,
+  "last_appearance": "2026-08-18"
  },
  "days": [
+  {
+   "date": "2026-08-18",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 93.3,
+   "max_distance": 317.0,
+   "max_barrel_score": 59.3,
+   "temp_f": 86.0,
+   "wind_mph": 4.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-17",
    "bbe": 3,
@@ -360,6 +378,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824075,
+   "date": "2026-08-18",
+   "player_id": 622268,
+   "player_name": "Donovan Walton",
+   "team": "ATH",
+   "opponent": "KC",
+   "result": "Flyout",
+   "exit_velocity": 93.3,
+   "launch_angle": 39.0,
+   "hit_distance": 317.0,
+   "hc_x": 102.92,
+   "hc_y": 74.0,
+   "would_be_hr_count": 0,
+   "inning": 6,
+   "play_id": "32a6a2b6-125b-3bfb-b61d-a6097e60bb7b",
+   "venue_id": 7,
+   "venue_name": "Kauffman Stadium",
+   "temp_f": 86.0,
+   "wind_mph": 4.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 59.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824077,
    "date": "2026-08-17",
