@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-08-19T10:25:05.608079+00:00",
+ "generated_at": "2026-08-19T16:37:46.945098+00:00",
  "as_of": "2026-08-18",
  "config": {
   "min_near_hr_events": 1,
@@ -75,14 +75,14 @@
    "band": "40-60",
    "band_rate": 0.24,
    "band_samples": 296,
-   "weather_factor": 1.0,
-   "adjusted_score": 56.3,
+   "weather_factor": 1.151,
+   "adjusted_score": 64.8,
    "game_weather": {
     "venue_name": "PNC Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 77.0,
+    "wind_mph": 10.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": true
   },
@@ -106,14 +106,45 @@
    "band": "40-60",
    "band_rate": 0.24,
    "band_samples": 296,
-   "weather_factor": 1.0,
-   "adjusted_score": 44.2,
+   "weather_factor": 1.166,
+   "adjusted_score": 51.5,
    "game_weather": {
     "venue_name": "Fenway Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 86.0,
+    "wind_mph": 8.0,
+    "wind_dir": "out",
+    "weather_condition": "Sunny"
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 694377,
+   "player_name": "Nick Yorke",
+   "team": "PIT",
+   "expectancy_score": 43.0,
+   "streak": 1,
+   "frequency": 0.5,
+   "slopes": {
+    "max_ev": 12.0,
+    "parks_sum": 0.0,
+    "near_hr": 1.25
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 111.0,
+   "max_distance_7d": 276,
+   "band": "40-60",
+   "band_rate": 0.24,
+   "band_samples": 296,
+   "weather_factor": 1.151,
+   "adjusted_score": 49.5,
+   "game_weather": {
+    "venue_name": "PNC Park",
+    "temp_f": 77.0,
+    "wind_mph": 10.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": true
   },
@@ -147,37 +178,6 @@
     "weather_condition": ""
    },
    "repeat": false
-  },
-  {
-   "player_id": 694377,
-   "player_name": "Nick Yorke",
-   "team": "PIT",
-   "expectancy_score": 43.0,
-   "streak": 1,
-   "frequency": 0.5,
-   "slopes": {
-    "max_ev": 12.0,
-    "parks_sum": 0.0,
-    "near_hr": 1.25
-   },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 111.0,
-   "max_distance_7d": 276,
-   "band": "40-60",
-   "band_rate": 0.24,
-   "band_samples": 296,
-   "weather_factor": 1.0,
-   "adjusted_score": 43.0,
-   "game_weather": {
-    "venue_name": "PNC Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
   },
   {
    "player_id": 606192,
@@ -238,6 +238,37 @@
     "wind_mph": null,
     "wind_dir": null,
     "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 701785,
+   "player_name": "Kaelen Culpepper",
+   "team": "MIN",
+   "expectancy_score": 36.4,
+   "streak": 2,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": 2.336,
+    "parks_sum": 0.0,
+    "near_hr": 0.179
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 103.8,
+   "max_distance_7d": 377,
+   "band": "<40",
+   "band_rate": 0.206,
+   "band_samples": 9853,
+   "weather_factor": 1.016,
+   "adjusted_score": 37.0,
+   "game_weather": {
+    "venue_name": "Target Field",
+    "temp_f": 74.0,
+    "wind_mph": 2.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   },
@@ -304,33 +335,33 @@
    "repeat": true
   },
   {
-   "player_id": 701785,
-   "player_name": "Kaelen Culpepper",
-   "team": "MIN",
-   "expectancy_score": 36.4,
-   "streak": 2,
-   "frequency": 0.286,
+   "player_id": 575929,
+   "player_name": "Willson Contreras",
+   "team": "BOS",
+   "expectancy_score": 31.0,
+   "streak": 1,
+   "frequency": 0.429,
    "slopes": {
-    "max_ev": 2.336,
+    "max_ev": 2.732,
     "parks_sum": 0.0,
-    "near_hr": 0.179
+    "near_hr": 0.018
    },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 103.8,
-   "max_distance_7d": 377,
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 2,
+   "max_ev_7d": 112.7,
+   "max_distance_7d": 408,
    "band": "<40",
    "band_rate": 0.206,
    "band_samples": 9853,
-   "weather_factor": 1.0,
-   "adjusted_score": 36.4,
+   "weather_factor": 1.166,
+   "adjusted_score": 36.1,
    "game_weather": {
-    "venue_name": "Target Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "venue_name": "Fenway Park",
+    "temp_f": 86.0,
+    "wind_mph": 8.0,
+    "wind_dir": "out",
+    "weather_condition": "Sunny"
    },
    "repeat": false
   },
@@ -428,33 +459,33 @@
    "repeat": false
   },
   {
-   "player_id": 664023,
-   "player_name": "Ian Happ",
-   "team": "CHC",
-   "expectancy_score": 34.3,
-   "streak": 2,
-   "frequency": 0.286,
+   "player_id": 650402,
+   "player_name": "Gleyber Torres",
+   "team": "DET",
+   "expectancy_score": 29.8,
+   "streak": 1,
+   "frequency": 0.429,
    "slopes": {
-    "max_ev": 1.589,
-    "parks_sum": 0.0,
-    "near_hr": 0.179
+    "max_ev": -0.225,
+    "parks_sum": 2.25,
+    "near_hr": 0.143
    },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 106.0,
-   "max_distance_7d": 378,
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 1,
+   "max_ev_7d": 106.3,
+   "max_distance_7d": 421,
    "band": "<40",
    "band_rate": 0.206,
    "band_samples": 9853,
-   "weather_factor": 1.0,
+   "weather_factor": 1.151,
    "adjusted_score": 34.3,
    "game_weather": {
-    "venue_name": "Wrigley Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "venue_name": "PNC Park",
+    "temp_f": 77.0,
+    "wind_mph": 10.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   },
@@ -480,37 +511,6 @@
    "band_samples": 9853,
    "weather_factor": 1.0,
    "adjusted_score": 33.9,
-   "game_weather": {
-    "venue_name": "Progressive Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 682674,
-   "player_name": "Victor Bericoto",
-   "team": "SF",
-   "expectancy_score": 33.5,
-   "streak": 1,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 1.839,
-    "parks_sum": 0.607,
-    "near_hr": 0.143
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 108.0,
-   "max_distance_7d": 380,
-   "band": "<40",
-   "band_rate": 0.206,
-   "band_samples": 9853,
-   "weather_factor": 1.0,
-   "adjusted_score": 33.5,
    "game_weather": {
     "venue_name": "Progressive Field",
     "temp_f": null,

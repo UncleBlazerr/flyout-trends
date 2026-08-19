@@ -7907,6 +7907,56 @@
    "heating_up": false
   },
   {
+   "player_id": 808959,
+   "player_name": "Munetaka Murakami",
+   "team": "CWS",
+   "windows": {
+    "7": {
+     "bbe": 13,
+     "hr": 3,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "near_hr_any": 1,
+     "max_ev_near_hr": 107.9,
+     "avg_ev_near_hr": 107.9,
+     "max_barrel_score": 83.3,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    },
+    "14": {
+     "bbe": 27,
+     "hr": 5,
+     "near_hr_distance": 2,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 4,
+     "near_hr_any": 4,
+     "max_ev_near_hr": 113.4,
+     "avg_ev_near_hr": 105.0,
+     "max_barrel_score": 84.8,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    },
+    "30": {
+     "bbe": 59,
+     "hr": 9,
+     "near_hr_distance": 4,
+     "near_hr_parks": 1,
+     "near_hr_barrel": 9,
+     "near_hr_any": 9,
+     "max_ev_near_hr": 113.4,
+     "avg_ev_near_hr": 105.0,
+     "max_barrel_score": 87.1,
+     "would_be_hr_parks_sum": 9,
+     "parks_slope": -0.049,
+     "trend_direction": "flat"
+    }
+   },
+   "heating_up": false
+  },
+  {
    "player_id": 681198,
    "player_name": "TJ Rumfield",
    "team": "COL",
@@ -8401,56 +8451,6 @@
      "max_barrel_score": 81.4,
      "would_be_hr_parks_sum": 5,
      "parks_slope": 0.01,
-     "trend_direction": "flat"
-    }
-   },
-   "heating_up": false
-  },
-  {
-   "player_id": 808959,
-   "player_name": "Munetaka Murakami",
-   "team": "CWS",
-   "windows": {
-    "7": {
-     "bbe": 13,
-     "hr": 3,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 1,
-     "near_hr_any": 1,
-     "max_ev_near_hr": 107.9,
-     "avg_ev_near_hr": 107.9,
-     "max_barrel_score": 81.1,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "14": {
-     "bbe": 27,
-     "hr": 5,
-     "near_hr_distance": 2,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 4,
-     "near_hr_any": 4,
-     "max_ev_near_hr": 113.4,
-     "avg_ev_near_hr": 105.0,
-     "max_barrel_score": 84.8,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "30": {
-     "bbe": 59,
-     "hr": 9,
-     "near_hr_distance": 4,
-     "near_hr_parks": 1,
-     "near_hr_barrel": 9,
-     "near_hr_any": 9,
-     "max_ev_near_hr": 113.4,
-     "avg_ev_near_hr": 105.0,
-     "max_barrel_score": 87.1,
-     "would_be_hr_parks_sum": 9,
-     "parks_slope": -0.049,
      "trend_direction": "flat"
     }
    },

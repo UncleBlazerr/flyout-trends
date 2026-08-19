@@ -1,7 +1,7 @@
 {
  "schema_version": 2,
  "date": "2026-08-18",
- "generated_at": "2026-08-19T10:25:04.709565+00:00",
+ "generated_at": "2026-08-19T16:37:45.941809+00:00",
  "events": [
   {
    "game_pk": 824803,
@@ -18747,10 +18747,10 @@
    "result": "Home Run",
    "exit_velocity": 111.1,
    "launch_angle": 39.0,
-   "hit_distance": 406.0,
+   "hit_distance": 440.0,
    "hc_x": 71.45,
    "hc_y": 43.92,
-   "would_be_hr_count": 29,
+   "would_be_hr_count": 30,
    "inning": 3,
    "play_id": "50a95e0f-7a76-30dd-829f-5f7eade21697",
    "venue_id": 17,
@@ -18761,7 +18761,7 @@
    "weather_condition": "Partly Cloudy",
    "distance_flag": false,
    "would_be_hr_flag": false,
-   "barrel_score": 81.1,
+   "barrel_score": 83.3,
    "barrel_flag": false,
    "is_home_run": true,
    "is_near_hr": false

@@ -102,14 +102,14 @@
    "game_streak": 2
   },
   {
-   "player_id": 664023,
-   "player_name": "Ian Happ",
-   "team": "CHC",
+   "player_id": 650402,
+   "player_name": "Gleyber Torres",
+   "team": "DET",
    "record_streak": 1,
    "total_flags": 3,
-   "avg_score": 43.7,
-   "current_score": 34.3,
-   "game_streak": 2
+   "avg_score": 32.4,
+   "current_score": 29.8,
+   "game_streak": 1
   },
   {
    "player_id": 687263,
@@ -120,6 +120,16 @@
    "avg_score": 41.8,
    "current_score": 34.8,
    "game_streak": 2
+  },
+  {
+   "player_id": 575929,
+   "player_name": "Willson Contreras",
+   "team": "BOS",
+   "record_streak": 1,
+   "total_flags": 2,
+   "avg_score": 20.5,
+   "current_score": 31.0,
+   "game_streak": 1
   },
   {
    "player_id": 701785,
@@ -140,16 +150,6 @@
    "avg_score": 33.9,
    "current_score": 33.9,
    "game_streak": 2
-  },
-  {
-   "player_id": 682674,
-   "player_name": "Victor Bericoto",
-   "team": "SF",
-   "record_streak": 1,
-   "total_flags": 1,
-   "avg_score": 33.5,
-   "current_score": 33.5,
-   "game_streak": 1
   }
  ]
 }
