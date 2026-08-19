@@ -557,6 +557,56 @@
    "heating_up": false
   },
   {
+   "player_id": 608324,
+   "player_name": "Alex Bregman",
+   "team": "CHC",
+   "windows": {
+    "7": {
+     "bbe": 23,
+     "hr": 3,
+     "near_hr_distance": 4,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "near_hr_any": 4,
+     "max_ev_near_hr": 98.8,
+     "avg_ev_near_hr": 95.2,
+     "max_barrel_score": 78.5,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    },
+    "14": {
+     "bbe": 46,
+     "hr": 5,
+     "near_hr_distance": 5,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 2,
+     "near_hr_any": 5,
+     "max_ev_near_hr": 98.8,
+     "avg_ev_near_hr": 95.2,
+     "max_barrel_score": 80.0,
+     "would_be_hr_parks_sum": 2,
+     "parks_slope": -0.044,
+     "trend_direction": "flat"
+    },
+    "30": {
+     "bbe": 92,
+     "hr": 6,
+     "near_hr_distance": 10,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 8,
+     "near_hr_any": 11,
+     "max_ev_near_hr": 103.2,
+     "avg_ev_near_hr": 97.2,
+     "max_barrel_score": 80.0,
+     "would_be_hr_parks_sum": 3,
+     "parks_slope": 0.003,
+     "trend_direction": "flat"
+    }
+   },
+   "heating_up": false
+  },
+  {
    "player_id": 670541,
    "player_name": "Yordan Alvarez",
    "team": "HOU",
@@ -862,7 +912,7 @@
    "team": "CWS",
    "windows": {
     "7": {
-     "bbe": 17,
+     "bbe": 21,
      "hr": 3,
      "near_hr_distance": 2,
      "near_hr_parks": 0,
@@ -876,7 +926,7 @@
      "trend_direction": "flat"
     },
     "14": {
-     "bbe": 34,
+     "bbe": 38,
      "hr": 4,
      "near_hr_distance": 3,
      "near_hr_parks": 1,
@@ -890,7 +940,7 @@
      "trend_direction": "flat"
     },
     "30": {
-     "bbe": 75,
+     "bbe": 79,
      "hr": 7,
      "near_hr_distance": 5,
      "near_hr_parks": 1,
@@ -1152,6 +1202,56 @@
      "would_be_hr_parks_sum": 15,
      "parks_slope": -0.041,
      "trend_direction": "flat"
+    }
+   },
+   "heating_up": false
+  },
+  {
+   "player_id": 695731,
+   "player_name": "Braden Montgomery",
+   "team": "CWS",
+   "windows": {
+    "7": {
+     "bbe": 20,
+     "hr": 0,
+     "near_hr_distance": 2,
+     "near_hr_parks": 1,
+     "near_hr_barrel": 2,
+     "near_hr_any": 3,
+     "max_ev_near_hr": 106.2,
+     "avg_ev_near_hr": 102.5,
+     "max_barrel_score": 83.0,
+     "would_be_hr_parks_sum": 25,
+     "parks_slope": -0.893,
+     "trend_direction": "falling"
+    },
+    "14": {
+     "bbe": 30,
+     "hr": 1,
+     "near_hr_distance": 3,
+     "near_hr_parks": 1,
+     "near_hr_barrel": 3,
+     "near_hr_any": 4,
+     "max_ev_near_hr": 106.2,
+     "avg_ev_near_hr": 100.5,
+     "max_barrel_score": 88.0,
+     "would_be_hr_parks_sum": 25,
+     "parks_slope": 0.275,
+     "trend_direction": "rising"
+    },
+    "30": {
+     "bbe": 65,
+     "hr": 1,
+     "near_hr_distance": 5,
+     "near_hr_parks": 1,
+     "near_hr_barrel": 6,
+     "near_hr_any": 7,
+     "max_ev_near_hr": 106.2,
+     "avg_ev_near_hr": 99.6,
+     "max_barrel_score": 88.0,
+     "would_be_hr_parks_sum": 25,
+     "parks_slope": 0.117,
+     "trend_direction": "rising"
     }
    },
    "heating_up": false
@@ -2007,56 +2107,6 @@
    "heating_up": false
   },
   {
-   "player_id": 608324,
-   "player_name": "Alex Bregman",
-   "team": "CHC",
-   "windows": {
-    "7": {
-     "bbe": 18,
-     "hr": 3,
-     "near_hr_distance": 3,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 1,
-     "near_hr_any": 3,
-     "max_ev_near_hr": 98.8,
-     "avg_ev_near_hr": 94.6,
-     "max_barrel_score": 78.5,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "14": {
-     "bbe": 41,
-     "hr": 5,
-     "near_hr_distance": 4,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 2,
-     "near_hr_any": 4,
-     "max_ev_near_hr": 98.8,
-     "avg_ev_near_hr": 94.8,
-     "max_barrel_score": 80.0,
-     "would_be_hr_parks_sum": 2,
-     "parks_slope": -0.044,
-     "trend_direction": "flat"
-    },
-    "30": {
-     "bbe": 87,
-     "hr": 6,
-     "near_hr_distance": 9,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 8,
-     "near_hr_any": 10,
-     "max_ev_near_hr": 103.2,
-     "avg_ev_near_hr": 97.3,
-     "max_barrel_score": 80.0,
-     "would_be_hr_parks_sum": 3,
-     "parks_slope": 0.003,
-     "trend_direction": "flat"
-    }
-   },
-   "heating_up": false
-  },
-  {
    "player_id": 672695,
    "player_name": "Geraldo Perdomo",
    "team": "AZ",
@@ -2401,6 +2451,56 @@
      "max_barrel_score": 85.8,
      "would_be_hr_parks_sum": 30,
      "parks_slope": -0.049,
+     "trend_direction": "flat"
+    }
+   },
+   "heating_up": false
+  },
+  {
+   "player_id": 695657,
+   "player_name": "Colson Montgomery",
+   "team": "CWS",
+   "windows": {
+    "7": {
+     "bbe": 18,
+     "hr": 0,
+     "near_hr_distance": 2,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 3,
+     "near_hr_any": 3,
+     "max_ev_near_hr": 113.6,
+     "avg_ev_near_hr": 102.7,
+     "max_barrel_score": 74.8,
+     "would_be_hr_parks_sum": 1,
+     "parks_slope": -0.071,
+     "trend_direction": "falling"
+    },
+    "14": {
+     "bbe": 29,
+     "hr": 1,
+     "near_hr_distance": 2,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 3,
+     "near_hr_any": 3,
+     "max_ev_near_hr": 113.6,
+     "avg_ev_near_hr": 102.7,
+     "max_barrel_score": 88.4,
+     "would_be_hr_parks_sum": 1,
+     "parks_slope": 0.007,
+     "trend_direction": "flat"
+    },
+    "30": {
+     "bbe": 59,
+     "hr": 2,
+     "near_hr_distance": 2,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 3,
+     "near_hr_any": 3,
+     "max_ev_near_hr": 113.6,
+     "avg_ev_near_hr": 102.7,
+     "max_barrel_score": 88.4,
+     "would_be_hr_parks_sum": 1,
+     "parks_slope": 0.004,
      "trend_direction": "flat"
     }
    },
@@ -2901,6 +3001,56 @@
      "max_barrel_score": 88.0,
      "would_be_hr_parks_sum": 5,
      "parks_slope": 0.008,
+     "trend_direction": "flat"
+    }
+   },
+   "heating_up": false
+  },
+  {
+   "player_id": 683737,
+   "player_name": "Michael Busch",
+   "team": "CHC",
+   "windows": {
+    "7": {
+     "bbe": 17,
+     "hr": 1,
+     "near_hr_distance": 2,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "near_hr_any": 2,
+     "max_ev_near_hr": 95.6,
+     "avg_ev_near_hr": 94.5,
+     "max_barrel_score": 86.8,
+     "would_be_hr_parks_sum": 2,
+     "parks_slope": 0.143,
+     "trend_direction": "rising"
+    },
+    "14": {
+     "bbe": 40,
+     "hr": 1,
+     "near_hr_distance": 4,
+     "near_hr_parks": 1,
+     "near_hr_barrel": 3,
+     "near_hr_any": 4,
+     "max_ev_near_hr": 103.9,
+     "avg_ev_near_hr": 96.5,
+     "max_barrel_score": 86.8,
+     "would_be_hr_parks_sum": 22,
+     "parks_slope": -0.523,
+     "trend_direction": "falling"
+    },
+    "30": {
+     "bbe": 91,
+     "hr": 3,
+     "near_hr_distance": 6,
+     "near_hr_parks": 1,
+     "near_hr_barrel": 6,
+     "near_hr_any": 7,
+     "max_ev_near_hr": 103.9,
+     "avg_ev_near_hr": 97.3,
+     "max_barrel_score": 86.8,
+     "would_be_hr_parks_sum": 22,
+     "parks_slope": 0.025,
      "trend_direction": "flat"
     }
    },
@@ -3457,56 +3607,6 @@
    "heating_up": false
   },
   {
-   "player_id": 695731,
-   "player_name": "Braden Montgomery",
-   "team": "CWS",
-   "windows": {
-    "7": {
-     "bbe": 17,
-     "hr": 0,
-     "near_hr_distance": 1,
-     "near_hr_parks": 1,
-     "near_hr_barrel": 2,
-     "near_hr_any": 2,
-     "max_ev_near_hr": 106.2,
-     "avg_ev_near_hr": 103.0,
-     "max_barrel_score": 83.0,
-     "would_be_hr_parks_sum": 25,
-     "parks_slope": -0.893,
-     "trend_direction": "falling"
-    },
-    "14": {
-     "bbe": 27,
-     "hr": 1,
-     "near_hr_distance": 2,
-     "near_hr_parks": 1,
-     "near_hr_barrel": 3,
-     "near_hr_any": 3,
-     "max_ev_near_hr": 106.2,
-     "avg_ev_near_hr": 100.1,
-     "max_barrel_score": 88.0,
-     "would_be_hr_parks_sum": 25,
-     "parks_slope": 0.275,
-     "trend_direction": "rising"
-    },
-    "30": {
-     "bbe": 62,
-     "hr": 1,
-     "near_hr_distance": 4,
-     "near_hr_parks": 1,
-     "near_hr_barrel": 6,
-     "near_hr_any": 6,
-     "max_ev_near_hr": 106.2,
-     "avg_ev_near_hr": 99.3,
-     "max_barrel_score": 88.0,
-     "would_be_hr_parks_sum": 25,
-     "parks_slope": 0.117,
-     "trend_direction": "rising"
-    }
-   },
-   "heating_up": false
-  },
-  {
    "player_id": 642215,
    "player_name": "Weston Wilson",
    "team": "SEA",
@@ -3902,6 +4002,56 @@
      "would_be_hr_parks_sum": 16,
      "parks_slope": 0.054,
      "trend_direction": "rising"
+    }
+   },
+   "heating_up": false
+  },
+  {
+   "player_id": 664023,
+   "player_name": "Ian Happ",
+   "team": "CHC",
+   "windows": {
+    "7": {
+     "bbe": 19,
+     "hr": 0,
+     "near_hr_distance": 2,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "near_hr_any": 2,
+     "max_ev_near_hr": 100.0,
+     "avg_ev_near_hr": 95.5,
+     "max_barrel_score": 81.3,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    },
+    "14": {
+     "bbe": 34,
+     "hr": 2,
+     "near_hr_distance": 2,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 2,
+     "near_hr_any": 3,
+     "max_ev_near_hr": 106.7,
+     "avg_ev_near_hr": 99.3,
+     "max_barrel_score": 81.3,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    },
+    "30": {
+     "bbe": 67,
+     "hr": 3,
+     "near_hr_distance": 6,
+     "near_hr_parks": 2,
+     "near_hr_barrel": 6,
+     "near_hr_any": 7,
+     "max_ev_near_hr": 106.7,
+     "avg_ev_near_hr": 99.9,
+     "max_barrel_score": 84.8,
+     "would_be_hr_parks_sum": 29,
+     "parks_slope": -0.066,
+     "trend_direction": "falling"
     }
    },
    "heating_up": false
@@ -5512,7 +5662,7 @@
    "team": "CWS",
    "windows": {
     "7": {
-     "bbe": 17,
+     "bbe": 21,
      "hr": 1,
      "near_hr_distance": 0,
      "near_hr_parks": 0,
@@ -5526,7 +5676,7 @@
      "trend_direction": "flat"
     },
     "14": {
-     "bbe": 29,
+     "bbe": 33,
      "hr": 3,
      "near_hr_distance": 0,
      "near_hr_parks": 0,
@@ -5540,7 +5690,7 @@
      "trend_direction": "flat"
     },
     "30": {
-     "bbe": 69,
+     "bbe": 73,
      "hr": 5,
      "near_hr_distance": 2,
      "near_hr_parks": 1,
@@ -5701,56 +5851,6 @@
      "max_barrel_score": 85.8,
      "would_be_hr_parks_sum": 5,
      "parks_slope": -0.009,
-     "trend_direction": "flat"
-    }
-   },
-   "heating_up": false
-  },
-  {
-   "player_id": 695657,
-   "player_name": "Colson Montgomery",
-   "team": "CWS",
-   "windows": {
-    "7": {
-     "bbe": 14,
-     "hr": 0,
-     "near_hr_distance": 1,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 2,
-     "near_hr_any": 2,
-     "max_ev_near_hr": 113.6,
-     "avg_ev_near_hr": 106.8,
-     "max_barrel_score": 72.6,
-     "would_be_hr_parks_sum": 1,
-     "parks_slope": -0.071,
-     "trend_direction": "falling"
-    },
-    "14": {
-     "bbe": 25,
-     "hr": 1,
-     "near_hr_distance": 1,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 2,
-     "near_hr_any": 2,
-     "max_ev_near_hr": 113.6,
-     "avg_ev_near_hr": 106.8,
-     "max_barrel_score": 88.4,
-     "would_be_hr_parks_sum": 1,
-     "parks_slope": 0.007,
-     "trend_direction": "flat"
-    },
-    "30": {
-     "bbe": 55,
-     "hr": 2,
-     "near_hr_distance": 1,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 2,
-     "near_hr_any": 2,
-     "max_ev_near_hr": 113.6,
-     "avg_ev_near_hr": 106.8,
-     "max_barrel_score": 88.4,
-     "would_be_hr_parks_sum": 1,
-     "parks_slope": 0.004,
      "trend_direction": "flat"
     }
    },
@@ -6157,56 +6257,6 @@
    "heating_up": false
   },
   {
-   "player_id": 683737,
-   "player_name": "Michael Busch",
-   "team": "CHC",
-   "windows": {
-    "7": {
-     "bbe": 15,
-     "hr": 0,
-     "near_hr_distance": 2,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 1,
-     "near_hr_any": 2,
-     "max_ev_near_hr": 95.6,
-     "avg_ev_near_hr": 94.5,
-     "max_barrel_score": 70.2,
-     "would_be_hr_parks_sum": 2,
-     "parks_slope": 0.143,
-     "trend_direction": "rising"
-    },
-    "14": {
-     "bbe": 38,
-     "hr": 0,
-     "near_hr_distance": 4,
-     "near_hr_parks": 1,
-     "near_hr_barrel": 3,
-     "near_hr_any": 4,
-     "max_ev_near_hr": 103.9,
-     "avg_ev_near_hr": 96.5,
-     "max_barrel_score": 86.0,
-     "would_be_hr_parks_sum": 22,
-     "parks_slope": -0.523,
-     "trend_direction": "falling"
-    },
-    "30": {
-     "bbe": 89,
-     "hr": 2,
-     "near_hr_distance": 6,
-     "near_hr_parks": 1,
-     "near_hr_barrel": 6,
-     "near_hr_any": 7,
-     "max_ev_near_hr": 103.9,
-     "avg_ev_near_hr": 97.3,
-     "max_barrel_score": 86.0,
-     "would_be_hr_parks_sum": 22,
-     "parks_slope": 0.025,
-     "trend_direction": "flat"
-    }
-   },
-   "heating_up": false
-  },
-  {
    "player_id": 680779,
    "player_name": "Henry Davis",
    "team": "PIT",
@@ -6512,7 +6562,7 @@
    "team": "CHC",
    "windows": {
     "7": {
-     "bbe": 16,
+     "bbe": 18,
      "hr": 2,
      "near_hr_distance": 1,
      "near_hr_parks": 0,
@@ -6526,7 +6576,7 @@
      "trend_direction": "flat"
     },
     "14": {
-     "bbe": 35,
+     "bbe": 37,
      "hr": 3,
      "near_hr_distance": 3,
      "near_hr_parks": 0,
@@ -6540,7 +6590,7 @@
      "trend_direction": "flat"
     },
     "30": {
-     "bbe": 70,
+     "bbe": 72,
      "hr": 7,
      "near_hr_distance": 4,
      "near_hr_parks": 0,
@@ -7062,8 +7112,8 @@
    "team": "CHC",
    "windows": {
     "7": {
-     "bbe": 18,
-     "hr": 3,
+     "bbe": 20,
+     "hr": 4,
      "near_hr_distance": 1,
      "near_hr_parks": 0,
      "near_hr_barrel": 1,
@@ -7076,8 +7126,8 @@
      "trend_direction": "flat"
     },
     "14": {
-     "bbe": 35,
-     "hr": 6,
+     "bbe": 37,
+     "hr": 7,
      "near_hr_distance": 3,
      "near_hr_parks": 1,
      "near_hr_barrel": 4,
@@ -7090,8 +7140,8 @@
      "trend_direction": "falling"
     },
     "30": {
-     "bbe": 73,
-     "hr": 9,
+     "bbe": 75,
+     "hr": 10,
      "near_hr_distance": 9,
      "near_hr_parks": 4,
      "near_hr_barrel": 11,
@@ -8357,51 +8407,51 @@
    "heating_up": false
   },
   {
-   "player_id": 664023,
-   "player_name": "Ian Happ",
-   "team": "CHC",
+   "player_id": 808959,
+   "player_name": "Munetaka Murakami",
+   "team": "CWS",
    "windows": {
     "7": {
-     "bbe": 15,
-     "hr": 0,
-     "near_hr_distance": 1,
+     "bbe": 13,
+     "hr": 3,
+     "near_hr_distance": 0,
      "near_hr_parks": 0,
      "near_hr_barrel": 1,
      "near_hr_any": 1,
-     "max_ev_near_hr": 100.0,
-     "avg_ev_near_hr": 100.0,
-     "max_barrel_score": 81.3,
+     "max_ev_near_hr": 107.9,
+     "avg_ev_near_hr": 107.9,
+     "max_barrel_score": 81.1,
      "would_be_hr_parks_sum": 0,
      "parks_slope": 0.0,
      "trend_direction": "flat"
     },
     "14": {
-     "bbe": 30,
-     "hr": 2,
-     "near_hr_distance": 1,
+     "bbe": 27,
+     "hr": 5,
+     "near_hr_distance": 2,
      "near_hr_parks": 0,
-     "near_hr_barrel": 2,
-     "near_hr_any": 2,
-     "max_ev_near_hr": 106.7,
-     "avg_ev_near_hr": 103.3,
-     "max_barrel_score": 81.3,
+     "near_hr_barrel": 4,
+     "near_hr_any": 4,
+     "max_ev_near_hr": 113.4,
+     "avg_ev_near_hr": 105.0,
+     "max_barrel_score": 84.8,
      "would_be_hr_parks_sum": 0,
      "parks_slope": 0.0,
      "trend_direction": "flat"
     },
     "30": {
-     "bbe": 63,
-     "hr": 3,
-     "near_hr_distance": 5,
-     "near_hr_parks": 2,
-     "near_hr_barrel": 6,
-     "near_hr_any": 6,
-     "max_ev_near_hr": 106.7,
-     "avg_ev_near_hr": 101.4,
-     "max_barrel_score": 84.8,
-     "would_be_hr_parks_sum": 29,
-     "parks_slope": -0.066,
-     "trend_direction": "falling"
+     "bbe": 59,
+     "hr": 9,
+     "near_hr_distance": 4,
+     "near_hr_parks": 1,
+     "near_hr_barrel": 9,
+     "near_hr_any": 9,
+     "max_ev_near_hr": 113.4,
+     "avg_ev_near_hr": 105.0,
+     "max_barrel_score": 87.1,
+     "would_be_hr_parks_sum": 9,
+     "parks_slope": -0.049,
+     "trend_direction": "flat"
     }
    },
    "heating_up": false
@@ -8462,7 +8512,7 @@
    "team": "CHC",
    "windows": {
     "7": {
-     "bbe": 13,
+     "bbe": 16,
      "hr": 0,
      "near_hr_distance": 1,
      "near_hr_parks": 0,
@@ -8476,7 +8526,7 @@
      "trend_direction": "flat"
     },
     "14": {
-     "bbe": 18,
+     "bbe": 21,
      "hr": 1,
      "near_hr_distance": 2,
      "near_hr_parks": 0,
@@ -8490,7 +8540,7 @@
      "trend_direction": "flat"
     },
     "30": {
-     "bbe": 49,
+     "bbe": 52,
      "hr": 1,
      "near_hr_distance": 2,
      "near_hr_parks": 0,
@@ -9051,56 +9101,6 @@
      "max_barrel_score": 81.0,
      "would_be_hr_parks_sum": 4,
      "parks_slope": 0.026,
-     "trend_direction": "flat"
-    }
-   },
-   "heating_up": false
-  },
-  {
-   "player_id": 808959,
-   "player_name": "Munetaka Murakami",
-   "team": "CWS",
-   "windows": {
-    "7": {
-     "bbe": 11,
-     "hr": 2,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 1,
-     "near_hr_any": 1,
-     "max_ev_near_hr": 107.9,
-     "avg_ev_near_hr": 107.9,
-     "max_barrel_score": 79.2,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "14": {
-     "bbe": 25,
-     "hr": 4,
-     "near_hr_distance": 2,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 4,
-     "near_hr_any": 4,
-     "max_ev_near_hr": 113.4,
-     "avg_ev_near_hr": 105.0,
-     "max_barrel_score": 84.8,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "30": {
-     "bbe": 57,
-     "hr": 8,
-     "near_hr_distance": 4,
-     "near_hr_parks": 1,
-     "near_hr_barrel": 9,
-     "near_hr_any": 9,
-     "max_ev_near_hr": 113.4,
-     "avg_ev_near_hr": 105.0,
-     "max_barrel_score": 87.1,
-     "would_be_hr_parks_sum": 9,
-     "parks_slope": -0.049,
      "trend_direction": "flat"
     }
    },
@@ -11212,7 +11212,7 @@
    "team": "CHC",
    "windows": {
     "7": {
-     "bbe": 8,
+     "bbe": 9,
      "hr": 0,
      "near_hr_distance": 1,
      "near_hr_parks": 0,
@@ -11226,7 +11226,7 @@
      "trend_direction": "flat"
     },
     "14": {
-     "bbe": 24,
+     "bbe": 25,
      "hr": 0,
      "near_hr_distance": 1,
      "near_hr_parks": 0,
@@ -11240,7 +11240,7 @@
      "trend_direction": "flat"
     },
     "30": {
-     "bbe": 52,
+     "bbe": 53,
      "hr": 1,
      "near_hr_distance": 1,
      "near_hr_parks": 0,
@@ -11712,7 +11712,7 @@
    "team": "CWS",
    "windows": {
     "7": {
-     "bbe": 17,
+     "bbe": 19,
      "hr": 0,
      "near_hr_distance": 1,
      "near_hr_parks": 0,
@@ -11726,7 +11726,7 @@
      "trend_direction": "flat"
     },
     "14": {
-     "bbe": 32,
+     "bbe": 34,
      "hr": 0,
      "near_hr_distance": 2,
      "near_hr_parks": 0,
@@ -11740,7 +11740,7 @@
      "trend_direction": "flat"
     },
     "30": {
-     "bbe": 70,
+     "bbe": 72,
      "hr": 1,
      "near_hr_distance": 5,
      "near_hr_parks": 0,
@@ -13462,7 +13462,7 @@
    "team": "CWS",
    "windows": {
     "7": {
-     "bbe": 12,
+     "bbe": 14,
      "hr": 2,
      "near_hr_distance": 0,
      "near_hr_parks": 0,
@@ -13476,7 +13476,7 @@
      "trend_direction": "flat"
     },
     "14": {
-     "bbe": 19,
+     "bbe": 21,
      "hr": 2,
      "near_hr_distance": 0,
      "near_hr_parks": 0,
@@ -13490,7 +13490,7 @@
      "trend_direction": "flat"
     },
     "30": {
-     "bbe": 37,
+     "bbe": 39,
      "hr": 2,
      "near_hr_distance": 0,
      "near_hr_parks": 0,
@@ -13962,7 +13962,7 @@
    "team": "CWS",
    "windows": {
     "7": {
-     "bbe": 12,
+     "bbe": 14,
      "hr": 1,
      "near_hr_distance": 0,
      "near_hr_parks": 0,
@@ -13976,7 +13976,7 @@
      "trend_direction": "flat"
     },
     "14": {
-     "bbe": 21,
+     "bbe": 23,
      "hr": 1,
      "near_hr_distance": 0,
      "near_hr_parks": 0,
@@ -13990,7 +13990,7 @@
      "trend_direction": "flat"
     },
     "30": {
-     "bbe": 47,
+     "bbe": 49,
      "hr": 3,
      "near_hr_distance": 2,
      "near_hr_parks": 1,
@@ -14062,7 +14062,7 @@
    "team": "CWS",
    "windows": {
     "7": {
-     "bbe": 13,
+     "bbe": 17,
      "hr": 1,
      "near_hr_distance": 0,
      "near_hr_parks": 0,
@@ -14076,7 +14076,7 @@
      "trend_direction": "flat"
     },
     "14": {
-     "bbe": 21,
+     "bbe": 25,
      "hr": 1,
      "near_hr_distance": 0,
      "near_hr_parks": 0,
@@ -14090,7 +14090,7 @@
      "trend_direction": "flat"
     },
     "30": {
-     "bbe": 54,
+     "bbe": 58,
      "hr": 1,
      "near_hr_distance": 3,
      "near_hr_parks": 1,
@@ -14762,7 +14762,7 @@
    "team": "CHC",
    "windows": {
     "7": {
-     "bbe": 6,
+     "bbe": 8,
      "hr": 1,
      "near_hr_distance": 0,
      "near_hr_parks": 0,
@@ -14776,7 +14776,7 @@
      "trend_direction": "flat"
     },
     "14": {
-     "bbe": 15,
+     "bbe": 17,
      "hr": 1,
      "near_hr_distance": 2,
      "near_hr_parks": 0,
@@ -14790,7 +14790,7 @@
      "trend_direction": "flat"
     },
     "30": {
-     "bbe": 31,
+     "bbe": 33,
      "hr": 2,
      "near_hr_distance": 5,
      "near_hr_parks": 1,
@@ -15849,6 +15849,56 @@
      "max_ev_near_hr": null,
      "avg_ev_near_hr": null,
      "max_barrel_score": 65.3,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    }
+   },
+   "heating_up": false
+  },
+  {
+   "player_id": 663538,
+   "player_name": "Nico Hoerner",
+   "team": "CHC",
+   "windows": {
+    "7": {
+     "bbe": 24,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "near_hr_any": 0,
+     "max_ev_near_hr": null,
+     "avg_ev_near_hr": null,
+     "max_barrel_score": 65.2,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    },
+    "14": {
+     "bbe": 45,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 2,
+     "near_hr_any": 2,
+     "max_ev_near_hr": 92.9,
+     "avg_ev_near_hr": 92.3,
+     "max_barrel_score": 72.4,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    },
+    "30": {
+     "bbe": 96,
+     "hr": 3,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 3,
+     "near_hr_any": 3,
+     "max_ev_near_hr": 95.9,
+     "avg_ev_near_hr": 93.5,
+     "max_barrel_score": 79.7,
      "would_be_hr_parks_sum": 0,
      "parks_slope": 0.0,
      "trend_direction": "flat"
@@ -17849,56 +17899,6 @@
      "max_ev_near_hr": 101.3,
      "avg_ev_near_hr": 101.3,
      "max_barrel_score": 70.5,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    }
-   },
-   "heating_up": false
-  },
-  {
-   "player_id": 663538,
-   "player_name": "Nico Hoerner",
-   "team": "CHC",
-   "windows": {
-    "7": {
-     "bbe": 20,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 55.3,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "14": {
-     "bbe": 41,
-     "hr": 0,
-     "near_hr_distance": 1,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 2,
-     "near_hr_any": 2,
-     "max_ev_near_hr": 92.9,
-     "avg_ev_near_hr": 92.3,
-     "max_barrel_score": 72.4,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "30": {
-     "bbe": 92,
-     "hr": 3,
-     "near_hr_distance": 1,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 3,
-     "near_hr_any": 3,
-     "max_ev_near_hr": 95.9,
-     "avg_ev_near_hr": 93.5,
-     "max_barrel_score": 79.7,
      "would_be_hr_parks_sum": 0,
      "parks_slope": 0.0,
      "trend_direction": "flat"
