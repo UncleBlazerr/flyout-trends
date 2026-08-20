@@ -2,20 +2,38 @@
  "player_id": 694377,
  "player_name": "Nick Yorke",
  "team": "PIT",
- "as_of": "2026-08-18",
+ "as_of": "2026-08-19",
  "form": {
-  "streak": 1,
-  "frequency": 0.5,
+  "streak": 0,
+  "frequency": 0.333,
   "slopes": {
-   "max_ev": 12.0,
+   "max_ev": -3.05,
    "parks_sum": 0.0,
-   "near_hr": 1.25
+   "near_hr": 0.0
   },
-  "intensity": 0.667,
-  "expectancy_score": 43.0,
-  "last_appearance": "2026-08-17"
+  "intensity": 0.0,
+  "expectancy_score": 10.0,
+  "last_appearance": "2026-08-19"
  },
  "days": [
+  {
+   "date": "2026-08-19",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 92.9,
+   "max_distance": 275.0,
+   "max_barrel_score": 43.1,
+   "temp_f": 75.0,
+   "wind_mph": 10.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-17",
    "bbe": 3,
@@ -54,6 +72,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823342,
+   "date": "2026-08-19",
+   "player_id": 694377,
+   "player_name": "Nick Yorke",
+   "team": "PIT",
+   "opponent": "DET",
+   "result": "Flyout",
+   "exit_velocity": 92.9,
+   "launch_angle": 51.0,
+   "hit_distance": 275.0,
+   "hc_x": 89.53,
+   "hc_y": 95.74,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "00472c18-f33a-39fd-b118-63fa0cf1ed0b",
+   "venue_id": 31,
+   "venue_name": "PNC Park",
+   "temp_f": 75.0,
+   "wind_mph": 10.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 43.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823343,
    "date": "2026-08-17",

@@ -2,20 +2,38 @@
  "player_id": 672284,
  "player_name": "Jarred Kelenic",
  "team": "TEX",
- "as_of": "2026-08-18",
+ "as_of": "2026-08-19",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 9.34,
+   "max_ev": 6.62,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.333,
   "expectancy_score": 10.0,
-  "last_appearance": "2026-08-15"
+  "last_appearance": "2026-08-19"
  },
  "days": [
+  {
+   "date": "2026-08-19",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 99.3,
+   "max_distance": 109.0,
+   "max_barrel_score": 39.9,
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-08-15",
    "bbe": 1,
@@ -90,6 +108,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822860,
+   "date": "2026-08-19",
+   "player_id": 672284,
+   "player_name": "Jarred Kelenic",
+   "team": "TEX",
+   "opponent": "WSH",
+   "result": "Groundout",
+   "exit_velocity": 99.3,
+   "launch_angle": 6.0,
+   "hit_distance": 109.0,
+   "hc_x": 148.52,
+   "hc_y": 153.74,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "a7712996-a68f-3b5f-a680-98c266e86930",
+   "venue_id": 5325,
+   "venue_name": "Globe Life Field",
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 39.9,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824966,
    "date": "2026-08-15",

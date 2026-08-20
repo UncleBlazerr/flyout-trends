@@ -2,20 +2,38 @@
  "player_id": 668939,
  "player_name": "Adley Rutschman",
  "team": "BOS",
- "as_of": "2026-08-18",
+ "as_of": "2026-08-19",
  "form": {
-  "streak": 0,
-  "frequency": 0.286,
+  "streak": 1,
+  "frequency": 0.429,
   "slopes": {
-   "max_ev": 4.657,
-   "parks_sum": 0.643,
-   "near_hr": 0.036
+   "max_ev": 4.089,
+   "parks_sum": 0.321,
+   "near_hr": 0.071
   },
-  "intensity": 0.417,
-  "expectancy_score": 21.1,
-  "last_appearance": "2026-08-18"
+  "intensity": 0.393,
+  "expectancy_score": 32.6,
+  "last_appearance": "2026-08-19"
  },
  "days": [
+  {
+   "date": "2026-08-19",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 95.8,
+   "max_distance": 321.0,
+   "max_barrel_score": 70.5,
+   "temp_f": 85.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-18",
    "bbe": 4,
@@ -144,6 +162,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824722,
+   "date": "2026-08-19",
+   "player_id": 668939,
+   "player_name": "Adley Rutschman",
+   "team": "BOS",
+   "opponent": "AZ",
+   "result": "Flyout",
+   "exit_velocity": 95.8,
+   "launch_angle": 24.0,
+   "hit_distance": 321.0,
+   "hc_x": 55.67,
+   "hc_y": 90.48,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "b07b9926-38a6-3232-9c70-cc6b112e4ff9",
+   "venue_id": 3,
+   "venue_name": "Fenway Park",
+   "temp_f": 85.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 70.5,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 824723,
    "date": "2026-08-18",

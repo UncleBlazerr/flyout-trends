@@ -2,20 +2,38 @@
  "player_id": 683766,
  "player_name": "Christian Koss",
  "team": "SF",
- "as_of": "2026-08-18",
+ "as_of": "2026-08-19",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.429,
   "slopes": {
-   "max_ev": 0.829,
-   "parks_sum": 1.143,
-   "near_hr": -0.063
+   "max_ev": -1.211,
+   "parks_sum": 0.571,
+   "near_hr": -0.223
   },
-  "intensity": 0.265,
-  "expectancy_score": 28.8,
-  "last_appearance": "2026-08-18"
+  "intensity": 0.063,
+  "expectancy_score": 14.8,
+  "last_appearance": "2026-08-19"
  },
  "days": [
+  {
+   "date": "2026-08-19",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 87.4,
+   "max_distance": 24.0,
+   "max_barrel_score": 17.1,
+   "temp_f": 77.0,
+   "wind_mph": 3.0,
+   "wind_dir": "none",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-18",
    "bbe": 1,
@@ -360,6 +378,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824394,
+   "date": "2026-08-19",
+   "player_id": 683766,
+   "player_name": "Christian Koss",
+   "team": "SF",
+   "opponent": "CLE",
+   "result": "Groundout",
+   "exit_velocity": 87.4,
+   "launch_angle": -6.0,
+   "hit_distance": 24.0,
+   "hc_x": 97.18,
+   "hc_y": 156.98,
+   "would_be_hr_count": 0,
+   "inning": 5,
+   "play_id": "9925c927-f5d7-3cf6-85a4-5647fe06bc09",
+   "venue_id": 5,
+   "venue_name": "Progressive Field",
+   "temp_f": 77.0,
+   "wind_mph": 3.0,
+   "wind_dir": "none",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 17.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824398,
    "date": "2026-08-18",

@@ -2,20 +2,38 @@
  "player_id": 682987,
  "player_name": "Spencer Jones",
  "team": "NYY",
- "as_of": "2026-08-18",
+ "as_of": "2026-08-19",
  "form": {
   "streak": 0,
   "frequency": 0.429,
   "slopes": {
-   "max_ev": -0.921,
+   "max_ev": -2.768,
    "parks_sum": 0.0,
-   "near_hr": -0.214
+   "near_hr": -0.384
   },
   "intensity": 0.0,
   "expectancy_score": 12.9,
-  "last_appearance": "2026-08-18"
+  "last_appearance": "2026-08-19"
  },
  "days": [
+  {
+   "date": "2026-08-19",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 82.1,
+   "max_distance": 10.0,
+   "max_barrel_score": 11.4,
+   "temp_f": 86.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-18",
    "bbe": 2,
@@ -396,6 +414,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824801,
+   "date": "2026-08-19",
+   "player_id": 682987,
+   "player_name": "Spencer Jones",
+   "team": "NYY",
+   "opponent": "BAL",
+   "result": "Single",
+   "exit_velocity": 82.1,
+   "launch_angle": -17.0,
+   "hit_distance": 10.0,
+   "hc_x": 169.04,
+   "hc_y": 118.24,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "82b453ae-761a-33f9-b477-f5a2362cf403",
+   "venue_id": 2,
+   "venue_name": "Oriole Park at Camden Yards",
+   "temp_f": 86.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 11.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824803,
    "date": "2026-08-18",
