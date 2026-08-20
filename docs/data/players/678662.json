@@ -7,15 +7,33 @@
   "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": -0.239,
-   "parks_sum": -0.714,
-   "near_hr": -0.018
+   "max_ev": -1.857,
+   "parks_sum": -1.071,
+   "near_hr": -0.098
   },
   "intensity": 0.0,
   "expectancy_score": 8.6,
-  "last_appearance": "2026-08-18"
+  "last_appearance": "2026-08-19"
  },
  "days": [
+  {
+   "date": "2026-08-19",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 103.2,
+   "max_distance": 45.0,
+   "max_barrel_score": 32.5,
+   "temp_f": 89.0,
+   "wind_mph": 7.0,
+   "wind_dir": "in",
+   "weather_condition": "Cloudy"
+  },
   {
    "date": "2026-08-18",
    "bbe": 1,
@@ -378,6 +396,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824318,
+   "date": "2026-08-19",
+   "player_id": 678662,
+   "player_name": "Ezequiel Tovar",
+   "team": "COL",
+   "opponent": "LAD",
+   "result": "Groundout",
+   "exit_velocity": 103.2,
+   "launch_angle": -1.0,
+   "hit_distance": 45.0,
+   "hc_x": 108.74,
+   "hc_y": 153.2,
+   "would_be_hr_count": 0,
+   "inning": 3,
+   "play_id": "1d13dc2c-f4d6-363c-8649-be727341a03f",
+   "venue_id": 19,
+   "venue_name": "Coors Field",
+   "temp_f": 89.0,
+   "wind_mph": 7.0,
+   "wind_dir": "in",
+   "weather_condition": "Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 32.5,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824319,
    "date": "2026-08-18",

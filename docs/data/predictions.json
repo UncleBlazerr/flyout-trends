@@ -60,6 +60,31 @@
    "repeat": true
   },
   {
+   "player_id": 518692,
+   "player_name": "Freddie Freeman",
+   "team": "LAD",
+   "expectancy_score": 50.6,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 2.996,
+    "parks_sum": 2.786,
+    "near_hr": 0.241
+   },
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 103.3,
+   "max_distance_7d": 392,
+   "band": "40-60",
+   "band_rate": 0.242,
+   "band_samples": 302,
+   "weather_factor": 1.0,
+   "adjusted_score": 50.6,
+   "game_weather": null,
+   "repeat": false
+  },
+  {
    "player_id": 802139,
    "player_name": "JJ Wetherholt",
    "team": "STL",
@@ -232,31 +257,6 @@
     "weather_condition": ""
    },
    "repeat": false
-  },
-  {
-   "player_id": 606192,
-   "player_name": "Teoscar Hern\u00e1ndez",
-   "team": "LAD",
-   "expectancy_score": 37.7,
-   "streak": 2,
-   "frequency": 0.286,
-   "slopes": {
-    "max_ev": -0.218,
-    "parks_sum": 5.5,
-    "near_hr": 0.312
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 107.6,
-   "max_distance_7d": 420,
-   "band": "<40",
-   "band_rate": 0.206,
-   "band_samples": 10140,
-   "weather_factor": 1.0,
-   "adjusted_score": 37.7,
-   "game_weather": null,
-   "repeat": true
   },
   {
    "player_id": 683953,
@@ -442,7 +442,7 @@
  "bands": {
   "<40": {
    "samples": 10140,
-   "hr_followed": 2085,
+   "hr_followed": 2087,
    "rate": 0.206
   },
   "40-60": {
