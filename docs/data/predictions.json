@@ -48,14 +48,14 @@
    "band": "40-60",
    "band_rate": 0.242,
    "band_samples": 302,
-   "weather_factor": 1.0,
-   "adjusted_score": 56.9,
+   "weather_factor": 0.995,
+   "adjusted_score": 56.6,
    "game_weather": {
     "venue_name": "Kauffman Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 79.0,
+    "wind_mph": 5.0,
+    "wind_dir": "in",
+    "weather_condition": "Sunny"
    },
    "repeat": true
   },
@@ -104,14 +104,14 @@
    "band": "40-60",
    "band_rate": 0.242,
    "band_samples": 302,
-   "weather_factor": 1.0,
-   "adjusted_score": 45.6,
+   "weather_factor": 1.02,
+   "adjusted_score": 46.5,
    "game_weather": {
     "venue_name": "Great American Ball Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 75.0,
+    "wind_mph": 3.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": true
   },
@@ -216,14 +216,14 @@
    "band": "<40",
    "band_rate": 0.206,
    "band_samples": 10140,
-   "weather_factor": 1.0,
-   "adjusted_score": 39.9,
+   "weather_factor": 0.995,
+   "adjusted_score": 39.7,
    "game_weather": {
     "venue_name": "Kauffman Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 79.0,
+    "wind_mph": 5.0,
+    "wind_dir": "in",
+    "weather_condition": "Sunny"
    },
    "repeat": false
   },
@@ -251,41 +251,10 @@
    "adjusted_score": 39.5,
    "game_weather": {
     "venue_name": "American Family Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 683953,
-   "player_name": "Travis Bazzana",
-   "team": "CLE",
-   "expectancy_score": 35.8,
-   "streak": 2,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 1.05,
-    "parks_sum": -0.964,
-    "near_hr": 0.17
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 104.5,
-   "max_distance_7d": 379,
-   "band": "<40",
-   "band_rate": 0.206,
-   "band_samples": 10140,
-   "weather_factor": 1.0,
-   "adjusted_score": 35.8,
-   "game_weather": {
-    "venue_name": "Progressive Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": false
   },
@@ -309,14 +278,76 @@
    "band": "<40",
    "band_rate": 0.206,
    "band_samples": 10140,
-   "weather_factor": 1.0,
-   "adjusted_score": 35.3,
+   "weather_factor": 1.02,
+   "adjusted_score": 36.0,
    "game_weather": {
     "venue_name": "Great American Ball Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 75.0,
+    "wind_mph": 3.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 683953,
+   "player_name": "Travis Bazzana",
+   "team": "CLE",
+   "expectancy_score": 35.8,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 1.05,
+    "parks_sum": -0.964,
+    "near_hr": 0.17
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 104.5,
+   "max_distance_7d": 379,
+   "band": "<40",
+   "band_rate": 0.206,
+   "band_samples": 10140,
+   "weather_factor": 0.97,
+   "adjusted_score": 34.7,
+   "game_weather": {
+    "venue_name": "Progressive Field",
+    "temp_f": 77.0,
+    "wind_mph": 7.0,
+    "wind_dir": "in",
+    "weather_condition": "Overcast"
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 682829,
+   "player_name": "Elly De La Cruz",
+   "team": "CIN",
+   "expectancy_score": 33.4,
+   "streak": 1,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 2.468,
+    "parks_sum": 0.0,
+    "near_hr": 0.25
+   },
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 110.9,
+   "max_distance_7d": 385,
+   "band": "<40",
+   "band_rate": 0.206,
+   "band_samples": 10140,
+   "weather_factor": 1.02,
+   "adjusted_score": 34.1,
+   "game_weather": {
+    "venue_name": "Great American Ball Park",
+    "temp_f": 75.0,
+    "wind_mph": 3.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   },
@@ -352,68 +383,6 @@
    "repeat": false
   },
   {
-   "player_id": 682829,
-   "player_name": "Elly De La Cruz",
-   "team": "CIN",
-   "expectancy_score": 33.4,
-   "streak": 1,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 2.468,
-    "parks_sum": 0.0,
-    "near_hr": 0.25
-   },
-   "near_hr_7d": 4,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 110.9,
-   "max_distance_7d": 385,
-   "band": "<40",
-   "band_rate": 0.206,
-   "band_samples": 10140,
-   "weather_factor": 1.0,
-   "adjusted_score": 33.4,
-   "game_weather": {
-    "venue_name": "Great American Ball Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 641680,
-   "player_name": "Jonah Heim",
-   "team": "ATH",
-   "expectancy_score": 33.1,
-   "streak": 2,
-   "frequency": 0.571,
-   "slopes": {
-    "max_ev": -0.168,
-    "parks_sum": 0.0,
-    "near_hr": -0.036
-   },
-   "near_hr_7d": 6,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 101.0,
-   "max_distance_7d": 369,
-   "band": "<40",
-   "band_rate": 0.206,
-   "band_samples": 10140,
-   "weather_factor": 1.0,
-   "adjusted_score": 33.1,
-   "game_weather": {
-    "venue_name": "Kauffman Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
    "player_id": 664761,
    "player_name": "Alec Bohm",
    "team": "PHI",
@@ -436,6 +405,37 @@
    "weather_factor": 1.0,
    "adjusted_score": 33.1,
    "game_weather": null,
+   "repeat": false
+  },
+  {
+   "player_id": 641680,
+   "player_name": "Jonah Heim",
+   "team": "ATH",
+   "expectancy_score": 33.1,
+   "streak": 2,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": -0.168,
+    "parks_sum": 0.0,
+    "near_hr": -0.036
+   },
+   "near_hr_7d": 6,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 101.0,
+   "max_distance_7d": 369,
+   "band": "<40",
+   "band_rate": 0.206,
+   "band_samples": 10140,
+   "weather_factor": 0.995,
+   "adjusted_score": 32.9,
+   "game_weather": {
+    "venue_name": "Kauffman Stadium",
+    "temp_f": 79.0,
+    "wind_mph": 5.0,
+    "wind_dir": "in",
+    "weather_condition": "Sunny"
+   },
    "repeat": false
   }
  ],
