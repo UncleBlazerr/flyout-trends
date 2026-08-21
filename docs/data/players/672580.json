@@ -2,20 +2,38 @@
  "player_id": 672580,
  "player_name": "Maikel Garcia",
  "team": "KC",
- "as_of": "2026-08-19",
+ "as_of": "2026-08-20",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 1.15,
+   "max_ev": -6.35,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.192,
-  "expectancy_score": 5.8,
-  "last_appearance": "2026-08-19"
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-08-20"
  },
  "days": [
+  {
+   "date": "2026-08-20",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 73.5,
+   "max_distance": 240.0,
+   "max_barrel_score": 45.3,
+   "temp_f": 80.0,
+   "wind_mph": 3.0,
+   "wind_dir": "in",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-08-19",
    "bbe": 5,
@@ -72,6 +90,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824074,
+   "date": "2026-08-20",
+   "player_id": 672580,
+   "player_name": "Maikel Garcia",
+   "team": "KC",
+   "opponent": "ATH",
+   "result": "Double",
+   "exit_velocity": 73.5,
+   "launch_angle": 24.0,
+   "hit_distance": 240.0,
+   "hc_x": 42.77,
+   "hc_y": 125.36,
+   "would_be_hr_count": 0,
+   "inning": 1,
+   "play_id": "ce89cc85-4312-3021-bf62-3fcbb873bd89",
+   "venue_id": 7,
+   "venue_name": "Kauffman Stadium",
+   "temp_f": 80.0,
+   "wind_mph": 3.0,
+   "wind_dir": "in",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 45.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824076,
    "date": "2026-08-19",

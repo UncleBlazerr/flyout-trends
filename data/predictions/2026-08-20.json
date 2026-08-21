@@ -1,7 +1,59 @@
 {
+ "schema_version": 2,
+ "generated_at": "2026-08-21T03:47:21.705787+00:00",
  "as_of": "2026-08-20",
- "horizon_days": 3,
- "min_samples": 20,
+ "config": {
+  "min_near_hr_events": 1,
+  "max_gap_days": 2,
+  "slope_window": 7,
+  "streak_cap": 5,
+  "weights": {
+   "streak": 0.4,
+   "frequency": 0.3,
+   "intensity": 0.3
+  },
+  "intensity_scales": {
+   "max_ev": 2.0,
+   "parks_sum": 3.0,
+   "near_hr": 1.0
+  },
+  "xbh_weight": 1.25,
+  "horizon_days": 3,
+  "score_bands": [
+   40,
+   60,
+   80
+  ],
+  "min_samples": 20,
+  "top_n": 15,
+  "consistency_top_n": 15,
+  "records_dir": "data/predictions",
+  "weather": {
+   "enabled": true,
+   "temp_ref_f": 70,
+   "temp_per_deg": 0.004,
+   "wind_out_min_mph": 5,
+   "wind_out_per_mph": 0.012,
+   "wind_out_cap_mph": 20,
+   "wind_in_min_mph": 5,
+   "wind_in_per_mph": 0.008,
+   "wind_in_cap_mph": 20,
+   "clamp": [
+    0.85,
+    1.2
+   ],
+   "neutral_conditions": [
+    "Dome",
+    "Roof Closed"
+   ],
+   "temp_bands": [
+    55,
+    70,
+    85
+   ],
+   "min_samples": 25
+  }
+ },
  "players": [
   {
    "player_id": 805808,
@@ -467,67 +519,6 @@
     "weather_condition": ""
    },
    "repeat": true
-  }
- ],
- "bands": {
-  "<40": {
-   "samples": 10337,
-   "hr_followed": 2120,
-   "rate": 0.205
-  },
-  "40-60": {
-   "samples": 306,
-   "hr_followed": 73,
-   "rate": 0.239
-  },
-  "60-80": {
-   "samples": 24,
-   "hr_followed": 5,
-   "rate": 0.208
-  }
- },
- "hit_rate": {
-  "resolved_records": 44,
-  "horizon_days": 3,
-  "overall": {
-   "flagged": 660,
-   "hr_followed": 127,
-   "rate": 0.192
-  },
-  "top_band": {
-   "band": "80+",
-   "flagged": 0,
-   "hr_followed": 0,
-   "rate": null
-  }
- },
- "recent_hits": [
-  {
-   "player_id": 687263,
-   "player_name": "Zach Neto",
-   "team": "LAA",
-   "flagged_on": "2026-08-18",
-   "flagged_score": 34.8,
-   "hr_on": "2026-08-20",
-   "hr_count": 1
-  },
-  {
-   "player_id": 686469,
-   "player_name": "Vinnie Pasquantino",
-   "team": "KC",
-   "flagged_on": "2026-08-18",
-   "flagged_score": 36.5,
-   "hr_on": "2026-08-19",
-   "hr_count": 1
-  },
-  {
-   "player_id": 666176,
-   "player_name": "Jo Adell",
-   "team": "CLE",
-   "flagged_on": "2026-08-17",
-   "flagged_score": 49.5,
-   "hr_on": "2026-08-18",
-   "hr_count": 1
   }
  ]
 }

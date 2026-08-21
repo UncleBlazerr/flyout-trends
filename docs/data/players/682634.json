@@ -2,9 +2,9 @@
  "player_id": 682634,
  "player_name": "Kevin Alc\u00e1ntara",
  "team": "CHC",
- "as_of": "2026-08-19",
+ "as_of": "2026-08-20",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.5,
   "slopes": {
    "max_ev": -0.8,
@@ -12,7 +12,7 @@
    "near_hr": 1.0
   },
   "intensity": 0.333,
-  "expectancy_score": 33.0,
+  "expectancy_score": 25.0,
   "last_appearance": "2026-08-17"
  },
  "days": [
