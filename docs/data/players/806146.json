@@ -2,20 +2,38 @@
  "player_id": 806146,
  "player_name": "George Lombard Jr.",
  "team": "NYY",
- "as_of": "2026-08-20",
+ "as_of": "2026-08-21",
  "form": {
   "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": 3.079,
-   "parks_sum": 0.0,
-   "near_hr": 0.071
+   "max_ev": 0.425,
+   "parks_sum": -0.107,
+   "near_hr": -0.009
   },
-  "intensity": 0.357,
-  "expectancy_score": 19.3,
-  "last_appearance": "2026-08-20"
+  "intensity": 0.071,
+  "expectancy_score": 10.7,
+  "last_appearance": "2026-08-21"
  },
  "days": [
+  {
+   "date": "2026-08-21",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 86.3,
+   "max_distance": 250.0,
+   "max_barrel_score": 53.0,
+   "temp_f": 75.0,
+   "wind_mph": 8.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-20",
    "bbe": 2,
@@ -270,6 +288,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823510,
+   "date": "2026-08-21",
+   "player_id": 806146,
+   "player_name": "George Lombard Jr.",
+   "team": "NYY",
+   "opponent": "TOR",
+   "result": "Single",
+   "exit_velocity": 86.3,
+   "launch_angle": 20.0,
+   "hit_distance": 250.0,
+   "hc_x": 195.37,
+   "hc_y": 112.43,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "566fda20-c7f9-3f20-915f-2c68a86ccde3",
+   "venue_id": 3313,
+   "venue_name": "Yankee Stadium",
+   "temp_f": 75.0,
+   "wind_mph": 8.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 53.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824802,
    "date": "2026-08-20",

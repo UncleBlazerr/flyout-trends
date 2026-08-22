@@ -2,9 +2,9 @@
  "player_id": 671083,
  "player_name": "Buddy Kennedy",
  "team": "SF",
- "as_of": "2026-08-20",
+ "as_of": "2026-08-21",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.5,
   "slopes": {
    "max_ev": 2.031,
@@ -12,7 +12,7 @@
    "near_hr": 0.086
   },
   "intensity": 0.362,
-  "expectancy_score": 33.9,
+  "expectancy_score": 25.9,
   "last_appearance": "2026-08-18"
  },
  "days": [

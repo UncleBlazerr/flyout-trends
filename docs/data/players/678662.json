@@ -2,20 +2,38 @@
  "player_id": 678662,
  "player_name": "Ezequiel Tovar",
  "team": "COL",
- "as_of": "2026-08-20",
+ "as_of": "2026-08-21",
  "form": {
   "streak": 0,
-  "frequency": 0.286,
+  "frequency": 0.143,
   "slopes": {
-   "max_ev": -1.857,
-   "parks_sum": -1.071,
-   "near_hr": -0.098
+   "max_ev": -5.336,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
   },
   "intensity": 0.0,
-  "expectancy_score": 8.6,
-  "last_appearance": "2026-08-19"
+  "expectancy_score": 4.3,
+  "last_appearance": "2026-08-21"
  },
  "days": [
+  {
+   "date": "2026-08-21",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 54.1,
+   "max_distance": 133.0,
+   "max_barrel_score": 34.0,
+   "temp_f": 88.0,
+   "wind_mph": 5.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-19",
    "bbe": 1,
@@ -378,6 +396,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824317,
+   "date": "2026-08-21",
+   "player_id": 678662,
+   "player_name": "Ezequiel Tovar",
+   "team": "COL",
+   "opponent": "CLE",
+   "result": "Groundout",
+   "exit_velocity": 54.1,
+   "launch_angle": 23.0,
+   "hit_distance": 133.0,
+   "hc_x": 134.1,
+   "hc_y": 136.7,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "d5094e10-49ac-3ac4-b11f-6ec2b66a6d28",
+   "venue_id": 19,
+   "venue_name": "Coors Field",
+   "temp_f": 88.0,
+   "wind_mph": 5.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 34.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824318,
    "date": "2026-08-19",
