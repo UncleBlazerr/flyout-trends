@@ -7,15 +7,33 @@
   "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": -0.089,
-   "parks_sum": 0.5,
-   "near_hr": 0.107
+   "max_ev": 0.811,
+   "parks_sum": 0.25,
+   "near_hr": 0.036
   },
-  "intensity": 0.091,
-  "expectancy_score": 11.3,
-  "last_appearance": "2026-08-17"
+  "intensity": 0.175,
+  "expectancy_score": 13.8,
+  "last_appearance": "2026-08-21"
  },
  "days": [
+  {
+   "date": "2026-08-21",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 93.3,
+   "max_distance": 101.0,
+   "max_barrel_score": 34.0,
+   "temp_f": 83.0,
+   "wind_mph": 2.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-08-17",
    "bbe": 2,
@@ -288,6 +306,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823911,
+   "date": "2026-08-21",
+   "player_id": 680779,
+   "player_name": "Henry Davis",
+   "team": "PIT",
+   "opponent": "LAD",
+   "result": "GIDP",
+   "exit_velocity": 93.3,
+   "launch_angle": 6.0,
+   "hit_distance": 101.0,
+   "hc_x": 108.34,
+   "hc_y": 152.33,
+   "would_be_hr_count": 0,
+   "inning": 10,
+   "play_id": "d9823ada-4cef-37d5-b146-98f19acaf5ef",
+   "venue_id": 22,
+   "venue_name": "UNIQLO Field at Dodger Stadium",
+   "temp_f": 83.0,
+   "wind_mph": 2.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 34.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823343,
    "date": "2026-08-17",

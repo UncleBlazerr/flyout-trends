@@ -37,19 +37,9 @@
    "team": "MIN",
    "record_streak": 3,
    "total_flags": 8,
-   "avg_score": 47.0,
-   "current_score": 41.0,
-   "game_streak": 2
-  },
-  {
-   "player_id": 608324,
-   "player_name": "Alex Bregman",
-   "team": "CHC",
-   "record_streak": 3,
-   "total_flags": 6,
-   "avg_score": 41.8,
-   "current_score": 40.6,
-   "game_streak": 2
+   "avg_score": 48.9,
+   "current_score": 56.1,
+   "game_streak": 3
   },
   {
    "player_id": 518692,
@@ -57,19 +47,9 @@
    "team": "LAD",
    "record_streak": 3,
    "total_flags": 3,
-   "avg_score": 50.6,
-   "current_score": 50.6,
-   "game_streak": 2
-  },
-  {
-   "player_id": 677594,
-   "player_name": "Julio Rodr\u00edguez",
-   "team": "SEA",
-   "record_streak": 2,
-   "total_flags": 4,
-   "avg_score": 45.0,
-   "current_score": 44.6,
-   "game_streak": 2
+   "avg_score": 52.9,
+   "current_score": 57.5,
+   "game_streak": 3
   },
   {
    "player_id": 687263,
@@ -82,14 +62,24 @@
    "game_streak": 2
   },
   {
-   "player_id": 680574,
-   "player_name": "Matt McLain",
-   "team": "CIN",
-   "record_streak": 2,
-   "total_flags": 3,
-   "avg_score": 45.4,
-   "current_score": 47.4,
-   "game_streak": 3
+   "player_id": 694374,
+   "player_name": "Tim Tawa",
+   "team": "AZ",
+   "record_streak": 1,
+   "total_flags": 8,
+   "avg_score": 48.0,
+   "current_score": 35.0,
+   "game_streak": 2
+  },
+  {
+   "player_id": 672515,
+   "player_name": "Gabriel Moreno",
+   "team": "AZ",
+   "record_streak": 1,
+   "total_flags": 7,
+   "avg_score": 40.2,
+   "current_score": 36.8,
+   "game_streak": 2
   },
   {
    "player_id": 671739,
@@ -99,6 +89,16 @@
    "total_flags": 4,
    "avg_score": 40.4,
    "current_score": 40.6,
+   "game_streak": 2
+  },
+  {
+   "player_id": 668804,
+   "player_name": "Bryan Reynolds",
+   "team": "PIT",
+   "record_streak": 1,
+   "total_flags": 3,
+   "avg_score": 35.6,
+   "current_score": 35.8,
    "game_streak": 2
   },
   {

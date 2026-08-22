@@ -4,18 +4,36 @@
  "team": "SD",
  "as_of": "2026-08-21",
  "form": {
-  "streak": 0,
-  "frequency": 0.286,
+  "streak": 1,
+  "frequency": 0.429,
   "slopes": {
-   "max_ev": -1.593,
-   "parks_sum": 0.071,
+   "max_ev": -1.204,
+   "parks_sum": 0.036,
    "near_hr": 0.071
   },
-  "intensity": 0.032,
-  "expectancy_score": 9.5,
-  "last_appearance": "2026-08-19"
+  "intensity": 0.028,
+  "expectancy_score": 21.7,
+  "last_appearance": "2026-08-21"
  },
  "days": [
+  {
+   "date": "2026-08-21",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 95.6,
+   "max_distance": 334.0,
+   "max_barrel_score": 70.1,
+   "temp_f": 79.0,
+   "wind_mph": 6.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-19",
    "bbe": 2,
@@ -468,6 +486,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823262,
+   "date": "2026-08-21",
+   "player_id": 701538,
+   "player_name": "Jackson Merrill",
+   "team": "SD",
+   "opponent": "MIN",
+   "result": "Lineout",
+   "exit_velocity": 95.6,
+   "launch_angle": 23.0,
+   "hit_distance": 334.0,
+   "hc_x": 172.23,
+   "hc_y": 72.82,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "6c4b672c-9b1b-3754-a3a5-c1aac8cbca62",
+   "venue_id": 2680,
+   "venue_name": "Petco Park",
+   "temp_f": 79.0,
+   "wind_mph": 6.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 70.1,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 823587,
    "date": "2026-08-19",

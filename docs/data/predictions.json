@@ -69,26 +69,57 @@
    "player_id": 518692,
    "player_name": "Freddie Freeman",
    "team": "LAD",
-   "expectancy_score": 50.6,
-   "streak": 2,
-   "frequency": 0.429,
+   "expectancy_score": 57.5,
+   "streak": 3,
+   "frequency": 0.571,
    "slopes": {
-    "max_ev": 2.996,
-    "parks_sum": 2.786,
-    "near_hr": 0.241
+    "max_ev": 1.643,
+    "parks_sum": 1.857,
+    "near_hr": 0.196
    },
-   "near_hr_7d": 3,
+   "near_hr_7d": 4,
    "near_hr_xbh_7d": 1,
    "hr_7d": 0,
-   "max_ev_7d": 103.3,
+   "max_ev_7d": 105.8,
    "max_distance_7d": 392,
    "band": "40-60",
    "band_rate": 0.237,
    "band_samples": 308,
    "weather_factor": 1.0,
-   "adjusted_score": 50.6,
+   "adjusted_score": 57.5,
    "game_weather": {
     "venue_name": "UNIQLO Field at Dodger Stadium",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 665019,
+   "player_name": "Kody Clemens",
+   "team": "MIN",
+   "expectancy_score": 56.1,
+   "streak": 3,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 2.3,
+    "parks_sum": 2.0,
+    "near_hr": 0.259
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 1,
+   "max_ev_7d": 104.9,
+   "max_distance_7d": 400,
+   "band": "40-60",
+   "band_rate": 0.237,
+   "band_samples": 308,
+   "weather_factor": 1.0,
+   "adjusted_score": 56.1,
+   "game_weather": {
+    "venue_name": "Petco Park",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -128,37 +159,6 @@
    "repeat": true
   },
   {
-   "player_id": 680574,
-   "player_name": "Matt McLain",
-   "team": "CIN",
-   "expectancy_score": 47.4,
-   "streak": 3,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 1.571,
-    "parks_sum": 0.0,
-    "near_hr": 0.268
-   },
-   "near_hr_7d": 4,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 2,
-   "max_ev_7d": 107.4,
-   "max_distance_7d": 383,
-   "band": "40-60",
-   "band_rate": 0.237,
-   "band_samples": 308,
-   "weather_factor": 1.0,
-   "adjusted_score": 47.4,
-   "game_weather": {
-    "venue_name": "Chase Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
    "player_id": 664761,
    "player_name": "Alec Bohm",
    "team": "PHI",
@@ -182,99 +182,6 @@
    "adjusted_score": 45.8,
    "game_weather": {
     "venue_name": "Citizens Bank Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
-   "player_id": 677594,
-   "player_name": "Julio Rodr\u00edguez",
-   "team": "SEA",
-   "expectancy_score": 44.6,
-   "streak": 2,
-   "frequency": 0.571,
-   "slopes": {
-    "max_ev": 2.018,
-    "parks_sum": 0.0,
-    "near_hr": 0.143
-   },
-   "near_hr_7d": 5,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 111.5,
-   "max_distance_7d": 413,
-   "band": "40-60",
-   "band_rate": 0.237,
-   "band_samples": 308,
-   "weather_factor": 1.0,
-   "adjusted_score": 44.6,
-   "game_weather": {
-    "venue_name": "T-Mobile Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
-   "player_id": 665019,
-   "player_name": "Kody Clemens",
-   "team": "MIN",
-   "expectancy_score": 41.0,
-   "streak": 2,
-   "frequency": 0.286,
-   "slopes": {
-    "max_ev": 2.561,
-    "parks_sum": 1.321,
-    "near_hr": 0.205
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 1,
-   "max_ev_7d": 104.9,
-   "max_distance_7d": 400,
-   "band": "40-60",
-   "band_rate": 0.237,
-   "band_samples": 308,
-   "weather_factor": 1.0,
-   "adjusted_score": 41.0,
-   "game_weather": {
-    "venue_name": "Petco Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
-   "player_id": 608324,
-   "player_name": "Alex Bregman",
-   "team": "CHC",
-   "expectancy_score": 40.6,
-   "streak": 2,
-   "frequency": 0.714,
-   "slopes": {
-    "max_ev": 0.568,
-    "parks_sum": 0.0,
-    "near_hr": 0.036
-   },
-   "near_hr_7d": 4,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 101.5,
-   "max_distance_7d": 368,
-   "band": "40-60",
-   "band_rate": 0.237,
-   "band_samples": 308,
-   "weather_factor": 1.0,
-   "adjusted_score": 40.6,
-   "game_weather": {
-    "venue_name": "T-Mobile Park",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -331,12 +238,43 @@
    "max_ev_7d": 101.6,
    "max_distance_7d": 360,
    "band": "<40",
-   "band_rate": 0.203,
+   "band_rate": 0.204,
    "band_samples": 10622,
    "weather_factor": 1.0,
    "adjusted_score": 39.3,
    "game_weather": {
     "venue_name": "Citizens Bank Park",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 672515,
+   "player_name": "Gabriel Moreno",
+   "team": "AZ",
+   "expectancy_score": 36.8,
+   "streak": 2,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": 0.561,
+    "parks_sum": 0.25,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 2,
+   "max_ev_7d": 107.4,
+   "max_distance_7d": 428,
+   "band": "<40",
+   "band_rate": 0.204,
+   "band_samples": 10622,
+   "weather_factor": 1.0,
+   "adjusted_score": 36.8,
+   "game_weather": {
+    "venue_name": "Chase Field",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -362,12 +300,43 @@
    "max_ev_7d": 106.2,
    "max_distance_7d": 418,
    "band": "<40",
-   "band_rate": 0.203,
+   "band_rate": 0.204,
    "band_samples": 10622,
    "weather_factor": 1.0,
    "adjusted_score": 36.1,
    "game_weather": {
     "venue_name": "Coors Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 668804,
+   "player_name": "Bryan Reynolds",
+   "team": "PIT",
+   "expectancy_score": 35.8,
+   "streak": 2,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": 0.032,
+    "parks_sum": 0.679,
+    "near_hr": 0.027
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 0,
+   "max_ev_7d": 113.2,
+   "max_distance_7d": 383,
+   "band": "<40",
+   "band_rate": 0.204,
+   "band_samples": 10622,
+   "weather_factor": 1.0,
+   "adjusted_score": 35.8,
+   "game_weather": {
+    "venue_name": "UNIQLO Field at Dodger Stadium",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -393,12 +362,43 @@
    "max_ev_7d": 107.4,
    "max_distance_7d": 383,
    "band": "<40",
-   "band_rate": 0.203,
+   "band_rate": 0.204,
    "band_samples": 10622,
    "weather_factor": 1.0,
    "adjusted_score": 35.2,
    "game_weather": {
     "venue_name": "Globe Life Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 694374,
+   "player_name": "Tim Tawa",
+   "team": "AZ",
+   "expectancy_score": 35.0,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": -0.154,
+    "parks_sum": 0.786,
+    "near_hr": 0.348
+   },
+   "near_hr_7d": 5,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 0,
+   "max_ev_7d": 106.0,
+   "max_distance_7d": 398,
+   "band": "<40",
+   "band_rate": 0.204,
+   "band_samples": 10622,
+   "weather_factor": 1.0,
+   "adjusted_score": 35.0,
+   "game_weather": {
+    "venue_name": "Chase Field",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -424,7 +424,7 @@
    "max_ev_7d": 103.0,
    "max_distance_7d": 401,
    "band": "<40",
-   "band_rate": 0.203,
+   "band_rate": 0.204,
    "band_samples": 10622,
    "weather_factor": 1.0,
    "adjusted_score": 32.6,
@@ -455,7 +455,7 @@
    "max_ev_7d": 100.5,
    "max_distance_7d": 393,
    "band": "<40",
-   "band_rate": 0.203,
+   "band_rate": 0.204,
    "band_samples": 10622,
    "weather_factor": 1.0,
    "adjusted_score": 32.3,
@@ -472,8 +472,8 @@
  "bands": {
   "<40": {
    "samples": 10622,
-   "hr_followed": 2160,
-   "rate": 0.203
+   "hr_followed": 2167,
+   "rate": 0.204
   },
   "40-60": {
    "samples": 308,
@@ -510,6 +510,15 @@
    "flagged_score": 56.9,
    "hr_on": "2026-08-21",
    "hr_count": 1
+  },
+  {
+   "player_id": 608324,
+   "player_name": "Alex Bregman",
+   "team": "CHC",
+   "flagged_on": "2026-08-20",
+   "flagged_score": 40.6,
+   "hr_on": "2026-08-21",
+   "hr_count": 2
   },
   {
    "player_id": 687263,

@@ -5,17 +5,35 @@
  "as_of": "2026-08-21",
  "form": {
   "streak": 0,
-  "frequency": 0.167,
+  "frequency": 0.143,
   "slopes": {
-   "max_ev": 7.371,
+   "max_ev": -1.3,
    "parks_sum": 0.0,
-   "near_hr": 0.036
+   "near_hr": 0.0
   },
-  "intensity": 0.345,
-  "expectancy_score": 15.4,
-  "last_appearance": "2026-08-18"
+  "intensity": 0.0,
+  "expectancy_score": 4.3,
+  "last_appearance": "2026-08-21"
  },
  "days": [
+  {
+   "date": "2026-08-21",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 32.3,
+   "max_distance": 6.0,
+   "max_barrel_score": 0.4,
+   "temp_f": 78.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-18",
    "bbe": 2,
@@ -126,6 +144,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823101,
+   "date": "2026-08-21",
+   "player_id": 645302,
+   "player_name": "Victor Robles",
+   "team": "SEA",
+   "opponent": "CHC",
+   "result": "Sac Bunt",
+   "exit_velocity": 32.3,
+   "launch_angle": -35.0,
+   "hit_distance": 6.0,
+   "hc_x": 129.7,
+   "hc_y": 194.17,
+   "would_be_hr_count": 0,
+   "inning": 10,
+   "play_id": "49cd93f2-ed5c-35e6-b8b4-58d8469a588e",
+   "venue_id": 680,
+   "venue_name": "T-Mobile Park",
+   "temp_f": 78.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 0.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823749,
    "date": "2026-08-18",

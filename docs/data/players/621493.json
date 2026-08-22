@@ -4,18 +4,36 @@
  "team": "SEA",
  "as_of": "2026-08-21",
  "form": {
-  "streak": 0,
-  "frequency": 0.143,
+  "streak": 1,
+  "frequency": 0.286,
   "slopes": {
-   "max_ev": -1.911,
-   "parks_sum": 0.0,
-   "near_hr": 0.0
+   "max_ev": -1.096,
+   "parks_sum": -0.179,
+   "near_hr": 0.027
   },
-  "intensity": 0.0,
-  "expectancy_score": 4.3,
-  "last_appearance": "2026-08-19"
+  "intensity": 0.009,
+  "expectancy_score": 16.8,
+  "last_appearance": "2026-08-21"
  },
  "days": [
+  {
+   "date": "2026-08-21",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 1,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 92.2,
+   "max_distance": 359.0,
+   "max_barrel_score": 72.0,
+   "temp_f": 78.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-19",
    "bbe": 2,
@@ -324,6 +342,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823101,
+   "date": "2026-08-21",
+   "player_id": 621493,
+   "player_name": "Taylor Ward",
+   "team": "SEA",
+   "opponent": "CHC",
+   "result": "Flyout",
+   "exit_velocity": 92.2,
+   "launch_angle": 29.0,
+   "hit_distance": 359.0,
+   "hc_x": 124.84,
+   "hc_y": 54.46,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "0b71f1f7-c5d0-33ba-8791-b4666002bf0e",
+   "venue_id": 680,
+   "venue_name": "T-Mobile Park",
+   "temp_f": 78.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": true,
+   "would_be_hr_flag": false,
+   "barrel_score": 72.0,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 823748,
    "date": "2026-08-19",

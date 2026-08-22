@@ -7,15 +7,33 @@
   "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": 0.15,
+   "max_ev": -0.311,
    "parks_sum": 0.0,
-   "near_hr": 0.107
+   "near_hr": 0.036
   },
-  "intensity": 0.061,
-  "expectancy_score": 10.4,
-  "last_appearance": "2026-08-19"
+  "intensity": 0.012,
+  "expectancy_score": 8.9,
+  "last_appearance": "2026-08-21"
  },
  "days": [
+  {
+   "date": "2026-08-21",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 94.3,
+   "max_distance": 4.0,
+   "max_barrel_score": 21.9,
+   "temp_f": 79.0,
+   "wind_mph": 6.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-19",
    "bbe": 4,
@@ -180,6 +198,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823262,
+   "date": "2026-08-21",
+   "player_id": 701785,
+   "player_name": "Kaelen Culpepper",
+   "team": "MIN",
+   "opponent": "SD",
+   "result": "Groundout",
+   "exit_velocity": 94.3,
+   "launch_angle": -33.0,
+   "hit_distance": 4.0,
+   "hc_x": 125.49,
+   "hc_y": 203.06,
+   "would_be_hr_count": 0,
+   "inning": 3,
+   "play_id": "a7977b26-b2e4-3658-a096-ed386d1ae33e",
+   "venue_id": 2680,
+   "venue_name": "Petco Park",
+   "temp_f": 79.0,
+   "wind_mph": 6.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 21.9,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823664,
    "date": "2026-08-19",
