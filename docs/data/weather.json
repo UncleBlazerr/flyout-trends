@@ -25,12 +25,12 @@
    "temp_band": "55-70",
    "wind": "in",
    "player_days": 55,
-   "hr_days": 7,
-   "hr_total": 7,
+   "hr_days": 8,
+   "hr_total": 8,
    "near_hr_days": 15,
    "follow_samples": 11,
    "hr_followed": 4,
-   "hr_rate": 0.127,
+   "hr_rate": 0.145,
    "near_hr_rate": 0.273,
    "follow_rate": null
   },
@@ -68,10 +68,10 @@
    "hr_total": 180,
    "near_hr_days": 369,
    "follow_samples": 335,
-   "hr_followed": 70,
+   "hr_followed": 71,
    "hr_rate": 0.103,
    "near_hr_rate": 0.223,
-   "follow_rate": 0.209
+   "follow_rate": 0.212
   },
   {
    "temp_band": "70-85",

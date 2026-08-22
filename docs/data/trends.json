@@ -6207,6 +6207,56 @@
    "heating_up": false
   },
   {
+   "player_id": 575929,
+   "player_name": "Willson Contreras",
+   "team": "BOS",
+   "windows": {
+    "7": {
+     "bbe": 12,
+     "hr": 2,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "near_hr_any": 1,
+     "max_ev_near_hr": 112.7,
+     "avg_ev_near_hr": 112.7,
+     "max_barrel_score": 97.3,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    },
+    "14": {
+     "bbe": 29,
+     "hr": 3,
+     "near_hr_distance": 2,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 4,
+     "near_hr_any": 4,
+     "max_ev_near_hr": 112.7,
+     "avg_ev_near_hr": 104.0,
+     "max_barrel_score": 97.3,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    },
+    "30": {
+     "bbe": 46,
+     "hr": 4,
+     "near_hr_distance": 2,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 5,
+     "near_hr_any": 5,
+     "max_ev_near_hr": 114.9,
+     "avg_ev_near_hr": 106.2,
+     "max_barrel_score": 97.3,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    }
+   },
+   "heating_up": false
+  },
+  {
    "player_id": 700250,
    "player_name": "Ben Rice",
    "team": "NYY",
@@ -11549,56 +11599,6 @@
      "max_ev_near_hr": 99.4,
      "avg_ev_near_hr": 95.3,
      "max_barrel_score": 80.1,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    }
-   },
-   "heating_up": false
-  },
-  {
-   "player_id": 575929,
-   "player_name": "Willson Contreras",
-   "team": "BOS",
-   "windows": {
-    "7": {
-     "bbe": 11,
-     "hr": 1,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 1,
-     "near_hr_any": 1,
-     "max_ev_near_hr": 112.7,
-     "avg_ev_near_hr": 112.7,
-     "max_barrel_score": 70.4,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "14": {
-     "bbe": 28,
-     "hr": 2,
-     "near_hr_distance": 2,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 4,
-     "near_hr_any": 4,
-     "max_ev_near_hr": 112.7,
-     "avg_ev_near_hr": 104.0,
-     "max_barrel_score": 87.5,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "30": {
-     "bbe": 45,
-     "hr": 3,
-     "near_hr_distance": 2,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 5,
-     "near_hr_any": 5,
-     "max_ev_near_hr": 114.9,
-     "avg_ev_near_hr": 106.2,
-     "max_barrel_score": 87.5,
      "would_be_hr_parks_sum": 0,
      "parks_slope": 0.0,
      "trend_direction": "flat"

@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-08-22T10:19:40.148258+00:00",
+ "generated_at": "2026-08-22T16:31:47.091578+00:00",
  "as_of": "2026-08-21",
  "config": {
   "min_near_hr_events": 1,
@@ -211,6 +211,37 @@
    "repeat": true
   },
   {
+   "player_id": 671739,
+   "player_name": "Michael Harris II",
+   "team": "ATL",
+   "expectancy_score": 40.6,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 5.361,
+    "parks_sum": 0.0,
+    "near_hr": 0.179
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 110.0,
+   "max_distance_7d": 372,
+   "band": "40-60",
+   "band_rate": 0.237,
+   "band_samples": 308,
+   "weather_factor": 1.151,
+   "adjusted_score": 46.7,
+   "game_weather": {
+    "venue_name": "American Family Field",
+    "temp_f": 77.0,
+    "wind_mph": 10.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
+  },
+  {
    "player_id": 664761,
    "player_name": "Alec Bohm",
    "team": "PHI",
@@ -240,37 +271,6 @@
     "weather_condition": ""
    },
    "repeat": true
-  },
-  {
-   "player_id": 671739,
-   "player_name": "Michael Harris II",
-   "team": "ATL",
-   "expectancy_score": 40.6,
-   "streak": 2,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 5.361,
-    "parks_sum": 0.0,
-    "near_hr": 0.179
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 110.0,
-   "max_distance_7d": 372,
-   "band": "40-60",
-   "band_rate": 0.237,
-   "band_samples": 308,
-   "weather_factor": 1.0,
-   "adjusted_score": 40.6,
-   "game_weather": {
-    "venue_name": "American Family Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
   },
   {
    "player_id": 702222,
