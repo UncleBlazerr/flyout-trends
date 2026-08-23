@@ -2,20 +2,38 @@
  "player_id": 686475,
  "player_name": "Tyler Tolbert",
  "team": "KC",
- "as_of": "2026-08-21",
+ "as_of": "2026-08-22",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 0.904,
+   "max_ev": 0.007,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.151,
-  "expectancy_score": 4.5,
-  "last_appearance": "2026-08-20"
+  "intensity": 0.001,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-08-22"
  },
  "days": [
+  {
+   "date": "2026-08-22",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 93.1,
+   "max_distance": 13.0,
+   "max_barrel_score": 21.4,
+   "temp_f": 83.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-08-20",
    "bbe": 3,
@@ -252,6 +270,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824073,
+   "date": "2026-08-22",
+   "player_id": 686475,
+   "player_name": "Tyler Tolbert",
+   "team": "KC",
+   "opponent": "DET",
+   "result": "Groundout",
+   "exit_velocity": 93.1,
+   "launch_angle": -11.0,
+   "hit_distance": 13.0,
+   "hc_x": 111.96,
+   "hc_y": 154.62,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "ff0b2dff-5899-3969-b67b-3baf2e2c3b55",
+   "venue_id": 7,
+   "venue_name": "Kauffman Stadium",
+   "temp_f": 83.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 21.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824074,
    "date": "2026-08-20",

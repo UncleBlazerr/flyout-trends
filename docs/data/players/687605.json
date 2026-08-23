@@ -2,20 +2,38 @@
  "player_id": 687605,
  "player_name": "Andrew Pinckney",
  "team": "WSH",
- "as_of": "2026-08-21",
+ "as_of": "2026-08-22",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": -1.282,
-   "parks_sum": 0.107,
-   "near_hr": 0.152
+   "max_ev": -2.504,
+   "parks_sum": 0.0,
+   "near_hr": 0.071
   },
-  "intensity": 0.063,
-  "expectancy_score": 18.4,
-  "last_appearance": "2026-08-20"
+  "intensity": 0.024,
+  "expectancy_score": 9.3,
+  "last_appearance": "2026-08-22"
  },
  "days": [
+  {
+   "date": "2026-08-22",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 74.6,
+   "max_distance": 243.0,
+   "max_barrel_score": 49.7,
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-08-20",
    "bbe": 1,
@@ -144,6 +162,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823831,
+   "date": "2026-08-22",
+   "player_id": 687605,
+   "player_name": "Andrew Pinckney",
+   "team": "WSH",
+   "opponent": "MIA",
+   "result": "Single",
+   "exit_velocity": 74.6,
+   "launch_angle": 27.0,
+   "hit_distance": 243.0,
+   "hc_x": 152.59,
+   "hc_y": 106.6,
+   "would_be_hr_count": 0,
+   "inning": 5,
+   "play_id": "cb59abf7-139c-3e65-bea8-00861ad63694",
+   "venue_id": 4169,
+   "venue_name": "loanDepot park",
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 49.7,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 822861,
    "date": "2026-08-20",

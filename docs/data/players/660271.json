@@ -2,20 +2,38 @@
  "player_id": 660271,
  "player_name": "Shohei Ohtani",
  "team": "LAD",
- "as_of": "2026-08-21",
+ "as_of": "2026-08-22",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 1.061,
+   "max_ev": -2.171,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.177,
-  "expectancy_score": 5.3,
-  "last_appearance": "2026-08-21"
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-08-22"
  },
  "days": [
+  {
+   "date": "2026-08-22",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 76.6,
+   "max_distance": 1.0,
+   "max_barrel_score": 5.9,
+   "temp_f": 90.0,
+   "wind_mph": 9.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-08-21",
    "bbe": 2,
@@ -468,6 +486,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823910,
+   "date": "2026-08-22",
+   "player_id": 660271,
+   "player_name": "Shohei Ohtani",
+   "team": "LAD",
+   "opponent": "PIT",
+   "result": "Groundout",
+   "exit_velocity": 76.6,
+   "launch_angle": -59.0,
+   "hit_distance": 1.0,
+   "hc_x": 148.79,
+   "hc_y": 175.05,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "6e60d1b8-ab7d-387a-a325-fca720dbcc06",
+   "venue_id": 22,
+   "venue_name": "UNIQLO Field at Dodger Stadium",
+   "temp_f": 90.0,
+   "wind_mph": 9.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 5.9,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823911,
    "date": "2026-08-21",

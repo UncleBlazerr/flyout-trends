@@ -2,20 +2,38 @@
  "player_id": 642201,
  "player_name": "Eli White",
  "team": "BOS",
- "as_of": "2026-08-21",
+ "as_of": "2026-08-22",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": 0.85,
+   "max_ev": -2.654,
    "parks_sum": 0.0,
-   "near_hr": 0.0
+   "near_hr": -0.036
   },
-  "intensity": 0.142,
-  "expectancy_score": 8.5,
-  "last_appearance": "2026-08-17"
+  "intensity": 0.0,
+  "expectancy_score": 4.3,
+  "last_appearance": "2026-08-22"
  },
  "days": [
+  {
+   "date": "2026-08-22",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 67.9,
+   "max_distance": 156.0,
+   "max_barrel_score": 26.8,
+   "temp_f": 72.0,
+   "wind_mph": 4.0,
+   "wind_dir": "in",
+   "weather_condition": "Overcast"
+  },
   {
    "date": "2026-08-17",
    "bbe": 4,
@@ -216,6 +234,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824718,
+   "date": "2026-08-22",
+   "player_id": 642201,
+   "player_name": "Eli White",
+   "team": "BOS",
+   "opponent": "SF",
+   "result": "Single",
+   "exit_velocity": 67.9,
+   "launch_angle": 15.0,
+   "hit_distance": 156.0,
+   "hc_x": 124.97,
+   "hc_y": 113.36,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "8a9b44e8-8b37-31ed-8b10-de1e0e9675f6",
+   "venue_id": 3,
+   "venue_name": "Fenway Park",
+   "temp_f": 72.0,
+   "wind_mph": 4.0,
+   "wind_dir": "in",
+   "weather_condition": "Overcast",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 26.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824725,
    "date": "2026-08-17",

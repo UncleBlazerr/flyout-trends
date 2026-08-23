@@ -2,20 +2,38 @@
  "player_id": 682663,
  "player_name": "Agust\u00edn Ram\u00edrez",
  "team": "MIA",
- "as_of": "2026-08-21",
+ "as_of": "2026-08-22",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": -0.975,
+   "max_ev": -5.554,
    "parks_sum": 0.0,
-   "near_hr": 0.0
+   "near_hr": -0.045
   },
   "intensity": 0.0,
   "expectancy_score": 4.3,
-  "last_appearance": "2026-08-21"
+  "last_appearance": "2026-08-22"
  },
  "days": [
+  {
+   "date": "2026-08-22",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 77.7,
+   "max_distance": 9.0,
+   "max_barrel_score": 7.4,
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-08-21",
    "bbe": 1,
@@ -180,6 +198,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823831,
+   "date": "2026-08-22",
+   "player_id": 682663,
+   "player_name": "Agust\u00edn Ram\u00edrez",
+   "team": "MIA",
+   "opponent": "WSH",
+   "result": "Groundout",
+   "exit_velocity": 77.7,
+   "launch_angle": -18.0,
+   "hit_distance": 9.0,
+   "hc_x": 101.61,
+   "hc_y": 166.69,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "aada30a2-5f83-305e-a03e-ffd0a43226e4",
+   "venue_id": 4169,
+   "venue_name": "loanDepot park",
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 7.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823830,
    "date": "2026-08-21",

@@ -2,20 +2,38 @@
  "player_id": 683146,
  "player_name": "Brett Baty",
  "team": "NYM",
- "as_of": "2026-08-21",
+ "as_of": "2026-08-22",
  "form": {
   "streak": 0,
-  "frequency": 0.286,
+  "frequency": 0.143,
   "slopes": {
-   "max_ev": 2.689,
-   "parks_sum": 1.286,
-   "near_hr": -0.036
+   "max_ev": -3.186,
+   "parks_sum": 0.571,
+   "near_hr": 0.036
   },
-  "intensity": 0.476,
-  "expectancy_score": 22.9,
-  "last_appearance": "2026-08-21"
+  "intensity": 0.075,
+  "expectancy_score": 6.5,
+  "last_appearance": "2026-08-22"
  },
  "days": [
+  {
+   "date": "2026-08-22",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 53.2,
+   "max_distance": 3.0,
+   "max_barrel_score": 0.2,
+   "temp_f": 81.0,
+   "wind_mph": 12.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-21",
    "bbe": 3,
@@ -288,6 +306,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824560,
+   "date": "2026-08-22",
+   "player_id": 683146,
+   "player_name": "Brett Baty",
+   "team": "NYM",
+   "opponent": "CWS",
+   "result": "Single",
+   "exit_velocity": 53.2,
+   "launch_angle": -61.0,
+   "hit_distance": 3.0,
+   "hc_x": 114.56,
+   "hc_y": 187.87,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "c5866b4c-c608-38b7-862b-0762b5504319",
+   "venue_id": 4,
+   "venue_name": "Rate Field",
+   "temp_f": 81.0,
+   "wind_mph": 12.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 0.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824559,
    "date": "2026-08-21",

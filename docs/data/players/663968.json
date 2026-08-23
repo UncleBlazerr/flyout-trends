@@ -2,20 +2,38 @@
  "player_id": 663968,
  "player_name": "Jake Mangum",
  "team": "PIT",
- "as_of": "2026-08-21",
+ "as_of": "2026-08-22",
  "form": {
-  "streak": 1,
-  "frequency": 0.429,
+  "streak": 0,
+  "frequency": 0.286,
   "slopes": {
-   "max_ev": -2.157,
+   "max_ev": -3.407,
    "parks_sum": 0.0,
-   "near_hr": 0.036
+   "near_hr": 0.089
   },
-  "intensity": 0.012,
-  "expectancy_score": 21.2,
-  "last_appearance": "2026-08-21"
+  "intensity": 0.03,
+  "expectancy_score": 9.5,
+  "last_appearance": "2026-08-22"
  },
  "days": [
+  {
+   "date": "2026-08-22",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 74.0,
+   "max_distance": 36.0,
+   "max_barrel_score": 6.0,
+   "temp_f": 90.0,
+   "wind_mph": 9.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-08-21",
    "bbe": 1,
@@ -450,6 +468,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823910,
+   "date": "2026-08-22",
+   "player_id": 663968,
+   "player_name": "Jake Mangum",
+   "team": "PIT",
+   "opponent": "LAD",
+   "result": "Groundout",
+   "exit_velocity": 74.0,
+   "launch_angle": -1.0,
+   "hit_distance": 36.0,
+   "hc_x": 109.42,
+   "hc_y": 152.03,
+   "would_be_hr_count": 0,
+   "inning": 1,
+   "play_id": "d4a4d8d5-88e9-316d-84af-a87aae6952ec",
+   "venue_id": 22,
+   "venue_name": "UNIQLO Field at Dodger Stadium",
+   "temp_f": 90.0,
+   "wind_mph": 9.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 6.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823911,
    "date": "2026-08-21",
