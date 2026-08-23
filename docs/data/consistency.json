@@ -62,6 +62,16 @@
    "game_streak": 3
   },
   {
+   "player_id": 668670,
+   "player_name": "Jake Rogers",
+   "team": "CWS",
+   "record_streak": 2,
+   "total_flags": 2,
+   "avg_score": 32.6,
+   "current_score": 32.6,
+   "game_streak": 2
+  },
+  {
    "player_id": 670541,
    "player_name": "Yordan Alvarez",
    "team": "HOU",
@@ -92,13 +102,13 @@
    "game_streak": 2
   },
   {
-   "player_id": 665052,
-   "player_name": "Griffin Conine",
-   "team": "MIA",
+   "player_id": 676724,
+   "player_name": "Jared Young",
+   "team": "NYM",
    "record_streak": 1,
-   "total_flags": 3,
-   "avg_score": 40.2,
-   "current_score": 35.2,
+   "total_flags": 2,
+   "avg_score": 33.4,
+   "current_score": 34.5,
    "game_streak": 2
   },
   {
@@ -140,16 +150,6 @@
    "avg_score": 36.6,
    "current_score": 36.6,
    "game_streak": 2
-  },
-  {
-   "player_id": 807712,
-   "player_name": "Luke Keaschall",
-   "team": "MIN",
-   "record_streak": 1,
-   "total_flags": 1,
-   "avg_score": 34.8,
-   "current_score": 34.8,
-   "game_streak": 1
   }
  ]
 }

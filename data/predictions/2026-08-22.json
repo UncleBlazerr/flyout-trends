@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-08-23T10:20:29.358085+00:00",
+ "generated_at": "2026-08-23T16:32:53.189615+00:00",
  "as_of": "2026-08-22",
  "config": {
   "min_near_hr_events": 1,
@@ -56,37 +56,6 @@
  },
  "players": [
   {
-   "player_id": 805808,
-   "player_name": "Kevin McGonigle",
-   "team": "DET",
-   "expectancy_score": 78.9,
-   "streak": 7,
-   "frequency": 1.0,
-   "slopes": {
-    "max_ev": 0.396,
-    "parks_sum": 2.071,
-    "near_hr": -0.027
-   },
-   "near_hr_7d": 8,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 1,
-   "max_ev_7d": 105.1,
-   "max_distance_7d": 405,
-   "band": "60-80",
-   "band_rate": 0.2,
-   "band_samples": 25,
-   "weather_factor": 1.0,
-   "adjusted_score": 78.9,
-   "game_weather": {
-    "venue_name": "Kauffman Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
    "player_id": 802139,
    "player_name": "JJ Wetherholt",
    "team": "STL",
@@ -106,14 +75,45 @@
    "band": "60-80",
    "band_rate": 0.2,
    "band_samples": 25,
-   "weather_factor": 1.0,
-   "adjusted_score": 72.1,
+   "weather_factor": 1.14,
+   "adjusted_score": 82.2,
    "game_weather": {
     "venue_name": "Citizens Bank Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 80.0,
+    "wind_mph": 8.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 805808,
+   "player_name": "Kevin McGonigle",
+   "team": "DET",
+   "expectancy_score": 78.9,
+   "streak": 7,
+   "frequency": 1.0,
+   "slopes": {
+    "max_ev": 0.396,
+    "parks_sum": 2.071,
+    "near_hr": -0.027
+   },
+   "near_hr_7d": 8,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 1,
+   "max_ev_7d": 105.1,
+   "max_distance_7d": 405,
+   "band": "60-80",
+   "band_rate": 0.2,
+   "band_samples": 25,
+   "weather_factor": 1.036,
+   "adjusted_score": 81.7,
+   "game_weather": {
+    "venue_name": "Kauffman Stadium",
+    "temp_f": 79.0,
+    "wind_mph": 3.0,
+    "wind_dir": "cross",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": true
   },
@@ -141,10 +141,10 @@
    "adjusted_score": 57.8,
    "game_weather": {
     "venue_name": "Globe Life Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": true
   },
@@ -172,10 +172,10 @@
    "adjusted_score": 54.1,
    "game_weather": {
     "venue_name": "Globe Life Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": true
   },
@@ -261,14 +261,14 @@
    "band": "40-60",
    "band_rate": 0.242,
    "band_samples": 314,
-   "weather_factor": 1.0,
-   "adjusted_score": 44.9,
+   "weather_factor": 1.036,
+   "adjusted_score": 46.5,
    "game_weather": {
     "venue_name": "Yankee Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 79.0,
+    "wind_mph": 7.0,
+    "wind_dir": "cross",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   },
@@ -323,14 +323,45 @@
    "band": "40-60",
    "band_rate": 0.242,
    "band_samples": 314,
-   "weather_factor": 1.0,
-   "adjusted_score": 40.6,
+   "weather_factor": 1.036,
+   "adjusted_score": 42.1,
    "game_weather": {
     "venue_name": "Yankee Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 79.0,
+    "wind_mph": 7.0,
+    "wind_dir": "cross",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 676724,
+   "player_name": "Jared Young",
+   "team": "NYM",
+   "expectancy_score": 34.5,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 0.65,
+    "parks_sum": 0.107,
+    "near_hr": 0.205
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 101.8,
+   "max_distance_7d": 370,
+   "band": "<40",
+   "band_rate": 0.204,
+   "band_samples": 10904,
+   "weather_factor": 1.146,
+   "adjusted_score": 39.5,
+   "game_weather": {
+    "venue_name": "Rate Field",
+    "temp_f": 73.0,
+    "wind_mph": 11.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   },
@@ -358,10 +389,10 @@
    "adjusted_score": 39.4,
    "game_weather": {
     "venue_name": "Daikin Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": false
   },
@@ -397,6 +428,37 @@
    "repeat": false
   },
   {
+   "player_id": 668670,
+   "player_name": "Jake Rogers",
+   "team": "CWS",
+   "expectancy_score": 32.6,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 0.525,
+    "parks_sum": 0.071,
+    "near_hr": 0.089
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
+   "max_ev_7d": 103.0,
+   "max_distance_7d": 401,
+   "band": "<40",
+   "band_rate": 0.204,
+   "band_samples": 10904,
+   "weather_factor": 1.146,
+   "adjusted_score": 37.4,
+   "game_weather": {
+    "venue_name": "Rate Field",
+    "temp_f": 73.0,
+    "wind_mph": 11.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": true
+  },
+  {
    "player_id": 545361,
    "player_name": "Mike Trout",
    "team": "LAA",
@@ -420,10 +482,10 @@
    "adjusted_score": 36.6,
    "game_weather": {
     "venue_name": "Globe Life Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": false
   },
@@ -449,68 +511,6 @@
    "band_samples": 10904,
    "weather_factor": 1.0,
    "adjusted_score": 35.9,
-   "game_weather": {
-    "venue_name": "Petco Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 665052,
-   "player_name": "Griffin Conine",
-   "team": "MIA",
-   "expectancy_score": 35.2,
-   "streak": 2,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 0.682,
-    "parks_sum": 0.786,
-    "near_hr": 0.036
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 1,
-   "max_ev_7d": 109.4,
-   "max_distance_7d": 422,
-   "band": "<40",
-   "band_rate": 0.204,
-   "band_samples": 10904,
-   "weather_factor": 1.0,
-   "adjusted_score": 35.2,
-   "game_weather": {
-    "venue_name": "loanDepot park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 807712,
-   "player_name": "Luke Keaschall",
-   "team": "MIN",
-   "expectancy_score": 34.8,
-   "streak": 1,
-   "frequency": 0.571,
-   "slopes": {
-    "max_ev": 1.839,
-    "parks_sum": 0.107,
-    "near_hr": 0.009
-   },
-   "near_hr_7d": 4,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 1,
-   "max_ev_7d": 104.1,
-   "max_distance_7d": 396,
-   "band": "<40",
-   "band_rate": 0.204,
-   "band_samples": 10904,
-   "weather_factor": 1.0,
-   "adjusted_score": 34.8,
    "game_weather": {
     "venue_name": "Petco Park",
     "temp_f": null,
