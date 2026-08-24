@@ -2,20 +2,38 @@
  "player_id": 671083,
  "player_name": "Buddy Kennedy",
  "team": "SF",
- "as_of": "2026-08-22",
+ "as_of": "2026-08-23",
  "form": {
   "streak": 0,
-  "frequency": 0.5,
+  "frequency": 0.429,
   "slopes": {
-   "max_ev": 2.031,
-   "parks_sum": -2.229,
-   "near_hr": 0.086
+   "max_ev": -0.329,
+   "parks_sum": -1.857,
+   "near_hr": 0.0
   },
-  "intensity": 0.362,
-  "expectancy_score": 25.9,
-  "last_appearance": "2026-08-18"
+  "intensity": 0.0,
+  "expectancy_score": 12.9,
+  "last_appearance": "2026-08-23"
  },
  "days": [
+  {
+   "date": "2026-08-23",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 82.0,
+   "max_distance": 9.0,
+   "max_barrel_score": 11.3,
+   "temp_f": 70.0,
+   "wind_mph": 1.0,
+   "wind_dir": "out",
+   "weather_condition": "Overcast"
+  },
   {
    "date": "2026-08-18",
    "bbe": 3,
@@ -126,6 +144,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824720,
+   "date": "2026-08-23",
+   "player_id": 671083,
+   "player_name": "Buddy Kennedy",
+   "team": "SF",
+   "opponent": "BOS",
+   "result": "Single",
+   "exit_velocity": 82.0,
+   "launch_angle": -17.0,
+   "hit_distance": 9.0,
+   "hc_x": 108.74,
+   "hc_y": 145.09,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "8dab5f1b-b805-3b9d-a916-36e678f5dd29",
+   "venue_id": 3,
+   "venue_name": "Fenway Park",
+   "temp_f": 70.0,
+   "wind_mph": 1.0,
+   "wind_dir": "out",
+   "weather_condition": "Overcast",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 11.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824398,
    "date": "2026-08-18",

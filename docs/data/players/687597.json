@@ -2,20 +2,38 @@
  "player_id": 687597,
  "player_name": "Jordan Beck",
  "team": "COL",
- "as_of": "2026-08-22",
+ "as_of": "2026-08-23",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": -2.629,
-   "parks_sum": 0.0,
-   "near_hr": 0.0
+   "max_ev": -0.289,
+   "parks_sum": -0.75,
+   "near_hr": -0.036
   },
   "intensity": 0.0,
   "expectancy_score": 4.3,
-  "last_appearance": "2026-08-21"
+  "last_appearance": "2026-08-23"
  },
  "days": [
+  {
+   "date": "2026-08-23",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 108.3,
+   "max_distance": 290.0,
+   "max_barrel_score": 67.6,
+   "temp_f": 91.0,
+   "wind_mph": 7.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-21",
    "bbe": 2,
@@ -216,6 +234,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824315,
+   "date": "2026-08-23",
+   "player_id": 687597,
+   "player_name": "Jordan Beck",
+   "team": "COL",
+   "opponent": "CLE",
+   "result": "Single",
+   "exit_velocity": 108.3,
+   "launch_angle": 13.0,
+   "hit_distance": 290.0,
+   "hc_x": 129.01,
+   "hc_y": 94.93,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "939ed5da-bbbe-3624-902b-6bb7487dcf26",
+   "venue_id": 19,
+   "venue_name": "Coors Field",
+   "temp_f": 91.0,
+   "wind_mph": 7.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 67.6,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824317,
    "date": "2026-08-21",

@@ -2,20 +2,38 @@
  "player_id": 694378,
  "player_name": "Jacob Gonzalez",
  "team": "PIT",
- "as_of": "2026-08-22",
+ "as_of": "2026-08-23",
  "form": {
-  "streak": 1,
-  "frequency": 0.429,
+  "streak": 0,
+  "frequency": 0.286,
   "slopes": {
-   "max_ev": -2.571,
+   "max_ev": -1.854,
    "parks_sum": 0.0,
-   "near_hr": -0.089
+   "near_hr": -0.062
   },
   "intensity": 0.0,
-  "expectancy_score": 20.9,
-  "last_appearance": "2026-08-21"
+  "expectancy_score": 8.6,
+  "last_appearance": "2026-08-23"
  },
  "days": [
+  {
+   "date": "2026-08-23",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 89.9,
+   "max_distance": 236.0,
+   "max_barrel_score": 33.4,
+   "temp_f": 97.0,
+   "wind_mph": 2.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-08-21",
    "bbe": 3,
@@ -396,6 +414,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823909,
+   "date": "2026-08-23",
+   "player_id": 694378,
+   "player_name": "Jacob Gonzalez",
+   "team": "PIT",
+   "opponent": "LAD",
+   "result": "Flyout",
+   "exit_velocity": 89.9,
+   "launch_angle": 56.0,
+   "hit_distance": 236.0,
+   "hc_x": 55.23,
+   "hc_y": 135.96,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "65023812-c83c-36bf-8cc0-f04ceb89027b",
+   "venue_id": 22,
+   "venue_name": "UNIQLO Field at Dodger Stadium",
+   "temp_f": 97.0,
+   "wind_mph": 2.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 33.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823911,
    "date": "2026-08-21",

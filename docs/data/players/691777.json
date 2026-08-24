@@ -2,20 +2,38 @@
  "player_id": 691777,
  "player_name": "Max Muncy",
  "team": "ATH",
- "as_of": "2026-08-22",
+ "as_of": "2026-08-23",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": -3.929,
-   "parks_sum": -0.679,
-   "near_hr": -0.089
+   "max_ev": -3.107,
+   "parks_sum": -1.036,
+   "near_hr": -0.134
   },
   "intensity": 0.0,
   "expectancy_score": 4.3,
-  "last_appearance": "2026-08-22"
+  "last_appearance": "2026-08-23"
  },
  "days": [
+  {
+   "date": "2026-08-23",
+   "bbe": 1,
+   "hr": 1,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 101.1,
+   "max_distance": 409.0,
+   "max_barrel_score": 81.1,
+   "temp_f": 73.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-08-22",
    "bbe": 3,
@@ -270,6 +288,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824150,
+   "date": "2026-08-23",
+   "player_id": 691777,
+   "player_name": "Max Muncy",
+   "team": "ATH",
+   "opponent": "HOU",
+   "result": "Home Run",
+   "exit_velocity": 101.1,
+   "launch_angle": 31.0,
+   "hit_distance": 409.0,
+   "hc_x": 100.87,
+   "hc_y": 67.47,
+   "would_be_hr_count": 28,
+   "inning": 7,
+   "play_id": "d5409907-9fdc-3dd8-8a33-8f3c7e24eb9f",
+   "venue_id": 2392,
+   "venue_name": "Daikin Park",
+   "temp_f": 73.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 81.1,
+   "barrel_flag": false,
+   "is_home_run": true,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824151,
    "date": "2026-08-22",

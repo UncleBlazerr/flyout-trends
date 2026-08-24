@@ -2,20 +2,38 @@
  "player_id": 804668,
  "player_name": "Rafael Flores Jr.",
  "team": "PIT",
- "as_of": "2026-08-22",
+ "as_of": "2026-08-23",
  "form": {
   "streak": 0,
-  "frequency": 0.143,
+  "frequency": 0.0,
   "slopes": {
-   "max_ev": -0.75,
+   "max_ev": -2.711,
    "parks_sum": 0.0,
-   "near_hr": -0.107
+   "near_hr": 0.0
   },
   "intensity": 0.0,
-  "expectancy_score": 4.3,
-  "last_appearance": "2026-08-22"
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-08-23"
  },
  "days": [
+  {
+   "date": "2026-08-23",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 83.4,
+   "max_distance": 210.0,
+   "max_barrel_score": 25.9,
+   "temp_f": 97.0,
+   "wind_mph": 2.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-08-22",
    "bbe": 2,
@@ -234,6 +252,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823909,
+   "date": "2026-08-23",
+   "player_id": 804668,
+   "player_name": "Rafael Flores Jr.",
+   "team": "PIT",
+   "opponent": "LAD",
+   "result": "Flyout",
+   "exit_velocity": 83.4,
+   "launch_angle": 56.0,
+   "hit_distance": 210.0,
+   "hc_x": 163.51,
+   "hc_y": 125.23,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "5ff9a499-e472-3a63-8782-d2c04eb872e0",
+   "venue_id": 22,
+   "venue_name": "UNIQLO Field at Dodger Stadium",
+   "temp_f": 97.0,
+   "wind_mph": 2.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 25.9,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823910,
    "date": "2026-08-22",

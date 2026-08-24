@@ -2,17 +2,17 @@
  "player_id": 676914,
  "player_name": "Davis Schneider",
  "team": "TOR",
- "as_of": "2026-08-22",
+ "as_of": "2026-08-23",
  "form": {
   "streak": 0,
-  "frequency": 0.5,
+  "frequency": 0.667,
   "slopes": {
-   "max_ev": 4.55,
+   "max_ev": -19.9,
    "parks_sum": 0.0,
-   "near_hr": 0.0
+   "near_hr": -0.5
   },
-  "intensity": 0.333,
-  "expectancy_score": 25.0,
+  "intensity": 0.0,
+  "expectancy_score": 20.0,
   "last_appearance": "2026-08-06"
  },
  "days": [
@@ -69,24 +69,6 @@
    "wind_mph": 9.0,
    "wind_dir": "in",
    "weather_condition": "Sunny"
-  },
-  {
-   "date": "2026-07-24",
-   "bbe": 1,
-   "hr": 0,
-   "near_hr_any": 0,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 0,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 0,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 41.0,
-   "max_distance": 3.0,
-   "max_barrel_score": 0.2,
-   "temp_f": 76.0,
-   "wind_mph": 3.0,
-   "wind_dir": "cross",
-   "weather_condition": "Clear"
   }
  ],
  "events": [
@@ -234,35 +216,6 @@
    "barrel_flag": true,
    "is_home_run": false,
    "is_near_hr": true
-  },
-  {
-   "game_pk": 824733,
-   "date": "2026-07-24",
-   "player_id": 676914,
-   "player_name": "Davis Schneider",
-   "team": "TOR",
-   "opponent": "BOS",
-   "result": "Forceout",
-   "exit_velocity": 41.0,
-   "launch_angle": -80.0,
-   "hit_distance": 3.0,
-   "hc_x": 125.3,
-   "hc_y": 197.57,
-   "would_be_hr_count": 0,
-   "inning": 4,
-   "play_id": "71481eb2-4289-38bc-8898-a6b327f3a674",
-   "venue_id": 3,
-   "venue_name": "Fenway Park",
-   "temp_f": 76.0,
-   "wind_mph": 3.0,
-   "wind_dir": "cross",
-   "weather_condition": "Clear",
-   "distance_flag": false,
-   "would_be_hr_flag": false,
-   "barrel_score": 0.2,
-   "barrel_flag": false,
-   "is_home_run": false,
-   "is_near_hr": false
   }
  ]
 }
