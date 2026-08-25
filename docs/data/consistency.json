@@ -12,26 +12,6 @@
    "game_streak": 9
   },
   {
-   "player_id": 687263,
-   "player_name": "Zach Neto",
-   "team": "LAA",
-   "record_streak": 5,
-   "total_flags": 7,
-   "avg_score": 50.7,
-   "current_score": 64.6,
-   "game_streak": 4
-  },
-  {
-   "player_id": 665487,
-   "player_name": "Fernando Tatis Jr.",
-   "team": "SD",
-   "record_streak": 3,
-   "total_flags": 7,
-   "avg_score": 41.9,
-   "current_score": 37.5,
-   "game_streak": 2
-  },
-  {
    "player_id": 672960,
    "player_name": "Kazuma Okamoto",
    "team": "TOR",
@@ -47,9 +27,9 @@
    "team": "LAA",
    "record_streak": 2,
    "total_flags": 5,
-   "avg_score": 40.2,
-   "current_score": 42.1,
-   "game_streak": 2
+   "avg_score": 41.7,
+   "current_score": 49.7,
+   "game_streak": 3
   },
   {
    "player_id": 813841,
@@ -82,16 +62,6 @@
    "game_streak": 2
   },
   {
-   "player_id": 678545,
-   "player_name": "Osleivis Basabe",
-   "team": "SF",
-   "record_streak": 2,
-   "total_flags": 3,
-   "avg_score": 47.0,
-   "current_score": 49.0,
-   "game_streak": 3
-  },
-  {
    "player_id": 666182,
    "player_name": "Bo Bichette",
    "team": "NYM",
@@ -107,18 +77,8 @@
    "team": "LAA",
    "record_streak": 2,
    "total_flags": 2,
-   "avg_score": 46.3,
-   "current_score": 46.3,
-   "game_streak": 1
-  },
-  {
-   "player_id": 592663,
-   "player_name": "J.T. Realmuto",
-   "team": "PHI",
-   "record_streak": 2,
-   "total_flags": 2,
-   "avg_score": 35.8,
-   "current_score": 35.8,
+   "avg_score": 49.5,
+   "current_score": 52.7,
    "game_streak": 2
   },
   {
@@ -142,6 +102,16 @@
    "game_streak": 1
   },
   {
+   "player_id": 547180,
+   "player_name": "Bryce Harper",
+   "team": "PHI",
+   "record_streak": 1,
+   "total_flags": 2,
+   "avg_score": 22.7,
+   "current_score": 34.8,
+   "game_streak": 2
+  },
+  {
    "player_id": 643217,
    "player_name": "Andrew Benintendi",
    "team": "CWS",
@@ -150,6 +120,36 @@
    "avg_score": 38.4,
    "current_score": 38.4,
    "game_streak": 2
+  },
+  {
+   "player_id": 694376,
+   "player_name": "Shay Whitcomb",
+   "team": "SF",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 38.0,
+   "current_score": 38.0,
+   "game_streak": 1
+  },
+  {
+   "player_id": 695720,
+   "player_name": "Tommy White",
+   "team": "ATH",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 34.6,
+   "current_score": 34.6,
+   "game_streak": 2
+  },
+  {
+   "player_id": 687529,
+   "player_name": "Grant McCray",
+   "team": "SF",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 32.9,
+   "current_score": 32.9,
+   "game_streak": 1
   }
  ]
 }

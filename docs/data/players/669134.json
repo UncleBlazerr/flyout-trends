@@ -7,15 +7,33 @@
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": -2.664,
-   "parks_sum": -1.571,
-   "near_hr": -0.179
+   "max_ev": -1.339,
+   "parks_sum": -2.357,
+   "near_hr": -0.268
   },
   "intensity": 0.0,
   "expectancy_score": 4.3,
-  "last_appearance": "2026-08-23"
+  "last_appearance": "2026-08-24"
  },
  "days": [
+  {
+   "date": "2026-08-24",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 104.9,
+   "max_distance": 42.0,
+   "max_barrel_score": 33.8,
+   "temp_f": 78.0,
+   "wind_mph": 8.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-23",
    "bbe": 2,
@@ -324,6 +342,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823260,
+   "date": "2026-08-24",
+   "player_id": 669134,
+   "player_name": "Luis Campusano",
+   "team": "SD",
+   "opponent": "PIT",
+   "result": "GIDP",
+   "exit_velocity": 104.9,
+   "launch_angle": -2.0,
+   "hit_distance": 42.0,
+   "hc_x": 141.67,
+   "hc_y": 153.2,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "23e1bc34-27f8-3c31-9d5a-c9cc4d5bd7ba",
+   "venue_id": 2680,
+   "venue_name": "Petco Park",
+   "temp_f": 78.0,
+   "wind_mph": 8.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 33.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823258,
    "date": "2026-08-23",

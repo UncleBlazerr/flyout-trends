@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-08-25T03:45:02.584722+00:00",
+ "generated_at": "2026-08-25T10:28:51.424087+00:00",
  "as_of": "2026-08-24",
  "config": {
   "min_near_hr_events": 1,
@@ -87,37 +87,6 @@
    "repeat": true
   },
   {
-   "player_id": 687263,
-   "player_name": "Zach Neto",
-   "team": "LAA",
-   "expectancy_score": 64.6,
-   "streak": 4,
-   "frequency": 0.857,
-   "slopes": {
-    "max_ev": 1.161,
-    "parks_sum": 0.0,
-    "near_hr": 0.107
-   },
-   "near_hr_7d": 6,
-   "near_hr_xbh_7d": 3,
-   "hr_7d": 2,
-   "max_ev_7d": 107.6,
-   "max_distance_7d": 428,
-   "band": "60-80",
-   "band_rate": 0.286,
-   "band_samples": 28,
-   "weather_factor": 1.0,
-   "adjusted_score": 64.6,
-   "game_weather": {
-    "venue_name": "Angel Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
    "player_id": 672960,
    "player_name": "Kazuma Okamoto",
    "team": "TOR",
@@ -149,58 +118,27 @@
    "repeat": true
   },
   {
-   "player_id": 678545,
-   "player_name": "Osleivis Basabe",
-   "team": "SF",
-   "expectancy_score": 49.0,
-   "streak": 3,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 2.082,
-    "parks_sum": 0.0,
-    "near_hr": 0.214
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 105.5,
-   "max_distance_7d": 390,
-   "band": "40-60",
-   "band_rate": 0.243,
-   "band_samples": 325,
-   "weather_factor": 1.0,
-   "adjusted_score": 49.0,
-   "game_weather": {
-    "venue_name": "Oracle Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
    "player_id": 695681,
    "player_name": "Christian Moore",
    "team": "LAA",
-   "expectancy_score": 46.3,
-   "streak": 1,
-   "frequency": 0.5,
+   "expectancy_score": 52.7,
+   "streak": 2,
+   "frequency": 0.667,
    "slopes": {
-    "max_ev": 17.8,
-    "parks_sum": 1.0,
-    "near_hr": 1.25
+    "max_ev": 6.75,
+    "parks_sum": 0.5,
+    "near_hr": 0.5
    },
-   "near_hr_7d": 1,
+   "near_hr_7d": 2,
    "near_hr_xbh_7d": 1,
    "hr_7d": 0,
    "max_ev_7d": 104.8,
-   "max_distance_7d": 373,
+   "max_distance_7d": 384,
    "band": "40-60",
    "band_rate": 0.243,
    "band_samples": 325,
    "weather_factor": 1.0,
-   "adjusted_score": 46.3,
+   "adjusted_score": 52.7,
    "game_weather": {
     "venue_name": "Angel Stadium",
     "temp_f": null,
@@ -214,15 +152,15 @@
    "player_id": 642350,
    "player_name": "Jose Siri",
    "team": "LAA",
-   "expectancy_score": 42.1,
-   "streak": 2,
-   "frequency": 0.714,
+   "expectancy_score": 49.7,
+   "streak": 3,
+   "frequency": 0.857,
    "slopes": {
-    "max_ev": 0.796,
+    "max_ev": -0.014,
     "parks_sum": 0.0,
-    "near_hr": 0.071
+    "near_hr": 0.0
    },
-   "near_hr_7d": 4,
+   "near_hr_7d": 5,
    "near_hr_xbh_7d": 0,
    "hr_7d": 0,
    "max_ev_7d": 105.3,
@@ -231,7 +169,7 @@
    "band_rate": 0.243,
    "band_samples": 325,
    "weather_factor": 1.0,
-   "adjusted_score": 42.1,
+   "adjusted_score": 49.7,
    "game_weather": {
     "venue_name": "Angel Stadium",
     "temp_f": null,
@@ -397,35 +335,35 @@
    "repeat": true
   },
   {
-   "player_id": 665487,
-   "player_name": "Fernando Tatis Jr.",
-   "team": "SD",
-   "expectancy_score": 37.5,
-   "streak": 2,
-   "frequency": 0.714,
+   "player_id": 694376,
+   "player_name": "Shay Whitcomb",
+   "team": "SF",
+   "expectancy_score": 38.0,
+   "streak": 1,
+   "frequency": 1.0,
    "slopes": {
-    "max_ev": 0.007,
-    "parks_sum": -0.25,
+    "max_ev": 0.0,
+    "parks_sum": 0.0,
     "near_hr": 0.0
    },
-   "near_hr_7d": 4,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 4,
-   "max_ev_7d": 115.1,
-   "max_distance_7d": 452,
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 99.1,
+   "max_distance_7d": 352,
    "band": "<40",
    "band_rate": 0.205,
    "band_samples": 11347,
    "weather_factor": 1.0,
-   "adjusted_score": 37.5,
+   "adjusted_score": 38.0,
    "game_weather": {
-    "venue_name": "Petco Park",
+    "venue_name": "Oracle Park",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": true
+   "repeat": false
   },
   {
    "player_id": 691781,
@@ -459,37 +397,6 @@
    "repeat": false
   },
   {
-   "player_id": 592663,
-   "player_name": "J.T. Realmuto",
-   "team": "PHI",
-   "expectancy_score": 35.8,
-   "streak": 2,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 1.382,
-    "parks_sum": 0.0,
-    "near_hr": -0.018
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 106.1,
-   "max_distance_7d": 346,
-   "band": "<40",
-   "band_rate": 0.205,
-   "band_samples": 11347,
-   "weather_factor": 1.0,
-   "adjusted_score": 35.8,
-   "game_weather": {
-    "venue_name": "T-Mobile Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
    "player_id": 696285,
    "player_name": "Jacob Young",
    "team": "WSH",
@@ -513,6 +420,99 @@
    "adjusted_score": 35.8,
    "game_weather": {
     "venue_name": "Nationals Park",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 547180,
+   "player_name": "Bryce Harper",
+   "team": "PHI",
+   "expectancy_score": 34.8,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 0.932,
+    "parks_sum": 0.0,
+    "near_hr": 0.125
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 1,
+   "max_ev_7d": 108.5,
+   "max_distance_7d": 390,
+   "band": "<40",
+   "band_rate": 0.205,
+   "band_samples": 11347,
+   "weather_factor": 1.0,
+   "adjusted_score": 34.8,
+   "game_weather": {
+    "venue_name": "T-Mobile Park",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 695720,
+   "player_name": "Tommy White",
+   "team": "ATH",
+   "expectancy_score": 34.6,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": -0.536,
+    "parks_sum": 1.071,
+    "near_hr": 0.214
+   },
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 107.8,
+   "max_distance_7d": 409,
+   "band": "<40",
+   "band_rate": 0.205,
+   "band_samples": 11347,
+   "weather_factor": 1.0,
+   "adjusted_score": 34.6,
+   "game_weather": {
+    "venue_name": "Sutter Health Park",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 687529,
+   "player_name": "Grant McCray",
+   "team": "SF",
+   "expectancy_score": 32.9,
+   "streak": 1,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 3.125,
+    "parks_sum": 0.0,
+    "near_hr": 0.205
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 103.2,
+   "max_distance_7d": 339,
+   "band": "<40",
+   "band_rate": 0.205,
+   "band_samples": 11347,
+   "weather_factor": 1.0,
+   "adjusted_score": 32.9,
+   "game_weather": {
+    "venue_name": "Oracle Park",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,

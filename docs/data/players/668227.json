@@ -7,15 +7,33 @@
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": -1.986,
+   "max_ev": -1.979,
    "parks_sum": 0.0,
-   "near_hr": 0.0
+   "near_hr": -0.036
   },
   "intensity": 0.0,
   "expectancy_score": 4.3,
-  "last_appearance": "2026-08-23"
+  "last_appearance": "2026-08-24"
  },
  "days": [
+  {
+   "date": "2026-08-24",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 91.6,
+   "max_distance": 306.0,
+   "max_barrel_score": 57.1,
+   "temp_f": 75.0,
+   "wind_mph": 9.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-08-23",
    "bbe": 2,
@@ -486,6 +504,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823097,
+   "date": "2026-08-24",
+   "player_id": 668227,
+   "player_name": "Randy Arozarena",
+   "team": "SEA",
+   "opponent": "PHI",
+   "result": "Flyout",
+   "exit_velocity": 91.6,
+   "launch_angle": 39.0,
+   "hit_distance": 306.0,
+   "hc_x": 168.64,
+   "hc_y": 84.06,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "2268df13-d1bc-394c-9080-13c59d9447ae",
+   "venue_id": 680,
+   "venue_name": "T-Mobile Park",
+   "temp_f": 75.0,
+   "wind_mph": 9.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 57.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823099,
    "date": "2026-08-23",

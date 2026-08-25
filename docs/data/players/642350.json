@@ -4,18 +4,36 @@
  "team": "LAA",
  "as_of": "2026-08-24",
  "form": {
-  "streak": 2,
-  "frequency": 0.714,
+  "streak": 3,
+  "frequency": 0.857,
   "slopes": {
-   "max_ev": 0.796,
+   "max_ev": -0.014,
    "parks_sum": 0.0,
-   "near_hr": 0.071
+   "near_hr": 0.0
   },
-  "intensity": 0.156,
-  "expectancy_score": 42.1,
-  "last_appearance": "2026-08-23"
+  "intensity": 0.0,
+  "expectancy_score": 49.7,
+  "last_appearance": "2026-08-24"
  },
  "days": [
+  {
+   "date": "2026-08-24",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 1,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 101.8,
+   "max_distance": 379.0,
+   "max_barrel_score": 76.4,
+   "temp_f": 88.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-08-23",
    "bbe": 3,
@@ -360,6 +378,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823992,
+   "date": "2026-08-24",
+   "player_id": 642350,
+   "player_name": "Jose Siri",
+   "team": "LAA",
+   "opponent": "CLE",
+   "result": "Lineout",
+   "exit_velocity": 101.8,
+   "launch_angle": 21.0,
+   "hit_distance": 379.0,
+   "hc_x": 123.07,
+   "hc_y": 46.04,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "2b6a9796-b0df-316c-bccf-29931a09a73b",
+   "venue_id": 1,
+   "venue_name": "Angel Stadium",
+   "temp_f": 88.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear",
+   "distance_flag": true,
+   "would_be_hr_flag": false,
+   "barrel_score": 76.4,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 822856,
    "date": "2026-08-23",
