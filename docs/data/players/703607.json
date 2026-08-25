@@ -2,7 +2,7 @@
  "player_id": 703607,
  "player_name": "Henry Bolte",
  "team": "ATH",
- "as_of": "2026-08-23",
+ "as_of": "2026-08-24",
  "form": {
   "streak": 0,
   "frequency": 0.143,
@@ -483,24 +483,6 @@
    "wind_mph": 7.0,
    "wind_dir": "out",
    "weather_condition": "Partly Cloudy"
-  },
-  {
-   "date": "2026-07-25",
-   "bbe": 1,
-   "hr": 0,
-   "near_hr_any": 1,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 1,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 1,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 93.8,
-   "max_distance": 354.0,
-   "max_barrel_score": 70.9,
-   "temp_f": 93.0,
-   "wind_mph": 5.0,
-   "wind_dir": "out",
-   "weather_condition": "Clear"
   }
  ],
  "events": [
@@ -2475,35 +2457,6 @@
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
-  },
-  {
-   "game_pk": 823679,
-   "date": "2026-07-25",
-   "player_id": 703607,
-   "player_name": "Henry Bolte",
-   "team": "ATH",
-   "opponent": "MIN",
-   "result": "Flyout",
-   "exit_velocity": 93.8,
-   "launch_angle": 31.0,
-   "hit_distance": 354.0,
-   "hc_x": 151.81,
-   "hc_y": 59.08,
-   "would_be_hr_count": 0,
-   "inning": 7,
-   "play_id": "3ca121dd-d68a-365c-99e8-93274b42c68a",
-   "venue_id": 3312,
-   "venue_name": "Target Field",
-   "temp_f": 93.0,
-   "wind_mph": 5.0,
-   "wind_dir": "out",
-   "weather_condition": "Clear",
-   "distance_flag": true,
-   "would_be_hr_flag": false,
-   "barrel_score": 70.9,
-   "barrel_flag": true,
-   "is_home_run": false,
-   "is_near_hr": true
   }
  ]
 }

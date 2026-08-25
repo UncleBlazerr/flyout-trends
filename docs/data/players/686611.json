@@ -2,20 +2,38 @@
  "player_id": 686611,
  "player_name": "Dylan Crews",
  "team": "WSH",
- "as_of": "2026-08-23",
+ "as_of": "2026-08-24",
  "form": {
-  "streak": 1,
-  "frequency": 0.429,
+  "streak": 0,
+  "frequency": 0.286,
   "slopes": {
-   "max_ev": 1.543,
-   "parks_sum": -0.429,
-   "near_hr": 0.027
+   "max_ev": 0.968,
+   "parks_sum": 0.0,
+   "near_hr": 0.054
   },
-  "intensity": 0.266,
-  "expectancy_score": 28.8,
-  "last_appearance": "2026-08-23"
+  "intensity": 0.179,
+  "expectancy_score": 14.0,
+  "last_appearance": "2026-08-24"
  },
  "days": [
+  {
+   "date": "2026-08-24",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 91.8,
+   "max_distance": 10.0,
+   "max_barrel_score": 20.0,
+   "temp_f": 81.0,
+   "wind_mph": 3.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-23",
    "bbe": 4,
@@ -450,6 +468,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822695,
+   "date": "2026-08-24",
+   "player_id": 686611,
+   "player_name": "Dylan Crews",
+   "team": "WSH",
+   "opponent": "COL",
+   "result": "Groundout",
+   "exit_velocity": 91.8,
+   "launch_angle": -16.0,
+   "hit_distance": 10.0,
+   "hc_x": 104.18,
+   "hc_y": 164.35,
+   "would_be_hr_count": 0,
+   "inning": 3,
+   "play_id": "54dc8f39-aacd-3f69-8514-9f5f10d0fd70",
+   "venue_id": 3309,
+   "venue_name": "Nationals Park",
+   "temp_f": 81.0,
+   "wind_mph": 3.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 20.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823827,
    "date": "2026-08-23",

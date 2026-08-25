@@ -2,9 +2,9 @@
  "player_id": 660821,
  "player_name": "Jes\u00fas S\u00e1nchez",
  "team": "TOR",
- "as_of": "2026-08-23",
+ "as_of": "2026-08-24",
  "form": {
-  "streak": 2,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 0.643,
@@ -12,7 +12,7 @@
    "near_hr": 0.223
   },
   "intensity": 0.213,
-  "expectancy_score": 31.0,
+  "expectancy_score": 15.0,
   "last_appearance": "2026-08-21"
  },
  "days": [

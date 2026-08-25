@@ -2,9 +2,9 @@
  "player_id": 669720,
  "player_name": "Austin Hays",
  "team": "SD",
- "as_of": "2026-08-23",
+ "as_of": "2026-08-24",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 0.161,
@@ -12,7 +12,7 @@
    "near_hr": 0.143
   },
   "intensity": 0.074,
-  "expectancy_score": 18.8,
+  "expectancy_score": 10.8,
   "last_appearance": "2026-08-21"
  },
  "days": [

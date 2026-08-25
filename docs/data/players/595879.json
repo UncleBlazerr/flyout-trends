@@ -2,20 +2,38 @@
  "player_id": 595879,
  "player_name": "Javier B\u00e1ez",
  "team": "DET",
- "as_of": "2026-08-23",
+ "as_of": "2026-08-24",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -0.018,
+   "max_ev": 0.193,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.0,
-  "expectancy_score": 0.0,
-  "last_appearance": "2026-08-23"
+  "intensity": 0.032,
+  "expectancy_score": 1.0,
+  "last_appearance": "2026-08-24"
  },
  "days": [
+  {
+   "date": "2026-08-24",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 103.7,
+   "max_distance": 8.0,
+   "max_barrel_score": 30.5,
+   "temp_f": 74.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Cloudy"
+  },
   {
    "date": "2026-08-23",
    "bbe": 2,
@@ -324,6 +342,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824235,
+   "date": "2026-08-24",
+   "player_id": 595879,
+   "player_name": "Javier B\u00e1ez",
+   "team": "DET",
+   "opponent": "TB",
+   "result": "Single",
+   "exit_velocity": 103.7,
+   "launch_angle": -20.0,
+   "hit_distance": 8.0,
+   "hc_x": 190.88,
+   "hc_y": 134.96,
+   "would_be_hr_count": 0,
+   "inning": 3,
+   "play_id": "27989046-6c45-33ab-be77-12c2e812b5a1",
+   "venue_id": 2394,
+   "venue_name": "Comerica Park",
+   "temp_f": 74.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 30.5,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824071,
    "date": "2026-08-23",

@@ -2,9 +2,9 @@
  "player_id": 571771,
  "player_name": "Enrique Hern\u00e1ndez",
  "team": "LAD",
- "as_of": "2026-08-23",
+ "as_of": "2026-08-24",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 1.389,
@@ -12,7 +12,7 @@
    "near_hr": 0.0
   },
   "intensity": 0.232,
-  "expectancy_score": 23.5,
+  "expectancy_score": 15.5,
   "last_appearance": "2026-08-21"
  },
  "days": [
