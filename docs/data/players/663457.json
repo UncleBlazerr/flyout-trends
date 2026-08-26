@@ -2,7 +2,7 @@
  "player_id": 663457,
  "player_name": "Lars Nootbaar",
  "team": "AZ",
- "as_of": "2026-08-24",
+ "as_of": "2026-08-25",
  "form": {
   "streak": 0,
   "frequency": 0.286,
@@ -409,24 +409,6 @@
    "max_barrel_score": 77.9,
    "temp_f": 90.0,
    "wind_mph": 11.0,
-   "wind_dir": "out",
-   "weather_condition": "Partly Cloudy"
-  },
-  {
-   "date": "2026-07-26",
-   "bbe": 1,
-   "hr": 0,
-   "near_hr_any": 0,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 0,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 0,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 90.6,
-   "max_distance": 292.0,
-   "max_barrel_score": 49.8,
-   "temp_f": 94.0,
-   "wind_mph": 5.0,
    "wind_dir": "out",
    "weather_condition": "Partly Cloudy"
   }
@@ -2084,35 +2066,6 @@
    "barrel_flag": true,
    "is_home_run": false,
    "is_near_hr": true
-  },
-  {
-   "game_pk": 823028,
-   "date": "2026-07-26",
-   "player_id": 663457,
-   "player_name": "Lars Nootbaar",
-   "team": "STL",
-   "opponent": "CIN",
-   "result": "Flyout",
-   "exit_velocity": 90.6,
-   "launch_angle": 44.0,
-   "hit_distance": 292.0,
-   "hc_x": 39.15,
-   "hc_y": 118.79,
-   "would_be_hr_count": 0,
-   "inning": 8,
-   "play_id": "6a4e08ee-8e92-34bf-824b-caad7d512dbd",
-   "venue_id": 2889,
-   "venue_name": "Busch Stadium",
-   "temp_f": 94.0,
-   "wind_mph": 5.0,
-   "wind_dir": "out",
-   "weather_condition": "Partly Cloudy",
-   "distance_flag": false,
-   "would_be_hr_flag": false,
-   "barrel_score": 49.8,
-   "barrel_flag": false,
-   "is_home_run": false,
-   "is_near_hr": false
   }
  ]
 }
