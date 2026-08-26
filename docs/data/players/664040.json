@@ -7,15 +7,33 @@
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": -1.621,
+   "max_ev": -3.236,
    "parks_sum": 0.0,
-   "near_hr": -0.036
+   "near_hr": -0.071
   },
   "intensity": 0.0,
   "expectancy_score": 4.3,
-  "last_appearance": "2026-08-24"
+  "last_appearance": "2026-08-25"
  },
  "days": [
+  {
+   "date": "2026-08-25",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 83.2,
+   "max_distance": 4.0,
+   "max_barrel_score": 12.0,
+   "temp_f": 83.0,
+   "wind_mph": 5.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-08-24",
    "bbe": 1,
@@ -468,6 +486,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823259,
+   "date": "2026-08-25",
+   "player_id": 664040,
+   "player_name": "Brandon Lowe",
+   "team": "PIT",
+   "opponent": "SD",
+   "result": "Groundout",
+   "exit_velocity": 83.2,
+   "launch_angle": -38.0,
+   "hit_distance": 4.0,
+   "hc_x": 152.82,
+   "hc_y": 166.38,
+   "would_be_hr_count": 0,
+   "inning": 6,
+   "play_id": "3e871af3-b873-3c4c-aa0f-58b7c07004f7",
+   "venue_id": 2680,
+   "venue_name": "Petco Park",
+   "temp_f": 83.0,
+   "wind_mph": 5.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 12.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823260,
    "date": "2026-08-24",

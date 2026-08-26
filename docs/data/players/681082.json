@@ -7,15 +7,33 @@
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": -1.196,
-   "parks_sum": 0.071,
-   "near_hr": 0.071
+   "max_ev": 0.839,
+   "parks_sum": 0.036,
+   "near_hr": 0.036
   },
-  "intensity": 0.032,
-  "expectancy_score": 5.2,
-  "last_appearance": "2026-08-24"
+  "intensity": 0.156,
+  "expectancy_score": 9.0,
+  "last_appearance": "2026-08-25"
  },
  "days": [
+  {
+   "date": "2026-08-25",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 93.3,
+   "max_distance": 8.0,
+   "max_barrel_score": 21.2,
+   "temp_f": 78.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-08-24",
    "bbe": 2,
@@ -468,6 +486,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823098,
+   "date": "2026-08-25",
+   "player_id": 681082,
+   "player_name": "Bryson Stott",
+   "team": "PHI",
+   "opponent": "SEA",
+   "result": "Single",
+   "exit_velocity": 93.3,
+   "launch_angle": -17.0,
+   "hit_distance": 8.0,
+   "hc_x": 152.01,
+   "hc_y": 100.88,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "f89378f9-4e10-3854-afd5-d86deb3f7b02",
+   "venue_id": 680,
+   "venue_name": "T-Mobile Park",
+   "temp_f": 78.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 21.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823097,
    "date": "2026-08-24",

@@ -5,17 +5,35 @@
  "as_of": "2026-08-25",
  "form": {
   "streak": 0,
-  "frequency": 0.143,
+  "frequency": 0.0,
   "slopes": {
-   "max_ev": -1.014,
+   "max_ev": 1.436,
    "parks_sum": 0.0,
-   "near_hr": -0.107
+   "near_hr": 0.0
   },
-  "intensity": 0.0,
-  "expectancy_score": 4.3,
-  "last_appearance": "2026-08-24"
+  "intensity": 0.239,
+  "expectancy_score": 7.2,
+  "last_appearance": "2026-08-25"
  },
  "days": [
+  {
+   "date": "2026-08-25",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 111.7,
+   "max_distance": 188.0,
+   "max_barrel_score": 60.5,
+   "temp_f": 90.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-24",
    "bbe": 4,
@@ -486,6 +504,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824962,
+   "date": "2026-08-25",
+   "player_id": 703607,
+   "player_name": "Henry Bolte",
+   "team": "ATH",
+   "opponent": "MIN",
+   "result": "Triple",
+   "exit_velocity": 111.7,
+   "launch_angle": 10.0,
+   "hit_distance": 188.0,
+   "hc_x": 152.25,
+   "hc_y": 98.63,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "2fcf0818-b160-3f2d-98c1-ba615c1ba6af",
+   "venue_id": 2529,
+   "venue_name": "Sutter Health Park",
+   "temp_f": 90.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 60.5,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824964,
    "date": "2026-08-24",

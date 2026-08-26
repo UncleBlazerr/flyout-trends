@@ -5,17 +5,35 @@
  "as_of": "2026-08-25",
  "form": {
   "streak": 0,
-  "frequency": 0.429,
+  "frequency": 0.286,
   "slopes": {
-   "max_ev": -2.518,
-   "parks_sum": -0.536,
-   "near_hr": 0.009
+   "max_ev": -3.739,
+   "parks_sum": 0.107,
+   "near_hr": 0.036
   },
-  "intensity": 0.003,
-  "expectancy_score": 12.9,
-  "last_appearance": "2026-08-24"
+  "intensity": 0.024,
+  "expectancy_score": 9.3,
+  "last_appearance": "2026-08-25"
  },
  "days": [
+  {
+   "date": "2026-08-25",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 77.3,
+   "max_distance": 15.0,
+   "max_barrel_score": 7.5,
+   "temp_f": 78.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-08-24",
    "bbe": 1,
@@ -162,6 +180,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823098,
+   "date": "2026-08-25",
+   "player_id": 801126,
+   "player_name": "Brock Rodden",
+   "team": "SEA",
+   "opponent": "PHI",
+   "result": "Groundout",
+   "exit_velocity": 77.3,
+   "launch_angle": -5.0,
+   "hit_distance": 15.0,
+   "hc_x": 148.86,
+   "hc_y": 167.46,
+   "would_be_hr_count": 0,
+   "inning": 3,
+   "play_id": "4b148a11-ceb5-37a0-8208-61310ea30ee8",
+   "venue_id": 680,
+   "venue_name": "T-Mobile Park",
+   "temp_f": 78.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 7.5,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823097,
    "date": "2026-08-24",

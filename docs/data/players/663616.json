@@ -5,17 +5,35 @@
  "as_of": "2026-08-25",
  "form": {
   "streak": 0,
-  "frequency": 0.429,
+  "frequency": 0.286,
   "slopes": {
-   "max_ev": -0.829,
+   "max_ev": -0.539,
    "parks_sum": 0.0,
-   "near_hr": -0.179
+   "near_hr": -0.143
   },
   "intensity": 0.0,
-  "expectancy_score": 12.9,
-  "last_appearance": "2026-08-22"
+  "expectancy_score": 8.6,
+  "last_appearance": "2026-08-25"
  },
  "days": [
+  {
+   "date": "2026-08-25",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 100.1,
+   "max_distance": 110.0,
+   "max_barrel_score": 39.5,
+   "temp_f": 90.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-22",
    "bbe": 4,
@@ -342,6 +360,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824962,
+   "date": "2026-08-25",
+   "player_id": 663616,
+   "player_name": "Trevor Larnach",
+   "team": "MIN",
+   "opponent": "ATH",
+   "result": "Groundout",
+   "exit_velocity": 100.1,
+   "launch_angle": 5.0,
+   "hit_distance": 110.0,
+   "hc_x": 151.3,
+   "hc_y": 151.18,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "e4b214b6-70b1-3cdc-aff3-adabf42639cd",
+   "venue_id": 2529,
+   "venue_name": "Sutter Health Park",
+   "temp_f": 90.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 39.5,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823261,
    "date": "2026-08-22",

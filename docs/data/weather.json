@@ -11,14 +11,14 @@
   {
    "temp_band": "55-70",
    "wind": "out",
-   "player_days": 298,
-   "hr_days": 29,
-   "hr_total": 31,
-   "near_hr_days": 56,
+   "player_days": 317,
+   "hr_days": 31,
+   "hr_total": 33,
+   "near_hr_days": 62,
    "follow_samples": 49,
    "hr_followed": 11,
-   "hr_rate": 0.097,
-   "near_hr_rate": 0.188,
+   "hr_rate": 0.098,
+   "near_hr_rate": 0.196,
    "follow_rate": 0.224
   },
   {
@@ -50,14 +50,14 @@
   {
    "temp_band": "70-85",
    "wind": "out",
-   "player_days": 2537,
-   "hr_days": 297,
-   "hr_total": 323,
-   "near_hr_days": 585,
+   "player_days": 2555,
+   "hr_days": 298,
+   "hr_total": 324,
+   "near_hr_days": 588,
    "follow_samples": 555,
    "hr_followed": 106,
    "hr_rate": 0.117,
-   "near_hr_rate": 0.231,
+   "near_hr_rate": 0.23,
    "follow_rate": 0.191
   },
   {
@@ -76,27 +76,27 @@
   {
    "temp_band": "70-85",
    "wind": "neutral",
-   "player_days": 2377,
-   "hr_days": 252,
-   "hr_total": 262,
-   "near_hr_days": 519,
+   "player_days": 2397,
+   "hr_days": 253,
+   "hr_total": 263,
+   "near_hr_days": 521,
    "follow_samples": 480,
    "hr_followed": 99,
    "hr_rate": 0.106,
-   "near_hr_rate": 0.218,
+   "near_hr_rate": 0.217,
    "follow_rate": 0.206
   },
   {
    "temp_band": "85+",
    "wind": "out",
-   "player_days": 1324,
-   "hr_days": 157,
-   "hr_total": 176,
-   "near_hr_days": 287,
+   "player_days": 1359,
+   "hr_days": 160,
+   "hr_total": 180,
+   "near_hr_days": 294,
    "follow_samples": 285,
    "hr_followed": 76,
-   "hr_rate": 0.119,
-   "near_hr_rate": 0.217,
+   "hr_rate": 0.118,
+   "near_hr_rate": 0.216,
    "follow_rate": 0.267
   },
   {
@@ -127,15 +127,15 @@
   }
  ],
  "dome": {
-  "player_days": 2446,
-  "hr_days": 272,
-  "hr_total": 284,
-  "near_hr_days": 530,
+  "player_days": 2465,
+  "hr_days": 274,
+  "hr_total": 286,
+  "near_hr_days": 535,
   "follow_samples": 499,
-  "hr_followed": 104,
+  "hr_followed": 105,
   "hr_rate": 0.111,
   "near_hr_rate": 0.217,
-  "follow_rate": 0.208
+  "follow_rate": 0.21
  },
  "unknown_player_days": 0
 }

@@ -7,15 +7,33 @@
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": -0.279,
-   "parks_sum": 0.143,
-   "near_hr": 0.0
+   "max_ev": 1.189,
+   "parks_sum": -0.214,
+   "near_hr": -0.036
   },
-  "intensity": 0.016,
-  "expectancy_score": 4.8,
-  "last_appearance": "2026-08-23"
+  "intensity": 0.198,
+  "expectancy_score": 10.2,
+  "last_appearance": "2026-08-25"
  },
  "days": [
+  {
+   "date": "2026-08-25",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 101.7,
+   "max_distance": 56.0,
+   "max_barrel_score": 31.9,
+   "temp_f": 90.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-23",
    "bbe": 3,
@@ -252,6 +270,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824962,
+   "date": "2026-08-25",
+   "player_id": 605170,
+   "player_name": "Victor Caratini",
+   "team": "MIN",
+   "opponent": "ATH",
+   "result": "Groundout",
+   "exit_velocity": 101.7,
+   "launch_angle": null,
+   "hit_distance": 56.0,
+   "hc_x": 102.66,
+   "hc_y": 166.38,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "d6aa4a38-c9fd-33d4-b003-ac4c3ff81232",
+   "venue_id": 2529,
+   "venue_name": "Sutter Health Park",
+   "temp_f": 90.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 31.9,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823258,
    "date": "2026-08-23",
