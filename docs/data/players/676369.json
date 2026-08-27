@@ -2,17 +2,17 @@
  "player_id": 676369,
  "player_name": "Nelson Vel\u00e1zquez",
  "team": "HOU",
- "as_of": "2026-08-27",
+ "as_of": "2026-08-26",
  "form": {
   "streak": 0,
-  "frequency": 0.4,
+  "frequency": 0.333,
   "slopes": {
-   "max_ev": -4.25,
-   "parks_sum": -2.4,
-   "near_hr": -0.25
+   "max_ev": -2.269,
+   "parks_sum": -1.029,
+   "near_hr": -0.079
   },
   "intensity": 0.0,
-  "expectancy_score": 12.0,
+  "expectancy_score": 10.0,
   "last_appearance": "2026-08-25"
  },
  "days": [
@@ -105,6 +105,24 @@
    "wind_mph": 6.0,
    "wind_dir": "cross",
    "weather_condition": "Partly Cloudy"
+  },
+  {
+   "date": "2026-07-28",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 95.4,
+   "max_distance": 186.0,
+   "max_barrel_score": 49.2,
+   "temp_f": 87.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Cloudy"
   }
  ],
  "events": [
@@ -307,6 +325,35 @@
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 32.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
+  {
+   "game_pk": 823026,
+   "date": "2026-07-28",
+   "player_id": 676369,
+   "player_name": "Nelson Vel\u00e1zquez",
+   "team": "STL",
+   "opponent": "CHC",
+   "result": "Single",
+   "exit_velocity": 95.4,
+   "launch_angle": 13.0,
+   "hit_distance": 186.0,
+   "hc_x": 54.83,
+   "hc_y": 114.73,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "d503611a-b7b2-38db-8c5e-d2791934576a",
+   "venue_id": 2889,
+   "venue_name": "Busch Stadium",
+   "temp_f": 87.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 49.2,
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false

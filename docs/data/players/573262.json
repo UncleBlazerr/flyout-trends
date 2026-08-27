@@ -2,20 +2,38 @@
  "player_id": 573262,
  "player_name": "Mike Yastrzemski",
  "team": "ATL",
- "as_of": "2026-08-27",
+ "as_of": "2026-08-26",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": 0.139,
+   "max_ev": -2.364,
    "parks_sum": 0.0,
-   "near_hr": -0.036
+   "near_hr": -0.071
   },
-  "intensity": 0.023,
-  "expectancy_score": 5.0,
-  "last_appearance": "2026-08-25"
+  "intensity": 0.0,
+  "expectancy_score": 4.3,
+  "last_appearance": "2026-08-26"
  },
  "days": [
+  {
+   "date": "2026-08-26",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 71.9,
+   "max_distance": 246.0,
+   "max_barrel_score": 39.9,
+   "temp_f": 89.0,
+   "wind_mph": 6.0,
+   "wind_dir": "out",
+   "weather_condition": "Cloudy"
+  },
   {
    "date": "2026-08-25",
    "bbe": 1,
@@ -360,6 +378,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824878,
+   "date": "2026-08-26",
+   "player_id": 573262,
+   "player_name": "Mike Yastrzemski",
+   "team": "ATL",
+   "opponent": "LAD",
+   "result": "Single",
+   "exit_velocity": 71.9,
+   "launch_angle": 35.0,
+   "hit_distance": 246.0,
+   "hc_x": 111.33,
+   "hc_y": 99.97,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "76924357-c509-3d73-a962-7f690612ad40",
+   "venue_id": 4705,
+   "venue_name": "Truist Park",
+   "temp_f": 89.0,
+   "wind_mph": 6.0,
+   "wind_dir": "out",
+   "weather_condition": "Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 39.9,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824881,
    "date": "2026-08-25",

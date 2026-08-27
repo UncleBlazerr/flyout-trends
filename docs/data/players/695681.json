@@ -2,20 +2,38 @@
  "player_id": 695681,
  "player_name": "Christian Moore",
  "team": "LAA",
- "as_of": "2026-08-27",
+ "as_of": "2026-08-26",
  "form": {
   "streak": 0,
-  "frequency": 0.5,
+  "frequency": 0.4,
   "slopes": {
-   "max_ev": 3.65,
-   "parks_sum": 0.0,
-   "near_hr": -0.025
+   "max_ev": 2.4,
+   "parks_sum": -0.1,
+   "near_hr": -0.125
   },
   "intensity": 0.333,
-  "expectancy_score": 25.0,
-  "last_appearance": "2026-08-25"
+  "expectancy_score": 22.0,
+  "last_appearance": "2026-08-26"
  },
  "days": [
+  {
+   "date": "2026-08-26",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 101.1,
+   "max_distance": 58.0,
+   "max_barrel_score": 33.7,
+   "temp_f": 92.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-08-25",
    "bbe": 3,
@@ -90,6 +108,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823988,
+   "date": "2026-08-26",
+   "player_id": 695681,
+   "player_name": "Christian Moore",
+   "team": "LAA",
+   "opponent": "CLE",
+   "result": "GIDP",
+   "exit_velocity": 101.1,
+   "launch_angle": 2.0,
+   "hit_distance": 58.0,
+   "hc_x": 116.04,
+   "hc_y": 155.49,
+   "would_be_hr_count": 0,
+   "inning": 5,
+   "play_id": "f9d8e2b7-00bc-3c91-821f-9dc13d2e38fe",
+   "venue_id": 1,
+   "venue_name": "Angel Stadium",
+   "temp_f": 92.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 33.7,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823989,
    "date": "2026-08-25",

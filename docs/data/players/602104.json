@@ -2,20 +2,38 @@
  "player_id": 602104,
  "player_name": "Ram\u00f3n Ur\u00edas",
  "team": "STL",
- "as_of": "2026-08-27",
+ "as_of": "2026-08-26",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -11.7,
+   "max_ev": -3.45,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.0,
   "expectancy_score": 0.0,
-  "last_appearance": "2026-08-25"
+  "last_appearance": "2026-08-26"
  },
  "days": [
+  {
+   "date": "2026-08-26",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 96.1,
+   "max_distance": 308.0,
+   "max_barrel_score": 54.6,
+   "temp_f": 87.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-08-25",
    "bbe": 4,
@@ -54,6 +72,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823015,
+   "date": "2026-08-26",
+   "player_id": 602104,
+   "player_name": "Ram\u00f3n Ur\u00edas",
+   "team": "STL",
+   "opponent": "BAL",
+   "result": "Flyout",
+   "exit_velocity": 96.1,
+   "launch_angle": 45.0,
+   "hit_distance": 308.0,
+   "hc_x": 131.21,
+   "hc_y": 75.88,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "183119be-e0f9-3d08-9e8c-b0b9d3ca2908",
+   "venue_id": 2889,
+   "venue_name": "Busch Stadium",
+   "temp_f": 87.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 54.6,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823016,
    "date": "2026-08-25",

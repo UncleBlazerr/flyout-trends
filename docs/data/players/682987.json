@@ -2,20 +2,38 @@
  "player_id": 682987,
  "player_name": "Spencer Jones",
  "team": "NYY",
- "as_of": "2026-08-27",
+ "as_of": "2026-08-26",
  "form": {
-  "streak": 2,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": 1.714,
+   "max_ev": 1.679,
    "parks_sum": 0.0,
-   "near_hr": 0.223
+   "near_hr": 0.134
   },
-  "intensity": 0.36,
-  "expectancy_score": 35.4,
-  "last_appearance": "2026-08-25"
+  "intensity": 0.325,
+  "expectancy_score": 18.3,
+  "last_appearance": "2026-08-26"
  },
  "days": [
+  {
+   "date": "2026-08-26",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 94.9,
+   "max_distance": 179.0,
+   "max_barrel_score": 47.2,
+   "temp_f": 78.0,
+   "wind_mph": 10.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-25",
    "bbe": 4,
@@ -447,9 +465,56 @@
    "wind_mph": 9.0,
    "wind_dir": "out",
    "weather_condition": "Clear"
+  },
+  {
+   "date": "2026-07-28",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 110.3,
+   "max_distance": 322.0,
+   "max_barrel_score": 75.8,
+   "temp_f": 73.0,
+   "wind_mph": 15.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
+  {
+   "game_pk": 823506,
+   "date": "2026-08-26",
+   "player_id": 682987,
+   "player_name": "Spencer Jones",
+   "team": "NYY",
+   "opponent": "HOU",
+   "result": "Single",
+   "exit_velocity": 94.9,
+   "launch_angle": 12.0,
+   "hit_distance": 179.0,
+   "hc_x": 175.38,
+   "hc_y": 113.56,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "63e3c569-04ac-3733-9524-6980ae33188d",
+   "venue_id": 3313,
+   "venue_name": "Yankee Stadium",
+   "temp_f": 78.0,
+   "wind_mph": 10.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 47.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823505,
    "date": "2026-08-25",
@@ -2044,6 +2109,35 @@
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
+  },
+  {
+   "game_pk": 824569,
+   "date": "2026-07-28",
+   "player_id": 682987,
+   "player_name": "Spencer Jones",
+   "team": "NYY",
+   "opponent": "CWS",
+   "result": "Lineout",
+   "exit_velocity": 110.3,
+   "launch_angle": 17.0,
+   "hit_distance": 322.0,
+   "hc_x": 70.03,
+   "hc_y": 82.29,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "c8ed92ae-1f92-368c-86bd-1bcbe97ed719",
+   "venue_id": 4,
+   "venue_name": "Rate Field",
+   "temp_f": 73.0,
+   "wind_mph": 15.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 75.8,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
   }
  ]
 }
