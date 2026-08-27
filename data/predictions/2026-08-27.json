@@ -1,7 +1,59 @@
 {
+ "schema_version": 2,
+ "generated_at": "2026-08-27T13:43:11.693312+00:00",
  "as_of": "2026-08-27",
- "horizon_days": 3,
- "min_samples": 20,
+ "config": {
+  "min_near_hr_events": 1,
+  "max_gap_days": 2,
+  "slope_window": 7,
+  "streak_cap": 5,
+  "weights": {
+   "streak": 0.4,
+   "frequency": 0.3,
+   "intensity": 0.3
+  },
+  "intensity_scales": {
+   "max_ev": 2.0,
+   "parks_sum": 3.0,
+   "near_hr": 1.0
+  },
+  "xbh_weight": 1.25,
+  "horizon_days": 3,
+  "score_bands": [
+   40,
+   60,
+   80
+  ],
+  "min_samples": 20,
+  "top_n": 15,
+  "consistency_top_n": 15,
+  "records_dir": "data/predictions",
+  "weather": {
+   "enabled": true,
+   "temp_ref_f": 70,
+   "temp_per_deg": 0.004,
+   "wind_out_min_mph": 5,
+   "wind_out_per_mph": 0.012,
+   "wind_out_cap_mph": 20,
+   "wind_in_min_mph": 5,
+   "wind_in_per_mph": 0.008,
+   "wind_in_cap_mph": 20,
+   "clamp": [
+    0.85,
+    1.2
+   ],
+   "neutral_conditions": [
+    "Dome",
+    "Roof Closed"
+   ],
+   "temp_bands": [
+    55,
+    70,
+    85
+   ],
+   "min_samples": 25
+  }
+ },
  "players": [
   {
    "player_id": 687529,
@@ -467,58 +519,6 @@
     "weather_condition": ""
    },
    "repeat": false
-  }
- ],
- "bands": {
-  "<40": {
-   "samples": 11628,
-   "hr_followed": 2373,
-   "rate": 0.204
-  },
-  "40-60": {
-   "samples": 332,
-   "hr_followed": 81,
-   "rate": 0.244
-  },
-  "60-80": {
-   "samples": 30,
-   "hr_followed": 9,
-   "rate": 0.3
-  }
- },
- "hit_rate": {
-  "resolved_records": 49,
-  "horizon_days": 3,
-  "overall": {
-   "flagged": 735,
-   "hr_followed": 150,
-   "rate": 0.204
-  },
-  "top_band": {
-   "band": "80+",
-   "flagged": 0,
-   "hr_followed": 0,
-   "rate": null
-  }
- },
- "recent_hits": [
-  {
-   "player_id": 695681,
-   "player_name": "Christian Moore",
-   "team": "LAA",
-   "flagged_on": "2026-08-24",
-   "flagged_score": 52.7,
-   "hr_on": "2026-08-25",
-   "hr_count": 1
-  },
-  {
-   "player_id": 596019,
-   "player_name": "Francisco Lindor",
-   "team": "NYM",
-   "flagged_on": "2026-08-24",
-   "flagged_score": 40.3,
-   "hr_on": "2026-08-25",
-   "hr_count": 1
   }
  ]
 }

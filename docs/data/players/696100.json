@@ -2,7 +2,7 @@
  "player_id": 696100,
  "player_name": "Hunter Goodman",
  "team": "COL",
- "as_of": "2026-08-25",
+ "as_of": "2026-08-27",
  "form": {
   "streak": 0,
   "frequency": 0.286,
@@ -231,24 +231,6 @@
    "wind_mph": 9.0,
    "wind_dir": "cross",
    "weather_condition": "Sunny"
-  },
-  {
-   "date": "2026-07-28",
-   "bbe": 1,
-   "hr": 0,
-   "near_hr_any": 1,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 0,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 1,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 93.1,
-   "max_distance": 349.0,
-   "max_barrel_score": 71.1,
-   "temp_f": 74.0,
-   "wind_mph": 7.0,
-   "wind_dir": "cross",
-   "weather_condition": "Clear"
   }
  ],
  "events": [
@@ -1179,35 +1161,6 @@
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
-  },
-  {
-   "game_pk": 823275,
-   "date": "2026-07-28",
-   "player_id": 696100,
-   "player_name": "Hunter Goodman",
-   "team": "COL",
-   "opponent": "SD",
-   "result": "Flyout",
-   "exit_velocity": 93.1,
-   "launch_angle": 30.0,
-   "hit_distance": 349.0,
-   "hc_x": 129.52,
-   "hc_y": 58.62,
-   "would_be_hr_count": 0,
-   "inning": 6,
-   "play_id": "8cdf1db6-471e-3c6e-998c-5938c4726e66",
-   "venue_id": 2680,
-   "venue_name": "Petco Park",
-   "temp_f": 74.0,
-   "wind_mph": 7.0,
-   "wind_dir": "cross",
-   "weather_condition": "Clear",
-   "distance_flag": false,
-   "would_be_hr_flag": false,
-   "barrel_score": 71.1,
-   "barrel_flag": true,
-   "is_home_run": false,
-   "is_near_hr": true
   }
  ]
 }

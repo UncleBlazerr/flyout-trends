@@ -2,7 +2,7 @@
  "player_id": 665953,
  "player_name": "Andr\u00e9s Chaparro",
  "team": "WSH",
- "as_of": "2026-08-25",
+ "as_of": "2026-08-27",
  "form": {
   "streak": 0,
   "frequency": 0.286,
@@ -375,24 +375,6 @@
    "wind_mph": 8.0,
    "wind_dir": "out",
    "weather_condition": "Clear"
-  },
-  {
-   "date": "2026-07-27",
-   "bbe": 1,
-   "hr": 1,
-   "near_hr_any": 0,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 0,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 0,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 108.3,
-   "max_distance": 432.0,
-   "max_barrel_score": 92.3,
-   "temp_f": 91.0,
-   "wind_mph": 2.0,
-   "wind_dir": "out",
-   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -1497,35 +1479,6 @@
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": true
-  },
-  {
-   "game_pk": 822705,
-   "date": "2026-07-27",
-   "player_id": 665953,
-   "player_name": "Andr\u00e9s Chaparro",
-   "team": "WSH",
-   "opponent": "TOR",
-   "result": "Home Run",
-   "exit_velocity": 108.3,
-   "launch_angle": 27.0,
-   "hit_distance": 432.0,
-   "hc_x": 1.0,
-   "hc_y": 76.98,
-   "would_be_hr_count": 30,
-   "inning": 5,
-   "play_id": "2f7a5cf3-1ca6-3cee-b36a-40a3bbfe844f",
-   "venue_id": 3309,
-   "venue_name": "Nationals Park",
-   "temp_f": 91.0,
-   "wind_mph": 2.0,
-   "wind_dir": "out",
-   "weather_condition": "Partly Cloudy",
-   "distance_flag": false,
-   "would_be_hr_flag": false,
-   "barrel_score": 92.3,
-   "barrel_flag": false,
-   "is_home_run": true,
-   "is_near_hr": false
   }
  ]
 }

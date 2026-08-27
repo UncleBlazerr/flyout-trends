@@ -2,7 +2,7 @@
  "player_id": 668904,
  "player_name": "Royce Lewis",
  "team": "MIN",
- "as_of": "2026-08-25",
+ "as_of": "2026-08-27",
  "form": {
   "streak": 0,
   "frequency": 0.143,
@@ -463,24 +463,6 @@
    "max_barrel_score": 61.7,
    "temp_f": 90.0,
    "wind_mph": 8.0,
-   "wind_dir": "out",
-   "weather_condition": "Partly Cloudy"
-  },
-  {
-   "date": "2026-07-28",
-   "bbe": 1,
-   "hr": 0,
-   "near_hr_any": 1,
-   "near_hr_xbh": 1,
-   "near_hr_distance": 0,
-   "near_hr_parks": 1,
-   "near_hr_barrel": 1,
-   "would_be_hr_parks_sum": 10,
-   "max_ev": 104.7,
-   "max_distance": 399.0,
-   "max_barrel_score": 83.6,
-   "temp_f": 89.0,
-   "wind_mph": 6.0,
    "wind_dir": "out",
    "weather_condition": "Partly Cloudy"
   }
@@ -2631,35 +2613,6 @@
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
-  },
-  {
-   "game_pk": 823676,
-   "date": "2026-07-28",
-   "player_id": 668904,
-   "player_name": "Royce Lewis",
-   "team": "MIN",
-   "opponent": "KC",
-   "result": "Triple",
-   "exit_velocity": 104.7,
-   "launch_angle": 31.0,
-   "hit_distance": 399.0,
-   "hc_x": 150.58,
-   "hc_y": 39.67,
-   "would_be_hr_count": 10,
-   "inning": 9,
-   "play_id": "3a66ee73-2b4f-3832-953b-49a5f9dfdb3e",
-   "venue_id": 3312,
-   "venue_name": "Target Field",
-   "temp_f": 89.0,
-   "wind_mph": 6.0,
-   "wind_dir": "out",
-   "weather_condition": "Partly Cloudy",
-   "distance_flag": false,
-   "would_be_hr_flag": true,
-   "barrel_score": 83.6,
-   "barrel_flag": true,
-   "is_home_run": false,
-   "is_near_hr": true
   }
  ]
 }
