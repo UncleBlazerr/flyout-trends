@@ -42,16 +42,6 @@
    "game_streak": 2
   },
   {
-   "player_id": 802139,
-   "player_name": "JJ Wetherholt",
-   "team": "STL",
-   "record_streak": 1,
-   "total_flags": 10,
-   "avg_score": 50.0,
-   "current_score": 30.0,
-   "game_streak": 1
-  },
-  {
    "player_id": 665487,
    "player_name": "Fernando Tatis Jr.",
    "team": "SD",
@@ -132,16 +122,6 @@
    "game_streak": 1
   },
   {
-   "player_id": 675961,
-   "player_name": "Alika Williams",
-   "team": "ATH",
-   "record_streak": 1,
-   "total_flags": 1,
-   "avg_score": 33.9,
-   "current_score": 33.9,
-   "game_streak": 2
-  },
-  {
    "player_id": 691723,
    "player_name": "Coby Mayo",
    "team": "BAL",
@@ -150,6 +130,26 @@
    "avg_score": 31.8,
    "current_score": 31.8,
    "game_streak": 2
+  },
+  {
+   "player_id": 543510,
+   "player_name": "James McCann",
+   "team": "AZ",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 30.1,
+   "current_score": 30.1,
+   "game_streak": 1
+  },
+  {
+   "player_id": 808982,
+   "player_name": "Jung Hoo Lee",
+   "team": "SF",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 29.8,
+   "current_score": 29.8,
+   "game_streak": 1
   }
  ]
 }
