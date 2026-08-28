@@ -2,9 +2,9 @@
  "player_id": 668939,
  "player_name": "Adley Rutschman",
  "team": "BOS",
- "as_of": "2026-08-26",
+ "as_of": "2026-08-28",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.571,
   "slopes": {
    "max_ev": -1.157,
@@ -12,7 +12,7 @@
    "near_hr": 0.0
   },
   "intensity": 0.0,
-  "expectancy_score": 25.1,
+  "expectancy_score": 17.1,
   "last_appearance": "2026-08-24"
  },
  "days": [

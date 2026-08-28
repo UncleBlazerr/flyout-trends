@@ -2,12 +2,12 @@
  "player_id": 681546,
  "player_name": "James Outman",
  "team": "DET",
- "as_of": "2026-08-26",
+ "as_of": "2026-08-28",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -6.8,
+   "max_ev": -16.3,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
@@ -51,24 +51,6 @@
    "wind_mph": 3.0,
    "wind_dir": "cross",
    "weather_condition": "Sunny"
-  },
-  {
-   "date": "2026-07-28",
-   "bbe": 1,
-   "hr": 0,
-   "near_hr_any": 0,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 0,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 0,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 101.0,
-   "max_distance": 201.0,
-   "max_barrel_score": 56.2,
-   "temp_f": 79.0,
-   "wind_mph": 7.0,
-   "wind_dir": "out",
-   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -128,35 +110,6 @@
    "barrel_score": 84.4,
    "barrel_flag": false,
    "is_home_run": true,
-   "is_near_hr": false
-  },
-  {
-   "game_pk": 824243,
-   "date": "2026-07-28",
-   "player_id": 681546,
-   "player_name": "James Outman",
-   "team": "DET",
-   "opponent": "BAL",
-   "result": "Single",
-   "exit_velocity": 101.0,
-   "launch_angle": 14.0,
-   "hit_distance": 201.0,
-   "hc_x": 142.23,
-   "hc_y": 87.13,
-   "would_be_hr_count": 0,
-   "inning": 8,
-   "play_id": "ae65022c-6de7-3a47-aa8f-a26733994bc4",
-   "venue_id": 2394,
-   "venue_name": "Comerica Park",
-   "temp_f": 79.0,
-   "wind_mph": 7.0,
-   "wind_dir": "out",
-   "weather_condition": "Partly Cloudy",
-   "distance_flag": false,
-   "would_be_hr_flag": false,
-   "barrel_score": 56.2,
-   "barrel_flag": false,
-   "is_home_run": false,
    "is_near_hr": false
   }
  ]

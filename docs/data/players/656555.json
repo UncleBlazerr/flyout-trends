@@ -2,7 +2,7 @@
  "player_id": 656555,
  "player_name": "Rhys Hoskins",
  "team": "CLE",
- "as_of": "2026-08-26",
+ "as_of": "2026-08-28",
  "form": {
   "streak": 0,
   "frequency": 0.0,
@@ -212,24 +212,6 @@
    "temp_f": 79.0,
    "wind_mph": 2.0,
    "wind_dir": "in",
-   "weather_condition": "Partly Cloudy"
-  },
-  {
-   "date": "2026-07-28",
-   "bbe": 1,
-   "hr": 0,
-   "near_hr_any": 0,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 0,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 0,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 100.6,
-   "max_distance": 316.0,
-   "max_barrel_score": 58.1,
-   "temp_f": 84.0,
-   "wind_mph": 9.0,
-   "wind_dir": "out",
    "weather_condition": "Partly Cloudy"
   }
  ],
@@ -755,35 +737,6 @@
    "barrel_flag": true,
    "is_home_run": false,
    "is_near_hr": true
-  },
-  {
-   "game_pk": 824489,
-   "date": "2026-07-28",
-   "player_id": 656555,
-   "player_name": "Rhys Hoskins",
-   "team": "CLE",
-   "opponent": "CIN",
-   "result": "Flyout",
-   "exit_velocity": 100.6,
-   "launch_angle": 46.0,
-   "hit_distance": 316.0,
-   "hc_x": 73.89,
-   "hc_y": 83.46,
-   "would_be_hr_count": 0,
-   "inning": 3,
-   "play_id": "5fb58611-c069-3862-8c2a-3dd035820fd7",
-   "venue_id": 2602,
-   "venue_name": "Great American Ball Park",
-   "temp_f": 84.0,
-   "wind_mph": 9.0,
-   "wind_dir": "out",
-   "weather_condition": "Partly Cloudy",
-   "distance_flag": false,
-   "would_be_hr_flag": false,
-   "barrel_score": 58.1,
-   "barrel_flag": false,
-   "is_home_run": false,
-   "is_near_hr": false
   }
  ]
 }
