@@ -2,7 +2,7 @@
  "player_id": 665052,
  "player_name": "Griffin Conine",
  "team": "MIA",
- "as_of": "2026-08-28",
+ "as_of": "2026-08-27",
  "form": {
   "streak": 0,
   "frequency": 0.286,
@@ -447,6 +447,24 @@
    "wind_mph": 2.0,
    "wind_dir": "cross",
    "weather_condition": "Cloudy"
+  },
+  {
+   "date": "2026-07-29",
+   "bbe": 1,
+   "hr": 1,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 107.8,
+   "max_distance": 424.0,
+   "max_barrel_score": 84.8,
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
   }
  ],
  "events": [
@@ -1898,6 +1916,35 @@
    "barrel_score": 69.0,
    "barrel_flag": false,
    "is_home_run": false,
+   "is_near_hr": false
+  },
+  {
+   "game_pk": 823837,
+   "date": "2026-07-29",
+   "player_id": 665052,
+   "player_name": "Griffin Conine",
+   "team": "MIA",
+   "opponent": "PHI",
+   "result": "Home Run",
+   "exit_velocity": 107.8,
+   "launch_angle": 34.0,
+   "hit_distance": 424.0,
+   "hc_x": 139.43,
+   "hc_y": 27.71,
+   "would_be_hr_count": 29,
+   "inning": 8,
+   "play_id": "652958b6-cf15-3f10-8bd1-0ef5246d7e8d",
+   "venue_id": 4169,
+   "venue_name": "loanDepot park",
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 84.8,
+   "barrel_flag": false,
+   "is_home_run": true,
    "is_near_hr": false
   }
  ]

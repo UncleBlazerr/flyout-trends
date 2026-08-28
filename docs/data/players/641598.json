@@ -2,17 +2,17 @@
  "player_id": 641598,
  "player_name": "Mitch Garver",
  "team": "SEA",
- "as_of": "2026-08-28",
+ "as_of": "2026-08-27",
  "form": {
   "streak": 0,
-  "frequency": 0.0,
+  "frequency": 0.5,
   "slopes": {
-   "max_ev": 0.0,
-   "parks_sum": 0.0,
-   "near_hr": 0.0
+   "max_ev": -10.1,
+   "parks_sum": -23.0,
+   "near_hr": -1.0
   },
   "intensity": 0.0,
-  "expectancy_score": 0.0,
+  "expectancy_score": 15.0,
   "last_appearance": "2026-08-01"
  },
  "days": [
@@ -33,6 +33,24 @@
    "wind_mph": 8.0,
    "wind_dir": "out",
    "weather_condition": "Partly Cloudy"
+  },
+  {
+   "date": "2026-07-29",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 1,
+   "near_hr_parks": 1,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 23,
+   "max_ev": 98.5,
+   "max_distance": 366.0,
+   "max_barrel_score": 79.2,
+   "temp_f": 77.0,
+   "wind_mph": 6.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
   }
  ],
  "events": [
@@ -93,6 +111,35 @@
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
+  },
+  {
+   "game_pk": 823924,
+   "date": "2026-07-29",
+   "player_id": 641598,
+   "player_name": "Mitch Garver",
+   "team": "SEA",
+   "opponent": "LAD",
+   "result": "Flyout",
+   "exit_velocity": 98.5,
+   "launch_angle": 28.0,
+   "hit_distance": 366.0,
+   "hc_x": 34.87,
+   "hc_y": 81.92,
+   "would_be_hr_count": 23,
+   "inning": 8,
+   "play_id": "5a742b7a-339d-3f55-961e-feb28451ac39",
+   "venue_id": 22,
+   "venue_name": "UNIQLO Field at Dodger Stadium",
+   "temp_f": 77.0,
+   "wind_mph": 6.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": true,
+   "would_be_hr_flag": true,
+   "barrel_score": 79.2,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
   }
  ]
 }

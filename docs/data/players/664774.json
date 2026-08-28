@@ -2,9 +2,9 @@
  "player_id": 664774,
  "player_name": "LaMonte Wade Jr.",
  "team": "HOU",
- "as_of": "2026-08-28",
+ "as_of": "2026-08-27",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 1.104,
@@ -12,7 +12,7 @@
    "near_hr": 0.188
   },
   "intensity": 0.247,
-  "expectancy_score": 16.0,
+  "expectancy_score": 24.0,
   "last_appearance": "2026-08-25"
  },
  "days": [
