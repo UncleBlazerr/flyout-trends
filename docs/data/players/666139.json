@@ -2,7 +2,7 @@
  "player_id": 666139,
  "player_name": "Josh Lowe",
  "team": "LAA",
- "as_of": "2026-08-27",
+ "as_of": "2026-08-29",
  "form": {
   "streak": 0,
   "frequency": 0.143,
@@ -375,24 +375,6 @@
    "wind_mph": 8.0,
    "wind_dir": "out",
    "weather_condition": "Clear"
-  },
-  {
-   "date": "2026-07-29",
-   "bbe": 1,
-   "hr": 0,
-   "near_hr_any": 1,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 1,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 1,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 100.6,
-   "max_distance": 389.0,
-   "max_barrel_score": 80.4,
-   "temp_f": 81.0,
-   "wind_mph": 8.0,
-   "wind_dir": "cross",
-   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -1555,35 +1537,6 @@
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
-  },
-  {
-   "game_pk": 824002,
-   "date": "2026-07-29",
-   "player_id": 666139,
-   "player_name": "Josh Lowe",
-   "team": "LAA",
-   "opponent": "HOU",
-   "result": "Flyout",
-   "exit_velocity": 100.6,
-   "launch_angle": 30.0,
-   "hit_distance": 389.0,
-   "hc_x": 119.24,
-   "hc_y": 42.17,
-   "would_be_hr_count": 0,
-   "inning": 4,
-   "play_id": "54e75a0c-fdb3-33d5-b99c-3c25c1ff4b41",
-   "venue_id": 1,
-   "venue_name": "Angel Stadium",
-   "temp_f": 81.0,
-   "wind_mph": 8.0,
-   "wind_dir": "cross",
-   "weather_condition": "Partly Cloudy",
-   "distance_flag": true,
-   "would_be_hr_flag": false,
-   "barrel_score": 80.4,
-   "barrel_flag": true,
-   "is_home_run": false,
-   "is_near_hr": true
   }
  ]
 }
