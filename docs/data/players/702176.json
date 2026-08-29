@@ -2,9 +2,9 @@
  "player_id": 702176,
  "player_name": "Alan Roden",
  "team": "MIN",
- "as_of": "2026-08-29",
+ "as_of": "2026-08-28",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 2.875,
@@ -12,7 +12,7 @@
    "near_hr": 0.062
   },
   "intensity": 0.354,
-  "expectancy_score": 19.2,
+  "expectancy_score": 27.2,
   "last_appearance": "2026-08-26"
  },
  "days": [

@@ -2,20 +2,38 @@
  "player_id": 624641,
  "player_name": "Edmundo Sosa",
  "team": "PHI",
- "as_of": "2026-08-29",
+ "as_of": "2026-08-28",
  "form": {
   "streak": 0,
   "frequency": 0.429,
   "slopes": {
-   "max_ev": 1.332,
-   "parks_sum": -0.143,
-   "near_hr": -0.027
+   "max_ev": 0.818,
+   "parks_sum": -0.286,
+   "near_hr": -0.152
   },
-  "intensity": 0.222,
-  "expectancy_score": 19.5,
-  "last_appearance": "2026-08-23"
+  "intensity": 0.136,
+  "expectancy_score": 16.9,
+  "last_appearance": "2026-08-28"
  },
  "days": [
+  {
+   "date": "2026-08-28",
+   "bbe": 1,
+   "hr": 1,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 108.5,
+   "max_distance": 404.0,
+   "max_barrel_score": 86.2,
+   "temp_f": 89.0,
+   "wind_mph": 5.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-08-23",
    "bbe": 3,
@@ -144,6 +162,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823985,
+   "date": "2026-08-28",
+   "player_id": 624641,
+   "player_name": "Edmundo Sosa",
+   "team": "PHI",
+   "opponent": "LAA",
+   "result": "Home Run",
+   "exit_velocity": 108.5,
+   "launch_angle": 23.0,
+   "hit_distance": 404.0,
+   "hc_x": 96.17,
+   "hc_y": 38.42,
+   "would_be_hr_count": 14,
+   "inning": 9,
+   "play_id": "ff1429e0-f096-32a3-bcde-51489ae7274a",
+   "venue_id": 1,
+   "venue_name": "Angel Stadium",
+   "temp_f": 89.0,
+   "wind_mph": 5.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 86.2,
+   "barrel_flag": false,
+   "is_home_run": true,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823421,
    "date": "2026-08-23",

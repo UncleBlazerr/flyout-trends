@@ -2,20 +2,38 @@
  "player_id": 663330,
  "player_name": "Jahmai Jones",
  "team": "BOS",
- "as_of": "2026-08-29",
+ "as_of": "2026-08-28",
  "form": {
   "streak": 0,
-  "frequency": 0.333,
+  "frequency": 0.286,
   "slopes": {
-   "max_ev": 1.8,
-   "parks_sum": 1.8,
-   "near_hr": 0.0
+   "max_ev": 1.232,
+   "parks_sum": 0.75,
+   "near_hr": -0.045
   },
-  "intensity": 0.5,
-  "expectancy_score": 25.0,
-  "last_appearance": "2026-08-26"
+  "intensity": 0.289,
+  "expectancy_score": 17.2,
+  "last_appearance": "2026-08-28"
  },
  "days": [
+  {
+   "date": "2026-08-28",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 95.7,
+   "max_distance": 166.0,
+   "max_barrel_score": 33.9,
+   "temp_f": 81.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-26",
    "bbe": 1,
@@ -126,6 +144,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823504,
+   "date": "2026-08-28",
+   "player_id": 663330,
+   "player_name": "Jahmai Jones",
+   "team": "BOS",
+   "opponent": "NYY",
+   "result": "Pop Out",
+   "exit_velocity": 95.7,
+   "launch_angle": 64.0,
+   "hit_distance": 166.0,
+   "hc_x": 115.83,
+   "hc_y": 138.51,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "06e9e175-b442-357c-95a5-a5239eca2a87",
+   "venue_id": 3313,
+   "venue_name": "Yankee Stadium",
+   "temp_f": 81.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 33.9,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823825,
    "date": "2026-08-26",

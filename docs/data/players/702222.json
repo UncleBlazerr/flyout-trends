@@ -2,20 +2,38 @@
  "player_id": 702222,
  "player_name": "Justin Crawford",
  "team": "PHI",
- "as_of": "2026-08-29",
+ "as_of": "2026-08-28",
  "form": {
   "streak": 0,
-  "frequency": 0.286,
+  "frequency": 0.143,
   "slopes": {
-   "max_ev": 0.411,
+   "max_ev": -2.45,
    "parks_sum": 0.0,
-   "near_hr": -0.179
+   "near_hr": -0.107
   },
-  "intensity": 0.068,
-  "expectancy_score": 10.6,
-  "last_appearance": "2026-08-26"
+  "intensity": 0.0,
+  "expectancy_score": 4.3,
+  "last_appearance": "2026-08-28"
  },
  "days": [
+  {
+   "date": "2026-08-28",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 70.7,
+   "max_distance": 54.0,
+   "max_barrel_score": 6.4,
+   "temp_f": 89.0,
+   "wind_mph": 5.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-08-26",
    "bbe": 4,
@@ -432,6 +450,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823985,
+   "date": "2026-08-28",
+   "player_id": 702222,
+   "player_name": "Justin Crawford",
+   "team": "PHI",
+   "opponent": "LAA",
+   "result": "Groundout",
+   "exit_velocity": 70.7,
+   "launch_angle": 2.0,
+   "hit_distance": 54.0,
+   "hc_x": 109.44,
+   "hc_y": 153.55,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "bd3ecd48-fd81-340c-8d8e-786cb945757d",
+   "venue_id": 1,
+   "venue_name": "Angel Stadium",
+   "temp_f": 89.0,
+   "wind_mph": 5.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 6.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823096,
    "date": "2026-08-26",

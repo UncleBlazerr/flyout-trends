@@ -2,20 +2,38 @@
  "player_id": 641487,
  "player_name": "J.P. Crawford",
  "team": "SEA",
- "as_of": "2026-08-29",
+ "as_of": "2026-08-28",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 1.8,
+   "max_ev": -14.4,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.3,
-  "expectancy_score": 9.0,
-  "last_appearance": "2026-08-26"
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-08-28"
  },
  "days": [
+  {
+   "date": "2026-08-28",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 70.6,
+   "max_distance": 195.0,
+   "max_barrel_score": 13.5,
+   "temp_f": 69.0,
+   "wind_mph": 3.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-08-26",
    "bbe": 1,
@@ -54,6 +72,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822769,
+   "date": "2026-08-28",
+   "player_id": 641487,
+   "player_name": "J.P. Crawford",
+   "team": "SEA",
+   "opponent": "TOR",
+   "result": "Flyout",
+   "exit_velocity": 70.6,
+   "launch_angle": 56.0,
+   "hit_distance": 195.0,
+   "hc_x": 78.45,
+   "hc_y": 138.28,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "d1425283-79fd-32bd-8c1c-c256f0a17d91",
+   "venue_id": 14,
+   "venue_name": "Rogers Centre",
+   "temp_f": 69.0,
+   "wind_mph": 3.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 13.5,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823096,
    "date": "2026-08-26",

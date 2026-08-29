@@ -2,20 +2,38 @@
  "player_id": 664702,
  "player_name": "Myles Straw",
  "team": "TOR",
- "as_of": "2026-08-29",
+ "as_of": "2026-08-28",
  "form": {
-  "streak": 2,
+  "streak": 0,
   "frequency": 0.429,
   "slopes": {
-   "max_ev": 4.521,
-   "parks_sum": 0.964,
-   "near_hr": 0.205
+   "max_ev": 0.314,
+   "parks_sum": 0.643,
+   "near_hr": 0.089
   },
-  "intensity": 0.509,
-  "expectancy_score": 44.1,
-  "last_appearance": "2026-08-27"
+  "intensity": 0.153,
+  "expectancy_score": 17.5,
+  "last_appearance": "2026-08-28"
  },
  "days": [
+  {
+   "date": "2026-08-28",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 93.5,
+   "max_distance": 68.0,
+   "max_barrel_score": 27.6,
+   "temp_f": 69.0,
+   "wind_mph": 3.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-08-27",
    "bbe": 2,
@@ -432,6 +450,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822769,
+   "date": "2026-08-28",
+   "player_id": 664702,
+   "player_name": "Myles Straw",
+   "team": "TOR",
+   "opponent": "SEA",
+   "result": "Single",
+   "exit_velocity": 93.5,
+   "launch_angle": 2.0,
+   "hit_distance": 68.0,
+   "hc_x": 128.11,
+   "hc_y": 112.16,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "b00f51bb-3c76-33f2-b391-cec7d219b2d2",
+   "venue_id": 14,
+   "venue_name": "Rogers Centre",
+   "temp_f": 69.0,
+   "wind_mph": 3.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 27.6,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 822771,
    "date": "2026-08-27",

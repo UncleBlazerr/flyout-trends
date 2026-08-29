@@ -2,20 +2,38 @@
  "player_id": 679822,
  "player_name": "Justin Foscue",
  "team": "TEX",
- "as_of": "2026-08-29",
+ "as_of": "2026-08-28",
  "form": {
   "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": -1.529,
-   "parks_sum": -0.179,
-   "near_hr": 0.036
+   "max_ev": -3.204,
+   "parks_sum": -0.357,
+   "near_hr": -0.036
   },
-  "intensity": 0.012,
-  "expectancy_score": 8.9,
-  "last_appearance": "2026-08-26"
+  "intensity": 0.0,
+  "expectancy_score": 8.6,
+  "last_appearance": "2026-08-28"
  },
  "days": [
+  {
+   "date": "2026-08-28",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 74.5,
+   "max_distance": 3.0,
+   "max_barrel_score": 4.2,
+   "temp_f": 79.0,
+   "wind_mph": 11.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-26",
    "bbe": 3,
@@ -342,6 +360,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823744,
+   "date": "2026-08-28",
+   "player_id": 679822,
+   "player_name": "Justin Foscue",
+   "team": "TEX",
+   "opponent": "MIL",
+   "result": "Single",
+   "exit_velocity": 74.5,
+   "launch_angle": -43.0,
+   "hit_distance": 3.0,
+   "hc_x": 97.38,
+   "hc_y": 174.22,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "486ddeaf-e405-3baf-a8eb-3d314713c166",
+   "venue_id": 32,
+   "venue_name": "American Family Field",
+   "temp_f": 79.0,
+   "wind_mph": 11.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 4.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824555,
    "date": "2026-08-26",

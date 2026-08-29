@@ -2,20 +2,38 @@
  "player_id": 667452,
  "player_name": "Corey Julks",
  "team": "DET",
- "as_of": "2026-08-29",
+ "as_of": "2026-08-28",
  "form": {
   "streak": 0,
-  "frequency": 0.333,
+  "frequency": 0.25,
   "slopes": {
-   "max_ev": -3.55,
+   "max_ev": 0.03,
    "parks_sum": 0.0,
-   "near_hr": -0.5
+   "near_hr": -0.3
   },
-  "intensity": 0.0,
-  "expectancy_score": 10.0,
-  "last_appearance": "2026-08-23"
+  "intensity": 0.005,
+  "expectancy_score": 7.6,
+  "last_appearance": "2026-08-28"
  },
  "days": [
+  {
+   "date": "2026-08-28",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 96.4,
+   "max_distance": 18.0,
+   "max_barrel_score": 24.7,
+   "temp_f": 76.0,
+   "wind_mph": 5.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-23",
    "bbe": 2,
@@ -72,6 +90,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824231,
+   "date": "2026-08-28",
+   "player_id": 667452,
+   "player_name": "Corey Julks",
+   "team": "DET",
+   "opponent": "LAD",
+   "result": "Groundout",
+   "exit_velocity": 96.4,
+   "launch_angle": -5.0,
+   "hit_distance": 18.0,
+   "hc_x": 111.72,
+   "hc_y": 147.71,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "bc7a5772-dd1a-3a1b-a50a-3e8ad52fa50b",
+   "venue_id": 2394,
+   "venue_name": "Comerica Park",
+   "temp_f": 76.0,
+   "wind_mph": 5.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 24.7,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824071,
    "date": "2026-08-23",

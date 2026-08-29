@@ -2,20 +2,38 @@
  "player_id": 813841,
  "player_name": "Jonah Cox",
  "team": "SF",
- "as_of": "2026-08-29",
+ "as_of": "2026-08-28",
  "form": {
   "streak": 0,
-  "frequency": 0.6,
+  "frequency": 0.5,
   "slopes": {
-   "max_ev": -1.08,
-   "parks_sum": -1.0,
-   "near_hr": -0.15
+   "max_ev": -1.129,
+   "parks_sum": -1.171,
+   "near_hr": -0.179
   },
   "intensity": 0.0,
-  "expectancy_score": 18.0,
-  "last_appearance": "2026-08-27"
+  "expectancy_score": 15.0,
+  "last_appearance": "2026-08-28"
  },
  "days": [
+  {
+   "date": "2026-08-28",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 93.6,
+   "max_distance": 332.0,
+   "max_barrel_score": 68.2,
+   "temp_f": 63.0,
+   "wind_mph": 13.0,
+   "wind_dir": "varies",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-27",
    "bbe": 3,
@@ -108,6 +126,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823178,
+   "date": "2026-08-28",
+   "player_id": 813841,
+   "player_name": "Jonah Cox",
+   "team": "SF",
+   "opponent": "AZ",
+   "result": "Lineout",
+   "exit_velocity": 93.6,
+   "launch_angle": 23.0,
+   "hit_distance": 332.0,
+   "hc_x": 100.07,
+   "hc_y": 68.24,
+   "would_be_hr_count": 0,
+   "inning": 1,
+   "play_id": "c1b04edb-4220-39ee-8c57-cec0d9ca238d",
+   "venue_id": 2395,
+   "venue_name": "Oracle Park",
+   "temp_f": 63.0,
+   "wind_mph": 13.0,
+   "wind_dir": "varies",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 68.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823179,
    "date": "2026-08-27",

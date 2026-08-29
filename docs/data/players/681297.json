@@ -2,20 +2,38 @@
  "player_id": 681297,
  "player_name": "Colton Cowser",
  "team": "BAL",
- "as_of": "2026-08-29",
+ "as_of": "2026-08-28",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.429,
   "slopes": {
-   "max_ev": 1.439,
-   "parks_sum": -0.036,
-   "near_hr": 0.071
+   "max_ev": 1.825,
+   "parks_sum": -0.107,
+   "near_hr": -0.036
   },
-  "intensity": 0.264,
-  "expectancy_score": 28.8,
-  "last_appearance": "2026-08-27"
+  "intensity": 0.304,
+  "expectancy_score": 22.0,
+  "last_appearance": "2026-08-28"
  },
  "days": [
+  {
+   "date": "2026-08-28",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 92.8,
+   "max_distance": 140.0,
+   "max_barrel_score": 39.4,
+   "temp_f": 74.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Cloudy"
+  },
   {
    "date": "2026-08-27",
    "bbe": 3,
@@ -324,6 +342,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824960,
+   "date": "2026-08-28",
+   "player_id": 681297,
+   "player_name": "Colton Cowser",
+   "team": "BAL",
+   "opponent": "ATH",
+   "result": "Double",
+   "exit_velocity": 92.8,
+   "launch_angle": 9.0,
+   "hit_distance": 140.0,
+   "hc_x": 217.68,
+   "hc_y": 103.04,
+   "would_be_hr_count": 0,
+   "inning": 6,
+   "play_id": "089d1ff8-7ecc-388a-b4d1-567795843136",
+   "venue_id": 2529,
+   "venue_name": "Sutter Health Park",
+   "temp_f": 74.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 39.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823014,
    "date": "2026-08-27",

@@ -2,20 +2,38 @@
  "player_id": 668723,
  "player_name": "Ryan Vilade",
  "team": "TB",
- "as_of": "2026-08-29",
+ "as_of": "2026-08-28",
  "form": {
-  "streak": 0,
-  "frequency": 0.143,
+  "streak": 1,
+  "frequency": 0.286,
   "slopes": {
-   "max_ev": -0.839,
+   "max_ev": -0.196,
    "parks_sum": 0.0,
-   "near_hr": 0.107
+   "near_hr": 0.179
   },
-  "intensity": 0.036,
-  "expectancy_score": 5.4,
-  "last_appearance": "2026-08-24"
+  "intensity": 0.06,
+  "expectancy_score": 18.4,
+  "last_appearance": "2026-08-28"
  },
  "days": [
+  {
+   "date": "2026-08-28",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 1,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 102.7,
+   "max_distance": 365.0,
+   "max_barrel_score": 71.9,
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Dome"
+  },
   {
    "date": "2026-08-24",
    "bbe": 3,
@@ -234,6 +252,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822935,
+   "date": "2026-08-28",
+   "player_id": 668723,
+   "player_name": "Ryan Vilade",
+   "team": "TB",
+   "opponent": "SD",
+   "result": "Flyout",
+   "exit_velocity": 102.7,
+   "launch_angle": 38.0,
+   "hit_distance": 365.0,
+   "hc_x": 94.54,
+   "hc_y": 55.29,
+   "would_be_hr_count": 0,
+   "inning": 6,
+   "play_id": "faaf4afc-8dfc-3993-b669-7792168b27f0",
+   "venue_id": 12,
+   "venue_name": "Tropicana Field",
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Dome",
+   "distance_flag": true,
+   "would_be_hr_flag": false,
+   "barrel_score": 71.9,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 824235,
    "date": "2026-08-24",

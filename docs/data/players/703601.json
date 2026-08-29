@@ -2,20 +2,38 @@
  "player_id": 703601,
  "player_name": "Max Clark",
  "team": "DET",
- "as_of": "2026-08-29",
+ "as_of": "2026-08-28",
  "form": {
   "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": 0.414,
-   "parks_sum": 0.321,
-   "near_hr": 0.179
+   "max_ev": 2.082,
+   "parks_sum": 0.214,
+   "near_hr": 0.071
   },
-  "intensity": 0.164,
-  "expectancy_score": 13.5,
-  "last_appearance": "2026-08-26"
+  "intensity": 0.381,
+  "expectancy_score": 20.0,
+  "last_appearance": "2026-08-28"
  },
  "days": [
+  {
+   "date": "2026-08-28",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 105.0,
+   "max_distance": 37.0,
+   "max_barrel_score": 33.6,
+   "temp_f": 76.0,
+   "wind_mph": 5.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-26",
    "bbe": 3,
@@ -450,6 +468,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824231,
+   "date": "2026-08-28",
+   "player_id": 703601,
+   "player_name": "Max Clark",
+   "team": "DET",
+   "opponent": "LAD",
+   "result": "Triple",
+   "exit_velocity": 105.0,
+   "launch_angle": -2.0,
+   "hit_distance": 37.0,
+   "hc_x": 31.88,
+   "hc_y": 107.09,
+   "would_be_hr_count": 0,
+   "inning": 5,
+   "play_id": "5bf0b159-d4c6-30e1-a6d7-50d022d825ec",
+   "venue_id": 2394,
+   "venue_name": "Comerica Park",
+   "temp_f": 76.0,
+   "wind_mph": 5.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 33.6,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824234,
    "date": "2026-08-26",
