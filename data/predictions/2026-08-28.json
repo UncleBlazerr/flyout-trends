@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-08-29T14:55:36.662768+00:00",
+ "generated_at": "2026-08-29T19:20:22.652341+00:00",
  "as_of": "2026-08-28",
  "config": {
   "min_near_hr_events": 1,
@@ -75,13 +75,13 @@
    "band": "60-80",
    "band_rate": 0.273,
    "band_samples": 33,
-   "weather_factor": 1.032,
-   "adjusted_score": 64.4,
+   "weather_factor": 0.983,
+   "adjusted_score": 61.3,
    "game_weather": {
     "venue_name": "Yankee Stadium",
-    "temp_f": 78.0,
+    "temp_f": 76.0,
     "wind_mph": 5.0,
-    "wind_dir": "cross",
+    "wind_dir": "in",
     "weather_condition": "Sunny"
    },
    "repeat": true
@@ -106,16 +106,78 @@
    "band": "40-60",
    "band_rate": 0.248,
    "band_samples": 343,
-   "weather_factor": 1.0,
-   "adjusted_score": 56.6,
+   "weather_factor": 1.064,
+   "adjusted_score": 60.2,
    "game_weather": {
     "venue_name": "Truist Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 86.0,
+    "wind_mph": 6.0,
+    "wind_dir": "cross",
+    "weather_condition": "Cloudy"
    },
    "repeat": true
+  },
+  {
+   "player_id": 543510,
+   "player_name": "James McCann",
+   "team": "AZ",
+   "expectancy_score": 41.3,
+   "streak": 2,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": 0.318,
+    "parks_sum": 1.786,
+    "near_hr": 0.062
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 107.0,
+   "max_distance_7d": 406,
+   "band": "40-60",
+   "band_rate": 0.248,
+   "band_samples": 343,
+   "weather_factor": 1.124,
+   "adjusted_score": 46.4,
+   "game_weather": {
+    "venue_name": "Oracle Park",
+    "temp_f": 63.0,
+    "wind_mph": 13.0,
+    "wind_dir": "out",
+    "weather_condition": "Sunny"
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 673548,
+   "player_name": "Seiya Suzuki",
+   "team": "CHC",
+   "expectancy_score": 39.3,
+   "streak": 1,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 2.314,
+    "parks_sum": 2.036,
+    "near_hr": 0.17
+   },
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 0,
+   "max_ev_7d": 108.4,
+   "max_distance_7d": 358,
+   "band": "<40",
+   "band_rate": 0.203,
+   "band_samples": 12391,
+   "weather_factor": 1.169,
+   "adjusted_score": 45.9,
+   "game_weather": {
+    "venue_name": "Wrigley Field",
+    "temp_f": 81.0,
+    "wind_mph": 10.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
   },
   {
    "player_id": 669357,
@@ -137,14 +199,14 @@
    "band": "40-60",
    "band_rate": 0.248,
    "band_samples": 343,
-   "weather_factor": 1.0,
-   "adjusted_score": 43.0,
+   "weather_factor": 1.008,
+   "adjusted_score": 43.3,
    "game_weather": {
     "venue_name": "Busch Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 87.0,
+    "wind_mph": 7.0,
+    "wind_dir": "in",
+    "weather_condition": "Cloudy"
    },
    "repeat": false
   },
@@ -172,72 +234,41 @@
    "adjusted_score": 41.4,
    "game_weather": {
     "venue_name": "Rogers Centre",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 68.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": true
   },
   {
-   "player_id": 543510,
-   "player_name": "James McCann",
-   "team": "AZ",
-   "expectancy_score": 41.3,
+   "player_id": 677951,
+   "player_name": "Bobby Witt Jr.",
+   "team": "KC",
+   "expectancy_score": 37.2,
    "streak": 2,
-   "frequency": 0.571,
+   "frequency": 0.286,
    "slopes": {
-    "max_ev": 0.318,
-    "parks_sum": 1.786,
-    "near_hr": 0.062
+    "max_ev": -0.907,
+    "parks_sum": 2.786,
+    "near_hr": 0.33
    },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 107.0,
-   "max_distance_7d": 406,
-   "band": "40-60",
-   "band_rate": 0.248,
-   "band_samples": 343,
-   "weather_factor": 1.0,
-   "adjusted_score": 41.3,
-   "game_weather": {
-    "venue_name": "Oracle Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
-   "player_id": 673548,
-   "player_name": "Seiya Suzuki",
-   "team": "CHC",
-   "expectancy_score": 39.3,
-   "streak": 1,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 2.314,
-    "parks_sum": 2.036,
-    "near_hr": 0.17
-   },
-   "near_hr_7d": 4,
+   "near_hr_7d": 3,
    "near_hr_xbh_7d": 2,
    "hr_7d": 0,
-   "max_ev_7d": 108.4,
-   "max_distance_7d": 358,
+   "max_ev_7d": 112.3,
+   "max_distance_7d": 391,
    "band": "<40",
    "band_rate": 0.203,
    "band_samples": 12391,
-   "weather_factor": 1.0,
-   "adjusted_score": 39.3,
+   "weather_factor": 1.032,
+   "adjusted_score": 38.4,
    "game_weather": {
-    "venue_name": "Wrigley Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "venue_name": "Progressive Field",
+    "temp_f": 78.0,
+    "wind_mph": 4.0,
+    "wind_dir": "cross",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   },
@@ -273,64 +304,33 @@
    "repeat": false
   },
   {
-   "player_id": 805805,
-   "player_name": "Walker Jenkins",
-   "team": "MIN",
-   "expectancy_score": 38.0,
-   "streak": 1,
-   "frequency": 1.0,
-   "slopes": {
-    "max_ev": 0.0,
-    "parks_sum": 0.0,
-    "near_hr": 0.0
-   },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 102.3,
-   "max_distance_7d": 380,
-   "band": "<40",
-   "band_rate": 0.203,
-   "band_samples": 12391,
-   "weather_factor": 1.0,
-   "adjusted_score": 38.0,
-   "game_weather": {
-    "venue_name": "Target Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 677951,
-   "player_name": "Bobby Witt Jr.",
-   "team": "KC",
-   "expectancy_score": 37.2,
+   "player_id": 672640,
+   "player_name": "Otto Lopez",
+   "team": "MIA",
+   "expectancy_score": 36.0,
    "streak": 2,
-   "frequency": 0.286,
+   "frequency": 0.429,
    "slopes": {
-    "max_ev": -0.907,
-    "parks_sum": 2.786,
-    "near_hr": 0.33
+    "max_ev": 1.029,
+    "parks_sum": 0.071,
+    "near_hr": 0.179
    },
    "near_hr_7d": 3,
-   "near_hr_xbh_7d": 2,
+   "near_hr_xbh_7d": 1,
    "hr_7d": 0,
-   "max_ev_7d": 112.3,
-   "max_distance_7d": 391,
+   "max_ev_7d": 106.8,
+   "max_distance_7d": 385,
    "band": "<40",
    "band_rate": 0.203,
    "band_samples": 12391,
-   "weather_factor": 1.0,
-   "adjusted_score": 37.2,
+   "weather_factor": 1.056,
+   "adjusted_score": 38.0,
    "game_weather": {
-    "venue_name": "Progressive Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "venue_name": "Nationals Park",
+    "temp_f": 84.0,
+    "wind_mph": 6.0,
+    "wind_dir": "cross",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   },
@@ -428,33 +428,33 @@
    "repeat": true
   },
   {
-   "player_id": 672640,
-   "player_name": "Otto Lopez",
-   "team": "MIA",
-   "expectancy_score": 36.0,
-   "streak": 2,
-   "frequency": 0.429,
+   "player_id": 805805,
+   "player_name": "Walker Jenkins",
+   "team": "MIN",
+   "expectancy_score": 38.0,
+   "streak": 1,
+   "frequency": 1.0,
    "slopes": {
-    "max_ev": 1.029,
-    "parks_sum": 0.071,
-    "near_hr": 0.179
+    "max_ev": 0.0,
+    "parks_sum": 0.0,
+    "near_hr": 0.0
    },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 1,
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
    "hr_7d": 0,
-   "max_ev_7d": 106.8,
-   "max_distance_7d": 385,
+   "max_ev_7d": 102.3,
+   "max_distance_7d": 380,
    "band": "<40",
    "band_rate": 0.203,
    "band_samples": 12391,
-   "weather_factor": 1.0,
-   "adjusted_score": 36.0,
+   "weather_factor": 0.938,
+   "adjusted_score": 35.6,
    "game_weather": {
-    "venue_name": "Nationals Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "venue_name": "Target Field",
+    "temp_f": 75.0,
+    "wind_mph": 10.0,
+    "wind_dir": "in",
+    "weather_condition": "Cloudy"
    },
    "repeat": false
   },
@@ -482,10 +482,10 @@
    "adjusted_score": 34.6,
    "game_weather": {
     "venue_name": "Rogers Centre",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 68.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": true
   },
@@ -513,10 +513,10 @@
    "adjusted_score": 34.6,
    "game_weather": {
     "venue_name": "Tropicana Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Dome"
    },
    "repeat": false
   }

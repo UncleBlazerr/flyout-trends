@@ -6357,56 +6357,6 @@
    "heating_up": false
   },
   {
-   "player_id": 681715,
-   "player_name": "Heriberto Hern\u00e1ndez",
-   "team": "MIA",
-   "windows": {
-    "7": {
-     "bbe": 20,
-     "hr": 3,
-     "near_hr_distance": 0,
-     "near_hr_parks": 1,
-     "near_hr_barrel": 1,
-     "near_hr_any": 1,
-     "max_ev_near_hr": 105.7,
-     "avg_ev_near_hr": 105.7,
-     "max_barrel_score": 88.6,
-     "would_be_hr_parks_sum": 18,
-     "parks_slope": -1.286,
-     "trend_direction": "falling"
-    },
-    "14": {
-     "bbe": 34,
-     "hr": 4,
-     "near_hr_distance": 0,
-     "near_hr_parks": 1,
-     "near_hr_barrel": 2,
-     "near_hr_any": 2,
-     "max_ev_near_hr": 106.0,
-     "avg_ev_near_hr": 105.8,
-     "max_barrel_score": 88.6,
-     "would_be_hr_parks_sum": 18,
-     "parks_slope": 0.119,
-     "trend_direction": "rising"
-    },
-    "30": {
-     "bbe": 58,
-     "hr": 5,
-     "near_hr_distance": 2,
-     "near_hr_parks": 1,
-     "near_hr_barrel": 4,
-     "near_hr_any": 4,
-     "max_ev_near_hr": 106.0,
-     "avg_ev_near_hr": 102.4,
-     "max_barrel_score": 88.6,
-     "would_be_hr_parks_sum": 18,
-     "parks_slope": 0.076,
-     "trend_direction": "rising"
-    }
-   },
-   "heating_up": false
-  },
-  {
    "player_id": 686948,
    "player_name": "Drake Baldwin",
    "team": "ATL",
@@ -6551,6 +6501,56 @@
      "max_barrel_score": 87.8,
      "would_be_hr_parks_sum": 46,
      "parks_slope": 0.077,
+     "trend_direction": "rising"
+    }
+   },
+   "heating_up": false
+  },
+  {
+   "player_id": 681715,
+   "player_name": "Heriberto Hern\u00e1ndez",
+   "team": "MIA",
+   "windows": {
+    "7": {
+     "bbe": 20,
+     "hr": 3,
+     "near_hr_distance": 0,
+     "near_hr_parks": 1,
+     "near_hr_barrel": 1,
+     "near_hr_any": 1,
+     "max_ev_near_hr": 105.7,
+     "avg_ev_near_hr": 105.7,
+     "max_barrel_score": 87.8,
+     "would_be_hr_parks_sum": 18,
+     "parks_slope": -1.286,
+     "trend_direction": "falling"
+    },
+    "14": {
+     "bbe": 34,
+     "hr": 4,
+     "near_hr_distance": 0,
+     "near_hr_parks": 1,
+     "near_hr_barrel": 2,
+     "near_hr_any": 2,
+     "max_ev_near_hr": 106.0,
+     "avg_ev_near_hr": 105.8,
+     "max_barrel_score": 87.8,
+     "would_be_hr_parks_sum": 18,
+     "parks_slope": 0.119,
+     "trend_direction": "rising"
+    },
+    "30": {
+     "bbe": 58,
+     "hr": 5,
+     "near_hr_distance": 2,
+     "near_hr_parks": 1,
+     "near_hr_barrel": 4,
+     "near_hr_any": 4,
+     "max_ev_near_hr": 106.0,
+     "avg_ev_near_hr": 102.4,
+     "max_barrel_score": 87.8,
+     "would_be_hr_parks_sum": 18,
+     "parks_slope": 0.076,
      "trend_direction": "rising"
     }
    },

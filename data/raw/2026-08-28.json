@@ -1,7 +1,7 @@
 {
  "schema_version": 2,
  "date": "2026-08-28",
- "generated_at": "2026-08-29T14:55:35.504953+00:00",
+ "generated_at": "2026-08-29T19:20:21.834688+00:00",
  "events": [
   {
    "game_pk": 824638,
@@ -4276,7 +4276,7 @@
    "result": "Home Run",
    "exit_velocity": 106.9,
    "launch_angle": 31.0,
-   "hit_distance": 445.0,
+   "hit_distance": 432.0,
    "hc_x": 97.24,
    "hc_y": 20.84,
    "would_be_hr_count": 30,
@@ -4290,7 +4290,7 @@
    "weather_condition": "Partly Cloudy",
    "distance_flag": false,
    "would_be_hr_flag": false,
-   "barrel_score": 88.6,
+   "barrel_score": 87.8,
    "barrel_flag": false,
    "is_home_run": true,
    "is_near_hr": false
