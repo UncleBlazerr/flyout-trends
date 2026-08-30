@@ -2,7 +2,7 @@
  "player_id": 656941,
  "player_name": "Kyle Schwarber",
  "team": "PHI",
- "as_of": "2026-08-28",
+ "as_of": "2026-08-30",
  "form": {
   "streak": 0,
   "frequency": 0.429,
@@ -411,24 +411,6 @@
    "wind_mph": 13.0,
    "wind_dir": "out",
    "weather_condition": "Cloudy"
-  },
-  {
-   "date": "2026-07-31",
-   "bbe": 1,
-   "hr": 0,
-   "near_hr_any": 0,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 0,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 0,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 71.4,
-   "max_distance": 151.0,
-   "max_barrel_score": 30.9,
-   "temp_f": 82.0,
-   "wind_mph": 6.0,
-   "wind_dir": "cross",
-   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -2287,35 +2269,6 @@
    "barrel_flag": true,
    "is_home_run": false,
    "is_near_hr": true
-  },
-  {
-   "game_pk": 824809,
-   "date": "2026-07-31",
-   "player_id": 656941,
-   "player_name": "Kyle Schwarber",
-   "team": "PHI",
-   "opponent": "BAL",
-   "result": "Lineout",
-   "exit_velocity": 71.4,
-   "launch_angle": 18.0,
-   "hit_distance": 151.0,
-   "hc_x": 93.22,
-   "hc_y": 150.42,
-   "would_be_hr_count": 0,
-   "inning": 5,
-   "play_id": "ea9ed803-7835-33d5-80f9-e3887db1bb82",
-   "venue_id": 2,
-   "venue_name": "Oriole Park at Camden Yards",
-   "temp_f": 82.0,
-   "wind_mph": 6.0,
-   "wind_dir": "cross",
-   "weather_condition": "Partly Cloudy",
-   "distance_flag": false,
-   "would_be_hr_flag": false,
-   "barrel_score": 30.9,
-   "barrel_flag": false,
-   "is_home_run": false,
-   "is_near_hr": false
   }
  ]
 }

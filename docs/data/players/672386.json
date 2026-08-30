@@ -2,9 +2,9 @@
  "player_id": 672386,
  "player_name": "Alejandro Kirk",
  "team": "TOR",
- "as_of": "2026-08-28",
+ "as_of": "2026-08-30",
  "form": {
-  "streak": 2,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 1.368,
@@ -12,7 +12,7 @@
    "near_hr": 0.321
   },
   "intensity": 0.335,
-  "expectancy_score": 34.6,
+  "expectancy_score": 18.6,
   "last_appearance": "2026-08-27"
  },
  "days": [
