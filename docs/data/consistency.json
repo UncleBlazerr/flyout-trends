@@ -12,16 +12,6 @@
    "game_streak": 5
   },
   {
-   "player_id": 694249,
-   "player_name": "Cole Carrigg",
-   "team": "COL",
-   "record_streak": 3,
-   "total_flags": 4,
-   "avg_score": 42.3,
-   "current_score": 31.4,
-   "game_streak": 0
-  },
-  {
    "player_id": 677951,
    "player_name": "Bobby Witt Jr.",
    "team": "KC",
@@ -42,6 +32,16 @@
    "game_streak": 2
   },
   {
+   "player_id": 677800,
+   "player_name": "Wilyer Abreu",
+   "team": "BOS",
+   "record_streak": 1,
+   "total_flags": 10,
+   "avg_score": 49.9,
+   "current_score": 32.1,
+   "game_streak": 1
+  },
+  {
    "player_id": 694374,
    "player_name": "Tim Tawa",
    "team": "AZ",
@@ -49,16 +49,6 @@
    "total_flags": 10,
    "avg_score": 46.6,
    "current_score": 35.3,
-   "game_streak": 2
-  },
-  {
-   "player_id": 665019,
-   "player_name": "Kody Clemens",
-   "team": "MIN",
-   "record_streak": 1,
-   "total_flags": 9,
-   "avg_score": 47.2,
-   "current_score": 33.6,
    "game_streak": 2
   },
   {
@@ -80,6 +70,16 @@
    "avg_score": 38.5,
    "current_score": 43.8,
    "game_streak": 3
+  },
+  {
+   "player_id": 671277,
+   "player_name": "Luis Garc\u00eda Jr.",
+   "team": "NYY",
+   "record_streak": 1,
+   "total_flags": 6,
+   "avg_score": 36.9,
+   "current_score": 30.4,
+   "game_streak": 2
   },
   {
    "player_id": 669065,
