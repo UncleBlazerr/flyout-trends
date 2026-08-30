@@ -2,7 +2,7 @@
  "player_id": 807713,
  "player_name": "Matt Shaw",
  "team": "CHC",
- "as_of": "2026-08-30",
+ "as_of": "2026-08-29",
  "form": {
   "streak": 0,
   "frequency": 0.0,
@@ -13,9 +13,27 @@
   },
   "intensity": 0.0,
   "expectancy_score": 0.0,
-  "last_appearance": "2026-08-28"
+  "last_appearance": "2026-08-29"
  },
  "days": [
+  {
+   "date": "2026-08-29",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 83.5,
+   "max_distance": 267.0,
+   "max_barrel_score": 38.5,
+   "temp_f": 81.0,
+   "wind_mph": 10.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-28",
    "bbe": 1,
@@ -36,6 +54,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824637,
+   "date": "2026-08-29",
+   "player_id": 807713,
+   "player_name": "Matt Shaw",
+   "team": "CHC",
+   "opponent": "CIN",
+   "result": "Flyout",
+   "exit_velocity": 83.5,
+   "launch_angle": 47.0,
+   "hit_distance": 267.0,
+   "hc_x": 193.7,
+   "hc_y": 115.88,
+   "would_be_hr_count": 0,
+   "inning": 1,
+   "play_id": "f61e1005-4473-3695-9e65-16b5a738d233",
+   "venue_id": 17,
+   "venue_name": "Wrigley Field",
+   "temp_f": 81.0,
+   "wind_mph": 10.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 38.5,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824638,
    "date": "2026-08-28",

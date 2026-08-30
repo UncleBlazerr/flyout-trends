@@ -2,20 +2,38 @@
  "player_id": 694208,
  "player_name": "Mois\u00e9s Ballesteros",
  "team": "LAA",
- "as_of": "2026-08-30",
+ "as_of": "2026-08-29",
  "form": {
   "streak": 0,
-  "frequency": 0.429,
+  "frequency": 0.286,
   "slopes": {
-   "max_ev": -4.4,
-   "parks_sum": -1.607,
-   "near_hr": -0.357
+   "max_ev": -1.989,
+   "parks_sum": -1.714,
+   "near_hr": -0.196
   },
   "intensity": 0.0,
-  "expectancy_score": 12.9,
-  "last_appearance": "2026-08-28"
+  "expectancy_score": 8.6,
+  "last_appearance": "2026-08-29"
  },
  "days": [
+  {
+   "date": "2026-08-29",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 101.3,
+   "max_distance": 14.0,
+   "max_barrel_score": 28.8,
+   "temp_f": 84.0,
+   "wind_mph": 6.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-08-28",
    "bbe": 3,
@@ -396,6 +414,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823986,
+   "date": "2026-08-29",
+   "player_id": 694208,
+   "player_name": "Mois\u00e9s Ballesteros",
+   "team": "LAA",
+   "opponent": "PHI",
+   "result": "Single",
+   "exit_velocity": 101.3,
+   "launch_angle": -10.0,
+   "hit_distance": 14.0,
+   "hc_x": 88.24,
+   "hc_y": 117.2,
+   "would_be_hr_count": 0,
+   "inning": 10,
+   "play_id": "822d97bb-1f5b-350b-9a0c-ab39c74f9fa4",
+   "venue_id": 1,
+   "venue_name": "Angel Stadium",
+   "temp_f": 84.0,
+   "wind_mph": 6.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 28.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823985,
    "date": "2026-08-28",

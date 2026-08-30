@@ -2,20 +2,38 @@
  "player_id": 681807,
  "player_name": "David Fry",
  "team": "CLE",
- "as_of": "2026-08-28",
+ "as_of": "2026-08-29",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 0.0,
+   "max_ev": 5.3,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.0,
-  "expectancy_score": 0.0,
-  "last_appearance": "2026-07-31"
+  "intensity": 0.333,
+  "expectancy_score": 10.0,
+  "last_appearance": "2026-08-29"
  },
  "days": [
+  {
+   "date": "2026-08-29",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 102.8,
+   "max_distance": 200.0,
+   "max_barrel_score": 54.5,
+   "temp_f": 81.0,
+   "wind_mph": 4.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-07-31",
    "bbe": 1,
@@ -36,6 +54,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824392,
+   "date": "2026-08-29",
+   "player_id": 681807,
+   "player_name": "David Fry",
+   "team": "CLE",
+   "opponent": "KC",
+   "result": "Double",
+   "exit_velocity": 102.8,
+   "launch_angle": 11.0,
+   "hit_distance": 200.0,
+   "hc_x": 72.48,
+   "hc_y": 140.27,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "bd720c47-2721-3fa9-b69d-cca21e3ef887",
+   "venue_id": 5,
+   "venue_name": "Progressive Field",
+   "temp_f": 81.0,
+   "wind_mph": 4.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 54.5,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824407,
    "date": "2026-07-31",

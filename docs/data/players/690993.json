@@ -2,20 +2,38 @@
  "player_id": 690993,
  "player_name": "Colt Keith",
  "team": "DET",
- "as_of": "2026-08-30",
+ "as_of": "2026-08-29",
  "form": {
   "streak": 0,
-  "frequency": 0.286,
+  "frequency": 0.143,
   "slopes": {
-   "max_ev": -3.518,
+   "max_ev": -2.457,
    "parks_sum": 0.0,
-   "near_hr": -0.152
+   "near_hr": -0.089
   },
   "intensity": 0.0,
-  "expectancy_score": 8.6,
-  "last_appearance": "2026-08-26"
+  "expectancy_score": 4.3,
+  "last_appearance": "2026-08-29"
  },
  "days": [
+  {
+   "date": "2026-08-29",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 103.4,
+   "max_distance": 42.0,
+   "max_barrel_score": 32.5,
+   "temp_f": 80.0,
+   "wind_mph": 10.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-26",
    "bbe": 2,
@@ -360,6 +378,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824230,
+   "date": "2026-08-29",
+   "player_id": 690993,
+   "player_name": "Colt Keith",
+   "team": "DET",
+   "opponent": "LAD",
+   "result": "Groundout",
+   "exit_velocity": 103.4,
+   "launch_angle": -1.0,
+   "hit_distance": 42.0,
+   "hc_x": 161.66,
+   "hc_y": 167.39,
+   "would_be_hr_count": 0,
+   "inning": 6,
+   "play_id": "69be3b77-d778-3d8b-8502-7768e6f9aef3",
+   "venue_id": 2394,
+   "venue_name": "Comerica Park",
+   "temp_f": 80.0,
+   "wind_mph": 10.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 32.5,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824234,
    "date": "2026-08-26",
