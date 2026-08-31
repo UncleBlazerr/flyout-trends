@@ -2,20 +2,38 @@
  "player_id": 695491,
  "player_name": "Joshua B\u00e1ez",
  "team": "STL",
- "as_of": "2026-08-31",
+ "as_of": "2026-08-30",
  "form": {
-  "streak": 2,
+  "streak": 0,
   "frequency": 0.571,
   "slopes": {
-   "max_ev": 0.525,
-   "parks_sum": -0.143,
-   "near_hr": 0.036
+   "max_ev": 0.529,
+   "parks_sum": -0.214,
+   "near_hr": -0.143
   },
-  "intensity": 0.099,
-  "expectancy_score": 36.1,
-  "last_appearance": "2026-08-29"
+  "intensity": 0.088,
+  "expectancy_score": 19.8,
+  "last_appearance": "2026-08-30"
  },
  "days": [
+  {
+   "date": "2026-08-30",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 95.5,
+   "max_distance": 38.0,
+   "max_barrel_score": 25.2,
+   "temp_f": 92.0,
+   "wind_mph": 9.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-08-29",
    "bbe": 3,
@@ -252,6 +270,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823010,
+   "date": "2026-08-30",
+   "player_id": 695491,
+   "player_name": "Joshua B\u00e1ez",
+   "team": "STL",
+   "opponent": "PIT",
+   "result": "Groundout",
+   "exit_velocity": 95.5,
+   "launch_angle": null,
+   "hit_distance": 38.0,
+   "hc_x": 108.23,
+   "hc_y": 174.49,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "3d1c1fc3-6188-3313-8b89-effd7c2134bc",
+   "venue_id": 2889,
+   "venue_name": "Busch Stadium",
+   "temp_f": 92.0,
+   "wind_mph": 9.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 25.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823011,
    "date": "2026-08-29",

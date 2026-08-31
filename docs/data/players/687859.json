@@ -2,20 +2,38 @@
  "player_id": 687859,
  "player_name": "Troy Johnston",
  "team": "COL",
- "as_of": "2026-08-31",
+ "as_of": "2026-08-30",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": -3.211,
-   "parks_sum": 0.0,
-   "near_hr": 0.0
+   "max_ev": -1.493,
+   "parks_sum": -0.071,
+   "near_hr": -0.036
   },
   "intensity": 0.0,
   "expectancy_score": 4.3,
-  "last_appearance": "2026-08-29"
+  "last_appearance": "2026-08-30"
  },
  "days": [
+  {
+   "date": "2026-08-30",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 100.3,
+   "max_distance": 133.0,
+   "max_barrel_score": 43.4,
+   "temp_f": 86.0,
+   "wind_mph": 6.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-29",
    "bbe": 1,
@@ -288,6 +306,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824876,
+   "date": "2026-08-30",
+   "player_id": 687859,
+   "player_name": "Troy Johnston",
+   "team": "COL",
+   "opponent": "ATL",
+   "result": "Single",
+   "exit_velocity": 100.3,
+   "launch_angle": 7.0,
+   "hit_distance": 133.0,
+   "hc_x": 200.89,
+   "hc_y": 114.13,
+   "would_be_hr_count": 0,
+   "inning": 5,
+   "play_id": "5c763cf5-f458-3fdf-b00c-d24a9f625666",
+   "venue_id": 4705,
+   "venue_name": "Truist Park",
+   "temp_f": 86.0,
+   "wind_mph": 6.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 43.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824874,
    "date": "2026-08-29",
