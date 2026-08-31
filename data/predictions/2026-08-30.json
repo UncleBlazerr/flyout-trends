@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-08-31T17:22:55.102684+00:00",
+ "generated_at": "2026-08-31T21:23:58.211289+00:00",
  "as_of": "2026-08-30",
  "config": {
   "min_near_hr_events": 1,
@@ -131,16 +131,47 @@
    "band": "40-60",
    "band_rate": 0.246,
    "band_samples": 349,
-   "weather_factor": 1.0,
-   "adjusted_score": 47.6,
+   "weather_factor": 1.141,
+   "adjusted_score": 54.3,
    "game_weather": {
     "venue_name": "Target Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 86.0,
+    "wind_mph": 6.0,
+    "wind_dir": "out",
+    "weather_condition": "Clear"
    },
    "repeat": true
+  },
+  {
+   "player_id": 694192,
+   "player_name": "Jackson Chourio",
+   "team": "MIL",
+   "expectancy_score": 40.6,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 2.582,
+    "parks_sum": 0.0,
+    "near_hr": 0.179
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 3,
+   "max_ev_7d": 107.7,
+   "max_distance_7d": 396,
+   "band": "40-60",
+   "band_rate": 0.246,
+   "band_samples": 349,
+   "weather_factor": 1.2,
+   "adjusted_score": 48.7,
+   "game_weather": {
+    "venue_name": "Wrigley Field",
+    "temp_f": 85.0,
+    "wind_mph": 11.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
   },
   {
    "player_id": 669065,
@@ -162,14 +193,14 @@
    "band": "40-60",
    "band_rate": 0.246,
    "band_samples": 349,
-   "weather_factor": 1.0,
-   "adjusted_score": 44.1,
+   "weather_factor": 1.064,
+   "adjusted_score": 46.9,
    "game_weather": {
     "venue_name": "Nationals Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 86.0,
+    "wind_mph": 5.0,
+    "wind_dir": "cross",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": true
   },
@@ -230,37 +261,6 @@
    "repeat": false
   },
   {
-   "player_id": 694192,
-   "player_name": "Jackson Chourio",
-   "team": "MIL",
-   "expectancy_score": 40.6,
-   "streak": 2,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 2.582,
-    "parks_sum": 0.0,
-    "near_hr": 0.179
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 3,
-   "max_ev_7d": 107.7,
-   "max_distance_7d": 396,
-   "band": "40-60",
-   "band_rate": 0.246,
-   "band_samples": 349,
-   "weather_factor": 1.0,
-   "adjusted_score": 40.6,
-   "game_weather": {
-    "venue_name": "Wrigley Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
    "player_id": 668723,
    "player_name": "Ryan Vilade",
    "team": "TB",
@@ -284,10 +284,10 @@
    "adjusted_score": 39.6,
    "game_weather": {
     "venue_name": "Tropicana Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Dome"
    },
    "repeat": false
   },
@@ -315,10 +315,10 @@
    "adjusted_score": 39.3,
    "game_weather": {
     "venue_name": "Daikin Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": true
   },
@@ -342,14 +342,14 @@
    "band": "<40",
    "band_rate": 0.202,
    "band_samples": 12803,
-   "weather_factor": 1.0,
-   "adjusted_score": 38.0,
+   "weather_factor": 1.02,
+   "adjusted_score": 38.8,
    "game_weather": {
     "venue_name": "Fenway Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 75.0,
+    "wind_mph": 8.0,
+    "wind_dir": "cross",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   },
@@ -373,14 +373,76 @@
    "band": "<40",
    "band_rate": 0.202,
    "band_samples": 12803,
-   "weather_factor": 1.0,
-   "adjusted_score": 38.0,
+   "weather_factor": 1.02,
+   "adjusted_score": 38.8,
    "game_weather": {
     "venue_name": "Fenway Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 75.0,
+    "wind_mph": 8.0,
+    "wind_dir": "cross",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 646240,
+   "player_name": "Rafael Devers",
+   "team": "SF",
+   "expectancy_score": 32.6,
+   "streak": 1,
+   "frequency": 0.143,
+   "slopes": {
+    "max_ev": 2.086,
+    "parks_sum": 2.679,
+    "near_hr": 0.134
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 3,
+   "max_ev_7d": 110.3,
+   "max_distance_7d": 427,
+   "band": "<40",
+   "band_rate": 0.202,
+   "band_samples": 12803,
+   "weather_factor": 1.149,
+   "adjusted_score": 37.5,
+   "game_weather": {
+    "venue_name": "Truist Park",
+    "temp_f": 91.0,
+    "wind_mph": 5.0,
+    "wind_dir": "out",
+    "weather_condition": "Clear"
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 680776,
+   "player_name": "Jarren Duran",
+   "team": "BOS",
+   "expectancy_score": 34.8,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 0.789,
+    "parks_sum": 0.071,
+    "near_hr": 0.179
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
+   "max_ev_7d": 105.7,
+   "max_distance_7d": 412,
+   "band": "<40",
+   "band_rate": 0.202,
+   "band_samples": 12803,
+   "weather_factor": 1.02,
+   "adjusted_score": 35.5,
+   "game_weather": {
+    "venue_name": "Fenway Park",
+    "temp_f": 75.0,
+    "wind_mph": 8.0,
+    "wind_dir": "cross",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   },
@@ -416,89 +478,33 @@
    "repeat": true
   },
   {
-   "player_id": 680776,
-   "player_name": "Jarren Duran",
-   "team": "BOS",
-   "expectancy_score": 34.8,
-   "streak": 2,
+   "player_id": 663586,
+   "player_name": "Austin Riley",
+   "team": "ATL",
+   "expectancy_score": 30.4,
+   "streak": 1,
    "frequency": 0.429,
    "slopes": {
-    "max_ev": 0.789,
-    "parks_sum": 0.071,
-    "near_hr": 0.179
+    "max_ev": 0.4,
+    "parks_sum": 1.75,
+    "near_hr": 0.17
    },
    "near_hr_7d": 3,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 1,
-   "max_ev_7d": 105.7,
-   "max_distance_7d": 412,
-   "band": "<40",
-   "band_rate": 0.202,
-   "band_samples": 12803,
-   "weather_factor": 1.0,
-   "adjusted_score": 34.8,
-   "game_weather": {
-    "venue_name": "Fenway Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 671056,
-   "player_name": "Iv\u00e1n Herrera",
-   "team": "STL",
-   "expectancy_score": 32.9,
-   "streak": 2,
-   "frequency": 0.286,
-   "slopes": {
-    "max_ev": 0.975,
-    "parks_sum": 0.429,
-    "near_hr": 0.205
-   },
-   "near_hr_7d": 2,
    "near_hr_xbh_7d": 1,
    "hr_7d": 0,
-   "max_ev_7d": 108.5,
-   "max_distance_7d": 345,
+   "max_ev_7d": 104.4,
+   "max_distance_7d": 387,
    "band": "<40",
    "band_rate": 0.202,
    "band_samples": 12803,
-   "weather_factor": 1.0,
-   "adjusted_score": 32.9,
-   "game_weather": null,
-   "repeat": false
-  },
-  {
-   "player_id": 646240,
-   "player_name": "Rafael Devers",
-   "team": "SF",
-   "expectancy_score": 32.6,
-   "streak": 1,
-   "frequency": 0.143,
-   "slopes": {
-    "max_ev": 2.086,
-    "parks_sum": 2.679,
-    "near_hr": 0.134
-   },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 3,
-   "max_ev_7d": 110.3,
-   "max_distance_7d": 427,
-   "band": "<40",
-   "band_rate": 0.202,
-   "band_samples": 12803,
-   "weather_factor": 1.0,
-   "adjusted_score": 32.6,
+   "weather_factor": 1.149,
+   "adjusted_score": 34.9,
    "game_weather": {
     "venue_name": "Truist Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 91.0,
+    "wind_mph": 5.0,
+    "wind_dir": "out",
+    "weather_condition": "Clear"
    },
    "repeat": false
   }
