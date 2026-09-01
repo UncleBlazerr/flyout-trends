@@ -85,16 +85,78 @@
    "band": "40-60",
    "band_rate": 0.246,
    "band_samples": 353,
-   "weather_factor": 1.0,
-   "adjusted_score": 56.0,
+   "weather_factor": 0.917,
+   "adjusted_score": 51.4,
    "game_weather": {
     "venue_name": "Fenway Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 65.0,
+    "wind_mph": 8.0,
+    "wind_dir": "in",
+    "weather_condition": "Overcast"
    },
    "repeat": true
+  },
+  {
+   "player_id": 701398,
+   "player_name": "Sal Stewart",
+   "team": "CIN",
+   "expectancy_score": 42.0,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 1.289,
+    "parks_sum": 1.679,
+    "near_hr": 0.107
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 4,
+   "max_ev_7d": 105.9,
+   "max_distance_7d": 431,
+   "band": "40-60",
+   "band_rate": 0.246,
+   "band_samples": 353,
+   "weather_factor": 1.096,
+   "adjusted_score": 46.0,
+   "game_weather": {
+    "venue_name": "Great American Ball Park",
+    "temp_f": 94.0,
+    "wind_mph": 5.0,
+    "wind_dir": "cross",
+    "weather_condition": "Clear"
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 682829,
+   "player_name": "Elly De La Cruz",
+   "team": "CIN",
+   "expectancy_score": 41.2,
+   "streak": 2,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": 0.443,
+    "parks_sum": 1.607,
+    "near_hr": 0.045
+   },
+   "near_hr_7d": 5,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 0,
+   "max_ev_7d": 114.7,
+   "max_distance_7d": 407,
+   "band": "40-60",
+   "band_rate": 0.246,
+   "band_samples": 353,
+   "weather_factor": 1.096,
+   "adjusted_score": 45.2,
+   "game_weather": {
+    "venue_name": "Great American Ball Park",
+    "temp_f": 94.0,
+    "wind_mph": 5.0,
+    "wind_dir": "cross",
+    "weather_condition": "Clear"
+   },
+   "repeat": false
   },
   {
    "player_id": 669357,
@@ -126,68 +188,6 @@
     "weather_condition": ""
    },
    "repeat": true
-  },
-  {
-   "player_id": 701398,
-   "player_name": "Sal Stewart",
-   "team": "CIN",
-   "expectancy_score": 42.0,
-   "streak": 2,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 1.289,
-    "parks_sum": 1.679,
-    "near_hr": 0.107
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 4,
-   "max_ev_7d": 105.9,
-   "max_distance_7d": 431,
-   "band": "40-60",
-   "band_rate": 0.246,
-   "band_samples": 353,
-   "weather_factor": 1.0,
-   "adjusted_score": 42.0,
-   "game_weather": {
-    "venue_name": "Great American Ball Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 682829,
-   "player_name": "Elly De La Cruz",
-   "team": "CIN",
-   "expectancy_score": 41.2,
-   "streak": 2,
-   "frequency": 0.571,
-   "slopes": {
-    "max_ev": 0.443,
-    "parks_sum": 1.607,
-    "near_hr": 0.045
-   },
-   "near_hr_7d": 5,
-   "near_hr_xbh_7d": 2,
-   "hr_7d": 0,
-   "max_ev_7d": 114.7,
-   "max_distance_7d": 407,
-   "band": "40-60",
-   "band_rate": 0.246,
-   "band_samples": 353,
-   "weather_factor": 1.0,
-   "adjusted_score": 41.2,
-   "game_weather": {
-    "venue_name": "Great American Ball Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
   },
   {
    "player_id": 677649,
@@ -244,12 +244,43 @@
    "adjusted_score": 39.6,
    "game_weather": {
     "venue_name": "Tropicana Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Dome"
    },
    "repeat": true
+  },
+  {
+   "player_id": 686797,
+   "player_name": "Brooks Lee",
+   "team": "MIN",
+   "expectancy_score": 34.2,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 0.789,
+    "parks_sum": 0.107,
+    "near_hr": 0.107
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 2,
+   "max_ev_7d": 104.6,
+   "max_distance_7d": 391,
+   "band": "<40",
+   "band_rate": 0.203,
+   "band_samples": 13092,
+   "weather_factor": 1.141,
+   "adjusted_score": 39.0,
+   "game_weather": {
+    "venue_name": "Target Field",
+    "temp_f": 86.0,
+    "wind_mph": 6.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
   },
   {
    "player_id": 669394,
@@ -283,33 +314,33 @@
    "repeat": false
   },
   {
-   "player_id": 686797,
-   "player_name": "Brooks Lee",
+   "player_id": 668952,
+   "player_name": "Ryan Kreidler",
    "team": "MIN",
-   "expectancy_score": 34.2,
-   "streak": 2,
+   "expectancy_score": 31.9,
+   "streak": 1,
    "frequency": 0.429,
    "slopes": {
-    "max_ev": 0.789,
-    "parks_sum": 0.107,
+    "max_ev": 3.254,
+    "parks_sum": 0.0,
     "near_hr": 0.107
    },
-   "near_hr_7d": 3,
+   "near_hr_7d": 2,
    "near_hr_xbh_7d": 0,
-   "hr_7d": 2,
-   "max_ev_7d": 104.6,
-   "max_distance_7d": 391,
+   "hr_7d": 0,
+   "max_ev_7d": 101.4,
+   "max_distance_7d": 377,
    "band": "<40",
    "band_rate": 0.203,
    "band_samples": 13092,
-   "weather_factor": 1.0,
-   "adjusted_score": 34.2,
+   "weather_factor": 1.141,
+   "adjusted_score": 36.4,
    "game_weather": {
     "venue_name": "Target Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 86.0,
+    "wind_mph": 6.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   },
@@ -345,6 +376,68 @@
    "repeat": false
   },
   {
+   "player_id": 691781,
+   "player_name": "Brady House",
+   "team": "WSH",
+   "expectancy_score": 30.4,
+   "streak": 1,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": 1.043,
+    "parks_sum": -0.321,
+    "near_hr": -0.196
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
+   "max_ev_7d": 110.9,
+   "max_distance_7d": 445,
+   "band": "<40",
+   "band_rate": 0.203,
+   "band_samples": 13092,
+   "weather_factor": 1.092,
+   "adjusted_score": 33.2,
+   "game_weather": {
+    "venue_name": "Nationals Park",
+    "temp_f": 93.0,
+    "wind_mph": 7.0,
+    "wind_dir": "cross",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 668804,
+   "player_name": "Bryan Reynolds",
+   "team": "PIT",
+   "expectancy_score": 27.6,
+   "streak": 1,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 1.207,
+    "parks_sum": 0.0,
+    "near_hr": 0.071
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 106.2,
+   "max_distance_7d": 389,
+   "band": "<40",
+   "band_rate": 0.203,
+   "band_samples": 13092,
+   "weather_factor": 1.196,
+   "adjusted_score": 33.0,
+   "game_weather": {
+    "venue_name": "PNC Park",
+    "temp_f": 87.0,
+    "wind_mph": 10.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
+  },
+  {
    "player_id": 666018,
    "player_name": "Jonathan Aranda",
    "team": "TB",
@@ -368,103 +461,10 @@
    "adjusted_score": 32.9,
    "game_weather": {
     "venue_name": "Tropicana Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 671056,
-   "player_name": "Iv\u00e1n Herrera",
-   "team": "STL",
-   "expectancy_score": 32.9,
-   "streak": 2,
-   "frequency": 0.286,
-   "slopes": {
-    "max_ev": 0.975,
-    "parks_sum": 0.429,
-    "near_hr": 0.205
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 108.5,
-   "max_distance_7d": 345,
-   "band": "<40",
-   "band_rate": 0.203,
-   "band_samples": 13092,
-   "weather_factor": 1.0,
-   "adjusted_score": 32.9,
-   "game_weather": {
-    "venue_name": "UNIQLO Field at Dodger Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 668952,
-   "player_name": "Ryan Kreidler",
-   "team": "MIN",
-   "expectancy_score": 31.9,
-   "streak": 1,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 3.254,
-    "parks_sum": 0.0,
-    "near_hr": 0.107
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 101.4,
-   "max_distance_7d": 377,
-   "band": "<40",
-   "band_rate": 0.203,
-   "band_samples": 13092,
-   "weather_factor": 1.0,
-   "adjusted_score": 31.9,
-   "game_weather": {
-    "venue_name": "Target Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 553869,
-   "player_name": "Elias D\u00edaz",
-   "team": "TEX",
-   "expectancy_score": 31.2,
-   "streak": 2,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": -0.739,
-    "parks_sum": 0.071,
-    "near_hr": 0.214
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 2,
-   "hr_7d": 0,
-   "max_ev_7d": 104.8,
-   "max_distance_7d": 397,
-   "band": "<40",
-   "band_rate": 0.203,
-   "band_samples": 13092,
-   "weather_factor": 1.0,
-   "adjusted_score": 31.2,
-   "game_weather": {
-    "venue_name": "Globe Life Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Dome"
    },
    "repeat": false
   }
