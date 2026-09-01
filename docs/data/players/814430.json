@@ -2,20 +2,38 @@
  "player_id": 814430,
  "player_name": "Brett Callahan",
  "team": "DET",
- "as_of": "2026-09-01",
+ "as_of": "2026-08-31",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": 4.561,
-   "parks_sum": 0.107,
-   "near_hr": 0.0
+   "max_ev": 0.807,
+   "parks_sum": 0.071,
+   "near_hr": -0.036
   },
-  "intensity": 0.345,
-  "expectancy_score": 14.6,
-  "last_appearance": "2026-08-30"
+  "intensity": 0.142,
+  "expectancy_score": 8.6,
+  "last_appearance": "2026-08-31"
  },
  "days": [
+  {
+   "date": "2026-08-31",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 68.0,
+   "max_distance": 7.0,
+   "max_barrel_score": 0.5,
+   "temp_f": 88.0,
+   "wind_mph": 9.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-30",
    "bbe": 3,
@@ -198,6 +216,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823663,
+   "date": "2026-08-31",
+   "player_id": 814430,
+   "player_name": "Brett Callahan",
+   "team": "DET",
+   "opponent": "MIN",
+   "result": "Single",
+   "exit_velocity": 68.0,
+   "launch_angle": -23.0,
+   "hit_distance": 7.0,
+   "hc_x": 83.63,
+   "hc_y": 149.01,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "b72ceeed-98b5-359c-9ee9-8afb05a86ffc",
+   "venue_id": 3312,
+   "venue_name": "Target Field",
+   "temp_f": 88.0,
+   "wind_mph": 9.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 0.5,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824232,
    "date": "2026-08-30",

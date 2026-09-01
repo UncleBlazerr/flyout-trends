@@ -2,17 +2,17 @@
  "player_id": 680728,
  "player_name": "Adrian Del Castillo",
  "team": "AZ",
- "as_of": "2026-09-01",
+ "as_of": "2026-08-31",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 0.0,
+   "max_ev": 21.7,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.0,
-  "expectancy_score": 0.0,
+  "intensity": 0.333,
+  "expectancy_score": 10.0,
   "last_appearance": "2026-08-03"
  },
  "days": [
@@ -33,6 +33,24 @@
    "wind_mph": 0.0,
    "wind_dir": "none",
    "weather_condition": "Roof Closed"
+  },
+  {
+   "date": "2026-08-02",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 75.6,
+   "max_distance": 28.0,
+   "max_barrel_score": 6.8,
+   "temp_f": 81.0,
+   "wind_mph": 5.0,
+   "wind_dir": "in",
+   "weather_condition": "Overcast"
   }
  ],
  "events": [
@@ -148,6 +166,35 @@
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 0.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
+  {
+   "game_pk": 824404,
+   "date": "2026-08-02",
+   "player_id": 680728,
+   "player_name": "Adrian Del Castillo",
+   "team": "AZ",
+   "opponent": "CLE",
+   "result": "Groundout",
+   "exit_velocity": 75.6,
+   "launch_angle": -2.0,
+   "hit_distance": 28.0,
+   "hc_x": 154.29,
+   "hc_y": 162.54,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "18ae83d3-d576-35b0-9e26-ffe0883dea12",
+   "venue_id": 5,
+   "venue_name": "Progressive Field",
+   "temp_f": 81.0,
+   "wind_mph": 5.0,
+   "wind_dir": "in",
+   "weather_condition": "Overcast",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 6.8,
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
