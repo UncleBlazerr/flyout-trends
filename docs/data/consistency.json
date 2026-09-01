@@ -1,23 +1,13 @@
 {
- "as_of": "2026-08-30",
+ "as_of": "2026-09-01",
  "players": [
-  {
-   "player_id": 700250,
-   "player_name": "Ben Rice",
-   "team": "NYY",
-   "record_streak": 4,
-   "total_flags": 8,
-   "avg_score": 47.4,
-   "current_score": 69.8,
-   "game_streak": 5
-  },
   {
    "player_id": 677951,
    "player_name": "Bobby Witt Jr.",
    "team": "KC",
-   "record_streak": 3,
-   "total_flags": 9,
-   "avg_score": 45.9,
+   "record_streak": 5,
+   "total_flags": 11,
+   "avg_score": 47.7,
    "current_score": 61.2,
    "game_streak": 4
   },
@@ -25,50 +15,40 @@
    "player_id": 805808,
    "player_name": "Kevin McGonigle",
    "team": "DET",
-   "record_streak": 2,
-   "total_flags": 12,
-   "avg_score": 55.5,
+   "record_streak": 4,
+   "total_flags": 14,
+   "avg_score": 53.6,
    "current_score": 47.6,
-   "game_streak": 3
-  },
-  {
-   "player_id": 694374,
-   "player_name": "Tim Tawa",
-   "team": "AZ",
-   "record_streak": 2,
-   "total_flags": 11,
-   "avg_score": 45.6,
-   "current_score": 35.3,
-   "game_streak": 2
-  },
-  {
-   "player_id": 671277,
-   "player_name": "Luis Garc\u00eda Jr.",
-   "team": "NYY",
-   "record_streak": 2,
-   "total_flags": 7,
-   "avg_score": 37.9,
-   "current_score": 44.1,
-   "game_streak": 3
-  },
-  {
-   "player_id": 669065,
-   "player_name": "Kyle Stowers",
-   "team": "MIA",
-   "record_streak": 2,
-   "total_flags": 5,
-   "avg_score": 45.3,
-   "current_score": 44.1,
    "game_streak": 3
   },
   {
    "player_id": 643217,
    "player_name": "Andrew Benintendi",
    "team": "CWS",
-   "record_streak": 2,
-   "total_flags": 5,
-   "avg_score": 38.0,
+   "record_streak": 4,
+   "total_flags": 7,
+   "avg_score": 37.8,
    "current_score": 39.3,
+   "game_streak": 2
+  },
+  {
+   "player_id": 671277,
+   "player_name": "Luis Garc\u00eda Jr.",
+   "team": "NYY",
+   "record_streak": 1,
+   "total_flags": 8,
+   "avg_score": 38.7,
+   "current_score": 44.1,
+   "game_streak": 3
+  },
+  {
+   "player_id": 671056,
+   "player_name": "Iv\u00e1n Herrera",
+   "team": "STL",
+   "record_streak": 1,
+   "total_flags": 6,
+   "avg_score": 38.6,
+   "current_score": 32.9,
    "game_streak": 2
   },
   {
@@ -76,8 +56,8 @@
    "player_name": "Jackson Chourio",
    "team": "MIL",
    "record_streak": 1,
-   "total_flags": 4,
-   "avg_score": 43.4,
+   "total_flags": 5,
+   "avg_score": 42.9,
    "current_score": 40.6,
    "game_streak": 2
   },
@@ -86,8 +66,8 @@
    "player_name": "Austin Riley",
    "team": "ATL",
    "record_streak": 1,
-   "total_flags": 4,
-   "avg_score": 40.5,
+   "total_flags": 5,
+   "avg_score": 38.5,
    "current_score": 30.4,
    "game_streak": 1
   },
@@ -96,29 +76,29 @@
    "player_name": "Jarren Duran",
    "team": "BOS",
    "record_streak": 1,
-   "total_flags": 4,
-   "avg_score": 38.4,
+   "total_flags": 5,
+   "avg_score": 37.6,
    "current_score": 34.8,
    "game_streak": 2
-  },
-  {
-   "player_id": 646240,
-   "player_name": "Rafael Devers",
-   "team": "SF",
-   "record_streak": 1,
-   "total_flags": 4,
-   "avg_score": 34.7,
-   "current_score": 32.6,
-   "game_streak": 1
   },
   {
    "player_id": 669357,
    "player_name": "Nolan Gorman",
    "team": "STL",
    "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 43.5,
+   "total_flags": 3,
+   "avg_score": 43.7,
    "current_score": 44.0,
+   "game_streak": 1
+  },
+  {
+   "player_id": 673548,
+   "player_name": "Seiya Suzuki",
+   "team": "CHC",
+   "record_streak": 1,
+   "total_flags": 3,
+   "avg_score": 35.5,
+   "current_score": 27.7,
    "game_streak": 1
   },
   {
@@ -126,7 +106,7 @@
    "player_name": "Ryan Vilade",
    "team": "TB",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 39.6,
    "current_score": 39.6,
    "game_streak": 2
@@ -136,7 +116,7 @@
    "player_name": "Roman Anthony",
    "team": "BOS",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 38.0,
    "current_score": 38.0,
    "game_streak": 1
@@ -146,9 +126,29 @@
    "player_name": "Trevor Story",
    "team": "BOS",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 38.0,
    "current_score": 38.0,
+   "game_streak": 1
+  },
+  {
+   "player_id": 650490,
+   "player_name": "Yandy D\u00edaz",
+   "team": "TB",
+   "record_streak": 1,
+   "total_flags": 2,
+   "avg_score": 36.6,
+   "current_score": 31.7,
+   "game_streak": 2
+  },
+  {
+   "player_id": 695506,
+   "player_name": "Jac Caglianone",
+   "team": "KC",
+   "record_streak": 1,
+   "total_flags": 2,
+   "avg_score": 31.3,
+   "current_score": 29.0,
    "game_streak": 1
   }
  ]
