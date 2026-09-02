@@ -2,20 +2,38 @@
  "player_id": 691728,
  "player_name": "Zac Veen",
  "team": "COL",
- "as_of": "2026-09-02",
+ "as_of": "2026-09-01",
  "form": {
-  "streak": 0,
-  "frequency": 0.143,
+  "streak": 1,
+  "frequency": 0.286,
   "slopes": {
-   "max_ev": 0.211,
-   "parks_sum": 0.0,
-   "near_hr": 0.036
+   "max_ev": 4.664,
+   "parks_sum": 2.893,
+   "near_hr": 0.134
   },
-  "intensity": 0.047,
-  "expectancy_score": 5.7,
-  "last_appearance": "2026-08-30"
+  "intensity": 0.699,
+  "expectancy_score": 37.6,
+  "last_appearance": "2026-09-01"
  },
  "days": [
+  {
+   "date": "2026-09-01",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 1,
+   "near_hr_distance": 0,
+   "near_hr_parks": 1,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 27,
+   "max_ev": 102.9,
+   "max_distance": 384.0,
+   "max_barrel_score": 79.9,
+   "temp_f": 84.0,
+   "wind_mph": 4.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-30",
    "bbe": 1,
@@ -216,6 +234,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824313,
+   "date": "2026-09-01",
+   "player_id": 691728,
+   "player_name": "Zac Veen",
+   "team": "COL",
+   "opponent": "BAL",
+   "result": "Triple",
+   "exit_velocity": 102.9,
+   "launch_angle": 23.0,
+   "hit_distance": 384.0,
+   "hc_x": 208.7,
+   "hc_y": 67.19,
+   "would_be_hr_count": 27,
+   "inning": 2,
+   "play_id": "7f7b55c9-d7ff-3a3a-a729-c0bf4474ee49",
+   "venue_id": 19,
+   "venue_name": "Coors Field",
+   "temp_f": 84.0,
+   "wind_mph": 4.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": true,
+   "barrel_score": 79.9,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 824876,
    "date": "2026-08-30",

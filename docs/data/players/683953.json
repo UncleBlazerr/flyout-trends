@@ -2,20 +2,38 @@
  "player_id": 683953,
  "player_name": "Travis Bazzana",
  "team": "CLE",
- "as_of": "2026-09-02",
+ "as_of": "2026-09-01",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -0.721,
+   "max_ev": -3.136,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.0,
   "expectancy_score": 0.0,
-  "last_appearance": "2026-08-30"
+  "last_appearance": "2026-09-01"
  },
  "days": [
+  {
+   "date": "2026-09-01",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 75.1,
+   "max_distance": 268.0,
+   "max_barrel_score": 38.8,
+   "temp_f": 86.0,
+   "wind_mph": 9.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-30",
    "bbe": 3,
@@ -378,6 +396,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824391,
+   "date": "2026-09-01",
+   "player_id": 683953,
+   "player_name": "Travis Bazzana",
+   "team": "CLE",
+   "opponent": "TOR",
+   "result": "Flyout",
+   "exit_velocity": 75.1,
+   "launch_angle": 40.0,
+   "hit_distance": 268.0,
+   "hc_x": 125.85,
+   "hc_y": 102.02,
+   "would_be_hr_count": 0,
+   "inning": 5,
+   "play_id": "be9dd63b-e683-3fb6-81e7-51a2aad23a03",
+   "venue_id": 5,
+   "venue_name": "Progressive Field",
+   "temp_f": 86.0,
+   "wind_mph": 9.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 38.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824393,
    "date": "2026-08-30",

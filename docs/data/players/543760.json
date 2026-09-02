@@ -2,20 +2,38 @@
  "player_id": 543760,
  "player_name": "Marcus Semien",
  "team": "NYM",
- "as_of": "2026-09-02",
+ "as_of": "2026-09-01",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": -0.818,
+   "max_ev": -2.282,
    "parks_sum": 0.0,
-   "near_hr": 0.143
+   "near_hr": 0.071
   },
-  "intensity": 0.048,
-  "expectancy_score": 18.0,
-  "last_appearance": "2026-08-31"
+  "intensity": 0.024,
+  "expectancy_score": 9.3,
+  "last_appearance": "2026-09-01"
  },
  "days": [
+  {
+   "date": "2026-09-01",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 69.9,
+   "max_distance": 5.0,
+   "max_barrel_score": 0.3,
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Dome"
+  },
   {
    "date": "2026-08-31",
    "bbe": 4,
@@ -450,6 +468,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822929,
+   "date": "2026-09-01",
+   "player_id": 543760,
+   "player_name": "Marcus Semien",
+   "team": "NYM",
+   "opponent": "TB",
+   "result": "Groundout",
+   "exit_velocity": 69.9,
+   "launch_angle": -28.0,
+   "hit_distance": 5.0,
+   "hc_x": 93.37,
+   "hc_y": 153.69,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "6f4d8c74-5c52-303c-810e-c8b3f2bd1d8c",
+   "venue_id": 12,
+   "venue_name": "Tropicana Field",
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Dome",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 0.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 822932,
    "date": "2026-08-31",

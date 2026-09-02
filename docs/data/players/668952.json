@@ -2,20 +2,38 @@
  "player_id": 668952,
  "player_name": "Ryan Kreidler",
  "team": "MIN",
- "as_of": "2026-09-02",
+ "as_of": "2026-09-01",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.429,
   "slopes": {
-   "max_ev": 3.254,
+   "max_ev": 0.293,
    "parks_sum": 0.0,
-   "near_hr": 0.107
+   "near_hr": 0.0
   },
-  "intensity": 0.369,
-  "expectancy_score": 31.9,
-  "last_appearance": "2026-08-31"
+  "intensity": 0.049,
+  "expectancy_score": 14.3,
+  "last_appearance": "2026-09-01"
  },
  "days": [
+  {
+   "date": "2026-09-01",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 82.3,
+   "max_distance": 290.0,
+   "max_barrel_score": 52.1,
+   "temp_f": 85.0,
+   "wind_mph": 3.0,
+   "wind_dir": "out",
+   "weather_condition": "Overcast"
+  },
   {
    "date": "2026-08-31",
    "bbe": 1,
@@ -216,6 +234,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823661,
+   "date": "2026-09-01",
+   "player_id": 668952,
+   "player_name": "Ryan Kreidler",
+   "team": "MIN",
+   "opponent": "DET",
+   "result": "Flyout",
+   "exit_velocity": 82.3,
+   "launch_angle": 35.0,
+   "hit_distance": 290.0,
+   "hc_x": 175.8,
+   "hc_y": 94.3,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "a4b2ac32-7f14-3495-b90a-3918baeb1a84",
+   "venue_id": 3312,
+   "venue_name": "Target Field",
+   "temp_f": 85.0,
+   "wind_mph": 3.0,
+   "wind_dir": "out",
+   "weather_condition": "Overcast",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 52.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823663,
    "date": "2026-08-31",

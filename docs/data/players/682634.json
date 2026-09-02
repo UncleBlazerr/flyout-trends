@@ -2,17 +2,17 @@
  "player_id": 682634,
  "player_name": "Kevin Alc\u00e1ntara",
  "team": "CHC",
- "as_of": "2026-09-02",
+ "as_of": "2026-09-01",
  "form": {
   "streak": 0,
-  "frequency": 0.333,
+  "frequency": 0.25,
   "slopes": {
-   "max_ev": -11.15,
+   "max_ev": -8.64,
    "parks_sum": 0.0,
-   "near_hr": -0.5
+   "near_hr": -0.1
   },
   "intensity": 0.0,
-  "expectancy_score": 10.0,
+  "expectancy_score": 7.5,
   "last_appearance": "2026-08-23"
  },
  "days": [
@@ -67,6 +67,24 @@
    "max_barrel_score": 70.4,
    "temp_f": 76.0,
    "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Clear"
+  },
+  {
+   "date": "2026-08-03",
+   "bbe": 1,
+   "hr": 1,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 106.1,
+   "max_distance": 392.0,
+   "max_barrel_score": 82.2,
+   "temp_f": 76.0,
+   "wind_mph": 10.0,
    "wind_dir": "in",
    "weather_condition": "Clear"
   }
@@ -158,6 +176,35 @@
    "barrel_flag": true,
    "is_home_run": false,
    "is_near_hr": true
+  },
+  {
+   "game_pk": 824647,
+   "date": "2026-08-03",
+   "player_id": 682634,
+   "player_name": "Kevin Alc\u00e1ntara",
+   "team": "CHC",
+   "opponent": "LAD",
+   "result": "Home Run",
+   "exit_velocity": 106.1,
+   "launch_angle": 22.0,
+   "hit_distance": 392.0,
+   "hc_x": 82.22,
+   "hc_y": 45.55,
+   "would_be_hr_count": 7,
+   "inning": 2,
+   "play_id": "1569f7b7-d1d4-3a59-8803-1c6da7d77f01",
+   "venue_id": 17,
+   "venue_name": "Wrigley Field",
+   "temp_f": 76.0,
+   "wind_mph": 10.0,
+   "wind_dir": "in",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 82.2,
+   "barrel_flag": false,
+   "is_home_run": true,
+   "is_near_hr": false
   }
  ]
 }

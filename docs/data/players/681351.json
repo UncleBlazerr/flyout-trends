@@ -2,20 +2,38 @@
  "player_id": 681351,
  "player_name": "Logan O'Hoppe",
  "team": "TEX",
- "as_of": "2026-09-02",
+ "as_of": "2026-09-01",
  "form": {
-  "streak": 0,
-  "frequency": 0.0,
+  "streak": 1,
+  "frequency": 0.2,
   "slopes": {
-   "max_ev": -6.21,
-   "parks_sum": 0.0,
-   "near_hr": 0.0
+   "max_ev": -1.08,
+   "parks_sum": 3.0,
+   "near_hr": 0.2
   },
-  "intensity": 0.0,
-  "expectancy_score": 0.0,
-  "last_appearance": "2026-08-31"
+  "intensity": 0.4,
+  "expectancy_score": 26.0,
+  "last_appearance": "2026-09-01"
  },
  "days": [
+  {
+   "date": "2026-09-01",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 1,
+   "near_hr_parks": 1,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 15,
+   "max_ev": 101.6,
+   "max_distance": 375.0,
+   "max_barrel_score": 72.7,
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-08-31",
    "bbe": 1,
@@ -90,6 +108,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822854,
+   "date": "2026-09-01",
+   "player_id": 681351,
+   "player_name": "Logan O'Hoppe",
+   "team": "TEX",
+   "opponent": "ATH",
+   "result": "Sac Fly",
+   "exit_velocity": 101.6,
+   "launch_angle": 37.0,
+   "hit_distance": 375.0,
+   "hc_x": 65.51,
+   "hc_y": 59.89,
+   "would_be_hr_count": 15,
+   "inning": 6,
+   "play_id": "66f510ca-169d-3567-b336-4eb4e1f29593",
+   "venue_id": 5325,
+   "venue_name": "Globe Life Field",
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": true,
+   "would_be_hr_flag": true,
+   "barrel_score": 72.7,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 822855,
    "date": "2026-08-31",

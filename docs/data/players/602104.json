@@ -2,20 +2,38 @@
  "player_id": 602104,
  "player_name": "Ram\u00f3n Ur\u00edas",
  "team": "STL",
- "as_of": "2026-09-02",
+ "as_of": "2026-09-01",
  "form": {
   "streak": 0,
-  "frequency": 0.2,
+  "frequency": 0.167,
   "slopes": {
-   "max_ev": 1.25,
+   "max_ev": 1.257,
    "parks_sum": 0.0,
-   "near_hr": 0.1
+   "near_hr": 0.029
   },
-  "intensity": 0.242,
-  "expectancy_score": 13.2,
-  "last_appearance": "2026-08-30"
+  "intensity": 0.219,
+  "expectancy_score": 11.6,
+  "last_appearance": "2026-09-01"
  },
  "days": [
+  {
+   "date": "2026-09-01",
+   "bbe": 1,
+   "hr": 1,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 103.3,
+   "max_distance": 384.0,
+   "max_barrel_score": 81.4,
+   "temp_f": 73.0,
+   "wind_mph": 9.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-08-30",
    "bbe": 1,
@@ -108,6 +126,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823908,
+   "date": "2026-09-01",
+   "player_id": 602104,
+   "player_name": "Ram\u00f3n Ur\u00edas",
+   "team": "STL",
+   "opponent": "LAD",
+   "result": "Home Run",
+   "exit_velocity": 103.3,
+   "launch_angle": 24.0,
+   "hit_distance": 384.0,
+   "hc_x": 62.98,
+   "hc_y": 57.01,
+   "would_be_hr_count": 17,
+   "inning": 2,
+   "play_id": "bf02b44e-0bea-37ba-8636-aa8baaa3cf42",
+   "venue_id": 22,
+   "venue_name": "UNIQLO Field at Dodger Stadium",
+   "temp_f": 73.0,
+   "wind_mph": 9.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 81.4,
+   "barrel_flag": false,
+   "is_home_run": true,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823010,
    "date": "2026-08-30",

@@ -2,20 +2,38 @@
  "player_id": 624428,
  "player_name": "Adam Frazier",
  "team": "LAA",
- "as_of": "2026-09-02",
+ "as_of": "2026-09-01",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": -3.782,
-   "parks_sum": 0.0,
-   "near_hr": 0.0
+   "max_ev": -3.807,
+   "parks_sum": -0.393,
+   "near_hr": -0.045
   },
   "intensity": 0.0,
   "expectancy_score": 4.3,
-  "last_appearance": "2026-08-25"
+  "last_appearance": "2026-09-01"
  },
  "days": [
+  {
+   "date": "2026-09-01",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 93.2,
+   "max_distance": 305.0,
+   "max_barrel_score": 63.9,
+   "temp_f": 78.0,
+   "wind_mph": 6.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-08-25",
    "bbe": 2,
@@ -198,6 +216,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823984,
+   "date": "2026-09-01",
+   "player_id": 624428,
+   "player_name": "Adam Frazier",
+   "team": "LAA",
+   "opponent": "NYY",
+   "result": "Lineout",
+   "exit_velocity": 93.2,
+   "launch_angle": 21.0,
+   "hit_distance": 305.0,
+   "hc_x": 173.65,
+   "hc_y": 86.46,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "680e288f-994a-3a0c-861c-45b1269f0237",
+   "venue_id": 1,
+   "venue_name": "Angel Stadium",
+   "temp_f": 78.0,
+   "wind_mph": 6.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 63.9,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823989,
    "date": "2026-08-25",

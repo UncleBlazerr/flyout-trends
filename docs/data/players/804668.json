@@ -2,20 +2,38 @@
  "player_id": 804668,
  "player_name": "Rafael Flores Jr.",
  "team": "PIT",
- "as_of": "2026-09-02",
+ "as_of": "2026-09-01",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": 2.793,
+   "max_ev": 1.639,
    "parks_sum": 0.0,
-   "near_hr": -0.089
+   "near_hr": -0.134
   },
-  "intensity": 0.333,
-  "expectancy_score": 14.3,
-  "last_appearance": "2026-08-30"
+  "intensity": 0.273,
+  "expectancy_score": 12.5,
+  "last_appearance": "2026-09-01"
  },
  "days": [
+  {
+   "date": "2026-09-01",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 100.8,
+   "max_distance": 57.0,
+   "max_barrel_score": 32.3,
+   "temp_f": 84.0,
+   "wind_mph": 10.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-30",
    "bbe": 2,
@@ -342,6 +360,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823340,
+   "date": "2026-09-01",
+   "player_id": 804668,
+   "player_name": "Rafael Flores Jr.",
+   "team": "PIT",
+   "opponent": "SF",
+   "result": "Field Error",
+   "exit_velocity": 100.8,
+   "launch_angle": 1.0,
+   "hit_distance": 57.0,
+   "hc_x": 106.2,
+   "hc_y": 169.92,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "af557f39-bf07-305e-a9be-6efcddbfe9d2",
+   "venue_id": 31,
+   "venue_name": "PNC Park",
+   "temp_f": 84.0,
+   "wind_mph": 10.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 32.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823010,
    "date": "2026-08-30",
