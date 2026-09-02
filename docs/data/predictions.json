@@ -54,14 +54,14 @@
    "band": "60-80",
    "band_rate": 0.257,
    "band_samples": 35,
-   "weather_factor": 1.0,
-   "adjusted_score": 63.3,
+   "weather_factor": 0.919,
+   "adjusted_score": 58.2,
    "game_weather": {
     "venue_name": "Fenway Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 11.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": true
   },
@@ -89,10 +89,10 @@
    "adjusted_score": 46.6,
    "game_weather": {
     "venue_name": "Globe Life Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 74.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": true
   },
@@ -151,10 +151,10 @@
    "adjusted_score": 43.1,
    "game_weather": {
     "venue_name": "Globe Life Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 74.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": false
   },
@@ -182,10 +182,10 @@
    "adjusted_score": 40.3,
    "game_weather": {
     "venue_name": "Tropicana Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Dome"
    },
    "repeat": false
   },
@@ -213,10 +213,41 @@
    "adjusted_score": 40.0,
    "game_weather": {
     "venue_name": "Globe Life Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 74.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 691728,
+   "player_name": "Zac Veen",
+   "team": "COL",
+   "expectancy_score": 37.6,
+   "streak": 1,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": 4.664,
+    "parks_sum": 2.893,
+    "near_hr": 0.134
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 102.9,
+   "max_distance_7d": 384,
+   "band": "<40",
+   "band_rate": 0.204,
+   "band_samples": 13387,
+   "weather_factor": 1.06,
+   "adjusted_score": 39.9,
+   "game_weather": {
+    "venue_name": "Coors Field",
+    "temp_f": 85.0,
+    "wind_mph": 11.0,
+    "wind_dir": "cross",
+    "weather_condition": "Sunny"
    },
    "repeat": false
   },
@@ -240,14 +271,14 @@
    "band": "<40",
    "band_rate": 0.204,
    "band_samples": 13387,
-   "weather_factor": 1.0,
-   "adjusted_score": 38.0,
+   "weather_factor": 1.012,
+   "adjusted_score": 38.5,
    "game_weather": {
     "venue_name": "Nationals Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 88.0,
+    "wind_mph": 7.0,
+    "wind_dir": "in",
+    "weather_condition": "Cloudy"
    },
    "repeat": false
   },
@@ -345,37 +376,6 @@
    "repeat": false
   },
   {
-   "player_id": 691728,
-   "player_name": "Zac Veen",
-   "team": "COL",
-   "expectancy_score": 37.6,
-   "streak": 1,
-   "frequency": 0.286,
-   "slopes": {
-    "max_ev": 4.664,
-    "parks_sum": 2.893,
-    "near_hr": 0.134
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 102.9,
-   "max_distance_7d": 384,
-   "band": "<40",
-   "band_rate": 0.204,
-   "band_samples": 13387,
-   "weather_factor": 1.0,
-   "adjusted_score": 37.6,
-   "game_weather": {
-    "venue_name": "Coors Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
    "player_id": 695506,
    "player_name": "Jac Caglianone",
    "team": "KC",
@@ -426,11 +426,11 @@
    "band": "<40",
    "band_rate": 0.204,
    "band_samples": 13387,
-   "weather_factor": 1.162,
-   "adjusted_score": 35.7,
+   "weather_factor": 1.175,
+   "adjusted_score": 36.1,
    "game_weather": {
     "venue_name": "Great American Ball Park",
-    "temp_f": 91.0,
+    "temp_f": 94.0,
     "wind_mph": 6.0,
     "wind_dir": "out",
     "weather_condition": "Sunny"
@@ -461,10 +461,10 @@
    "adjusted_score": 34.8,
    "game_weather": {
     "venue_name": "Chase Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": false
   }
