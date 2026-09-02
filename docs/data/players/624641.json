@@ -2,7 +2,7 @@
  "player_id": 624641,
  "player_name": "Edmundo Sosa",
  "team": "PHI",
- "as_of": "2026-08-31",
+ "as_of": "2026-09-02",
  "form": {
   "streak": 0,
   "frequency": 0.286,
@@ -158,24 +158,6 @@
    "temp_f": 84.0,
    "wind_mph": 11.0,
    "wind_dir": "out",
-   "weather_condition": "Partly Cloudy"
-  },
-  {
-   "date": "2026-08-03",
-   "bbe": 1,
-   "hr": 0,
-   "near_hr_any": 0,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 0,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 0,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 82.4,
-   "max_distance": 262.0,
-   "max_barrel_score": 54.7,
-   "temp_f": 89.0,
-   "wind_mph": 7.0,
-   "wind_dir": "cross",
    "weather_condition": "Partly Cloudy"
   }
  ],
@@ -730,35 +712,6 @@
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": true
-  },
-  {
-   "game_pk": 823431,
-   "date": "2026-08-03",
-   "player_id": 624641,
-   "player_name": "Edmundo Sosa",
-   "team": "PHI",
-   "opponent": "WSH",
-   "result": "Single",
-   "exit_velocity": 82.4,
-   "launch_angle": 24.0,
-   "hit_distance": 262.0,
-   "hc_x": 66.33,
-   "hc_y": 119.57,
-   "would_be_hr_count": 0,
-   "inning": 5,
-   "play_id": "80089a11-6b3d-347f-a4da-e5de6ecc6565",
-   "venue_id": 2681,
-   "venue_name": "Citizens Bank Park",
-   "temp_f": 89.0,
-   "wind_mph": 7.0,
-   "wind_dir": "cross",
-   "weather_condition": "Partly Cloudy",
-   "distance_flag": false,
-   "would_be_hr_flag": false,
-   "barrel_score": 54.7,
-   "barrel_flag": false,
-   "is_home_run": false,
-   "is_near_hr": false
   }
  ]
 }

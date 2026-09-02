@@ -2,9 +2,9 @@
  "player_id": 677950,
  "player_name": "Alek Thomas",
  "team": "LAD",
- "as_of": "2026-08-31",
+ "as_of": "2026-09-02",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.167,
   "slopes": {
    "max_ev": -1.094,
@@ -12,7 +12,7 @@
    "near_hr": 0.179
   },
   "intensity": 0.06,
-  "expectancy_score": 14.8,
+  "expectancy_score": 6.8,
   "last_appearance": "2026-08-29"
  },
  "days": [

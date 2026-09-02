@@ -2,9 +2,9 @@
  "player_id": 807727,
  "player_name": "Charles McAdoo",
  "team": "TOR",
- "as_of": "2026-08-31",
+ "as_of": "2026-09-02",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": -1.757,
@@ -12,7 +12,7 @@
    "near_hr": 0.107
   },
   "intensity": 0.083,
-  "expectancy_score": 19.1,
+  "expectancy_score": 11.1,
   "last_appearance": "2026-08-30"
  },
  "days": [
