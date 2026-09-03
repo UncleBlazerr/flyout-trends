@@ -1,19 +1,9 @@
 {
- "latest_date": "2026-09-03",
- "generated_at": "2026-09-03T07:44:46.842591+00:00",
- "games_processed": 0,
- "games_skipped_not_final": [
-  823337,
-  824388,
-  824144,
-  824796,
-  824632,
-  824069,
-  822853,
-  823095,
-  823907
- ],
- "total_events": 0,
- "near_hr_events": 0,
- "home_runs": 0
+ "latest_date": "2026-09-02",
+ "generated_at": "2026-09-03T14:07:02.030990+00:00",
+ "games_processed": 15,
+ "games_skipped_not_final": [],
+ "total_events": 832,
+ "near_hr_events": 93,
+ "home_runs": 35
 }

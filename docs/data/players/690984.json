@@ -2,20 +2,38 @@
  "player_id": 690984,
  "player_name": "Petey Halpin",
  "team": "CLE",
- "as_of": "2026-09-03",
+ "as_of": "2026-09-02",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": 0.8,
+   "max_ev": -1.129,
    "parks_sum": 0.0,
-   "near_hr": -0.036
+   "near_hr": -0.071
   },
-  "intensity": 0.133,
-  "expectancy_score": 8.3,
-  "last_appearance": "2026-08-28"
+  "intensity": 0.0,
+  "expectancy_score": 4.3,
+  "last_appearance": "2026-09-02"
  },
  "days": [
+  {
+   "date": "2026-09-02",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 83.7,
+   "max_distance": 134.0,
+   "max_barrel_score": 21.1,
+   "temp_f": 89.0,
+   "wind_mph": 14.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-28",
    "bbe": 3,
@@ -234,6 +252,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824390,
+   "date": "2026-09-02",
+   "player_id": 690984,
+   "player_name": "Petey Halpin",
+   "team": "CLE",
+   "opponent": "TOR",
+   "result": "Pop Out",
+   "exit_velocity": 83.7,
+   "launch_angle": 68.0,
+   "hit_distance": 134.0,
+   "hc_x": 97.41,
+   "hc_y": 160.12,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "d1eaf735-26eb-3639-8647-dadd0a12aef3",
+   "venue_id": 5,
+   "venue_name": "Progressive Field",
+   "temp_f": 89.0,
+   "wind_mph": 14.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 21.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824396,
    "date": "2026-08-28",

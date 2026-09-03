@@ -2,20 +2,38 @@
  "player_id": 664954,
  "player_name": "Brett Sullivan",
  "team": "COL",
- "as_of": "2026-09-03",
+ "as_of": "2026-09-02",
  "form": {
   "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": -1.586,
-   "parks_sum": -0.786,
-   "near_hr": -0.116
+   "max_ev": -3.361,
+   "parks_sum": -1.536,
+   "near_hr": -0.196
   },
   "intensity": 0.0,
   "expectancy_score": 8.6,
-  "last_appearance": "2026-09-01"
+  "last_appearance": "2026-09-02"
  },
  "days": [
+  {
+   "date": "2026-09-02",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 73.6,
+   "max_distance": 204.0,
+   "max_barrel_score": 41.9,
+   "temp_f": 85.0,
+   "wind_mph": 11.0,
+   "wind_dir": "cross",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-09-01",
    "bbe": 3,
@@ -306,6 +324,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824312,
+   "date": "2026-09-02",
+   "player_id": 664954,
+   "player_name": "Brett Sullivan",
+   "team": "COL",
+   "opponent": "BAL",
+   "result": "Single",
+   "exit_velocity": 73.6,
+   "launch_angle": 23.0,
+   "hit_distance": 204.0,
+   "hc_x": 100.0,
+   "hc_y": 123.26,
+   "would_be_hr_count": 0,
+   "inning": 11,
+   "play_id": "ec34c814-9742-384d-93e9-065d8ac3690c",
+   "venue_id": 19,
+   "venue_name": "Coors Field",
+   "temp_f": 85.0,
+   "wind_mph": 11.0,
+   "wind_dir": "cross",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 41.9,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824313,
    "date": "2026-09-01",

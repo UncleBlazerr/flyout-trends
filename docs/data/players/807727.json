@@ -2,20 +2,38 @@
  "player_id": 807727,
  "player_name": "Charles McAdoo",
  "team": "TOR",
- "as_of": "2026-09-03",
+ "as_of": "2026-09-02",
  "form": {
   "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": -1.757,
-   "parks_sum": 0.429,
-   "near_hr": 0.107
+   "max_ev": -1.207,
+   "parks_sum": 0.286,
+   "near_hr": 0.036
   },
-  "intensity": 0.083,
-  "expectancy_score": 11.1,
-  "last_appearance": "2026-08-30"
+  "intensity": 0.044,
+  "expectancy_score": 9.9,
+  "last_appearance": "2026-09-02"
  },
  "days": [
+  {
+   "date": "2026-09-02",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 85.7,
+   "max_distance": 37.0,
+   "max_barrel_score": 16.4,
+   "temp_f": 89.0,
+   "wind_mph": 14.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-30",
    "bbe": 3,
@@ -270,6 +288,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824390,
+   "date": "2026-09-02",
+   "player_id": 807727,
+   "player_name": "Charles McAdoo",
+   "team": "TOR",
+   "opponent": "CLE",
+   "result": "Single",
+   "exit_velocity": 85.7,
+   "launch_angle": -1.0,
+   "hit_distance": 37.0,
+   "hc_x": 115.56,
+   "hc_y": 150.43,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "b0d57995-0611-3ed4-bd63-77b0b9661bb5",
+   "venue_id": 5,
+   "venue_name": "Progressive Field",
+   "temp_f": 89.0,
+   "wind_mph": 14.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 16.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 822766,
    "date": "2026-08-30",

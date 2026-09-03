@@ -2,20 +2,38 @@
  "player_id": 668901,
  "player_name": "Mark Vientos",
  "team": "NYM",
- "as_of": "2026-09-03",
+ "as_of": "2026-09-02",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -14.7,
+   "max_ev": -1.15,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.0,
   "expectancy_score": 0.0,
-  "last_appearance": "2026-09-01"
+  "last_appearance": "2026-09-02"
  },
  "days": [
+  {
+   "date": "2026-09-02",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 100.4,
+   "max_distance": 183.0,
+   "max_barrel_score": 49.0,
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Dome"
+  },
   {
    "date": "2026-09-01",
    "bbe": 1,
@@ -54,6 +72,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822931,
+   "date": "2026-09-02",
+   "player_id": 668901,
+   "player_name": "Mark Vientos",
+   "team": "NYM",
+   "opponent": "TB",
+   "result": "Single",
+   "exit_velocity": 100.4,
+   "launch_angle": 9.0,
+   "hit_distance": 183.0,
+   "hc_x": 168.34,
+   "hc_y": 85.27,
+   "would_be_hr_count": 0,
+   "inning": 6,
+   "play_id": "8fa02c9b-7183-384e-99fb-0da2e81c80ab",
+   "venue_id": 12,
+   "venue_name": "Tropicana Field",
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Dome",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 49.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 822929,
    "date": "2026-09-01",

@@ -2,7 +2,7 @@
  "player_id": 656555,
  "player_name": "Rhys Hoskins",
  "team": "CLE",
- "as_of": "2026-09-03",
+ "as_of": "2026-09-02",
  "form": {
   "streak": 0,
   "frequency": 0.0,
@@ -159,6 +159,24 @@
    "wind_mph": 7.0,
    "wind_dir": "cross",
    "weather_condition": "Partly Cloudy"
+  },
+  {
+   "date": "2026-08-04",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 97.1,
+   "max_distance": 317.0,
+   "max_barrel_score": 58.3,
+   "temp_f": 78.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Clear"
   }
  ],
  "events": [
@@ -596,6 +614,35 @@
    "barrel_flag": true,
    "is_home_run": false,
    "is_near_hr": true
+  },
+  {
+   "game_pk": 824403,
+   "date": "2026-08-04",
+   "player_id": 656555,
+   "player_name": "Rhys Hoskins",
+   "team": "CLE",
+   "opponent": "NYM",
+   "result": "Flyout",
+   "exit_velocity": 97.1,
+   "launch_angle": 43.0,
+   "hit_distance": 317.0,
+   "hc_x": 74.98,
+   "hc_y": 82.31,
+   "would_be_hr_count": 0,
+   "inning": 5,
+   "play_id": "fe5e3017-8b65-36fd-be0c-76ade74598c2",
+   "venue_id": 5,
+   "venue_name": "Progressive Field",
+   "temp_f": 78.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 58.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
   }
  ]
 }

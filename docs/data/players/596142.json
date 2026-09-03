@@ -2,20 +2,38 @@
  "player_id": 596142,
  "player_name": "Gary S\u00e1nchez",
  "team": "MIL",
- "as_of": "2026-09-03",
+ "as_of": "2026-09-02",
  "form": {
-  "streak": 0,
-  "frequency": 0.0,
+  "streak": 1,
+  "frequency": 0.143,
   "slopes": {
-   "max_ev": 1.154,
+   "max_ev": 0.289,
    "parks_sum": 0.0,
-   "near_hr": 0.0
+   "near_hr": 0.107
   },
-  "intensity": 0.192,
-  "expectancy_score": 5.8,
-  "last_appearance": "2026-08-30"
+  "intensity": 0.084,
+  "expectancy_score": 14.8,
+  "last_appearance": "2026-09-02"
  },
  "days": [
+  {
+   "date": "2026-09-02",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 100.8,
+   "max_distance": 346.0,
+   "max_barrel_score": 71.2,
+   "temp_f": 92.0,
+   "wind_mph": 9.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-30",
    "bbe": 1,
@@ -234,6 +252,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824634,
+   "date": "2026-09-02",
+   "player_id": 596142,
+   "player_name": "Gary S\u00e1nchez",
+   "team": "MIL",
+   "opponent": "CHC",
+   "result": "Lineout",
+   "exit_velocity": 100.8,
+   "launch_angle": 19.0,
+   "hit_distance": 346.0,
+   "hc_x": 158.54,
+   "hc_y": 63.65,
+   "would_be_hr_count": 0,
+   "inning": 3,
+   "play_id": "4c752096-0a95-3714-bcc4-72d698500e51",
+   "venue_id": 17,
+   "venue_name": "Wrigley Field",
+   "temp_f": 92.0,
+   "wind_mph": 9.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 71.2,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 823740,
    "date": "2026-08-30",
