@@ -2,7 +2,7 @@
  "player_id": 695600,
  "player_name": "Carter Jensen",
  "team": "KC",
- "as_of": "2026-09-01",
+ "as_of": "2026-09-03",
  "form": {
   "streak": 1,
   "frequency": 0.143,
@@ -411,24 +411,6 @@
    "wind_mph": 4.0,
    "wind_dir": "cross",
    "weather_condition": "Cloudy"
-  },
-  {
-   "date": "2026-08-04",
-   "bbe": 1,
-   "hr": 0,
-   "near_hr_any": 1,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 0,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 1,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 103.6,
-   "max_distance": 347.0,
-   "max_barrel_score": 75.9,
-   "temp_f": 91.0,
-   "wind_mph": 6.0,
-   "wind_dir": "cross",
-   "weather_condition": "Overcast"
   }
  ],
  "events": [
@@ -2055,35 +2037,6 @@
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
-  },
-  {
-   "game_pk": 824084,
-   "date": "2026-08-04",
-   "player_id": 695600,
-   "player_name": "Carter Jensen",
-   "team": "KC",
-   "opponent": "MIN",
-   "result": "Lineout",
-   "exit_velocity": 103.6,
-   "launch_angle": 21.0,
-   "hit_distance": 347.0,
-   "hc_x": 154.91,
-   "hc_y": 62.33,
-   "would_be_hr_count": 0,
-   "inning": 7,
-   "play_id": "d7a641b9-a5d5-332d-8fce-ecda1a3c2916",
-   "venue_id": 7,
-   "venue_name": "Kauffman Stadium",
-   "temp_f": 91.0,
-   "wind_mph": 6.0,
-   "wind_dir": "cross",
-   "weather_condition": "Overcast",
-   "distance_flag": false,
-   "would_be_hr_flag": false,
-   "barrel_score": 75.9,
-   "barrel_flag": true,
-   "is_home_run": false,
-   "is_near_hr": true
   }
  ]
 }
