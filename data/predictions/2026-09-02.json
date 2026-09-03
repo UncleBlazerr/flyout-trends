@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-09-03T14:07:01.916769+00:00",
+ "generated_at": "2026-09-03T19:13:39.327560+00:00",
  "as_of": "2026-09-02",
  "config": {
   "min_near_hr_events": 1,
@@ -477,10 +477,10 @@
    "adjusted_score": 39.4,
    "game_weather": {
     "venue_name": "Daikin Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 73.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": false
   }
