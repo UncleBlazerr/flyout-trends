@@ -1,13 +1,13 @@
 {
- "as_of": "2026-09-02",
+ "as_of": "2026-09-04",
  "players": [
   {
    "player_id": 677951,
    "player_name": "Bobby Witt Jr.",
    "team": "KC",
-   "record_streak": 6,
-   "total_flags": 12,
-   "avg_score": 50.9,
+   "record_streak": 8,
+   "total_flags": 14,
+   "avg_score": 53.3,
    "current_score": 68.4,
    "game_streak": 6
   },
@@ -15,8 +15,8 @@
    "player_id": 807726,
    "player_name": "John Peck",
    "team": "DET",
-   "record_streak": 2,
-   "total_flags": 2,
+   "record_streak": 4,
+   "total_flags": 4,
    "avg_score": 57.0,
    "current_score": 76.0,
    "game_streak": 2
@@ -25,8 +25,8 @@
    "player_id": 669257,
    "player_name": "Will Smith",
    "team": "LAD",
-   "record_streak": 2,
-   "total_flags": 2,
+   "record_streak": 4,
+   "total_flags": 4,
    "avg_score": 43.6,
    "current_score": 49.3,
    "game_streak": 2
@@ -35,8 +35,8 @@
    "player_id": 691728,
    "player_name": "Zac Veen",
    "team": "COL",
-   "record_streak": 2,
-   "total_flags": 2,
+   "record_streak": 4,
+   "total_flags": 4,
    "avg_score": 42.4,
    "current_score": 47.2,
    "game_streak": 2
@@ -46,7 +46,7 @@
    "player_name": "JJ Bleday",
    "team": "CIN",
    "record_streak": 1,
-   "total_flags": 6,
+   "total_flags": 7,
    "avg_score": 49.7,
    "current_score": 49.3,
    "game_streak": 3
@@ -56,8 +56,8 @@
    "player_name": "Jonathan Aranda",
    "team": "TB",
    "record_streak": 1,
-   "total_flags": 6,
-   "avg_score": 46.9,
+   "total_flags": 7,
+   "avg_score": 46.6,
    "current_score": 44.5,
    "game_streak": 3
   },
@@ -66,8 +66,8 @@
    "player_name": "Heriberto Hern\u00e1ndez",
    "team": "MIA",
    "record_streak": 1,
-   "total_flags": 5,
-   "avg_score": 49.7,
+   "total_flags": 6,
+   "avg_score": 48.4,
    "current_score": 41.9,
    "game_streak": 2
   },
@@ -76,8 +76,8 @@
    "player_name": "Mike Yastrzemski",
    "team": "ATL",
    "record_streak": 1,
-   "total_flags": 5,
-   "avg_score": 45.7,
+   "total_flags": 6,
+   "avg_score": 45.4,
    "current_score": 43.9,
    "game_streak": 2
   },
@@ -86,8 +86,8 @@
    "player_name": "Dominic Canzone",
    "team": "SEA",
    "record_streak": 1,
-   "total_flags": 5,
-   "avg_score": 40.2,
+   "total_flags": 6,
+   "avg_score": 40.8,
    "current_score": 43.6,
    "game_streak": 3
   },
@@ -96,7 +96,7 @@
    "player_name": "Dylan Beavers",
    "team": "BAL",
    "record_streak": 1,
-   "total_flags": 4,
+   "total_flags": 5,
    "avg_score": 39.8,
    "current_score": 40.1,
    "game_streak": 2
@@ -106,8 +106,8 @@
    "player_name": "Ryan Jeffers",
    "team": "MIN",
    "record_streak": 1,
-   "total_flags": 3,
-   "avg_score": 39.4,
+   "total_flags": 4,
+   "avg_score": 40.6,
    "current_score": 44.2,
    "game_streak": 2
   },
@@ -116,8 +116,8 @@
    "player_name": "Seiya Suzuki",
    "team": "CHC",
    "record_streak": 1,
-   "total_flags": 3,
-   "avg_score": 39.4,
+   "total_flags": 4,
+   "avg_score": 39.5,
    "current_score": 39.6,
    "game_streak": 2
   },
@@ -126,7 +126,7 @@
    "player_name": "Leo Bernal",
    "team": "STL",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 43.0,
    "current_score": 43.0,
    "game_streak": 1
@@ -136,7 +136,7 @@
    "player_name": "Amed Rosario",
    "team": "NYY",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 39.7,
    "current_score": 39.7,
    "game_streak": 2
@@ -146,7 +146,7 @@
    "player_name": "Tristan Peters",
    "team": "CWS",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 39.4,
    "current_score": 39.4,
    "game_streak": 2
