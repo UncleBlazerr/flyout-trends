@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-09-04T13:59:26.964295+00:00",
+ "generated_at": "2026-09-04T18:55:48.915459+00:00",
  "as_of": "2026-09-03",
  "config": {
   "min_near_hr_events": 1,
@@ -75,14 +75,14 @@
    "band": "60-80",
    "band_rate": 0.243,
    "band_samples": 37,
-   "weather_factor": 1.0,
-   "adjusted_score": 76.0,
+   "weather_factor": 1.036,
+   "adjusted_score": 78.7,
    "game_weather": {
     "venue_name": "Progressive Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 79.0,
+    "wind_mph": 6.0,
+    "wind_dir": "cross",
+    "weather_condition": "Overcast"
    },
    "repeat": true
   },
@@ -118,33 +118,33 @@
    "repeat": true
   },
   {
-   "player_id": 669257,
-   "player_name": "Will Smith",
-   "team": "LAD",
-   "expectancy_score": 54.0,
-   "streak": 3,
-   "frequency": 1.0,
+   "player_id": 691728,
+   "player_name": "Zac Veen",
+   "team": "COL",
+   "expectancy_score": 47.2,
+   "streak": 2,
+   "frequency": 0.429,
    "slopes": {
-    "max_ev": -3.2,
-    "parks_sum": 0.0,
-    "near_hr": 0.0
+    "max_ev": 3.939,
+    "parks_sum": 1.929,
+    "near_hr": 0.188
    },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 0,
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 2,
    "hr_7d": 0,
-   "max_ev_7d": 104.1,
-   "max_distance_7d": 373,
+   "max_ev_7d": 104.6,
+   "max_distance_7d": 384,
    "band": "40-60",
    "band_rate": 0.248,
    "band_samples": 363,
-   "weather_factor": 1.0,
-   "adjusted_score": 54.0,
+   "weather_factor": 1.2,
+   "adjusted_score": 56.6,
    "game_weather": {
-    "venue_name": "UNIQLO Field at Dodger Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "venue_name": "Coors Field",
+    "temp_f": 88.0,
+    "wind_mph": 10.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": true
   },
@@ -168,10 +168,41 @@
    "band": "40-60",
    "band_rate": 0.248,
    "band_samples": 363,
-   "weather_factor": 1.0,
-   "adjusted_score": 49.3,
+   "weather_factor": 1.1,
+   "adjusted_score": 54.2,
    "game_weather": {
     "venue_name": "Great American Ball Park",
+    "temp_f": 95.0,
+    "wind_mph": 4.0,
+    "wind_dir": "out",
+    "weather_condition": "Clear"
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 669257,
+   "player_name": "Will Smith",
+   "team": "LAD",
+   "expectancy_score": 54.0,
+   "streak": 3,
+   "frequency": 1.0,
+   "slopes": {
+    "max_ev": -3.2,
+    "parks_sum": 0.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 104.1,
+   "max_distance_7d": 373,
+   "band": "40-60",
+   "band_rate": 0.248,
+   "band_samples": 363,
+   "weather_factor": 1.0,
+   "adjusted_score": 54.0,
+   "game_weather": {
+    "venue_name": "UNIQLO Field at Dodger Stadium",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -211,35 +242,97 @@
    "repeat": true
   },
   {
-   "player_id": 691728,
-   "player_name": "Zac Veen",
-   "team": "COL",
-   "expectancy_score": 47.2,
+   "player_id": 573262,
+   "player_name": "Mike Yastrzemski",
+   "team": "ATL",
+   "expectancy_score": 43.9,
    "streak": 2,
-   "frequency": 0.429,
+   "frequency": 0.286,
    "slopes": {
-    "max_ev": 3.939,
-    "parks_sum": 1.929,
-    "near_hr": 0.188
+    "max_ev": 1.657,
+    "parks_sum": 2.786,
+    "near_hr": 0.179
    },
    "near_hr_7d": 2,
-   "near_hr_xbh_7d": 2,
+   "near_hr_xbh_7d": 0,
    "hr_7d": 0,
-   "max_ev_7d": 104.6,
-   "max_distance_7d": 384,
+   "max_ev_7d": 105.1,
+   "max_distance_7d": 374,
    "band": "40-60",
    "band_rate": 0.248,
    "band_samples": 363,
-   "weather_factor": 1.0,
-   "adjusted_score": 47.2,
+   "weather_factor": 1.056,
+   "adjusted_score": 46.4,
    "game_weather": {
-    "venue_name": "Coors Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "venue_name": "Citizens Bank Park",
+    "temp_f": 84.0,
+    "wind_mph": 7.0,
+    "wind_dir": "cross",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": true
+  },
+  {
+   "player_id": 691182,
+   "player_name": "Adael Amador",
+   "team": "COL",
+   "expectancy_score": 38.5,
+   "streak": 1,
+   "frequency": 0.2,
+   "slopes": {
+    "max_ev": 2.66,
+    "parks_sum": 5.0,
+    "near_hr": 0.45
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 1,
+   "max_ev_7d": 108.0,
+   "max_distance_7d": 397,
+   "band": "<40",
+   "band_rate": 0.204,
+   "band_samples": 13890,
+   "weather_factor": 1.2,
+   "adjusted_score": 46.2,
+   "game_weather": {
+    "venue_name": "Coors Field",
+    "temp_f": 88.0,
+    "wind_mph": 10.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 687363,
+   "player_name": "Victor Scott II",
+   "team": "STL",
+   "expectancy_score": 38.0,
+   "streak": 1,
+   "frequency": 1.0,
+   "slopes": {
+    "max_ev": 0.0,
+    "parks_sum": 0.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 106.3,
+   "max_distance_7d": 373,
+   "band": "<40",
+   "band_rate": 0.204,
+   "band_samples": 13890,
+   "weather_factor": 1.2,
+   "adjusted_score": 45.6,
+   "game_weather": {
+    "venue_name": "Coors Field",
+    "temp_f": 88.0,
+    "wind_mph": 10.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
   },
   {
    "player_id": 666018,
@@ -296,37 +389,6 @@
    "adjusted_score": 44.2,
    "game_weather": {
     "venue_name": "Rate Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
-   "player_id": 573262,
-   "player_name": "Mike Yastrzemski",
-   "team": "ATL",
-   "expectancy_score": 43.9,
-   "streak": 2,
-   "frequency": 0.286,
-   "slopes": {
-    "max_ev": 1.657,
-    "parks_sum": 2.786,
-    "near_hr": 0.179
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 105.1,
-   "max_distance_7d": 374,
-   "band": "40-60",
-   "band_rate": 0.248,
-   "band_samples": 363,
-   "weather_factor": 1.0,
-   "adjusted_score": 43.9,
-   "game_weather": {
-    "venue_name": "Citizens Bank Park",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -428,95 +490,33 @@
    "repeat": false
   },
   {
-   "player_id": 642708,
-   "player_name": "Amed Rosario",
-   "team": "NYY",
-   "expectancy_score": 39.7,
-   "streak": 2,
+   "player_id": 671056,
+   "player_name": "Iv\u00e1n Herrera",
+   "team": "STL",
+   "expectancy_score": 33.4,
+   "streak": 1,
    "frequency": 0.429,
    "slopes": {
-    "max_ev": 1.575,
-    "parks_sum": 0.464,
-    "near_hr": 0.143
+    "max_ev": 2.054,
+    "parks_sum": 0.536,
+    "near_hr": 0.071
    },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 108.4,
-   "max_distance_7d": 372,
-   "band": "<40",
-   "band_rate": 0.204,
-   "band_samples": 13890,
-   "weather_factor": 1.0,
-   "adjusted_score": 39.7,
-   "game_weather": {
-    "venue_name": "Petco Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
-   "player_id": 691182,
-   "player_name": "Adael Amador",
-   "team": "COL",
-   "expectancy_score": 38.5,
-   "streak": 1,
-   "frequency": 0.2,
-   "slopes": {
-    "max_ev": 2.66,
-    "parks_sum": 5.0,
-    "near_hr": 0.45
-   },
-   "near_hr_7d": 2,
+   "near_hr_7d": 3,
    "near_hr_xbh_7d": 1,
-   "hr_7d": 1,
-   "max_ev_7d": 108.0,
-   "max_distance_7d": 397,
-   "band": "<40",
-   "band_rate": 0.204,
-   "band_samples": 13890,
-   "weather_factor": 1.0,
-   "adjusted_score": 38.5,
-   "game_weather": {
-    "venue_name": "Coors Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 687363,
-   "player_name": "Victor Scott II",
-   "team": "STL",
-   "expectancy_score": 38.0,
-   "streak": 1,
-   "frequency": 1.0,
-   "slopes": {
-    "max_ev": 0.0,
-    "parks_sum": 0.0,
-    "near_hr": 0.0
-   },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 0,
    "hr_7d": 0,
-   "max_ev_7d": 106.3,
-   "max_distance_7d": 373,
+   "max_ev_7d": 107.5,
+   "max_distance_7d": 364,
    "band": "<40",
    "band_rate": 0.204,
    "band_samples": 13890,
-   "weather_factor": 1.0,
-   "adjusted_score": 38.0,
+   "weather_factor": 1.2,
+   "adjusted_score": 40.1,
    "game_weather": {
     "venue_name": "Coors Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 88.0,
+    "wind_mph": 10.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   }
