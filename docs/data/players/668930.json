@@ -2,20 +2,38 @@
  "player_id": 668930,
  "player_name": "Brice Turang",
  "team": "MIL",
- "as_of": "2026-09-04",
+ "as_of": "2026-09-03",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": -2.521,
-   "parks_sum": 0.0,
-   "near_hr": 0.0
+   "max_ev": -2.425,
+   "parks_sum": -0.036,
+   "near_hr": -0.036
   },
   "intensity": 0.0,
   "expectancy_score": 4.3,
-  "last_appearance": "2026-09-02"
+  "last_appearance": "2026-09-03"
  },
  "days": [
+  {
+   "date": "2026-09-03",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 84.8,
+   "max_distance": 162.0,
+   "max_barrel_score": 36.0,
+   "temp_f": 81.0,
+   "wind_mph": 7.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-02",
    "bbe": 3,
@@ -393,9 +411,56 @@
    "wind_mph": 7.0,
    "wind_dir": "in",
    "weather_condition": "Cloudy"
+  },
+  {
+   "date": "2026-08-05",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 101.8,
+   "max_distance": 322.0,
+   "max_barrel_score": 71.6,
+   "temp_f": 75.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Cloudy"
   }
  ],
  "events": [
+  {
+   "game_pk": 824632,
+   "date": "2026-09-03",
+   "player_id": 668930,
+   "player_name": "Brice Turang",
+   "team": "MIL",
+   "opponent": "CHC",
+   "result": "Lineout",
+   "exit_velocity": 84.8,
+   "launch_angle": 11.0,
+   "hit_distance": 162.0,
+   "hc_x": 143.13,
+   "hc_y": 139.13,
+   "would_be_hr_count": 0,
+   "inning": 1,
+   "play_id": "ea071369-ad1b-3403-a328-08da74859ea5",
+   "venue_id": 17,
+   "venue_name": "Wrigley Field",
+   "temp_f": 81.0,
+   "wind_mph": 7.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 36.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824634,
    "date": "2026-09-02",
@@ -2135,6 +2200,35 @@
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
+  },
+  {
+   "game_pk": 823753,
+   "date": "2026-08-05",
+   "player_id": 668930,
+   "player_name": "Brice Turang",
+   "team": "MIL",
+   "opponent": "PIT",
+   "result": "Lineout",
+   "exit_velocity": 101.8,
+   "launch_angle": 20.0,
+   "hit_distance": 322.0,
+   "hc_x": 68.54,
+   "hc_y": 83.05,
+   "would_be_hr_count": 0,
+   "inning": 3,
+   "play_id": "71ff6ace-0b59-3717-8258-13b6219098ee",
+   "venue_id": 32,
+   "venue_name": "American Family Field",
+   "temp_f": 75.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 71.6,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
   }
  ]
 }

@@ -2,20 +2,38 @@
  "player_id": 694212,
  "player_name": "Samuel Basallo",
  "team": "BAL",
- "as_of": "2026-09-04",
+ "as_of": "2026-09-03",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": 3.343,
-   "parks_sum": 0.821,
-   "near_hr": 0.045
+   "max_ev": 1.154,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
   },
-  "intensity": 0.44,
-  "expectancy_score": 17.5,
-  "last_appearance": "2026-09-02"
+  "intensity": 0.192,
+  "expectancy_score": 10.1,
+  "last_appearance": "2026-09-03"
  },
  "days": [
+  {
+   "date": "2026-09-03",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 85.0,
+   "max_distance": 71.0,
+   "max_barrel_score": 22.4,
+   "temp_f": 89.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-02",
    "bbe": 4,
@@ -234,6 +252,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824796,
+   "date": "2026-09-03",
+   "player_id": 694212,
+   "player_name": "Samuel Basallo",
+   "team": "BAL",
+   "opponent": "BOS",
+   "result": "Groundout",
+   "exit_velocity": 85.0,
+   "launch_angle": 4.0,
+   "hit_distance": 71.0,
+   "hc_x": 158.9,
+   "hc_y": 168.91,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "62c101e2-5ff7-3332-b6ee-7c5c52f24726",
+   "venue_id": 2,
+   "venue_name": "Oriole Park at Camden Yards",
+   "temp_f": 89.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 22.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824312,
    "date": "2026-09-02",

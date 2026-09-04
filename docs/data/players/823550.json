@@ -2,9 +2,9 @@
  "player_id": 823550,
  "player_name": "Sung-Mun Song",
  "team": "SD",
- "as_of": "2026-09-04",
+ "as_of": "2026-09-03",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.333,
   "slopes": {
    "max_ev": 1.217,
@@ -12,7 +12,7 @@
    "near_hr": 0.171
   },
   "intensity": 0.26,
-  "expectancy_score": 17.8,
+  "expectancy_score": 25.8,
   "last_appearance": "2026-09-01"
  },
  "days": [

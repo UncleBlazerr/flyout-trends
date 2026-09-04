@@ -2,20 +2,38 @@
  "player_id": 668800,
  "player_name": "Andrew Knizner",
  "team": "SF",
- "as_of": "2026-09-04",
+ "as_of": "2026-09-03",
  "form": {
-  "streak": 0,
-  "frequency": 0.143,
+  "streak": 2,
+  "frequency": 0.286,
   "slopes": {
-   "max_ev": -0.046,
-   "parks_sum": 0.857,
-   "near_hr": 0.134
+   "max_ev": -0.132,
+   "parks_sum": 0.571,
+   "near_hr": 0.196
   },
-  "intensity": 0.14,
-  "expectancy_score": 8.5,
-  "last_appearance": "2026-08-31"
+  "intensity": 0.129,
+  "expectancy_score": 28.4,
+  "last_appearance": "2026-09-03"
  },
  "days": [
+  {
+   "date": "2026-09-03",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 1,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 97.3,
+   "max_distance": 370.0,
+   "max_barrel_score": 78.4,
+   "temp_f": 77.0,
+   "wind_mph": 7.0,
+   "wind_dir": "in",
+   "weather_condition": "Cloudy"
+  },
   {
    "date": "2026-08-31",
    "bbe": 4,
@@ -198,6 +216,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823337,
+   "date": "2026-09-03",
+   "player_id": 668800,
+   "player_name": "Andrew Knizner",
+   "team": "SF",
+   "opponent": "PIT",
+   "result": "Flyout",
+   "exit_velocity": 97.3,
+   "launch_angle": 28.0,
+   "hit_distance": 370.0,
+   "hc_x": 111.52,
+   "hc_y": 50.76,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "9e9014df-48bc-3582-8b40-1dcc6d8b57be",
+   "venue_id": 31,
+   "venue_name": "PNC Park",
+   "temp_f": 77.0,
+   "wind_mph": 7.0,
+   "wind_dir": "in",
+   "weather_condition": "Cloudy",
+   "distance_flag": true,
+   "would_be_hr_flag": false,
+   "barrel_score": 78.4,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 824911,
    "date": "2026-08-31",

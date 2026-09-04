@@ -2,20 +2,38 @@
  "player_id": 687637,
  "player_name": "Dylan Beavers",
  "team": "BAL",
- "as_of": "2026-09-04",
+ "as_of": "2026-09-03",
  "form": {
-  "streak": 2,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": 6.604,
-   "parks_sum": 0.857,
-   "near_hr": 0.268
+   "max_ev": -1.539,
+   "parks_sum": 0.429,
+   "near_hr": 0.152
   },
-  "intensity": 0.518,
-  "expectancy_score": 40.1,
-  "last_appearance": "2026-09-02"
+  "intensity": 0.098,
+  "expectancy_score": 11.5,
+  "last_appearance": "2026-09-03"
  },
  "days": [
+  {
+   "date": "2026-09-03",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 56.5,
+   "max_distance": 5.0,
+   "max_barrel_score": 0.3,
+   "temp_f": 89.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-02",
    "bbe": 5,
@@ -396,6 +414,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824796,
+   "date": "2026-09-03",
+   "player_id": 687637,
+   "player_name": "Dylan Beavers",
+   "team": "BAL",
+   "opponent": "BOS",
+   "result": "GIDP",
+   "exit_velocity": 56.5,
+   "launch_angle": -38.0,
+   "hit_distance": 5.0,
+   "hc_x": 150.79,
+   "hc_y": 178.67,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "b9273e26-f0af-3266-b80e-0aaf4d6d830a",
+   "venue_id": 2,
+   "venue_name": "Oriole Park at Camden Yards",
+   "temp_f": 89.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 0.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824312,
    "date": "2026-09-02",
