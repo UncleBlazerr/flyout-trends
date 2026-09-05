@@ -2,9 +2,9 @@
  "player_id": 807726,
  "player_name": "John Peck",
  "team": "DET",
- "as_of": "2026-09-03",
+ "as_of": "2026-09-05",
  "form": {
-  "streak": 2,
+  "streak": 0,
   "frequency": 1.0,
   "slopes": {
    "max_ev": 10.3,
@@ -12,7 +12,7 @@
    "near_hr": 1.25
   },
   "intensity": 1.0,
-  "expectancy_score": 76.0,
+  "expectancy_score": 60.0,
   "last_appearance": "2026-09-02"
  },
  "days": [

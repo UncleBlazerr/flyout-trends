@@ -2,9 +2,9 @@
  "player_id": 691182,
  "player_name": "Adael Amador",
  "team": "COL",
- "as_of": "2026-09-03",
+ "as_of": "2026-09-05",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.2,
   "slopes": {
    "max_ev": 2.66,
@@ -12,7 +12,7 @@
    "near_hr": 0.45
   },
   "intensity": 0.817,
-  "expectancy_score": 38.5,
+  "expectancy_score": 30.5,
   "last_appearance": "2026-09-02"
  },
  "days": [

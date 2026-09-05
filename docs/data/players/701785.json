@@ -2,9 +2,9 @@
  "player_id": 701785,
  "player_name": "Kaelen Culpepper",
  "team": "MIN",
- "as_of": "2026-09-03",
+ "as_of": "2026-09-05",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 0.982,
@@ -12,7 +12,7 @@
    "near_hr": 0.036
   },
   "intensity": 0.176,
-  "expectancy_score": 21.8,
+  "expectancy_score": 13.8,
   "last_appearance": "2026-09-02"
  },
  "days": [
