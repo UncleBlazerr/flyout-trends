@@ -2,20 +2,38 @@
  "player_id": 669221,
  "player_name": "Sean Murphy",
  "team": "ATL",
- "as_of": "2026-09-05",
+ "as_of": "2026-09-04",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": -0.404,
+   "max_ev": -0.746,
    "parks_sum": 0.0,
-   "near_hr": 0.0
+   "near_hr": -0.071
   },
   "intensity": 0.0,
   "expectancy_score": 4.3,
-  "last_appearance": "2026-09-02"
+  "last_appearance": "2026-09-04"
  },
  "days": [
+  {
+   "date": "2026-09-04",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 103.9,
+   "max_distance": 48.0,
+   "max_barrel_score": 33.3,
+   "temp_f": 85.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-02",
    "bbe": 3,
@@ -252,6 +270,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823418,
+   "date": "2026-09-04",
+   "player_id": 669221,
+   "player_name": "Sean Murphy",
+   "team": "ATL",
+   "opponent": "PHI",
+   "result": "Groundout",
+   "exit_velocity": 103.9,
+   "launch_angle": null,
+   "hit_distance": 48.0,
+   "hc_x": 131.07,
+   "hc_y": 139.86,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "a04f41c3-313a-313d-a7a2-9818d13d5082",
+   "venue_id": 2681,
+   "venue_name": "Citizens Bank Park",
+   "temp_f": 85.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 33.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 822686,
    "date": "2026-09-02",

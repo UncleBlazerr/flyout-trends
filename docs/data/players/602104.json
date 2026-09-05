@@ -2,20 +2,38 @@
  "player_id": 602104,
  "player_name": "Ram\u00f3n Ur\u00edas",
  "team": "STL",
- "as_of": "2026-09-05",
+ "as_of": "2026-09-04",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": -0.889,
+   "max_ev": -4.432,
    "parks_sum": 0.0,
-   "near_hr": -0.036
+   "near_hr": -0.071
   },
   "intensity": 0.0,
   "expectancy_score": 4.3,
-  "last_appearance": "2026-09-03"
+  "last_appearance": "2026-09-04"
  },
  "days": [
+  {
+   "date": "2026-09-04",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 70.3,
+   "max_distance": 221.0,
+   "max_barrel_score": 20.5,
+   "temp_f": 92.0,
+   "wind_mph": 17.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-03",
    "bbe": 3,
@@ -162,6 +180,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824311,
+   "date": "2026-09-04",
+   "player_id": 602104,
+   "player_name": "Ram\u00f3n Ur\u00edas",
+   "team": "STL",
+   "opponent": "COL",
+   "result": "Flyout",
+   "exit_velocity": 70.3,
+   "launch_angle": 50.0,
+   "hit_distance": 221.0,
+   "hc_x": 170.04,
+   "hc_y": 123.55,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "f861e5f1-f6ba-346c-af6f-e90e6cd9f492",
+   "venue_id": 19,
+   "venue_name": "Coors Field",
+   "temp_f": 92.0,
+   "wind_mph": 17.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 20.5,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823907,
    "date": "2026-09-03",

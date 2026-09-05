@@ -2,9 +2,9 @@
  "player_id": 694376,
  "player_name": "Shay Whitcomb",
  "team": "SF",
- "as_of": "2026-09-05",
+ "as_of": "2026-09-04",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.429,
   "slopes": {
    "max_ev": 0.296,
@@ -12,7 +12,7 @@
    "near_hr": 0.0
   },
   "intensity": 0.049,
-  "expectancy_score": 14.3,
+  "expectancy_score": 22.3,
   "last_appearance": "2026-09-02"
  },
  "days": [

@@ -2,20 +2,38 @@
  "player_id": 807726,
  "player_name": "John Peck",
  "team": "DET",
- "as_of": "2026-09-05",
+ "as_of": "2026-09-04",
  "form": {
   "streak": 0,
-  "frequency": 1.0,
+  "frequency": 0.667,
   "slopes": {
-   "max_ev": 10.3,
-   "parks_sum": 7.0,
-   "near_hr": 1.25
+   "max_ev": -16.05,
+   "parks_sum": 0.0,
+   "near_hr": -0.5
   },
-  "intensity": 1.0,
-  "expectancy_score": 60.0,
-  "last_appearance": "2026-09-02"
+  "intensity": 0.0,
+  "expectancy_score": 20.0,
+  "last_appearance": "2026-09-04"
  },
  "days": [
+  {
+   "date": "2026-09-04",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 67.5,
+   "max_distance": 1.0,
+   "max_barrel_score": 0.1,
+   "temp_f": 75.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-02",
    "bbe": 4,
@@ -54,6 +72,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824387,
+   "date": "2026-09-04",
+   "player_id": 807726,
+   "player_name": "John Peck",
+   "team": "DET",
+   "opponent": "CLE",
+   "result": "Groundout",
+   "exit_velocity": 67.5,
+   "launch_angle": -59.0,
+   "hit_distance": 1.0,
+   "hc_x": 127.51,
+   "hc_y": 183.26,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "7e216c22-b2f0-30f3-90eb-48e5172a88e9",
+   "venue_id": 5,
+   "venue_name": "Progressive Field",
+   "temp_f": 75.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 0.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823660,
    "date": "2026-09-02",

@@ -2,20 +2,38 @@
  "player_id": 668800,
  "player_name": "Andrew Knizner",
  "team": "SF",
- "as_of": "2026-09-05",
+ "as_of": "2026-09-04",
  "form": {
-  "streak": 2,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": -0.132,
-   "parks_sum": 0.571,
-   "near_hr": 0.196
+   "max_ev": -1.761,
+   "parks_sum": 0.286,
+   "near_hr": 0.116
   },
-  "intensity": 0.129,
-  "expectancy_score": 28.4,
-  "last_appearance": "2026-09-03"
+  "intensity": 0.07,
+  "expectancy_score": 10.7,
+  "last_appearance": "2026-09-04"
  },
  "days": [
+  {
+   "date": "2026-09-04",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 61.3,
+   "max_distance": 8.0,
+   "max_barrel_score": 0.5,
+   "temp_f": 81.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-09-03",
    "bbe": 1,
@@ -216,6 +234,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823579,
+   "date": "2026-09-04",
+   "player_id": 668800,
+   "player_name": "Andrew Knizner",
+   "team": "SF",
+   "opponent": "NYM",
+   "result": "Groundout",
+   "exit_velocity": 61.3,
+   "launch_angle": -17.0,
+   "hit_distance": 8.0,
+   "hc_x": 110.56,
+   "hc_y": 161.24,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "b63ec0f4-21ad-32e9-beff-d2abe34c7fe8",
+   "venue_id": 3289,
+   "venue_name": "Citi Field",
+   "temp_f": 81.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 0.5,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823337,
    "date": "2026-09-03",

@@ -2,20 +2,38 @@
  "player_id": 695490,
  "player_name": "Edwin Arroyo",
  "team": "CIN",
- "as_of": "2026-09-05",
+ "as_of": "2026-09-04",
  "form": {
   "streak": 0,
-  "frequency": 0.5,
+  "frequency": 0.4,
   "slopes": {
-   "max_ev": 1.98,
+   "max_ev": -0.98,
    "parks_sum": 0.0,
-   "near_hr": -0.175
+   "near_hr": -0.2
   },
-  "intensity": 0.33,
-  "expectancy_score": 24.9,
-  "last_appearance": "2026-09-02"
+  "intensity": 0.0,
+  "expectancy_score": 12.0,
+  "last_appearance": "2026-09-04"
  },
  "days": [
+  {
+   "date": "2026-09-04",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 89.7,
+   "max_distance": 12.0,
+   "max_barrel_score": 18.3,
+   "temp_f": 88.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-02",
    "bbe": 4,
@@ -90,6 +108,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824471,
+   "date": "2026-09-04",
+   "player_id": 695490,
+   "player_name": "Edwin Arroyo",
+   "team": "CIN",
+   "opponent": "MIL",
+   "result": "Groundout",
+   "exit_velocity": 89.7,
+   "launch_angle": -10.0,
+   "hit_distance": 12.0,
+   "hc_x": 110.26,
+   "hc_y": 168.91,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "44964dde-f794-382e-a7e1-020190d7278f",
+   "venue_id": 2602,
+   "venue_name": "Great American Ball Park",
+   "temp_f": 88.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 18.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824470,
    "date": "2026-09-02",

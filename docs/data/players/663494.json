@@ -2,20 +2,38 @@
  "player_id": 663494,
  "player_name": "Bryan Torres",
  "team": "STL",
- "as_of": "2026-09-05",
+ "as_of": "2026-09-04",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 0.679,
+   "max_ev": 0.829,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.113,
-  "expectancy_score": 3.4,
-  "last_appearance": "2026-09-02"
+  "intensity": 0.138,
+  "expectancy_score": 4.1,
+  "last_appearance": "2026-09-04"
  },
  "days": [
+  {
+   "date": "2026-09-04",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 89.3,
+   "max_distance": 329.0,
+   "max_barrel_score": 52.2,
+   "temp_f": 92.0,
+   "wind_mph": 17.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-02",
    "bbe": 2,
@@ -252,6 +270,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824311,
+   "date": "2026-09-04",
+   "player_id": 663494,
+   "player_name": "Bryan Torres",
+   "team": "STL",
+   "opponent": "COL",
+   "result": "Flyout",
+   "exit_velocity": 89.3,
+   "launch_angle": 43.0,
+   "hit_distance": 329.0,
+   "hc_x": 173.98,
+   "hc_y": 75.87,
+   "would_be_hr_count": 0,
+   "inning": 1,
+   "play_id": "d5754b46-6417-31a6-b62e-8ab2b380e523",
+   "venue_id": 19,
+   "venue_name": "Coors Field",
+   "temp_f": 92.0,
+   "wind_mph": 17.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 52.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823906,
    "date": "2026-09-02",
