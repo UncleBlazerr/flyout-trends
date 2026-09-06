@@ -2,7 +2,7 @@
  "player_id": 666160,
  "player_name": "Mickey Moniak",
  "team": "COL",
- "as_of": "2026-09-06",
+ "as_of": "2026-09-05",
  "form": {
   "streak": 0,
   "frequency": 0.286,
@@ -429,6 +429,24 @@
    "wind_mph": 3.0,
    "wind_dir": "cross",
    "weather_condition": "Clear"
+  },
+  {
+   "date": "2026-08-07",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 1,
+   "near_hr_distance": 1,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 103.5,
+   "max_distance": 376.0,
+   "max_barrel_score": 77.8,
+   "temp_f": 85.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Cloudy"
   }
  ],
  "events": [
@@ -2258,6 +2276,35 @@
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
+  },
+  {
+   "game_pk": 823024,
+   "date": "2026-08-07",
+   "player_id": 666160,
+   "player_name": "Mickey Moniak",
+   "team": "COL",
+   "opponent": "STL",
+   "result": "Double",
+   "exit_velocity": 103.5,
+   "launch_angle": 21.0,
+   "hit_distance": 376.0,
+   "hc_x": 97.7,
+   "hc_y": 50.01,
+   "would_be_hr_count": 0,
+   "inning": 3,
+   "play_id": "700aecb7-3424-39fe-9555-b7b9c6df505a",
+   "venue_id": 2889,
+   "venue_name": "Busch Stadium",
+   "temp_f": 85.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Cloudy",
+   "distance_flag": true,
+   "would_be_hr_flag": false,
+   "barrel_score": 77.8,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
   }
  ]
 }

@@ -2,20 +2,38 @@
  "player_id": 694377,
  "player_name": "Nick Yorke",
  "team": "PIT",
- "as_of": "2026-09-06",
+ "as_of": "2026-09-05",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 0.282,
+   "max_ev": 1.989,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.047,
-  "expectancy_score": 1.4,
-  "last_appearance": "2026-09-03"
+  "intensity": 0.332,
+  "expectancy_score": 9.9,
+  "last_appearance": "2026-09-05"
  },
  "days": [
+  {
+   "date": "2026-09-05",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 95.4,
+   "max_distance": 323.0,
+   "max_barrel_score": 59.4,
+   "temp_f": 77.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Cloudy"
+  },
   {
    "date": "2026-09-03",
    "bbe": 2,
@@ -180,6 +198,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823335,
+   "date": "2026-09-05",
+   "player_id": 694377,
+   "player_name": "Nick Yorke",
+   "team": "PIT",
+   "opponent": "LAA",
+   "result": "Flyout",
+   "exit_velocity": 95.4,
+   "launch_angle": 41.0,
+   "hit_distance": 323.0,
+   "hc_x": 177.09,
+   "hc_y": 79.43,
+   "would_be_hr_count": 0,
+   "inning": 3,
+   "play_id": "c7c2717e-363d-3816-bfc5-6f76beccbc22",
+   "venue_id": 31,
+   "venue_name": "PNC Park",
+   "temp_f": 77.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 59.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823337,
    "date": "2026-09-03",

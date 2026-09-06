@@ -2,17 +2,17 @@
  "player_id": 805779,
  "player_name": "Jacob Wilson",
  "team": "ATH",
- "as_of": "2026-09-06",
+ "as_of": "2026-09-05",
  "form": {
   "streak": 0,
-  "frequency": 0.2,
+  "frequency": 0.167,
   "slopes": {
-   "max_ev": -3.58,
+   "max_ev": 4.4,
    "parks_sum": 0.0,
-   "near_hr": -0.25
+   "near_hr": -0.107
   },
-  "intensity": 0.0,
-  "expectancy_score": 6.0,
+  "intensity": 0.333,
+  "expectancy_score": 15.0,
   "last_appearance": "2026-08-16"
  },
  "days": [
@@ -105,6 +105,24 @@
    "wind_mph": 5.0,
    "wind_dir": "out",
    "weather_condition": "Partly Cloudy"
+  },
+  {
+   "date": "2026-08-07",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 51.1,
+   "max_distance": 13.0,
+   "max_barrel_score": 0.9,
+   "temp_f": 92.0,
+   "wind_mph": 5.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear"
   }
  ],
  "events": [
@@ -626,6 +644,35 @@
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 20.7,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
+  {
+   "game_pk": 824727,
+   "date": "2026-08-07",
+   "player_id": 805779,
+   "player_name": "Jacob Wilson",
+   "team": "ATH",
+   "opponent": "BOS",
+   "result": "Groundout",
+   "exit_velocity": 51.1,
+   "launch_angle": -10.0,
+   "hit_distance": 13.0,
+   "hc_x": 118.01,
+   "hc_y": 165.44,
+   "would_be_hr_count": 0,
+   "inning": 1,
+   "play_id": "1b9eac81-2e6d-3723-a369-dfefd28e6d77",
+   "venue_id": 3,
+   "venue_name": "Fenway Park",
+   "temp_f": 92.0,
+   "wind_mph": 5.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 0.9,
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
