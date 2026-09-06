@@ -82,13 +82,13 @@
    "game_streak": 2
   },
   {
-   "player_id": 682985,
-   "player_name": "Riley Greene",
-   "team": "DET",
+   "player_id": 702616,
+   "player_name": "Jackson Holliday",
+   "team": "BAL",
    "record_streak": 1,
-   "total_flags": 7,
-   "avg_score": 46.5,
-   "current_score": 36.6,
+   "total_flags": 4,
+   "avg_score": 39.7,
+   "current_score": 33.9,
    "game_streak": 2
   },
   {
@@ -132,6 +132,16 @@
    "game_streak": 3
   },
   {
+   "player_id": 699024,
+   "player_name": "Leo Bernal",
+   "team": "STL",
+   "record_streak": 1,
+   "total_flags": 2,
+   "avg_score": 39.0,
+   "current_score": 35.0,
+   "game_streak": 2
+  },
+  {
    "player_id": 680869,
    "player_name": "Zack Gelof",
    "team": "ATH",
@@ -139,16 +149,6 @@
    "total_flags": 2,
    "avg_score": 38.5,
    "current_score": 41.5,
-   "game_streak": 2
-  },
-  {
-   "player_id": 669392,
-   "player_name": "Samad Taylor",
-   "team": "SD",
-   "record_streak": 1,
-   "total_flags": 1,
-   "avg_score": 35.7,
-   "current_score": 35.7,
    "game_streak": 2
   }
  ]

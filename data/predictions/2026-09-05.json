@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-09-06T13:23:20.295894+00:00",
+ "generated_at": "2026-09-06T18:10:42.687173+00:00",
  "as_of": "2026-09-05",
  "config": {
   "min_near_hr_events": 1,
@@ -56,68 +56,6 @@
  },
  "players": [
   {
-   "player_id": 666182,
-   "player_name": "Bo Bichette",
-   "team": "NYM",
-   "expectancy_score": 53.5,
-   "streak": 3,
-   "frequency": 0.571,
-   "slopes": {
-    "max_ev": 2.496,
-    "parks_sum": 0.357,
-    "near_hr": 0.116
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 1,
-   "max_ev_7d": 109.0,
-   "max_distance_7d": 395,
-   "band": "40-60",
-   "band_rate": 0.254,
-   "band_samples": 378,
-   "weather_factor": 1.0,
-   "adjusted_score": 53.5,
-   "game_weather": {
-    "venue_name": "Citi Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
-   "player_id": 701538,
-   "player_name": "Jackson Merrill",
-   "team": "SD",
-   "expectancy_score": 52.2,
-   "streak": 4,
-   "frequency": 0.571,
-   "slopes": {
-    "max_ev": -1.432,
-    "parks_sum": 0.179,
-    "near_hr": 0.25
-   },
-   "near_hr_7d": 5,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 107.0,
-   "max_distance_7d": 360,
-   "band": "40-60",
-   "band_rate": 0.254,
-   "band_samples": 378,
-   "weather_factor": 1.0,
-   "adjusted_score": 52.2,
-   "game_weather": {
-    "venue_name": "Petco Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
    "player_id": 673357,
    "player_name": "Luis Robert Jr.",
    "team": "BAL",
@@ -137,14 +75,45 @@
    "band": "40-60",
    "band_rate": 0.254,
    "band_samples": 378,
-   "weather_factor": 1.0,
-   "adjusted_score": 49.3,
+   "weather_factor": 1.032,
+   "adjusted_score": 50.9,
    "game_weather": {
     "venue_name": "Oriole Park at Camden Yards",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 78.0,
+    "wind_mph": 4.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 666182,
+   "player_name": "Bo Bichette",
+   "team": "NYM",
+   "expectancy_score": 53.5,
+   "streak": 3,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": 2.496,
+    "parks_sum": 0.357,
+    "near_hr": 0.116
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 1,
+   "max_ev_7d": 109.0,
+   "max_distance_7d": 395,
+   "band": "40-60",
+   "band_rate": 0.254,
+   "band_samples": 378,
+   "weather_factor": 0.951,
+   "adjusted_score": 50.9,
+   "game_weather": {
+    "venue_name": "Citi Field",
+    "temp_f": 74.0,
+    "wind_mph": 8.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": true
   },
@@ -168,16 +137,47 @@
    "band": "40-60",
    "band_rate": 0.254,
    "band_samples": 378,
-   "weather_factor": 1.0,
-   "adjusted_score": 48.5,
+   "weather_factor": 1.032,
+   "adjusted_score": 50.1,
    "game_weather": {
     "venue_name": "Oriole Park at Camden Yards",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 78.0,
+    "wind_mph": 4.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
+  },
+  {
+   "player_id": 701538,
+   "player_name": "Jackson Merrill",
+   "team": "SD",
+   "expectancy_score": 52.2,
+   "streak": 4,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": -1.432,
+    "parks_sum": 0.179,
+    "near_hr": 0.25
+   },
+   "near_hr_7d": 5,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 107.0,
+   "max_distance_7d": 360,
+   "band": "40-60",
+   "band_rate": 0.254,
+   "band_samples": 378,
+   "weather_factor": 0.938,
+   "adjusted_score": 49.0,
+   "game_weather": {
+    "venue_name": "Petco Park",
+    "temp_f": 84.0,
+    "wind_mph": 14.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": true
   },
   {
    "player_id": 683146,
@@ -199,76 +199,45 @@
    "band": "40-60",
    "band_rate": 0.254,
    "band_samples": 378,
-   "weather_factor": 1.0,
-   "adjusted_score": 44.7,
+   "weather_factor": 0.951,
+   "adjusted_score": 42.5,
    "game_weather": {
     "venue_name": "Citi Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 74.0,
+    "wind_mph": 8.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   },
   {
-   "player_id": 680869,
-   "player_name": "Zack Gelof",
-   "team": "ATH",
-   "expectancy_score": 41.5,
-   "streak": 2,
-   "frequency": 0.429,
+   "player_id": 677951,
+   "player_name": "Bobby Witt Jr.",
+   "team": "KC",
+   "expectancy_score": 37.4,
+   "streak": 1,
+   "frequency": 0.857,
    "slopes": {
-    "max_ev": 1.336,
-    "parks_sum": 1.214,
-    "near_hr": 0.196
+    "max_ev": 0.729,
+    "parks_sum": -0.107,
+    "near_hr": -0.223
    },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 2,
-   "hr_7d": 3,
-   "max_ev_7d": 105.4,
-   "max_distance_7d": 398,
-   "band": "40-60",
-   "band_rate": 0.254,
-   "band_samples": 378,
-   "weather_factor": 1.0,
-   "adjusted_score": 41.5,
-   "game_weather": {
-    "venue_name": "T-Mobile Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 694376,
-   "player_name": "Shay Whitcomb",
-   "team": "SF",
-   "expectancy_score": 40.5,
-   "streak": 2,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 3.318,
-    "parks_sum": -0.036,
-    "near_hr": 0.161
-   },
-   "near_hr_7d": 2,
+   "near_hr_7d": 7,
    "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 104.9,
-   "max_distance_7d": 355,
-   "band": "40-60",
-   "band_rate": 0.254,
-   "band_samples": 378,
-   "weather_factor": 1.0,
-   "adjusted_score": 40.5,
+   "hr_7d": 1,
+   "max_ev_7d": 111.9,
+   "max_distance_7d": 410,
+   "band": "<40",
+   "band_rate": 0.204,
+   "band_samples": 14475,
+   "weather_factor": 1.1,
+   "adjusted_score": 41.1,
    "game_weather": {
-    "venue_name": "Citi Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "venue_name": "Kauffman Stadium",
+    "temp_f": 95.0,
+    "wind_mph": 6.0,
+    "wind_dir": "cross",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   },
@@ -296,41 +265,72 @@
    "adjusted_score": 40.4,
    "game_weather": {
     "venue_name": "loanDepot park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": false
   },
   {
-   "player_id": 665487,
-   "player_name": "Fernando Tatis Jr.",
-   "team": "SD",
-   "expectancy_score": 40.2,
+   "player_id": 694376,
+   "player_name": "Shay Whitcomb",
+   "team": "SF",
+   "expectancy_score": 40.5,
    "streak": 2,
    "frequency": 0.429,
    "slopes": {
-    "max_ev": 4.318,
+    "max_ev": 3.318,
     "parks_sum": -0.036,
-    "near_hr": 0.134
+    "near_hr": 0.161
    },
-   "near_hr_7d": 3,
+   "near_hr_7d": 2,
    "near_hr_xbh_7d": 1,
-   "hr_7d": 2,
-   "max_ev_7d": 110.2,
-   "max_distance_7d": 386,
+   "hr_7d": 0,
+   "max_ev_7d": 104.9,
+   "max_distance_7d": 355,
    "band": "40-60",
    "band_rate": 0.254,
    "band_samples": 378,
-   "weather_factor": 1.0,
-   "adjusted_score": 40.2,
+   "weather_factor": 0.951,
+   "adjusted_score": 38.5,
    "game_weather": {
-    "venue_name": "Petco Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "venue_name": "Citi Field",
+    "temp_f": 74.0,
+    "wind_mph": 8.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 680869,
+   "player_name": "Zack Gelof",
+   "team": "ATH",
+   "expectancy_score": 41.5,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 1.336,
+    "parks_sum": 1.214,
+    "near_hr": 0.196
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 3,
+   "max_ev_7d": 105.4,
+   "max_distance_7d": 398,
+   "band": "40-60",
+   "band_rate": 0.254,
+   "band_samples": 378,
+   "weather_factor": 0.925,
+   "adjusted_score": 38.4,
+   "game_weather": {
+    "venue_name": "T-Mobile Park",
+    "temp_f": 67.0,
+    "wind_mph": 8.0,
+    "wind_dir": "in",
+    "weather_condition": "Sunny"
    },
    "repeat": false
   },
@@ -354,45 +354,76 @@
    "band": "<40",
    "band_rate": 0.204,
    "band_samples": 14475,
-   "weather_factor": 1.0,
-   "adjusted_score": 39.9,
+   "weather_factor": 0.955,
+   "adjusted_score": 38.1,
    "game_weather": {
     "venue_name": "PNC Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 75.0,
+    "wind_mph": 8.0,
+    "wind_dir": "in",
+    "weather_condition": "Sunny"
    },
    "repeat": true
   },
   {
-   "player_id": 677951,
-   "player_name": "Bobby Witt Jr.",
-   "team": "KC",
-   "expectancy_score": 37.4,
-   "streak": 1,
-   "frequency": 0.857,
+   "player_id": 665487,
+   "player_name": "Fernando Tatis Jr.",
+   "team": "SD",
+   "expectancy_score": 40.2,
+   "streak": 2,
+   "frequency": 0.429,
    "slopes": {
-    "max_ev": 0.729,
-    "parks_sum": -0.107,
-    "near_hr": -0.223
+    "max_ev": 4.318,
+    "parks_sum": -0.036,
+    "near_hr": 0.134
    },
-   "near_hr_7d": 7,
+   "near_hr_7d": 3,
    "near_hr_xbh_7d": 1,
+   "hr_7d": 2,
+   "max_ev_7d": 110.2,
+   "max_distance_7d": 386,
+   "band": "40-60",
+   "band_rate": 0.254,
+   "band_samples": 378,
+   "weather_factor": 0.938,
+   "adjusted_score": 37.7,
+   "game_weather": {
+    "venue_name": "Petco Park",
+    "temp_f": 84.0,
+    "wind_mph": 14.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 699024,
+   "player_name": "Leo Bernal",
+   "team": "STL",
+   "expectancy_score": 35.0,
+   "streak": 2,
+   "frequency": 0.6,
+   "slopes": {
+    "max_ev": -1.06,
+    "parks_sum": -2.3,
+    "near_hr": 0.1
+   },
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 0,
    "hr_7d": 1,
-   "max_ev_7d": 111.9,
-   "max_distance_7d": 410,
+   "max_ev_7d": 109.8,
+   "max_distance_7d": 377,
    "band": "<40",
    "band_rate": 0.204,
    "band_samples": 14475,
-   "weather_factor": 1.0,
-   "adjusted_score": 37.4,
+   "weather_factor": 1.072,
+   "adjusted_score": 37.5,
    "game_weather": {
-    "venue_name": "Kauffman Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "venue_name": "Coors Field",
+    "temp_f": 88.0,
+    "wind_mph": 7.0,
+    "wind_dir": "cross",
+    "weather_condition": "Sunny"
    },
    "repeat": false
   },
@@ -416,78 +447,16 @@
    "band": "<40",
    "band_rate": 0.204,
    "band_samples": 14475,
-   "weather_factor": 1.024,
-   "adjusted_score": 37.1,
+   "weather_factor": 1.028,
+   "adjusted_score": 37.2,
    "game_weather": {
     "venue_name": "Great American Ball Park",
-    "temp_f": 76.0,
+    "temp_f": 77.0,
     "wind_mph": 10.0,
     "wind_dir": "cross",
     "weather_condition": "Sunny"
    },
    "repeat": true
-  },
-  {
-   "player_id": 682985,
-   "player_name": "Riley Greene",
-   "team": "DET",
-   "expectancy_score": 36.6,
-   "streak": 2,
-   "frequency": 0.286,
-   "slopes": {
-    "max_ev": 3.189,
-    "parks_sum": 0.0,
-    "near_hr": 0.205
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 2,
-   "max_ev_7d": 108.9,
-   "max_distance_7d": 421,
-   "band": "<40",
-   "band_rate": 0.204,
-   "band_samples": 14475,
-   "weather_factor": 1.0,
-   "adjusted_score": 36.6,
-   "game_weather": {
-    "venue_name": "Progressive Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 669392,
-   "player_name": "Samad Taylor",
-   "team": "SD",
-   "expectancy_score": 35.7,
-   "streak": 2,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 1.004,
-    "parks_sum": 0.0,
-    "near_hr": 0.179
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 98.3,
-   "max_distance_7d": 387,
-   "band": "<40",
-   "band_rate": 0.204,
-   "band_samples": 14475,
-   "weather_factor": 1.0,
-   "adjusted_score": 35.7,
-   "game_weather": {
-    "venue_name": "Petco Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
   },
   {
    "player_id": 553869,
@@ -513,12 +482,43 @@
    "adjusted_score": 35.1,
    "game_weather": {
     "venue_name": "Globe Life Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 74.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": true
+  },
+  {
+   "player_id": 702616,
+   "player_name": "Jackson Holliday",
+   "team": "BAL",
+   "expectancy_score": 33.9,
+   "streak": 2,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": -1.114,
+    "parks_sum": -0.071,
+    "near_hr": 0.071
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
+   "max_ev_7d": 101.5,
+   "max_distance_7d": 401,
+   "band": "<40",
+   "band_rate": 0.204,
+   "band_samples": 14475,
+   "weather_factor": 1.032,
+   "adjusted_score": 35.0,
+   "game_weather": {
+    "venue_name": "Oriole Park at Camden Yards",
+    "temp_f": 78.0,
+    "wind_mph": 4.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
   }
  ]
 }
