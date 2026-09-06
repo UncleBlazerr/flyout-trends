@@ -1,33 +1,43 @@
 {
- "as_of": "2026-09-04",
+ "as_of": "2026-09-06",
  "players": [
   {
-   "player_id": 573262,
-   "player_name": "Mike Yastrzemski",
-   "team": "ATL",
+   "player_id": 673357,
+   "player_name": "Luis Robert Jr.",
+   "team": "BAL",
    "record_streak": 3,
-   "total_flags": 7,
-   "avg_score": 45.2,
-   "current_score": 43.9,
-   "game_streak": 2
+   "total_flags": 3,
+   "avg_score": 45.0,
+   "current_score": 49.3,
+   "game_streak": 3
   },
   {
    "player_id": 664761,
    "player_name": "Alec Bohm",
    "team": "PHI",
    "record_streak": 1,
-   "total_flags": 13,
-   "avg_score": 42.5,
+   "total_flags": 14,
+   "avg_score": 42.4,
    "current_score": 41.8,
    "game_streak": 2
+  },
+  {
+   "player_id": 606192,
+   "player_name": "Teoscar Hern\u00e1ndez",
+   "team": "LAD",
+   "record_streak": 1,
+   "total_flags": 8,
+   "avg_score": 48.0,
+   "current_score": 33.4,
+   "game_streak": 1
   },
   {
    "player_id": 681715,
    "player_name": "Heriberto Hern\u00e1ndez",
    "team": "MIA",
    "record_streak": 1,
-   "total_flags": 6,
-   "avg_score": 49.1,
+   "total_flags": 7,
+   "avg_score": 48.7,
    "current_score": 46.4,
    "game_streak": 1
   },
@@ -36,8 +46,8 @@
    "player_name": "Jose Siri",
    "team": "LAA",
    "record_streak": 1,
-   "total_flags": 6,
-   "avg_score": 41.4,
+   "total_flags": 7,
+   "avg_score": 41.2,
    "current_score": 39.9,
    "game_streak": 2
   },
@@ -46,38 +56,38 @@
    "player_name": "Bo Bichette",
    "team": "NYM",
    "record_streak": 1,
-   "total_flags": 4,
-   "avg_score": 42.5,
+   "total_flags": 5,
+   "avg_score": 41.7,
    "current_score": 38.3,
    "game_streak": 2
-  },
-  {
-   "player_id": 553869,
-   "player_name": "Elias D\u00edaz",
-   "team": "TEX",
-   "record_streak": 1,
-   "total_flags": 4,
-   "avg_score": 40.2,
-   "current_score": 35.1,
-   "game_streak": 1
   },
   {
    "player_id": 701538,
    "player_name": "Jackson Merrill",
    "team": "SD",
    "record_streak": 1,
-   "total_flags": 4,
-   "avg_score": 40.0,
+   "total_flags": 5,
+   "avg_score": 40.1,
    "current_score": 40.3,
    "game_streak": 3
+  },
+  {
+   "player_id": 553869,
+   "player_name": "Elias D\u00edaz",
+   "team": "TEX",
+   "record_streak": 1,
+   "total_flags": 5,
+   "avg_score": 39.2,
+   "current_score": 35.1,
+   "game_streak": 1
   },
   {
    "player_id": 701398,
    "player_name": "Sal Stewart",
    "team": "CIN",
    "record_streak": 1,
-   "total_flags": 4,
-   "avg_score": 26.2,
+   "total_flags": 5,
+   "avg_score": 28.2,
    "current_score": 36.1,
    "game_streak": 2
   },
@@ -86,70 +96,60 @@
    "player_name": "Marcus Semien",
    "team": "NYM",
    "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 43.5,
+   "total_flags": 3,
+   "avg_score": 41.0,
    "current_score": 36.0,
    "game_streak": 2
   },
   {
-   "player_id": 642708,
-   "player_name": "Amed Rosario",
-   "team": "NYY",
+   "player_id": 681198,
+   "player_name": "TJ Rumfield",
+   "team": "COL",
    "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 39.7,
-   "current_score": 39.7,
-   "game_streak": 2
+   "total_flags": 3,
+   "avg_score": 36.8,
+   "current_score": 34.4,
+   "game_streak": 1
   },
   {
-   "player_id": 673357,
-   "player_name": "Luis Robert Jr.",
-   "team": "BAL",
+   "player_id": 682928,
+   "player_name": "CJ Abrams",
+   "team": "WSH",
    "record_streak": 1,
-   "total_flags": 1,
-   "avg_score": 49.3,
-   "current_score": 49.3,
-   "game_streak": 3
+   "total_flags": 2,
+   "avg_score": 43.9,
+   "current_score": 34.7,
+   "game_streak": 2
   },
   {
    "player_id": 691277,
    "player_name": "Deyvison De Los Santos",
    "team": "MIA",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 43.0,
    "current_score": 43.0,
    "game_streak": 1
-  },
-  {
-   "player_id": 806956,
-   "player_name": "Ethan Salas",
-   "team": "SD",
-   "record_streak": 1,
-   "total_flags": 1,
-   "avg_score": 38.0,
-   "current_score": 38.0,
-   "game_streak": 1
-  },
-  {
-   "player_id": 804668,
-   "player_name": "Rafael Flores Jr.",
-   "team": "PIT",
-   "record_streak": 1,
-   "total_flags": 1,
-   "avg_score": 36.4,
-   "current_score": 36.4,
-   "game_streak": 2
   },
   {
    "player_id": 686217,
    "player_name": "Sal Frelick",
    "team": "MIL",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 36.2,
    "current_score": 36.2,
    "game_streak": 2
+  },
+  {
+   "player_id": 680869,
+   "player_name": "Zack Gelof",
+   "team": "ATH",
+   "record_streak": 1,
+   "total_flags": 2,
+   "avg_score": 35.0,
+   "current_score": 34.4,
+   "game_streak": 1
   }
  ]
 }
