@@ -2,7 +2,7 @@
  "player_id": 663757,
  "player_name": "Trent Grisham",
  "team": "NYY",
- "as_of": "2026-09-07",
+ "as_of": "2026-09-06",
  "form": {
   "streak": 0,
   "frequency": 0.429,
@@ -409,6 +409,24 @@
    "max_barrel_score": 85.6,
    "temp_f": 90.0,
    "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
+  {
+   "date": "2026-08-08",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 1,
+   "near_hr_distance": 1,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 2,
+   "max_ev": 104.5,
+   "max_distance": 405.0,
+   "max_barrel_score": 81.7,
+   "temp_f": 89.0,
+   "wind_mph": 9.0,
    "wind_dir": "out",
    "weather_condition": "Partly Cloudy"
   }
@@ -2211,6 +2229,35 @@
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
+  },
+  {
+   "game_pk": 823514,
+   "date": "2026-08-08",
+   "player_id": 663757,
+   "player_name": "Trent Grisham",
+   "team": "NYY",
+   "opponent": "ATL",
+   "result": "Double",
+   "exit_velocity": 104.5,
+   "launch_angle": 22.0,
+   "hit_distance": 405.0,
+   "hc_x": 129.36,
+   "hc_y": 35.44,
+   "would_be_hr_count": 2,
+   "inning": 2,
+   "play_id": "9a84b0c4-ccf9-3e86-a290-333a2a71241c",
+   "venue_id": 3313,
+   "venue_name": "Yankee Stadium",
+   "temp_f": 89.0,
+   "wind_mph": 9.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": true,
+   "would_be_hr_flag": false,
+   "barrel_score": 81.7,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
   }
  ]
 }

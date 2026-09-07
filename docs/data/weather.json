@@ -1,5 +1,5 @@
 {
- "as_of": "2026-09-07",
+ "as_of": "2026-09-06",
  "horizon_days": 3,
  "temp_bands": [
   55,
@@ -24,14 +24,14 @@
   {
    "temp_band": "55-70",
    "wind": "in",
-   "player_days": 73,
+   "player_days": 89,
    "hr_days": 10,
    "hr_total": 10,
    "near_hr_days": 17,
    "follow_samples": 15,
    "hr_followed": 5,
-   "hr_rate": 0.137,
-   "near_hr_rate": 0.233,
+   "hr_rate": 0.112,
+   "near_hr_rate": 0.191,
    "follow_rate": null
   },
   {
@@ -63,26 +63,26 @@
   {
    "temp_band": "70-85",
    "wind": "in",
-   "player_days": 2082,
-   "hr_days": 209,
-   "hr_total": 221,
-   "near_hr_days": 465,
-   "follow_samples": 442,
-   "hr_followed": 96,
+   "player_days": 2195,
+   "hr_days": 219,
+   "hr_total": 231,
+   "near_hr_days": 487,
+   "follow_samples": 453,
+   "hr_followed": 98,
    "hr_rate": 0.1,
-   "near_hr_rate": 0.223,
-   "follow_rate": 0.217
+   "near_hr_rate": 0.222,
+   "follow_rate": 0.216
   },
   {
    "temp_band": "70-85",
    "wind": "neutral",
-   "player_days": 2920,
-   "hr_days": 307,
-   "hr_total": 320,
-   "near_hr_days": 641,
-   "follow_samples": 612,
-   "hr_followed": 127,
-   "hr_rate": 0.105,
+   "player_days": 2998,
+   "hr_days": 319,
+   "hr_total": 332,
+   "near_hr_days": 661,
+   "follow_samples": 615,
+   "hr_followed": 128,
+   "hr_rate": 0.106,
    "near_hr_rate": 0.22,
    "follow_rate": 0.208
   },
@@ -93,11 +93,11 @@
    "hr_days": 214,
    "hr_total": 236,
    "near_hr_days": 380,
-   "follow_samples": 355,
+   "follow_samples": 359,
    "hr_followed": 83,
    "hr_rate": 0.123,
    "near_hr_rate": 0.219,
-   "follow_rate": 0.234
+   "follow_rate": 0.231
   },
   {
    "temp_band": "85+",
@@ -115,27 +115,27 @@
   {
    "temp_band": "85+",
    "wind": "neutral",
-   "player_days": 1598,
-   "hr_days": 191,
-   "hr_total": 206,
-   "near_hr_days": 371,
-   "follow_samples": 345,
-   "hr_followed": 81,
+   "player_days": 1619,
+   "hr_days": 194,
+   "hr_total": 209,
+   "near_hr_days": 376,
+   "follow_samples": 353,
+   "hr_followed": 84,
    "hr_rate": 0.12,
    "near_hr_rate": 0.232,
-   "follow_rate": 0.235
+   "follow_rate": 0.238
   }
  ],
  "dome": {
-  "player_days": 3009,
-  "hr_days": 331,
-  "hr_total": 344,
-  "near_hr_days": 641,
-  "follow_samples": 610,
-  "hr_followed": 137,
+  "player_days": 3072,
+  "hr_days": 338,
+  "hr_total": 352,
+  "near_hr_days": 654,
+  "follow_samples": 619,
+  "hr_followed": 140,
   "hr_rate": 0.11,
   "near_hr_rate": 0.213,
-  "follow_rate": 0.225
+  "follow_rate": 0.226
  },
  "unknown_player_days": 0
 }

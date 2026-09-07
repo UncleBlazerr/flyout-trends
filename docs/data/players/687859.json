@@ -2,20 +2,38 @@
  "player_id": 687859,
  "player_name": "Troy Johnston",
  "team": "COL",
- "as_of": "2026-09-07",
+ "as_of": "2026-09-06",
  "form": {
-  "streak": 0,
-  "frequency": 0.0,
+  "streak": 1,
+  "frequency": 0.143,
   "slopes": {
-   "max_ev": 3.336,
+   "max_ev": 3.814,
    "parks_sum": 0.0,
-   "near_hr": 0.0
+   "near_hr": 0.107
   },
-  "intensity": 0.333,
-  "expectancy_score": 10.0,
-  "last_appearance": "2026-09-05"
+  "intensity": 0.369,
+  "expectancy_score": 23.4,
+  "last_appearance": "2026-09-06"
  },
  "days": [
+  {
+   "date": "2026-09-06",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 1,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 100.4,
+   "max_distance": 374.0,
+   "max_barrel_score": 74.9,
+   "temp_f": 84.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-09-05",
    "bbe": 4,
@@ -288,6 +306,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824309,
+   "date": "2026-09-06",
+   "player_id": 687859,
+   "player_name": "Troy Johnston",
+   "team": "COL",
+   "opponent": "STL",
+   "result": "Lineout",
+   "exit_velocity": 100.4,
+   "launch_angle": 21.0,
+   "hit_distance": 374.0,
+   "hc_x": 113.2,
+   "hc_y": 48.73,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "c8e43e5f-5e94-3c87-82c5-33cbb6f4aef5",
+   "venue_id": 19,
+   "venue_name": "Coors Field",
+   "temp_f": 84.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Sunny",
+   "distance_flag": true,
+   "would_be_hr_flag": false,
+   "barrel_score": 74.9,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 824310,
    "date": "2026-09-05",

@@ -2,20 +2,38 @@
  "player_id": 571912,
  "player_name": "Luke Maile",
  "team": "KC",
- "as_of": "2026-09-07",
+ "as_of": "2026-09-06",
  "form": {
-  "streak": 0,
-  "frequency": 0.0,
+  "streak": 1,
+  "frequency": 0.143,
   "slopes": {
-   "max_ev": 4.403,
+   "max_ev": 4.421,
    "parks_sum": 0.0,
-   "near_hr": 0.0
+   "near_hr": 0.107
   },
-  "intensity": 0.333,
-  "expectancy_score": 10.0,
-  "last_appearance": "2026-08-29"
+  "intensity": 0.369,
+  "expectancy_score": 23.4,
+  "last_appearance": "2026-09-06"
  },
  "days": [
+  {
+   "date": "2026-09-06",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 1,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 100.8,
+   "max_distance": 375.0,
+   "max_barrel_score": 74.2,
+   "temp_f": 96.0,
+   "wind_mph": 3.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-08-29",
    "bbe": 4,
@@ -126,6 +144,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824065,
+   "date": "2026-09-06",
+   "player_id": 571912,
+   "player_name": "Luke Maile",
+   "team": "KC",
+   "opponent": "TOR",
+   "result": "Flyout",
+   "exit_velocity": 100.8,
+   "launch_angle": 35.0,
+   "hit_distance": 375.0,
+   "hc_x": 102.12,
+   "hc_y": 49.5,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "62cbd23d-9f15-3180-9de6-c8cfd2ee6510",
+   "venue_id": 7,
+   "venue_name": "Kauffman Stadium",
+   "temp_f": 96.0,
+   "wind_mph": 3.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": true,
+   "would_be_hr_flag": false,
+   "barrel_score": 74.2,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 824392,
    "date": "2026-08-29",
