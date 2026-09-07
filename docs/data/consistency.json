@@ -1,23 +1,13 @@
 {
- "as_of": "2026-09-05",
+ "as_of": "2026-09-07",
  "players": [
-  {
-   "player_id": 642350,
-   "player_name": "Jose Siri",
-   "team": "LAA",
-   "record_streak": 2,
-   "total_flags": 7,
-   "avg_score": 41.2,
-   "current_score": 39.9,
-   "game_streak": 2
-  },
   {
    "player_id": 666182,
    "player_name": "Bo Bichette",
    "team": "NYM",
-   "record_streak": 2,
-   "total_flags": 5,
-   "avg_score": 44.7,
+   "record_streak": 4,
+   "total_flags": 7,
+   "avg_score": 45.1,
    "current_score": 53.5,
    "game_streak": 3
   },
@@ -25,40 +15,20 @@
    "player_id": 701538,
    "player_name": "Jackson Merrill",
    "team": "SD",
-   "record_streak": 2,
-   "total_flags": 5,
-   "avg_score": 42.5,
+   "record_streak": 4,
+   "total_flags": 7,
+   "avg_score": 43.6,
    "current_score": 52.2,
    "game_streak": 4
   },
   {
-   "player_id": 553869,
-   "player_name": "Elias D\u00edaz",
-   "team": "TEX",
-   "record_streak": 2,
-   "total_flags": 5,
-   "avg_score": 39.2,
-   "current_score": 35.1,
-   "game_streak": 1
-  },
-  {
-   "player_id": 673357,
-   "player_name": "Luis Robert Jr.",
-   "team": "BAL",
-   "record_streak": 2,
-   "total_flags": 2,
-   "avg_score": 49.3,
-   "current_score": 49.3,
-   "game_streak": 3
-  },
-  {
-   "player_id": 686217,
-   "player_name": "Sal Frelick",
-   "team": "MIL",
-   "record_streak": 2,
-   "total_flags": 2,
-   "avg_score": 36.2,
-   "current_score": 36.2,
+   "player_id": 680869,
+   "player_name": "Zack Gelof",
+   "team": "ATH",
+   "record_streak": 3,
+   "total_flags": 4,
+   "avg_score": 38.2,
+   "current_score": 41.5,
    "game_streak": 2
   },
   {
@@ -66,8 +36,8 @@
    "player_name": "Bobby Witt Jr.",
    "team": "KC",
    "record_streak": 1,
-   "total_flags": 14,
-   "avg_score": 51.3,
+   "total_flags": 15,
+   "avg_score": 50.4,
    "current_score": 37.4,
    "game_streak": 1
   },
@@ -76,18 +46,38 @@
    "player_name": "Fernando Tatis Jr.",
    "team": "SD",
    "record_streak": 1,
-   "total_flags": 9,
-   "avg_score": 41.3,
+   "total_flags": 10,
+   "avg_score": 41.2,
    "current_score": 40.2,
    "game_streak": 2
+  },
+  {
+   "player_id": 682985,
+   "player_name": "Riley Greene",
+   "team": "DET",
+   "record_streak": 1,
+   "total_flags": 7,
+   "avg_score": 46.5,
+   "current_score": 36.6,
+   "game_streak": 2
+  },
+  {
+   "player_id": 686527,
+   "player_name": "Dominic Canzone",
+   "team": "SEA",
+   "record_streak": 1,
+   "total_flags": 6,
+   "avg_score": 39.4,
+   "current_score": 35.1,
+   "game_streak": 1
   },
   {
    "player_id": 702616,
    "player_name": "Jackson Holliday",
    "team": "BAL",
    "record_streak": 1,
-   "total_flags": 4,
-   "avg_score": 39.7,
+   "total_flags": 5,
+   "avg_score": 38.5,
    "current_score": 33.9,
    "game_streak": 2
   },
@@ -96,8 +86,8 @@
    "player_name": "Shay Whitcomb",
    "team": "SF",
    "record_streak": 1,
-   "total_flags": 3,
-   "avg_score": 39.2,
+   "total_flags": 4,
+   "avg_score": 39.5,
    "current_score": 40.5,
    "game_streak": 2
   },
@@ -106,19 +96,9 @@
    "player_name": "Brett Baty",
    "team": "NYM",
    "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 46.4,
+   "total_flags": 3,
+   "avg_score": 45.8,
    "current_score": 44.7,
-   "game_streak": 2
-  },
-  {
-   "player_id": 805300,
-   "player_name": "Jakob Marsee",
-   "team": "MIA",
-   "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 45.0,
-   "current_score": 40.4,
    "game_streak": 2
   },
   {
@@ -126,29 +106,49 @@
    "player_name": "Nick Sogard",
    "team": "BOS",
    "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 44.0,
+   "total_flags": 3,
+   "avg_score": 45.5,
    "current_score": 48.5,
    "game_streak": 3
+  },
+  {
+   "player_id": 805300,
+   "player_name": "Jakob Marsee",
+   "team": "MIA",
+   "record_streak": 1,
+   "total_flags": 3,
+   "avg_score": 43.4,
+   "current_score": 40.4,
+   "game_streak": 2
   },
   {
    "player_id": 699024,
    "player_name": "Leo Bernal",
    "team": "STL",
    "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 39.0,
+   "total_flags": 3,
+   "avg_score": 37.7,
    "current_score": 35.0,
    "game_streak": 2
   },
   {
-   "player_id": 680869,
-   "player_name": "Zack Gelof",
-   "team": "ATH",
+   "player_id": 695578,
+   "player_name": "James Wood",
+   "team": "WSH",
    "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 38.5,
-   "current_score": 41.5,
+   "total_flags": 3,
+   "avg_score": 37.2,
+   "current_score": 34.1,
+   "game_streak": 2
+  },
+  {
+   "player_id": 669392,
+   "player_name": "Samad Taylor",
+   "team": "SD",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 35.7,
+   "current_score": 35.7,
    "game_streak": 2
   }
  ]
