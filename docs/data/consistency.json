@@ -112,6 +112,16 @@
    "game_streak": 3
   },
   {
+   "player_id": 607208,
+   "player_name": "Trea Turner",
+   "team": "PHI",
+   "record_streak": 1,
+   "total_flags": 5,
+   "avg_score": 35.2,
+   "current_score": 32.4,
+   "game_streak": 1
+  },
+  {
    "player_id": 676475,
    "player_name": "Alec Burleson",
    "team": "STL",
@@ -139,16 +149,6 @@
    "total_flags": 1,
    "avg_score": 41.0,
    "current_score": 41.0,
-   "game_streak": 2
-  },
-  {
-   "player_id": 669392,
-   "player_name": "Samad Taylor",
-   "team": "SD",
-   "record_streak": 1,
-   "total_flags": 1,
-   "avg_score": 35.7,
-   "current_score": 35.7,
    "game_streak": 2
   }
  ]

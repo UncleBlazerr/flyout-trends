@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-09-08T14:06:54.226551+00:00",
+ "generated_at": "2026-09-08T19:22:01.779285+00:00",
  "as_of": "2026-09-07",
  "config": {
   "min_near_hr_events": 1,
@@ -106,14 +106,14 @@
    "band": "60-80",
    "band_rate": 0.286,
    "band_samples": 42,
-   "weather_factor": 1.0,
-   "adjusted_score": 60.4,
+   "weather_factor": 1.2,
+   "adjusted_score": 72.5,
    "game_weather": {
     "venue_name": "Kauffman Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 98.0,
+    "wind_mph": 12.0,
+    "wind_dir": "out",
+    "weather_condition": "Clear"
    },
    "repeat": true
   },
@@ -172,10 +172,41 @@
    "adjusted_score": 49.1,
    "game_weather": {
     "venue_name": "loanDepot park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 682998,
+   "player_name": "Corbin Carroll",
+   "team": "AZ",
+   "expectancy_score": 40.9,
+   "streak": 2,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": 1.443,
+    "parks_sum": 1.786,
+    "near_hr": 0.312
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 106.3,
+   "max_distance_7d": 416,
+   "band": "40-60",
+   "band_rate": 0.253,
+   "band_samples": 388,
+   "weather_factor": 1.2,
+   "adjusted_score": 49.1,
+   "game_weather": {
+    "venue_name": "Kauffman Stadium",
+    "temp_f": 98.0,
+    "wind_mph": 12.0,
+    "wind_dir": "out",
+    "weather_condition": "Clear"
    },
    "repeat": true
   },
@@ -211,68 +242,6 @@
    "repeat": true
   },
   {
-   "player_id": 681230,
-   "player_name": "BJ Murray Jr.",
-   "team": "CHC",
-   "expectancy_score": 41.0,
-   "streak": 2,
-   "frequency": 0.667,
-   "slopes": {
-    "max_ev": -0.4,
-    "parks_sum": 0.0,
-    "near_hr": 0.5
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 97.9,
-   "max_distance_7d": 356,
-   "band": "40-60",
-   "band_rate": 0.253,
-   "band_samples": 388,
-   "weather_factor": 1.0,
-   "adjusted_score": 41.0,
-   "game_weather": {
-    "venue_name": "American Family Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 682998,
-   "player_name": "Corbin Carroll",
-   "team": "AZ",
-   "expectancy_score": 40.9,
-   "streak": 2,
-   "frequency": 0.286,
-   "slopes": {
-    "max_ev": 1.443,
-    "parks_sum": 1.786,
-    "near_hr": 0.312
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 106.3,
-   "max_distance_7d": 416,
-   "band": "40-60",
-   "band_rate": 0.253,
-   "band_samples": 388,
-   "weather_factor": 1.0,
-   "adjusted_score": 40.9,
-   "game_weather": {
-    "venue_name": "Kauffman Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
    "player_id": 681082,
    "player_name": "Bryson Stott",
    "team": "PHI",
@@ -292,14 +261,45 @@
    "band": "40-60",
    "band_rate": 0.253,
    "band_samples": 388,
-   "weather_factor": 1.0,
-   "adjusted_score": 40.8,
+   "weather_factor": 1.107,
+   "adjusted_score": 45.2,
    "game_weather": {
     "venue_name": "Citizens Bank Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 81.0,
+    "wind_mph": 5.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 521692,
+   "player_name": "Salvador Perez",
+   "team": "KC",
+   "expectancy_score": 34.5,
+   "streak": 1,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": 1.586,
+    "parks_sum": 0.25,
+    "near_hr": 0.062
+   },
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 2,
+   "max_ev_7d": 111.3,
+   "max_distance_7d": 404,
+   "band": "<40",
+   "band_rate": 0.205,
+   "band_samples": 14929,
+   "weather_factor": 1.2,
+   "adjusted_score": 41.4,
+   "game_weather": {
+    "venue_name": "Kauffman Stadium",
+    "temp_f": 98.0,
+    "wind_mph": 12.0,
+    "wind_dir": "out",
+    "weather_condition": "Clear"
    },
    "repeat": false
   },
@@ -323,10 +323,41 @@
    "band": "<40",
    "band_rate": 0.205,
    "band_samples": 14929,
-   "weather_factor": 1.0,
-   "adjusted_score": 39.3,
+   "weather_factor": 1.048,
+   "adjusted_score": 41.2,
    "game_weather": {
     "venue_name": "Oriole Park at Camden Yards",
+    "temp_f": 82.0,
+    "wind_mph": 8.0,
+    "wind_dir": "cross",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 681230,
+   "player_name": "BJ Murray Jr.",
+   "team": "CHC",
+   "expectancy_score": 41.0,
+   "streak": 2,
+   "frequency": 0.667,
+   "slopes": {
+    "max_ev": -0.4,
+    "parks_sum": 0.0,
+    "near_hr": 0.5
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 97.9,
+   "max_distance_7d": 356,
+   "band": "40-60",
+   "band_rate": 0.253,
+   "band_samples": 388,
+   "weather_factor": 1.0,
+   "adjusted_score": 41.0,
+   "game_weather": {
+    "venue_name": "American Family Field",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -389,10 +420,10 @@
    "adjusted_score": 36.9,
    "game_weather": {
     "venue_name": "loanDepot park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": false
   },
@@ -459,64 +490,33 @@
    "repeat": false
   },
   {
-   "player_id": 669392,
-   "player_name": "Samad Taylor",
-   "team": "SD",
-   "expectancy_score": 35.7,
-   "streak": 2,
+   "player_id": 607208,
+   "player_name": "Trea Turner",
+   "team": "PHI",
+   "expectancy_score": 32.4,
+   "streak": 1,
    "frequency": 0.429,
    "slopes": {
-    "max_ev": 1.004,
-    "parks_sum": 0.0,
-    "near_hr": 0.179
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 98.3,
-   "max_distance_7d": 387,
-   "band": "<40",
-   "band_rate": 0.205,
-   "band_samples": 14929,
-   "weather_factor": 1.0,
-   "adjusted_score": 35.7,
-   "game_weather": {
-    "venue_name": "Petco Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 521692,
-   "player_name": "Salvador Perez",
-   "team": "KC",
-   "expectancy_score": 34.5,
-   "streak": 1,
-   "frequency": 0.571,
-   "slopes": {
-    "max_ev": 1.586,
-    "parks_sum": 0.25,
-    "near_hr": 0.062
+    "max_ev": 2.925,
+    "parks_sum": -1.607,
+    "near_hr": 0.152
    },
    "near_hr_7d": 4,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 2,
-   "max_ev_7d": 111.3,
-   "max_distance_7d": 404,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 0,
+   "max_ev_7d": 105.9,
+   "max_distance_7d": 415,
    "band": "<40",
    "band_rate": 0.205,
    "band_samples": 14929,
-   "weather_factor": 1.0,
-   "adjusted_score": 34.5,
+   "weather_factor": 1.107,
+   "adjusted_score": 35.9,
    "game_weather": {
-    "venue_name": "Kauffman Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "venue_name": "Citizens Bank Park",
+    "temp_f": 81.0,
+    "wind_mph": 5.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   }
