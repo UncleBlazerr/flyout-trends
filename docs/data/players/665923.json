@@ -2,9 +2,9 @@
  "player_id": 665923,
  "player_name": "Esteury Ruiz",
  "team": "MIA",
- "as_of": "2026-09-08",
+ "as_of": "2026-09-07",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 1.536,
@@ -12,7 +12,7 @@
    "near_hr": 0.062
   },
   "intensity": 0.55,
-  "expectancy_score": 25.1,
+  "expectancy_score": 33.1,
   "last_appearance": "2026-09-05"
  },
  "days": [

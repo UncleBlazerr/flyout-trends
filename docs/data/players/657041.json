@@ -2,20 +2,38 @@
  "player_id": 657041,
  "player_name": "Lane Thomas",
  "team": "ATL",
- "as_of": "2026-09-08",
+ "as_of": "2026-09-07",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": -3.636,
-   "parks_sum": 0.0,
-   "near_hr": 0.0
+   "max_ev": -5.325,
+   "parks_sum": -0.143,
+   "near_hr": -0.036
   },
   "intensity": 0.0,
   "expectancy_score": 4.3,
-  "last_appearance": "2026-09-04"
+  "last_appearance": "2026-09-07"
  },
  "days": [
+  {
+   "date": "2026-09-07",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 55.5,
+   "max_distance": 111.0,
+   "max_barrel_score": 25.9,
+   "temp_f": 77.0,
+   "wind_mph": 8.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-04",
    "bbe": 1,
@@ -234,6 +252,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823415,
+   "date": "2026-09-07",
+   "player_id": 657041,
+   "player_name": "Lane Thomas",
+   "team": "ATL",
+   "opponent": "PHI",
+   "result": "Groundout",
+   "exit_velocity": 55.5,
+   "launch_angle": 17.0,
+   "hit_distance": 111.0,
+   "hc_x": 115.73,
+   "hc_y": 145.52,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "4607e323-83fc-3013-9487-2d7f059e273f",
+   "venue_id": 2681,
+   "venue_name": "Citizens Bank Park",
+   "temp_f": 77.0,
+   "wind_mph": 8.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 25.9,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823418,
    "date": "2026-09-04",
