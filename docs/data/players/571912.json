@@ -2,9 +2,9 @@
  "player_id": 571912,
  "player_name": "Luke Maile",
  "team": "KC",
- "as_of": "2026-09-09",
+ "as_of": "2026-09-08",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.167,
   "slopes": {
    "max_ev": 8.306,
@@ -12,7 +12,7 @@
    "near_hr": 0.143
   },
   "intensity": 0.381,
-  "expectancy_score": 16.4,
+  "expectancy_score": 24.4,
   "last_appearance": "2026-09-06"
  },
  "days": [

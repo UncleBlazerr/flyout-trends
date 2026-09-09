@@ -2,20 +2,38 @@
  "player_id": 686217,
  "player_name": "Sal Frelick",
  "team": "MIL",
- "as_of": "2026-09-09",
+ "as_of": "2026-09-08",
  "form": {
   "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": 1.807,
-   "parks_sum": 0.286,
-   "near_hr": 0.179
+   "max_ev": -1.021,
+   "parks_sum": 0.143,
+   "near_hr": 0.071
   },
-  "intensity": 0.393,
-  "expectancy_score": 20.3,
-  "last_appearance": "2026-09-06"
+  "intensity": 0.04,
+  "expectancy_score": 9.8,
+  "last_appearance": "2026-09-08"
  },
  "days": [
+  {
+   "date": "2026-09-08",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 63.3,
+   "max_distance": 196.0,
+   "max_barrel_score": 27.2,
+   "temp_f": 75.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-09-06",
    "bbe": 4,
@@ -180,6 +198,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823738,
+   "date": "2026-09-08",
+   "player_id": 686217,
+   "player_name": "Sal Frelick",
+   "team": "MIL",
+   "opponent": "CHC",
+   "result": "Single",
+   "exit_velocity": 63.3,
+   "launch_angle": 42.0,
+   "hit_distance": 196.0,
+   "hc_x": 81.26,
+   "hc_y": 135.89,
+   "would_be_hr_count": 0,
+   "inning": 10,
+   "play_id": "3c8887ee-91a2-3261-9f45-182f9f2717e6",
+   "venue_id": 32,
+   "venue_name": "American Family Field",
+   "temp_f": 75.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 27.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824469,
    "date": "2026-09-06",

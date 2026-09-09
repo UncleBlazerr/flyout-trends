@@ -2,20 +2,38 @@
  "player_id": 701678,
  "player_name": "Hao-Yu Lee",
  "team": "DET",
- "as_of": "2026-09-09",
+ "as_of": "2026-09-08",
  "form": {
   "streak": 0,
-  "frequency": 0.429,
+  "frequency": 0.286,
   "slopes": {
-   "max_ev": -3.661,
+   "max_ev": -3.961,
    "parks_sum": 0.0,
-   "near_hr": -0.036
+   "near_hr": -0.009
   },
   "intensity": 0.0,
-  "expectancy_score": 12.9,
-  "last_appearance": "2026-09-06"
+  "expectancy_score": 8.6,
+  "last_appearance": "2026-09-08"
  },
  "days": [
+  {
+   "date": "2026-09-08",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 91.0,
+   "max_distance": 186.0,
+   "max_barrel_score": 31.1,
+   "temp_f": 78.0,
+   "wind_mph": 7.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-06",
    "bbe": 1,
@@ -378,6 +396,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824228,
+   "date": "2026-09-08",
+   "player_id": 701678,
+   "player_name": "Hao-Yu Lee",
+   "team": "DET",
+   "opponent": "MIN",
+   "result": "Pop Out",
+   "exit_velocity": 91.0,
+   "launch_angle": 60.0,
+   "hit_distance": 186.0,
+   "hc_x": 158.9,
+   "hc_y": 137.49,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "cc89c3e4-7415-383d-8c2f-1081c56bba64",
+   "venue_id": 2394,
+   "venue_name": "Comerica Park",
+   "temp_f": 78.0,
+   "wind_mph": 7.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 31.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824385,
    "date": "2026-09-06",

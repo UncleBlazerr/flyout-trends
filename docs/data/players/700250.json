@@ -2,20 +2,38 @@
  "player_id": 700250,
  "player_name": "Ben Rice",
  "team": "NYY",
- "as_of": "2026-09-09",
+ "as_of": "2026-09-08",
  "form": {
   "streak": 0,
-  "frequency": 0.429,
+  "frequency": 0.286,
   "slopes": {
-   "max_ev": 0.432,
+   "max_ev": -1.407,
    "parks_sum": 0.0,
-   "near_hr": -0.179
+   "near_hr": -0.143
   },
-  "intensity": 0.072,
-  "expectancy_score": 15.0,
-  "last_appearance": "2026-09-06"
+  "intensity": 0.0,
+  "expectancy_score": 8.6,
+  "last_appearance": "2026-09-08"
  },
  "days": [
+  {
+   "date": "2026-09-08",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 88.2,
+   "max_distance": 268.0,
+   "max_barrel_score": 57.0,
+   "temp_f": 76.0,
+   "wind_mph": 3.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-06",
    "bbe": 2,
@@ -432,6 +450,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823500,
+   "date": "2026-09-08",
+   "player_id": 700250,
+   "player_name": "Ben Rice",
+   "team": "NYY",
+   "opponent": "COL",
+   "result": "Lineout",
+   "exit_velocity": 88.2,
+   "launch_angle": 21.0,
+   "hit_distance": 268.0,
+   "hc_x": 59.41,
+   "hc_y": 114.3,
+   "would_be_hr_count": 0,
+   "inning": 3,
+   "play_id": "9bfb0b34-59c5-38bd-ad59-ab562922bc62",
+   "venue_id": 3313,
+   "venue_name": "Yankee Stadium",
+   "temp_f": 76.0,
+   "wind_mph": 3.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 57.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823253,
    "date": "2026-09-06",
