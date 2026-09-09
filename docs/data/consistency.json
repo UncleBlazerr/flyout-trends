@@ -22,16 +22,6 @@
    "game_streak": 2
   },
   {
-   "player_id": 680779,
-   "player_name": "Henry Davis",
-   "team": "PIT",
-   "record_streak": 3,
-   "total_flags": 4,
-   "avg_score": 35.2,
-   "current_score": 36.3,
-   "game_streak": 2
-  },
-  {
    "player_id": 666310,
    "player_name": "Bo Naylor",
    "team": "MIL",
@@ -72,6 +62,16 @@
    "game_streak": 2
   },
   {
+   "player_id": 665161,
+   "player_name": "Jeremy Pe\u00f1a",
+   "team": "HOU",
+   "record_streak": 1,
+   "total_flags": 7,
+   "avg_score": 48.2,
+   "current_score": 33.3,
+   "game_streak": 2
+  },
+  {
    "player_id": 643217,
    "player_name": "Andrew Benintendi",
    "team": "CWS",
@@ -92,16 +92,6 @@
    "game_streak": 2
   },
   {
-   "player_id": 694376,
-   "player_name": "Shay Whitcomb",
-   "team": "SF",
-   "record_streak": 1,
-   "total_flags": 5,
-   "avg_score": 38.6,
-   "current_score": 34.6,
-   "game_streak": 1
-  },
-  {
    "player_id": 514888,
    "player_name": "Jose Altuve",
    "team": "HOU",
@@ -112,16 +102,6 @@
    "game_streak": 3
   },
   {
-   "player_id": 650490,
-   "player_name": "Yandy D\u00edaz",
-   "team": "TB",
-   "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 38.8,
-   "current_score": 36.1,
-   "game_streak": 2
-  },
-  {
    "player_id": 807712,
    "player_name": "Luke Keaschall",
    "team": "MIN",
@@ -130,6 +110,16 @@
    "avg_score": 37.6,
    "current_score": 41.4,
    "game_streak": 3
+  },
+  {
+   "player_id": 695670,
+   "player_name": "Harry Ford",
+   "team": "WSH",
+   "record_streak": 1,
+   "total_flags": 2,
+   "avg_score": 37.2,
+   "current_score": 31.4,
+   "game_streak": 2
   },
   {
    "player_id": 677347,
@@ -149,6 +139,16 @@
    "total_flags": 1,
    "avg_score": 38.0,
    "current_score": 38.0,
+   "game_streak": 1
+  },
+  {
+   "player_id": 660688,
+   "player_name": "Keibert Ruiz",
+   "team": "WSH",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 31.4,
+   "current_score": 31.4,
    "game_streak": 1
   }
  ]
