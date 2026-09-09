@@ -2,9 +2,9 @@
  "player_id": 695670,
  "player_name": "Harry Ford",
  "team": "WSH",
- "as_of": "2026-09-07",
+ "as_of": "2026-09-09",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": -1.532,
@@ -12,7 +12,7 @@
    "near_hr": 0.17
   },
   "intensity": 0.104,
-  "expectancy_score": 19.7,
+  "expectancy_score": 11.7,
   "last_appearance": "2026-09-06"
  },
  "days": [
