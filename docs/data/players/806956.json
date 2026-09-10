@@ -2,20 +2,38 @@
  "player_id": 806956,
  "player_name": "Ethan Salas",
  "team": "SD",
- "as_of": "2026-09-10",
+ "as_of": "2026-09-09",
  "form": {
   "streak": 0,
-  "frequency": 0.333,
+  "frequency": 0.25,
   "slopes": {
-   "max_ev": 0.65,
+   "max_ev": -10.88,
    "parks_sum": 0.0,
-   "near_hr": -0.5
+   "near_hr": -0.3
   },
-  "intensity": 0.108,
-  "expectancy_score": 13.2,
-  "last_appearance": "2026-09-07"
+  "intensity": 0.0,
+  "expectancy_score": 7.5,
+  "last_appearance": "2026-09-09"
  },
  "days": [
+  {
+   "date": "2026-09-09",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 60.4,
+   "max_distance": 152.0,
+   "max_barrel_score": 33.0,
+   "temp_f": 95.0,
+   "wind_mph": 5.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-07",
    "bbe": 2,
@@ -72,6 +90,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823251,
+   "date": "2026-09-09",
+   "player_id": 806956,
+   "player_name": "Ethan Salas",
+   "team": "SD",
+   "opponent": "WSH",
+   "result": "Groundout",
+   "exit_velocity": 60.4,
+   "launch_angle": 21.0,
+   "hit_distance": 152.0,
+   "hc_x": 128.37,
+   "hc_y": 126.33,
+   "would_be_hr_count": 0,
+   "inning": 5,
+   "play_id": "57e07fb6-8b58-34be-8e5f-15364cd126f2",
+   "venue_id": 2680,
+   "venue_name": "Petco Park",
+   "temp_f": 95.0,
+   "wind_mph": 5.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 33.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823254,
    "date": "2026-09-07",

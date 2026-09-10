@@ -2,9 +2,9 @@
  "player_id": 807713,
  "player_name": "Matt Shaw",
  "team": "CHC",
- "as_of": "2026-09-10",
+ "as_of": "2026-09-09",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.429,
   "slopes": {
    "max_ev": -1.561,
@@ -12,7 +12,7 @@
    "near_hr": 0.098
   },
   "intensity": 0.045,
-  "expectancy_score": 14.2,
+  "expectancy_score": 22.2,
   "last_appearance": "2026-09-07"
  },
  "days": [

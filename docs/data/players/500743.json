@@ -2,20 +2,38 @@
  "player_id": 500743,
  "player_name": "Miguel Rojas",
  "team": "LAD",
- "as_of": "2026-09-10",
+ "as_of": "2026-09-09",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": 0.2,
-   "parks_sum": 0.429,
-   "near_hr": 0.134
+   "max_ev": 2.029,
+   "parks_sum": 0.286,
+   "near_hr": 0.089
   },
-  "intensity": 0.126,
+  "intensity": 0.395,
   "expectancy_score": 16.1,
-  "last_appearance": "2026-09-08"
+  "last_appearance": "2026-09-09"
  },
  "days": [
+  {
+   "date": "2026-09-09",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 90.6,
+   "max_distance": 48.0,
+   "max_barrel_score": 21.5,
+   "temp_f": 91.0,
+   "wind_mph": 9.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-09-08",
    "bbe": 2,
@@ -306,6 +324,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823900,
+   "date": "2026-09-09",
+   "player_id": 500743,
+   "player_name": "Miguel Rojas",
+   "team": "LAD",
+   "opponent": "CIN",
+   "result": "Single",
+   "exit_velocity": 90.6,
+   "launch_angle": null,
+   "hit_distance": 48.0,
+   "hc_x": 99.13,
+   "hc_y": 155.06,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "5f41826f-7e0a-3249-954f-2d18a33f1f8d",
+   "venue_id": 22,
+   "venue_name": "UNIQLO Field at Dodger Stadium",
+   "temp_f": 91.0,
+   "wind_mph": 9.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 21.5,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823901,
    "date": "2026-09-08",

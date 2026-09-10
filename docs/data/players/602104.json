@@ -2,20 +2,38 @@
  "player_id": 602104,
  "player_name": "Ram\u00f3n Ur\u00edas",
  "team": "STL",
- "as_of": "2026-09-10",
+ "as_of": "2026-09-09",
  "form": {
   "streak": 0,
-  "frequency": 0.143,
+  "frequency": 0.0,
   "slopes": {
-   "max_ev": -6.754,
+   "max_ev": -4.164,
    "parks_sum": 0.0,
-   "near_hr": -0.107
+   "near_hr": 0.0
   },
   "intensity": 0.0,
-  "expectancy_score": 4.3,
-  "last_appearance": "2026-09-05"
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-09-09"
  },
  "days": [
+  {
+   "date": "2026-09-09",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 93.8,
+   "max_distance": 310.0,
+   "max_barrel_score": 52.7,
+   "temp_f": 80.0,
+   "wind_mph": 5.0,
+   "wind_dir": "varies",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-05",
    "bbe": 1,
@@ -198,6 +216,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823172,
+   "date": "2026-09-09",
+   "player_id": 602104,
+   "player_name": "Ram\u00f3n Ur\u00edas",
+   "team": "STL",
+   "opponent": "SF",
+   "result": "Flyout",
+   "exit_velocity": 93.8,
+   "launch_angle": 45.0,
+   "hit_distance": 310.0,
+   "hc_x": 138.15,
+   "hc_y": 75.61,
+   "would_be_hr_count": 0,
+   "inning": 6,
+   "play_id": "2ed23c71-7213-3dd8-b1e9-df5afdd54dd0",
+   "venue_id": 2395,
+   "venue_name": "Oracle Park",
+   "temp_f": 80.0,
+   "wind_mph": 5.0,
+   "wind_dir": "varies",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 52.7,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824310,
    "date": "2026-09-05",
