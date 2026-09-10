@@ -2,9 +2,9 @@
  "player_id": 668942,
  "player_name": "Josh Rojas",
  "team": "KC",
- "as_of": "2026-09-08",
+ "as_of": "2026-09-10",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": -2.082,
@@ -12,7 +12,7 @@
    "near_hr": 0.018
   },
   "intensity": 0.077,
-  "expectancy_score": 18.9,
+  "expectancy_score": 10.9,
   "last_appearance": "2026-09-06"
  },
  "days": [

@@ -1,73 +1,43 @@
 {
- "as_of": "2026-09-08",
+ "as_of": "2026-09-10",
  "players": [
   {
    "player_id": 701538,
    "player_name": "Jackson Merrill",
    "team": "SD",
-   "record_streak": 5,
-   "total_flags": 8,
-   "avg_score": 53.5,
+   "record_streak": 7,
+   "total_flags": 10,
+   "avg_score": 57.6,
    "current_score": 74.8,
    "game_streak": 7
-  },
-  {
-   "player_id": 682998,
-   "player_name": "Corbin Carroll",
-   "team": "AZ",
-   "record_streak": 3,
-   "total_flags": 7,
-   "avg_score": 43.7,
-   "current_score": 40.9,
-   "game_streak": 2
-  },
-  {
-   "player_id": 666310,
-   "player_name": "Bo Naylor",
-   "team": "MIL",
-   "record_streak": 3,
-   "total_flags": 3,
-   "avg_score": 38.0,
-   "current_score": 38.0,
-   "game_streak": 1
-  },
-  {
-   "player_id": 687952,
-   "player_name": "Christian Encarnacion-Strand",
-   "team": "BAL",
-   "record_streak": 2,
-   "total_flags": 8,
-   "avg_score": 43.6,
-   "current_score": 39.3,
-   "game_streak": 2
   },
   {
    "player_id": 607208,
    "player_name": "Trea Turner",
    "team": "PHI",
-   "record_streak": 2,
-   "total_flags": 6,
-   "avg_score": 36.7,
+   "record_streak": 4,
+   "total_flags": 8,
+   "avg_score": 37.1,
    "current_score": 44.4,
    "game_streak": 2
   },
   {
-   "player_id": 681230,
-   "player_name": "BJ Murray Jr.",
-   "team": "CHC",
-   "record_streak": 2,
-   "total_flags": 2,
-   "avg_score": 41.0,
-   "current_score": 41.0,
-   "game_streak": 2
+   "player_id": 807712,
+   "player_name": "Luke Keaschall",
+   "team": "MIN",
+   "record_streak": 3,
+   "total_flags": 4,
+   "avg_score": 37.4,
+   "current_score": 41.4,
+   "game_streak": 3
   },
   {
    "player_id": 665161,
    "player_name": "Jeremy Pe\u00f1a",
    "team": "HOU",
    "record_streak": 1,
-   "total_flags": 7,
-   "avg_score": 48.2,
+   "total_flags": 8,
+   "avg_score": 46.4,
    "current_score": 33.3,
    "game_streak": 2
   },
@@ -76,8 +46,8 @@
    "player_name": "Andrew Benintendi",
    "team": "CWS",
    "record_streak": 1,
-   "total_flags": 6,
-   "avg_score": 37.8,
+   "total_flags": 7,
+   "avg_score": 37.7,
    "current_score": 37.1,
    "game_streak": 2
   },
@@ -86,39 +56,49 @@
    "player_name": "Ryan Jeffers",
    "team": "MIN",
    "record_streak": 1,
-   "total_flags": 5,
-   "avg_score": 40.4,
+   "total_flags": 6,
+   "avg_score": 40.2,
    "current_score": 39.5,
    "game_streak": 2
+  },
+  {
+   "player_id": 571970,
+   "player_name": "Max Muncy",
+   "team": "LAD",
+   "record_streak": 1,
+   "total_flags": 5,
+   "avg_score": 39.6,
+   "current_score": 34.1,
+   "game_streak": 1
+  },
+  {
+   "player_id": 694376,
+   "player_name": "Shay Whitcomb",
+   "team": "SF",
+   "record_streak": 1,
+   "total_flags": 5,
+   "avg_score": 38.6,
+   "current_score": 34.6,
+   "game_streak": 1
   },
   {
    "player_id": 514888,
    "player_name": "Jose Altuve",
    "team": "HOU",
    "record_streak": 1,
-   "total_flags": 3,
+   "total_flags": 4,
    "avg_score": 45.0,
    "current_score": 44.9,
    "game_streak": 3
   },
   {
-   "player_id": 807712,
-   "player_name": "Luke Keaschall",
-   "team": "MIN",
+   "player_id": 650490,
+   "player_name": "Yandy D\u00edaz",
+   "team": "TB",
    "record_streak": 1,
    "total_flags": 2,
-   "avg_score": 37.6,
-   "current_score": 41.4,
-   "game_streak": 3
-  },
-  {
-   "player_id": 695670,
-   "player_name": "Harry Ford",
-   "team": "WSH",
-   "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 37.2,
-   "current_score": 31.4,
+   "avg_score": 38.8,
+   "current_score": 36.1,
    "game_streak": 2
   },
   {
@@ -126,7 +106,7 @@
    "player_name": "Kyren Paris",
    "team": "LAA",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 38.0,
    "current_score": 38.0,
    "game_streak": 1
@@ -136,19 +116,39 @@
    "player_name": "Aaron Judge",
    "team": "NYY",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 38.0,
    "current_score": 38.0,
    "game_streak": 1
   },
   {
-   "player_id": 660688,
-   "player_name": "Keibert Ruiz",
-   "team": "WSH",
+   "player_id": 664983,
+   "player_name": "Jake McCarthy",
+   "team": "COL",
+   "record_streak": 1,
+   "total_flags": 2,
+   "avg_score": 36.2,
+   "current_score": 33.1,
+   "game_streak": 2
+  },
+  {
+   "player_id": 679845,
+   "player_name": "Nick Loftin",
+   "team": "KC",
+   "record_streak": 1,
+   "total_flags": 2,
+   "avg_score": 36.0,
+   "current_score": 32.3,
+   "game_streak": 1
+  },
+  {
+   "player_id": 683090,
+   "player_name": "Matthew Lugo",
+   "team": "KC",
    "record_streak": 1,
    "total_flags": 1,
-   "avg_score": 31.4,
-   "current_score": 31.4,
+   "avg_score": 33.0,
+   "current_score": 33.0,
    "game_streak": 1
   }
  ]
