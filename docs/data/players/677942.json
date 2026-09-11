@@ -2,9 +2,9 @@
  "player_id": 677942,
  "player_name": "Blaze Alexander",
  "team": "BAL",
- "as_of": "2026-09-09",
+ "as_of": "2026-09-11",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": -1.664,
@@ -12,7 +12,7 @@
    "near_hr": 0.027
   },
   "intensity": 0.009,
-  "expectancy_score": 16.8,
+  "expectancy_score": 8.8,
   "last_appearance": "2026-09-08"
  },
  "days": [
