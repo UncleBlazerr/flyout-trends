@@ -2,9 +2,9 @@
  "player_id": 680664,
  "player_name": "Eduardo Valencia",
  "team": "DET",
- "as_of": "2026-09-11",
+ "as_of": "2026-09-10",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 3.007,
@@ -12,7 +12,7 @@
    "near_hr": 0.107
   },
   "intensity": 0.369,
-  "expectancy_score": 19.6,
+  "expectancy_score": 27.6,
   "last_appearance": "2026-09-08"
  },
  "days": [

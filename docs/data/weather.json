@@ -1,5 +1,5 @@
 {
- "as_of": "2026-09-11",
+ "as_of": "2026-09-10",
  "horizon_days": 3,
  "temp_bands": [
   55,
@@ -37,14 +37,14 @@
   {
    "temp_band": "55-70",
    "wind": "neutral",
-   "player_days": 275,
-   "hr_days": 30,
-   "hr_total": 30,
-   "near_hr_days": 65,
+   "player_days": 290,
+   "hr_days": 32,
+   "hr_total": 32,
+   "near_hr_days": 66,
    "follow_samples": 65,
    "hr_followed": 12,
-   "hr_rate": 0.109,
-   "near_hr_rate": 0.236,
+   "hr_rate": 0.11,
+   "near_hr_rate": 0.228,
    "follow_rate": 0.185
   },
   {
@@ -54,8 +54,8 @@
    "hr_days": 390,
    "hr_total": 426,
    "near_hr_days": 721,
-   "follow_samples": 683,
-   "hr_followed": 135,
+   "follow_samples": 688,
+   "hr_followed": 136,
    "hr_rate": 0.122,
    "near_hr_rate": 0.225,
    "follow_rate": 0.198
@@ -63,40 +63,40 @@
   {
    "temp_band": "70-85",
    "wind": "in",
-   "player_days": 2305,
-   "hr_days": 231,
-   "hr_total": 244,
-   "near_hr_days": 517,
-   "follow_samples": 487,
-   "hr_followed": 108,
-   "hr_rate": 0.1,
-   "near_hr_rate": 0.224,
-   "follow_rate": 0.222
+   "player_days": 2325,
+   "hr_days": 234,
+   "hr_total": 247,
+   "near_hr_days": 523,
+   "follow_samples": 503,
+   "hr_followed": 111,
+   "hr_rate": 0.101,
+   "near_hr_rate": 0.225,
+   "follow_rate": 0.221
   },
   {
    "temp_band": "70-85",
    "wind": "neutral",
-   "player_days": 3207,
-   "hr_days": 347,
-   "hr_total": 360,
-   "near_hr_days": 706,
-   "follow_samples": 661,
-   "hr_followed": 140,
-   "hr_rate": 0.108,
+   "player_days": 3248,
+   "hr_days": 349,
+   "hr_total": 362,
+   "near_hr_days": 713,
+   "follow_samples": 677,
+   "hr_followed": 145,
+   "hr_rate": 0.107,
    "near_hr_rate": 0.22,
-   "follow_rate": 0.212
+   "follow_rate": 0.214
   },
   {
    "temp_band": "85+",
    "wind": "out",
-   "player_days": 1777,
-   "hr_days": 222,
-   "hr_total": 244,
-   "near_hr_days": 388,
+   "player_days": 1794,
+   "hr_days": 223,
+   "hr_total": 245,
+   "near_hr_days": 395,
    "follow_samples": 380,
    "hr_followed": 91,
-   "hr_rate": 0.125,
-   "near_hr_rate": 0.218,
+   "hr_rate": 0.124,
+   "near_hr_rate": 0.22,
    "follow_rate": 0.239
   },
   {
@@ -119,11 +119,11 @@
    "hr_days": 213,
    "hr_total": 229,
    "near_hr_days": 413,
-   "follow_samples": 376,
-   "hr_followed": 87,
+   "follow_samples": 387,
+   "hr_followed": 90,
    "hr_rate": 0.12,
    "near_hr_rate": 0.233,
-   "follow_rate": 0.231
+   "follow_rate": 0.233
   }
  ],
  "dome": {
@@ -131,11 +131,11 @@
   "hr_days": 347,
   "hr_total": 361,
   "near_hr_days": 676,
-  "follow_samples": 654,
-  "hr_followed": 150,
+  "follow_samples": 657,
+  "hr_followed": 151,
   "hr_rate": 0.11,
   "near_hr_rate": 0.215,
-  "follow_rate": 0.229
+  "follow_rate": 0.23
  },
  "unknown_player_days": 0
 }

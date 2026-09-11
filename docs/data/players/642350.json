@@ -2,7 +2,7 @@
  "player_id": 642350,
  "player_name": "Jose Siri",
  "team": "LAA",
- "as_of": "2026-09-11",
+ "as_of": "2026-09-10",
  "form": {
   "streak": 1,
   "frequency": 0.429,
@@ -355,6 +355,24 @@
    "max_barrel_score": 36.2,
    "temp_f": 75.0,
    "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
+  {
+   "date": "2026-08-12",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 1,
+   "near_hr_distance": 1,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 110.1,
+   "max_distance": 363.0,
+   "max_barrel_score": 81.7,
+   "temp_f": 78.0,
+   "wind_mph": 8.0,
    "wind_dir": "out",
    "weather_condition": "Partly Cloudy"
   }
@@ -1403,6 +1421,35 @@
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
+  },
+  {
+   "game_pk": 823994,
+   "date": "2026-08-12",
+   "player_id": 642350,
+   "player_name": "Jose Siri",
+   "team": "LAA",
+   "opponent": "TEX",
+   "result": "Double",
+   "exit_velocity": 110.1,
+   "launch_angle": 20.0,
+   "hit_distance": 363.0,
+   "hc_x": 92.58,
+   "hc_y": 52.13,
+   "would_be_hr_count": 0,
+   "inning": 6,
+   "play_id": "d39608f0-f1be-3e78-b40f-4ab1b7273faa",
+   "venue_id": 1,
+   "venue_name": "Angel Stadium",
+   "temp_f": 78.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": true,
+   "would_be_hr_flag": false,
+   "barrel_score": 81.7,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
   }
  ]
 }
