@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-09-12T13:20:15.361909+00:00",
+ "generated_at": "2026-09-12T18:15:51.865997+00:00",
  "as_of": "2026-09-11",
  "config": {
   "min_near_hr_events": 1,
@@ -75,14 +75,14 @@
    "band": "80+",
    "band_rate": null,
    "band_samples": 0,
-   "weather_factor": 1.0,
-   "adjusted_score": 81.7,
+   "weather_factor": 1.2,
+   "adjusted_score": 98.0,
    "game_weather": {
     "venue_name": "Oracle Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 62.0,
+    "wind_mph": 22.0,
+    "wind_dir": "out",
+    "weather_condition": "Sunny"
    },
    "repeat": true
   },
@@ -118,33 +118,33 @@
    "repeat": true
   },
   {
-   "player_id": 677800,
-   "player_name": "Wilyer Abreu",
-   "team": "BOS",
-   "expectancy_score": 53.0,
-   "streak": 3,
+   "player_id": 668804,
+   "player_name": "Bryan Reynolds",
+   "team": "PIT",
+   "expectancy_score": 51.4,
+   "streak": 4,
    "frequency": 0.571,
    "slopes": {
-    "max_ev": 2.011,
-    "parks_sum": 0.143,
-    "near_hr": 0.134
+    "max_ev": -0.996,
+    "parks_sum": 0.036,
+    "near_hr": 0.214
    },
-   "near_hr_7d": 3,
+   "near_hr_7d": 5,
    "near_hr_xbh_7d": 1,
-   "hr_7d": 1,
-   "max_ev_7d": 106.6,
-   "max_distance_7d": 408,
+   "hr_7d": 2,
+   "max_ev_7d": 108.8,
+   "max_distance_7d": 421,
    "band": "40-60",
    "band_rate": 0.254,
    "band_samples": 410,
-   "weather_factor": 1.0,
-   "adjusted_score": 53.0,
+   "weather_factor": 1.166,
+   "adjusted_score": 59.9,
    "game_weather": {
-    "venue_name": "Fenway Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "venue_name": "Wrigley Field",
+    "temp_f": 83.0,
+    "wind_mph": 9.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": true
   },
@@ -172,41 +172,41 @@
    "adjusted_score": 52.6,
    "game_weather": {
     "venue_name": "loanDepot park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": true
   },
   {
-   "player_id": 668804,
-   "player_name": "Bryan Reynolds",
-   "team": "PIT",
-   "expectancy_score": 51.4,
-   "streak": 4,
+   "player_id": 677800,
+   "player_name": "Wilyer Abreu",
+   "team": "BOS",
+   "expectancy_score": 53.0,
+   "streak": 3,
    "frequency": 0.571,
    "slopes": {
-    "max_ev": -0.996,
-    "parks_sum": 0.036,
-    "near_hr": 0.214
+    "max_ev": 2.011,
+    "parks_sum": 0.143,
+    "near_hr": 0.134
    },
-   "near_hr_7d": 5,
+   "near_hr_7d": 3,
    "near_hr_xbh_7d": 1,
-   "hr_7d": 2,
-   "max_ev_7d": 108.8,
-   "max_distance_7d": 421,
+   "hr_7d": 1,
+   "max_ev_7d": 106.6,
+   "max_distance_7d": 408,
    "band": "40-60",
    "band_rate": 0.254,
    "band_samples": 410,
-   "weather_factor": 1.0,
-   "adjusted_score": 51.4,
+   "weather_factor": 0.947,
+   "adjusted_score": 50.2,
    "game_weather": {
-    "venue_name": "Wrigley Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "venue_name": "Fenway Park",
+    "temp_f": 75.0,
+    "wind_mph": 9.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": true
   },
@@ -230,16 +230,109 @@
    "band": "40-60",
    "band_rate": 0.254,
    "band_samples": 410,
-   "weather_factor": 1.0,
-   "adjusted_score": 44.8,
+   "weather_factor": 1.008,
+   "adjusted_score": 45.2,
    "game_weather": {
     "venue_name": "Rogers Centre",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 6.0,
+    "wind_dir": "cross",
+    "weather_condition": "Sunny"
    },
    "repeat": true
+  },
+  {
+   "player_id": 664034,
+   "player_name": "Ty France",
+   "team": "SD",
+   "expectancy_score": 37.0,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 1.125,
+    "parks_sum": 0.0,
+    "near_hr": 0.25
+   },
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 105.2,
+   "max_distance_7d": 396,
+   "band": "<40",
+   "band_rate": 0.206,
+   "band_samples": 15975,
+   "weather_factor": 1.2,
+   "adjusted_score": 44.4,
+   "game_weather": {
+    "venue_name": "Oracle Park",
+    "temp_f": 62.0,
+    "wind_mph": 22.0,
+    "wind_dir": "out",
+    "weather_condition": "Sunny"
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 663968,
+   "player_name": "Jake Mangum",
+   "team": "PIT",
+   "expectancy_score": 37.2,
+   "streak": 1,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 1.632,
+    "parks_sum": 2.464,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 102.2,
+   "max_distance_7d": 358,
+   "band": "<40",
+   "band_rate": 0.206,
+   "band_samples": 15975,
+   "weather_factor": 1.166,
+   "adjusted_score": 43.4,
+   "game_weather": {
+    "venue_name": "Wrigley Field",
+    "temp_f": 83.0,
+    "wind_mph": 9.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 671277,
+   "player_name": "Luis Garc\u00eda Jr.",
+   "team": "NYY",
+   "expectancy_score": 37.1,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 1.1,
+    "parks_sum": 0.071,
+    "near_hr": 0.25
+   },
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 2,
+   "max_ev_7d": 109.6,
+   "max_distance_7d": 413,
+   "band": "<40",
+   "band_rate": 0.206,
+   "band_samples": 15975,
+   "weather_factor": 1.156,
+   "adjusted_score": 42.9,
+   "game_weather": {
+    "venue_name": "Yankee Stadium",
+    "temp_f": 78.0,
+    "wind_mph": 10.0,
+    "wind_dir": "out",
+    "weather_condition": "Cloudy"
+   },
+   "repeat": false
   },
   {
    "player_id": 701350,
@@ -261,14 +354,14 @@
    "band": "40-60",
    "band_rate": 0.254,
    "band_samples": 410,
-   "weather_factor": 1.0,
-   "adjusted_score": 43.9,
+   "weather_factor": 0.947,
+   "adjusted_score": 41.6,
    "game_weather": {
     "venue_name": "Fenway Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 75.0,
+    "wind_mph": 9.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   },
@@ -292,45 +385,14 @@
    "band": "40-60",
    "band_rate": 0.254,
    "band_samples": 410,
-   "weather_factor": 1.0,
-   "adjusted_score": 41.3,
+   "weather_factor": 0.982,
+   "adjusted_score": 40.6,
    "game_weather": {
     "venue_name": "Comerica Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 695600,
-   "player_name": "Carter Jensen",
-   "team": "KC",
-   "expectancy_score": 40.8,
-   "streak": 2,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": -0.354,
-    "parks_sum": 2.679,
-    "near_hr": 0.304
-   },
-   "near_hr_7d": 4,
-   "near_hr_xbh_7d": 2,
-   "hr_7d": 1,
-   "max_ev_7d": 110.0,
-   "max_distance_7d": 425,
-   "band": "40-60",
-   "band_rate": 0.254,
-   "band_samples": 410,
-   "weather_factor": 1.0,
-   "adjusted_score": 40.8,
-   "game_weather": {
-    "venue_name": "Fenway Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 78.0,
+    "wind_mph": 6.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   },
@@ -366,6 +428,37 @@
    "repeat": false
   },
   {
+   "player_id": 695600,
+   "player_name": "Carter Jensen",
+   "team": "KC",
+   "expectancy_score": 40.8,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": -0.354,
+    "parks_sum": 2.679,
+    "near_hr": 0.304
+   },
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 1,
+   "max_ev_7d": 110.0,
+   "max_distance_7d": 425,
+   "band": "40-60",
+   "band_rate": 0.254,
+   "band_samples": 410,
+   "weather_factor": 0.947,
+   "adjusted_score": 38.6,
+   "game_weather": {
+    "venue_name": "Fenway Park",
+    "temp_f": 75.0,
+    "wind_mph": 9.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
+  },
+  {
    "player_id": 670541,
    "player_name": "Yordan Alvarez",
    "team": "HOU",
@@ -397,128 +490,35 @@
    "repeat": true
   },
   {
-   "player_id": 665877,
-   "player_name": "Jos\u00e9 Ferm\u00edn",
-   "team": "STL",
-   "expectancy_score": 38.1,
+   "player_id": 806367,
+   "player_name": "Turner Hill",
+   "team": "SF",
+   "expectancy_score": 31.8,
    "streak": 2,
-   "frequency": 0.429,
+   "frequency": 0.286,
    "slopes": {
-    "max_ev": 1.575,
+    "max_ev": 1.089,
     "parks_sum": 0.0,
-    "near_hr": 0.134
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 99.9,
-   "max_distance_7d": 366,
-   "band": "<40",
-   "band_rate": 0.206,
-   "band_samples": 15975,
-   "weather_factor": 1.0,
-   "adjusted_score": 38.1,
-   "game_weather": {
-    "venue_name": "Busch Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 663968,
-   "player_name": "Jake Mangum",
-   "team": "PIT",
-   "expectancy_score": 37.2,
-   "streak": 1,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 1.632,
-    "parks_sum": 2.464,
-    "near_hr": 0.0
+    "near_hr": 0.179
    },
    "near_hr_7d": 2,
    "near_hr_xbh_7d": 0,
    "hr_7d": 0,
-   "max_ev_7d": 102.2,
-   "max_distance_7d": 358,
+   "max_ev_7d": 98.3,
+   "max_distance_7d": 386,
    "band": "<40",
    "band_rate": 0.206,
    "band_samples": 15975,
-   "weather_factor": 1.0,
-   "adjusted_score": 37.2,
-   "game_weather": {
-    "venue_name": "Wrigley Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 671277,
-   "player_name": "Luis Garc\u00eda Jr.",
-   "team": "NYY",
-   "expectancy_score": 37.1,
-   "streak": 2,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 1.1,
-    "parks_sum": 0.071,
-    "near_hr": 0.25
-   },
-   "near_hr_7d": 4,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 2,
-   "max_ev_7d": 109.6,
-   "max_distance_7d": 413,
-   "band": "<40",
-   "band_rate": 0.206,
-   "band_samples": 15975,
-   "weather_factor": 1.0,
-   "adjusted_score": 37.1,
-   "game_weather": {
-    "venue_name": "Yankee Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 664034,
-   "player_name": "Ty France",
-   "team": "SD",
-   "expectancy_score": 37.0,
-   "streak": 2,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 1.125,
-    "parks_sum": 0.0,
-    "near_hr": 0.25
-   },
-   "near_hr_7d": 4,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 105.2,
-   "max_distance_7d": 396,
-   "band": "<40",
-   "band_rate": 0.206,
-   "band_samples": 15975,
-   "weather_factor": 1.0,
-   "adjusted_score": 37.0,
+   "weather_factor": 1.2,
+   "adjusted_score": 38.2,
    "game_weather": {
     "venue_name": "Oracle Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 62.0,
+    "wind_mph": 22.0,
+    "wind_dir": "out",
+    "weather_condition": "Sunny"
    },
-   "repeat": true
+   "repeat": false
   }
  ]
 }
