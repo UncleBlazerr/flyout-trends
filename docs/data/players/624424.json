@@ -2,7 +2,7 @@
  "player_id": 624424,
  "player_name": "Michael Conforto",
  "team": "CHC",
- "as_of": "2026-09-10",
+ "as_of": "2026-09-12",
  "form": {
   "streak": 0,
   "frequency": 0.0,
@@ -303,24 +303,6 @@
    "wind_mph": 7.0,
    "wind_dir": "out",
    "weather_condition": "Cloudy"
-  },
-  {
-   "date": "2026-08-13",
-   "bbe": 1,
-   "hr": 0,
-   "near_hr_any": 0,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 0,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 0,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 94.4,
-   "max_distance": 10.0,
-   "max_barrel_score": 22.4,
-   "temp_f": 89.0,
-   "wind_mph": 8.0,
-   "wind_dir": "in",
-   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -1308,35 +1290,6 @@
    "barrel_score": 71.1,
    "barrel_flag": false,
    "is_home_run": true,
-   "is_near_hr": false
-  },
-  {
-   "game_pk": 822696,
-   "date": "2026-08-13",
-   "player_id": 624424,
-   "player_name": "Michael Conforto",
-   "team": "CHC",
-   "opponent": "WSH",
-   "result": "GIDP",
-   "exit_velocity": 94.4,
-   "launch_angle": -12.0,
-   "hit_distance": 10.0,
-   "hc_x": 149.28,
-   "hc_y": 171.95,
-   "would_be_hr_count": 0,
-   "inning": 6,
-   "play_id": "31da5fee-20a3-33f5-98b2-d0b6f599cc4a",
-   "venue_id": 3309,
-   "venue_name": "Nationals Park",
-   "temp_f": 89.0,
-   "wind_mph": 8.0,
-   "wind_dir": "in",
-   "weather_condition": "Partly Cloudy",
-   "distance_flag": false,
-   "would_be_hr_flag": false,
-   "barrel_score": 22.4,
-   "barrel_flag": false,
-   "is_home_run": false,
    "is_near_hr": false
   }
  ]

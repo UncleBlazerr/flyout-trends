@@ -2,9 +2,9 @@
  "player_id": 681508,
  "player_name": "Mickey Gasper",
  "team": "BOS",
- "as_of": "2026-09-10",
+ "as_of": "2026-09-12",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 0.607,
@@ -12,7 +12,7 @@
    "near_hr": 0.071
   },
   "intensity": 0.196,
-  "expectancy_score": 22.5,
+  "expectancy_score": 14.5,
   "last_appearance": "2026-09-09"
  },
  "days": [

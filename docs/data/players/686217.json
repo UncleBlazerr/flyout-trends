@@ -2,9 +2,9 @@
  "player_id": 686217,
  "player_name": "Sal Frelick",
  "team": "MIL",
- "as_of": "2026-09-10",
+ "as_of": "2026-09-12",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.429,
   "slopes": {
    "max_ev": -0.282,
@@ -12,7 +12,7 @@
    "near_hr": 0.071
   },
   "intensity": 0.024,
-  "expectancy_score": 21.6,
+  "expectancy_score": 13.6,
   "last_appearance": "2026-09-09"
  },
  "days": [

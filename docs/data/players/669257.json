@@ -2,9 +2,9 @@
  "player_id": 669257,
  "player_name": "Will Smith",
  "team": "LAD",
- "as_of": "2026-09-10",
+ "as_of": "2026-09-12",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.429,
   "slopes": {
    "max_ev": 0.832,
@@ -12,7 +12,7 @@
    "near_hr": -0.071
   },
   "intensity": 0.139,
-  "expectancy_score": 25.0,
+  "expectancy_score": 17.0,
   "last_appearance": "2026-09-09"
  },
  "days": [
