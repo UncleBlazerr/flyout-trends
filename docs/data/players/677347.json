@@ -2,20 +2,38 @@
  "player_id": 677347,
  "player_name": "Kyren Paris",
  "team": "LAA",
- "as_of": "2026-09-12",
+ "as_of": "2026-09-11",
  "form": {
   "streak": 0,
-  "frequency": 0.5,
+  "frequency": 0.333,
   "slopes": {
-   "max_ev": -1.0,
+   "max_ev": -7.95,
    "parks_sum": 0.0,
-   "near_hr": -1.0
+   "near_hr": -0.5
   },
   "intensity": 0.0,
-  "expectancy_score": 15.0,
-  "last_appearance": "2026-09-09"
+  "expectancy_score": 10.0,
+  "last_appearance": "2026-09-11"
  },
  "days": [
+  {
+   "date": "2026-09-11",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 85.2,
+   "max_distance": 293.0,
+   "max_barrel_score": 46.1,
+   "temp_f": 81.0,
+   "wind_mph": 3.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-09",
    "bbe": 2,
@@ -54,6 +72,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822684,
+   "date": "2026-09-11",
+   "player_id": 677347,
+   "player_name": "Kyren Paris",
+   "team": "LAA",
+   "opponent": "WSH",
+   "result": "Flyout",
+   "exit_velocity": 85.2,
+   "launch_angle": 43.0,
+   "hit_distance": 293.0,
+   "hc_x": 64.52,
+   "hc_y": 98.85,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "dc34f48d-0ebc-3d97-9310-5f664bd2d3e3",
+   "venue_id": 3309,
+   "venue_name": "Nationals Park",
+   "temp_f": 81.0,
+   "wind_mph": 3.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 46.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824713,
    "date": "2026-09-09",

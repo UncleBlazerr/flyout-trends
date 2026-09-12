@@ -2,20 +2,38 @@
  "player_id": 592450,
  "player_name": "Aaron Judge",
  "team": "NYY",
- "as_of": "2026-09-12",
+ "as_of": "2026-09-11",
  "form": {
   "streak": 0,
-  "frequency": 0.5,
+  "frequency": 0.333,
   "slopes": {
-   "max_ev": 2.8,
+   "max_ev": 4.95,
    "parks_sum": 0.0,
-   "near_hr": -1.0
+   "near_hr": -0.5
   },
   "intensity": 0.333,
-  "expectancy_score": 25.0,
-  "last_appearance": "2026-09-09"
+  "expectancy_score": 20.0,
+  "last_appearance": "2026-09-11"
  },
  "days": [
+  {
+   "date": "2026-09-11",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 105.0,
+   "max_distance": 226.0,
+   "max_barrel_score": 60.4,
+   "temp_f": 74.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-09-09",
    "bbe": 3,
@@ -54,6 +72,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823498,
+   "date": "2026-09-11",
+   "player_id": 592450,
+   "player_name": "Aaron Judge",
+   "team": "NYY",
+   "opponent": "NYM",
+   "result": "Single",
+   "exit_velocity": 105.0,
+   "launch_angle": 13.0,
+   "hit_distance": 226.0,
+   "hc_x": 57.67,
+   "hc_y": 99.5,
+   "would_be_hr_count": 0,
+   "inning": 5,
+   "play_id": "cb321eee-f59b-39f0-af69-0d8055df3f5e",
+   "venue_id": 3313,
+   "venue_name": "Yankee Stadium",
+   "temp_f": 74.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 60.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823497,
    "date": "2026-09-09",

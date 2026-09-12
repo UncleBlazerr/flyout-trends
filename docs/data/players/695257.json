@@ -2,20 +2,38 @@
  "player_id": 695257,
  "player_name": "Billy Cook",
  "team": "PIT",
- "as_of": "2026-09-12",
+ "as_of": "2026-09-11",
  "form": {
-  "streak": 0,
-  "frequency": 0.0,
+  "streak": 1,
+  "frequency": 0.333,
   "slopes": {
-   "max_ev": -5.8,
+   "max_ev": 2.55,
    "parks_sum": 0.0,
-   "near_hr": 0.0
+   "near_hr": 0.5
   },
-  "intensity": 0.0,
-  "expectancy_score": 0.0,
-  "last_appearance": "2026-08-23"
+  "intensity": 0.5,
+  "expectancy_score": 33.0,
+  "last_appearance": "2026-09-11"
  },
  "days": [
+  {
+   "date": "2026-09-11",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 97.5,
+   "max_distance": 342.0,
+   "max_barrel_score": 75.6,
+   "temp_f": 74.0,
+   "wind_mph": 9.0,
+   "wind_dir": "cross",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-08-23",
    "bbe": 1,
@@ -54,6 +72,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824631,
+   "date": "2026-09-11",
+   "player_id": 695257,
+   "player_name": "Billy Cook",
+   "team": "PIT",
+   "opponent": "CHC",
+   "result": "Flyout",
+   "exit_velocity": 97.5,
+   "launch_angle": 29.0,
+   "hit_distance": 342.0,
+   "hc_x": 175.63,
+   "hc_y": 70.75,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "eea2d005-7757-3dd3-b697-3e7534bb4c58",
+   "venue_id": 17,
+   "venue_name": "Wrigley Field",
+   "temp_f": 74.0,
+   "wind_mph": 9.0,
+   "wind_dir": "cross",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 75.6,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 823909,
    "date": "2026-08-23",
