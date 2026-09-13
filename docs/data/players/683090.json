@@ -2,20 +2,38 @@
  "player_id": 683090,
  "player_name": "Matthew Lugo",
  "team": "KC",
- "as_of": "2026-09-13",
+ "as_of": "2026-09-12",
  "form": {
   "streak": 0,
-  "frequency": 0.333,
+  "frequency": 0.25,
   "slopes": {
-   "max_ev": 10.25,
+   "max_ev": 4.09,
    "parks_sum": 0.0,
-   "near_hr": 0.5
+   "near_hr": 0.1
   },
-  "intensity": 0.5,
-  "expectancy_score": 25.0,
-  "last_appearance": "2026-09-08"
+  "intensity": 0.367,
+  "expectancy_score": 18.5,
+  "last_appearance": "2026-09-12"
  },
  "days": [
+  {
+   "date": "2026-09-12",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 82.8,
+   "max_distance": 8.0,
+   "max_barrel_score": 11.9,
+   "temp_f": 72.0,
+   "wind_mph": 8.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-08",
    "bbe": 1,
@@ -72,6 +90,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824712,
+   "date": "2026-09-12",
+   "player_id": 683090,
+   "player_name": "Matthew Lugo",
+   "team": "KC",
+   "opponent": "BOS",
+   "result": "Groundout",
+   "exit_velocity": 82.8,
+   "launch_angle": -11.0,
+   "hit_distance": 8.0,
+   "hc_x": 100.63,
+   "hc_y": 157.26,
+   "would_be_hr_count": 0,
+   "inning": 5,
+   "play_id": "cfdcd59b-af0d-337f-adc8-8479580dd36f",
+   "venue_id": 3,
+   "venue_name": "Fenway Park",
+   "temp_f": 72.0,
+   "wind_mph": 8.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 11.9,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824063,
    "date": "2026-09-08",

@@ -2,20 +2,38 @@
  "player_id": 669357,
  "player_name": "Nolan Gorman",
  "team": "STL",
- "as_of": "2026-09-13",
+ "as_of": "2026-09-12",
  "form": {
   "streak": 0,
   "frequency": 0.429,
   "slopes": {
-   "max_ev": -0.329,
-   "parks_sum": -0.929,
-   "near_hr": -0.009
+   "max_ev": -4.071,
+   "parks_sum": -1.929,
+   "near_hr": -0.125
   },
   "intensity": 0.0,
   "expectancy_score": 12.9,
-  "last_appearance": "2026-09-09"
+  "last_appearance": "2026-09-12"
  },
  "days": [
+  {
+   "date": "2026-09-12",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 75.8,
+   "max_distance": 218.0,
+   "max_barrel_score": 41.5,
+   "temp_f": 88.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-09-09",
    "bbe": 3,
@@ -234,6 +252,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823009,
+   "date": "2026-09-12",
+   "player_id": 669357,
+   "player_name": "Nolan Gorman",
+   "team": "STL",
+   "opponent": "CWS",
+   "result": "Single",
+   "exit_velocity": 75.8,
+   "launch_angle": 20.0,
+   "hit_distance": 218.0,
+   "hc_x": 153.2,
+   "hc_y": 103.64,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "2a6c1821-0294-3ba6-9901-817ec9ae7b2a",
+   "venue_id": 2889,
+   "venue_name": "Busch Stadium",
+   "temp_f": 88.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 41.5,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823172,
    "date": "2026-09-09",

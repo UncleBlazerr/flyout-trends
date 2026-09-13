@@ -2,20 +2,38 @@
  "player_id": 650559,
  "player_name": "Bryan De La Cruz",
  "team": "PHI",
- "as_of": "2026-09-13",
+ "as_of": "2026-09-12",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -3.407,
+   "max_ev": -2.661,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.0,
   "expectancy_score": 0.0,
-  "last_appearance": "2026-09-11"
+  "last_appearance": "2026-09-12"
  },
  "days": [
+  {
+   "date": "2026-09-12",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 95.2,
+   "max_distance": 5.0,
+   "max_barrel_score": 22.7,
+   "temp_f": 85.0,
+   "wind_mph": 11.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-11",
    "bbe": 1,
@@ -216,6 +234,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824870,
+   "date": "2026-09-12",
+   "player_id": 650559,
+   "player_name": "Bryan De La Cruz",
+   "team": "PHI",
+   "opponent": "ATL",
+   "result": "Groundout",
+   "exit_velocity": 95.2,
+   "launch_angle": -29.0,
+   "hit_distance": 5.0,
+   "hc_x": 103.46,
+   "hc_y": 167.38,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "4aae66ea-19de-32f4-b6bb-8141f78bbc24",
+   "venue_id": 4705,
+   "venue_name": "Truist Park",
+   "temp_f": 85.0,
+   "wind_mph": 11.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 22.7,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824873,
    "date": "2026-09-11",

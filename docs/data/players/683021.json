@@ -2,20 +2,38 @@
  "player_id": 683021,
  "player_name": "Michael Stefanic",
  "team": "ATH",
- "as_of": "2026-09-13",
+ "as_of": "2026-09-12",
  "form": {
   "streak": 0,
-  "frequency": 0.2,
+  "frequency": 0.167,
   "slopes": {
-   "max_ev": -0.91,
+   "max_ev": -3.18,
    "parks_sum": 0.0,
-   "near_hr": 0.1
+   "near_hr": 0.029
   },
-  "intensity": 0.033,
-  "expectancy_score": 7.0,
-  "last_appearance": "2026-09-03"
+  "intensity": 0.01,
+  "expectancy_score": 5.3,
+  "last_appearance": "2026-09-12"
  },
  "days": [
+  {
+   "date": "2026-09-12",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 76.8,
+   "max_distance": 48.0,
+   "max_barrel_score": 11.4,
+   "temp_f": 78.0,
+   "wind_mph": 12.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-03",
    "bbe": 2,
@@ -108,6 +126,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824955,
+   "date": "2026-09-12",
+   "player_id": 683021,
+   "player_name": "Michael Stefanic",
+   "team": "ATH",
+   "opponent": "SEA",
+   "result": "Groundout",
+   "exit_velocity": 76.8,
+   "launch_angle": 2.0,
+   "hit_distance": 48.0,
+   "hc_x": 115.83,
+   "hc_y": 150.67,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "72fe196c-dc8f-310f-8f2d-34ea40709cc9",
+   "venue_id": 2529,
+   "venue_name": "Sutter Health Park",
+   "temp_f": 78.0,
+   "wind_mph": 12.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 11.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823095,
    "date": "2026-09-03",
