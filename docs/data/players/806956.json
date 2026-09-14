@@ -2,20 +2,38 @@
  "player_id": 806956,
  "player_name": "Ethan Salas",
  "team": "SD",
- "as_of": "2026-09-14",
+ "as_of": "2026-09-13",
  "form": {
-  "streak": 0,
-  "frequency": 0.2,
+  "streak": 1,
+  "frequency": 0.333,
   "slopes": {
-   "max_ev": -3.89,
-   "parks_sum": 0.0,
-   "near_hr": -0.2
+   "max_ev": -1.523,
+   "parks_sum": 0.714,
+   "near_hr": 0.036
   },
-  "intensity": 0.0,
-  "expectancy_score": 6.0,
-  "last_appearance": "2026-09-12"
+  "intensity": 0.091,
+  "expectancy_score": 20.7,
+  "last_appearance": "2026-09-13"
  },
  "days": [
+  {
+   "date": "2026-09-13",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 1,
+   "near_hr_distance": 0,
+   "near_hr_parks": 1,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 5,
+   "max_ev": 94.7,
+   "max_distance": 352.0,
+   "max_barrel_score": 66.1,
+   "temp_f": 68.0,
+   "wind_mph": 19.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-09-12",
    "bbe": 2,
@@ -108,6 +126,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823171,
+   "date": "2026-09-13",
+   "player_id": 806956,
+   "player_name": "Ethan Salas",
+   "team": "SD",
+   "opponent": "SF",
+   "result": "Triple",
+   "exit_velocity": 94.7,
+   "launch_angle": 36.0,
+   "hit_distance": 352.0,
+   "hc_x": 200.78,
+   "hc_y": 77.71,
+   "would_be_hr_count": 5,
+   "inning": 4,
+   "play_id": "46b0dc6a-6353-370b-9810-34f418f64068",
+   "venue_id": 2395,
+   "venue_name": "Oracle Park",
+   "temp_f": 68.0,
+   "wind_mph": 19.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": true,
+   "barrel_score": 66.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 823170,
    "date": "2026-09-12",

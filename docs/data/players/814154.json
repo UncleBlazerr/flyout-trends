@@ -1,0 +1,69 @@
+{
+ "player_id": 814154,
+ "player_name": "Scott Bandura",
+ "team": "SF",
+ "as_of": "2026-09-13",
+ "form": {
+  "streak": 0,
+  "frequency": 0.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-09-13"
+ },
+ "days": [
+  {
+   "date": "2026-09-13",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 51.9,
+   "max_distance": 135.0,
+   "max_barrel_score": 37.4,
+   "temp_f": 68.0,
+   "wind_mph": 19.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny"
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 823171,
+   "date": "2026-09-13",
+   "player_id": 814154,
+   "player_name": "Scott Bandura",
+   "team": "SF",
+   "opponent": "SD",
+   "result": "Single",
+   "exit_velocity": 51.9,
+   "launch_angle": 26.0,
+   "hit_distance": 135.0,
+   "hc_x": 130.16,
+   "hc_y": 155.09,
+   "would_be_hr_count": 0,
+   "inning": 6,
+   "play_id": "8e856319-0eaa-3c0e-bee2-d3571501744a",
+   "venue_id": 2395,
+   "venue_name": "Oracle Park",
+   "temp_f": 68.0,
+   "wind_mph": 19.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 37.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  }
+ ]
+}
