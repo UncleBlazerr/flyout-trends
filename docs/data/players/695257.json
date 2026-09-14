@@ -2,9 +2,9 @@
  "player_id": 695257,
  "player_name": "Billy Cook",
  "team": "PIT",
- "as_of": "2026-09-12",
+ "as_of": "2026-09-14",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.333,
   "slopes": {
    "max_ev": 2.55,
@@ -12,7 +12,7 @@
    "near_hr": 0.5
   },
   "intensity": 0.5,
-  "expectancy_score": 33.0,
+  "expectancy_score": 25.0,
   "last_appearance": "2026-09-11"
  },
  "days": [

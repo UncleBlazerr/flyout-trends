@@ -2,17 +2,17 @@
  "player_id": 678011,
  "player_name": "Anthony Seigler",
  "team": "BOS",
- "as_of": "2026-09-12",
+ "as_of": "2026-09-14",
  "form": {
   "streak": 0,
-  "frequency": 0.286,
+  "frequency": 0.167,
   "slopes": {
-   "max_ev": -0.339,
-   "parks_sum": -0.107,
-   "near_hr": -0.196
+   "max_ev": 0.791,
+   "parks_sum": 0.0,
+   "near_hr": -0.179
   },
-  "intensity": 0.0,
-  "expectancy_score": 8.6,
+  "intensity": 0.132,
+  "expectancy_score": 9.0,
   "last_appearance": "2026-09-12"
  },
  "days": [
@@ -123,24 +123,6 @@
    "wind_mph": 10.0,
    "wind_dir": "out",
    "weather_condition": "Overcast"
-  },
-  {
-   "date": "2026-08-15",
-   "bbe": 1,
-   "hr": 0,
-   "near_hr_any": 1,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 1,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 1,
-   "would_be_hr_parks_sum": 1,
-   "max_ev": 95.7,
-   "max_distance": 352.0,
-   "max_barrel_score": 72.5,
-   "temp_f": 79.0,
-   "wind_mph": 2.0,
-   "wind_dir": "cross",
-   "weather_condition": "Cloudy"
   }
  ],
  "events": [
@@ -462,35 +444,6 @@
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
-  },
-  {
-   "game_pk": 823347,
-   "date": "2026-08-15",
-   "player_id": 678011,
-   "player_name": "Anthony Seigler",
-   "team": "BOS",
-   "opponent": "PIT",
-   "result": "Flyout",
-   "exit_velocity": 95.7,
-   "launch_angle": 31.0,
-   "hit_distance": 352.0,
-   "hc_x": 53.81,
-   "hc_y": 76.38,
-   "would_be_hr_count": 1,
-   "inning": 5,
-   "play_id": "ac0f7449-e0b2-365b-8f85-86555d7fc9a7",
-   "venue_id": 31,
-   "venue_name": "PNC Park",
-   "temp_f": 79.0,
-   "wind_mph": 2.0,
-   "wind_dir": "cross",
-   "weather_condition": "Cloudy",
-   "distance_flag": true,
-   "would_be_hr_flag": false,
-   "barrel_score": 72.5,
-   "barrel_flag": true,
-   "is_home_run": false,
-   "is_near_hr": true
   }
  ]
 }
