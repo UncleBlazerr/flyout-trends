@@ -2,7 +2,7 @@
  "player_id": 687749,
  "player_name": "Jase Bowen",
  "team": "SD",
- "as_of": "2026-09-13",
+ "as_of": "2026-09-15",
  "form": {
   "streak": 0,
   "frequency": 0.286,
@@ -159,24 +159,6 @@
    "wind_mph": 6.0,
    "wind_dir": "out",
    "weather_condition": "Partly Cloudy"
-  },
-  {
-   "date": "2026-08-16",
-   "bbe": 1,
-   "hr": 1,
-   "near_hr_any": 0,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 0,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 0,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 100.0,
-   "max_distance": 366.0,
-   "max_barrel_score": 70.7,
-   "temp_f": 78.0,
-   "wind_mph": 9.0,
-   "wind_dir": "out",
-   "weather_condition": "Overcast"
   }
  ],
  "events": [
@@ -439,35 +421,6 @@
    "barrel_score": 23.8,
    "barrel_flag": false,
    "is_home_run": false,
-   "is_near_hr": false
-  },
-  {
-   "game_pk": 824397,
-   "date": "2026-08-16",
-   "player_id": 687749,
-   "player_name": "Jase Bowen",
-   "team": "SD",
-   "opponent": "CLE",
-   "result": "Home Run",
-   "exit_velocity": 100.0,
-   "launch_angle": 37.0,
-   "hit_distance": 366.0,
-   "hc_x": 216.89,
-   "hc_y": 81.47,
-   "would_be_hr_count": 26,
-   "inning": 8,
-   "play_id": "21cacffd-b4ca-308f-a09e-4a6ef5e30184",
-   "venue_id": 5,
-   "venue_name": "Progressive Field",
-   "temp_f": 78.0,
-   "wind_mph": 9.0,
-   "wind_dir": "out",
-   "weather_condition": "Overcast",
-   "distance_flag": false,
-   "would_be_hr_flag": false,
-   "barrel_score": 70.7,
-   "barrel_flag": false,
-   "is_home_run": true,
    "is_near_hr": false
   }
  ]

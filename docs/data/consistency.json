@@ -1,23 +1,13 @@
 {
- "as_of": "2026-09-13",
+ "as_of": "2026-09-15",
  "players": [
-  {
-   "player_id": 677956,
-   "player_name": "Rece Hinds",
-   "team": "BAL",
-   "record_streak": 5,
-   "total_flags": 6,
-   "avg_score": 46.6,
-   "current_score": 51.1,
-   "game_streak": 2
-  },
   {
    "player_id": 805808,
    "player_name": "Kevin McGonigle",
    "team": "DET",
-   "record_streak": 3,
-   "total_flags": 15,
-   "avg_score": 56.6,
+   "record_streak": 5,
+   "total_flags": 17,
+   "avg_score": 58.3,
    "current_score": 81.9,
    "game_streak": 5
   },
@@ -25,28 +15,18 @@
    "player_id": 571970,
    "player_name": "Max Muncy",
    "team": "LAD",
-   "record_streak": 2,
-   "total_flags": 6,
-   "avg_score": 42.8,
+   "record_streak": 4,
+   "total_flags": 8,
+   "avg_score": 43.7,
    "current_score": 48.5,
    "game_streak": 3
-  },
-  {
-   "player_id": 695491,
-   "player_name": "Joshua B\u00e1ez",
-   "team": "STL",
-   "record_streak": 2,
-   "total_flags": 5,
-   "avg_score": 41.6,
-   "current_score": 37.4,
-   "game_streak": 2
   },
   {
    "player_id": 691181,
    "player_name": "Emmanuel Rodriguez",
    "team": "MIN",
-   "record_streak": 2,
-   "total_flags": 2,
+   "record_streak": 4,
+   "total_flags": 4,
    "avg_score": 42.0,
    "current_score": 46.0,
    "game_streak": 2
@@ -56,8 +36,8 @@
    "player_name": "Jackson Merrill",
    "team": "SD",
    "record_streak": 1,
-   "total_flags": 12,
-   "avg_score": 58.6,
+   "total_flags": 13,
+   "avg_score": 56.8,
    "current_score": 35.3,
    "game_streak": 1
   },
@@ -66,9 +46,19 @@
    "player_name": "Tim Tawa",
    "team": "AZ",
    "record_streak": 1,
-   "total_flags": 12,
-   "avg_score": 45.3,
+   "total_flags": 13,
+   "avg_score": 45.1,
    "current_score": 42.6,
+   "game_streak": 2
+  },
+  {
+   "player_id": 666126,
+   "player_name": "Carlos Cortes",
+   "team": "ATH",
+   "record_streak": 1,
+   "total_flags": 9,
+   "avg_score": 53.4,
+   "current_score": 37.1,
    "game_streak": 2
   },
   {
@@ -76,8 +66,8 @@
    "player_name": "Colt Keith",
    "team": "DET",
    "record_streak": 1,
-   "total_flags": 7,
-   "avg_score": 45.6,
+   "total_flags": 8,
+   "avg_score": 44.7,
    "current_score": 38.8,
    "game_streak": 2
   },
@@ -86,8 +76,8 @@
    "player_name": "Drake Baldwin",
    "team": "ATL",
    "record_streak": 1,
-   "total_flags": 5,
-   "avg_score": 40.0,
+   "total_flags": 6,
+   "avg_score": 40.4,
    "current_score": 42.4,
    "game_streak": 2
   },
@@ -96,8 +86,8 @@
    "player_name": "Seiya Suzuki",
    "team": "CHC",
    "record_streak": 1,
-   "total_flags": 4,
-   "avg_score": 39.5,
+   "total_flags": 5,
+   "avg_score": 39.6,
    "current_score": 39.8,
    "game_streak": 2
   },
@@ -106,8 +96,8 @@
    "player_name": "Vladimir Guerrero Jr.",
    "team": "TOR",
    "record_streak": 1,
-   "total_flags": 3,
-   "avg_score": 38.5,
+   "total_flags": 4,
+   "avg_score": 38.8,
    "current_score": 39.7,
    "game_streak": 2
   },
@@ -116,8 +106,8 @@
    "player_name": "Tyler Stephenson",
    "team": "CIN",
    "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 43.5,
+   "total_flags": 3,
+   "avg_score": 45.6,
    "current_score": 49.8,
    "game_streak": 3
   },
@@ -126,8 +116,8 @@
    "player_name": "J.T. Realmuto",
    "team": "PHI",
    "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 37.2,
+   "total_flags": 3,
+   "avg_score": 37.7,
    "current_score": 38.7,
    "game_streak": 1
   },
@@ -136,7 +126,7 @@
    "player_name": "Josue De Paula",
    "team": "LAD",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 44.2,
    "current_score": 44.2,
    "game_streak": 1
@@ -146,9 +136,19 @@
    "player_name": "Brett Harris",
    "team": "SF",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 37.0,
    "current_score": 37.0,
+   "game_streak": 1
+  },
+  {
+   "player_id": 663968,
+   "player_name": "Jake Mangum",
+   "team": "PIT",
+   "record_streak": 1,
+   "total_flags": 2,
+   "avg_score": 36.2,
+   "current_score": 35.3,
    "game_streak": 1
   }
  ]

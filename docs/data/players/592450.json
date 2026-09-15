@@ -2,9 +2,9 @@
  "player_id": 592450,
  "player_name": "Aaron Judge",
  "team": "NYY",
- "as_of": "2026-09-13",
+ "as_of": "2026-09-15",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.5,
   "slopes": {
    "max_ev": 2.78,
@@ -12,7 +12,7 @@
    "near_hr": 0.3
   },
   "intensity": 0.433,
-  "expectancy_score": 36.0,
+  "expectancy_score": 28.0,
   "last_appearance": "2026-09-12"
  },
  "days": [
