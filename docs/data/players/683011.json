@@ -2,20 +2,38 @@
  "player_id": 683011,
  "player_name": "Anthony Volpe",
  "team": "NYY",
- "as_of": "2026-09-15",
+ "as_of": "2026-09-14",
  "form": {
-  "streak": 0,
-  "frequency": 0.25,
+  "streak": 1,
+  "frequency": 0.4,
   "slopes": {
-   "max_ev": -2.06,
+   "max_ev": -0.77,
    "parks_sum": 0.0,
-   "near_hr": -0.1
+   "near_hr": 0.1
   },
-  "intensity": 0.0,
-  "expectancy_score": 7.5,
-  "last_appearance": "2026-09-13"
+  "intensity": 0.033,
+  "expectancy_score": 21.0,
+  "last_appearance": "2026-09-14"
  },
  "days": [
+  {
+   "date": "2026-09-14",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 99.6,
+   "max_distance": 309.0,
+   "max_barrel_score": 70.9,
+   "temp_f": 59.0,
+   "wind_mph": 12.0,
+   "wind_dir": "cross",
+   "weather_condition": "Cloudy"
+  },
   {
    "date": "2026-09-13",
    "bbe": 1,
@@ -90,6 +108,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823656,
+   "date": "2026-09-14",
+   "player_id": 683011,
+   "player_name": "Anthony Volpe",
+   "team": "NYY",
+   "opponent": "MIN",
+   "result": "Lineout",
+   "exit_velocity": 99.6,
+   "launch_angle": 22.0,
+   "hit_distance": 309.0,
+   "hc_x": 52.19,
+   "hc_y": 98.53,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "fba922da-485d-3bfe-b7c0-4e9bf17d081d",
+   "venue_id": 3312,
+   "venue_name": "Target Field",
+   "temp_f": 59.0,
+   "wind_mph": 12.0,
+   "wind_dir": "cross",
+   "weather_condition": "Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 70.9,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 823495,
    "date": "2026-09-13",

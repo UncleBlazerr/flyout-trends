@@ -2,20 +2,38 @@
  "player_id": 682177,
  "player_name": "Daniel Schneemann",
  "team": "CLE",
- "as_of": "2026-09-15",
+ "as_of": "2026-09-14",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 20.0,
+   "max_ev": 16.95,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.333,
   "expectancy_score": 10.0,
-  "last_appearance": "2026-09-06"
+  "last_appearance": "2026-09-14"
  },
  "days": [
+  {
+   "date": "2026-09-14",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 103.2,
+   "max_distance": 45.0,
+   "max_barrel_score": 32.5,
+   "temp_f": 66.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-06",
    "bbe": 1,
@@ -54,6 +72,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824386,
+   "date": "2026-09-14",
+   "player_id": 682177,
+   "player_name": "Daniel Schneemann",
+   "team": "CLE",
+   "opponent": "CWS",
+   "result": "Groundout",
+   "exit_velocity": 103.2,
+   "launch_angle": null,
+   "hit_distance": 45.0,
+   "hc_x": 152.48,
+   "hc_y": 151.04,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "5330d1de-f25b-3e36-b3c5-3a1e99fbc1bf",
+   "venue_id": 5,
+   "venue_name": "Progressive Field",
+   "temp_f": 66.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 32.5,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824385,
    "date": "2026-09-06",

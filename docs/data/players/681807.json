@@ -2,20 +2,38 @@
  "player_id": 681807,
  "player_name": "David Fry",
  "team": "CLE",
- "as_of": "2026-09-15",
+ "as_of": "2026-09-14",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 4.65,
+   "max_ev": 5.114,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.333,
   "expectancy_score": 10.0,
-  "last_appearance": "2026-09-12"
+  "last_appearance": "2026-09-14"
  },
  "days": [
+  {
+   "date": "2026-09-14",
+   "bbe": 1,
+   "hr": 1,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 108.0,
+   "max_distance": 410.0,
+   "max_barrel_score": 90.6,
+   "temp_f": 66.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-12",
    "bbe": 1,
@@ -162,6 +180,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824386,
+   "date": "2026-09-14",
+   "player_id": 681807,
+   "player_name": "David Fry",
+   "team": "CLE",
+   "opponent": "CWS",
+   "result": "Home Run",
+   "exit_velocity": 108.0,
+   "launch_angle": 27.0,
+   "hit_distance": 410.0,
+   "hc_x": 27.45,
+   "hc_y": 64.51,
+   "would_be_hr_count": 30,
+   "inning": 9,
+   "play_id": "a0c47a1b-dd8a-31ae-b8d9-756056c47350",
+   "venue_id": 5,
+   "venue_name": "Progressive Field",
+   "temp_f": 66.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 90.6,
+   "barrel_flag": false,
+   "is_home_run": true,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823657,
    "date": "2026-09-12",

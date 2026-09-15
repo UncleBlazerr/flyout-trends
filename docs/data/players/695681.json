@@ -2,20 +2,38 @@
  "player_id": 695681,
  "player_name": "Christian Moore",
  "team": "LAA",
- "as_of": "2026-09-15",
+ "as_of": "2026-09-14",
  "form": {
   "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": 2.721,
-   "parks_sum": 0.357,
-   "near_hr": 0.116
+   "max_ev": -1.671,
+   "parks_sum": 0.0,
+   "near_hr": 0.036
   },
-  "intensity": 0.412,
-  "expectancy_score": 20.9,
-  "last_appearance": "2026-09-13"
+  "intensity": 0.012,
+  "expectancy_score": 8.9,
+  "last_appearance": "2026-09-14"
  },
  "days": [
+  {
+   "date": "2026-09-14",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 85.7,
+   "max_distance": 321.0,
+   "max_barrel_score": 62.6,
+   "temp_f": 75.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-09-13",
    "bbe": 3,
@@ -360,6 +378,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823981,
+   "date": "2026-09-14",
+   "player_id": 695681,
+   "player_name": "Christian Moore",
+   "team": "LAA",
+   "opponent": "SEA",
+   "result": "Flyout",
+   "exit_velocity": 85.7,
+   "launch_angle": 30.0,
+   "hit_distance": 321.0,
+   "hc_x": 98.79,
+   "hc_y": 73.31,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "9d497102-b500-32f1-afc2-774a619abe96",
+   "venue_id": 1,
+   "venue_name": "Angel Stadium",
+   "temp_f": 75.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 62.6,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 822682,
    "date": "2026-09-13",
