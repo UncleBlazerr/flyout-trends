@@ -2,20 +2,38 @@
  "player_id": 694673,
  "player_name": "Abimelec Ortiz",
  "team": "WSH",
- "as_of": "2026-09-16",
+ "as_of": "2026-09-15",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": 1.35,
-   "parks_sum": 0.0,
-   "near_hr": 0.0
+   "max_ev": 2.907,
+   "parks_sum": -0.107,
+   "near_hr": -0.036
   },
-  "intensity": 0.225,
-  "expectancy_score": 11.0,
-  "last_appearance": "2026-09-13"
+  "intensity": 0.333,
+  "expectancy_score": 14.3,
+  "last_appearance": "2026-09-15"
  },
  "days": [
+  {
+   "date": "2026-09-15",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 95.5,
+   "max_distance": 226.0,
+   "max_barrel_score": 37.7,
+   "temp_f": 78.0,
+   "wind_mph": 5.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-09-13",
    "bbe": 1,
@@ -414,6 +432,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822683,
+   "date": "2026-09-15",
+   "player_id": 694673,
+   "player_name": "Abimelec Ortiz",
+   "team": "WSH",
+   "opponent": "PHI",
+   "result": "Flyout",
+   "exit_velocity": 95.5,
+   "launch_angle": 56.0,
+   "hit_distance": 226.0,
+   "hc_x": 118.36,
+   "hc_y": 110.28,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "52ab099a-007e-37d1-b79e-ef4976b8eb18",
+   "venue_id": 3309,
+   "venue_name": "Nationals Park",
+   "temp_f": 78.0,
+   "wind_mph": 5.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 37.7,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 822682,
    "date": "2026-09-13",

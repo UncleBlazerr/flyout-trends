@@ -2,20 +2,38 @@
  "player_id": 695391,
  "player_name": "Brett Harris",
  "team": "SF",
- "as_of": "2026-09-16",
+ "as_of": "2026-09-15",
  "form": {
-  "streak": 0,
-  "frequency": 0.5,
+  "streak": 1,
+  "frequency": 0.667,
   "slopes": {
-   "max_ev": -2.4,
+   "max_ev": 3.0,
    "parks_sum": 0.0,
-   "near_hr": -2.0
+   "near_hr": -0.375
   },
-  "intensity": 0.0,
-  "expectancy_score": 15.0,
-  "last_appearance": "2026-09-14"
+  "intensity": 0.333,
+  "expectancy_score": 38.0,
+  "last_appearance": "2026-09-15"
  },
  "days": [
+  {
+   "date": "2026-09-15",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 1,
+   "near_hr_distance": 1,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 103.1,
+   "max_distance": 383.0,
+   "max_barrel_score": 79.0,
+   "temp_f": 90.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-14",
    "bbe": 3,
@@ -54,6 +72,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823007,
+   "date": "2026-09-15",
+   "player_id": 695391,
+   "player_name": "Brett Harris",
+   "team": "SF",
+   "opponent": "STL",
+   "result": "Double",
+   "exit_velocity": 103.1,
+   "launch_angle": 22.0,
+   "hit_distance": 383.0,
+   "hc_x": 106.64,
+   "hc_y": 45.67,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "bd779bc7-cb4a-3842-9f3b-c18a6835daa9",
+   "venue_id": 2889,
+   "venue_name": "Busch Stadium",
+   "temp_f": 90.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": true,
+   "would_be_hr_flag": false,
+   "barrel_score": 79.0,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 823006,
    "date": "2026-09-14",
