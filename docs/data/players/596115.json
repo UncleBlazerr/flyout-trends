@@ -2,9 +2,9 @@
  "player_id": 596115,
  "player_name": "Trevor Story",
  "team": "BOS",
- "as_of": "2026-09-14",
+ "as_of": "2026-09-16",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 1.514,
@@ -12,7 +12,7 @@
    "near_hr": 0.152
   },
   "intensity": 0.382,
-  "expectancy_score": 28.0,
+  "expectancy_score": 20.0,
   "last_appearance": "2026-09-13"
  },
  "days": [
