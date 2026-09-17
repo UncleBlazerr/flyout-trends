@@ -2,20 +2,38 @@
  "player_id": 676609,
  "player_name": "Jos\u00e9 Caballero",
  "team": "NYY",
- "as_of": "2026-09-17",
+ "as_of": "2026-09-16",
  "form": {
-  "streak": 0,
-  "frequency": 0.0,
+  "streak": 1,
+  "frequency": 0.143,
   "slopes": {
-   "max_ev": 1.85,
+   "max_ev": 1.0,
    "parks_sum": 0.0,
-   "near_hr": 0.0
+   "near_hr": 0.107
   },
-  "intensity": 0.308,
-  "expectancy_score": 9.2,
-  "last_appearance": "2026-09-15"
+  "intensity": 0.202,
+  "expectancy_score": 18.4,
+  "last_appearance": "2026-09-16"
  },
  "days": [
+  {
+   "date": "2026-09-16",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 1,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 99.6,
+   "max_distance": 355.0,
+   "max_barrel_score": 72.9,
+   "temp_f": 71.0,
+   "wind_mph": 10.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-15",
    "bbe": 4,
@@ -324,6 +342,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823655,
+   "date": "2026-09-16",
+   "player_id": 676609,
+   "player_name": "Jos\u00e9 Caballero",
+   "team": "NYY",
+   "opponent": "MIN",
+   "result": "Sac Fly",
+   "exit_velocity": 99.6,
+   "launch_angle": 21.0,
+   "hit_distance": 355.0,
+   "hc_x": 144.43,
+   "hc_y": 57.26,
+   "would_be_hr_count": 0,
+   "inning": 11,
+   "play_id": "edda6428-76cb-33aa-b04c-b34b996ac773",
+   "venue_id": 3312,
+   "venue_name": "Target Field",
+   "temp_f": 71.0,
+   "wind_mph": 10.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": true,
+   "would_be_hr_flag": false,
+   "barrel_score": 72.9,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 823654,
    "date": "2026-09-15",
