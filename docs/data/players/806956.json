@@ -2,9 +2,9 @@
  "player_id": 806956,
  "player_name": "Ethan Salas",
  "team": "SD",
- "as_of": "2026-09-15",
+ "as_of": "2026-09-17",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.333,
   "slopes": {
    "max_ev": -1.523,
@@ -12,7 +12,7 @@
    "near_hr": 0.036
   },
   "intensity": 0.091,
-  "expectancy_score": 20.7,
+  "expectancy_score": 12.7,
   "last_appearance": "2026-09-13"
  },
  "days": [
