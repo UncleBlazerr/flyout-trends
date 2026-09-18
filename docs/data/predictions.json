@@ -209,14 +209,14 @@
    "band": "<40",
    "band_rate": 0.208,
    "band_samples": 17396,
-   "weather_factor": 1.0,
-   "adjusted_score": 36.3,
+   "weather_factor": 1.04,
+   "adjusted_score": 37.8,
    "game_weather": {
     "venue_name": "Great American Ball Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 80.0,
+    "wind_mph": 10.0,
+    "wind_dir": "cross",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": true
   },
