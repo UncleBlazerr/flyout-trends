@@ -2,9 +2,9 @@
  "player_id": 696100,
  "player_name": "Hunter Goodman",
  "team": "COL",
- "as_of": "2026-09-16",
+ "as_of": "2026-09-18",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.143,
   "slopes": {
    "max_ev": 1.807,
@@ -12,7 +12,7 @@
    "near_hr": 0.134
   },
   "intensity": 0.667,
-  "expectancy_score": 32.3,
+  "expectancy_score": 24.3,
   "last_appearance": "2026-09-14"
  },
  "days": [

@@ -2,9 +2,9 @@
  "player_id": 676551,
  "player_name": "Brewer Hicklen",
  "team": "ATL",
- "as_of": "2026-09-16",
+ "as_of": "2026-09-18",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.333,
   "slopes": {
    "max_ev": 17.45,
@@ -12,7 +12,7 @@
    "near_hr": 0.625
   },
   "intensity": 0.542,
-  "expectancy_score": 34.2,
+  "expectancy_score": 26.2,
   "last_appearance": "2026-09-15"
  },
  "days": [

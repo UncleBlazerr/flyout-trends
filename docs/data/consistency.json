@@ -1,33 +1,23 @@
 {
- "as_of": "2026-09-16",
+ "as_of": "2026-09-18",
  "players": [
   {
    "player_id": 664034,
    "player_name": "Ty France",
    "team": "SD",
-   "record_streak": 3,
-   "total_flags": 8,
-   "avg_score": 42.3,
+   "record_streak": 5,
+   "total_flags": 10,
+   "avg_score": 44.9,
    "current_score": 55.1,
-   "game_streak": 3
-  },
-  {
-   "player_id": 681393,
-   "player_name": "Connor Norby",
-   "team": "COL",
-   "record_streak": 3,
-   "total_flags": 5,
-   "avg_score": 49.1,
-   "current_score": 64.2,
    "game_streak": 3
   },
   {
    "player_id": 695336,
    "player_name": "Thomas Saggese",
    "team": "STL",
-   "record_streak": 3,
-   "total_flags": 3,
-   "avg_score": 55.6,
+   "record_streak": 5,
+   "total_flags": 5,
+   "avg_score": 58.1,
    "current_score": 68.5,
    "game_streak": 5
   },
@@ -35,48 +25,28 @@
    "player_id": 700250,
    "player_name": "Ben Rice",
    "team": "NYY",
-   "record_streak": 2,
-   "total_flags": 11,
-   "avg_score": 49.1,
+   "record_streak": 4,
+   "total_flags": 13,
+   "avg_score": 48.7,
    "current_score": 51.9,
    "game_streak": 3
-  },
-  {
-   "player_id": 671056,
-   "player_name": "Iv\u00e1n Herrera",
-   "team": "STL",
-   "record_streak": 2,
-   "total_flags": 8,
-   "avg_score": 37.6,
-   "current_score": 34.3,
-   "game_streak": 2
   },
   {
    "player_id": 596019,
    "player_name": "Francisco Lindor",
    "team": "NYM",
-   "record_streak": 2,
-   "total_flags": 7,
-   "avg_score": 36.6,
+   "record_streak": 4,
+   "total_flags": 9,
+   "avg_score": 37.4,
    "current_score": 46.0,
    "game_streak": 3
-  },
-  {
-   "player_id": 665953,
-   "player_name": "Andr\u00e9s Chaparro",
-   "team": "WSH",
-   "record_streak": 2,
-   "total_flags": 3,
-   "avg_score": 36.8,
-   "current_score": 34.8,
-   "game_streak": 2
   },
   {
    "player_id": 701807,
    "player_name": "Carson Benge",
    "team": "NYM",
-   "record_streak": 2,
-   "total_flags": 2,
+   "record_streak": 4,
+   "total_flags": 4,
    "avg_score": 42.7,
    "current_score": 49.0,
    "game_streak": 3
@@ -86,27 +56,57 @@
    "player_name": "Yordan Alvarez",
    "team": "HOU",
    "record_streak": 1,
-   "total_flags": 11,
-   "avg_score": 33.2,
+   "total_flags": 12,
+   "avg_score": 33.3,
    "current_score": 34.6,
    "game_streak": 1
+  },
+  {
+   "player_id": 681393,
+   "player_name": "Connor Norby",
+   "team": "COL",
+   "record_streak": 1,
+   "total_flags": 6,
+   "avg_score": 51.6,
+   "current_score": 64.2,
+   "game_streak": 3
   },
   {
    "player_id": 682987,
    "player_name": "Spencer Jones",
    "team": "NYY",
    "record_streak": 1,
-   "total_flags": 5,
-   "avg_score": 39.3,
+   "total_flags": 6,
+   "avg_score": 39.4,
    "current_score": 39.7,
    "game_streak": 3
+  },
+  {
+   "player_id": 686611,
+   "player_name": "Dylan Crews",
+   "team": "WSH",
+   "record_streak": 1,
+   "total_flags": 4,
+   "avg_score": 36.4,
+   "current_score": 33.5,
+   "game_streak": 2
+  },
+  {
+   "player_id": 605137,
+   "player_name": "Josh Bell",
+   "team": "MIN",
+   "record_streak": 1,
+   "total_flags": 3,
+   "avg_score": 42.6,
+   "current_score": 33.7,
+   "game_streak": 2
   },
   {
    "player_id": 691406,
    "player_name": "Junior Caminero",
    "team": "TB",
    "record_streak": 1,
-   "total_flags": 2,
+   "total_flags": 3,
    "avg_score": 40.0,
    "current_score": 39.8,
    "game_streak": 2
@@ -116,8 +116,8 @@
    "player_name": "Nico Hoerner",
    "team": "CHC",
    "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 34.5,
+   "total_flags": 3,
+   "avg_score": 35.1,
    "current_score": 36.3,
    "game_streak": 2
   },
@@ -126,7 +126,7 @@
    "player_name": "Anthony Volpe",
    "team": "NYY",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 47.6,
    "current_score": 47.6,
    "game_streak": 3
@@ -136,7 +136,7 @@
    "player_name": "Ben Ross",
    "team": "MIN",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 46.3,
    "current_score": 46.3,
    "game_streak": 1
@@ -146,7 +146,7 @@
    "player_name": "Chase Meidroth",
    "team": "CWS",
    "record_streak": 1,
-   "total_flags": 1,
+   "total_flags": 2,
    "avg_score": 41.7,
    "current_score": 41.7,
    "game_streak": 2

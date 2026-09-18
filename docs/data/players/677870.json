@@ -2,17 +2,17 @@
  "player_id": 677870,
  "player_name": "Leo Jim\u00e9nez",
  "team": "MIA",
- "as_of": "2026-09-16",
+ "as_of": "2026-09-18",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 0.632,
+   "max_ev": 1.877,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.105,
-  "expectancy_score": 3.2,
+  "intensity": 0.313,
+  "expectancy_score": 9.4,
   "last_appearance": "2026-08-31"
  },
  "days": [
@@ -123,24 +123,6 @@
    "wind_mph": 0.0,
    "wind_dir": "none",
    "weather_condition": "Roof Closed"
-  },
-  {
-   "date": "2026-08-18",
-   "bbe": 1,
-   "hr": 0,
-   "near_hr_any": 0,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 0,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 0,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 92.0,
-   "max_distance": 42.0,
-   "max_barrel_score": 22.4,
-   "temp_f": 85.0,
-   "wind_mph": 9.0,
-   "wind_dir": "in",
-   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -517,35 +499,6 @@
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 49.1,
-   "barrel_flag": false,
-   "is_home_run": false,
-   "is_near_hr": false
-  },
-  {
-   "game_pk": 823423,
-   "date": "2026-08-18",
-   "player_id": 677870,
-   "player_name": "Leo Jim\u00e9nez",
-   "team": "MIA",
-   "opponent": "PHI",
-   "result": "Groundout",
-   "exit_velocity": 92.0,
-   "launch_angle": null,
-   "hit_distance": 42.0,
-   "hc_x": 104.36,
-   "hc_y": 161.15,
-   "would_be_hr_count": 0,
-   "inning": 9,
-   "play_id": "8185b399-ac43-31c9-915d-81678836b26f",
-   "venue_id": 2681,
-   "venue_name": "Citizens Bank Park",
-   "temp_f": 85.0,
-   "wind_mph": 9.0,
-   "wind_dir": "in",
-   "weather_condition": "Partly Cloudy",
-   "distance_flag": false,
-   "would_be_hr_flag": false,
-   "barrel_score": 22.4,
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
