@@ -2,20 +2,38 @@
  "player_id": 691181,
  "player_name": "Emmanuel Rodriguez",
  "team": "MIN",
- "as_of": "2026-09-18",
+ "as_of": "2026-09-17",
  "form": {
   "streak": 0,
-  "frequency": 0.6,
+  "frequency": 0.5,
   "slopes": {
-   "max_ev": -3.99,
-   "parks_sum": 0.4,
-   "near_hr": -0.175
+   "max_ev": -2.911,
+   "parks_sum": 0.114,
+   "near_hr": -0.193
   },
-  "intensity": 0.044,
-  "expectancy_score": 19.3,
-  "last_appearance": "2026-09-16"
+  "intensity": 0.013,
+  "expectancy_score": 15.4,
+  "last_appearance": "2026-09-17"
  },
  "days": [
+  {
+   "date": "2026-09-17",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 99.5,
+   "max_distance": 273.0,
+   "max_barrel_score": 63.0,
+   "temp_f": 75.0,
+   "wind_mph": 9.0,
+   "wind_dir": "varies",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-09-16",
    "bbe": 3,
@@ -108,6 +126,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823978,
+   "date": "2026-09-17",
+   "player_id": 691181,
+   "player_name": "Emmanuel Rodriguez",
+   "team": "MIN",
+   "opponent": "LAA",
+   "result": "Lineout",
+   "exit_velocity": 99.5,
+   "launch_angle": 17.0,
+   "hit_distance": 273.0,
+   "hc_x": 77.5,
+   "hc_y": 101.13,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "f0b16c59-0fe2-3ef9-befd-cd10b8bd82ae",
+   "venue_id": 1,
+   "venue_name": "Angel Stadium",
+   "temp_f": 75.0,
+   "wind_mph": 9.0,
+   "wind_dir": "varies",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 63.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823655,
    "date": "2026-09-16",

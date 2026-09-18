@@ -2,9 +2,9 @@
  "player_id": 665804,
  "player_name": "Miguel Amaya",
  "team": "CHC",
- "as_of": "2026-09-18",
+ "as_of": "2026-09-17",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 0.561,
@@ -12,7 +12,7 @@
    "near_hr": 0.0
   },
   "intensity": 0.094,
-  "expectancy_score": 11.4,
+  "expectancy_score": 19.4,
   "last_appearance": "2026-09-15"
  },
  "days": [

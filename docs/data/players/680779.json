@@ -2,20 +2,38 @@
  "player_id": 680779,
  "player_name": "Henry Davis",
  "team": "PIT",
- "as_of": "2026-09-18",
+ "as_of": "2026-09-17",
  "form": {
   "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": 1.243,
+   "max_ev": 1.129,
    "parks_sum": 0.0,
-   "near_hr": -0.036
+   "near_hr": -0.107
   },
-  "intensity": 0.207,
-  "expectancy_score": 14.8,
-  "last_appearance": "2026-09-13"
+  "intensity": 0.188,
+  "expectancy_score": 14.2,
+  "last_appearance": "2026-09-17"
  },
  "days": [
+  {
+   "date": "2026-09-17",
+   "bbe": 1,
+   "hr": 1,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 110.2,
+   "max_distance": 423.0,
+   "max_barrel_score": 92.3,
+   "temp_f": 77.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-13",
    "bbe": 4,
@@ -198,6 +216,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823334,
+   "date": "2026-09-17",
+   "player_id": 680779,
+   "player_name": "Henry Davis",
+   "team": "PIT",
+   "opponent": "MIL",
+   "result": "Home Run",
+   "exit_velocity": 110.2,
+   "launch_angle": 26.0,
+   "hit_distance": 423.0,
+   "hc_x": 19.55,
+   "hc_y": 46.79,
+   "would_be_hr_count": 30,
+   "inning": 8,
+   "play_id": "e2ae11d0-dfa8-375b-851d-83298188ca80",
+   "venue_id": 31,
+   "venue_name": "PNC Park",
+   "temp_f": 77.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 92.3,
+   "barrel_flag": false,
+   "is_home_run": true,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824628,
    "date": "2026-09-13",
