@@ -22,16 +22,6 @@
    "game_streak": 2
   },
   {
-   "player_id": 596019,
-   "player_name": "Francisco Lindor",
-   "team": "NYM",
-   "record_streak": 1,
-   "total_flags": 8,
-   "avg_score": 36.3,
-   "current_score": 33.8,
-   "game_streak": 1
-  },
-  {
    "player_id": 687263,
    "player_name": "Zach Neto",
    "team": "LAA",
@@ -90,6 +80,16 @@
    "avg_score": 43.9,
    "current_score": 34.3,
    "game_streak": 2
+  },
+  {
+   "player_id": 605137,
+   "player_name": "Josh Bell",
+   "team": "MIN",
+   "record_streak": 1,
+   "total_flags": 3,
+   "avg_score": 42.1,
+   "current_score": 32.3,
+   "game_streak": 1
   },
   {
    "player_id": 672640,
