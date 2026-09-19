@@ -2,20 +2,38 @@
  "player_id": 687363,
  "player_name": "Victor Scott II",
  "team": "STL",
- "as_of": "2026-09-19",
+ "as_of": "2026-09-18",
  "form": {
   "streak": 0,
-  "frequency": 0.25,
+  "frequency": 0.2,
   "slopes": {
-   "max_ev": -6.73,
-   "parks_sum": -2.1,
-   "near_hr": -0.3
+   "max_ev": -2.32,
+   "parks_sum": -1.4,
+   "near_hr": -0.2
   },
   "intensity": 0.0,
-  "expectancy_score": 7.5,
-  "last_appearance": "2026-09-15"
+  "expectancy_score": 6.0,
+  "last_appearance": "2026-09-18"
  },
  "days": [
+  {
+   "date": "2026-09-18",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 95.8,
+   "max_distance": 2.0,
+   "max_barrel_score": 23.1,
+   "temp_f": 89.0,
+   "wind_mph": 2.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-09-15",
    "bbe": 1,
@@ -90,6 +108,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823005,
+   "date": "2026-09-18",
+   "player_id": 687363,
+   "player_name": "Victor Scott II",
+   "team": "STL",
+   "opponent": "WSH",
+   "result": "Groundout",
+   "exit_velocity": 95.8,
+   "launch_angle": -48.0,
+   "hit_distance": 2.0,
+   "hc_x": 136.61,
+   "hc_y": 148.14,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "e361bafe-671a-3de6-b09e-80b45c918f91",
+   "venue_id": 2889,
+   "venue_name": "Busch Stadium",
+   "temp_f": 89.0,
+   "wind_mph": 2.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 23.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823007,
    "date": "2026-09-15",

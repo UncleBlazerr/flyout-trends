@@ -2,20 +2,38 @@
  "player_id": 677956,
  "player_name": "Rece Hinds",
  "team": "BAL",
- "as_of": "2026-09-19",
+ "as_of": "2026-09-18",
  "form": {
   "streak": 0,
-  "frequency": 0.5,
+  "frequency": 0.429,
   "slopes": {
-   "max_ev": -3.614,
-   "parks_sum": -0.457,
-   "near_hr": -0.179
+   "max_ev": -1.793,
+   "parks_sum": -0.571,
+   "near_hr": -0.17
   },
   "intensity": 0.0,
-  "expectancy_score": 15.0,
-  "last_appearance": "2026-09-16"
+  "expectancy_score": 12.9,
+  "last_appearance": "2026-09-18"
  },
  "days": [
+  {
+   "date": "2026-09-18",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 100.5,
+   "max_distance": 3.0,
+   "max_barrel_score": 27.3,
+   "temp_f": 80.0,
+   "wind_mph": 9.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-16",
    "bbe": 3,
@@ -126,6 +144,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824790,
+   "date": "2026-09-18",
+   "player_id": 677956,
+   "player_name": "Rece Hinds",
+   "team": "BAL",
+   "opponent": "MIL",
+   "result": "Groundout",
+   "exit_velocity": 100.5,
+   "launch_angle": -40.0,
+   "hit_distance": 3.0,
+   "hc_x": 146.24,
+   "hc_y": 169.92,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "ed714f65-c172-3c7b-a61c-c85a896550c6",
+   "venue_id": 2,
+   "venue_name": "Oriole Park at Camden Yards",
+   "temp_f": 80.0,
+   "wind_mph": 9.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 27.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823576,
    "date": "2026-09-16",
