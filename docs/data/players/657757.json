@@ -2,17 +2,17 @@
  "player_id": 657757,
  "player_name": "Gavin Sheets",
  "team": "SD",
- "as_of": "2026-09-17",
+ "as_of": "2026-09-19",
  "form": {
   "streak": 0,
-  "frequency": 0.2,
+  "frequency": 0.25,
   "slopes": {
-   "max_ev": 5.42,
-   "parks_sum": 0.2,
-   "near_hr": 0.2
+   "max_ev": 3.8,
+   "parks_sum": 0.3,
+   "near_hr": 0.3
   },
-  "intensity": 0.422,
-  "expectancy_score": 18.7,
+  "intensity": 0.467,
+  "expectancy_score": 21.5,
   "last_appearance": "2026-08-29"
  },
  "days": [
@@ -87,24 +87,6 @@
    "wind_mph": 7.0,
    "wind_dir": "cross",
    "weather_condition": "Clear"
-  },
-  {
-   "date": "2026-08-19",
-   "bbe": 1,
-   "hr": 0,
-   "near_hr_any": 0,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 0,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 0,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 77.8,
-   "max_distance": 229.0,
-   "max_barrel_score": 45.1,
-   "temp_f": 85.0,
-   "wind_mph": 7.0,
-   "wind_dir": "out",
-   "weather_condition": "Sunny"
   }
  ],
  "events": [
@@ -394,35 +376,6 @@
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 17.7,
-   "barrel_flag": false,
-   "is_home_run": false,
-   "is_near_hr": false
-  },
-  {
-   "game_pk": 823587,
-   "date": "2026-08-19",
-   "player_id": 657757,
-   "player_name": "Gavin Sheets",
-   "team": "SD",
-   "opponent": "NYM",
-   "result": "Single",
-   "exit_velocity": 77.8,
-   "launch_angle": 21.0,
-   "hit_distance": 229.0,
-   "hc_x": 175.7,
-   "hc_y": 131.62,
-   "would_be_hr_count": 0,
-   "inning": 9,
-   "play_id": "77dd4575-f13d-3440-8d6d-81858165a15e",
-   "venue_id": 3289,
-   "venue_name": "Citi Field",
-   "temp_f": 85.0,
-   "wind_mph": 7.0,
-   "wind_dir": "out",
-   "weather_condition": "Sunny",
-   "distance_flag": false,
-   "would_be_hr_flag": false,
-   "barrel_score": 45.1,
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false

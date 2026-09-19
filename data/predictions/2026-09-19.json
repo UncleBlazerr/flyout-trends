@@ -1,7 +1,59 @@
 {
+ "schema_version": 2,
+ "generated_at": "2026-09-19T07:47:10.990178+00:00",
  "as_of": "2026-09-19",
- "horizon_days": 3,
- "min_samples": 20,
+ "config": {
+  "min_near_hr_events": 1,
+  "max_gap_days": 2,
+  "slope_window": 7,
+  "streak_cap": 5,
+  "weights": {
+   "streak": 0.4,
+   "frequency": 0.3,
+   "intensity": 0.3
+  },
+  "intensity_scales": {
+   "max_ev": 2.0,
+   "parks_sum": 3.0,
+   "near_hr": 1.0
+  },
+  "xbh_weight": 1.25,
+  "horizon_days": 3,
+  "score_bands": [
+   40,
+   60,
+   80
+  ],
+  "min_samples": 20,
+  "top_n": 15,
+  "consistency_top_n": 15,
+  "records_dir": "data/predictions",
+  "weather": {
+   "enabled": true,
+   "temp_ref_f": 70,
+   "temp_per_deg": 0.004,
+   "wind_out_min_mph": 5,
+   "wind_out_per_mph": 0.012,
+   "wind_out_cap_mph": 20,
+   "wind_in_min_mph": 5,
+   "wind_in_per_mph": 0.008,
+   "wind_in_cap_mph": 20,
+   "clamp": [
+    0.85,
+    1.2
+   ],
+   "neutral_conditions": [
+    "Dome",
+    "Roof Closed"
+   ],
+   "temp_bands": [
+    55,
+    70,
+    85
+   ],
+   "min_samples": 25
+  }
+ },
  "players": [
   {
    "player_id": 630105,
@@ -467,54 +519,6 @@
     "weather_condition": ""
    },
    "repeat": false
-  }
- ],
- "bands": {
-  "<40": {
-   "samples": 17396,
-   "hr_followed": 3624,
-   "rate": 0.208
-  },
-  "40-60": {
-   "samples": 445,
-   "hr_followed": 112,
-   "rate": 0.252
-  },
-  "60-80": {
-   "samples": 52,
-   "hr_followed": 18,
-   "rate": 0.346
-  },
-  "80+": {
-   "samples": 2,
-   "hr_followed": 1,
-   "rate": 0.5
-  }
- },
- "hit_rate": {
-  "resolved_records": 72,
-  "horizon_days": 3,
-  "overall": {
-   "flagged": 1080,
-   "hr_followed": 237,
-   "rate": 0.219
-  },
-  "top_band": {
-   "band": "80+",
-   "flagged": 2,
-   "hr_followed": 1,
-   "rate": 0.5
-  }
- },
- "recent_hits": [
-  {
-   "player_id": 670541,
-   "player_name": "Yordan Alvarez",
-   "team": "HOU",
-   "flagged_on": "2026-09-16",
-   "flagged_score": 34.6,
-   "hr_on": "2026-09-17",
-   "hr_count": 1
   }
  ]
 }

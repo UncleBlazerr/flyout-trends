@@ -2,9 +2,9 @@
  "player_id": 699024,
  "player_name": "Leo Bernal",
  "team": "STL",
- "as_of": "2026-09-17",
+ "as_of": "2026-09-19",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.571,
   "slopes": {
    "max_ev": -0.204,
@@ -12,7 +12,7 @@
    "near_hr": 0.152
   },
   "intensity": 0.051,
-  "expectancy_score": 26.7,
+  "expectancy_score": 18.7,
   "last_appearance": "2026-09-16"
  },
  "days": [

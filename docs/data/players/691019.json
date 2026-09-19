@@ -2,9 +2,9 @@
  "player_id": 691019,
  "player_name": "Kyle Teel",
  "team": "CWS",
- "as_of": "2026-09-17",
+ "as_of": "2026-09-19",
  "form": {
-  "streak": 2,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 0.679,
@@ -12,7 +12,7 @@
    "near_hr": 0.196
   },
   "intensity": 0.179,
-  "expectancy_score": 29.9,
+  "expectancy_score": 13.9,
   "last_appearance": "2026-09-16"
  },
  "days": [
