@@ -72,13 +72,13 @@
    "game_streak": 2
   },
   {
-   "player_id": 677594,
-   "player_name": "Julio Rodr\u00edguez",
-   "team": "SEA",
+   "player_id": 668904,
+   "player_name": "Royce Lewis",
+   "team": "MIN",
    "record_streak": 1,
    "total_flags": 5,
-   "avg_score": 41.3,
-   "current_score": 31.6,
+   "avg_score": 43.3,
+   "current_score": 29.9,
    "game_streak": 1
   },
   {
@@ -122,16 +122,6 @@
    "game_streak": 2
   },
   {
-   "player_id": 647304,
-   "player_name": "Josh Naylor",
-   "team": "SEA",
-   "record_streak": 1,
-   "total_flags": 1,
-   "avg_score": 34.6,
-   "current_score": 34.6,
-   "game_streak": 2
-  },
-  {
    "player_id": 691023,
    "player_name": "Jordan Walker",
    "team": "STL",
@@ -149,6 +139,16 @@
    "total_flags": 1,
    "avg_score": 32.4,
    "current_score": 32.4,
+   "game_streak": 1
+  },
+  {
+   "player_id": 807713,
+   "player_name": "Matt Shaw",
+   "team": "CHC",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 31.2,
+   "current_score": 31.2,
    "game_streak": 1
   }
  ]

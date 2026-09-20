@@ -23,14 +23,14 @@
    "band": "60-80",
    "band_rate": 0.327,
    "band_samples": 55,
-   "weather_factor": 1.0,
-   "adjusted_score": 61.3,
+   "weather_factor": 0.988,
+   "adjusted_score": 60.6,
    "game_weather": {
     "venue_name": "Rate Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 67.0,
+    "wind_mph": 15.0,
+    "wind_dir": "cross",
+    "weather_condition": "Cloudy"
    },
    "repeat": true
   },
@@ -58,12 +58,43 @@
    "adjusted_score": 55.6,
    "game_weather": {
     "venue_name": "Daikin Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 73.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": true
+  },
+  {
+   "player_id": 596019,
+   "player_name": "Francisco Lindor",
+   "team": "NYM",
+   "expectancy_score": 48.9,
+   "streak": 2,
+   "frequency": 0.714,
+   "slopes": {
+    "max_ev": 2.307,
+    "parks_sum": 0.0,
+    "near_hr": 0.152
+   },
+   "near_hr_7d": 6,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 0,
+   "max_ev_7d": 108.8,
+   "max_distance_7d": 397,
+   "band": "40-60",
+   "band_rate": 0.258,
+   "band_samples": 458,
+   "weather_factor": 1.087,
+   "adjusted_score": 53.2,
+   "game_weather": {
+    "venue_name": "Citi Field",
+    "temp_f": 68.0,
+    "wind_mph": 8.0,
+    "wind_dir": "out",
+    "weather_condition": "Drizzle"
+   },
+   "repeat": false
   },
   {
    "player_id": 669394,
@@ -89,10 +120,10 @@
    "adjusted_score": 50.8,
    "game_weather": {
     "venue_name": "Globe Life Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 74.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": true
   },
@@ -116,47 +147,16 @@
    "band": "40-60",
    "band_rate": 0.258,
    "band_samples": 458,
-   "weather_factor": 1.0,
-   "adjusted_score": 49.0,
+   "weather_factor": 0.988,
+   "adjusted_score": 48.4,
    "game_weather": {
     "venue_name": "Rate Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 67.0,
+    "wind_mph": 15.0,
+    "wind_dir": "cross",
+    "weather_condition": "Cloudy"
    },
    "repeat": true
-  },
-  {
-   "player_id": 596019,
-   "player_name": "Francisco Lindor",
-   "team": "NYM",
-   "expectancy_score": 48.9,
-   "streak": 2,
-   "frequency": 0.714,
-   "slopes": {
-    "max_ev": 2.307,
-    "parks_sum": 0.0,
-    "near_hr": 0.152
-   },
-   "near_hr_7d": 6,
-   "near_hr_xbh_7d": 2,
-   "hr_7d": 0,
-   "max_ev_7d": 108.8,
-   "max_distance_7d": 397,
-   "band": "40-60",
-   "band_rate": 0.258,
-   "band_samples": 458,
-   "weather_factor": 1.0,
-   "adjusted_score": 48.9,
-   "game_weather": {
-    "venue_name": "Citi Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
   },
   {
    "player_id": 592518,
@@ -178,16 +178,47 @@
    "band": "40-60",
    "band_rate": 0.258,
    "band_samples": 458,
-   "weather_factor": 1.0,
-   "adjusted_score": 44.3,
+   "weather_factor": 1.016,
+   "adjusted_score": 45.0,
    "game_weather": {
     "venue_name": "Petco Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 74.0,
+    "wind_mph": 9.0,
+    "wind_dir": "cross",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": true
+  },
+  {
+   "player_id": 686611,
+   "player_name": "Dylan Crews",
+   "team": "WSH",
+   "expectancy_score": 35.9,
+   "streak": 1,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": 2.621,
+    "parks_sum": -0.929,
+    "near_hr": 0.071
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
+   "max_ev_7d": 106.0,
+   "max_distance_7d": 407,
+   "band": "<40",
+   "band_rate": 0.208,
+   "band_samples": 17968,
+   "weather_factor": 1.044,
+   "adjusted_score": 37.5,
+   "game_weather": {
+    "venue_name": "Busch Stadium",
+    "temp_f": 81.0,
+    "wind_mph": 1.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
   },
   {
    "player_id": 691723,
@@ -221,37 +252,6 @@
    "repeat": false
   },
   {
-   "player_id": 686611,
-   "player_name": "Dylan Crews",
-   "team": "WSH",
-   "expectancy_score": 35.9,
-   "streak": 1,
-   "frequency": 0.571,
-   "slopes": {
-    "max_ev": 2.621,
-    "parks_sum": -0.929,
-    "near_hr": 0.071
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 1,
-   "max_ev_7d": 106.0,
-   "max_distance_7d": 407,
-   "band": "<40",
-   "band_rate": 0.208,
-   "band_samples": 17968,
-   "weather_factor": 1.0,
-   "adjusted_score": 35.9,
-   "game_weather": {
-    "venue_name": "Busch Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
    "player_id": 665161,
    "player_name": "Jeremy Pe\u00f1a",
    "team": "HOU",
@@ -275,10 +275,10 @@
    "adjusted_score": 35.4,
    "game_weather": {
     "venue_name": "Daikin Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 73.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": false
   },
@@ -306,41 +306,10 @@
    "adjusted_score": 35.2,
    "game_weather": {
     "venue_name": "Globe Life Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 647304,
-   "player_name": "Josh Naylor",
-   "team": "SEA",
-   "expectancy_score": 34.6,
-   "streak": 2,
-   "frequency": 0.571,
-   "slopes": {
-    "max_ev": -0.054,
-    "parks_sum": 0.0,
-    "near_hr": 0.143
-   },
-   "near_hr_7d": 4,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 105.0,
-   "max_distance_7d": 396,
-   "band": "<40",
-   "band_rate": 0.208,
-   "band_samples": 17968,
-   "weather_factor": 1.0,
-   "adjusted_score": 34.6,
-   "game_weather": {
-    "venue_name": "Coors Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 74.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": false
   },
@@ -364,14 +333,14 @@
    "band": "<40",
    "band_rate": 0.208,
    "band_samples": 17968,
-   "weather_factor": 1.0,
-   "adjusted_score": 33.4,
+   "weather_factor": 1.044,
+   "adjusted_score": 34.9,
    "game_weather": {
     "venue_name": "Busch Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 81.0,
+    "wind_mph": 1.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   },
@@ -395,14 +364,76 @@
    "band": "<40",
    "band_rate": 0.208,
    "band_samples": 17968,
-   "weather_factor": 1.0,
-   "adjusted_score": 32.6,
+   "weather_factor": 1.064,
+   "adjusted_score": 34.7,
    "game_weather": {
     "venue_name": "Great American Ball Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 86.0,
+    "wind_mph": 6.0,
+    "wind_dir": "cross",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 668904,
+   "player_name": "Royce Lewis",
+   "team": "MIN",
+   "expectancy_score": 29.9,
+   "streak": 1,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 1.729,
+    "parks_sum": 0.0,
+    "near_hr": 0.036
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 106.7,
+   "max_distance_7d": 376,
+   "band": "<40",
+   "band_rate": 0.208,
+   "band_samples": 17968,
+   "weather_factor": 1.127,
+   "adjusted_score": 33.7,
+   "game_weather": {
+    "venue_name": "Angel Stadium",
+    "temp_f": 77.0,
+    "wind_mph": 8.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 807713,
+   "player_name": "Matt Shaw",
+   "team": "CHC",
+   "expectancy_score": 31.2,
+   "streak": 1,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 3.911,
+    "parks_sum": -0.571,
+    "near_hr": 0.036
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 94.5,
+   "max_distance_7d": 382,
+   "band": "<40",
+   "band_rate": 0.208,
+   "band_samples": 17968,
+   "weather_factor": 1.064,
+   "adjusted_score": 33.2,
+   "game_weather": {
+    "venue_name": "Great American Ball Park",
+    "temp_f": 86.0,
+    "wind_mph": 6.0,
+    "wind_dir": "cross",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   },
@@ -426,45 +457,14 @@
    "band": "<40",
    "band_rate": 0.208,
    "band_samples": 17968,
-   "weather_factor": 1.0,
-   "adjusted_score": 32.4,
+   "weather_factor": 1.016,
+   "adjusted_score": 32.9,
    "game_weather": {
     "venue_name": "Petco Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 677594,
-   "player_name": "Julio Rodr\u00edguez",
-   "team": "SEA",
-   "expectancy_score": 31.6,
-   "streak": 1,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": -0.986,
-    "parks_sum": 3.0,
-    "near_hr": 0.071
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 111.4,
-   "max_distance_7d": 398,
-   "band": "<40",
-   "band_rate": 0.208,
-   "band_samples": 17968,
-   "weather_factor": 1.0,
-   "adjusted_score": 31.6,
-   "game_weather": {
-    "venue_name": "Coors Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 74.0,
+    "wind_mph": 9.0,
+    "wind_dir": "cross",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   }
