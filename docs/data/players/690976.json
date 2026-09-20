@@ -2,9 +2,9 @@
  "player_id": 690976,
  "player_name": "Alex Freeland",
  "team": "LAD",
- "as_of": "2026-09-18",
+ "as_of": "2026-09-20",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 3.086,
@@ -12,7 +12,7 @@
    "near_hr": 0.018
   },
   "intensity": 0.339,
-  "expectancy_score": 26.8,
+  "expectancy_score": 18.8,
   "last_appearance": "2026-09-17"
  },
  "days": [
