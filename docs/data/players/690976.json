@@ -2,20 +2,38 @@
  "player_id": 690976,
  "player_name": "Alex Freeland",
  "team": "LAD",
- "as_of": "2026-09-20",
+ "as_of": "2026-09-19",
  "form": {
   "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": 3.086,
+   "max_ev": -0.025,
    "parks_sum": 0.0,
-   "near_hr": 0.018
+   "near_hr": -0.062
   },
-  "intensity": 0.339,
-  "expectancy_score": 18.8,
-  "last_appearance": "2026-09-17"
+  "intensity": 0.0,
+  "expectancy_score": 8.6,
+  "last_appearance": "2026-09-19"
  },
  "days": [
+  {
+   "date": "2026-09-19",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 96.6,
+   "max_distance": 45.0,
+   "max_barrel_score": 26.6,
+   "temp_f": 77.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-09-17",
    "bbe": 4,
@@ -252,6 +270,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823899,
+   "date": "2026-09-19",
+   "player_id": 690976,
+   "player_name": "Alex Freeland",
+   "team": "LAD",
+   "opponent": "SF",
+   "result": "Single",
+   "exit_velocity": 96.6,
+   "launch_angle": null,
+   "hit_distance": 45.0,
+   "hc_x": 183.38,
+   "hc_y": 110.24,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "3469bb8e-70fe-303a-a454-0deff02aa36c",
+   "venue_id": 22,
+   "venue_name": "UNIQLO Field at Dodger Stadium",
+   "temp_f": 77.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 26.6,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824464,
    "date": "2026-09-17",

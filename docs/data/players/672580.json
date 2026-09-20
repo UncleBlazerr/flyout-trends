@@ -2,20 +2,38 @@
  "player_id": 672580,
  "player_name": "Maikel Garcia",
  "team": "KC",
- "as_of": "2026-09-20",
+ "as_of": "2026-09-19",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -4.35,
+   "max_ev": -9.51,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.0,
   "expectancy_score": 0.0,
-  "last_appearance": "2026-09-18"
+  "last_appearance": "2026-09-19"
  },
  "days": [
+  {
+   "date": "2026-09-19",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 68.8,
+   "max_distance": 216.0,
+   "max_barrel_score": 30.8,
+   "temp_f": 70.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-18",
    "bbe": 3,
@@ -72,6 +90,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823330,
+   "date": "2026-09-19",
+   "player_id": 672580,
+   "player_name": "Maikel Garcia",
+   "team": "KC",
+   "opponent": "PIT",
+   "result": "Flyout",
+   "exit_velocity": 68.8,
+   "launch_angle": 40.0,
+   "hit_distance": 216.0,
+   "hc_x": 181.97,
+   "hc_y": 133.55,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "04cfef8a-1f10-35f2-8d2d-5fac644a8d2c",
+   "venue_id": 31,
+   "venue_name": "PNC Park",
+   "temp_f": 70.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 30.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823331,
    "date": "2026-09-18",

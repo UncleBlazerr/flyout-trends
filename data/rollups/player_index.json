@@ -259,6 +259,23 @@
      "wind_mph": 8.0,
      "wind_dir": "none",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 92.2,
+     "max_distance": 346.0,
+     "max_barrel_score": 71.3,
+     "temp_f": 70.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -1302,6 +1319,23 @@
      "wind_mph": 8.0,
      "wind_dir": "none",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 101.3,
+     "max_distance": 342.0,
+     "max_barrel_score": 76.8,
+     "temp_f": 70.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -1937,6 +1971,23 @@
      "wind_mph": 2.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 110.6,
+     "max_distance": 324.0,
+     "max_barrel_score": 61.0,
+     "temp_f": 95.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -2878,6 +2929,23 @@
      "wind_mph": 8.0,
      "wind_dir": "none",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 91.8,
+     "max_distance": 113.0,
+     "max_barrel_score": 28.2,
+     "temp_f": 70.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -4630,6 +4698,23 @@
      "wind_mph": 8.0,
      "wind_dir": "none",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 1,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 1,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 10,
+     "max_ev": 110.9,
+     "max_distance": 401.0,
+     "max_barrel_score": 84.0,
+     "temp_f": 70.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -5951,6 +6036,23 @@
      "wind_mph": 2.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 99.3,
+     "max_distance": 300.0,
+     "max_barrel_score": 66.1,
+     "temp_f": 95.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -6439,6 +6541,23 @@
      "wind_mph": 8.0,
      "wind_dir": "none",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 88.8,
+     "max_distance": 125.0,
+     "max_barrel_score": 30.3,
+     "temp_f": 70.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -7363,6 +7482,23 @@
      "wind_mph": 4.0,
      "wind_dir": "none",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 1,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 102.2,
+     "max_distance": 397.0,
+     "max_barrel_score": 80.2,
+     "temp_f": 70.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -8236,6 +8372,23 @@
      "wind_mph": 6.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 91.0,
+     "max_distance": 8.0,
+     "max_barrel_score": 19.1,
+     "temp_f": 95.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -9194,6 +9347,23 @@
      "wind_mph": 10.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 90.4,
+     "max_distance": 267.0,
+     "max_barrel_score": 39.2,
+     "temp_f": 73.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
     }
    }
   },
@@ -10169,6 +10339,23 @@
      "wind_mph": 2.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 5,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 94.3,
+     "max_distance": 364.0,
+     "max_barrel_score": 75.3,
+     "temp_f": 95.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -11229,6 +11416,23 @@
      "wind_mph": 2.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 1,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 103.3,
+     "max_distance": 404.0,
+     "max_barrel_score": 86.0,
+     "temp_f": 95.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -13939,6 +14143,23 @@
      "wind_mph": 8.0,
      "wind_dir": "out",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 106.7,
+     "max_distance": 362.0,
+     "max_barrel_score": 72.1,
+     "temp_f": 77.0,
+     "wind_mph": 6.0,
+     "wind_dir": "cross",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -15015,6 +15236,23 @@
      "temp_f": 75.0,
      "wind_mph": 8.0,
      "wind_dir": "out",
+     "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 100.0,
+     "max_distance": 315.0,
+     "max_barrel_score": 62.1,
+     "temp_f": 77.0,
+     "wind_mph": 6.0,
+     "wind_dir": "cross",
      "weather_condition": "Clear"
     }
    }
@@ -16915,6 +17153,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 90.2,
+     "max_distance": 316.0,
+     "max_barrel_score": 60.6,
+     "temp_f": 73.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
     }
    }
   },
@@ -17581,6 +17836,23 @@
      "max_distance": 314.0,
      "max_barrel_score": 65.6,
      "temp_f": 74.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 104.6,
+     "max_distance": 315.0,
+     "max_barrel_score": 57.4,
+     "temp_f": 73.0,
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
@@ -18253,6 +18525,23 @@
      "wind_mph": 10.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 1,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 113.1,
+     "max_distance": 383.0,
+     "max_barrel_score": 87.8,
+     "temp_f": 77.0,
+     "wind_mph": 6.0,
+     "wind_dir": "cross",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -19295,6 +19584,23 @@
      "temp_f": 75.0,
      "wind_mph": 8.0,
      "wind_dir": "out",
+     "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 2,
+     "max_ev": 97.7,
+     "max_distance": 339.0,
+     "max_barrel_score": 60.0,
+     "temp_f": 77.0,
+     "wind_mph": 6.0,
+     "wind_dir": "cross",
      "weather_condition": "Clear"
     }
    }
@@ -21088,6 +21394,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 93.5,
+     "max_distance": 274.0,
+     "max_barrel_score": 59.9,
+     "temp_f": 73.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
     }
    }
   },
@@ -22113,6 +22436,23 @@
      "temp_f": 75.0,
      "wind_mph": 8.0,
      "wind_dir": "out",
+     "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 101.8,
+     "max_distance": 199.0,
+     "max_barrel_score": 51.8,
+     "temp_f": 77.0,
+     "wind_mph": 6.0,
+     "wind_dir": "cross",
      "weather_condition": "Clear"
     }
    }
@@ -24076,6 +24416,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 35.2,
+     "max_distance": 1.0,
+     "max_barrel_score": 0.1,
+     "temp_f": 73.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
     }
    }
   },
@@ -25737,6 +26094,23 @@
      "wind_mph": 9.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 5,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 103.3,
+     "max_distance": 372.0,
+     "max_barrel_score": 72.4,
+     "temp_f": 69.0,
+     "wind_mph": 5.0,
+     "wind_dir": "varies",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -26695,6 +27069,23 @@
      "wind_mph": 9.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 99.9,
+     "max_distance": 353.0,
+     "max_barrel_score": 76.3,
+     "temp_f": 69.0,
+     "wind_mph": 5.0,
+     "wind_dir": "varies",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -27693,6 +28084,23 @@
      "wind_mph": 9.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 89.8,
+     "max_distance": 275.0,
+     "max_barrel_score": 57.1,
+     "temp_f": 69.0,
+     "wind_mph": 5.0,
+     "wind_dir": "varies",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -30125,6 +30533,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 88.3,
+     "max_distance": 267.0,
+     "max_barrel_score": 48.6,
+     "temp_f": 74.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
     }
    }
   },
@@ -30998,6 +31423,23 @@
      "wind_mph": 9.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 81.5,
+     "max_distance": 262.0,
+     "max_barrel_score": 38.9,
+     "temp_f": 69.0,
+     "wind_mph": 5.0,
+     "wind_dir": "varies",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -32489,6 +32931,23 @@
      "wind_mph": 9.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 61.8,
+     "max_distance": 164.0,
+     "max_barrel_score": 15.3,
+     "temp_f": 69.0,
+     "wind_mph": 5.0,
+     "wind_dir": "varies",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -34152,6 +34611,23 @@
      "max_ev": 94.4,
      "max_distance": 337.0,
      "max_barrel_score": 71.4,
+     "temp_f": 74.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 95.9,
+     "max_distance": 5.0,
+     "max_barrel_score": 23.4,
      "temp_f": 74.0,
      "wind_mph": 0.0,
      "wind_dir": "none",
@@ -35936,6 +36412,23 @@
      "wind_mph": 9.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 101.7,
+     "max_distance": 266.0,
+     "max_barrel_score": 49.2,
+     "temp_f": 69.0,
+     "wind_mph": 5.0,
+     "wind_dir": "varies",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -36809,6 +37302,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 71.6,
+     "max_distance": 3.0,
+     "max_barrel_score": 1.6,
+     "temp_f": 74.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
     }
    }
   },
@@ -37083,6 +37593,23 @@
      "max_ev": 98.6,
      "max_distance": 110.0,
      "max_barrel_score": 26.0,
+     "temp_f": 74.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 1,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 100.2,
+     "max_distance": 356.0,
+     "max_barrel_score": 80.0,
      "temp_f": 74.0,
      "wind_mph": 0.0,
      "wind_dir": "none",
@@ -38092,6 +38619,23 @@
      "max_ev": 78.1,
      "max_distance": 112.0,
      "max_barrel_score": 17.5,
+     "temp_f": 74.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 83.0,
+     "max_distance": 254.0,
+     "max_barrel_score": 38.3,
      "temp_f": 74.0,
      "wind_mph": 0.0,
      "wind_dir": "none",
@@ -39135,6 +39679,23 @@
      "max_ev": 99.2,
      "max_distance": 393.0,
      "max_barrel_score": 80.5,
+     "temp_f": 74.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 1,
+     "max_ev": 96.7,
+     "max_distance": 341.0,
+     "max_barrel_score": 73.7,
      "temp_f": 74.0,
      "wind_mph": 0.0,
      "wind_dir": "none",
@@ -40267,6 +40828,23 @@
      "wind_mph": 11.0,
      "wind_dir": "in",
      "weather_condition": "Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 1,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 106.8,
+     "max_distance": 435.0,
+     "max_barrel_score": 83.5,
+     "temp_f": 74.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -41293,6 +41871,23 @@
      "wind_mph": 11.0,
      "wind_dir": "in",
      "weather_condition": "Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 104.2,
+     "max_distance": 348.0,
+     "max_barrel_score": 69.5,
+     "temp_f": 74.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -42285,6 +42880,23 @@
      "wind_mph": 8.0,
      "wind_dir": "out",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 1,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 111.7,
+     "max_distance": 459.0,
+     "max_barrel_score": 92.2,
+     "temp_f": 74.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -43341,6 +43953,23 @@
      "max_ev": 97.0,
      "max_distance": 200.0,
      "max_barrel_score": 37.3,
+     "temp_f": 73.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 85.4,
+     "max_distance": 91.0,
+     "max_barrel_score": 34.4,
      "temp_f": 73.0,
      "wind_mph": 0.0,
      "wind_dir": "none",
@@ -44473,6 +45102,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 99.7,
+     "max_distance": 390.0,
+     "max_barrel_score": 79.7,
+     "temp_f": 74.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
     }
    }
   },
@@ -45532,6 +46178,23 @@
      "temp_f": 74.0,
      "wind_mph": 11.0,
      "wind_dir": "in",
+     "weather_condition": "Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 101.3,
+     "max_distance": 391.0,
+     "max_barrel_score": 79.0,
+     "temp_f": 74.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
      "weather_condition": "Cloudy"
     }
    }
@@ -48487,6 +49150,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 71.8,
+     "max_distance": 63.0,
+     "max_barrel_score": 11.8,
+     "temp_f": 74.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
     }
    }
   },
@@ -49825,6 +50505,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 87.1,
+     "max_distance": 252.0,
+     "max_barrel_score": 38.3,
+     "temp_f": 74.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
     }
    }
   },
@@ -50459,6 +51156,23 @@
      "temp_f": 74.0,
      "wind_mph": 11.0,
      "wind_dir": "in",
+     "weather_condition": "Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 71.9,
+     "max_distance": 7.0,
+     "max_barrel_score": 2.2,
+     "temp_f": 74.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
      "weather_condition": "Cloudy"
     }
    }
@@ -51974,6 +52688,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 103.8,
+     "max_distance": 328.0,
+     "max_barrel_score": 66.0,
+     "temp_f": 74.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
     }
    }
   },
@@ -52524,6 +53255,23 @@
      "wind_mph": 8.0,
      "wind_dir": "out",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 94.0,
+     "max_distance": 383.0,
+     "max_barrel_score": 72.0,
+     "temp_f": 74.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -53567,6 +54315,23 @@
      "wind_mph": 9.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 1,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 5,
+     "max_ev": 109.2,
+     "max_distance": 346.0,
+     "max_barrel_score": 77.5,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -54888,6 +55653,23 @@
      "wind_mph": 9.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 98.5,
+     "max_distance": 339.0,
+     "max_barrel_score": 70.8,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -55999,6 +56781,23 @@
      "wind_mph": 10.0,
      "wind_dir": "cross",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 101.5,
+     "max_distance": 194.0,
+     "max_barrel_score": 50.8,
+     "temp_f": 85.0,
+     "wind_mph": 6.0,
+     "wind_dir": "out",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -57059,6 +57858,23 @@
      "wind_mph": 10.0,
      "wind_dir": "cross",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 105.5,
+     "max_distance": 291.0,
+     "max_barrel_score": 68.4,
+     "temp_f": 85.0,
+     "wind_mph": 6.0,
+     "wind_dir": "out",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -58000,6 +58816,23 @@
      "wind_mph": 10.0,
      "wind_dir": "cross",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 97.0,
+     "max_distance": 365.0,
+     "max_barrel_score": 77.8,
+     "temp_f": 85.0,
+     "wind_mph": 6.0,
+     "wind_dir": "out",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -60251,6 +61084,23 @@
      "wind_mph": 10.0,
      "wind_dir": "cross",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 73.1,
+     "max_distance": 252.0,
+     "max_barrel_score": 44.6,
+     "temp_f": 85.0,
+     "wind_mph": 6.0,
+     "wind_dir": "out",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -60852,6 +61702,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 93.4,
+     "max_distance": 334.0,
+     "max_barrel_score": 65.3,
+     "temp_f": 72.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Dome"
     }
    }
   },
@@ -61895,6 +62762,23 @@
      "wind_mph": 9.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 107.5,
+     "max_distance": 383.0,
+     "max_barrel_score": 82.9,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -66317,6 +67201,23 @@
      "wind_mph": 9.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 99.5,
+     "max_distance": 265.0,
+     "max_barrel_score": 48.4,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -67462,6 +68363,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Dome"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 110.9,
+     "max_distance": 239.0,
+     "max_barrel_score": 51.3,
+     "temp_f": 72.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Dome"
     }
    }
   },
@@ -68348,6 +69266,23 @@
      "max_ev": 95.7,
      "max_distance": 251.0,
      "max_barrel_score": 39.6,
+     "temp_f": 72.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Dome"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 89.4,
+     "max_distance": 6.0,
+     "max_barrel_score": 17.6,
      "temp_f": 72.0,
      "wind_mph": 0.0,
      "wind_dir": "none",
@@ -69894,6 +70829,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 106.3,
+     "max_distance": 246.0,
+     "max_barrel_score": 49.7,
+     "temp_f": 73.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
     }
    }
   },
@@ -70916,6 +71868,23 @@
      "max_ev": 94.3,
      "max_distance": 293.0,
      "max_barrel_score": 48.8,
+     "temp_f": 73.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 104.3,
+     "max_distance": 364.0,
+     "max_barrel_score": 69.8,
      "temp_f": 73.0,
      "wind_mph": 0.0,
      "wind_dir": "none",
@@ -72014,6 +72983,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 1,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 103.6,
+     "max_distance": 356.0,
+     "max_barrel_score": 78.7,
+     "temp_f": 73.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
     }
    }
   },
@@ -72989,6 +73975,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 2,
+     "max_ev": 110.7,
+     "max_distance": 345.0,
+     "max_barrel_score": 77.7,
+     "temp_f": 73.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
     }
    }
   },
@@ -73879,6 +74882,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 96.2,
+     "max_distance": 359.0,
+     "max_barrel_score": 75.6,
+     "temp_f": 73.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
     }
    }
   },
@@ -74680,6 +75700,23 @@
      "max_ev": 81.1,
      "max_distance": 122.0,
      "max_barrel_score": 15.7,
+     "temp_f": 72.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Dome"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 93.8,
+     "max_distance": 122.0,
+     "max_barrel_score": 29.3,
      "temp_f": 72.0,
      "wind_mph": 0.0,
      "wind_dir": "none",
@@ -75540,6 +76577,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Dome"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 96.8,
+     "max_distance": 223.0,
+     "max_barrel_score": 35.6,
+     "temp_f": 72.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Dome"
     }
    }
   },
@@ -76307,6 +77361,23 @@
      "max_ev": 100.3,
      "max_distance": 91.0,
      "max_barrel_score": 36.3,
+     "temp_f": 72.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Dome"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 77.3,
+     "max_distance": 31.0,
+     "max_barrel_score": 8.6,
      "temp_f": 72.0,
      "wind_mph": 0.0,
      "wind_dir": "none",
@@ -77697,6 +78768,23 @@
      "max_distance": 281.0,
      "max_barrel_score": 47.0,
      "temp_f": 72.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 108.0,
+     "max_distance": 225.0,
+     "max_barrel_score": 63.0,
+     "temp_f": 73.0,
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
@@ -79911,6 +80999,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Dome"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 1,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 98.7,
+     "max_distance": 361.0,
+     "max_barrel_score": 75.8,
+     "temp_f": 72.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Dome"
     }
    }
   },
@@ -80614,6 +81719,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Dome"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 67.9,
+     "max_distance": 9.0,
+     "max_barrel_score": 0.6,
+     "temp_f": 72.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Dome"
     }
    }
   },
@@ -81279,6 +82401,23 @@
      "max_ev": 83.5,
      "max_distance": 228.0,
      "max_barrel_score": 35.5,
+     "temp_f": 73.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 92.1,
+     "max_distance": 322.0,
+     "max_barrel_score": 56.6,
      "temp_f": 73.0,
      "wind_mph": 0.0,
      "wind_dir": "none",
@@ -84220,6 +85359,23 @@
      "wind_mph": 10.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 1,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 105.8,
+     "max_distance": 394.0,
+     "max_barrel_score": 79.7,
+     "temp_f": 71.0,
+     "wind_mph": 11.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -86579,6 +87735,23 @@
      "wind_mph": 10.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 105.9,
+     "max_distance": 203.0,
+     "max_barrel_score": 47.9,
+     "temp_f": 71.0,
+     "wind_mph": 11.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -87656,6 +88829,23 @@
      "wind_mph": 9.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 85.3,
+     "max_distance": 259.0,
+     "max_barrel_score": 37.4,
+     "temp_f": 69.0,
+     "wind_mph": 5.0,
+     "wind_dir": "varies",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -88154,6 +89344,23 @@
      "temp_f": 79.0,
      "wind_mph": 7.0,
      "wind_dir": "in",
+     "weather_condition": "Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 101.9,
+     "max_distance": 327.0,
+     "max_barrel_score": 63.4,
+     "temp_f": 71.0,
+     "wind_mph": 11.0,
+     "wind_dir": "cross",
      "weather_condition": "Cloudy"
     }
    }
@@ -89181,6 +90388,23 @@
      "wind_mph": 10.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 5,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 100.6,
+     "max_distance": 364.0,
+     "max_barrel_score": 71.4,
+     "temp_f": 71.0,
+     "wind_mph": 11.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -90190,6 +91414,23 @@
      "wind_mph": 9.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 1,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 103.8,
+     "max_distance": 365.0,
+     "max_barrel_score": 77.3,
+     "temp_f": 69.0,
+     "wind_mph": 5.0,
+     "wind_dir": "varies",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -92361,6 +93602,23 @@
      "wind_mph": 9.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 1,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 102.2,
+     "max_distance": 390.0,
+     "max_barrel_score": 78.6,
+     "temp_f": 69.0,
+     "wind_mph": 5.0,
+     "wind_dir": "varies",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -93563,6 +94821,23 @@
      "wind_mph": 10.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 97.5,
+     "max_distance": 379.0,
+     "max_barrel_score": 78.6,
+     "temp_f": 71.0,
+     "wind_mph": 11.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -93880,6 +95155,23 @@
      "temp_f": 79.0,
      "wind_mph": 7.0,
      "wind_dir": "in",
+     "weather_condition": "Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 102.6,
+     "max_distance": 264.0,
+     "max_barrel_score": 66.2,
+     "temp_f": 71.0,
+     "wind_mph": 11.0,
+     "wind_dir": "cross",
      "weather_condition": "Cloudy"
     }
    }
@@ -94992,6 +96284,23 @@
      "wind_mph": 9.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 97.2,
+     "max_distance": 327.0,
+     "max_barrel_score": 64.6,
+     "temp_f": 69.0,
+     "wind_mph": 5.0,
+     "wind_dir": "varies",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -95321,6 +96630,23 @@
      "wind_mph": 9.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 96.2,
+     "max_distance": 360.0,
+     "max_barrel_score": 66.9,
+     "temp_f": 69.0,
+     "wind_mph": 5.0,
+     "wind_dir": "varies",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -96160,6 +97486,23 @@
      "wind_mph": 2.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 100.7,
+     "max_distance": 133.0,
+     "max_barrel_score": 46.0,
+     "temp_f": 95.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -97118,6 +98461,23 @@
      "wind_mph": 4.0,
      "wind_dir": "in",
      "weather_condition": "Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 5,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 99.7,
+     "max_distance": 273.0,
+     "max_barrel_score": 54.6,
+     "temp_f": 95.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -98195,6 +99555,23 @@
      "wind_mph": 10.0,
      "wind_dir": "cross",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 106.1,
+     "max_distance": 237.0,
+     "max_barrel_score": 61.0,
+     "temp_f": 85.0,
+     "wind_mph": 6.0,
+     "wind_dir": "out",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -100315,6 +101692,23 @@
      "wind_mph": 10.0,
      "wind_dir": "cross",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 1,
+     "max_ev": 104.8,
+     "max_distance": 371.0,
+     "max_barrel_score": 69.3,
+     "temp_f": 85.0,
+     "wind_mph": 6.0,
+     "wind_dir": "out",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -101426,6 +102820,23 @@
      "wind_mph": 2.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 101.2,
+     "max_distance": 303.0,
+     "max_barrel_score": 69.4,
+     "temp_f": 95.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -102520,6 +103931,23 @@
      "wind_mph": 2.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 4,
+     "max_ev": 112.1,
+     "max_distance": 407.0,
+     "max_barrel_score": 83.1,
+     "temp_f": 95.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -104334,6 +105762,23 @@
      "wind_mph": 10.0,
      "wind_dir": "cross",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 90.9,
+     "max_distance": 283.0,
+     "max_barrel_score": 56.1,
+     "temp_f": 85.0,
+     "wind_mph": 6.0,
+     "wind_dir": "out",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -105156,6 +106601,23 @@
      "wind_mph": 2.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 103.2,
+     "max_distance": 85.0,
+     "max_barrel_score": 35.0,
+     "temp_f": 95.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -106128,6 +107590,23 @@
      "max_distance": 104.0,
      "max_barrel_score": 32.4,
      "temp_f": 74.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 89.9,
+     "max_distance": 98.0,
+     "max_barrel_score": 18.0,
+     "temp_f": 73.0,
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
@@ -107225,6 +108704,23 @@
      "wind_mph": 10.0,
      "wind_dir": "cross",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 1,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 104.8,
+     "max_distance": 417.0,
+     "max_barrel_score": 87.1,
+     "temp_f": 85.0,
+     "wind_mph": 6.0,
+     "wind_dir": "out",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -108733,6 +110229,23 @@
      "wind_mph": 2.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 99.6,
+     "max_distance": 128.0,
+     "max_barrel_score": 43.6,
+     "temp_f": 95.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -109317,6 +110830,23 @@
      "wind_mph": 10.0,
      "wind_dir": "cross",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 1,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 104.8,
+     "max_distance": 382.0,
+     "max_barrel_score": 75.3,
+     "temp_f": 85.0,
+     "wind_mph": 6.0,
+     "wind_dir": "out",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -110462,6 +111992,23 @@
      "wind_mph": 10.0,
      "wind_dir": "cross",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 98.1,
+     "max_distance": 316.0,
+     "max_barrel_score": 63.1,
+     "temp_f": 85.0,
+     "wind_mph": 6.0,
+     "wind_dir": "out",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -110723,6 +112270,23 @@
      "wind_mph": 4.0,
      "wind_dir": "in",
      "weather_condition": "Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 98.4,
+     "max_distance": 131.0,
+     "max_barrel_score": 36.4,
+     "temp_f": 95.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -111715,6 +113279,23 @@
      "wind_mph": 2.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 93.5,
+     "max_distance": 295.0,
+     "max_barrel_score": 55.9,
+     "temp_f": 95.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -113597,6 +115178,23 @@
      "wind_mph": 6.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 105.2,
+     "max_distance": 397.0,
+     "max_barrel_score": 84.3,
+     "temp_f": 68.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -114164,6 +115762,23 @@
      "wind_mph": 6.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 86.8,
+     "max_distance": 180.0,
+     "max_barrel_score": 41.3,
+     "temp_f": 68.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -115224,6 +116839,23 @@
      "wind_mph": 6.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 104.5,
+     "max_distance": 340.0,
+     "max_barrel_score": 71.9,
+     "temp_f": 68.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -116297,6 +117929,23 @@
      "max_ev": 100.9,
      "max_distance": 396.0,
      "max_barrel_score": 80.9,
+     "temp_f": 73.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 80.8,
+     "max_distance": 290.0,
+     "max_barrel_score": 46.2,
      "temp_f": 73.0,
      "wind_mph": 0.0,
      "wind_dir": "none",
@@ -117442,6 +119091,23 @@
      "max_ev": 105.8,
      "max_distance": 408.0,
      "max_barrel_score": 87.4,
+     "temp_f": 73.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 1,
+     "near_hr_distance": 1,
+     "near_hr_parks": 1,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 26,
+     "max_ev": 107.3,
+     "max_distance": 401.0,
+     "max_barrel_score": 83.9,
      "temp_f": 73.0,
      "wind_mph": 0.0,
      "wind_dir": "none",
@@ -118608,6 +120274,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 97.5,
+     "max_distance": 276.0,
+     "max_barrel_score": 44.8,
+     "temp_f": 73.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
     }
    }
   },
@@ -119361,6 +121044,23 @@
      "temp_f": 76.0,
      "wind_mph": 6.0,
      "wind_dir": "out",
+     "weather_condition": "Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 1,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 102.2,
+     "max_distance": 387.0,
+     "max_barrel_score": 81.7,
+     "temp_f": 68.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
      "weather_condition": "Cloudy"
     }
    }
@@ -120418,6 +122118,23 @@
      "max_ev": 72.1,
      "max_distance": 171.0,
      "max_barrel_score": 31.8,
+     "temp_f": 73.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 108.4,
+     "max_distance": 367.0,
+     "max_barrel_score": 76.1,
      "temp_f": 73.0,
      "wind_mph": 0.0,
      "wind_dir": "none",
@@ -121563,6 +123280,23 @@
      "max_ev": 109.2,
      "max_distance": 367.0,
      "max_barrel_score": 82.2,
+     "temp_f": 73.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 85.3,
+     "max_distance": 212.0,
+     "max_barrel_score": 25.0,
      "temp_f": 73.0,
      "wind_mph": 0.0,
      "wind_dir": "none",
@@ -123126,6 +124860,23 @@
      "wind_mph": 6.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 1,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 100.3,
+     "max_distance": 370.0,
+     "max_barrel_score": 81.1,
+     "temp_f": 68.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -123778,6 +125529,23 @@
      "wind_mph": 10.0,
      "wind_dir": "in",
      "weather_condition": "Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 99.1,
+     "max_distance": 349.0,
+     "max_barrel_score": 65.5,
+     "temp_f": 85.0,
+     "wind_mph": 6.0,
+     "wind_dir": "out",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -124919,6 +126687,23 @@
      "max_ev": 109.2,
      "max_distance": 383.0,
      "max_barrel_score": 82.0,
+     "temp_f": 73.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 106.0,
+     "max_distance": 310.0,
+     "max_barrel_score": 69.0,
      "temp_f": 73.0,
      "wind_mph": 0.0,
      "wind_dir": "none",
@@ -126721,6 +128506,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 1,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 102.8,
+     "max_distance": 350.0,
+     "max_barrel_score": 66.0,
+     "temp_f": 73.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
     }
    }
   },
@@ -127798,6 +129600,23 @@
      "wind_mph": 6.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 98.1,
+     "max_distance": 21.0,
+     "max_barrel_score": 26.4,
+     "temp_f": 68.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -128603,6 +130422,23 @@
      "wind_mph": 6.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 110.1,
+     "max_distance": 318.0,
+     "max_barrel_score": 76.5,
+     "temp_f": 68.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -130672,6 +132508,23 @@
      "wind_mph": 6.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 97.9,
+     "max_distance": 328.0,
+     "max_barrel_score": 64.1,
+     "temp_f": 68.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -132025,6 +133878,23 @@
      "max_barrel_score": 73.8,
      "temp_f": 72.0,
      "wind_mph": 6.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 95.6,
+     "max_distance": 327.0,
+     "max_barrel_score": 68.6,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
      "wind_dir": "out",
      "weather_condition": "Clear"
     }
@@ -135128,6 +136998,23 @@
      "wind_mph": 11.0,
      "wind_dir": "in",
      "weather_condition": "Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 91.6,
+     "max_distance": 298.0,
+     "max_barrel_score": 56.2,
+     "temp_f": 74.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -135932,6 +137819,23 @@
      "temp_f": 74.0,
      "wind_mph": 11.0,
      "wind_dir": "in",
+     "weather_condition": "Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 107.3,
+     "max_distance": 387.0,
+     "max_barrel_score": 81.2,
+     "temp_f": 74.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
      "weather_condition": "Cloudy"
     }
    }
@@ -136941,6 +138845,23 @@
      "temp_f": 74.0,
      "wind_mph": 11.0,
      "wind_dir": "in",
+     "weather_condition": "Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 89.7,
+     "max_distance": 281.0,
+     "max_barrel_score": 55.0,
+     "temp_f": 74.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
      "weather_condition": "Cloudy"
     }
    }
@@ -138053,6 +139974,23 @@
      "wind_mph": 11.0,
      "wind_dir": "in",
      "weather_condition": "Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 74.2,
+     "max_distance": 18.0,
+     "max_barrel_score": 4.9,
+     "temp_f": 74.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -138980,6 +140918,23 @@
      "max_distance": 340.0,
      "max_barrel_score": 63.2,
      "temp_f": 74.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 1,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 102.1,
+     "max_distance": 373.0,
+     "max_barrel_score": 81.8,
+     "temp_f": 73.0,
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
@@ -141124,6 +143079,23 @@
      "max_barrel_score": 50.1,
      "temp_f": 72.0,
      "wind_mph": 6.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 1,
+     "near_hr_any": 1,
+     "near_hr_xbh": 1,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 1,
+     "max_ev": 107.0,
+     "max_distance": 425.0,
+     "max_barrel_score": 90.7,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
      "wind_dir": "out",
      "weather_condition": "Clear"
     }
@@ -144284,6 +146256,23 @@
      "wind_mph": 11.0,
      "wind_dir": "in",
      "weather_condition": "Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 104.5,
+     "max_distance": 125.0,
+     "max_barrel_score": 32.2,
+     "temp_f": 74.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -145310,6 +147299,23 @@
      "wind_mph": 6.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 93.6,
+     "max_distance": 256.0,
+     "max_barrel_score": 57.7,
+     "temp_f": 68.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -146370,6 +148376,23 @@
      "wind_mph": 6.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 2,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 2,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 107.2,
+     "max_distance": 344.0,
+     "max_barrel_score": 74.0,
+     "temp_f": 68.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -147396,6 +149419,23 @@
      "wind_mph": 6.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 102.2,
+     "max_distance": 13.0,
+     "max_barrel_score": 29.5,
+     "temp_f": 68.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -148473,6 +150513,23 @@
      "wind_mph": 6.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 85.3,
+     "max_distance": 239.0,
+     "max_barrel_score": 50.3,
+     "temp_f": 68.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -149482,6 +151539,23 @@
      "wind_mph": 8.0,
      "wind_dir": "none",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 1,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 99.9,
+     "max_distance": 375.0,
+     "max_barrel_score": 67.9,
+     "temp_f": 70.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -150389,6 +152463,23 @@
      "wind_mph": 8.0,
      "wind_dir": "none",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 5,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 107.5,
+     "max_distance": 82.0,
+     "max_barrel_score": 39.9,
+     "temp_f": 70.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -151279,6 +153370,23 @@
      "wind_mph": 6.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 98.6,
+     "max_distance": 363.0,
+     "max_barrel_score": 72.0,
+     "temp_f": 68.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -152339,6 +154447,23 @@
      "wind_mph": 6.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 96.3,
+     "max_distance": 213.0,
+     "max_barrel_score": 48.5,
+     "temp_f": 68.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -154890,6 +157015,23 @@
      "wind_mph": 6.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 106.4,
+     "max_distance": 136.0,
+     "max_barrel_score": 50.1,
+     "temp_f": 68.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -156006,6 +158148,23 @@
      "temp_f": 76.0,
      "wind_mph": 6.0,
      "wind_dir": "out",
+     "weather_condition": "Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 69.5,
+     "max_distance": 169.0,
+     "max_barrel_score": 22.2,
+     "temp_f": 68.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
      "weather_condition": "Cloudy"
     }
    }
@@ -157566,6 +159725,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 96.1,
+     "max_distance": 301.0,
+     "max_barrel_score": 58.2,
+     "temp_f": 70.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -158592,6 +160768,23 @@
      "wind_mph": 8.0,
      "wind_dir": "none",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 5,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 101.6,
+     "max_distance": 212.0,
+     "max_barrel_score": 48.0,
+     "temp_f": 70.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -161591,6 +163784,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Dome"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 86.9,
+     "max_distance": 330.0,
+     "max_barrel_score": 66.5,
+     "temp_f": 72.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Dome"
     }
    }
   },
@@ -162929,6 +165139,23 @@
      "wind_mph": 8.0,
      "wind_dir": "out",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 106.2,
+     "max_distance": 119.0,
+     "max_barrel_score": 46.7,
+     "temp_f": 77.0,
+     "wind_mph": 6.0,
+     "wind_dir": "cross",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -163784,6 +166011,23 @@
      "temp_f": 75.0,
      "wind_mph": 8.0,
      "wind_dir": "out",
+     "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 107.6,
+     "max_distance": 260.0,
+     "max_barrel_score": 50.2,
+     "temp_f": 77.0,
+     "wind_mph": 6.0,
+     "wind_dir": "cross",
      "weather_condition": "Clear"
     }
    }
@@ -165401,6 +167645,23 @@
      "wind_mph": 9.0,
      "wind_dir": "varies",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 90.5,
+     "max_distance": 246.0,
+     "max_barrel_score": 54.3,
+     "temp_f": 77.0,
+     "wind_mph": 6.0,
+     "wind_dir": "cross",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -166222,6 +168483,23 @@
      "temp_f": 75.0,
      "wind_mph": 8.0,
      "wind_dir": "out",
+     "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 5,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 98.8,
+     "max_distance": 317.0,
+     "max_barrel_score": 69.0,
+     "temp_f": 77.0,
+     "wind_mph": 6.0,
+     "wind_dir": "cross",
      "weather_condition": "Clear"
     }
    }
@@ -170078,6 +172356,23 @@
      "wind_mph": 10.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 1,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 101.6,
+     "max_distance": 387.0,
+     "max_barrel_score": 81.0,
+     "temp_f": 71.0,
+     "wind_mph": 11.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -170576,6 +172871,23 @@
      "temp_f": 75.0,
      "wind_mph": 9.0,
      "wind_dir": "varies",
+     "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 94.8,
+     "max_distance": 262.0,
+     "max_barrel_score": 59.1,
+     "temp_f": 77.0,
+     "wind_mph": 6.0,
+     "wind_dir": "cross",
      "weather_condition": "Clear"
     }
    }
@@ -171569,6 +173881,23 @@
      "wind_mph": 10.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 106.1,
+     "max_distance": 277.0,
+     "max_barrel_score": 68.0,
+     "temp_f": 71.0,
+     "wind_mph": 11.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -172561,6 +174890,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 2,
+     "near_hr_xbh": 1,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 2,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 107.9,
+     "max_distance": 387.0,
+     "max_barrel_score": 76.8,
+     "temp_f": 72.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Dome"
     }
    }
   },
@@ -175333,6 +177679,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 94.5,
+     "max_distance": 43.0,
+     "max_barrel_score": 22.6,
+     "temp_f": 73.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
     }
    }
   },
@@ -176390,6 +178753,23 @@
      "max_distance": 142.0,
      "max_barrel_score": 29.2,
      "temp_f": 74.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 98.7,
+     "max_distance": 245.0,
+     "max_barrel_score": 56.0,
+     "temp_f": 73.0,
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
@@ -177476,6 +179856,23 @@
      "wind_mph": 9.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 95.8,
+     "max_distance": 367.0,
+     "max_barrel_score": 71.4,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -178831,6 +181228,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 95.5,
+     "max_distance": 14.0,
+     "max_barrel_score": 23.6,
+     "temp_f": 73.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
     }
    }
   },
@@ -179778,6 +182192,23 @@
      "wind_mph": 9.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 102.2,
+     "max_distance": 96.0,
+     "max_barrel_score": 40.5,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -180566,6 +182997,23 @@
      "wind_mph": 9.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 87.0,
+     "max_distance": 296.0,
+     "max_barrel_score": 63.2,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -181660,6 +184108,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 99.0,
+     "max_distance": 358.0,
+     "max_barrel_score": 64.9,
+     "temp_f": 73.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
     }
    }
   },
@@ -182652,6 +185117,23 @@
      "wind_mph": 9.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 104.6,
+     "max_distance": 320.0,
+     "max_barrel_score": 69.5,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -183641,6 +186123,23 @@
      "max_distance": 304.0,
      "max_barrel_score": 64.3,
      "temp_f": 74.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 88.5,
+     "max_distance": 188.0,
+     "max_barrel_score": 37.6,
+     "temp_f": 73.0,
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
@@ -186161,6 +188660,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 1,
+     "max_ev": 95.1,
+     "max_distance": 351.0,
+     "max_barrel_score": 69.7,
+     "temp_f": 73.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
     }
    }
   },
@@ -187272,6 +189788,23 @@
      "wind_mph": 9.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 97.9,
+     "max_distance": 294.0,
+     "max_barrel_score": 53.1,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -188196,6 +190729,23 @@
      "wind_mph": 9.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 101.0,
+     "max_distance": 362.0,
+     "max_barrel_score": 74.6,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -189398,6 +191948,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Dome"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 80.1,
+     "max_distance": 222.0,
+     "max_barrel_score": 42.3,
+     "temp_f": 72.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Dome"
     }
    }
   },
@@ -190492,6 +193059,23 @@
      "wind_mph": 9.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 1,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 103.1,
+     "max_distance": 367.0,
+     "max_barrel_score": 75.7,
+     "temp_f": 74.0,
+     "wind_mph": 9.0,
+     "wind_dir": "cross",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -191365,6 +193949,23 @@
      "wind_mph": 9.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 66.9,
+     "max_distance": 7.0,
+     "max_barrel_score": 0.5,
+     "temp_f": 74.0,
+     "wind_mph": 9.0,
+     "wind_dir": "cross",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -192068,6 +194669,23 @@
      "wind_mph": 10.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 98.2,
+     "max_distance": 306.0,
+     "max_barrel_score": 60.8,
+     "temp_f": 71.0,
+     "wind_mph": 11.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -193074,6 +195692,23 @@
      "max_distance": 233.0,
      "max_barrel_score": 47.7,
      "temp_f": 73.0,
+     "wind_mph": 9.0,
+     "wind_dir": "cross",
+     "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 99.7,
+     "max_distance": 223.0,
+     "max_barrel_score": 48.5,
+     "temp_f": 74.0,
      "wind_mph": 9.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
@@ -194171,6 +196806,23 @@
      "wind_mph": 10.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 5,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 109.8,
+     "max_distance": 323.0,
+     "max_barrel_score": 70.5,
+     "temp_f": 71.0,
+     "wind_mph": 11.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -195322,6 +197974,23 @@
      "wind_mph": 10.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 97.6,
+     "max_distance": 75.0,
+     "max_barrel_score": 32.5,
+     "temp_f": 71.0,
+     "wind_mph": 11.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -196144,6 +198813,23 @@
      "wind_mph": 10.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 1,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 102.1,
+     "max_distance": 356.0,
+     "max_barrel_score": 71.5,
+     "temp_f": 71.0,
+     "wind_mph": 11.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -197218,6 +199904,23 @@
      "max_distance": 208.0,
      "max_barrel_score": 38.5,
      "temp_f": 73.0,
+     "wind_mph": 9.0,
+     "wind_dir": "cross",
+     "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 96.7,
+     "max_distance": 339.0,
+     "max_barrel_score": 69.2,
+     "temp_f": 74.0,
      "wind_mph": 9.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
@@ -198933,6 +201636,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Dome"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 95.9,
+     "max_distance": 327.0,
+     "max_barrel_score": 67.3,
+     "temp_f": 71.0,
+     "wind_mph": 11.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -199752,6 +202472,23 @@
      "max_distance": 368.0,
      "max_barrel_score": 78.7,
      "temp_f": 73.0,
+     "wind_mph": 9.0,
+     "wind_dir": "cross",
+     "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 95.3,
+     "max_distance": 174.0,
+     "max_barrel_score": 29.1,
+     "temp_f": 74.0,
      "wind_mph": 9.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
@@ -200991,6 +203728,23 @@
      "wind_mph": 9.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 94.2,
+     "max_distance": 309.0,
+     "max_barrel_score": 61.7,
+     "temp_f": 74.0,
+     "wind_mph": 9.0,
+     "wind_dir": "cross",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -201844,6 +204598,23 @@
      "max_distance": 12.0,
      "max_barrel_score": 16.9,
      "temp_f": 73.0,
+     "wind_mph": 9.0,
+     "wind_dir": "cross",
+     "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 95.1,
+     "max_distance": 90.0,
+     "max_barrel_score": 24.4,
+     "temp_f": 74.0,
      "wind_mph": 9.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
@@ -202958,6 +205729,23 @@
      "wind_mph": 10.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 105.0,
+     "max_distance": 222.0,
+     "max_barrel_score": 43.2,
+     "temp_f": 71.0,
+     "wind_mph": 11.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -204018,6 +206806,23 @@
      "wind_mph": 9.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 1,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 110.8,
+     "max_distance": 427.0,
+     "max_barrel_score": 93.1,
+     "temp_f": 74.0,
+     "wind_mph": 9.0,
+     "wind_dir": "cross",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -204653,6 +207458,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 94.5,
+     "max_distance": 313.0,
+     "max_barrel_score": 52.5,
+     "temp_f": 74.0,
+     "wind_mph": 9.0,
+     "wind_dir": "cross",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -205764,6 +208586,23 @@
      "wind_mph": 9.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 1,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 107.4,
+     "max_distance": 410.0,
+     "max_barrel_score": 87.9,
+     "temp_f": 74.0,
+     "wind_mph": 9.0,
+     "wind_dir": "cross",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -206804,6 +209643,23 @@
      "max_distance": 197.0,
      "max_barrel_score": 43.3,
      "temp_f": 73.0,
+     "wind_mph": 9.0,
+     "wind_dir": "cross",
+     "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 100.4,
+     "max_distance": 62.0,
+     "max_barrel_score": 33.3,
+     "temp_f": 74.0,
      "wind_mph": 9.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
@@ -208468,6 +211324,23 @@
      "wind_mph": 7.0,
      "wind_dir": "out",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 94.9,
+     "max_distance": 286.0,
+     "max_barrel_score": 50.7,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -210161,6 +213034,23 @@
      "max_barrel_score": 82.4,
      "temp_f": 72.0,
      "wind_mph": 6.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 1,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 105.2,
+     "max_distance": 356.0,
+     "max_barrel_score": 71.5,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
      "wind_dir": "out",
      "weather_condition": "Clear"
     }
@@ -212368,6 +215258,23 @@
      "wind_mph": 9.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 99.0,
+     "max_distance": 235.0,
+     "max_barrel_score": 60.0,
+     "temp_f": 74.0,
+     "wind_mph": 9.0,
+     "wind_dir": "cross",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -213411,6 +216318,23 @@
      "wind_mph": 6.0,
      "wind_dir": "out",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 97.6,
+     "max_distance": 289.0,
+     "max_barrel_score": 61.5,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -214384,6 +217308,23 @@
      "max_barrel_score": 66.7,
      "temp_f": 72.0,
      "wind_mph": 6.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 106.3,
+     "max_distance": 242.0,
+     "max_barrel_score": 61.5,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
      "wind_dir": "out",
      "weather_condition": "Clear"
     }
@@ -215361,6 +218302,23 @@
      "wind_mph": 6.0,
      "wind_dir": "out",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 5,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 109.9,
+     "max_distance": 269.0,
+     "max_barrel_score": 71.9,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -215656,6 +218614,23 @@
      "wind_mph": 7.0,
      "wind_dir": "out",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 96.6,
+     "max_distance": 45.0,
+     "max_barrel_score": 26.6,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -216767,6 +219742,23 @@
      "wind_mph": 9.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 100.6,
+     "max_distance": 337.0,
+     "max_barrel_score": 71.5,
+     "temp_f": 74.0,
+     "wind_mph": 9.0,
+     "wind_dir": "cross",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -217790,6 +220782,23 @@
      "max_distance": 388.0,
      "max_barrel_score": 77.8,
      "temp_f": 73.0,
+     "wind_mph": 9.0,
+     "wind_dir": "cross",
+     "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 5,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 100.0,
+     "max_distance": 340.0,
+     "max_barrel_score": 72.2,
+     "temp_f": 74.0,
      "wind_mph": 9.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
@@ -218925,6 +221934,23 @@
      "max_barrel_score": 62.8,
      "temp_f": 72.0,
      "wind_mph": 6.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 104.1,
+     "max_distance": 337.0,
+     "max_barrel_score": 76.9,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
      "wind_dir": "out",
      "weather_condition": "Clear"
     }
@@ -222023,6 +225049,23 @@
      "wind_mph": 2.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 5,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 106.0,
+     "max_distance": 321.0,
+     "max_barrel_score": 70.9,
+     "temp_f": 95.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -222828,6 +225871,23 @@
      "wind_mph": 2.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 5,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 102.0,
+     "max_distance": 260.0,
+     "max_barrel_score": 55.1,
+     "temp_f": 95.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -223497,6 +226557,23 @@
      "wind_mph": 6.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 5,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 96.2,
+     "max_distance": 276.0,
+     "max_barrel_score": 51.4,
+     "temp_f": 95.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -225175,6 +228252,23 @@
      "wind_mph": 9.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 105.1,
+     "max_distance": 389.0,
+     "max_barrel_score": 79.0,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -226615,6 +229709,23 @@
      "wind_mph": 10.0,
      "wind_dir": "cross",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 97.9,
+     "max_distance": 311.0,
+     "max_barrel_score": 51.9,
+     "temp_f": 85.0,
+     "wind_mph": 6.0,
+     "wind_dir": "out",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -227324,6 +230435,23 @@
      "wind_mph": 9.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 106.7,
+     "max_distance": 175.0,
+     "max_barrel_score": 44.1,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -228169,6 +231297,23 @@
      "wind_mph": 10.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 70.1,
+     "max_distance": 6.0,
+     "max_barrel_score": 0.5,
+     "temp_f": 77.0,
+     "wind_mph": 6.0,
+     "wind_dir": "cross",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -229059,6 +232204,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 1,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 104.8,
+     "max_distance": 393.0,
+     "max_barrel_score": 74.6,
+     "temp_f": 73.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
     }
    }
   },
@@ -229682,6 +232844,23 @@
      "temp_f": 75.0,
      "wind_mph": 9.0,
      "wind_dir": "varies",
+     "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 94.8,
+     "max_distance": 20.0,
+     "max_barrel_score": 23.4,
+     "temp_f": 77.0,
+     "wind_mph": 6.0,
+     "wind_dir": "cross",
      "weather_condition": "Clear"
     }
    }
@@ -230369,6 +233548,23 @@
      "wind_mph": 10.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 103.9,
+     "max_distance": 168.0,
+     "max_barrel_score": 50.1,
+     "temp_f": 73.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
     }
    }
   },
@@ -234939,6 +238135,23 @@
      "wind_mph": 10.0,
      "wind_dir": "cross",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 96.6,
+     "max_distance": 316.0,
+     "max_barrel_score": 52.3,
+     "temp_f": 85.0,
+     "wind_mph": 6.0,
+     "wind_dir": "out",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -235846,6 +239059,23 @@
      "wind_mph": 8.0,
      "wind_dir": "none",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 91.8,
+     "max_distance": 284.0,
+     "max_barrel_score": 61.2,
+     "temp_f": 70.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -238694,6 +241924,23 @@
      "max_ev": 100.9,
      "max_distance": 324.0,
      "max_barrel_score": 60.2,
+     "temp_f": 72.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Dome"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 98.4,
+     "max_distance": 285.0,
+     "max_barrel_score": 55.6,
      "temp_f": 72.0,
      "wind_mph": 0.0,
      "wind_dir": "none",
@@ -242576,6 +245823,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 1,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 25,
+     "max_ev": 105.4,
+     "max_distance": 362.0,
+     "max_barrel_score": 68.7,
+     "temp_f": 74.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
     }
    }
   },
@@ -243381,6 +246645,23 @@
      "wind_mph": 9.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 105.8,
+     "max_distance": 266.0,
+     "max_barrel_score": 64.8,
+     "temp_f": 69.0,
+     "wind_mph": 5.0,
+     "wind_dir": "varies",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -245706,6 +248987,23 @@
      "wind_mph": 11.0,
      "wind_dir": "in",
      "weather_condition": "Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 100.2,
+     "max_distance": 251.0,
+     "max_barrel_score": 41.1,
+     "temp_f": 74.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -246704,6 +250002,23 @@
      "wind_mph": 5.0,
      "wind_dir": "out",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 99.2,
+     "max_distance": 93.0,
+     "max_barrel_score": 27.0,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -247339,6 +250654,23 @@
      "wind_mph": 5.0,
      "wind_dir": "out",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 79.6,
+     "max_distance": 42.0,
+     "max_barrel_score": 12.4,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -248331,6 +251663,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 88.5,
+     "max_distance": 12.0,
+     "max_barrel_score": 16.6,
+     "temp_f": 73.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
     }
    }
   },
@@ -248470,6 +251819,23 @@
      "max_distance": 143.0,
      "max_barrel_score": 15.5,
      "temp_f": 74.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 1,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 99.7,
+     "max_distance": 391.0,
+     "max_barrel_score": 81.9,
+     "temp_f": 73.0,
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
@@ -249494,6 +252860,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Dome"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 97.7,
+     "max_distance": 319.0,
+     "max_barrel_score": 56.8,
+     "temp_f": 71.0,
+     "wind_mph": 11.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -250363,6 +253746,23 @@
      "max_ev": 103.3,
      "max_distance": 113.0,
      "max_barrel_score": 34.7,
+     "temp_f": 74.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 107.3,
+     "max_distance": 224.0,
+     "max_barrel_score": 54.8,
      "temp_f": 74.0,
      "wind_mph": 0.0,
      "wind_dir": "none",
@@ -251660,6 +255060,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 97.8,
+     "max_distance": 327.0,
+     "max_barrel_score": 66.1,
+     "temp_f": 74.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
     }
    }
   },
@@ -252310,6 +255727,23 @@
      "max_barrel_score": 33.8,
      "temp_f": 72.0,
      "wind_mph": 6.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 104.3,
+     "max_distance": 168.0,
+     "max_barrel_score": 43.7,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
      "wind_dir": "out",
      "weather_condition": "Clear"
     }
@@ -254098,6 +257532,23 @@
      "wind_mph": 2.0,
      "wind_dir": "in",
      "weather_condition": "Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 92.6,
+     "max_distance": 340.0,
+     "max_barrel_score": 72.2,
+     "temp_f": 74.0,
+     "wind_mph": 9.0,
+     "wind_dir": "cross",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -256746,6 +260197,23 @@
      "wind_mph": 8.0,
      "wind_dir": "out",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 1,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 103.8,
+     "max_distance": 400.0,
+     "max_barrel_score": 85.1,
+     "temp_f": 77.0,
+     "wind_mph": 6.0,
+     "wind_dir": "cross",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -257590,6 +261058,23 @@
      "temp_f": 75.0,
      "wind_mph": 8.0,
      "wind_dir": "out",
+     "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 1,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 102.4,
+     "max_distance": 376.0,
+     "max_barrel_score": 83.3,
+     "temp_f": 77.0,
+     "wind_mph": 6.0,
+     "wind_dir": "cross",
      "weather_condition": "Clear"
     }
    }
@@ -258782,6 +262267,23 @@
      "wind_mph": 6.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 93.9,
+     "max_distance": 292.0,
+     "max_barrel_score": 61.4,
+     "temp_f": 68.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -259832,6 +263334,23 @@
      "wind_mph": 7.0,
      "wind_dir": "cross",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 63.6,
+     "max_distance": 60.0,
+     "max_barrel_score": 7.3,
+     "temp_f": 68.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -260742,6 +264261,23 @@
      "max_distance": 301.0,
      "max_barrel_score": 64.0,
      "temp_f": 73.0,
+     "wind_mph": 9.0,
+     "wind_dir": "cross",
+     "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 1,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 104.2,
+     "max_distance": 388.0,
+     "max_barrel_score": 81.3,
+     "temp_f": 74.0,
      "wind_mph": 9.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
@@ -261964,6 +265500,23 @@
      "wind_mph": 9.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 77.9,
+     "max_distance": 171.0,
+     "max_barrel_score": 18.4,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -264164,6 +267717,23 @@
      "wind_mph": 10.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 90.5,
+     "max_distance": 296.0,
+     "max_barrel_score": 60.9,
+     "temp_f": 71.0,
+     "wind_mph": 11.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -268106,6 +271676,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 96.8,
+     "max_distance": 348.0,
+     "max_barrel_score": 72.1,
+     "temp_f": 74.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
     }
    }
   },
@@ -269606,6 +273193,23 @@
      "max_distance": 249.0,
      "max_barrel_score": 42.0,
      "temp_f": 74.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 90.2,
+     "max_distance": 3.0,
+     "max_barrel_score": 18.2,
+     "temp_f": 73.0,
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
@@ -271140,6 +274744,23 @@
      "wind_mph": 8.0,
      "wind_dir": "out",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 104.1,
+     "max_distance": 201.0,
+     "max_barrel_score": 39.6,
+     "temp_f": 77.0,
+     "wind_mph": 6.0,
+     "wind_dir": "cross",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -271535,6 +275156,23 @@
      "max_barrel_score": 20.6,
      "temp_f": 72.0,
      "wind_mph": 6.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 83.1,
+     "max_distance": 281.0,
+     "max_barrel_score": 58.7,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
      "wind_dir": "out",
      "weather_condition": "Clear"
     }
@@ -272154,6 +275792,23 @@
      "temp_f": 77.0,
      "wind_mph": 5.0,
      "wind_dir": "out",
+     "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 97.7,
+     "max_distance": 284.0,
+     "max_barrel_score": 53.7,
+     "temp_f": 70.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
     }
    }
@@ -272989,6 +276644,23 @@
      "wind_mph": 6.0,
      "wind_dir": "out",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 91.9,
+     "max_distance": 300.0,
+     "max_barrel_score": 65.6,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -273698,6 +277370,23 @@
      "wind_mph": 9.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 57.7,
+     "max_distance": 103.0,
+     "max_barrel_score": 21.0,
+     "temp_f": 69.0,
+     "wind_mph": 5.0,
+     "wind_dir": "varies",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -274724,6 +278413,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 2,
+     "near_hr_xbh": 1,
+     "near_hr_distance": 2,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 4,
+     "max_ev": 102.8,
+     "max_distance": 358.0,
+     "max_barrel_score": 74.8,
+     "temp_f": 74.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
     }
    }
   },
@@ -275512,6 +279218,23 @@
      "wind_mph": 5.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 91.2,
+     "max_distance": 336.0,
+     "max_barrel_score": 68.5,
+     "temp_f": 95.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -276045,6 +279768,23 @@
      "wind_mph": 7.0,
      "wind_dir": "out",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 97.9,
+     "max_distance": 339.0,
+     "max_barrel_score": 66.2,
+     "temp_f": 85.0,
+     "wind_mph": 6.0,
+     "wind_dir": "out",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -277310,6 +281050,23 @@
      "wind_mph": 9.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 83.7,
+     "max_distance": 243.0,
+     "max_barrel_score": 45.7,
+     "temp_f": 69.0,
+     "wind_mph": 5.0,
+     "wind_dir": "varies",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -278251,6 +282008,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 2,
+     "near_hr_xbh": 1,
+     "near_hr_distance": 1,
+     "near_hr_parks": 1,
+     "near_hr_barrel": 2,
+     "would_be_hr_parks_sum": 18,
+     "max_ev": 105.7,
+     "max_distance": 412.0,
+     "max_barrel_score": 85.4,
+     "temp_f": 73.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
     }
    }
   },
@@ -279038,6 +282812,23 @@
      "temp_f": 75.0,
      "wind_mph": 8.0,
      "wind_dir": "out",
+     "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 5,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 101.0,
+     "max_distance": 318.0,
+     "max_barrel_score": 66.6,
+     "temp_f": 77.0,
+     "wind_mph": 6.0,
+     "wind_dir": "cross",
      "weather_condition": "Clear"
     }
    }
@@ -281745,6 +285536,23 @@
      "wind_mph": 8.0,
      "wind_dir": "none",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 98.8,
+     "max_distance": 261.0,
+     "max_barrel_score": 55.1,
+     "temp_f": 70.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -282397,6 +286205,23 @@
      "wind_mph": 6.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 87.0,
+     "max_distance": 301.0,
+     "max_barrel_score": 53.7,
+     "temp_f": 95.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -282721,6 +286546,23 @@
      "wind_mph": 9.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 109.4,
+     "max_distance": 327.0,
+     "max_barrel_score": 71.0,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -284604,6 +288446,23 @@
      "wind_mph": 10.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 83.4,
+     "max_distance": 266.0,
+     "max_barrel_score": 43.8,
+     "temp_f": 71.0,
+     "wind_mph": 11.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -285976,6 +289835,23 @@
      "wind_mph": 6.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 96.6,
+     "max_distance": 342.0,
+     "max_barrel_score": 68.0,
+     "temp_f": 68.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -286713,6 +290589,23 @@
      "wind_mph": 7.0,
      "wind_dir": "out",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 98.9,
+     "max_distance": 226.0,
+     "max_barrel_score": 51.2,
+     "temp_f": 85.0,
+     "wind_mph": 6.0,
+     "wind_dir": "out",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -287518,6 +291411,23 @@
      "wind_mph": 9.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 99.1,
+     "max_distance": 118.0,
+     "max_barrel_score": 28.5,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -287966,6 +291876,23 @@
      "wind_mph": 19.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 98.9,
+     "max_distance": 372.0,
+     "max_barrel_score": 75.6,
+     "temp_f": 74.0,
+     "wind_mph": 9.0,
+     "wind_dir": "cross",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -288923,6 +292850,23 @@
      "temp_f": 74.0,
      "wind_mph": 11.0,
      "wind_dir": "in",
+     "weather_condition": "Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 1,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 28,
+     "max_ev": 103.4,
+     "max_distance": 398.0,
+     "max_barrel_score": 72.6,
+     "temp_f": 74.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
      "weather_condition": "Cloudy"
     }
    }
@@ -291862,6 +295806,23 @@
      "wind_mph": 6.0,
      "wind_dir": "out",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 100.3,
+     "max_distance": 329.0,
+     "max_barrel_score": 63.2,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -293842,6 +297803,23 @@
      "wind_mph": 10.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 107.2,
+     "max_distance": 333.0,
+     "max_barrel_score": 66.4,
+     "temp_f": 71.0,
+     "wind_mph": 11.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -294574,6 +298552,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 1,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 101.7,
+     "max_distance": 392.0,
+     "max_barrel_score": 76.1,
+     "temp_f": 74.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
     }
    }
   },
@@ -295192,6 +299187,23 @@
      "wind_mph": 6.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 5,
+     "hr": 2,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 102.9,
+     "max_distance": 402.0,
+     "max_barrel_score": 81.1,
+     "temp_f": 71.0,
+     "wind_mph": 11.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -296831,6 +300843,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 1,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 105.1,
+     "max_distance": 411.0,
+     "max_barrel_score": 87.0,
+     "temp_f": 73.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
     }
    }
   },
@@ -298414,6 +302443,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Dome"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 96.8,
+     "max_distance": 367.0,
+     "max_barrel_score": 74.5,
+     "temp_f": 72.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Dome"
     }
    }
   },
@@ -298981,6 +303027,23 @@
      "wind_mph": 8.0,
      "wind_dir": "none",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 96.6,
+     "max_distance": 284.0,
+     "max_barrel_score": 52.6,
+     "temp_f": 70.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -299985,6 +304048,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 74.4,
+     "max_distance": 114.0,
+     "max_barrel_score": 24.0,
+     "temp_f": 73.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
     }
    }
   },
@@ -300722,6 +304802,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 104.0,
+     "max_distance": 184.0,
+     "max_barrel_score": 51.8,
+     "temp_f": 74.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
     }
    }
   },
@@ -301119,6 +305216,23 @@
      "wind_mph": 9.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 105.6,
+     "max_distance": 322.0,
+     "max_barrel_score": 71.7,
+     "temp_f": 69.0,
+     "wind_mph": 5.0,
+     "wind_dir": "varies",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -302083,6 +306197,23 @@
      "wind_mph": 9.0,
      "wind_dir": "in",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 93.9,
+     "max_distance": 222.0,
+     "max_barrel_score": 34.4,
+     "temp_f": 69.0,
+     "wind_mph": 5.0,
+     "wind_dir": "varies",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -302841,6 +306972,23 @@
      "max_barrel_score": 5.4,
      "temp_f": 72.0,
      "wind_mph": 6.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 74.9,
+     "max_distance": 240.0,
+     "max_barrel_score": 46.5,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
      "wind_dir": "out",
      "weather_condition": "Clear"
     }
@@ -304420,6 +308568,23 @@
      "wind_mph": 8.0,
      "wind_dir": "out",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 88.0,
+     "max_distance": 305.0,
+     "max_barrel_score": 65.8,
+     "temp_f": 77.0,
+     "wind_mph": 6.0,
+     "wind_dir": "cross",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -304647,6 +308812,23 @@
      "wind_mph": 4.0,
      "wind_dir": "out",
      "weather_condition": "Sunny"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 88.5,
+     "max_distance": 69.0,
+     "max_barrel_score": 21.0,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -304941,6 +309123,23 @@
      "temp_f": 74.0,
      "wind_mph": 8.0,
      "wind_dir": "out",
+     "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 97.8,
+     "max_distance": 230.0,
+     "max_barrel_score": 56.4,
+     "temp_f": 77.0,
+     "wind_mph": 6.0,
+     "wind_dir": "cross",
      "weather_condition": "Clear"
     }
    }
@@ -306076,6 +310275,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 110.0,
+     "max_distance": 308.0,
+     "max_barrel_score": 61.8,
+     "temp_f": 73.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
     }
    }
   },
@@ -306504,6 +310720,23 @@
      "max_distance": 369.0,
      "max_barrel_score": 82.0,
      "temp_f": 73.0,
+     "wind_mph": 9.0,
+     "wind_dir": "cross",
+     "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 94.7,
+     "max_distance": 211.0,
+     "max_barrel_score": 44.9,
+     "temp_f": 74.0,
      "wind_mph": 9.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
@@ -307091,6 +311324,23 @@
      "wind_mph": 8.0,
      "wind_dir": "none",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 90.2,
+     "max_distance": 270.0,
+     "max_barrel_score": 42.5,
+     "temp_f": 70.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -309100,6 +313350,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 103.5,
+     "max_distance": 66.0,
+     "max_barrel_score": 35.3,
+     "temp_f": 73.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
     }
    }
   },
@@ -309344,6 +313611,23 @@
      "wind_mph": 8.0,
      "wind_dir": "none",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 1,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 104.7,
+     "max_distance": 393.0,
+     "max_barrel_score": 84.3,
+     "temp_f": 70.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -310367,6 +314651,23 @@
      "max_ev": 98.0,
      "max_distance": 34.0,
      "max_barrel_score": 27.2,
+     "temp_f": 74.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 99.7,
+     "max_distance": 224.0,
+     "max_barrel_score": 41.1,
      "temp_f": 74.0,
      "wind_mph": 0.0,
      "wind_dir": "none",
@@ -312619,6 +316920,23 @@
      "wind_mph": 2.0,
      "wind_dir": "in",
      "weather_condition": "Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 71.7,
+     "max_distance": 247.0,
+     "max_barrel_score": 45.3,
+     "temp_f": 74.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -313135,6 +317453,23 @@
      "wind_mph": 11.0,
      "wind_dir": "in",
      "weather_condition": "Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 88.7,
+     "max_distance": 220.0,
+     "max_barrel_score": 45.9,
+     "temp_f": 74.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -313479,6 +317814,23 @@
      "max_barrel_score": 33.4,
      "temp_f": 72.0,
      "wind_mph": 6.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 105.7,
+     "max_distance": 185.0,
+     "max_barrel_score": 49.3,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
      "wind_dir": "out",
      "weather_condition": "Clear"
     }
@@ -314661,6 +319013,23 @@
      "wind_mph": 6.0,
      "wind_dir": "out",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 41.5,
+     "max_distance": 24.0,
+     "max_barrel_score": 1.6,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -315574,6 +319943,23 @@
      "wind_mph": 6.0,
      "wind_dir": "out",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 86.0,
+     "max_distance": 285.0,
+     "max_barrel_score": 51.3,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -316204,6 +320590,23 @@
      "wind_mph": 5.0,
      "wind_dir": "out",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 97.9,
+     "max_distance": 323.0,
+     "max_barrel_score": 66.0,
+     "temp_f": 69.0,
+     "wind_mph": 5.0,
+     "wind_dir": "varies",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -316498,6 +320901,23 @@
      "temp_f": 74.0,
      "wind_mph": 11.0,
      "wind_dir": "in",
+     "weather_condition": "Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 86.3,
+     "max_distance": 25.0,
+     "max_barrel_score": 16.2,
+     "temp_f": 74.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
      "weather_condition": "Cloudy"
     }
    }
@@ -316950,6 +321370,23 @@
      "max_distance": 153.0,
      "max_barrel_score": 32.0,
      "temp_f": 74.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 103.9,
+     "max_distance": 304.0,
+     "max_barrel_score": 67.9,
+     "temp_f": 73.0,
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Roof Closed"
@@ -317577,6 +322014,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Dome"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 93.5,
+     "max_distance": 352.0,
+     "max_barrel_score": 71.6,
+     "temp_f": 72.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Dome"
     }
    }
   },
@@ -317702,6 +322156,23 @@
      "wind_mph": 8.0,
      "wind_dir": "none",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 68.8,
+     "max_distance": 216.0,
+     "max_barrel_score": 30.8,
+     "temp_f": 70.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -318116,6 +322587,23 @@
      "wind_mph": 8.0,
      "wind_dir": "none",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 95.3,
+     "max_distance": 204.0,
+     "max_barrel_score": 40.7,
+     "temp_f": 70.0,
+     "wind_mph": 6.0,
+     "wind_dir": "in",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -318583,6 +323071,23 @@
      "max_ev": 84.7,
      "max_distance": 233.0,
      "max_barrel_score": 31.8,
+     "temp_f": 74.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Roof Closed"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 99.0,
+     "max_distance": 97.0,
+     "max_barrel_score": 34.1,
      "temp_f": 74.0,
      "wind_mph": 0.0,
      "wind_dir": "none",
@@ -319057,6 +323562,23 @@
      "temp_f": 75.0,
      "wind_mph": 8.0,
      "wind_dir": "out",
+     "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 101.5,
+     "max_distance": 20.0,
+     "max_barrel_score": 29.3,
+     "temp_f": 77.0,
+     "wind_mph": 6.0,
+     "wind_dir": "cross",
      "weather_condition": "Clear"
     }
    }
@@ -319978,6 +324500,23 @@
      "wind_mph": 9.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 92.7,
+     "max_distance": 260.0,
+     "max_barrel_score": 52.7,
+     "temp_f": 74.0,
+     "wind_mph": 9.0,
+     "wind_dir": "cross",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -320290,6 +324829,23 @@
      "wind_mph": 4.0,
      "wind_dir": "in",
      "weather_condition": "Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 103.2,
+     "max_distance": 320.0,
+     "max_barrel_score": 58.3,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -321057,6 +325613,23 @@
      "wind_mph": 4.0,
      "wind_dir": "in",
      "weather_condition": "Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 94.5,
+     "max_distance": 382.0,
+     "max_barrel_score": 74.5,
+     "temp_f": 85.0,
+     "wind_mph": 6.0,
+     "wind_dir": "out",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -321317,6 +325890,23 @@
      "temp_f": 75.0,
      "wind_mph": 8.0,
      "wind_dir": "out",
+     "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 93.2,
+     "max_distance": 345.0,
+     "max_barrel_score": 66.5,
+     "temp_f": 77.0,
+     "wind_mph": 6.0,
+     "wind_dir": "cross",
      "weather_condition": "Clear"
     }
    }
@@ -321630,6 +326220,23 @@
      "wind_mph": 0.0,
      "wind_dir": "none",
      "weather_condition": "Dome"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 102.8,
+     "max_distance": 271.0,
+     "max_barrel_score": 61.4,
+     "temp_f": 72.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Dome"
     }
    }
   },
@@ -321921,6 +326528,23 @@
      "max_ev": 105.3,
      "max_distance": 258.0,
      "max_barrel_score": 41.6,
+     "temp_f": 72.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Dome"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 1,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "would_be_hr_parks_sum": 1,
+     "max_ev": 94.7,
+     "max_distance": 352.0,
+     "max_barrel_score": 72.7,
      "temp_f": 72.0,
      "wind_mph": 0.0,
      "wind_dir": "none",
@@ -322220,6 +326844,23 @@
      "wind_mph": 2.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 84.7,
+     "max_distance": 309.0,
+     "max_barrel_score": 62.0,
+     "temp_f": 95.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -322396,6 +327037,23 @@
      "wind_mph": 7.0,
      "wind_dir": "out",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 84.2,
+     "max_distance": 315.0,
+     "max_barrel_score": 60.9,
+     "temp_f": 85.0,
+     "wind_mph": 6.0,
+     "wind_dir": "out",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -322680,6 +327338,23 @@
      "wind_mph": 11.0,
      "wind_dir": "in",
      "weather_condition": "Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 101.2,
+     "max_distance": 173.0,
+     "max_barrel_score": 50.2,
+     "temp_f": 74.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
+     "weather_condition": "Cloudy"
     }
    }
   },
@@ -322818,6 +327493,23 @@
      "max_ev": 70.7,
      "max_distance": 5.0,
      "max_barrel_score": 1.0,
+     "temp_f": 72.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Dome"
+    },
+    "2026-09-19": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 82.4,
+     "max_distance": 32.0,
+     "max_barrel_score": 19.6,
      "temp_f": 72.0,
      "wind_mph": 0.0,
      "wind_dir": "none",
@@ -323208,6 +327900,23 @@
      "wind_mph": 11.0,
      "wind_dir": "cross",
      "weather_condition": "Drizzle"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 103.3,
+     "max_distance": 11.0,
+     "max_barrel_score": 29.9,
+     "temp_f": 69.0,
+     "wind_mph": 5.0,
+     "wind_dir": "varies",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -323816,6 +328525,23 @@
      "wind_mph": 6.0,
      "wind_dir": "out",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 5,
+     "hr": 1,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 105.4,
+     "max_distance": 422.0,
+     "max_barrel_score": 84.7,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -324094,6 +328820,23 @@
      "wind_mph": 2.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 97.1,
+     "max_distance": 262.0,
+     "max_barrel_score": 39.8,
+     "temp_f": 95.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -324185,6 +328928,23 @@
      "wind_mph": 2.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 93.7,
+     "max_distance": 7.0,
+     "max_barrel_score": 21.5,
+     "temp_f": 95.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
+     "weather_condition": "Partly Cloudy"
     }
    }
   },
@@ -324327,6 +329087,23 @@
      "wind_mph": 9.0,
      "wind_dir": "cross",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 91.2,
+     "max_distance": 19.0,
+     "max_barrel_score": 20.1,
+     "temp_f": 74.0,
+     "wind_mph": 9.0,
+     "wind_dir": "cross",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -324400,6 +329177,23 @@
      "temp_f": 75.0,
      "wind_mph": 8.0,
      "wind_dir": "out",
+     "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 44.8,
+     "max_distance": 109.0,
+     "max_barrel_score": 14.9,
+     "temp_f": 77.0,
+     "wind_mph": 6.0,
+     "wind_dir": "cross",
      "weather_condition": "Clear"
     }
    }
@@ -324600,6 +329394,23 @@
      "wind_mph": 10.0,
      "wind_dir": "cross",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 75.4,
+     "max_distance": 130.0,
+     "max_barrel_score": 24.4,
+     "temp_f": 85.0,
+     "wind_mph": 6.0,
+     "wind_dir": "out",
+     "weather_condition": "Overcast"
     }
    }
   },
@@ -324787,6 +329598,23 @@
      "temp_f": 74.0,
      "wind_mph": 11.0,
      "wind_dir": "in",
+     "weather_condition": "Cloudy"
+    },
+    "2026-09-19": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 95.4,
+     "max_distance": 284.0,
+     "max_barrel_score": 57.2,
+     "temp_f": 74.0,
+     "wind_mph": 5.0,
+     "wind_dir": "cross",
      "weather_condition": "Cloudy"
     }
    }
@@ -325209,6 +330037,23 @@
      "wind_mph": 6.0,
      "wind_dir": "out",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 78.4,
+     "max_distance": 255.0,
+     "max_barrel_score": 47.4,
+     "temp_f": 77.0,
+     "wind_mph": 7.0,
+     "wind_dir": "out",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -325357,6 +330202,23 @@
      "wind_mph": 8.0,
      "wind_dir": "out",
      "weather_condition": "Clear"
+    },
+    "2026-09-19": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 90.1,
+     "max_distance": 6.0,
+     "max_barrel_score": 18.3,
+     "temp_f": 77.0,
+     "wind_mph": 6.0,
+     "wind_dir": "cross",
+     "weather_condition": "Clear"
     }
    }
   },
@@ -325437,6 +330299,29 @@
      "wind_mph": 6.0,
      "wind_dir": "out",
      "weather_condition": "Clear"
+    }
+   }
+  },
+  "641584": {
+   "player_name": "Jake Fraley",
+   "team": "TB",
+   "days": {
+    "2026-09-19": {
+     "bbe": 2,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 89.1,
+     "max_distance": 63.0,
+     "max_barrel_score": 18.4,
+     "temp_f": 72.0,
+     "wind_mph": 0.0,
+     "wind_dir": "none",
+     "weather_condition": "Dome"
     }
    }
   }
