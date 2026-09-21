@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-09-21T16:11:27.532265+00:00",
+ "generated_at": "2026-09-21T20:21:20.833946+00:00",
  "as_of": "2026-09-20",
  "config": {
   "min_near_hr_events": 1,
@@ -56,37 +56,6 @@
  },
  "players": [
   {
-   "player_id": 664770,
-   "player_name": "Nathan Lukes",
-   "team": "TOR",
-   "expectancy_score": 52.5,
-   "streak": 3,
-   "frequency": 0.714,
-   "slopes": {
-    "max_ev": 1.268,
-    "parks_sum": 0.179,
-    "near_hr": 0.018
-   },
-   "near_hr_7d": 4,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 102.5,
-   "max_distance_7d": 393,
-   "band": "40-60",
-   "band_rate": 0.259,
-   "band_samples": 459,
-   "weather_factor": 1.0,
-   "adjusted_score": 52.5,
-   "game_weather": {
-    "venue_name": "Oriole Park at Camden Yards",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
    "player_id": 647304,
    "player_name": "Josh Naylor",
    "team": "SEA",
@@ -112,6 +81,37 @@
    "repeat": false
   },
   {
+   "player_id": 664770,
+   "player_name": "Nathan Lukes",
+   "team": "TOR",
+   "expectancy_score": 52.5,
+   "streak": 3,
+   "frequency": 0.714,
+   "slopes": {
+    "max_ev": 1.268,
+    "parks_sum": 0.179,
+    "near_hr": 0.018
+   },
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 102.5,
+   "max_distance_7d": 393,
+   "band": "40-60",
+   "band_rate": 0.259,
+   "band_samples": 459,
+   "weather_factor": 0.924,
+   "adjusted_score": 48.5,
+   "game_weather": {
+    "venue_name": "Oriole Park at Camden Yards",
+    "temp_f": 69.0,
+    "wind_mph": 9.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": true
+  },
+  {
    "player_id": 686611,
    "player_name": "Dylan Crews",
    "team": "WSH",
@@ -131,45 +131,14 @@
    "band": "40-60",
    "band_rate": 0.259,
    "band_samples": 459,
-   "weather_factor": 1.0,
-   "adjusted_score": 47.5,
+   "weather_factor": 0.964,
+   "adjusted_score": 45.8,
    "game_weather": {
     "venue_name": "Comerica Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
-   "player_id": 691723,
-   "player_name": "Coby Mayo",
-   "team": "BAL",
-   "expectancy_score": 41.6,
-   "streak": 3,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": -0.171,
-    "parks_sum": 0.75,
-    "near_hr": 0.223
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 1,
-   "max_ev_7d": 107.3,
-   "max_distance_7d": 410,
-   "band": "40-60",
-   "band_rate": 0.259,
-   "band_samples": 459,
-   "weather_factor": 1.0,
-   "adjusted_score": 41.6,
-   "game_weather": {
-    "venue_name": "Oriole Park at Camden Yards",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 61.0,
+    "wind_mph": 12.0,
+    "wind_dir": "cross",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": true
   },
@@ -224,6 +193,37 @@
    "repeat": false
   },
   {
+   "player_id": 691723,
+   "player_name": "Coby Mayo",
+   "team": "BAL",
+   "expectancy_score": 41.6,
+   "streak": 3,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": -0.171,
+    "parks_sum": 0.75,
+    "near_hr": 0.223
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 1,
+   "max_ev_7d": 107.3,
+   "max_distance_7d": 410,
+   "band": "40-60",
+   "band_rate": 0.259,
+   "band_samples": 459,
+   "weather_factor": 0.924,
+   "adjusted_score": 38.4,
+   "game_weather": {
+    "venue_name": "Oriole Park at Camden Yards",
+    "temp_f": 69.0,
+    "wind_mph": 9.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": true
+  },
+  {
    "player_id": 686668,
    "player_name": "Brenton Doyle",
    "team": "CWS",
@@ -268,14 +268,14 @@
    "band": "<40",
    "band_rate": 0.208,
    "band_samples": 18136,
-   "weather_factor": 1.0,
-   "adjusted_score": 34.9,
+   "weather_factor": 0.924,
+   "adjusted_score": 32.2,
    "game_weather": {
     "venue_name": "Oriole Park at Camden Yards",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 69.0,
+    "wind_mph": 9.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   },
