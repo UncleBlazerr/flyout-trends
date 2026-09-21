@@ -2,20 +2,38 @@
  "player_id": 806956,
  "player_name": "Ethan Salas",
  "team": "SD",
- "as_of": "2026-09-21",
+ "as_of": "2026-09-20",
  "form": {
-  "streak": 0,
-  "frequency": 0.143,
+  "streak": 1,
+  "frequency": 0.286,
   "slopes": {
-   "max_ev": 1.982,
-   "parks_sum": 0.0,
-   "near_hr": 0.0
+   "max_ev": 3.229,
+   "parks_sum": -0.071,
+   "near_hr": 0.062
   },
-  "intensity": 0.33,
-  "expectancy_score": 14.2,
-  "last_appearance": "2026-09-19"
+  "intensity": 0.354,
+  "expectancy_score": 27.2,
+  "last_appearance": "2026-09-20"
  },
  "days": [
+  {
+   "date": "2026-09-20",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 1,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 1,
+   "max_ev": 92.8,
+   "max_distance": 361.0,
+   "max_barrel_score": 73.8,
+   "temp_f": 76.0,
+   "wind_mph": 9.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-19",
    "bbe": 1,
@@ -180,6 +198,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823247,
+   "date": "2026-09-20",
+   "player_id": 806956,
+   "player_name": "Ethan Salas",
+   "team": "SD",
+   "opponent": "MIA",
+   "result": "Flyout",
+   "exit_velocity": 92.8,
+   "launch_angle": 28.0,
+   "hit_distance": 361.0,
+   "hc_x": 189.46,
+   "hc_y": 67.69,
+   "would_be_hr_count": 1,
+   "inning": 2,
+   "play_id": "f0423678-2d02-32fb-89ac-5716af618212",
+   "venue_id": 2680,
+   "venue_name": "Petco Park",
+   "temp_f": 76.0,
+   "wind_mph": 9.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": true,
+   "would_be_hr_flag": false,
+   "barrel_score": 73.8,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 823249,
    "date": "2026-09-19",

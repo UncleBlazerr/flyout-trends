@@ -2,20 +2,38 @@
  "player_id": 813841,
  "player_name": "Jonah Cox",
  "team": "SF",
- "as_of": "2026-09-21",
+ "as_of": "2026-09-20",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -3.904,
+   "max_ev": -1.279,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.0,
   "expectancy_score": 0.0,
-  "last_appearance": "2026-09-19"
+  "last_appearance": "2026-09-20"
  },
  "days": [
+  {
+   "date": "2026-09-20",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 91.6,
+   "max_distance": 323.0,
+   "max_barrel_score": 61.5,
+   "temp_f": 79.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-19",
    "bbe": 1,
@@ -432,6 +450,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823896,
+   "date": "2026-09-20",
+   "player_id": 813841,
+   "player_name": "Jonah Cox",
+   "team": "SF",
+   "opponent": "LAD",
+   "result": "Lineout",
+   "exit_velocity": 91.6,
+   "launch_angle": 19.0,
+   "hit_distance": 323.0,
+   "hc_x": 125.25,
+   "hc_y": 69.74,
+   "would_be_hr_count": 0,
+   "inning": 6,
+   "play_id": "dbdc1834-604d-31dd-8b62-ac6a3000d8a2",
+   "venue_id": 22,
+   "venue_name": "UNIQLO Field at Dodger Stadium",
+   "temp_f": 79.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 61.5,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823899,
    "date": "2026-09-19",

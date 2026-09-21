@@ -2,20 +2,38 @@
  "player_id": 695391,
  "player_name": "Brett Harris",
  "team": "SF",
- "as_of": "2026-09-21",
+ "as_of": "2026-09-20",
  "form": {
   "streak": 0,
-  "frequency": 0.333,
+  "frequency": 0.286,
   "slopes": {
-   "max_ev": -0.48,
+   "max_ev": 0.332,
    "parks_sum": 0.0,
-   "near_hr": -0.321
+   "near_hr": -0.259
   },
-  "intensity": 0.0,
-  "expectancy_score": 10.0,
-  "last_appearance": "2026-09-19"
+  "intensity": 0.055,
+  "expectancy_score": 10.2,
+  "last_appearance": "2026-09-20"
  },
  "days": [
+  {
+   "date": "2026-09-20",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 103.6,
+   "max_distance": 334.0,
+   "max_barrel_score": 67.4,
+   "temp_f": 79.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-19",
    "bbe": 2,
@@ -126,6 +144,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823896,
+   "date": "2026-09-20",
+   "player_id": 695391,
+   "player_name": "Brett Harris",
+   "team": "SF",
+   "opponent": "LAD",
+   "result": "Lineout",
+   "exit_velocity": 103.6,
+   "launch_angle": 14.0,
+   "hit_distance": 334.0,
+   "hc_x": 116.86,
+   "hc_y": 65.42,
+   "would_be_hr_count": 0,
+   "inning": 1,
+   "play_id": "8ec173ae-68ad-322f-b552-1f16d827b1bf",
+   "venue_id": 22,
+   "venue_name": "UNIQLO Field at Dodger Stadium",
+   "temp_f": 79.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 67.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823899,
    "date": "2026-09-19",

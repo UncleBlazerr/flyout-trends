@@ -2,20 +2,38 @@
  "player_id": 807713,
  "player_name": "Matt Shaw",
  "team": "CHC",
- "as_of": "2026-09-21",
+ "as_of": "2026-09-20",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.429,
   "slopes": {
-   "max_ev": 3.911,
-   "parks_sum": -0.571,
-   "near_hr": 0.036
+   "max_ev": -1.679,
+   "parks_sum": -0.857,
+   "near_hr": -0.071
   },
-  "intensity": 0.345,
-  "expectancy_score": 31.2,
-  "last_appearance": "2026-09-19"
+  "intensity": 0.0,
+  "expectancy_score": 12.9,
+  "last_appearance": "2026-09-20"
  },
  "days": [
+  {
+   "date": "2026-09-20",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 90.9,
+   "max_distance": 14.0,
+   "max_barrel_score": 19.5,
+   "temp_f": 86.0,
+   "wind_mph": 6.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-19",
    "bbe": 4,
@@ -252,6 +270,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824462,
+   "date": "2026-09-20",
+   "player_id": 807713,
+   "player_name": "Matt Shaw",
+   "team": "CHC",
+   "opponent": "CIN",
+   "result": "Groundout",
+   "exit_velocity": 90.9,
+   "launch_angle": -9.0,
+   "hit_distance": 14.0,
+   "hc_x": 97.75,
+   "hc_y": 164.25,
+   "would_be_hr_count": 0,
+   "inning": 6,
+   "play_id": "abf55456-3dc8-33d8-b6dc-6705ae5ca031",
+   "venue_id": 2602,
+   "venue_name": "Great American Ball Park",
+   "temp_f": 86.0,
+   "wind_mph": 6.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 19.5,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824461,
    "date": "2026-09-19",
