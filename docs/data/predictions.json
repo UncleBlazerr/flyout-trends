@@ -35,37 +35,6 @@
    "repeat": true
   },
   {
-   "player_id": 693307,
-   "player_name": "Dillon Dingler",
-   "team": "DET",
-   "expectancy_score": 40.8,
-   "streak": 2,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 1.343,
-    "parks_sum": 0.964,
-    "near_hr": 0.205
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 2,
-   "hr_7d": 0,
-   "max_ev_7d": 104.1,
-   "max_distance_7d": 396,
-   "band": "40-60",
-   "band_rate": 0.259,
-   "band_samples": 463,
-   "weather_factor": 1.0,
-   "adjusted_score": 40.8,
-   "game_weather": {
-    "venue_name": "Comerica Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
    "player_id": 624424,
    "player_name": "Michael Conforto",
    "team": "CHC",
@@ -97,6 +66,37 @@
    "repeat": true
   },
   {
+   "player_id": 693307,
+   "player_name": "Dillon Dingler",
+   "team": "DET",
+   "expectancy_score": 40.8,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 1.343,
+    "parks_sum": 0.964,
+    "near_hr": 0.205
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 0,
+   "max_ev_7d": 104.1,
+   "max_distance_7d": 396,
+   "band": "40-60",
+   "band_rate": 0.259,
+   "band_samples": 463,
+   "weather_factor": 0.972,
+   "adjusted_score": 39.7,
+   "game_weather": {
+    "venue_name": "Comerica Park",
+    "temp_f": 63.0,
+    "wind_mph": 14.0,
+    "wind_dir": "cross",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
+  },
+  {
    "player_id": 605141,
    "player_name": "Mookie Betts",
    "team": "LAD",
@@ -120,37 +120,6 @@
    "adjusted_score": 38.9,
    "game_weather": {
     "venue_name": "UNIQLO Field at Dodger Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
-   "player_id": 686668,
-   "player_name": "Brenton Doyle",
-   "team": "CWS",
-   "expectancy_score": 38.2,
-   "streak": 2,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 1.696,
-    "parks_sum": -0.714,
-    "near_hr": 0.089
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 108.8,
-   "max_distance_7d": 377,
-   "band": "<40",
-   "band_rate": 0.208,
-   "band_samples": 18423,
-   "weather_factor": 1.0,
-   "adjusted_score": 38.2,
-   "game_weather": {
-    "venue_name": "Kauffman Stadium",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -190,6 +159,99 @@
    "repeat": false
   },
   {
+   "player_id": 686668,
+   "player_name": "Brenton Doyle",
+   "team": "CWS",
+   "expectancy_score": 38.2,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 1.696,
+    "parks_sum": -0.714,
+    "near_hr": 0.089
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 108.8,
+   "max_distance_7d": 377,
+   "band": "<40",
+   "band_rate": 0.208,
+   "band_samples": 18423,
+   "weather_factor": 0.928,
+   "adjusted_score": 35.4,
+   "game_weather": {
+    "venue_name": "Kauffman Stadium",
+    "temp_f": 70.0,
+    "wind_mph": 9.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 686948,
+   "player_name": "Drake Baldwin",
+   "team": "ATL",
+   "expectancy_score": 32.0,
+   "streak": 0,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": 1.332,
+    "parks_sum": 2.464,
+    "near_hr": -0.009
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 1,
+   "max_ev_7d": 107.6,
+   "max_distance_7d": 408,
+   "band": "<40",
+   "band_rate": 0.208,
+   "band_samples": 18423,
+   "weather_factor": 1.102,
+   "adjusted_score": 35.3,
+   "game_weather": {
+    "venue_name": "Truist Park",
+    "temp_f": 80.0,
+    "wind_mph": 5.0,
+    "wind_dir": "out",
+    "weather_condition": "Overcast"
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 701398,
+   "player_name": "Sal Stewart",
+   "team": "CIN",
+   "expectancy_score": 29.8,
+   "streak": 1,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": 8.043,
+    "parks_sum": 0.214,
+    "near_hr": 0.25
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
+   "max_ev_7d": 107.9,
+   "max_distance_7d": 380,
+   "band": "<40",
+   "band_rate": 0.208,
+   "band_samples": 18423,
+   "weather_factor": 1.102,
+   "adjusted_score": 32.8,
+   "game_weather": {
+    "venue_name": "Truist Park",
+    "temp_f": 80.0,
+    "wind_mph": 5.0,
+    "wind_dir": "out",
+    "weather_condition": "Overcast"
+   },
+   "repeat": true
+  },
+  {
    "player_id": 683002,
    "player_name": "Gunnar Henderson",
    "team": "BAL",
@@ -219,37 +281,6 @@
     "weather_condition": ""
    },
    "repeat": false
-  },
-  {
-   "player_id": 686948,
-   "player_name": "Drake Baldwin",
-   "team": "ATL",
-   "expectancy_score": 32.0,
-   "streak": 0,
-   "frequency": 0.571,
-   "slopes": {
-    "max_ev": 1.332,
-    "parks_sum": 2.464,
-    "near_hr": -0.009
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 2,
-   "hr_7d": 1,
-   "max_ev_7d": 107.6,
-   "max_distance_7d": 408,
-   "band": "<40",
-   "band_rate": 0.208,
-   "band_samples": 18423,
-   "weather_factor": 1.0,
-   "adjusted_score": 32.0,
-   "game_weather": {
-    "venue_name": "Truist Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
   },
   {
    "player_id": 669394,
@@ -283,35 +314,35 @@
    "repeat": true
   },
   {
-   "player_id": 695336,
-   "player_name": "Thomas Saggese",
-   "team": "STL",
-   "expectancy_score": 31.2,
+   "player_id": 681198,
+   "player_name": "TJ Rumfield",
+   "team": "COL",
+   "expectancy_score": 27.2,
    "streak": 1,
-   "frequency": 0.714,
+   "frequency": 0.286,
    "slopes": {
-    "max_ev": -2.725,
-    "parks_sum": 0.536,
-    "near_hr": -0.107
+    "max_ev": 1.836,
+    "parks_sum": 0.0,
+    "near_hr": 0.143
    },
-   "near_hr_7d": 3,
+   "near_hr_7d": 2,
    "near_hr_xbh_7d": 0,
    "hr_7d": 0,
-   "max_ev_7d": 106.5,
-   "max_distance_7d": 379,
+   "max_ev_7d": 105.1,
+   "max_distance_7d": 402,
    "band": "<40",
    "band_rate": 0.208,
    "band_samples": 18423,
-   "weather_factor": 1.0,
-   "adjusted_score": 31.2,
+   "weather_factor": 1.135,
+   "adjusted_score": 30.9,
    "game_weather": {
-    "venue_name": "PNC Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "venue_name": "Coors Field",
+    "temp_f": 76.0,
+    "wind_mph": 9.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
    },
-   "repeat": true
+   "repeat": false
   },
   {
    "player_id": 572233,
@@ -345,97 +376,35 @@
    "repeat": true
   },
   {
-   "player_id": 571912,
-   "player_name": "Luke Maile",
-   "team": "KC",
-   "expectancy_score": 30.4,
+   "player_id": 694249,
+   "player_name": "Cole Carrigg",
+   "team": "COL",
+   "expectancy_score": 26.6,
    "streak": 1,
-   "frequency": 0.286,
-   "slopes": {
-    "max_ev": 2.571,
-    "parks_sum": 0.643,
-    "near_hr": 0.17
-   },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 95.0,
-   "max_distance_7d": 363,
-   "band": "<40",
-   "band_rate": 0.208,
-   "band_samples": 18423,
-   "weather_factor": 1.0,
-   "adjusted_score": 30.4,
-   "game_weather": {
-    "venue_name": "Kauffman Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
-   "player_id": 547180,
-   "player_name": "Bryce Harper",
-   "team": "PHI",
-   "expectancy_score": 30.0,
-   "streak": 2,
    "frequency": 0.429,
    "slopes": {
-    "max_ev": -0.421,
-    "parks_sum": 0.0,
-    "near_hr": 0.116
+    "max_ev": -0.714,
+    "parks_sum": 1.607,
+    "near_hr": 0.036
    },
-   "near_hr_7d": 3,
+   "near_hr_7d": 4,
    "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 107.2,
-   "max_distance_7d": 378,
+   "hr_7d": 2,
+   "max_ev_7d": 105.5,
+   "max_distance_7d": 415,
    "band": "<40",
    "band_rate": 0.208,
    "band_samples": 18423,
-   "weather_factor": 1.0,
-   "adjusted_score": 30.0,
+   "weather_factor": 1.135,
+   "adjusted_score": 30.2,
    "game_weather": {
-    "venue_name": "Citizens Bank Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "venue_name": "Coors Field",
+    "temp_f": 76.0,
+    "wind_mph": 9.0,
+    "wind_dir": "out",
+    "weather_condition": "Partly Cloudy"
    },
-   "repeat": true
-  },
-  {
-   "player_id": 701398,
-   "player_name": "Sal Stewart",
-   "team": "CIN",
-   "expectancy_score": 29.8,
-   "streak": 1,
-   "frequency": 0.286,
-   "slopes": {
-    "max_ev": 8.043,
-    "parks_sum": 0.214,
-    "near_hr": 0.25
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 1,
-   "max_ev_7d": 107.9,
-   "max_distance_7d": 380,
-   "band": "<40",
-   "band_rate": 0.208,
-   "band_samples": 18423,
-   "weather_factor": 1.0,
-   "adjusted_score": 29.8,
-   "game_weather": {
-    "venue_name": "Truist Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
+   "repeat": false
   },
   {
    "player_id": 702284,
@@ -461,6 +430,37 @@
    "adjusted_score": 29.6,
    "game_weather": {
     "venue_name": "T-Mobile Park",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 666023,
+   "player_name": "Freddy Fermin",
+   "team": "SD",
+   "expectancy_score": 29.4,
+   "streak": 1,
+   "frequency": 0.714,
+   "slopes": {
+    "max_ev": -0.632,
+    "parks_sum": -0.036,
+    "near_hr": -0.071
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 98.9,
+   "max_distance_7d": 372,
+   "band": "<40",
+   "band_rate": 0.208,
+   "band_samples": 18423,
+   "weather_factor": 1.0,
+   "adjusted_score": 29.4,
+   "game_weather": {
+    "venue_name": "UNIQLO Field at Dodger Stadium",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
