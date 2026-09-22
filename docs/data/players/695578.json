@@ -2,20 +2,38 @@
  "player_id": 695578,
  "player_name": "James Wood",
  "team": "WSH",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-21",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": 4.589,
+   "max_ev": 7.368,
    "parks_sum": 0.0,
-   "near_hr": 0.107
+   "near_hr": 0.036
   },
-  "intensity": 0.369,
-  "expectancy_score": 27.6,
-  "last_appearance": "2026-09-20"
+  "intensity": 0.345,
+  "expectancy_score": 18.9,
+  "last_appearance": "2026-09-21"
  },
  "days": [
+  {
+   "date": "2026-09-21",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 111.0,
+   "max_distance": 22.0,
+   "max_barrel_score": 37.9,
+   "temp_f": 60.0,
+   "wind_mph": 11.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-20",
    "bbe": 2,
@@ -270,6 +288,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824221,
+   "date": "2026-09-21",
+   "player_id": 695578,
+   "player_name": "James Wood",
+   "team": "WSH",
+   "opponent": "DET",
+   "result": "Single",
+   "exit_velocity": 111.0,
+   "launch_angle": -6.0,
+   "hit_distance": 22.0,
+   "hc_x": 138.07,
+   "hc_y": 93.35,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "773ee674-0ccd-3702-8b18-5ae90aab7377",
+   "venue_id": 2394,
+   "venue_name": "Comerica Park",
+   "temp_f": 60.0,
+   "wind_mph": 11.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 37.9,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823001,
    "date": "2026-09-20",

@@ -2,7 +2,7 @@
  "player_id": 677588,
  "player_name": "Jos\u00e9 Tena",
  "team": "WSH",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-21",
  "form": {
   "streak": 0,
   "frequency": 0.0,
@@ -195,6 +195,24 @@
    "wind_mph": 6.0,
    "wind_dir": "in",
    "weather_condition": "Cloudy"
+  },
+  {
+   "date": "2026-08-23",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 1,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 102.2,
+   "max_distance": 377.0,
+   "max_barrel_score": 78.8,
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
   }
  ],
  "events": [
@@ -719,6 +737,35 @@
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
+  },
+  {
+   "game_pk": 823827,
+   "date": "2026-08-23",
+   "player_id": 677588,
+   "player_name": "Jos\u00e9 Tena",
+   "team": "WSH",
+   "opponent": "MIA",
+   "result": "Lineout",
+   "exit_velocity": 102.2,
+   "launch_angle": 23.0,
+   "hit_distance": 377.0,
+   "hc_x": 121.01,
+   "hc_y": 48.77,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "becc0d0c-7e5c-369d-a2ff-201b8fdf6e27",
+   "venue_id": 4169,
+   "venue_name": "loanDepot park",
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": true,
+   "would_be_hr_flag": false,
+   "barrel_score": 78.8,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
   }
  ]
 }

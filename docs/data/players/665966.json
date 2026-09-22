@@ -2,20 +2,38 @@
  "player_id": 665966,
  "player_name": "Carlos Narv\u00e1ez",
  "team": "BAL",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-21",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -3.189,
+   "max_ev": -10.336,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.0,
   "expectancy_score": 0.0,
-  "last_appearance": "2026-09-20"
+  "last_appearance": "2026-09-21"
  },
  "days": [
+  {
+   "date": "2026-09-21",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 25.4,
+   "max_distance": 34.0,
+   "max_barrel_score": 2.3,
+   "temp_f": 65.0,
+   "wind_mph": 3.0,
+   "wind_dir": "in",
+   "weather_condition": "Overcast"
+  },
   {
    "date": "2026-09-20",
    "bbe": 2,
@@ -216,6 +234,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824787,
+   "date": "2026-09-21",
+   "player_id": 665966,
+   "player_name": "Carlos Narv\u00e1ez",
+   "team": "BAL",
+   "opponent": "TOR",
+   "result": "Bunt Pop Out",
+   "exit_velocity": 25.4,
+   "launch_angle": 62.0,
+   "hit_distance": 34.0,
+   "hc_x": 122.78,
+   "hc_y": 190.46,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "0ee4eebc-db2d-33f2-8441-3ed747fe1b1f",
+   "venue_id": 2,
+   "venue_name": "Oriole Park at Camden Yards",
+   "temp_f": 65.0,
+   "wind_mph": 3.0,
+   "wind_dir": "in",
+   "weather_condition": "Overcast",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 2.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824789,
    "date": "2026-09-20",

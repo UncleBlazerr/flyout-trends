@@ -1,39 +1,8 @@
 {
- "as_of": "2026-09-22",
+ "as_of": "2026-09-21",
  "horizon_days": 3,
  "min_samples": 20,
  "players": [
-  {
-   "player_id": 664770,
-   "player_name": "Nathan Lukes",
-   "team": "TOR",
-   "expectancy_score": 52.5,
-   "streak": 3,
-   "frequency": 0.714,
-   "slopes": {
-    "max_ev": 1.268,
-    "parks_sum": 0.179,
-    "near_hr": 0.018
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 102.5,
-   "max_distance_7d": 393,
-   "band": "40-60",
-   "band_rate": 0.259,
-   "band_samples": 459,
-   "weather_factor": 1.0,
-   "adjusted_score": 52.5,
-   "game_weather": {
-    "venue_name": "Oriole Park at Camden Yards",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
   {
    "player_id": 647304,
    "player_name": "Josh Naylor",
@@ -46,14 +15,14 @@
     "parks_sum": 0.0,
     "near_hr": 0.107
    },
-   "near_hr_7d": 3,
+   "near_hr_7d": 4,
    "near_hr_xbh_7d": 0,
    "hr_7d": 0,
    "max_ev_7d": 105.0,
    "max_distance_7d": 396,
    "band": "40-60",
    "band_rate": 0.259,
-   "band_samples": 459,
+   "band_samples": 463,
    "weather_factor": 1.0,
    "adjusted_score": 50.4,
    "game_weather": {
@@ -66,27 +35,27 @@
    "repeat": true
   },
   {
-   "player_id": 686611,
-   "player_name": "Dylan Crews",
-   "team": "WSH",
-   "expectancy_score": 47.5,
+   "player_id": 693307,
+   "player_name": "Dillon Dingler",
+   "team": "DET",
+   "expectancy_score": 40.8,
    "streak": 2,
-   "frequency": 0.714,
+   "frequency": 0.429,
    "slopes": {
-    "max_ev": 1.725,
-    "parks_sum": -1.821,
-    "near_hr": 0.143
+    "max_ev": 1.343,
+    "parks_sum": 0.964,
+    "near_hr": 0.205
    },
-   "near_hr_7d": 4,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 1,
-   "max_ev_7d": 106.0,
-   "max_distance_7d": 379,
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 0,
+   "max_ev_7d": 104.1,
+   "max_distance_7d": 396,
    "band": "40-60",
    "band_rate": 0.259,
-   "band_samples": 459,
+   "band_samples": 463,
    "weather_factor": 1.0,
-   "adjusted_score": 47.5,
+   "adjusted_score": 40.8,
    "game_weather": {
     "venue_name": "Comerica Park",
     "temp_f": null,
@@ -94,38 +63,7 @@
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": true
-  },
-  {
-   "player_id": 691723,
-   "player_name": "Coby Mayo",
-   "team": "BAL",
-   "expectancy_score": 41.6,
-   "streak": 3,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": -0.171,
-    "parks_sum": 0.75,
-    "near_hr": 0.223
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 107.3,
-   "max_distance_7d": 389,
-   "band": "40-60",
-   "band_rate": 0.259,
-   "band_samples": 459,
-   "weather_factor": 1.0,
-   "adjusted_score": 41.6,
-   "game_weather": {
-    "venue_name": "Oriole Park at Camden Yards",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
+   "repeat": false
   },
   {
    "player_id": 624424,
@@ -146,7 +84,7 @@
    "max_distance_7d": 386,
    "band": "<40",
    "band_rate": 0.208,
-   "band_samples": 18136,
+   "band_samples": 18423,
    "weather_factor": 1.0,
    "adjusted_score": 39.8,
    "game_weather": {
@@ -156,7 +94,7 @@
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 605141,
@@ -170,14 +108,14 @@
     "parks_sum": 0.429,
     "near_hr": -0.045
    },
-   "near_hr_7d": 2,
+   "near_hr_7d": 3,
    "near_hr_xbh_7d": 1,
    "hr_7d": 2,
    "max_ev_7d": 105.5,
    "max_distance_7d": 393,
    "band": "<40",
    "band_rate": 0.208,
-   "band_samples": 18136,
+   "band_samples": 18423,
    "weather_factor": 1.0,
    "adjusted_score": 38.9,
    "game_weather": {
@@ -187,7 +125,7 @@
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 686668,
@@ -201,14 +139,14 @@
     "parks_sum": -0.714,
     "near_hr": 0.089
    },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 0,
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 1,
    "hr_7d": 0,
    "max_ev_7d": 108.8,
-   "max_distance_7d": 349,
+   "max_distance_7d": 377,
    "band": "<40",
    "band_rate": 0.208,
-   "band_samples": 18136,
+   "band_samples": 18423,
    "weather_factor": 1.0,
    "adjusted_score": 38.2,
    "game_weather": {
@@ -218,30 +156,61 @@
     "wind_dir": null,
     "weather_condition": ""
    },
+   "repeat": true
+  },
+  {
+   "player_id": 693306,
+   "player_name": "Aaron Sabato",
+   "team": "MIN",
+   "expectancy_score": 38.0,
+   "streak": 1,
+   "frequency": 1.0,
+   "slopes": {
+    "max_ev": 0.0,
+    "parks_sum": 0.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 95.6,
+   "max_distance_7d": 359,
+   "band": "<40",
+   "band_rate": 0.208,
+   "band_samples": 18423,
+   "weather_factor": 1.0,
+   "adjusted_score": 38.0,
+   "game_weather": {
+    "venue_name": "Oracle Park",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
    "repeat": false
   },
   {
-   "player_id": 687637,
-   "player_name": "Dylan Beavers",
+   "player_id": 683002,
+   "player_name": "Gunnar Henderson",
    "team": "BAL",
-   "expectancy_score": 34.9,
+   "expectancy_score": 32.2,
    "streak": 1,
    "frequency": 0.429,
    "slopes": {
-    "max_ev": 1.907,
-    "parks_sum": 0.857,
-    "near_hr": 0.161
+    "max_ev": 2.389,
+    "parks_sum": 0.179,
+    "near_hr": 0.071
    },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 108.1,
-   "max_distance_7d": 382,
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 1,
+   "max_ev_7d": 109.2,
+   "max_distance_7d": 400,
    "band": "<40",
    "band_rate": 0.208,
-   "band_samples": 18136,
+   "band_samples": 18423,
    "weather_factor": 1.0,
-   "adjusted_score": 34.9,
+   "adjusted_score": 32.2,
    "game_weather": {
     "venue_name": "Oriole Park at Camden Yards",
     "temp_f": null,
@@ -263,14 +232,14 @@
     "parks_sum": 2.464,
     "near_hr": -0.009
    },
-   "near_hr_7d": 2,
+   "near_hr_7d": 3,
    "near_hr_xbh_7d": 2,
-   "hr_7d": 0,
-   "max_ev_7d": 107.3,
+   "hr_7d": 1,
+   "max_ev_7d": 107.6,
    "max_distance_7d": 408,
    "band": "<40",
    "band_rate": 0.208,
-   "band_samples": 18136,
+   "band_samples": 18423,
    "weather_factor": 1.0,
    "adjusted_score": 32.0,
    "game_weather": {
@@ -301,7 +270,7 @@
    "max_distance_7d": 415,
    "band": "<40",
    "band_rate": 0.208,
-   "band_samples": 18136,
+   "band_samples": 18423,
    "weather_factor": 1.0,
    "adjusted_score": 31.7,
    "game_weather": {
@@ -325,14 +294,14 @@
     "parks_sum": 0.536,
     "near_hr": -0.107
    },
-   "near_hr_7d": 2,
+   "near_hr_7d": 3,
    "near_hr_xbh_7d": 0,
    "hr_7d": 0,
-   "max_ev_7d": 103.8,
+   "max_ev_7d": 106.5,
    "max_distance_7d": 379,
    "band": "<40",
    "band_rate": 0.208,
-   "band_samples": 18136,
+   "band_samples": 18423,
    "weather_factor": 1.0,
    "adjusted_score": 31.2,
    "game_weather": {
@@ -342,7 +311,7 @@
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 572233,
@@ -363,7 +332,7 @@
    "max_distance_7d": 359,
    "band": "<40",
    "band_rate": 0.208,
-   "band_samples": 18136,
+   "band_samples": 18423,
    "weather_factor": 1.0,
    "adjusted_score": 30.7,
    "game_weather": {
@@ -373,7 +342,7 @@
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 571912,
@@ -394,7 +363,7 @@
    "max_distance_7d": 363,
    "band": "<40",
    "band_rate": 0.208,
-   "band_samples": 18136,
+   "band_samples": 18423,
    "weather_factor": 1.0,
    "adjusted_score": 30.4,
    "game_weather": {
@@ -404,7 +373,7 @@
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 547180,
@@ -425,7 +394,7 @@
    "max_distance_7d": 378,
    "band": "<40",
    "band_rate": 0.208,
-   "band_samples": 18136,
+   "band_samples": 18423,
    "weather_factor": 1.0,
    "adjusted_score": 30.0,
    "game_weather": {
@@ -435,7 +404,7 @@
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 701398,
@@ -456,11 +425,42 @@
    "max_distance_7d": 380,
    "band": "<40",
    "band_rate": 0.208,
-   "band_samples": 18136,
+   "band_samples": 18423,
    "weather_factor": 1.0,
    "adjusted_score": 29.8,
    "game_weather": {
     "venue_name": "Truist Park",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 702284,
+   "player_name": "Cole Young",
+   "team": "SEA",
+   "expectancy_score": 29.6,
+   "streak": 2,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": -0.875,
+    "parks_sum": 0.964,
+    "near_hr": 0.179
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 104.0,
+   "max_distance_7d": 345,
+   "band": "<40",
+   "band_rate": 0.208,
+   "band_samples": 18423,
+   "weather_factor": 1.0,
+   "adjusted_score": 29.6,
+   "game_weather": {
+    "venue_name": "T-Mobile Park",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -471,13 +471,13 @@
  ],
  "bands": {
   "<40": {
-   "samples": 18136,
-   "hr_followed": 3774,
+   "samples": 18423,
+   "hr_followed": 3832,
    "rate": 0.208
   },
   "40-60": {
-   "samples": 459,
-   "hr_followed": 119,
+   "samples": 463,
+   "hr_followed": 120,
    "rate": 0.259
   },
   "60-80": {
@@ -492,12 +492,12 @@
   }
  },
  "hit_rate": {
-  "resolved_records": 75,
+  "resolved_records": 76,
   "horizon_days": 3,
   "overall": {
-   "flagged": 1125,
-   "hr_followed": 252,
-   "rate": 0.224
+   "flagged": 1140,
+   "hr_followed": 257,
+   "rate": 0.225
   },
   "top_band": {
    "band": "80+",
@@ -514,6 +514,42 @@
    "flagged_on": "2026-09-19",
    "flagged_score": 50.8,
    "hr_on": "2026-09-20",
+   "hr_count": 1
+  },
+  {
+   "player_id": 683748,
+   "player_name": "Victor Mesa Jr.",
+   "team": "TB",
+   "flagged_on": "2026-09-18",
+   "flagged_score": 44.6,
+   "hr_on": "2026-09-20",
+   "hr_count": 1
+  },
+  {
+   "player_id": 672640,
+   "player_name": "Otto Lopez",
+   "team": "MIA",
+   "flagged_on": "2026-09-18",
+   "flagged_score": 35.1,
+   "hr_on": "2026-09-19",
+   "hr_count": 1
+  },
+  {
+   "player_id": 666018,
+   "player_name": "Jonathan Aranda",
+   "team": "TB",
+   "flagged_on": "2026-09-18",
+   "flagged_score": 34.8,
+   "hr_on": "2026-09-19",
+   "hr_count": 1
+  },
+  {
+   "player_id": 669257,
+   "player_name": "Will Smith",
+   "team": "LAD",
+   "flagged_on": "2026-09-18",
+   "flagged_score": 34.3,
+   "hr_on": "2026-09-19",
    "hr_count": 1
   }
  ]
