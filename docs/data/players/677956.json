@@ -2,9 +2,9 @@
  "player_id": 677956,
  "player_name": "Rece Hinds",
  "team": "BAL",
- "as_of": "2026-09-20",
+ "as_of": "2026-09-22",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.429,
   "slopes": {
    "max_ev": 0.536,
@@ -12,7 +12,7 @@
    "near_hr": -0.0
   },
   "intensity": 0.089,
-  "expectancy_score": 23.5,
+  "expectancy_score": 15.5,
   "last_appearance": "2026-09-19"
  },
  "days": [
