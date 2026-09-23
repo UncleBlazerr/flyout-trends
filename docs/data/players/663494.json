@@ -2,20 +2,38 @@
  "player_id": 663494,
  "player_name": "Bryan Torres",
  "team": "STL",
- "as_of": "2026-09-23",
+ "as_of": "2026-09-22",
  "form": {
   "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": -0.296,
-   "parks_sum": 0.214,
-   "near_hr": 0.0
+   "max_ev": 0.721,
+   "parks_sum": 0.143,
+   "near_hr": -0.071
   },
-  "intensity": 0.024,
-  "expectancy_score": 9.3,
-  "last_appearance": "2026-09-20"
+  "intensity": 0.136,
+  "expectancy_score": 12.7,
+  "last_appearance": "2026-09-22"
  },
  "days": [
+  {
+   "date": "2026-09-22",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 93.9,
+   "max_distance": 149.0,
+   "max_barrel_score": 42.1,
+   "temp_f": 60.0,
+   "wind_mph": 11.0,
+   "wind_dir": "in",
+   "weather_condition": "Overcast"
+  },
   {
    "date": "2026-09-20",
    "bbe": 2,
@@ -252,6 +270,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823328,
+   "date": "2026-09-22",
+   "player_id": 663494,
+   "player_name": "Bryan Torres",
+   "team": "STL",
+   "opponent": "PIT",
+   "result": "Lineout",
+   "exit_velocity": 93.9,
+   "launch_angle": 10.0,
+   "hit_distance": 149.0,
+   "hc_x": 169.06,
+   "hc_y": 159.36,
+   "would_be_hr_count": 0,
+   "inning": 5,
+   "play_id": "0cff27a6-58db-3422-962c-df5f05d005f3",
+   "venue_id": 31,
+   "venue_name": "PNC Park",
+   "temp_f": 60.0,
+   "wind_mph": 11.0,
+   "wind_dir": "in",
+   "weather_condition": "Overcast",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 42.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823001,
    "date": "2026-09-20",

@@ -2,20 +2,38 @@
  "player_id": 683953,
  "player_name": "Travis Bazzana",
  "team": "CLE",
- "as_of": "2026-09-23",
+ "as_of": "2026-09-22",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": -0.85,
+   "max_ev": -3.236,
    "parks_sum": 0.0,
-   "near_hr": 0.071
+   "near_hr": 0.036
   },
-  "intensity": 0.024,
-  "expectancy_score": 5.0,
-  "last_appearance": "2026-09-20"
+  "intensity": 0.012,
+  "expectancy_score": 4.6,
+  "last_appearance": "2026-09-22"
  },
  "days": [
+  {
+   "date": "2026-09-22",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 67.6,
+   "max_distance": 225.0,
+   "max_barrel_score": 41.2,
+   "temp_f": 62.0,
+   "wind_mph": 5.0,
+   "wind_dir": "varies",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-20",
    "bbe": 2,
@@ -378,6 +396,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824709,
+   "date": "2026-09-22",
+   "player_id": 683953,
+   "player_name": "Travis Bazzana",
+   "team": "CLE",
+   "opponent": "BOS",
+   "result": "Single",
+   "exit_velocity": 67.6,
+   "launch_angle": 31.0,
+   "hit_distance": 225.0,
+   "hc_x": 176.25,
+   "hc_y": 124.96,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "86f32b5c-4934-35d7-b76d-407cbe176c5b",
+   "venue_id": 3,
+   "venue_name": "Fenway Park",
+   "temp_f": 62.0,
+   "wind_mph": 5.0,
+   "wind_dir": "varies",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 41.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824381,
    "date": "2026-09-20",

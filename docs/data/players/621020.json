@@ -2,20 +2,38 @@
  "player_id": 621020,
  "player_name": "Dansby Swanson",
  "team": "CHC",
- "as_of": "2026-09-23",
+ "as_of": "2026-09-22",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 12.7,
+   "max_ev": -19.0,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.333,
-  "expectancy_score": 10.0,
-  "last_appearance": "2026-09-19"
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-09-22"
  },
  "days": [
+  {
+   "date": "2026-09-22",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 54.1,
+   "max_distance": 4.0,
+   "max_barrel_score": 0.3,
+   "temp_f": 62.0,
+   "wind_mph": 13.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-19",
    "bbe": 4,
@@ -54,6 +72,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824624,
+   "date": "2026-09-22",
+   "player_id": 621020,
+   "player_name": "Dansby Swanson",
+   "team": "CHC",
+   "opponent": "MIA",
+   "result": "Groundout",
+   "exit_velocity": 54.1,
+   "launch_angle": -33.0,
+   "hit_distance": 4.0,
+   "hc_x": 129.82,
+   "hc_y": 180.92,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "d027914c-512b-3753-ac16-9cd26ecbbd84",
+   "venue_id": 17,
+   "venue_name": "Wrigley Field",
+   "temp_f": 62.0,
+   "wind_mph": 13.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 0.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824461,
    "date": "2026-09-19",

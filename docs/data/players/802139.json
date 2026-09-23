@@ -2,20 +2,38 @@
  "player_id": 802139,
  "player_name": "JJ Wetherholt",
  "team": "STL",
- "as_of": "2026-09-23",
+ "as_of": "2026-09-22",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.429,
   "slopes": {
-   "max_ev": 0.179,
-   "parks_sum": 0.036,
-   "near_hr": -0.179
+   "max_ev": 1.825,
+   "parks_sum": 0.0,
+   "near_hr": 0.071
   },
-  "intensity": 0.034,
-  "expectancy_score": 13.9,
-  "last_appearance": "2026-09-20"
+  "intensity": 0.328,
+  "expectancy_score": 30.7,
+  "last_appearance": "2026-09-22"
  },
  "days": [
+  {
+   "date": "2026-09-22",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 95.8,
+   "max_distance": 350.0,
+   "max_barrel_score": 70.3,
+   "temp_f": 60.0,
+   "wind_mph": 11.0,
+   "wind_dir": "in",
+   "weather_condition": "Overcast"
+  },
   {
    "date": "2026-09-20",
    "bbe": 4,
@@ -162,6 +180,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823328,
+   "date": "2026-09-22",
+   "player_id": 802139,
+   "player_name": "JJ Wetherholt",
+   "team": "STL",
+   "opponent": "PIT",
+   "result": "Flyout",
+   "exit_velocity": 95.8,
+   "launch_angle": 33.0,
+   "hit_distance": 350.0,
+   "hc_x": 181.92,
+   "hc_y": 69.47,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "1151cc68-fb48-37b4-9c55-cebd2f818b5b",
+   "venue_id": 31,
+   "venue_name": "PNC Park",
+   "temp_f": 60.0,
+   "wind_mph": 11.0,
+   "wind_dir": "in",
+   "weather_condition": "Overcast",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 70.3,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 823001,
    "date": "2026-09-20",

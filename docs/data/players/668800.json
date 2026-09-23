@@ -2,20 +2,38 @@
  "player_id": 668800,
  "player_name": "Andrew Knizner",
  "team": "SF",
- "as_of": "2026-09-23",
+ "as_of": "2026-09-22",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": 1.55,
-   "parks_sum": 0.571,
-   "near_hr": 0.071
+   "max_ev": 2.021,
+   "parks_sum": 0.286,
+   "near_hr": 0.036
   },
-  "intensity": 0.345,
-  "expectancy_score": 14.6,
-  "last_appearance": "2026-09-21"
+  "intensity": 0.377,
+  "expectancy_score": 15.6,
+  "last_appearance": "2026-09-22"
  },
  "days": [
+  {
+   "date": "2026-09-22",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 97.4,
+   "max_distance": 53.0,
+   "max_barrel_score": 27.9,
+   "temp_f": 61.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-21",
    "bbe": 2,
@@ -324,6 +342,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823166,
+   "date": "2026-09-22",
+   "player_id": 668800,
+   "player_name": "Andrew Knizner",
+   "team": "SF",
+   "opponent": "MIN",
+   "result": "Single",
+   "exit_velocity": 97.4,
+   "launch_angle": null,
+   "hit_distance": 53.0,
+   "hc_x": 129.98,
+   "hc_y": 115.57,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "b337f827-33ed-398f-9ee4-0bba2b040508",
+   "venue_id": 2395,
+   "venue_name": "Oracle Park",
+   "temp_f": 61.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 27.9,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823169,
    "date": "2026-09-21",

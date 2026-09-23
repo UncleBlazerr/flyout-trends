@@ -2,20 +2,38 @@
  "player_id": 691181,
  "player_name": "Emmanuel Rodriguez",
  "team": "MIN",
- "as_of": "2026-09-23",
+ "as_of": "2026-09-22",
  "form": {
   "streak": 0,
-  "frequency": 0.286,
+  "frequency": 0.143,
   "slopes": {
-   "max_ev": 0.129,
-   "parks_sum": -0.429,
-   "near_hr": -0.045
+   "max_ev": -0.271,
+   "parks_sum": 0.0,
+   "near_hr": 0.045
   },
-  "intensity": 0.022,
-  "expectancy_score": 9.2,
-  "last_appearance": "2026-09-21"
+  "intensity": 0.015,
+  "expectancy_score": 4.7,
+  "last_appearance": "2026-09-22"
  },
  "days": [
+  {
+   "date": "2026-09-22",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 71.3,
+   "max_distance": 3.0,
+   "max_barrel_score": 1.4,
+   "temp_f": 61.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-21",
    "bbe": 2,
@@ -198,6 +216,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823166,
+   "date": "2026-09-22",
+   "player_id": 691181,
+   "player_name": "Emmanuel Rodriguez",
+   "team": "MIN",
+   "opponent": "SF",
+   "result": "Field Error",
+   "exit_velocity": 71.3,
+   "launch_angle": -45.0,
+   "hit_distance": 3.0,
+   "hc_x": 143.7,
+   "hc_y": 174.99,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "e8321f2e-05e5-3bbb-bb87-f9a1056c7fde",
+   "venue_id": 2395,
+   "venue_name": "Oracle Park",
+   "temp_f": 61.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 1.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823169,
    "date": "2026-09-21",
