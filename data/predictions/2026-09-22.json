@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-09-23T14:39:34.370547+00:00",
+ "generated_at": "2026-09-23T19:36:05.597114+00:00",
  "as_of": "2026-09-22",
  "config": {
   "min_near_hr_events": 1,
@@ -199,45 +199,14 @@
    "band": "40-60",
    "band_rate": 0.259,
    "band_samples": 468,
-   "weather_factor": 1.0,
-   "adjusted_score": 40.6,
+   "weather_factor": 0.996,
+   "adjusted_score": 40.4,
    "game_weather": {
     "venue_name": "Coors Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
-   "player_id": 693306,
-   "player_name": "Aaron Sabato",
-   "team": "MIN",
-   "expectancy_score": 38.0,
-   "streak": 1,
-   "frequency": 1.0,
-   "slopes": {
-    "max_ev": 0.0,
-    "parks_sum": 0.0,
-    "near_hr": 0.0
-   },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 95.6,
-   "max_distance_7d": 359,
-   "band": "<40",
-   "band_rate": 0.208,
-   "band_samples": 18704,
-   "weather_factor": 1.0,
-   "adjusted_score": 38.0,
-   "game_weather": {
-    "venue_name": "Oracle Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 69.0,
+    "wind_mph": 7.0,
+    "wind_dir": "cross",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": true
   },
@@ -261,47 +230,78 @@
    "band": "<40",
    "band_rate": 0.208,
    "band_samples": 18704,
-   "weather_factor": 1.0,
-   "adjusted_score": 37.6,
+   "weather_factor": 1.016,
+   "adjusted_score": 38.2,
    "game_weather": {
     "venue_name": "Truist Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 74.0,
+    "wind_mph": 12.0,
+    "wind_dir": "cross",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   },
   {
-   "player_id": 656941,
-   "player_name": "Kyle Schwarber",
-   "team": "PHI",
-   "expectancy_score": 36.8,
-   "streak": 2,
-   "frequency": 0.571,
+   "player_id": 693306,
+   "player_name": "Aaron Sabato",
+   "team": "MIN",
+   "expectancy_score": 38.0,
+   "streak": 1,
+   "frequency": 1.0,
    "slopes": {
-    "max_ev": 0.654,
+    "max_ev": 0.0,
     "parks_sum": 0.0,
-    "near_hr": 0.036
+    "near_hr": 0.0
    },
-   "near_hr_7d": 3,
+   "near_hr_7d": 1,
    "near_hr_xbh_7d": 0,
    "hr_7d": 0,
-   "max_ev_7d": 101.0,
-   "max_distance_7d": 382,
+   "max_ev_7d": 95.6,
+   "max_distance_7d": 359,
    "band": "<40",
    "band_rate": 0.208,
    "band_samples": 18704,
-   "weather_factor": 1.0,
-   "adjusted_score": 36.8,
+   "weather_factor": 0.992,
+   "adjusted_score": 37.7,
    "game_weather": {
-    "venue_name": "Citizens Bank Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "venue_name": "Oracle Park",
+    "temp_f": 68.0,
+    "wind_mph": 6.0,
+    "wind_dir": "varies",
+    "weather_condition": "Sunny"
    },
-   "repeat": false
+   "repeat": true
+  },
+  {
+   "player_id": 693307,
+   "player_name": "Dillon Dingler",
+   "team": "DET",
+   "expectancy_score": 40.8,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 1.343,
+    "parks_sum": 0.964,
+    "near_hr": 0.205
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 0,
+   "max_ev_7d": 104.1,
+   "max_distance_7d": 396,
+   "band": "40-60",
+   "band_rate": 0.259,
+   "band_samples": 468,
+   "weather_factor": 0.87,
+   "adjusted_score": 35.5,
+   "game_weather": {
+    "venue_name": "Comerica Park",
+    "temp_f": 65.0,
+    "wind_mph": 14.0,
+    "wind_dir": "in",
+    "weather_condition": "Sunny"
+   },
+   "repeat": true
   },
   {
    "player_id": 800050,
@@ -366,64 +366,33 @@
    "repeat": false
   },
   {
-   "player_id": 693307,
-   "player_name": "Dillon Dingler",
+   "player_id": 807726,
+   "player_name": "John Peck",
    "team": "DET",
-   "expectancy_score": 40.8,
+   "expectancy_score": 40.5,
    "streak": 2,
    "frequency": 0.429,
    "slopes": {
-    "max_ev": 1.343,
-    "parks_sum": 0.964,
-    "near_hr": 0.205
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 2,
-   "hr_7d": 0,
-   "max_ev_7d": 104.1,
-   "max_distance_7d": 396,
-   "band": "40-60",
-   "band_rate": 0.259,
-   "band_samples": 468,
-   "weather_factor": 0.86,
-   "adjusted_score": 35.1,
-   "game_weather": {
-    "venue_name": "Comerica Park",
-    "temp_f": 62.0,
-    "wind_mph": 14.0,
-    "wind_dir": "in",
-    "weather_condition": "Sunny"
-   },
-   "repeat": true
-  },
-  {
-   "player_id": 691023,
-   "player_name": "Jordan Walker",
-   "team": "STL",
-   "expectancy_score": 34.9,
-   "streak": 1,
-   "frequency": 0.571,
-   "slopes": {
-    "max_ev": 1.782,
-    "parks_sum": 0.143,
-    "near_hr": 0.036
+    "max_ev": 2.375,
+    "parks_sum": 0.071,
+    "near_hr": 0.143
    },
    "near_hr_7d": 3,
    "near_hr_xbh_7d": 0,
    "hr_7d": 0,
-   "max_ev_7d": 117.2,
-   "max_distance_7d": 407,
-   "band": "<40",
-   "band_rate": 0.208,
-   "band_samples": 18704,
-   "weather_factor": 1.0,
-   "adjusted_score": 34.9,
+   "max_ev_7d": 106.7,
+   "max_distance_7d": 362,
+   "band": "40-60",
+   "band_rate": 0.259,
+   "band_samples": 468,
+   "weather_factor": 0.87,
+   "adjusted_score": 35.2,
    "game_weather": {
-    "venue_name": "PNC Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "venue_name": "Comerica Park",
+    "temp_f": 65.0,
+    "wind_mph": 14.0,
+    "wind_dir": "in",
+    "weather_condition": "Sunny"
    },
    "repeat": false
   },
@@ -459,37 +428,6 @@
    "repeat": false
   },
   {
-   "player_id": 807726,
-   "player_name": "John Peck",
-   "team": "DET",
-   "expectancy_score": 40.5,
-   "streak": 2,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 2.375,
-    "parks_sum": 0.071,
-    "near_hr": 0.143
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 106.7,
-   "max_distance_7d": 362,
-   "band": "40-60",
-   "band_rate": 0.259,
-   "band_samples": 468,
-   "weather_factor": 0.86,
-   "adjusted_score": 34.8,
-   "game_weather": {
-    "venue_name": "Comerica Park",
-    "temp_f": 62.0,
-    "wind_mph": 14.0,
-    "wind_dir": "in",
-    "weather_condition": "Sunny"
-   },
-   "repeat": false
-  },
-  {
    "player_id": 686681,
    "player_name": "Michael Massey",
    "team": "KC",
@@ -509,14 +447,76 @@
    "band": "<40",
    "band_rate": 0.208,
    "band_samples": 18704,
-   "weather_factor": 1.0,
-   "adjusted_score": 34.5,
+   "weather_factor": 0.932,
+   "adjusted_score": 32.2,
    "game_weather": {
     "venue_name": "Kauffman Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 71.0,
+    "wind_mph": 9.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 656941,
+   "player_name": "Kyle Schwarber",
+   "team": "PHI",
+   "expectancy_score": 36.8,
+   "streak": 2,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": 0.654,
+    "parks_sum": 0.0,
+    "near_hr": 0.036
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 101.0,
+   "max_distance_7d": 382,
+   "band": "<40",
+   "band_rate": 0.208,
+   "band_samples": 18704,
+   "weather_factor": 0.859,
+   "adjusted_score": 31.6,
+   "game_weather": {
+    "venue_name": "Citizens Bank Park",
+    "temp_f": 64.0,
+    "wind_mph": 15.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 691023,
+   "player_name": "Jordan Walker",
+   "team": "STL",
+   "expectancy_score": 34.9,
+   "streak": 1,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": 1.782,
+    "parks_sum": 0.143,
+    "near_hr": 0.036
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 117.2,
+   "max_distance_7d": 407,
+   "band": "<40",
+   "band_rate": 0.208,
+   "band_samples": 18704,
+   "weather_factor": 0.879,
+   "adjusted_score": 30.7,
+   "game_weather": {
+    "venue_name": "PNC Park",
+    "temp_f": 63.0,
+    "wind_mph": 12.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   }
