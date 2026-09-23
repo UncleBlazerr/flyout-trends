@@ -2,9 +2,9 @@
  "player_id": 686681,
  "player_name": "Michael Massey",
  "team": "KC",
- "as_of": "2026-09-21",
+ "as_of": "2026-09-23",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 2.493,
@@ -12,7 +12,7 @@
    "near_hr": 0.036
   },
   "intensity": 0.345,
-  "expectancy_score": 26.9,
+  "expectancy_score": 18.9,
   "last_appearance": "2026-09-20"
  },
  "days": [

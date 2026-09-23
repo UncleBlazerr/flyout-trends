@@ -2,17 +2,17 @@
  "player_id": 690924,
  "player_name": "Braxton Fulford",
  "team": "COL",
- "as_of": "2026-09-21",
+ "as_of": "2026-09-23",
  "form": {
   "streak": 0,
-  "frequency": 0.5,
+  "frequency": 0.0,
   "slopes": {
-   "max_ev": -1.8,
+   "max_ev": 0.0,
    "parks_sum": 0.0,
-   "near_hr": -1.0
+   "near_hr": 0.0
   },
   "intensity": 0.0,
-  "expectancy_score": 15.0,
+  "expectancy_score": 0.0,
   "last_appearance": "2026-09-16"
  },
  "days": [
@@ -33,24 +33,6 @@
    "wind_mph": 13.0,
    "wind_dir": "in",
    "weather_condition": "Cloudy"
-  },
-  {
-   "date": "2026-08-24",
-   "bbe": 1,
-   "hr": 0,
-   "near_hr_any": 1,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 1,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 1,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 97.0,
-   "max_distance": 361.0,
-   "max_barrel_score": 76.4,
-   "temp_f": 81.0,
-   "wind_mph": 3.0,
-   "wind_dir": "cross",
-   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -82,35 +64,6 @@
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
-  },
-  {
-   "game_pk": 822695,
-   "date": "2026-08-24",
-   "player_id": 690924,
-   "player_name": "Braxton Fulford",
-   "team": "COL",
-   "opponent": "WSH",
-   "result": "Flyout",
-   "exit_velocity": 97.0,
-   "launch_angle": 29.0,
-   "hit_distance": 361.0,
-   "hc_x": 167.85,
-   "hc_y": 59.58,
-   "would_be_hr_count": 0,
-   "inning": 9,
-   "play_id": "362b6c6f-0452-34fe-b709-1da10755dafa",
-   "venue_id": 3309,
-   "venue_name": "Nationals Park",
-   "temp_f": 81.0,
-   "wind_mph": 3.0,
-   "wind_dir": "cross",
-   "weather_condition": "Partly Cloudy",
-   "distance_flag": true,
-   "would_be_hr_flag": false,
-   "barrel_score": 76.4,
-   "barrel_flag": true,
-   "is_home_run": false,
-   "is_near_hr": true
   }
  ]
 }
