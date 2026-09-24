@@ -2,9 +2,9 @@
  "player_id": 815873,
  "player_name": "Sean Keys",
  "team": "TOR",
- "as_of": "2026-09-22",
+ "as_of": "2026-09-24",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.167,
   "slopes": {
    "max_ev": 1.866,
@@ -12,7 +12,7 @@
    "near_hr": 0.143
   },
   "intensity": 0.359,
-  "expectancy_score": 23.8,
+  "expectancy_score": 15.8,
   "last_appearance": "2026-09-21"
  },
  "days": [

@@ -1,63 +1,23 @@
 {
- "as_of": "2026-09-22",
+ "as_of": "2026-09-24",
  "players": [
   {
-   "player_id": 605141,
-   "player_name": "Mookie Betts",
-   "team": "LAD",
+   "player_id": 807726,
+   "player_name": "John Peck",
+   "team": "DET",
    "record_streak": 3,
    "total_flags": 6,
-   "avg_score": 42.0,
-   "current_score": 47.1,
-   "game_streak": 3
-  },
-  {
-   "player_id": 624424,
-   "player_name": "Michael Conforto",
-   "team": "CHC",
-   "record_streak": 3,
-   "total_flags": 4,
-   "avg_score": 40.9,
-   "current_score": 51.7,
-   "game_streak": 3
-  },
-  {
-   "player_id": 681198,
-   "player_name": "TJ Rumfield",
-   "team": "COL",
-   "record_streak": 2,
-   "total_flags": 4,
-   "avg_score": 36.0,
-   "current_score": 40.6,
+   "avg_score": 48.2,
+   "current_score": 40.5,
    "game_streak": 2
-  },
-  {
-   "player_id": 693307,
-   "player_name": "Dillon Dingler",
-   "team": "DET",
-   "record_streak": 2,
-   "total_flags": 2,
-   "avg_score": 40.8,
-   "current_score": 40.8,
-   "game_streak": 2
-  },
-  {
-   "player_id": 693306,
-   "player_name": "Aaron Sabato",
-   "team": "MIN",
-   "record_streak": 2,
-   "total_flags": 2,
-   "avg_score": 38.0,
-   "current_score": 38.0,
-   "game_streak": 1
   },
   {
    "player_id": 687263,
    "player_name": "Zach Neto",
    "team": "LAA",
    "record_streak": 1,
-   "total_flags": 8,
-   "avg_score": 46.4,
+   "total_flags": 9,
+   "avg_score": 46.2,
    "current_score": 44.6,
    "game_streak": 2
   },
@@ -66,8 +26,8 @@
    "player_name": "Michael Massey",
    "team": "KC",
    "record_streak": 1,
-   "total_flags": 8,
-   "avg_score": 42.2,
+   "total_flags": 9,
+   "avg_score": 41.4,
    "current_score": 34.5,
    "game_streak": 2
   },
@@ -76,9 +36,19 @@
    "player_name": "Bo Bichette",
    "team": "NYM",
    "record_streak": 1,
-   "total_flags": 6,
-   "avg_score": 44.1,
+   "total_flags": 7,
+   "avg_score": 43.7,
    "current_score": 41.2,
+   "game_streak": 3
+  },
+  {
+   "player_id": 605141,
+   "player_name": "Mookie Betts",
+   "team": "LAD",
+   "record_streak": 1,
+   "total_flags": 7,
+   "avg_score": 42.8,
+   "current_score": 47.1,
    "game_streak": 3
   },
   {
@@ -86,39 +56,59 @@
    "player_name": "Austin Riley",
    "team": "ATL",
    "record_streak": 1,
-   "total_flags": 5,
-   "avg_score": 39.9,
+   "total_flags": 6,
+   "avg_score": 39.6,
    "current_score": 37.6,
    "game_streak": 2
   },
   {
-   "player_id": 807726,
-   "player_name": "John Peck",
-   "team": "DET",
+   "player_id": 624424,
+   "player_name": "Michael Conforto",
+   "team": "CHC",
    "record_streak": 1,
-   "total_flags": 4,
-   "avg_score": 57.6,
-   "current_score": 40.5,
-   "game_streak": 2
+   "total_flags": 5,
+   "avg_score": 43.0,
+   "current_score": 51.7,
+   "game_streak": 3
   },
   {
    "player_id": 694671,
    "player_name": "Wyatt Langford",
    "team": "TEX",
    "record_streak": 1,
-   "total_flags": 4,
-   "avg_score": 39.5,
+   "total_flags": 5,
+   "avg_score": 38.6,
    "current_score": 35.2,
    "game_streak": 1
+  },
+  {
+   "player_id": 681198,
+   "player_name": "TJ Rumfield",
+   "team": "COL",
+   "record_streak": 1,
+   "total_flags": 5,
+   "avg_score": 36.9,
+   "current_score": 40.6,
+   "game_streak": 2
   },
   {
    "player_id": 545361,
    "player_name": "Mike Trout",
    "team": "LAA",
    "record_streak": 1,
-   "total_flags": 4,
-   "avg_score": 36.3,
+   "total_flags": 5,
+   "avg_score": 36.0,
    "current_score": 34.9,
+   "game_streak": 1
+  },
+  {
+   "player_id": 669016,
+   "player_name": "Brandon Marsh",
+   "team": "PHI",
+   "record_streak": 1,
+   "total_flags": 4,
+   "avg_score": 50.2,
+   "current_score": 31.8,
    "game_streak": 1
   },
   {
@@ -126,8 +116,8 @@
    "player_name": "Chase DeLauter",
    "team": "CLE",
    "record_streak": 1,
-   "total_flags": 3,
-   "avg_score": 34.7,
+   "total_flags": 4,
+   "avg_score": 34.8,
    "current_score": 35.3,
    "game_streak": 2
   },
@@ -136,9 +126,19 @@
    "player_name": "Kyle Schwarber",
    "team": "PHI",
    "record_streak": 1,
-   "total_flags": 3,
-   "avg_score": 32.1,
+   "total_flags": 4,
+   "avg_score": 33.3,
    "current_score": 36.8,
+   "game_streak": 2
+  },
+  {
+   "player_id": 650490,
+   "player_name": "Yandy D\u00edaz",
+   "team": "TB",
+   "record_streak": 1,
+   "total_flags": 3,
+   "avg_score": 41.5,
+   "current_score": 33.9,
    "game_streak": 2
   },
   {
@@ -146,8 +146,8 @@
    "player_name": "Jordan Walker",
    "team": "STL",
    "record_streak": 1,
-   "total_flags": 2,
-   "avg_score": 34.1,
+   "total_flags": 3,
+   "avg_score": 34.4,
    "current_score": 34.9,
    "game_streak": 1
   }
