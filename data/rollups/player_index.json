@@ -343047,6 +343047,23 @@
      "wind_mph": 7.0,
      "wind_dir": "cross",
      "weather_condition": "Partly Cloudy"
+    },
+    "2026-09-23": {
+     "bbe": 1,
+     "hr": 0,
+     "near_hr_any": 0,
+     "near_hr_xbh": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "would_be_hr_parks_sum": 0,
+     "max_ev": 77.9,
+     "max_distance": 5.0,
+     "max_barrel_score": 7.4,
+     "temp_f": 65.0,
+     "wind_mph": 14.0,
+     "wind_dir": "in",
+     "weather_condition": "Sunny"
     }
    }
   },

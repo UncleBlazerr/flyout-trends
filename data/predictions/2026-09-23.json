@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-09-24T14:37:21.427066+00:00",
+ "generated_at": "2026-09-24T19:55:04.352060+00:00",
  "as_of": "2026-09-23",
  "config": {
   "min_near_hr_events": 1,
@@ -75,14 +75,14 @@
    "band": "60-80",
    "band_rate": 0.321,
    "band_samples": 56,
-   "weather_factor": 1.0,
-   "adjusted_score": 63.4,
+   "weather_factor": 0.909,
+   "adjusted_score": 57.6,
    "game_weather": {
     "venue_name": "Wrigley Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 65.0,
+    "wind_mph": 9.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": true
   },
@@ -110,10 +110,10 @@
    "adjusted_score": 52.0,
    "game_weather": {
     "venue_name": "Globe Life Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 74.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": true
   },
@@ -141,10 +141,10 @@
    "adjusted_score": 46.1,
    "game_weather": {
     "venue_name": "Globe Life Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 74.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": false
   },
@@ -168,72 +168,16 @@
    "band": "40-60",
    "band_rate": 0.256,
    "band_samples": 472,
-   "weather_factor": 1.0,
-   "adjusted_score": 40.8,
+   "weather_factor": 1.008,
+   "adjusted_score": 41.1,
    "game_weather": {
     "venue_name": "Kauffman Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 4.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": true
-  },
-  {
-   "player_id": 807726,
-   "player_name": "John Peck",
-   "team": "DET",
-   "expectancy_score": 40.5,
-   "streak": 2,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 2.375,
-    "parks_sum": 0.071,
-    "near_hr": 0.143
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 106.7,
-   "max_distance_7d": 362,
-   "band": "40-60",
-   "band_rate": 0.256,
-   "band_samples": 472,
-   "weather_factor": 1.0,
-   "adjusted_score": 40.5,
-   "game_weather": null,
-   "repeat": true
-  },
-  {
-   "player_id": 682987,
-   "player_name": "Spencer Jones",
-   "team": "NYY",
-   "expectancy_score": 37.8,
-   "streak": 2,
-   "frequency": 0.714,
-   "slopes": {
-    "max_ev": -1.129,
-    "parks_sum": -0.071,
-    "near_hr": 0.036
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 1,
-   "max_ev_7d": 109.8,
-   "max_distance_7d": 448,
-   "band": "<40",
-   "band_rate": 0.207,
-   "band_samples": 18989,
-   "weather_factor": 1.0,
-   "adjusted_score": 37.8,
-   "game_weather": {
-    "venue_name": "Yankee Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
   },
   {
    "player_id": 695681,
@@ -346,10 +290,10 @@
    "adjusted_score": 36.0,
    "game_weather": {
     "venue_name": "Globe Life Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 74.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": false
   },
@@ -377,37 +321,6 @@
    "adjusted_score": 34.1,
    "game_weather": {
     "venue_name": "T-Mobile Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 650490,
-   "player_name": "Yandy D\u00edaz",
-   "team": "TB",
-   "expectancy_score": 33.9,
-   "streak": 2,
-   "frequency": 0.571,
-   "slopes": {
-    "max_ev": -1.807,
-    "parks_sum": 0.0,
-    "near_hr": 0.071
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 102.0,
-   "max_distance_7d": 380,
-   "band": "<40",
-   "band_rate": 0.207,
-   "band_samples": 18989,
-   "weather_factor": 1.0,
-   "adjusted_score": 33.9,
-   "game_weather": {
-    "venue_name": "Yankee Stadium",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -466,6 +379,37 @@
    "repeat": false
   },
   {
+   "player_id": 682987,
+   "player_name": "Spencer Jones",
+   "team": "NYY",
+   "expectancy_score": 37.8,
+   "streak": 2,
+   "frequency": 0.714,
+   "slopes": {
+    "max_ev": -1.129,
+    "parks_sum": -0.071,
+    "near_hr": 0.036
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
+   "max_ev_7d": 109.8,
+   "max_distance_7d": 448,
+   "band": "<40",
+   "band_rate": 0.207,
+   "band_samples": 18989,
+   "weather_factor": 0.874,
+   "adjusted_score": 33.0,
+   "game_weather": {
+    "venue_name": "Yankee Stadium",
+    "temp_f": 64.0,
+    "wind_mph": 13.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
+  },
+  {
    "player_id": 596019,
    "player_name": "Francisco Lindor",
    "team": "NYM",
@@ -489,10 +433,66 @@
    "adjusted_score": 32.6,
    "game_weather": {
     "venue_name": "Globe Life Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 74.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 691723,
+   "player_name": "Coby Mayo",
+   "team": "BAL",
+   "expectancy_score": 32.1,
+   "streak": 1,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": -0.239,
+    "parks_sum": 1.393,
+    "near_hr": 0.232
+   },
+   "near_hr_7d": 5,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 0,
+   "max_ev_7d": 110.9,
+   "max_distance_7d": 389,
+   "band": "<40",
+   "band_rate": 0.207,
+   "band_samples": 18989,
+   "weather_factor": 1.0,
+   "adjusted_score": 32.1,
+   "game_weather": null,
+   "repeat": false
+  },
+  {
+   "player_id": 671056,
+   "player_name": "Iv\u00e1n Herrera",
+   "team": "STL",
+   "expectancy_score": 33.5,
+   "streak": 1,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 0.593,
+    "parks_sum": 2.893,
+    "near_hr": -0.0
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 2,
+   "max_ev_7d": 111.1,
+   "max_distance_7d": 439,
+   "band": "<40",
+   "band_rate": 0.207,
+   "band_samples": 18989,
+   "weather_factor": 0.91,
+   "adjusted_score": 30.5,
+   "game_weather": {
+    "venue_name": "PNC Park",
+    "temp_f": 61.0,
+    "wind_mph": 7.0,
+    "wind_dir": "in",
+    "weather_condition": "Sunny"
    },
    "repeat": false
   }
