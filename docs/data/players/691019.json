@@ -2,20 +2,38 @@
  "player_id": 691019,
  "player_name": "Kyle Teel",
  "team": "CWS",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-23",
  "form": {
   "streak": 0,
   "frequency": 0.571,
   "slopes": {
-   "max_ev": 1.868,
+   "max_ev": -1.404,
    "parks_sum": 0.0,
-   "near_hr": -0.089
+   "near_hr": -0.241
   },
-  "intensity": 0.311,
-  "expectancy_score": 26.5,
-  "last_appearance": "2026-09-22"
+  "intensity": 0.0,
+  "expectancy_score": 17.1,
+  "last_appearance": "2026-09-23"
  },
  "days": [
+  {
+   "date": "2026-09-23",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 100.3,
+   "max_distance": 280.0,
+   "max_barrel_score": 62.0,
+   "temp_f": 74.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-22",
    "bbe": 2,
@@ -252,6 +270,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824060,
+   "date": "2026-09-23",
+   "player_id": 691019,
+   "player_name": "Kyle Teel",
+   "team": "CWS",
+   "opponent": "KC",
+   "result": "Single",
+   "exit_velocity": 100.3,
+   "launch_angle": 15.0,
+   "hit_distance": 280.0,
+   "hc_x": 81.5,
+   "hc_y": 96.5,
+   "would_be_hr_count": 0,
+   "inning": 3,
+   "play_id": "ecab76c0-f485-3bdd-9ad8-937aee830db1",
+   "venue_id": 7,
+   "venue_name": "Kauffman Stadium",
+   "temp_f": 74.0,
+   "wind_mph": 6.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 62.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824061,
    "date": "2026-09-22",

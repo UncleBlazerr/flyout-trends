@@ -2,20 +2,38 @@
  "player_id": 669326,
  "player_name": "Bryce Teodosio",
  "team": "LAA",
- "as_of": "2026-09-24",
+ "as_of": "2026-09-23",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -20.0,
+   "max_ev": -0.65,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.0,
   "expectancy_score": 0.0,
-  "last_appearance": "2026-09-22"
+  "last_appearance": "2026-09-23"
  },
  "days": [
+  {
+   "date": "2026-09-23",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 90.2,
+   "max_distance": 260.0,
+   "max_barrel_score": 50.6,
+   "temp_f": 86.0,
+   "wind_mph": 3.0,
+   "wind_dir": "none",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-09-22",
    "bbe": 1,
@@ -54,6 +72,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824951,
+   "date": "2026-09-23",
+   "player_id": 669326,
+   "player_name": "Bryce Teodosio",
+   "team": "LAA",
+   "opponent": "ATH",
+   "result": "Single",
+   "exit_velocity": 90.2,
+   "launch_angle": 14.0,
+   "hit_distance": 260.0,
+   "hc_x": 130.27,
+   "hc_y": 96.14,
+   "would_be_hr_count": 0,
+   "inning": 3,
+   "play_id": "cbb59f6d-6406-340a-913c-ce9baded42c3",
+   "venue_id": 2529,
+   "venue_name": "Sutter Health Park",
+   "temp_f": 86.0,
+   "wind_mph": 3.0,
+   "wind_dir": "none",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 50.6,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824953,
    "date": "2026-09-22",

@@ -1,0 +1,69 @@
+{
+ "player_id": 691785,
+ "player_name": "Marcelo Mayer",
+ "team": "SF",
+ "as_of": "2026-09-23",
+ "form": {
+  "streak": 0,
+  "frequency": 0.0,
+  "slopes": {
+   "max_ev": 0.0,
+   "parks_sum": 0.0,
+   "near_hr": 0.0
+  },
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-09-23"
+ },
+ "days": [
+  {
+   "date": "2026-09-23",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 92.8,
+   "max_distance": 184.0,
+   "max_barrel_score": 44.5,
+   "temp_f": 68.0,
+   "wind_mph": 7.0,
+   "wind_dir": "varies",
+   "weather_condition": "Sunny"
+  }
+ ],
+ "events": [
+  {
+   "game_pk": 823168,
+   "date": "2026-09-23",
+   "player_id": 691785,
+   "player_name": "Marcelo Mayer",
+   "team": "SF",
+   "opponent": "MIN",
+   "result": "Lineout",
+   "exit_velocity": 92.8,
+   "launch_angle": 11.0,
+   "hit_distance": 184.0,
+   "hc_x": 155.06,
+   "hc_y": 133.23,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "6306bf77-d9b5-35e6-9794-1b2c748ca914",
+   "venue_id": 2395,
+   "venue_name": "Oracle Park",
+   "temp_f": 68.0,
+   "wind_mph": 7.0,
+   "wind_dir": "varies",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 44.5,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  }
+ ]
+}
