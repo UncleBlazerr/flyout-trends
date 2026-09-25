@@ -32,16 +32,6 @@
    "game_streak": 2
   },
   {
-   "player_id": 682987,
-   "player_name": "Spencer Jones",
-   "team": "NYY",
-   "record_streak": 2,
-   "total_flags": 8,
-   "avg_score": 39.0,
-   "current_score": 37.8,
-   "game_streak": 2
-  },
-  {
    "player_id": 695681,
    "player_name": "Christian Moore",
    "team": "LAA",
@@ -50,16 +40,6 @@
    "avg_score": 44.4,
    "current_score": 51.5,
    "game_streak": 3
-  },
-  {
-   "player_id": 696285,
-   "player_name": "Jacob Young",
-   "team": "WSH",
-   "record_streak": 2,
-   "total_flags": 5,
-   "avg_score": 36.0,
-   "current_score": 33.4,
-   "game_streak": 1
   },
   {
    "player_id": 682626,
@@ -90,6 +70,16 @@
    "avg_score": 39.9,
    "current_score": 43.1,
    "game_streak": 3
+  },
+  {
+   "player_id": 694374,
+   "player_name": "Tim Tawa",
+   "team": "AZ",
+   "record_streak": 1,
+   "total_flags": 13,
+   "avg_score": 44.4,
+   "current_score": 32.8,
+   "game_streak": 1
   },
   {
    "player_id": 686948,
@@ -129,6 +119,16 @@
    "total_flags": 2,
    "avg_score": 42.2,
    "current_score": 45.9,
+   "game_streak": 2
+  },
+  {
+   "player_id": 701675,
+   "player_name": "Nathan Church",
+   "team": "STL",
+   "record_streak": 1,
+   "total_flags": 2,
+   "avg_score": 42.2,
+   "current_score": 33.1,
    "game_streak": 2
   },
   {

@@ -4,37 +4,6 @@
  "min_samples": 20,
  "players": [
   {
-   "player_id": 666182,
-   "player_name": "Bo Bichette",
-   "team": "NYM",
-   "expectancy_score": 63.6,
-   "streak": 5,
-   "frequency": 0.714,
-   "slopes": {
-    "max_ev": -0.5,
-    "parks_sum": 0.0,
-    "near_hr": 0.214
-   },
-   "near_hr_7d": 6,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 1,
-   "max_ev_7d": 108.6,
-   "max_distance_7d": 419,
-   "band": "60-80",
-   "band_rate": 0.321,
-   "band_samples": 56,
-   "weather_factor": 1.0,
-   "adjusted_score": 63.6,
-   "game_weather": {
-    "venue_name": "Nationals Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
    "player_id": 686681,
    "player_name": "Michael Massey",
    "team": "KC",
@@ -54,14 +23,45 @@
    "band": "60-80",
    "band_rate": 0.321,
    "band_samples": 56,
-   "weather_factor": 1.0,
-   "adjusted_score": 62.0,
+   "weather_factor": 0.932,
+   "adjusted_score": 57.8,
    "game_weather": {
     "venue_name": "Kauffman Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 69.0,
+    "wind_mph": 8.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 666182,
+   "player_name": "Bo Bichette",
+   "team": "NYM",
+   "expectancy_score": 63.6,
+   "streak": 5,
+   "frequency": 0.714,
+   "slopes": {
+    "max_ev": -0.5,
+    "parks_sum": 0.0,
+    "near_hr": 0.214
+   },
+   "near_hr_7d": 6,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
+   "max_ev_7d": 108.6,
+   "max_distance_7d": 419,
+   "band": "60-80",
+   "band_rate": 0.321,
+   "band_samples": 56,
+   "weather_factor": 0.884,
+   "adjusted_score": 56.2,
+   "game_weather": {
+    "venue_name": "Nationals Park",
+    "temp_f": 69.0,
+    "wind_mph": 14.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": true
   },
@@ -89,10 +89,10 @@
    "adjusted_score": 54.1,
    "game_weather": {
     "venue_name": "loanDepot park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": false
   },
@@ -120,37 +120,6 @@
    "adjusted_score": 51.5,
    "game_weather": {
     "venue_name": "T-Mobile Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
-   "player_id": 682626,
-   "player_name": "Francisco Alvarez",
-   "team": "NYM",
-   "expectancy_score": 46.1,
-   "streak": 2,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 3.493,
-    "parks_sum": 1.321,
-    "near_hr": 0.286
-   },
-   "near_hr_7d": 4,
-   "near_hr_xbh_7d": 2,
-   "hr_7d": 1,
-   "max_ev_7d": 113.7,
-   "max_distance_7d": 396,
-   "band": "40-60",
-   "band_rate": 0.256,
-   "band_samples": 473,
-   "weather_factor": 1.0,
-   "adjusted_score": 46.1,
-   "game_weather": {
-    "venue_name": "Nationals Park",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -221,6 +190,37 @@
    "repeat": true
   },
   {
+   "player_id": 682626,
+   "player_name": "Francisco Alvarez",
+   "team": "NYM",
+   "expectancy_score": 46.1,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 3.493,
+    "parks_sum": 1.321,
+    "near_hr": 0.286
+   },
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 1,
+   "max_ev_7d": 113.7,
+   "max_distance_7d": 396,
+   "band": "40-60",
+   "band_rate": 0.256,
+   "band_samples": 473,
+   "weather_factor": 0.884,
+   "adjusted_score": 40.8,
+   "game_weather": {
+    "venue_name": "Nationals Park",
+    "temp_f": 69.0,
+    "wind_mph": 14.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": true
+  },
+  {
    "player_id": 641343,
    "player_name": "Jake Bauers",
    "team": "MIL",
@@ -244,105 +244,12 @@
    "adjusted_score": 40.2,
    "game_weather": {
     "venue_name": "American Family Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": false
-  },
-  {
-   "player_id": 670231,
-   "player_name": "John Rave",
-   "team": "KC",
-   "expectancy_score": 38.7,
-   "streak": 2,
-   "frequency": 0.286,
-   "slopes": {
-    "max_ev": 1.625,
-    "parks_sum": 1.179,
-    "near_hr": 0.205
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 105.3,
-   "max_distance_7d": 369,
-   "band": "<40",
-   "band_rate": 0.206,
-   "band_samples": 19046,
-   "weather_factor": 1.0,
-   "adjusted_score": 38.7,
-   "game_weather": {
-    "venue_name": "Kauffman Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 682987,
-   "player_name": "Spencer Jones",
-   "team": "NYY",
-   "expectancy_score": 37.8,
-   "streak": 2,
-   "frequency": 0.714,
-   "slopes": {
-    "max_ev": -1.129,
-    "parks_sum": -0.071,
-    "near_hr": 0.036
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 1,
-   "max_ev_7d": 109.8,
-   "max_distance_7d": 448,
-   "band": "<40",
-   "band_rate": 0.206,
-   "band_samples": 19046,
-   "weather_factor": 1.0,
-   "adjusted_score": 37.8,
-   "game_weather": {
-    "venue_name": "Yankee Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
-   "player_id": 596019,
-   "player_name": "Francisco Lindor",
-   "team": "NYM",
-   "expectancy_score": 37.1,
-   "streak": 2,
-   "frequency": 0.571,
-   "slopes": {
-    "max_ev": 0.071,
-    "parks_sum": 0.929,
-    "near_hr": 0.054
-   },
-   "near_hr_7d": 6,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 111.5,
-   "max_distance_7d": 397,
-   "band": "<40",
-   "band_rate": 0.206,
-   "band_samples": 19046,
-   "weather_factor": 1.0,
-   "adjusted_score": 37.1,
-   "game_weather": {
-    "venue_name": "Nationals Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
   },
   {
    "player_id": 664770,
@@ -368,12 +275,43 @@
    "adjusted_score": 36.2,
    "game_weather": {
     "venue_name": "Rogers Centre",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": true
+  },
+  {
+   "player_id": 670231,
+   "player_name": "John Rave",
+   "team": "KC",
+   "expectancy_score": 38.7,
+   "streak": 2,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": 1.625,
+    "parks_sum": 1.179,
+    "near_hr": 0.205
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 105.3,
+   "max_distance_7d": 369,
+   "band": "<40",
+   "band_rate": 0.206,
+   "band_samples": 19046,
+   "weather_factor": 0.932,
+   "adjusted_score": 36.1,
+   "game_weather": {
+    "venue_name": "Kauffman Stadium",
+    "temp_f": 69.0,
+    "wind_mph": 8.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
   },
   {
    "player_id": 686948,
@@ -399,10 +337,10 @@
    "adjusted_score": 35.7,
    "game_weather": {
     "venue_name": "loanDepot park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": false
   },
@@ -426,47 +364,109 @@
    "band": "<40",
    "band_rate": 0.206,
    "band_samples": 19046,
-   "weather_factor": 1.0,
-   "adjusted_score": 35.2,
+   "weather_factor": 0.98,
+   "adjusted_score": 34.5,
    "game_weather": {
     "venue_name": "Comerica Park",
+    "temp_f": 65.0,
+    "wind_mph": 7.0,
+    "wind_dir": "cross",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 701675,
+   "player_name": "Nathan Church",
+   "team": "STL",
+   "expectancy_score": 33.1,
+   "streak": 2,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": -0.543,
+    "parks_sum": 0.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 105.9,
+   "max_distance_7d": 360,
+   "band": "<40",
+   "band_rate": 0.206,
+   "band_samples": 19046,
+   "weather_factor": 1.0,
+   "adjusted_score": 33.1,
+   "game_weather": {
+    "venue_name": "American Family Field",
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 596019,
+   "player_name": "Francisco Lindor",
+   "team": "NYM",
+   "expectancy_score": 37.1,
+   "streak": 2,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": 0.071,
+    "parks_sum": 0.929,
+    "near_hr": 0.054
+   },
+   "near_hr_7d": 6,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 111.5,
+   "max_distance_7d": 397,
+   "band": "<40",
+   "band_rate": 0.206,
+   "band_samples": 19046,
+   "weather_factor": 0.884,
+   "adjusted_score": 32.8,
+   "game_weather": {
+    "venue_name": "Nationals Park",
+    "temp_f": 69.0,
+    "wind_mph": 14.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 694374,
+   "player_name": "Tim Tawa",
+   "team": "AZ",
+   "expectancy_score": 32.8,
+   "streak": 1,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 2.093,
+    "parks_sum": 0.571,
+    "near_hr": -0.062
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 1,
+   "max_ev_7d": 110.9,
+   "max_distance_7d": 383,
+   "band": "<40",
+   "band_rate": 0.206,
+   "band_samples": 19046,
+   "weather_factor": 1.0,
+   "adjusted_score": 32.8,
+   "game_weather": {
+    "venue_name": "Petco Park",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
     "weather_condition": ""
    },
    "repeat": false
-  },
-  {
-   "player_id": 696285,
-   "player_name": "Jacob Young",
-   "team": "WSH",
-   "expectancy_score": 33.4,
-   "streak": 1,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 1.968,
-    "parks_sum": 0.75,
-    "near_hr": 0.018
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 109.3,
-   "max_distance_7d": 395,
-   "band": "<40",
-   "band_rate": 0.206,
-   "band_samples": 19046,
-   "weather_factor": 1.0,
-   "adjusted_score": 33.4,
-   "game_weather": {
-    "venue_name": "Nationals Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
   }
  ],
  "bands": {
