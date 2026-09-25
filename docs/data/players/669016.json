@@ -2,20 +2,38 @@
  "player_id": 669016,
  "player_name": "Brandon Marsh",
  "team": "PHI",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-24",
  "form": {
   "streak": 0,
   "frequency": 0.429,
   "slopes": {
-   "max_ev": 2.832,
-   "parks_sum": 0.214,
-   "near_hr": 0.027
+   "max_ev": -2.343,
+   "parks_sum": 0.143,
+   "near_hr": -0.089
   },
-  "intensity": 0.366,
-  "expectancy_score": 23.8,
-  "last_appearance": "2026-09-22"
+  "intensity": 0.016,
+  "expectancy_score": 13.3,
+  "last_appearance": "2026-09-24"
  },
  "days": [
+  {
+   "date": "2026-09-24",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 63.0,
+   "max_distance": 1.0,
+   "max_barrel_score": 0.1,
+   "temp_f": 66.0,
+   "wind_mph": 11.0,
+   "wind_dir": "in",
+   "weather_condition": "Overcast"
+  },
   {
    "date": "2026-09-22",
    "bbe": 3,
@@ -375,9 +393,56 @@
    "wind_mph": 6.0,
    "wind_dir": "cross",
    "weather_condition": "Clear"
+  },
+  {
+   "date": "2026-08-26",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 1,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 96.4,
+   "max_distance": 353.0,
+   "max_barrel_score": 68.8,
+   "temp_f": 69.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
+  {
+   "game_pk": 823411,
+   "date": "2026-09-24",
+   "player_id": 669016,
+   "player_name": "Brandon Marsh",
+   "team": "PHI",
+   "opponent": "MIL",
+   "result": "Groundout",
+   "exit_velocity": 63.0,
+   "launch_angle": -62.0,
+   "hit_distance": 1.0,
+   "hc_x": 116.67,
+   "hc_y": 184.1,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "d9e429d1-08d1-32ed-baa9-2fa59120ad90",
+   "venue_id": 2681,
+   "venue_name": "Citizens Bank Park",
+   "temp_f": 66.0,
+   "wind_mph": 11.0,
+   "wind_dir": "in",
+   "weather_condition": "Overcast",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 0.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823412,
    "date": "2026-09-22",
@@ -1537,6 +1602,35 @@
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
+  },
+  {
+   "game_pk": 823096,
+   "date": "2026-08-26",
+   "player_id": 669016,
+   "player_name": "Brandon Marsh",
+   "team": "PHI",
+   "opponent": "SEA",
+   "result": "Flyout",
+   "exit_velocity": 96.4,
+   "launch_angle": 35.0,
+   "hit_distance": 353.0,
+   "hc_x": 106.8,
+   "hc_y": 58.29,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "7bad6182-2352-31ce-9b13-e7863328d982",
+   "venue_id": 680,
+   "venue_name": "T-Mobile Park",
+   "temp_f": 69.0,
+   "wind_mph": 5.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": true,
+   "would_be_hr_flag": false,
+   "barrel_score": 68.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": true
   }
  ]
 }

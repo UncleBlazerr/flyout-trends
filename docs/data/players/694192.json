@@ -2,20 +2,38 @@
  "player_id": 694192,
  "player_name": "Jackson Chourio",
  "team": "MIL",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-24",
  "form": {
-  "streak": 1,
-  "frequency": 0.286,
+  "streak": 0,
+  "frequency": 0.143,
   "slopes": {
-   "max_ev": -2.661,
+   "max_ev": 0.079,
    "parks_sum": 0.0,
-   "near_hr": 0.0
+   "near_hr": 0.071
   },
-  "intensity": 0.0,
-  "expectancy_score": 16.6,
-  "last_appearance": "2026-09-23"
+  "intensity": 0.037,
+  "expectancy_score": 5.4,
+  "last_appearance": "2026-09-24"
  },
  "days": [
+  {
+   "date": "2026-09-24",
+   "bbe": 1,
+   "hr": 1,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 108.4,
+   "max_distance": 375.0,
+   "max_barrel_score": 81.0,
+   "temp_f": 66.0,
+   "wind_mph": 11.0,
+   "wind_dir": "in",
+   "weather_condition": "Overcast"
+  },
   {
    "date": "2026-09-23",
    "bbe": 2,
@@ -468,6 +486,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823411,
+   "date": "2026-09-24",
+   "player_id": 694192,
+   "player_name": "Jackson Chourio",
+   "team": "MIL",
+   "opponent": "PHI",
+   "result": "Home Run",
+   "exit_velocity": 108.4,
+   "launch_angle": 35.0,
+   "hit_distance": 375.0,
+   "hc_x": 51.73,
+   "hc_y": 66.4,
+   "would_be_hr_count": 22,
+   "inning": 9,
+   "play_id": "1429338b-076d-32eb-9eb3-539a732e6c22",
+   "venue_id": 2681,
+   "venue_name": "Citizens Bank Park",
+   "temp_f": 66.0,
+   "wind_mph": 11.0,
+   "wind_dir": "in",
+   "weather_condition": "Overcast",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 81.0,
+   "barrel_flag": false,
+   "is_home_run": true,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823410,
    "date": "2026-09-23",
