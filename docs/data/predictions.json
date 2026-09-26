@@ -35,37 +35,6 @@
    "repeat": true
   },
   {
-   "player_id": 682626,
-   "player_name": "Francisco Alvarez",
-   "team": "NYM",
-   "expectancy_score": 53.1,
-   "streak": 3,
-   "frequency": 0.571,
-   "slopes": {
-    "max_ev": 3.321,
-    "parks_sum": -0.107,
-    "near_hr": 0.196
-   },
-   "near_hr_7d": 5,
-   "near_hr_xbh_7d": 2,
-   "hr_7d": 1,
-   "max_ev_7d": 113.7,
-   "max_distance_7d": 396,
-   "band": "40-60",
-   "band_rate": 0.259,
-   "band_samples": 479,
-   "weather_factor": 1.0,
-   "adjusted_score": 53.1,
-   "game_weather": {
-    "venue_name": "Nationals Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
    "player_id": 682987,
    "player_name": "Spencer Jones",
    "team": "NYY",
@@ -91,33 +60,33 @@
    "repeat": false
   },
   {
-   "player_id": 808959,
-   "player_name": "Munetaka Murakami",
-   "team": "CWS",
-   "expectancy_score": 49.4,
-   "streak": 3,
-   "frequency": 0.429,
+   "player_id": 693307,
+   "player_name": "Dillon Dingler",
+   "team": "DET",
+   "expectancy_score": 45.4,
+   "streak": 1,
+   "frequency": 0.571,
    "slopes": {
-    "max_ev": 3.843,
-    "parks_sum": 0.0,
-    "near_hr": 0.259
+    "max_ev": 2.2,
+    "parks_sum": 2.571,
+    "near_hr": 0.17
    },
    "near_hr_7d": 4,
    "near_hr_xbh_7d": 1,
-   "hr_7d": 3,
-   "max_ev_7d": 113.0,
-   "max_distance_7d": 412,
+   "hr_7d": 0,
+   "max_ev_7d": 110.8,
+   "max_distance_7d": 408,
    "band": "40-60",
    "band_rate": 0.259,
    "band_samples": 479,
-   "weather_factor": 1.0,
-   "adjusted_score": 49.4,
+   "weather_factor": 1.096,
+   "adjusted_score": 49.8,
    "game_weather": {
-    "venue_name": "Rate Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "venue_name": "Comerica Park",
+    "temp_f": 70.0,
+    "wind_mph": 8.0,
+    "wind_dir": "out",
+    "weather_condition": "Sunny"
    },
    "repeat": false
   },
@@ -153,66 +122,128 @@
    "repeat": true
   },
   {
-   "player_id": 693307,
-   "player_name": "Dillon Dingler",
-   "team": "DET",
-   "expectancy_score": 45.4,
-   "streak": 1,
-   "frequency": 0.571,
+   "player_id": 808959,
+   "player_name": "Munetaka Murakami",
+   "team": "CWS",
+   "expectancy_score": 49.4,
+   "streak": 3,
+   "frequency": 0.429,
    "slopes": {
-    "max_ev": 2.2,
-    "parks_sum": 2.571,
-    "near_hr": 0.17
+    "max_ev": 3.843,
+    "parks_sum": 0.0,
+    "near_hr": 0.259
    },
    "near_hr_7d": 4,
    "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 110.8,
-   "max_distance_7d": 408,
+   "hr_7d": 3,
+   "max_ev_7d": 113.0,
+   "max_distance_7d": 412,
    "band": "40-60",
    "band_rate": 0.259,
    "band_samples": 479,
-   "weather_factor": 1.078,
-   "adjusted_score": 48.9,
+   "weather_factor": 0.968,
+   "adjusted_score": 47.8,
    "game_weather": {
-    "venue_name": "Comerica Park",
-    "temp_f": 66.0,
-    "wind_mph": 8.0,
+    "venue_name": "Rate Field",
+    "temp_f": 62.0,
+    "wind_mph": 7.0,
+    "wind_dir": "cross",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 682626,
+   "player_name": "Francisco Alvarez",
+   "team": "NYM",
+   "expectancy_score": 53.1,
+   "streak": 3,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": 3.321,
+    "parks_sum": -0.107,
+    "near_hr": 0.196
+   },
+   "near_hr_7d": 5,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 1,
+   "max_ev_7d": 113.7,
+   "max_distance_7d": 396,
+   "band": "40-60",
+   "band_rate": 0.259,
+   "band_samples": 479,
+   "weather_factor": 0.862,
+   "adjusted_score": 45.8,
+   "game_weather": {
+    "venue_name": "Nationals Park",
+    "temp_f": 67.0,
+    "wind_mph": 16.0,
+    "wind_dir": "in",
+    "weather_condition": "Overcast"
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 672960,
+   "player_name": "Kazuma Okamoto",
+   "team": "TOR",
+   "expectancy_score": 41.7,
+   "streak": 2,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": 0.796,
+    "parks_sum": 1.071,
+    "near_hr": 0.098
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 107.6,
+   "max_distance_7d": 401,
+   "band": "40-60",
+   "band_rate": 0.259,
+   "band_samples": 479,
+   "weather_factor": 1.064,
+   "adjusted_score": 44.4,
+   "game_weather": {
+    "venue_name": "Rogers Centre",
+    "temp_f": 71.0,
+    "wind_mph": 5.0,
     "wind_dir": "out",
     "weather_condition": "Sunny"
    },
    "repeat": false
   },
   {
-   "player_id": 596019,
-   "player_name": "Francisco Lindor",
-   "team": "NYM",
-   "expectancy_score": 47.9,
-   "streak": 3,
+   "player_id": 805808,
+   "player_name": "Kevin McGonigle",
+   "team": "DET",
+   "expectancy_score": 40.4,
+   "streak": 2,
    "frequency": 0.714,
    "slopes": {
-    "max_ev": 0.154,
-    "parks_sum": 0.5,
-    "near_hr": -0.062
+    "max_ev": 0.311,
+    "parks_sum": 0.429,
+    "near_hr": -0.0
    },
-   "near_hr_7d": 5,
-   "near_hr_xbh_7d": 0,
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 1,
    "hr_7d": 0,
-   "max_ev_7d": 111.5,
-   "max_distance_7d": 397,
+   "max_ev_7d": 105.1,
+   "max_distance_7d": 379,
    "band": "40-60",
    "band_rate": 0.259,
    "band_samples": 479,
-   "weather_factor": 1.0,
-   "adjusted_score": 47.9,
+   "weather_factor": 1.096,
+   "adjusted_score": 44.3,
    "game_weather": {
-    "venue_name": "Nationals Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "venue_name": "Comerica Park",
+    "temp_f": 70.0,
+    "wind_mph": 8.0,
+    "wind_dir": "out",
+    "weather_condition": "Sunny"
    },
-   "repeat": true
+   "repeat": false
   },
   {
    "player_id": 572233,
@@ -277,37 +308,6 @@
    "repeat": false
   },
   {
-   "player_id": 805808,
-   "player_name": "Kevin McGonigle",
-   "team": "DET",
-   "expectancy_score": 40.4,
-   "streak": 2,
-   "frequency": 0.714,
-   "slopes": {
-    "max_ev": 0.311,
-    "parks_sum": 0.429,
-    "near_hr": -0.0
-   },
-   "near_hr_7d": 4,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 105.1,
-   "max_distance_7d": 379,
-   "band": "40-60",
-   "band_rate": 0.259,
-   "band_samples": 479,
-   "weather_factor": 1.078,
-   "adjusted_score": 43.6,
-   "game_weather": {
-    "venue_name": "Comerica Park",
-    "temp_f": 66.0,
-    "wind_mph": 8.0,
-    "wind_dir": "out",
-    "weather_condition": "Sunny"
-   },
-   "repeat": false
-  },
-  {
    "player_id": 672695,
    "player_name": "Geraldo Perdomo",
    "team": "AZ",
@@ -339,37 +339,6 @@
    "repeat": false
   },
   {
-   "player_id": 672960,
-   "player_name": "Kazuma Okamoto",
-   "team": "TOR",
-   "expectancy_score": 41.7,
-   "streak": 2,
-   "frequency": 0.571,
-   "slopes": {
-    "max_ev": 0.796,
-    "parks_sum": 1.071,
-    "near_hr": 0.098
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 107.6,
-   "max_distance_7d": 401,
-   "band": "40-60",
-   "band_rate": 0.259,
-   "band_samples": 479,
-   "weather_factor": 1.0,
-   "adjusted_score": 41.7,
-   "game_weather": {
-    "venue_name": "Rogers Centre",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
    "player_id": 543807,
    "player_name": "George Springer",
    "team": "TOR",
@@ -389,16 +358,47 @@
    "band": "<40",
    "band_rate": 0.207,
    "band_samples": 19321,
-   "weather_factor": 1.0,
-   "adjusted_score": 39.8,
+   "weather_factor": 1.064,
+   "adjusted_score": 42.3,
    "game_weather": {
     "venue_name": "Rogers Centre",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 71.0,
+    "wind_mph": 5.0,
+    "wind_dir": "out",
+    "weather_condition": "Sunny"
    },
    "repeat": false
+  },
+  {
+   "player_id": 596019,
+   "player_name": "Francisco Lindor",
+   "team": "NYM",
+   "expectancy_score": 47.9,
+   "streak": 3,
+   "frequency": 0.714,
+   "slopes": {
+    "max_ev": 0.154,
+    "parks_sum": 0.5,
+    "near_hr": -0.062
+   },
+   "near_hr_7d": 5,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 111.5,
+   "max_distance_7d": 397,
+   "band": "40-60",
+   "band_rate": 0.259,
+   "band_samples": 479,
+   "weather_factor": 0.862,
+   "adjusted_score": 41.3,
+   "game_weather": {
+    "venue_name": "Nationals Park",
+    "temp_f": 67.0,
+    "wind_mph": 16.0,
+    "wind_dir": "in",
+    "weather_condition": "Overcast"
+   },
+   "repeat": true
   },
   {
    "player_id": 691723,
@@ -445,14 +445,14 @@
    "band": "<40",
    "band_rate": 0.207,
    "band_samples": 19321,
-   "weather_factor": 1.0,
-   "adjusted_score": 35.9,
+   "weather_factor": 1.064,
+   "adjusted_score": 38.2,
    "game_weather": {
     "venue_name": "Rogers Centre",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 71.0,
+    "wind_mph": 5.0,
+    "wind_dir": "out",
+    "weather_condition": "Sunny"
    },
    "repeat": false
   }
