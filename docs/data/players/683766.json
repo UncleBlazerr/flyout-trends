@@ -2,20 +2,38 @@
  "player_id": 683766,
  "player_name": "Christian Koss",
  "team": "SF",
- "as_of": "2026-09-26",
+ "as_of": "2026-09-25",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -5.854,
+   "max_ev": -10.139,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.0,
   "expectancy_score": 0.0,
-  "last_appearance": "2026-09-23"
+  "last_appearance": "2026-09-25"
  },
  "days": [
+  {
+   "date": "2026-09-25",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 40.3,
+   "max_distance": 32.0,
+   "max_barrel_score": 3.2,
+   "temp_f": 63.0,
+   "wind_mph": 11.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-09-23",
    "bbe": 1,
@@ -450,6 +468,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823167,
+   "date": "2026-09-25",
+   "player_id": 683766,
+   "player_name": "Christian Koss",
+   "team": "SF",
+   "opponent": "LAD",
+   "result": "Sac Bunt",
+   "exit_velocity": 40.3,
+   "launch_angle": 1.0,
+   "hit_distance": 32.0,
+   "hc_x": 143.84,
+   "hc_y": 182.08,
+   "would_be_hr_count": 0,
+   "inning": 3,
+   "play_id": "a57262c2-97e5-3091-a9c1-f5374808ced9",
+   "venue_id": 2395,
+   "venue_name": "Oracle Park",
+   "temp_f": 63.0,
+   "wind_mph": 11.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 3.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823168,
    "date": "2026-09-23",

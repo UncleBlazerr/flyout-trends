@@ -2,20 +2,38 @@
  "player_id": 640902,
  "player_name": "Jhonny Pereda",
  "team": "SEA",
- "as_of": "2026-09-26",
+ "as_of": "2026-09-25",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -1.3,
+   "max_ev": -2.17,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
   "intensity": 0.0,
   "expectancy_score": 0.0,
-  "last_appearance": "2026-09-13"
+  "last_appearance": "2026-09-25"
  },
  "days": [
+  {
+   "date": "2026-09-25",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 93.0,
+   "max_distance": 5.0,
+   "max_barrel_score": 20.8,
+   "temp_f": 57.0,
+   "wind_mph": 5.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-13",
    "bbe": 3,
@@ -72,6 +90,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823085,
+   "date": "2026-09-25",
+   "player_id": 640902,
+   "player_name": "Jhonny Pereda",
+   "team": "SEA",
+   "opponent": "LAA",
+   "result": "Groundout",
+   "exit_velocity": 93.0,
+   "launch_angle": -26.0,
+   "hit_distance": 5.0,
+   "hc_x": 146.94,
+   "hc_y": 153.61,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "03b1f1ac-9490-3b19-9d5e-f56fc114612e",
+   "venue_id": 680,
+   "venue_name": "T-Mobile Park",
+   "temp_f": 57.0,
+   "wind_mph": 5.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 20.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824952,
    "date": "2026-09-13",
