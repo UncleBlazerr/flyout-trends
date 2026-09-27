@@ -2,20 +2,38 @@
  "player_id": 691002,
  "player_name": "Yohandy Morales",
  "team": "WSH",
- "as_of": "2026-09-27",
+ "as_of": "2026-09-26",
  "form": {
   "streak": 0,
-  "frequency": 0.143,
+  "frequency": 0.0,
   "slopes": {
-   "max_ev": -0.139,
+   "max_ev": -3.804,
    "parks_sum": 0.0,
-   "near_hr": -0.107
+   "near_hr": 0.0
   },
   "intensity": 0.0,
-  "expectancy_score": 4.3,
-  "last_appearance": "2026-09-23"
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-09-26"
  },
  "days": [
+  {
+   "date": "2026-09-26",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 67.5,
+   "max_distance": 9.0,
+   "max_barrel_score": 0.6,
+   "temp_f": 67.0,
+   "wind_mph": 16.0,
+   "wind_dir": "in",
+   "weather_condition": "Overcast"
+  },
   {
    "date": "2026-09-23",
    "bbe": 3,
@@ -234,6 +252,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822678,
+   "date": "2026-09-26",
+   "player_id": 691002,
+   "player_name": "Yohandy Morales",
+   "team": "WSH",
+   "opponent": "NYM",
+   "result": "Groundout",
+   "exit_velocity": 67.5,
+   "launch_angle": -25.0,
+   "hit_distance": 9.0,
+   "hc_x": 131.54,
+   "hc_y": 152.7,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "15ff933f-a3f9-35c2-bb7d-7849b23dfc0b",
+   "venue_id": 3309,
+   "venue_name": "Nationals Park",
+   "temp_f": 67.0,
+   "wind_mph": 16.0,
+   "wind_dir": "in",
+   "weather_condition": "Overcast",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 0.6,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824223,
    "date": "2026-09-23",

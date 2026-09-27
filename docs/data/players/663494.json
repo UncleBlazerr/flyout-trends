@@ -2,20 +2,38 @@
  "player_id": 663494,
  "player_name": "Bryan Torres",
  "team": "STL",
- "as_of": "2026-09-27",
+ "as_of": "2026-09-26",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": 0.739,
-   "parks_sum": 0.071,
-   "near_hr": 0.0
+   "max_ev": -1.225,
+   "parks_sum": 0.0,
+   "near_hr": -0.036
   },
-  "intensity": 0.131,
-  "expectancy_score": 8.2,
-  "last_appearance": "2026-09-24"
+  "intensity": 0.0,
+  "expectancy_score": 4.3,
+  "last_appearance": "2026-09-26"
  },
  "days": [
+  {
+   "date": "2026-09-26",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 60.2,
+   "max_distance": 19.0,
+   "max_barrel_score": 1.3,
+   "temp_f": 70.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
+  },
   {
    "date": "2026-09-24",
    "bbe": 2,
@@ -270,6 +288,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823733,
+   "date": "2026-09-26",
+   "player_id": 663494,
+   "player_name": "Bryan Torres",
+   "team": "STL",
+   "opponent": "MIL",
+   "result": "Groundout",
+   "exit_velocity": 60.2,
+   "launch_angle": -4.0,
+   "hit_distance": 19.0,
+   "hc_x": 146.24,
+   "hc_y": 160.8,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "24777235-4c93-3b6f-b747-31d97f72f323",
+   "venue_id": 32,
+   "venue_name": "American Family Field",
+   "temp_f": 70.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 1.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823326,
    "date": "2026-09-24",
