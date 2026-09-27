@@ -2,9 +2,9 @@
  "player_id": 676439,
  "player_name": "Hunter Feduccia",
  "team": "LAD",
- "as_of": "2026-09-25",
+ "as_of": "2026-09-27",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": -0.718,
@@ -12,7 +12,7 @@
    "near_hr": 0.0
   },
   "intensity": 0.0,
-  "expectancy_score": 16.6,
+  "expectancy_score": 8.6,
   "last_appearance": "2026-09-24"
  },
  "days": [
@@ -194,24 +194,6 @@
    "temp_f": 80.0,
    "wind_mph": 10.0,
    "wind_dir": "cross",
-   "weather_condition": "Partly Cloudy"
-  },
-  {
-   "date": "2026-08-28",
-   "bbe": 1,
-   "hr": 0,
-   "near_hr_any": 0,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 0,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 0,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 77.8,
-   "max_distance": 274.0,
-   "max_barrel_score": 47.0,
-   "temp_f": 76.0,
-   "wind_mph": 5.0,
-   "wind_dir": "in",
    "weather_condition": "Partly Cloudy"
   }
  ],
@@ -879,35 +861,6 @@
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 19.3,
-   "barrel_flag": false,
-   "is_home_run": false,
-   "is_near_hr": false
-  },
-  {
-   "game_pk": 824231,
-   "date": "2026-08-28",
-   "player_id": 676439,
-   "player_name": "Hunter Feduccia",
-   "team": "LAD",
-   "opponent": "DET",
-   "result": "Flyout",
-   "exit_velocity": 77.8,
-   "launch_angle": 35.0,
-   "hit_distance": 274.0,
-   "hc_x": 181.83,
-   "hc_y": 104.6,
-   "would_be_hr_count": 0,
-   "inning": 5,
-   "play_id": "b7d783f6-9ff0-309e-84dd-b22cdf8c1c8e",
-   "venue_id": 2394,
-   "venue_name": "Comerica Park",
-   "temp_f": 76.0,
-   "wind_mph": 5.0,
-   "wind_dir": "in",
-   "weather_condition": "Partly Cloudy",
-   "distance_flag": false,
-   "would_be_hr_flag": false,
-   "barrel_score": 47.0,
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
