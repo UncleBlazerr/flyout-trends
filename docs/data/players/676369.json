@@ -2,7 +2,7 @@
  "player_id": 676369,
  "player_name": "Nelson Vel\u00e1zquez",
  "team": "HOU",
- "as_of": "2026-09-26",
+ "as_of": "2026-09-28",
  "form": {
   "streak": 0,
   "frequency": 0.0,
@@ -141,24 +141,6 @@
    "wind_mph": 0.0,
    "wind_dir": "none",
    "weather_condition": "Roof Closed"
-  },
-  {
-   "date": "2026-08-28",
-   "bbe": 1,
-   "hr": 0,
-   "near_hr_any": 1,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 1,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 1,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 96.7,
-   "max_distance": 377.0,
-   "max_barrel_score": 71.8,
-   "temp_f": 79.0,
-   "wind_mph": 5.0,
-   "wind_dir": "in",
-   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -422,35 +404,6 @@
    "barrel_flag": false,
    "is_home_run": true,
    "is_near_hr": false
-  },
-  {
-   "game_pk": 823583,
-   "date": "2026-08-28",
-   "player_id": 676369,
-   "player_name": "Nelson Vel\u00e1zquez",
-   "team": "HOU",
-   "opponent": "NYM",
-   "result": "Flyout",
-   "exit_velocity": 96.7,
-   "launch_angle": 34.0,
-   "hit_distance": 377.0,
-   "hc_x": 132.44,
-   "hc_y": 47.36,
-   "would_be_hr_count": 0,
-   "inning": 3,
-   "play_id": "5c7b7d4a-ce88-342f-b4b2-01a2e4358812",
-   "venue_id": 3289,
-   "venue_name": "Citi Field",
-   "temp_f": 79.0,
-   "wind_mph": 5.0,
-   "wind_dir": "in",
-   "weather_condition": "Partly Cloudy",
-   "distance_flag": true,
-   "would_be_hr_flag": false,
-   "barrel_score": 71.8,
-   "barrel_flag": true,
-   "is_home_run": false,
-   "is_near_hr": true
   }
  ]
 }

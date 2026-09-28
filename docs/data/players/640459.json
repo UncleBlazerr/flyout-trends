@@ -2,9 +2,9 @@
  "player_id": 640459,
  "player_name": "Brian Navarreto",
  "team": "MIA",
- "as_of": "2026-09-26",
+ "as_of": "2026-09-28",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.167,
   "slopes": {
    "max_ev": 6.149,
@@ -12,7 +12,7 @@
    "near_hr": 0.321
   },
   "intensity": 0.758,
-  "expectancy_score": 35.7,
+  "expectancy_score": 27.7,
   "last_appearance": "2026-09-24"
  },
  "days": [

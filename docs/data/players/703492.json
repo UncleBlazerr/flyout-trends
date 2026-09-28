@@ -2,9 +2,9 @@
  "player_id": 703492,
  "player_name": "Nick Morabito",
  "team": "NYM",
- "as_of": "2026-09-26",
+ "as_of": "2026-09-28",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.143,
   "slopes": {
    "max_ev": 0.961,
@@ -12,7 +12,7 @@
    "near_hr": 0.134
   },
   "intensity": 0.205,
-  "expectancy_score": 18.4,
+  "expectancy_score": 10.4,
   "last_appearance": "2026-09-24"
  },
  "days": [
