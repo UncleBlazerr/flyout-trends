@@ -2,20 +2,38 @@
  "player_id": 701162,
  "player_name": "Ben Malgeri",
  "team": "DET",
- "as_of": "2026-09-28",
+ "as_of": "2026-09-27",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": 3.4,
+   "max_ev": 3.886,
    "parks_sum": 0.0,
-   "near_hr": -0.045
+   "near_hr": -0.089
   },
   "intensity": 0.333,
   "expectancy_score": 14.3,
-  "last_appearance": "2026-09-26"
+  "last_appearance": "2026-09-27"
  },
  "days": [
+  {
+   "date": "2026-09-27",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 98.0,
+   "max_distance": 3.0,
+   "max_barrel_score": 25.1,
+   "temp_f": 76.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-09-26",
    "bbe": 1,
@@ -306,6 +324,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 824217,
+   "date": "2026-09-27",
+   "player_id": 701162,
+   "player_name": "Ben Malgeri",
+   "team": "DET",
+   "opponent": "PIT",
+   "result": "Groundout",
+   "exit_velocity": 98.0,
+   "launch_angle": -32.0,
+   "hit_distance": 3.0,
+   "hc_x": 152.82,
+   "hc_y": 167.39,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "0eb600ff-a059-301a-8600-3fc257e12cad",
+   "venue_id": 2394,
+   "venue_name": "Comerica Park",
+   "temp_f": 76.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 25.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824219,
    "date": "2026-09-26",

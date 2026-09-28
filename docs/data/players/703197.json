@@ -2,20 +2,38 @@
  "player_id": 703197,
  "player_name": "Michael Arroyo",
  "team": "SEA",
- "as_of": "2026-09-28",
+ "as_of": "2026-09-27",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 1.143,
+   "max_ev": 2.675,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.191,
-  "expectancy_score": 5.7,
-  "last_appearance": "2026-09-26"
+  "intensity": 0.333,
+  "expectancy_score": 10.0,
+  "last_appearance": "2026-09-27"
  },
  "days": [
+  {
+   "date": "2026-09-27",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 108.1,
+   "max_distance": 95.0,
+   "max_barrel_score": 44.6,
+   "temp_f": 59.0,
+   "wind_mph": 11.0,
+   "wind_dir": "in",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-09-26",
    "bbe": 5,
@@ -234,6 +252,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823084,
+   "date": "2026-09-27",
+   "player_id": 703197,
+   "player_name": "Michael Arroyo",
+   "team": "SEA",
+   "opponent": "LAA",
+   "result": "Single",
+   "exit_velocity": 108.1,
+   "launch_angle": 4.0,
+   "hit_distance": 95.0,
+   "hc_x": 77.99,
+   "hc_y": 104.43,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "d84868db-0151-3992-8b90-e93ce34ba62f",
+   "venue_id": 680,
+   "venue_name": "T-Mobile Park",
+   "temp_f": 59.0,
+   "wind_mph": 11.0,
+   "wind_dir": "in",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 44.6,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823083,
    "date": "2026-09-26",

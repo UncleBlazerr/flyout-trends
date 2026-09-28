@@ -2,20 +2,38 @@
  "player_id": 660844,
  "player_name": "Leo Rivas",
  "team": "SEA",
- "as_of": "2026-09-28",
+ "as_of": "2026-09-27",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -4.05,
+   "max_ev": 5.16,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.0,
-  "expectancy_score": 0.0,
-  "last_appearance": "2026-09-26"
+  "intensity": 0.333,
+  "expectancy_score": 10.0,
+  "last_appearance": "2026-09-27"
  },
  "days": [
+  {
+   "date": "2026-09-27",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 102.9,
+   "max_distance": 5.0,
+   "max_barrel_score": 29.6,
+   "temp_f": 59.0,
+   "wind_mph": 11.0,
+   "wind_dir": "in",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-09-26",
    "bbe": 2,
@@ -72,6 +90,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823084,
+   "date": "2026-09-27",
+   "player_id": 660844,
+   "player_name": "Leo Rivas",
+   "team": "SEA",
+   "opponent": "LAA",
+   "result": "Single",
+   "exit_velocity": 102.9,
+   "launch_angle": -24.0,
+   "hit_distance": 5.0,
+   "hc_x": 102.33,
+   "hc_y": 173.38,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "92cd15a6-3cc6-3769-aec7-96f03d8f1df1",
+   "venue_id": 680,
+   "venue_name": "T-Mobile Park",
+   "temp_f": 59.0,
+   "wind_mph": 11.0,
+   "wind_dir": "in",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 29.6,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823083,
    "date": "2026-09-26",

@@ -2,7 +2,7 @@
  "player_id": 693307,
  "player_name": "Dillon Dingler",
  "team": "DET",
- "as_of": "2026-09-28",
+ "as_of": "2026-09-27",
  "form": {
   "streak": 0,
   "frequency": 0.571,
@@ -357,6 +357,24 @@
    "wind_mph": 5.0,
    "wind_dir": "cross",
    "weather_condition": "Cloudy"
+  },
+  {
+   "date": "2026-08-29",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 65.5,
+   "max_distance": 181.0,
+   "max_barrel_score": 19.7,
+   "temp_f": 80.0,
+   "wind_mph": 10.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -1983,6 +2001,35 @@
    "barrel_flag": true,
    "is_home_run": false,
    "is_near_hr": true
+  },
+  {
+   "game_pk": 824230,
+   "date": "2026-08-29",
+   "player_id": 693307,
+   "player_name": "Dillon Dingler",
+   "team": "DET",
+   "opponent": "LAD",
+   "result": "Single",
+   "exit_velocity": 65.5,
+   "launch_angle": 48.0,
+   "hit_distance": 181.0,
+   "hc_x": 177.38,
+   "hc_y": 148.84,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "edd5c018-5f82-3512-9d37-7d740be934ae",
+   "venue_id": 2394,
+   "venue_name": "Comerica Park",
+   "temp_f": 80.0,
+   "wind_mph": 10.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 19.7,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
   }
  ]
 }

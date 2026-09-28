@@ -2,20 +2,38 @@
  "player_id": 680728,
  "player_name": "Adrian Del Castillo",
  "team": "AZ",
- "as_of": "2026-09-28",
+ "as_of": "2026-09-27",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -7.6,
+   "max_ev": 12.7,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.0,
-  "expectancy_score": 0.0,
-  "last_appearance": "2026-09-08"
+  "intensity": 0.333,
+  "expectancy_score": 10.0,
+  "last_appearance": "2026-09-27"
  },
  "days": [
+  {
+   "date": "2026-09-27",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 105.3,
+   "max_distance": 62.0,
+   "max_barrel_score": 36.6,
+   "temp_f": 78.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Cloudy"
+  },
   {
    "date": "2026-09-08",
    "bbe": 1,
@@ -54,6 +72,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 823246,
+   "date": "2026-09-27",
+   "player_id": 680728,
+   "player_name": "Adrian Del Castillo",
+   "team": "AZ",
+   "opponent": "SD",
+   "result": "GIDP",
+   "exit_velocity": 105.3,
+   "launch_angle": 1.0,
+   "hit_distance": 62.0,
+   "hc_x": 125.94,
+   "hc_y": 139.86,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "0b6b5d25-7693-301a-ae8d-4c324bfd06d9",
+   "venue_id": 2680,
+   "venue_name": "Petco Park",
+   "temp_f": 78.0,
+   "wind_mph": 7.0,
+   "wind_dir": "cross",
+   "weather_condition": "Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 36.6,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824063,
    "date": "2026-09-08",

@@ -2,20 +2,38 @@
  "player_id": 678218,
  "player_name": "Brandon Valenzuela",
  "team": "TOR",
- "as_of": "2026-09-28",
+ "as_of": "2026-09-27",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 2.436,
+   "max_ev": 0.896,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.333,
-  "expectancy_score": 10.0,
-  "last_appearance": "2026-09-23"
+  "intensity": 0.149,
+  "expectancy_score": 4.5,
+  "last_appearance": "2026-09-27"
  },
  "days": [
+  {
+   "date": "2026-09-27",
+   "bbe": 1,
+   "hr": 1,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 101.7,
+   "max_distance": 409.0,
+   "max_barrel_score": 83.8,
+   "temp_f": 76.0,
+   "wind_mph": 15.0,
+   "wind_dir": "in",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-09-23",
    "bbe": 4,
@@ -144,6 +162,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 822761,
+   "date": "2026-09-27",
+   "player_id": 678218,
+   "player_name": "Brandon Valenzuela",
+   "team": "TOR",
+   "opponent": "CIN",
+   "result": "Home Run",
+   "exit_velocity": 101.7,
+   "launch_angle": 26.0,
+   "hit_distance": 409.0,
+   "hc_x": 111.88,
+   "hc_y": 34.12,
+   "would_be_hr_count": 14,
+   "inning": 2,
+   "play_id": "fde9536a-63d8-3601-b6b6-6fb40514973a",
+   "venue_id": 14,
+   "venue_name": "Rogers Centre",
+   "temp_f": 76.0,
+   "wind_mph": 15.0,
+   "wind_dir": "in",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 83.8,
+   "barrel_flag": false,
+   "is_home_run": true,
+   "is_near_hr": false
+  },
   {
    "game_pk": 824785,
    "date": "2026-09-23",
