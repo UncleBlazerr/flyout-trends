@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-09-29T16:19:32.788950+00:00",
+ "generated_at": "2026-09-29T20:37:47.542975+00:00",
  "as_of": "2026-09-28",
  "config": {
   "min_near_hr_events": 1,
@@ -79,10 +79,10 @@
    "adjusted_score": 72.7,
    "game_weather": {
     "venue_name": "Daikin Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Roof Closed"
    },
    "repeat": true
   },
@@ -156,13 +156,13 @@
    "band": "40-60",
    "band_rate": 0.259,
    "band_samples": 487,
-   "weather_factor": 1.048,
-   "adjusted_score": 45.9,
+   "weather_factor": 1.04,
+   "adjusted_score": 45.6,
    "game_weather": {
     "venue_name": "Truist Park",
-    "temp_f": 82.0,
+    "temp_f": 80.0,
     "wind_mph": 3.0,
-    "wind_dir": "in",
+    "wind_dir": "none",
     "weather_condition": "Sunny"
    },
    "repeat": true
@@ -424,13 +424,13 @@
    "band": "<40",
    "band_rate": 0.207,
    "band_samples": 19845,
-   "weather_factor": 1.048,
-   "adjusted_score": 34.6,
+   "weather_factor": 1.04,
+   "adjusted_score": 34.3,
    "game_weather": {
     "venue_name": "Truist Park",
-    "temp_f": 82.0,
+    "temp_f": 80.0,
     "wind_mph": 3.0,
-    "wind_dir": "in",
+    "wind_dir": "none",
     "weather_condition": "Sunny"
    },
    "repeat": false
