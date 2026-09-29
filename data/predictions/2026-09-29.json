@@ -1,7 +1,59 @@
 {
+ "schema_version": 2,
+ "generated_at": "2026-09-29T09:26:25.317719+00:00",
  "as_of": "2026-09-29",
- "horizon_days": 3,
- "min_samples": 20,
+ "config": {
+  "min_near_hr_events": 1,
+  "max_gap_days": 2,
+  "slope_window": 7,
+  "streak_cap": 5,
+  "weights": {
+   "streak": 0.4,
+   "frequency": 0.3,
+   "intensity": 0.3
+  },
+  "intensity_scales": {
+   "max_ev": 2.0,
+   "parks_sum": 3.0,
+   "near_hr": 1.0
+  },
+  "xbh_weight": 1.25,
+  "horizon_days": 3,
+  "score_bands": [
+   40,
+   60,
+   80
+  ],
+  "min_samples": 20,
+  "top_n": 15,
+  "consistency_top_n": 15,
+  "records_dir": "data/predictions",
+  "weather": {
+   "enabled": true,
+   "temp_ref_f": 70,
+   "temp_per_deg": 0.004,
+   "wind_out_min_mph": 5,
+   "wind_out_per_mph": 0.012,
+   "wind_out_cap_mph": 20,
+   "wind_in_min_mph": 5,
+   "wind_in_per_mph": 0.008,
+   "wind_in_cap_mph": 20,
+   "clamp": [
+    0.85,
+    1.2
+   ],
+   "neutral_conditions": [
+    "Dome",
+    "Roof Closed"
+   ],
+   "temp_bands": [
+    55,
+    70,
+    85
+   ],
+   "min_samples": 25
+  }
+ },
  "players": [
   {
    "player_id": 808959,
@@ -407,81 +459,6 @@
     "weather_condition": ""
    },
    "repeat": false
-  }
- ],
- "bands": {
-  "<40": {
-   "samples": 19845,
-   "hr_followed": 4116,
-   "rate": 0.207
-  },
-  "40-60": {
-   "samples": 487,
-   "hr_followed": 126,
-   "rate": 0.259
-  },
-  "60-80": {
-   "samples": 59,
-   "hr_followed": 19,
-   "rate": 0.322
-  },
-  "80+": {
-   "samples": 2,
-   "hr_followed": 1,
-   "rate": 0.5
-  }
- },
- "hit_rate": {
-  "resolved_records": 82,
-  "horizon_days": 3,
-  "overall": {
-   "flagged": 1230,
-   "hr_followed": 278,
-   "rate": 0.226
-  },
-  "top_band": {
-   "band": "80+",
-   "flagged": 2,
-   "hr_followed": 1,
-   "rate": 0.5
-  }
- },
- "recent_hits": [
-  {
-   "player_id": 681715,
-   "player_name": "Heriberto Hern\u00e1ndez",
-   "team": "MIA",
-   "flagged_on": "2026-09-26",
-   "flagged_score": 50.0,
-   "hr_on": "2026-09-27",
-   "hr_count": 1
-  },
-  {
-   "player_id": 608369,
-   "player_name": "Corey Seager",
-   "team": "TEX",
-   "flagged_on": "2026-09-26",
-   "flagged_score": 40.6,
-   "hr_on": "2026-09-27",
-   "hr_count": 1
-  },
-  {
-   "player_id": 804606,
-   "player_name": "Konnor Griffin",
-   "team": "PIT",
-   "flagged_on": "2026-09-26",
-   "flagged_score": 37.8,
-   "hr_on": "2026-09-27",
-   "hr_count": 1
-  },
-  {
-   "player_id": 694249,
-   "player_name": "Cole Carrigg",
-   "team": "COL",
-   "flagged_on": "2026-09-26",
-   "flagged_score": 34.5,
-   "hr_on": "2026-09-27",
-   "hr_count": 1
   }
  ]
 }
