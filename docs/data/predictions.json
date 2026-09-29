@@ -1,5 +1,5 @@
 {
- "as_of": "2026-09-29",
+ "as_of": "2026-09-28",
  "horizon_days": 3,
  "min_samples": 20,
  "players": [
@@ -17,7 +17,7 @@
    },
    "near_hr_7d": 7,
    "near_hr_xbh_7d": 2,
-   "hr_7d": 2,
+   "hr_7d": 3,
    "max_ev_7d": 113.0,
    "max_distance_7d": 412,
    "band": "60-80",
@@ -49,7 +49,7 @@
    "near_hr_7d": 4,
    "near_hr_xbh_7d": 0,
    "hr_7d": 1,
-   "max_ev_7d": 107.3,
+   "max_ev_7d": 107.5,
    "max_distance_7d": 395,
    "band": "40-60",
    "band_rate": 0.259,
@@ -82,6 +82,37 @@
    "weather_factor": 1.0,
    "adjusted_score": 51.8,
    "game_weather": null,
+   "repeat": true
+  },
+  {
+   "player_id": 671739,
+   "player_name": "Michael Harris II",
+   "team": "ATL",
+   "expectancy_score": 43.8,
+   "streak": 1,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": 3.661,
+    "parks_sum": 2.107,
+    "near_hr": 0.161
+   },
+   "near_hr_7d": 5,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 0,
+   "max_ev_7d": 111.6,
+   "max_distance_7d": 394,
+   "band": "40-60",
+   "band_rate": 0.259,
+   "band_samples": 487,
+   "weather_factor": 1.048,
+   "adjusted_score": 45.9,
+   "game_weather": {
+    "venue_name": "Truist Park",
+    "temp_f": 82.0,
+    "wind_mph": 3.0,
+    "wind_dir": "in",
+    "weather_condition": "Sunny"
+   },
    "repeat": true
   },
   {
@@ -132,7 +163,57 @@
    "weather_factor": 1.0,
    "adjusted_score": 40.6,
    "game_weather": null,
-   "repeat": false
+   "repeat": true
+  },
+  {
+   "player_id": 695600,
+   "player_name": "Carter Jensen",
+   "team": "KC",
+   "expectancy_score": 40.1,
+   "streak": 1,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": 1.961,
+    "parks_sum": 3.75,
+    "near_hr": 0.375
+   },
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 2,
+   "max_ev_7d": 108.4,
+   "max_distance_7d": 418,
+   "band": "40-60",
+   "band_rate": 0.259,
+   "band_samples": 487,
+   "weather_factor": 1.0,
+   "adjusted_score": 40.1,
+   "game_weather": null,
+   "repeat": true
+  },
+  {
+   "player_id": 553993,
+   "player_name": "Eugenio Su\u00e1rez",
+   "team": "CIN",
+   "expectancy_score": 38.0,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 1.486,
+    "parks_sum": 0.0,
+    "near_hr": 0.17
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 2,
+   "max_ev_7d": 105.5,
+   "max_distance_7d": 415,
+   "band": "<40",
+   "band_rate": 0.207,
+   "band_samples": 19845,
+   "weather_factor": 1.0,
+   "adjusted_score": 38.0,
+   "game_weather": null,
+   "repeat": true
   },
   {
    "player_id": 622761,
@@ -157,7 +238,7 @@
    "weather_factor": 1.0,
    "adjusted_score": 37.7,
    "game_weather": null,
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 666152,
@@ -182,7 +263,7 @@
    "weather_factor": 1.0,
    "adjusted_score": 36.8,
    "game_weather": null,
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 703607,
@@ -196,7 +277,7 @@
     "parks_sum": 0.607,
     "near_hr": 0.036
    },
-   "near_hr_7d": 4,
+   "near_hr_7d": 5,
    "near_hr_xbh_7d": 2,
    "hr_7d": 0,
    "max_ev_7d": 115.1,
@@ -207,7 +288,7 @@
    "weather_factor": 1.0,
    "adjusted_score": 36.0,
    "game_weather": null,
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 665804,
@@ -238,7 +319,7 @@
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 624424,
@@ -252,10 +333,10 @@
     "parks_sum": 1.714,
     "near_hr": -0.08
    },
-   "near_hr_7d": 2,
+   "near_hr_7d": 3,
    "near_hr_xbh_7d": 1,
    "hr_7d": 0,
-   "max_ev_7d": 104.2,
+   "max_ev_7d": 109.7,
    "max_distance_7d": 392,
    "band": "<40",
    "band_rate": 0.207,
@@ -269,57 +350,7 @@
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": false
-  },
-  {
-   "player_id": 606466,
-   "player_name": "Ketel Marte",
-   "team": "AZ",
-   "expectancy_score": 33.5,
-   "streak": 2,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 0.564,
-    "parks_sum": 0.0,
-    "near_hr": 0.179
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 110.2,
-   "max_distance_7d": 418,
-   "band": "<40",
-   "band_rate": 0.207,
-   "band_samples": 19845,
-   "weather_factor": 1.0,
-   "adjusted_score": 33.5,
-   "game_weather": null,
-   "repeat": false
-  },
-  {
-   "player_id": 686797,
-   "player_name": "Brooks Lee",
-   "team": "MIN",
-   "expectancy_score": 33.4,
-   "streak": 2,
-   "frequency": 0.286,
-   "slopes": {
-    "max_ev": 0.693,
-    "parks_sum": 1.071,
-    "near_hr": 0.179
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 104.5,
-   "max_distance_7d": 405,
-   "band": "<40",
-   "band_rate": 0.207,
-   "band_samples": 19845,
-   "weather_factor": 1.0,
-   "adjusted_score": 33.4,
-   "game_weather": null,
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 571657,
@@ -341,71 +372,40 @@
    "band": "<40",
    "band_rate": 0.207,
    "band_samples": 19845,
-   "weather_factor": 1.0,
-   "adjusted_score": 33.0,
+   "weather_factor": 1.048,
+   "adjusted_score": 34.6,
    "game_weather": {
     "venue_name": "Truist Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 82.0,
+    "wind_mph": 3.0,
+    "wind_dir": "in",
+    "weather_condition": "Sunny"
    },
    "repeat": false
   },
   {
-   "player_id": 641343,
-   "player_name": "Jake Bauers",
-   "team": "MIL",
-   "expectancy_score": 32.9,
-   "streak": 1,
-   "frequency": 0.571,
-   "slopes": {
-    "max_ev": 1.554,
-    "parks_sum": 0.0,
-    "near_hr": -0.062
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 105.1,
-   "max_distance_7d": 367,
-   "band": "<40",
-   "band_rate": 0.207,
-   "band_samples": 19845,
-   "weather_factor": 1.0,
-   "adjusted_score": 32.9,
-   "game_weather": null,
-   "repeat": false
-  },
-  {
-   "player_id": 828599,
-   "player_name": "Lucas Spence",
-   "team": "HOU",
-   "expectancy_score": 32.8,
-   "streak": 1,
+   "player_id": 672275,
+   "player_name": "Patrick Bailey",
+   "team": "CLE",
+   "expectancy_score": 33.9,
+   "streak": 2,
    "frequency": 0.429,
    "slopes": {
-    "max_ev": 3.0,
-    "parks_sum": 0.071,
-    "near_hr": 0.17
+    "max_ev": -0.014,
+    "parks_sum": 1.179,
+    "near_hr": 0.107
    },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 4,
-   "max_ev_7d": 106.4,
-   "max_distance_7d": 429,
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 2,
+   "max_ev_7d": 107.7,
+   "max_distance_7d": 396,
    "band": "<40",
    "band_rate": 0.207,
    "band_samples": 19845,
    "weather_factor": 1.0,
-   "adjusted_score": 32.8,
-   "game_weather": {
-    "venue_name": "Daikin Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
+   "adjusted_score": 33.9,
+   "game_weather": null,
    "repeat": false
   }
  ],
@@ -457,11 +457,38 @@
    "hr_count": 1
   },
   {
+   "player_id": 596019,
+   "player_name": "Francisco Lindor",
+   "team": "NYM",
+   "flagged_on": "2026-09-25",
+   "flagged_score": 47.9,
+   "hr_on": "2026-09-27",
+   "hr_count": 1
+  },
+  {
+   "player_id": 572233,
+   "player_name": "Christian Walker",
+   "team": "HOU",
+   "flagged_on": "2026-09-25",
+   "flagged_score": 43.9,
+   "hr_on": "2026-09-27",
+   "hr_count": 1
+  },
+  {
    "player_id": 608369,
    "player_name": "Corey Seager",
    "team": "TEX",
    "flagged_on": "2026-09-26",
    "flagged_score": 40.6,
+   "hr_on": "2026-09-27",
+   "hr_count": 1
+  },
+  {
+   "player_id": 805808,
+   "player_name": "Kevin McGonigle",
+   "team": "DET",
+   "flagged_on": "2026-09-25",
+   "flagged_score": 40.4,
    "hr_on": "2026-09-27",
    "hr_count": 1
   },
