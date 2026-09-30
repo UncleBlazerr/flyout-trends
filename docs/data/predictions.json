@@ -98,14 +98,14 @@
    "band": "40-60",
    "band_rate": 0.259,
    "band_samples": 505,
-   "weather_factor": 1.0,
-   "adjusted_score": 40.6,
+   "weather_factor": 1.052,
+   "adjusted_score": 42.7,
    "game_weather": {
     "venue_name": "Truist Park",
-    "temp_f": 70.0,
-    "wind_mph": 3.0,
-    "wind_dir": "varies",
-    "weather_condition": "Cloudy"
+    "temp_f": 83.0,
+    "wind_mph": 4.0,
+    "wind_dir": "cross",
+    "weather_condition": "Partly Cloudy"
    },
    "repeat": false
   },
@@ -272,6 +272,37 @@
    "repeat": true
   },
   {
+   "player_id": 571657,
+   "player_name": "Kyle Farmer",
+   "team": "ATL",
+   "expectancy_score": 33.0,
+   "streak": 1,
+   "frequency": 0.333,
+   "slopes": {
+    "max_ev": 15.25,
+    "parks_sum": 0.0,
+    "near_hr": 0.5
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 97.5,
+   "max_distance_7d": 348,
+   "band": "<40",
+   "band_rate": 0.206,
+   "band_samples": 20371,
+   "weather_factor": 1.052,
+   "adjusted_score": 34.7,
+   "game_weather": {
+    "venue_name": "Truist Park",
+    "temp_f": 83.0,
+    "wind_mph": 4.0,
+    "wind_dir": "cross",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": true
+  },
+  {
    "player_id": 606466,
    "player_name": "Ketel Marte",
    "team": "AZ",
@@ -322,35 +353,35 @@
    "repeat": false
   },
   {
-   "player_id": 571657,
-   "player_name": "Kyle Farmer",
-   "team": "ATL",
-   "expectancy_score": 33.0,
+   "player_id": 663757,
+   "player_name": "Trent Grisham",
+   "team": "NYY",
+   "expectancy_score": 32.9,
    "streak": 1,
-   "frequency": 0.333,
+   "frequency": 0.429,
    "slopes": {
-    "max_ev": 15.25,
-    "parks_sum": 0.0,
-    "near_hr": 0.5
+    "max_ev": 3.564,
+    "parks_sum": 0.286,
+    "near_hr": 0.107
    },
    "near_hr_7d": 1,
    "near_hr_xbh_7d": 0,
    "hr_7d": 0,
-   "max_ev_7d": 97.5,
+   "max_ev_7d": 101.1,
    "max_distance_7d": 348,
    "band": "<40",
    "band_rate": 0.206,
    "band_samples": 20371,
-   "weather_factor": 1.0,
-   "adjusted_score": 33.0,
+   "weather_factor": 1.012,
+   "adjusted_score": 33.3,
    "game_weather": {
-    "venue_name": "Truist Park",
-    "temp_f": 70.0,
+    "venue_name": "Yankee Stadium",
+    "temp_f": 73.0,
     "wind_mph": 3.0,
     "wind_dir": "varies",
     "weather_condition": "Cloudy"
    },
-   "repeat": true
+   "repeat": false
   },
   {
    "player_id": 641343,
@@ -375,37 +406,6 @@
    "weather_factor": 1.0,
    "adjusted_score": 32.9,
    "game_weather": null,
-   "repeat": false
-  },
-  {
-   "player_id": 663757,
-   "player_name": "Trent Grisham",
-   "team": "NYY",
-   "expectancy_score": 32.9,
-   "streak": 1,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 3.564,
-    "parks_sum": 0.286,
-    "near_hr": 0.107
-   },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 101.1,
-   "max_distance_7d": 348,
-   "band": "<40",
-   "band_rate": 0.206,
-   "band_samples": 20371,
-   "weather_factor": 1.0,
-   "adjusted_score": 32.9,
-   "game_weather": {
-    "venue_name": "Yankee Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
    "repeat": false
   }
  ],
