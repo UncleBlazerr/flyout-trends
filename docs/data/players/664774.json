@@ -2,7 +2,7 @@
  "player_id": 664774,
  "player_name": "LaMonte Wade Jr.",
  "team": "HOU",
- "as_of": "2026-09-28",
+ "as_of": "2026-09-30",
  "form": {
   "streak": 0,
   "frequency": 0.0,
@@ -195,24 +195,6 @@
    "wind_mph": 0.0,
    "wind_dir": "none",
    "weather_condition": "Roof Closed"
-  },
-  {
-   "date": "2026-08-30",
-   "bbe": 1,
-   "hr": 1,
-   "near_hr_any": 0,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 0,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 0,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 103.9,
-   "max_distance": 409.0,
-   "max_barrel_score": 85.8,
-   "temp_f": 81.0,
-   "wind_mph": 9.0,
-   "wind_dir": "out",
-   "weather_condition": "Cloudy"
   }
  ],
  "events": [
@@ -794,35 +776,6 @@
    "barrel_score": 12.7,
    "barrel_flag": false,
    "is_home_run": false,
-   "is_near_hr": false
-  },
-  {
-   "game_pk": 823580,
-   "date": "2026-08-30",
-   "player_id": 664774,
-   "player_name": "LaMonte Wade Jr.",
-   "team": "HOU",
-   "opponent": "NYM",
-   "result": "Home Run",
-   "exit_velocity": 103.9,
-   "launch_angle": 26.0,
-   "hit_distance": 409.0,
-   "hc_x": 213.19,
-   "hc_y": 57.78,
-   "would_be_hr_count": 30,
-   "inning": 6,
-   "play_id": "3685957b-80de-3db0-8a46-3a3f87256348",
-   "venue_id": 3289,
-   "venue_name": "Citi Field",
-   "temp_f": 81.0,
-   "wind_mph": 9.0,
-   "wind_dir": "out",
-   "weather_condition": "Cloudy",
-   "distance_flag": false,
-   "would_be_hr_flag": false,
-   "barrel_score": 85.8,
-   "barrel_flag": false,
-   "is_home_run": true,
    "is_near_hr": false
   }
  ]

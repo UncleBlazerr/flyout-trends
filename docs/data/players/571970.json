@@ -2,9 +2,9 @@
  "player_id": 571970,
  "player_name": "Max Muncy",
  "team": "LAD",
- "as_of": "2026-09-28",
+ "as_of": "2026-09-30",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.429,
   "slopes": {
    "max_ev": -0.104,
@@ -12,7 +12,7 @@
    "near_hr": -0.062
   },
   "intensity": 0.274,
-  "expectancy_score": 29.1,
+  "expectancy_score": 21.1,
   "last_appearance": "2026-09-27"
  },
  "days": [
@@ -429,24 +429,6 @@
    "wind_mph": 9.0,
    "wind_dir": "out",
    "weather_condition": "Clear"
-  },
-  {
-   "date": "2026-08-30",
-   "bbe": 1,
-   "hr": 0,
-   "near_hr_any": 0,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 0,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 0,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 74.1,
-   "max_distance": 117.0,
-   "max_barrel_score": 23.4,
-   "temp_f": 76.0,
-   "wind_mph": 5.0,
-   "wind_dir": "cross",
-   "weather_condition": "Cloudy"
   }
  ],
  "events": [
@@ -2041,35 +2023,6 @@
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 59.4,
-   "barrel_flag": false,
-   "is_home_run": false,
-   "is_near_hr": false
-  },
-  {
-   "game_pk": 824232,
-   "date": "2026-08-30",
-   "player_id": 571970,
-   "player_name": "Max Muncy",
-   "team": "LAD",
-   "opponent": "DET",
-   "result": "Single",
-   "exit_velocity": 74.1,
-   "launch_angle": 11.0,
-   "hit_distance": 117.0,
-   "hc_x": 172.47,
-   "hc_y": 129.59,
-   "would_be_hr_count": 0,
-   "inning": 8,
-   "play_id": "da5761db-a4f8-3713-9205-d4f4111659ea",
-   "venue_id": 2394,
-   "venue_name": "Comerica Park",
-   "temp_f": 76.0,
-   "wind_mph": 5.0,
-   "wind_dir": "cross",
-   "weather_condition": "Cloudy",
-   "distance_flag": false,
-   "would_be_hr_flag": false,
-   "barrel_score": 23.4,
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false

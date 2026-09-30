@@ -2,9 +2,9 @@
  "player_id": 543510,
  "player_name": "James McCann",
  "team": "AZ",
- "as_of": "2026-09-28",
+ "as_of": "2026-09-30",
  "form": {
-  "streak": 3,
+  "streak": 0,
   "frequency": 0.714,
   "slopes": {
    "max_ev": 0.854,
@@ -12,7 +12,7 @@
    "near_hr": 0.214
   },
   "intensity": 0.214,
-  "expectancy_score": 51.8,
+  "expectancy_score": 27.8,
   "last_appearance": "2026-09-27"
  },
  "days": [
