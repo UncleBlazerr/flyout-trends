@@ -2,9 +2,9 @@
  "player_id": 521692,
  "player_name": "Salvador Perez",
  "team": "KC",
- "as_of": "2026-09-30",
+ "as_of": "2026-09-29",
  "form": {
-  "streak": 0,
+  "streak": 2,
   "frequency": 0.429,
   "slopes": {
    "max_ev": 0.407,
@@ -12,7 +12,7 @@
    "near_hr": 0.161
   },
   "intensity": 0.121,
-  "expectancy_score": 16.5,
+  "expectancy_score": 32.5,
   "last_appearance": "2026-09-27"
  },
  "days": [

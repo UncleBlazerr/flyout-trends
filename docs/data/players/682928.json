@@ -2,9 +2,9 @@
  "player_id": 682928,
  "player_name": "CJ Abrams",
  "team": "WSH",
- "as_of": "2026-09-30",
+ "as_of": "2026-09-29",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 0.539,
@@ -12,7 +12,7 @@
    "near_hr": 0.143
   },
   "intensity": 0.237,
-  "expectancy_score": 15.7,
+  "expectancy_score": 23.7,
   "last_appearance": "2026-09-27"
  },
  "days": [

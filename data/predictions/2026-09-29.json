@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-09-29T09:26:25.317719+00:00",
+ "generated_at": "2026-09-30T16:14:41.788282+00:00",
  "as_of": "2026-09-29",
  "config": {
   "min_near_hr_events": 1,
@@ -56,37 +56,6 @@
  },
  "players": [
   {
-   "player_id": 808959,
-   "player_name": "Munetaka Murakami",
-   "team": "CWS",
-   "expectancy_score": 72.7,
-   "streak": 5,
-   "frequency": 0.714,
-   "slopes": {
-    "max_ev": 1.089,
-    "parks_sum": 0.929,
-    "near_hr": 0.268
-   },
-   "near_hr_7d": 7,
-   "near_hr_xbh_7d": 2,
-   "hr_7d": 2,
-   "max_ev_7d": 113.0,
-   "max_distance_7d": 412,
-   "band": "60-80",
-   "band_rate": 0.322,
-   "band_samples": 59,
-   "weather_factor": 1.0,
-   "adjusted_score": 72.7,
-   "game_weather": {
-    "venue_name": "Daikin Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
    "player_id": 681715,
    "player_name": "Heriberto Hern\u00e1ndez",
    "team": "MIA",
@@ -105,7 +74,7 @@
    "max_distance_7d": 395,
    "band": "40-60",
    "band_rate": 0.259,
-   "band_samples": 487,
+   "band_samples": 505,
    "weather_factor": 1.0,
    "adjusted_score": 58.1,
    "game_weather": null,
@@ -130,7 +99,7 @@
    "max_distance_7d": 412,
    "band": "40-60",
    "band_rate": 0.259,
-   "band_samples": 487,
+   "band_samples": 505,
    "weather_factor": 1.0,
    "adjusted_score": 51.8,
    "game_weather": null,
@@ -155,11 +124,42 @@
    "max_distance_7d": 383,
    "band": "40-60",
    "band_rate": 0.259,
-   "band_samples": 487,
+   "band_samples": 505,
    "weather_factor": 1.0,
    "adjusted_score": 45.3,
    "game_weather": null,
    "repeat": true
+  },
+  {
+   "player_id": 660670,
+   "player_name": "Ronald Acu\u00f1a Jr.",
+   "team": "ATL",
+   "expectancy_score": 40.6,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 3.611,
+    "parks_sum": 0.0,
+    "near_hr": 0.179
+   },
+   "near_hr_7d": 5,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 106.0,
+   "max_distance_7d": 373,
+   "band": "40-60",
+   "band_rate": 0.259,
+   "band_samples": 505,
+   "weather_factor": 1.0,
+   "adjusted_score": 40.6,
+   "game_weather": {
+    "venue_name": "Truist Park",
+    "temp_f": 70.0,
+    "wind_mph": 3.0,
+    "wind_dir": "varies",
+    "weather_condition": "Cloudy"
+   },
+   "repeat": false
   },
   {
    "player_id": 805999,
@@ -180,11 +180,11 @@
    "max_distance_7d": 396,
    "band": "40-60",
    "band_rate": 0.259,
-   "band_samples": 487,
+   "band_samples": 505,
    "weather_factor": 1.0,
    "adjusted_score": 40.6,
    "game_weather": null,
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 622761,
@@ -204,12 +204,12 @@
    "max_ev_7d": 105.1,
    "max_distance_7d": 400,
    "band": "<40",
-   "band_rate": 0.207,
-   "band_samples": 19845,
+   "band_rate": 0.206,
+   "band_samples": 20371,
    "weather_factor": 1.0,
    "adjusted_score": 37.7,
    "game_weather": null,
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 666152,
@@ -229,12 +229,12 @@
    "max_ev_7d": 107.0,
    "max_distance_7d": 363,
    "band": "<40",
-   "band_rate": 0.207,
-   "band_samples": 19845,
+   "band_rate": 0.206,
+   "band_samples": 20371,
    "weather_factor": 1.0,
    "adjusted_score": 36.8,
    "game_weather": null,
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 703607,
@@ -254,12 +254,12 @@
    "max_ev_7d": 115.1,
    "max_distance_7d": 372,
    "band": "<40",
-   "band_rate": 0.207,
-   "band_samples": 19845,
+   "band_rate": 0.206,
+   "band_samples": 20371,
    "weather_factor": 1.0,
    "adjusted_score": 36.0,
    "game_weather": null,
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 665804,
@@ -279,8 +279,8 @@
    "max_ev_7d": 104.6,
    "max_distance_7d": 400,
    "band": "<40",
-   "band_rate": 0.207,
-   "band_samples": 19845,
+   "band_rate": 0.206,
+   "band_samples": 20371,
    "weather_factor": 1.0,
    "adjusted_score": 36.0,
    "game_weather": {
@@ -290,7 +290,7 @@
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 624424,
@@ -310,8 +310,8 @@
    "max_ev_7d": 104.2,
    "max_distance_7d": 392,
    "band": "<40",
-   "band_rate": 0.207,
-   "band_samples": 19845,
+   "band_rate": 0.206,
+   "band_samples": 20371,
    "weather_factor": 1.0,
    "adjusted_score": 35.1,
    "game_weather": {
@@ -321,7 +321,7 @@
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 606466,
@@ -341,8 +341,8 @@
    "max_ev_7d": 110.2,
    "max_distance_7d": 418,
    "band": "<40",
-   "band_rate": 0.207,
-   "band_samples": 19845,
+   "band_rate": 0.206,
+   "band_samples": 20371,
    "weather_factor": 1.0,
    "adjusted_score": 33.5,
    "game_weather": null,
@@ -366,8 +366,8 @@
    "max_ev_7d": 104.5,
    "max_distance_7d": 405,
    "band": "<40",
-   "band_rate": 0.207,
-   "band_samples": 19845,
+   "band_rate": 0.206,
+   "band_samples": 20371,
    "weather_factor": 1.0,
    "adjusted_score": 33.4,
    "game_weather": null,
@@ -391,18 +391,18 @@
    "max_ev_7d": 97.5,
    "max_distance_7d": 348,
    "band": "<40",
-   "band_rate": 0.207,
-   "band_samples": 19845,
+   "band_rate": 0.206,
+   "band_samples": 20371,
    "weather_factor": 1.0,
    "adjusted_score": 33.0,
    "game_weather": {
     "venue_name": "Truist Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 70.0,
+    "wind_mph": 3.0,
+    "wind_dir": "varies",
+    "weather_condition": "Cloudy"
    },
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 641343,
@@ -422,37 +422,37 @@
    "max_ev_7d": 105.1,
    "max_distance_7d": 367,
    "band": "<40",
-   "band_rate": 0.207,
-   "band_samples": 19845,
+   "band_rate": 0.206,
+   "band_samples": 20371,
    "weather_factor": 1.0,
    "adjusted_score": 32.9,
    "game_weather": null,
    "repeat": false
   },
   {
-   "player_id": 828599,
-   "player_name": "Lucas Spence",
-   "team": "HOU",
-   "expectancy_score": 32.8,
+   "player_id": 663757,
+   "player_name": "Trent Grisham",
+   "team": "NYY",
+   "expectancy_score": 32.9,
    "streak": 1,
    "frequency": 0.429,
    "slopes": {
-    "max_ev": 3.0,
-    "parks_sum": 0.071,
-    "near_hr": 0.17
+    "max_ev": 3.564,
+    "parks_sum": 0.286,
+    "near_hr": 0.107
    },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 4,
-   "max_ev_7d": 106.4,
-   "max_distance_7d": 429,
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 101.1,
+   "max_distance_7d": 348,
    "band": "<40",
-   "band_rate": 0.207,
-   "band_samples": 19845,
+   "band_rate": 0.206,
+   "band_samples": 20371,
    "weather_factor": 1.0,
-   "adjusted_score": 32.8,
+   "adjusted_score": 32.9,
    "game_weather": {
-    "venue_name": "Daikin Park",
+    "venue_name": "Yankee Stadium",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,

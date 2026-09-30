@@ -2,9 +2,9 @@
  "player_id": 693304,
  "player_name": "Nick Gonzales",
  "team": "PIT",
- "as_of": "2026-09-30",
+ "as_of": "2026-09-29",
  "form": {
-  "streak": 0,
+  "streak": 2,
   "frequency": 0.429,
   "slopes": {
    "max_ev": 0.418,
@@ -12,7 +12,7 @@
    "near_hr": 0.179
   },
   "intensity": 0.129,
-  "expectancy_score": 16.7,
+  "expectancy_score": 32.7,
   "last_appearance": "2026-09-27"
  },
  "days": [

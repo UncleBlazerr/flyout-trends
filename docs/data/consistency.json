@@ -1,4 +1,155 @@
 {
- "as_of": "2026-09-30",
- "players": []
+ "as_of": "2026-09-29",
+ "players": [
+  {
+   "player_id": 681715,
+   "player_name": "Heriberto Hern\u00e1ndez",
+   "team": "MIA",
+   "record_streak": 4,
+   "total_flags": 13,
+   "avg_score": 50.2,
+   "current_score": 58.1,
+   "game_streak": 4
+  },
+  {
+   "player_id": 543510,
+   "player_name": "James McCann",
+   "team": "AZ",
+   "record_streak": 4,
+   "total_flags": 7,
+   "avg_score": 42.6,
+   "current_score": 51.8,
+   "game_streak": 3
+  },
+  {
+   "player_id": 691785,
+   "player_name": "Marcelo Mayer",
+   "team": "SF",
+   "record_streak": 4,
+   "total_flags": 4,
+   "avg_score": 42.6,
+   "current_score": 45.3,
+   "game_streak": 2
+  },
+  {
+   "player_id": 624424,
+   "player_name": "Michael Conforto",
+   "team": "CHC",
+   "record_streak": 3,
+   "total_flags": 8,
+   "avg_score": 41.5,
+   "current_score": 35.1,
+   "game_streak": 1
+  },
+  {
+   "player_id": 703607,
+   "player_name": "Henry Bolte",
+   "team": "ATH",
+   "record_streak": 3,
+   "total_flags": 6,
+   "avg_score": 42.0,
+   "current_score": 36.0,
+   "game_streak": 1
+  },
+  {
+   "player_id": 666152,
+   "player_name": "David Hamilton",
+   "team": "MIL",
+   "record_streak": 3,
+   "total_flags": 6,
+   "avg_score": 35.8,
+   "current_score": 36.8,
+   "game_streak": 2
+  },
+  {
+   "player_id": 805999,
+   "player_name": "A.J. Ewing",
+   "team": "NYM",
+   "record_streak": 3,
+   "total_flags": 5,
+   "avg_score": 41.3,
+   "current_score": 40.6,
+   "game_streak": 2
+  },
+  {
+   "player_id": 665804,
+   "player_name": "Miguel Amaya",
+   "team": "CHC",
+   "record_streak": 3,
+   "total_flags": 4,
+   "avg_score": 34.0,
+   "current_score": 36.0,
+   "game_streak": 2
+  },
+  {
+   "player_id": 622761,
+   "player_name": "Jorge Mateo",
+   "team": "TB",
+   "record_streak": 3,
+   "total_flags": 3,
+   "avg_score": 37.7,
+   "current_score": 37.7,
+   "game_streak": 2
+  },
+  {
+   "player_id": 571657,
+   "player_name": "Kyle Farmer",
+   "team": "ATL",
+   "record_streak": 2,
+   "total_flags": 2,
+   "avg_score": 33.0,
+   "current_score": 33.0,
+   "game_streak": 1
+  },
+  {
+   "player_id": 686797,
+   "player_name": "Brooks Lee",
+   "team": "MIN",
+   "record_streak": 1,
+   "total_flags": 5,
+   "avg_score": 39.8,
+   "current_score": 33.4,
+   "game_streak": 2
+  },
+  {
+   "player_id": 641343,
+   "player_name": "Jake Bauers",
+   "team": "MIL",
+   "record_streak": 1,
+   "total_flags": 4,
+   "avg_score": 41.5,
+   "current_score": 32.9,
+   "game_streak": 1
+  },
+  {
+   "player_id": 660670,
+   "player_name": "Ronald Acu\u00f1a Jr.",
+   "team": "ATL",
+   "record_streak": 1,
+   "total_flags": 4,
+   "avg_score": 38.5,
+   "current_score": 40.6,
+   "game_streak": 2
+  },
+  {
+   "player_id": 663757,
+   "player_name": "Trent Grisham",
+   "team": "NYY",
+   "record_streak": 1,
+   "total_flags": 4,
+   "avg_score": 35.1,
+   "current_score": 32.9,
+   "game_streak": 1
+  },
+  {
+   "player_id": 606466,
+   "player_name": "Ketel Marte",
+   "team": "AZ",
+   "record_streak": 1,
+   "total_flags": 2,
+   "avg_score": 42.9,
+   "current_score": 33.5,
+   "game_streak": 2
+  }
+ ]
 }

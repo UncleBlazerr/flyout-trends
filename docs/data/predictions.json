@@ -1,23 +1,429 @@
 {
- "as_of": "2026-09-30",
+ "as_of": "2026-09-29",
  "horizon_days": 3,
  "min_samples": 20,
- "players": [],
+ "players": [
+  {
+   "player_id": 681715,
+   "player_name": "Heriberto Hern\u00e1ndez",
+   "team": "MIA",
+   "expectancy_score": 58.1,
+   "streak": 4,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": 0.5,
+    "parks_sum": 1.286,
+    "near_hr": 0.214
+   },
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
+   "max_ev_7d": 107.3,
+   "max_distance_7d": 395,
+   "band": "40-60",
+   "band_rate": 0.259,
+   "band_samples": 505,
+   "weather_factor": 1.0,
+   "adjusted_score": 58.1,
+   "game_weather": null,
+   "repeat": true
+  },
+  {
+   "player_id": 543510,
+   "player_name": "James McCann",
+   "team": "AZ",
+   "expectancy_score": 51.8,
+   "streak": 3,
+   "frequency": 0.714,
+   "slopes": {
+    "max_ev": 0.854,
+    "parks_sum": -0.071,
+    "near_hr": 0.214
+   },
+   "near_hr_7d": 5,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 2,
+   "max_ev_7d": 109.0,
+   "max_distance_7d": 412,
+   "band": "40-60",
+   "band_rate": 0.259,
+   "band_samples": 505,
+   "weather_factor": 1.0,
+   "adjusted_score": 51.8,
+   "game_weather": null,
+   "repeat": true
+  },
+  {
+   "player_id": 691785,
+   "player_name": "Marcelo Mayer",
+   "team": "SF",
+   "expectancy_score": 45.3,
+   "streak": 2,
+   "frequency": 0.5,
+   "slopes": {
+    "max_ev": 3.4,
+    "parks_sum": 0.1,
+    "near_hr": 0.4
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 100.2,
+   "max_distance_7d": 383,
+   "band": "40-60",
+   "band_rate": 0.259,
+   "band_samples": 505,
+   "weather_factor": 1.0,
+   "adjusted_score": 45.3,
+   "game_weather": null,
+   "repeat": true
+  },
+  {
+   "player_id": 660670,
+   "player_name": "Ronald Acu\u00f1a Jr.",
+   "team": "ATL",
+   "expectancy_score": 40.6,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 3.611,
+    "parks_sum": 0.0,
+    "near_hr": 0.179
+   },
+   "near_hr_7d": 5,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 106.0,
+   "max_distance_7d": 373,
+   "band": "40-60",
+   "band_rate": 0.259,
+   "band_samples": 505,
+   "weather_factor": 1.0,
+   "adjusted_score": 40.6,
+   "game_weather": {
+    "venue_name": "Truist Park",
+    "temp_f": 70.0,
+    "wind_mph": 3.0,
+    "wind_dir": "varies",
+    "weather_condition": "Cloudy"
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 805999,
+   "player_name": "A.J. Ewing",
+   "team": "NYM",
+   "expectancy_score": 40.6,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 2.129,
+    "parks_sum": 0.0,
+    "near_hr": 0.179
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
+   "max_ev_7d": 104.7,
+   "max_distance_7d": 396,
+   "band": "40-60",
+   "band_rate": 0.259,
+   "band_samples": 505,
+   "weather_factor": 1.0,
+   "adjusted_score": 40.6,
+   "game_weather": null,
+   "repeat": true
+  },
+  {
+   "player_id": 622761,
+   "player_name": "Jorge Mateo",
+   "team": "TB",
+   "expectancy_score": 37.7,
+   "streak": 2,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": 3.804,
+    "parks_sum": 0.321,
+    "near_hr": 0.205
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 105.1,
+   "max_distance_7d": 400,
+   "band": "<40",
+   "band_rate": 0.206,
+   "band_samples": 20371,
+   "weather_factor": 1.0,
+   "adjusted_score": 37.7,
+   "game_weather": null,
+   "repeat": true
+  },
+  {
+   "player_id": 666152,
+   "player_name": "David Hamilton",
+   "team": "MIL",
+   "expectancy_score": 36.8,
+   "streak": 2,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": 4.025,
+    "parks_sum": 0.071,
+    "near_hr": 0.196
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 107.0,
+   "max_distance_7d": 363,
+   "band": "<40",
+   "band_rate": 0.206,
+   "band_samples": 20371,
+   "weather_factor": 1.0,
+   "adjusted_score": 36.8,
+   "game_weather": null,
+   "repeat": true
+  },
+  {
+   "player_id": 703607,
+   "player_name": "Henry Bolte",
+   "team": "ATH",
+   "expectancy_score": 36.0,
+   "streak": 1,
+   "frequency": 0.714,
+   "slopes": {
+    "max_ev": 0.839,
+    "parks_sum": 0.607,
+    "near_hr": 0.036
+   },
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 0,
+   "max_ev_7d": 115.1,
+   "max_distance_7d": 372,
+   "band": "<40",
+   "band_rate": 0.206,
+   "band_samples": 20371,
+   "weather_factor": 1.0,
+   "adjusted_score": 36.0,
+   "game_weather": null,
+   "repeat": true
+  },
+  {
+   "player_id": 665804,
+   "player_name": "Miguel Amaya",
+   "team": "CHC",
+   "expectancy_score": 36.0,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 0.775,
+    "parks_sum": 0.429,
+    "near_hr": 0.188
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 0,
+   "max_ev_7d": 104.6,
+   "max_distance_7d": 400,
+   "band": "<40",
+   "band_rate": 0.206,
+   "band_samples": 20371,
+   "weather_factor": 1.0,
+   "adjusted_score": 36.0,
+   "game_weather": {
+    "venue_name": "Petco Park",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 624424,
+   "player_name": "Michael Conforto",
+   "team": "CHC",
+   "expectancy_score": 35.1,
+   "streak": 1,
+   "frequency": 0.714,
+   "slopes": {
+    "max_ev": -0.336,
+    "parks_sum": 1.714,
+    "near_hr": -0.08
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 104.2,
+   "max_distance_7d": 392,
+   "band": "<40",
+   "band_rate": 0.206,
+   "band_samples": 20371,
+   "weather_factor": 1.0,
+   "adjusted_score": 35.1,
+   "game_weather": {
+    "venue_name": "Petco Park",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 606466,
+   "player_name": "Ketel Marte",
+   "team": "AZ",
+   "expectancy_score": 33.5,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 0.564,
+    "parks_sum": 0.0,
+    "near_hr": 0.179
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 110.2,
+   "max_distance_7d": 418,
+   "band": "<40",
+   "band_rate": 0.206,
+   "band_samples": 20371,
+   "weather_factor": 1.0,
+   "adjusted_score": 33.5,
+   "game_weather": null,
+   "repeat": false
+  },
+  {
+   "player_id": 686797,
+   "player_name": "Brooks Lee",
+   "team": "MIN",
+   "expectancy_score": 33.4,
+   "streak": 2,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": 0.693,
+    "parks_sum": 1.071,
+    "near_hr": 0.179
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 104.5,
+   "max_distance_7d": 405,
+   "band": "<40",
+   "band_rate": 0.206,
+   "band_samples": 20371,
+   "weather_factor": 1.0,
+   "adjusted_score": 33.4,
+   "game_weather": null,
+   "repeat": false
+  },
+  {
+   "player_id": 571657,
+   "player_name": "Kyle Farmer",
+   "team": "ATL",
+   "expectancy_score": 33.0,
+   "streak": 1,
+   "frequency": 0.333,
+   "slopes": {
+    "max_ev": 15.25,
+    "parks_sum": 0.0,
+    "near_hr": 0.5
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 97.5,
+   "max_distance_7d": 348,
+   "band": "<40",
+   "band_rate": 0.206,
+   "band_samples": 20371,
+   "weather_factor": 1.0,
+   "adjusted_score": 33.0,
+   "game_weather": {
+    "venue_name": "Truist Park",
+    "temp_f": 70.0,
+    "wind_mph": 3.0,
+    "wind_dir": "varies",
+    "weather_condition": "Cloudy"
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 641343,
+   "player_name": "Jake Bauers",
+   "team": "MIL",
+   "expectancy_score": 32.9,
+   "streak": 1,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": 1.554,
+    "parks_sum": 0.0,
+    "near_hr": -0.062
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 105.1,
+   "max_distance_7d": 367,
+   "band": "<40",
+   "band_rate": 0.206,
+   "band_samples": 20371,
+   "weather_factor": 1.0,
+   "adjusted_score": 32.9,
+   "game_weather": null,
+   "repeat": false
+  },
+  {
+   "player_id": 663757,
+   "player_name": "Trent Grisham",
+   "team": "NYY",
+   "expectancy_score": 32.9,
+   "streak": 1,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 3.564,
+    "parks_sum": 0.286,
+    "near_hr": 0.107
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 101.1,
+   "max_distance_7d": 348,
+   "band": "<40",
+   "band_rate": 0.206,
+   "band_samples": 20371,
+   "weather_factor": 1.0,
+   "adjusted_score": 32.9,
+   "game_weather": {
+    "venue_name": "Yankee Stadium",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  }
+ ],
  "bands": {
   "<40": {
-   "samples": 19845,
-   "hr_followed": 4116,
-   "rate": 0.207
+   "samples": 20371,
+   "hr_followed": 4188,
+   "rate": 0.206
   },
   "40-60": {
-   "samples": 487,
-   "hr_followed": 126,
+   "samples": 505,
+   "hr_followed": 131,
    "rate": 0.259
   },
   "60-80": {
-   "samples": 59,
+   "samples": 61,
    "hr_followed": 19,
-   "rate": 0.322
+   "rate": 0.311
   },
   "80+": {
    "samples": 2,
@@ -26,11 +432,11 @@
   }
  },
  "hit_rate": {
-  "resolved_records": 82,
+  "resolved_records": 84,
   "horizon_days": 3,
   "overall": {
-   "flagged": 1230,
-   "hr_followed": 278,
+   "flagged": 1260,
+   "hr_followed": 285,
    "rate": 0.226
   },
   "top_band": {
@@ -40,5 +446,42 @@
    "rate": 0.5
   }
  },
- "recent_hits": []
+ "recent_hits": [
+  {
+   "player_id": 681715,
+   "player_name": "Heriberto Hern\u00e1ndez",
+   "team": "MIA",
+   "flagged_on": "2026-09-26",
+   "flagged_score": 50.0,
+   "hr_on": "2026-09-27",
+   "hr_count": 1
+  },
+  {
+   "player_id": 608369,
+   "player_name": "Corey Seager",
+   "team": "TEX",
+   "flagged_on": "2026-09-26",
+   "flagged_score": 40.6,
+   "hr_on": "2026-09-27",
+   "hr_count": 1
+  },
+  {
+   "player_id": 804606,
+   "player_name": "Konnor Griffin",
+   "team": "PIT",
+   "flagged_on": "2026-09-26",
+   "flagged_score": 37.8,
+   "hr_on": "2026-09-27",
+   "hr_count": 1
+  },
+  {
+   "player_id": 694249,
+   "player_name": "Cole Carrigg",
+   "team": "COL",
+   "flagged_on": "2026-09-26",
+   "flagged_score": 34.5,
+   "hr_on": "2026-09-27",
+   "hr_count": 1
+  }
+ ]
 }

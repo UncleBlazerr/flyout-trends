@@ -2,9 +2,9 @@
  "player_id": 665877,
  "player_name": "Jos\u00e9 Ferm\u00edn",
  "team": "STL",
- "as_of": "2026-09-30",
+ "as_of": "2026-09-29",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.143,
   "slopes": {
    "max_ev": -2.068,
@@ -12,7 +12,7 @@
    "near_hr": 0.107
   },
   "intensity": 0.036,
-  "expectancy_score": 5.4,
+  "expectancy_score": 13.4,
   "last_appearance": "2026-09-27"
  },
  "days": [

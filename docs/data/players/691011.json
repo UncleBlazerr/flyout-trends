@@ -2,9 +2,9 @@
  "player_id": 691011,
  "player_name": "Drew Romo",
  "team": "CWS",
- "as_of": "2026-09-30",
+ "as_of": "2026-09-29",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.333,
   "slopes": {
    "max_ev": -1.1,
@@ -12,7 +12,7 @@
    "near_hr": 0.625
   },
   "intensity": 0.208,
-  "expectancy_score": 16.2,
+  "expectancy_score": 24.2,
   "last_appearance": "2026-09-27"
  },
  "days": [
