@@ -1,15 +1,35 @@
 {
- "as_of": "2026-10-01",
+ "as_of": "2026-09-30",
  "players": [
   {
-   "player_id": 700250,
-   "player_name": "Ben Rice",
-   "team": "NYY",
+   "player_id": 660670,
+   "player_name": "Ronald Acu\u00f1a Jr.",
+   "team": "ATL",
+   "record_streak": 2,
+   "total_flags": 5,
+   "avg_score": 35.4,
+   "current_score": 22.9,
+   "game_streak": 0
+  },
+  {
+   "player_id": 677800,
+   "player_name": "Wilyer Abreu",
+   "team": "BOS",
    "record_streak": 1,
-   "total_flags": 13,
-   "avg_score": 47.7,
-   "current_score": 27.6,
+   "total_flags": 16,
+   "avg_score": 47.6,
+   "current_score": 20.9,
    "game_streak": 1
+  },
+  {
+   "player_id": 664761,
+   "player_name": "Alec Bohm",
+   "team": "PHI",
+   "record_streak": 1,
+   "total_flags": 14,
+   "avg_score": 41.4,
+   "current_score": 27.4,
+   "game_streak": 2
   },
   {
    "player_id": 808959,
@@ -17,88 +37,38 @@
    "team": "CWS",
    "record_streak": 1,
    "total_flags": 13,
-   "avg_score": 47.5,
-   "current_score": 23.3,
-   "game_streak": 0
+   "avg_score": 48.4,
+   "current_score": 34.4,
+   "game_streak": 1
   },
   {
-   "player_id": 682987,
-   "player_name": "Spencer Jones",
-   "team": "NYY",
-   "record_streak": 1,
-   "total_flags": 11,
-   "avg_score": 40.3,
-   "current_score": 17.9,
-   "game_streak": 0
-  },
-  {
-   "player_id": 671739,
-   "player_name": "Michael Harris II",
-   "team": "ATL",
+   "player_id": 665487,
+   "player_name": "Fernando Tatis Jr.",
+   "team": "SD",
    "record_streak": 1,
    "total_flags": 10,
-   "avg_score": 41.4,
-   "current_score": 21.0,
-   "game_streak": 0
-  },
-  {
-   "player_id": 664034,
-   "player_name": "Ty France",
-   "team": "SD",
-   "record_streak": 1,
-   "total_flags": 9,
-   "avg_score": 40.7,
-   "current_score": 27.6,
+   "avg_score": 39.3,
+   "current_score": 20.9,
    "game_streak": 1
   },
   {
-   "player_id": 645277,
-   "player_name": "Ozzie Albies",
-   "team": "ATL",
-   "record_streak": 1,
-   "total_flags": 8,
-   "avg_score": 29.1,
-   "current_score": 23.1,
-   "game_streak": 1
-  },
-  {
-   "player_id": 660670,
-   "player_name": "Ronald Acu\u00f1a Jr.",
-   "team": "ATL",
-   "record_streak": 1,
-   "total_flags": 5,
-   "avg_score": 38.9,
-   "current_score": 40.6,
-   "game_streak": 2
-  },
-  {
-   "player_id": 663757,
-   "player_name": "Trent Grisham",
-   "team": "NYY",
-   "record_streak": 1,
-   "total_flags": 5,
-   "avg_score": 34.6,
-   "current_score": 32.9,
-   "game_streak": 1
-  },
-  {
-   "player_id": 592518,
-   "player_name": "Manny Machado",
-   "team": "SD",
+   "player_id": 592663,
+   "player_name": "J.T. Realmuto",
+   "team": "PHI",
    "record_streak": 1,
    "total_flags": 4,
-   "avg_score": 38.4,
-   "current_score": 30.8,
+   "avg_score": 34.0,
+   "current_score": 22.6,
    "game_streak": 1
   },
   {
-   "player_id": 691019,
-   "player_name": "Kyle Teel",
-   "team": "CWS",
+   "player_id": 621566,
+   "player_name": "Matt Olson",
+   "team": "ATL",
    "record_streak": 1,
    "total_flags": 3,
-   "avg_score": 44.6,
-   "current_score": 23.4,
+   "avg_score": 36.9,
+   "current_score": 25.3,
    "game_streak": 1
   },
   {
@@ -112,13 +82,33 @@
    "game_streak": 1
   },
   {
+   "player_id": 806956,
+   "player_name": "Ethan Salas",
+   "team": "SD",
+   "record_streak": 1,
+   "total_flags": 2,
+   "avg_score": 32.5,
+   "current_score": 26.9,
+   "game_streak": 1
+  },
+  {
    "player_id": 608348,
    "player_name": "Carson Kelly",
    "team": "CHC",
    "record_streak": 1,
    "total_flags": 2,
-   "avg_score": 28.4,
-   "current_score": 22.2,
+   "avg_score": 27.2,
+   "current_score": 19.9,
+   "game_streak": 0
+  },
+  {
+   "player_id": 828599,
+   "player_name": "Lucas Spence",
+   "team": "HOU",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 35.6,
+   "current_score": 35.6,
    "game_streak": 1
   },
   {
@@ -127,28 +117,38 @@
    "team": "BOS",
    "record_streak": 1,
    "total_flags": 1,
-   "avg_score": 26.5,
-   "current_score": 26.5,
+   "avg_score": 30.3,
+   "current_score": 30.3,
+   "game_streak": 2
+  },
+  {
+   "player_id": 650559,
+   "player_name": "Bryan De La Cruz",
+   "team": "PHI",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 29.9,
+   "current_score": 29.9,
+   "game_streak": 2
+  },
+  {
+   "player_id": 669221,
+   "player_name": "Sean Murphy",
+   "team": "ATL",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 27.9,
+   "current_score": 27.9,
    "game_streak": 1
   },
   {
-   "player_id": 828599,
-   "player_name": "Lucas Spence",
-   "team": "HOU",
+   "player_id": 687957,
+   "player_name": "Dustin Harris",
+   "team": "SD",
    "record_streak": 1,
    "total_flags": 1,
-   "avg_score": 23.4,
-   "current_score": 23.4,
-   "game_streak": 0
-  },
-  {
-   "player_id": 806146,
-   "player_name": "George Lombard Jr.",
-   "team": "NYY",
-   "record_streak": 1,
-   "total_flags": 1,
-   "avg_score": 18.1,
-   "current_score": 18.1,
+   "avg_score": 23.8,
+   "current_score": 23.8,
    "game_streak": 1
   }
  ]
