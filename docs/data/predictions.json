@@ -54,6 +54,37 @@
    "repeat": false
   },
   {
+   "player_id": 650559,
+   "player_name": "Bryan De La Cruz",
+   "team": "PHI",
+   "expectancy_score": 29.9,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 0.036,
+    "parks_sum": 0.0,
+    "near_hr": 0.089
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 103.4,
+   "max_distance_7d": 358,
+   "band": "<40",
+   "band_rate": 0.203,
+   "band_samples": 20645,
+   "weather_factor": 1.036,
+   "adjusted_score": 31.0,
+   "game_weather": {
+    "venue_name": "Truist Park",
+    "temp_f": 79.0,
+    "wind_mph": 5.0,
+    "wind_dir": "cross",
+    "weather_condition": "Clear"
+   },
+   "repeat": false
+  },
+  {
    "player_id": 702332,
    "player_name": "Caleb Durbin",
    "team": "BOS",
@@ -79,37 +110,6 @@
    "repeat": false
   },
   {
-   "player_id": 650559,
-   "player_name": "Bryan De La Cruz",
-   "team": "PHI",
-   "expectancy_score": 29.9,
-   "streak": 2,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 0.036,
-    "parks_sum": 0.0,
-    "near_hr": 0.089
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 103.4,
-   "max_distance_7d": 358,
-   "band": "<40",
-   "band_rate": 0.203,
-   "band_samples": 20645,
-   "weather_factor": 1.0,
-   "adjusted_score": 29.9,
-   "game_weather": {
-    "venue_name": "Truist Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
    "player_id": 669221,
    "player_name": "Sean Murphy",
    "team": "ATL",
@@ -129,14 +129,14 @@
    "band": "<40",
    "band_rate": 0.203,
    "band_samples": 20645,
-   "weather_factor": 1.0,
-   "adjusted_score": 27.9,
+   "weather_factor": 1.036,
+   "adjusted_score": 28.9,
    "game_weather": {
     "venue_name": "Truist Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 79.0,
+    "wind_mph": 5.0,
+    "wind_dir": "cross",
+    "weather_condition": "Clear"
    },
    "repeat": false
   },
@@ -160,14 +160,14 @@
    "band": "<40",
    "band_rate": 0.203,
    "band_samples": 20645,
-   "weather_factor": 1.0,
-   "adjusted_score": 27.4,
+   "weather_factor": 1.036,
+   "adjusted_score": 28.4,
    "game_weather": {
     "venue_name": "Truist Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 79.0,
+    "wind_mph": 5.0,
+    "wind_dir": "cross",
+    "weather_condition": "Clear"
    },
    "repeat": false
   },
@@ -216,14 +216,14 @@
    "band": "<40",
    "band_rate": 0.203,
    "band_samples": 20645,
-   "weather_factor": 1.0,
-   "adjusted_score": 25.3,
+   "weather_factor": 1.036,
+   "adjusted_score": 26.2,
    "game_weather": {
     "venue_name": "Truist Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 79.0,
+    "wind_mph": 5.0,
+    "wind_dir": "cross",
+    "weather_condition": "Clear"
    },
    "repeat": false
   },
@@ -272,14 +272,14 @@
    "band": "<40",
    "band_rate": 0.203,
    "band_samples": 20645,
-   "weather_factor": 1.0,
-   "adjusted_score": 22.9,
+   "weather_factor": 1.036,
+   "adjusted_score": 23.7,
    "game_weather": {
     "venue_name": "Truist Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 79.0,
+    "wind_mph": 5.0,
+    "wind_dir": "cross",
+    "weather_condition": "Clear"
    },
    "repeat": true
   },
@@ -303,14 +303,14 @@
    "band": "<40",
    "band_rate": 0.203,
    "band_samples": 20645,
-   "weather_factor": 1.0,
-   "adjusted_score": 22.6,
+   "weather_factor": 1.036,
+   "adjusted_score": 23.4,
    "game_weather": {
     "venue_name": "Truist Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 79.0,
+    "wind_mph": 5.0,
+    "wind_dir": "cross",
+    "weather_condition": "Clear"
    },
    "repeat": false
   },
