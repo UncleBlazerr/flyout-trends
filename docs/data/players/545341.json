@@ -2,9 +2,9 @@
  "player_id": 545341,
  "player_name": "Randal Grichuk",
  "team": "CWS",
- "as_of": "2026-10-02",
+ "as_of": "2026-10-01",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 1.104,
@@ -12,7 +12,7 @@
    "near_hr": 0.018
   },
   "intensity": 0.19,
-  "expectancy_score": 14.3,
+  "expectancy_score": 22.3,
   "last_appearance": "2026-09-29"
  },
  "days": [

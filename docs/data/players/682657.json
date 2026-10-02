@@ -2,7 +2,7 @@
  "player_id": 682657,
  "player_name": "Angel Mart\u00ednez",
  "team": "CLE",
- "as_of": "2026-10-02",
+ "as_of": "2026-10-01",
  "form": {
   "streak": 0,
   "frequency": 0.143,
@@ -302,6 +302,24 @@
    "temp_f": 88.0,
    "wind_mph": 10.0,
    "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
+  {
+   "date": "2026-09-02",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 104.2,
+   "max_distance": 348.0,
+   "max_barrel_score": 74.3,
+   "temp_f": 89.0,
+   "wind_mph": 14.0,
+   "wind_dir": "out",
    "weather_condition": "Partly Cloudy"
   }
  ],
@@ -1755,6 +1773,35 @@
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
+  },
+  {
+   "game_pk": 824390,
+   "date": "2026-09-02",
+   "player_id": 682657,
+   "player_name": "Angel Mart\u00ednez",
+   "team": "CLE",
+   "opponent": "TOR",
+   "result": "Lineout",
+   "exit_velocity": 104.2,
+   "launch_angle": 19.0,
+   "hit_distance": 348.0,
+   "hc_x": 197.76,
+   "hc_y": 78.11,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "f851333c-65fa-3978-9a9e-0abc5e0095e1",
+   "venue_id": 5,
+   "venue_name": "Progressive Field",
+   "temp_f": 89.0,
+   "wind_mph": 14.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 74.3,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
   }
  ]
 }

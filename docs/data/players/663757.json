@@ -2,17 +2,17 @@
  "player_id": 663757,
  "player_name": "Trent Grisham",
  "team": "NYY",
- "as_of": "2026-10-02",
+ "as_of": "2026-10-01",
  "form": {
   "streak": 0,
-  "frequency": 0.5,
+  "frequency": 0.333,
   "slopes": {
-   "max_ev": -2.2,
+   "max_ev": 2.9,
    "parks_sum": 0.0,
-   "near_hr": -1.0
+   "near_hr": 0.0
   },
-  "intensity": 0.0,
-  "expectancy_score": 15.0,
+  "intensity": 0.333,
+  "expectancy_score": 20.0,
   "last_appearance": "2026-09-30"
  },
  "days": [
@@ -51,6 +51,24 @@
    "wind_mph": 8.0,
    "wind_dir": "cross",
    "weather_condition": "Cloudy"
+  },
+  {
+   "date": "2026-09-02",
+   "bbe": 2,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 93.1,
+   "max_distance": 181.0,
+   "max_barrel_score": 43.0,
+   "temp_f": 78.0,
+   "wind_mph": 6.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear"
   }
  ],
  "events": [
@@ -169,6 +187,64 @@
    "barrel_flag": true,
    "is_home_run": false,
    "is_near_hr": true
+  },
+  {
+   "game_pk": 823983,
+   "date": "2026-09-02",
+   "player_id": 663757,
+   "player_name": "Trent Grisham",
+   "team": "NYY",
+   "opponent": "LAA",
+   "result": "Lineout",
+   "exit_velocity": 93.1,
+   "launch_angle": 10.0,
+   "hit_distance": 174.0,
+   "hc_x": 104.22,
+   "hc_y": 134.94,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "4909c0ce-3282-3deb-95bf-135191c03d61",
+   "venue_id": 1,
+   "venue_name": "Angel Stadium",
+   "temp_f": 78.0,
+   "wind_mph": 6.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 43.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
+  {
+   "game_pk": 823983,
+   "date": "2026-09-02",
+   "player_id": 663757,
+   "player_name": "Trent Grisham",
+   "team": "NYY",
+   "opponent": "LAA",
+   "result": "Single",
+   "exit_velocity": 83.8,
+   "launch_angle": 12.0,
+   "hit_distance": 181.0,
+   "hc_x": 93.08,
+   "hc_y": 122.05,
+   "would_be_hr_count": 0,
+   "inning": 10,
+   "play_id": "666e8b77-99c6-34cf-9efc-c72f2af4aac1",
+   "venue_id": 1,
+   "venue_name": "Angel Stadium",
+   "temp_f": 78.0,
+   "wind_mph": 6.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 37.4,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
   }
  ]
 }

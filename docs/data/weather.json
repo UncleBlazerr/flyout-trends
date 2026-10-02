@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-02",
+ "as_of": "2026-10-01",
  "horizon_days": 3,
  "temp_bands": [
   55,
@@ -76,10 +76,10 @@
   {
    "temp_band": "70-85",
    "wind": "neutral",
-   "player_days": 4000,
-   "hr_days": 438,
-   "hr_total": 458,
-   "near_hr_days": 885,
+   "player_days": 4020,
+   "hr_days": 441,
+   "hr_total": 461,
+   "near_hr_days": 889,
    "follow_samples": 868,
    "hr_followed": 184,
    "hr_rate": 0.11,
