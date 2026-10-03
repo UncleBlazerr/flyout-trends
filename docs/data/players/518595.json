@@ -2,17 +2,17 @@
  "player_id": 518595,
  "player_name": "Travis d'Arnaud",
  "team": "LAA",
- "as_of": "2026-10-01",
+ "as_of": "2026-10-03",
  "form": {
   "streak": 0,
-  "frequency": 0.4,
+  "frequency": 0.5,
   "slopes": {
-   "max_ev": -0.24,
+   "max_ev": -0.39,
    "parks_sum": 0.0,
-   "near_hr": -0.025
+   "near_hr": -0.275
   },
   "intensity": 0.0,
-  "expectancy_score": 12.0,
+  "expectancy_score": 15.0,
   "last_appearance": "2026-09-25"
  },
  "days": [
@@ -87,24 +87,6 @@
    "wind_mph": 4.0,
    "wind_dir": "out",
    "weather_condition": "Partly Cloudy"
-  },
-  {
-   "date": "2026-09-02",
-   "bbe": 1,
-   "hr": 0,
-   "near_hr_any": 0,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 0,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 0,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 96.1,
-   "max_distance": 3.0,
-   "max_barrel_score": 23.4,
-   "temp_f": 78.0,
-   "wind_mph": 6.0,
-   "wind_dir": "cross",
-   "weather_condition": "Clear"
   }
  ],
  "events": [
@@ -423,35 +405,6 @@
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 47.4,
-   "barrel_flag": false,
-   "is_home_run": false,
-   "is_near_hr": false
-  },
-  {
-   "game_pk": 823983,
-   "date": "2026-09-02",
-   "player_id": 518595,
-   "player_name": "Travis d'Arnaud",
-   "team": "LAA",
-   "opponent": "NYY",
-   "result": "Groundout",
-   "exit_velocity": 96.1,
-   "launch_angle": -33.0,
-   "hit_distance": 3.0,
-   "hc_x": 123.37,
-   "hc_y": 144.46,
-   "would_be_hr_count": 0,
-   "inning": 3,
-   "play_id": "ba0d6046-bcfb-32da-bbe3-212a1fff67b3",
-   "venue_id": 1,
-   "venue_name": "Angel Stadium",
-   "temp_f": 78.0,
-   "wind_mph": 6.0,
-   "wind_dir": "cross",
-   "weather_condition": "Clear",
-   "distance_flag": false,
-   "would_be_hr_flag": false,
-   "barrel_score": 23.4,
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
