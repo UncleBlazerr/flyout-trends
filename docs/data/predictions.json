@@ -98,14 +98,45 @@
    "band": "<40",
    "band_rate": 0.203,
    "band_samples": 20645,
-   "weather_factor": 0.944,
-   "adjusted_score": 32.5,
+   "weather_factor": 0.972,
+   "adjusted_score": 33.4,
    "game_weather": {
     "venue_name": "Progressive Field",
-    "temp_f": 56.0,
-    "wind_mph": 3.0,
-    "wind_dir": "varies",
+    "temp_f": 63.0,
+    "wind_mph": 9.0,
+    "wind_dir": "cross",
     "weather_condition": "Partly Cloudy"
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 669221,
+   "player_name": "Sean Murphy",
+   "team": "ATL",
+   "expectancy_score": 27.9,
+   "streak": 1,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": 2.596,
+    "parks_sum": 0.0,
+    "near_hr": 0.134
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 111.3,
+   "max_distance_7d": 312,
+   "band": "<40",
+   "band_rate": 0.203,
+   "band_samples": 20645,
+   "weather_factor": 1.096,
+   "adjusted_score": 30.6,
+   "game_weather": {
+    "venue_name": "UNIQLO Field at Dodger Stadium",
+    "temp_f": 94.0,
+    "wind_mph": 2.0,
+    "wind_dir": "varies",
+    "weather_condition": "Sunny"
    },
    "repeat": true
   },
@@ -160,37 +191,6 @@
    "repeat": true
   },
   {
-   "player_id": 669221,
-   "player_name": "Sean Murphy",
-   "team": "ATL",
-   "expectancy_score": 27.9,
-   "streak": 1,
-   "frequency": 0.286,
-   "slopes": {
-    "max_ev": 2.596,
-    "parks_sum": 0.0,
-    "near_hr": 0.134
-   },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 111.3,
-   "max_distance_7d": 312,
-   "band": "<40",
-   "band_rate": 0.203,
-   "band_samples": 20645,
-   "weather_factor": 1.0,
-   "adjusted_score": 27.9,
-   "game_weather": {
-    "venue_name": "UNIQLO Field at Dodger Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
    "player_id": 806956,
    "player_name": "Ethan Salas",
    "team": "SD",
@@ -218,6 +218,37 @@
     "wind_mph": null,
     "wind_dir": null,
     "weather_condition": ""
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 660670,
+   "player_name": "Ronald Acu\u00f1a Jr.",
+   "team": "ATL",
+   "expectancy_score": 22.9,
+   "streak": 0,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 2.582,
+    "parks_sum": -0.214,
+    "near_hr": -0.179
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 106.0,
+   "max_distance_7d": 369,
+   "band": "<40",
+   "band_rate": 0.203,
+   "band_samples": 20645,
+   "weather_factor": 1.096,
+   "adjusted_score": 25.1,
+   "game_weather": {
+    "venue_name": "UNIQLO Field at Dodger Stadium",
+    "temp_f": 94.0,
+    "wind_mph": 2.0,
+    "wind_dir": "varies",
+    "weather_condition": "Sunny"
    },
    "repeat": true
   },
@@ -278,33 +309,33 @@
    "repeat": true
   },
   {
-   "player_id": 660670,
-   "player_name": "Ronald Acu\u00f1a Jr.",
+   "player_id": 621566,
+   "player_name": "Matt Olson",
    "team": "ATL",
-   "expectancy_score": 22.9,
+   "expectancy_score": 20.4,
    "streak": 0,
-   "frequency": 0.429,
+   "frequency": 0.571,
    "slopes": {
-    "max_ev": 2.582,
-    "parks_sum": -0.214,
+    "max_ev": 0.661,
+    "parks_sum": 0.0,
     "near_hr": -0.179
    },
-   "near_hr_7d": 2,
+   "near_hr_7d": 3,
    "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 106.0,
-   "max_distance_7d": 369,
+   "hr_7d": 1,
+   "max_ev_7d": 108.0,
+   "max_distance_7d": 416,
    "band": "<40",
    "band_rate": 0.203,
    "band_samples": 20645,
-   "weather_factor": 1.0,
-   "adjusted_score": 22.9,
+   "weather_factor": 1.096,
+   "adjusted_score": 22.4,
    "game_weather": {
     "venue_name": "UNIQLO Field at Dodger Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 94.0,
+    "wind_mph": 2.0,
+    "wind_dir": "varies",
+    "weather_condition": "Sunny"
    },
    "repeat": true
   },
@@ -357,37 +388,6 @@
    "adjusted_score": 20.9,
    "game_weather": {
     "venue_name": "American Family Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
-   "player_id": 621566,
-   "player_name": "Matt Olson",
-   "team": "ATL",
-   "expectancy_score": 20.4,
-   "streak": 0,
-   "frequency": 0.571,
-   "slopes": {
-    "max_ev": 0.661,
-    "parks_sum": 0.0,
-    "near_hr": -0.179
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 1,
-   "max_ev_7d": 108.0,
-   "max_distance_7d": 416,
-   "band": "<40",
-   "band_rate": 0.203,
-   "band_samples": 20645,
-   "weather_factor": 1.0,
-   "adjusted_score": 20.4,
-   "game_weather": {
-    "venue_name": "UNIQLO Field at Dodger Stadium",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
