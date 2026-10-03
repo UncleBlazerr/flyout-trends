@@ -2,9 +2,9 @@
  "player_id": 687957,
  "player_name": "Dustin Harris",
  "team": "SD",
- "as_of": "2026-10-03",
+ "as_of": "2026-10-02",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.143,
   "slopes": {
    "max_ev": 1.868,
@@ -12,7 +12,7 @@
    "near_hr": 0.214
   },
   "intensity": 0.383,
-  "expectancy_score": 15.8,
+  "expectancy_score": 23.8,
   "last_appearance": "2026-09-30"
  },
  "days": [

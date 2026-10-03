@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-03",
+ "as_of": "2026-10-02",
  "horizon_days": 3,
  "min_samples": 20,
  "players": [
@@ -54,6 +54,87 @@
    "repeat": true
   },
   {
+   "player_id": 828599,
+   "player_name": "Lucas Spence",
+   "team": "HOU",
+   "expectancy_score": 35.6,
+   "streak": 1,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": 4.954,
+    "parks_sum": -0.071,
+    "near_hr": 0.045
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 1,
+   "max_ev_7d": 106.4,
+   "max_distance_7d": 380,
+   "band": "<40",
+   "band_rate": 0.203,
+   "band_samples": 20645,
+   "weather_factor": 1.0,
+   "adjusted_score": 35.6,
+   "game_weather": null,
+   "repeat": true
+  },
+  {
+   "player_id": 808959,
+   "player_name": "Munetaka Murakami",
+   "team": "CWS",
+   "expectancy_score": 34.4,
+   "streak": 1,
+   "frequency": 0.857,
+   "slopes": {
+    "max_ev": -2.018,
+    "parks_sum": 0.214,
+    "near_hr": -0.161
+   },
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 106.0,
+   "max_distance_7d": 385,
+   "band": "<40",
+   "band_rate": 0.203,
+   "band_samples": 20645,
+   "weather_factor": 0.944,
+   "adjusted_score": 32.5,
+   "game_weather": {
+    "venue_name": "Progressive Field",
+    "temp_f": 56.0,
+    "wind_mph": 3.0,
+    "wind_dir": "varies",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 702332,
+   "player_name": "Caleb Durbin",
+   "team": "BOS",
+   "expectancy_score": 30.3,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": -0.868,
+    "parks_sum": 0.0,
+    "near_hr": 0.143
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 100.1,
+   "max_distance_7d": 365,
+   "band": "<40",
+   "band_rate": 0.203,
+   "band_samples": 20645,
+   "weather_factor": 1.0,
+   "adjusted_score": 30.3,
+   "game_weather": null,
+   "repeat": true
+  },
+  {
    "player_id": 607208,
    "player_name": "Trea Turner",
    "team": "PHI",
@@ -65,8 +146,8 @@
     "parks_sum": 0.0,
     "near_hr": 0.134
    },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 0,
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 1,
    "hr_7d": 0,
    "max_ev_7d": 107.3,
    "max_distance_7d": 368,
@@ -76,7 +157,69 @@
    "weather_factor": 1.0,
    "adjusted_score": 30.2,
    "game_weather": null,
-   "repeat": false
+   "repeat": true
+  },
+  {
+   "player_id": 669221,
+   "player_name": "Sean Murphy",
+   "team": "ATL",
+   "expectancy_score": 27.9,
+   "streak": 1,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": 2.596,
+    "parks_sum": 0.0,
+    "near_hr": 0.134
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 111.3,
+   "max_distance_7d": 312,
+   "band": "<40",
+   "band_rate": 0.203,
+   "band_samples": 20645,
+   "weather_factor": 1.0,
+   "adjusted_score": 27.9,
+   "game_weather": {
+    "venue_name": "UNIQLO Field at Dodger Stadium",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 806956,
+   "player_name": "Ethan Salas",
+   "team": "SD",
+   "expectancy_score": 26.9,
+   "streak": 1,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": 2.639,
+    "parks_sum": -0.071,
+    "near_hr": 0.036
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 108.3,
+   "max_distance_7d": 331,
+   "band": "<40",
+   "band_rate": 0.203,
+   "band_samples": 20645,
+   "weather_factor": 1.0,
+   "adjusted_score": 26.9,
+   "game_weather": {
+    "venue_name": "American Family Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
   },
   {
    "player_id": 656537,
@@ -101,7 +244,38 @@
    "weather_factor": 1.0,
    "adjusted_score": 24.9,
    "game_weather": null,
-   "repeat": false
+   "repeat": true
+  },
+  {
+   "player_id": 687957,
+   "player_name": "Dustin Harris",
+   "team": "SD",
+   "expectancy_score": 23.8,
+   "streak": 1,
+   "frequency": 0.143,
+   "slopes": {
+    "max_ev": 1.868,
+    "parks_sum": 0.0,
+    "near_hr": 0.214
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 102.2,
+   "max_distance_7d": 333,
+   "band": "<40",
+   "band_rate": 0.203,
+   "band_samples": 20645,
+   "weather_factor": 1.0,
+   "adjusted_score": 23.8,
+   "game_weather": {
+    "venue_name": "American Family Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
   },
   {
    "player_id": 660670,
@@ -115,7 +289,7 @@
     "parks_sum": -0.214,
     "near_hr": -0.179
    },
-   "near_hr_7d": 1,
+   "near_hr_7d": 2,
    "near_hr_xbh_7d": 0,
    "hr_7d": 0,
    "max_ev_7d": 106.0,
@@ -135,6 +309,62 @@
    "repeat": true
   },
   {
+   "player_id": 677800,
+   "player_name": "Wilyer Abreu",
+   "team": "BOS",
+   "expectancy_score": 20.9,
+   "streak": 1,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": -0.593,
+    "parks_sum": 0.0,
+    "near_hr": -0.027
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 95.2,
+   "max_distance_7d": 341,
+   "band": "<40",
+   "band_rate": 0.203,
+   "band_samples": 20645,
+   "weather_factor": 1.0,
+   "adjusted_score": 20.9,
+   "game_weather": null,
+   "repeat": true
+  },
+  {
+   "player_id": 665487,
+   "player_name": "Fernando Tatis Jr.",
+   "team": "SD",
+   "expectancy_score": 20.9,
+   "streak": 1,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": -0.371,
+    "parks_sum": 0.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
+   "max_ev_7d": 103.6,
+   "max_distance_7d": 405,
+   "band": "<40",
+   "band_rate": 0.203,
+   "band_samples": 20645,
+   "weather_factor": 1.0,
+   "adjusted_score": 20.9,
+   "game_weather": {
+    "venue_name": "American Family Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
+  },
+  {
    "player_id": 621566,
    "player_name": "Matt Olson",
    "team": "ATL",
@@ -146,7 +376,7 @@
     "parks_sum": 0.0,
     "near_hr": -0.179
    },
-   "near_hr_7d": 2,
+   "near_hr_7d": 3,
    "near_hr_xbh_7d": 0,
    "hr_7d": 1,
    "max_ev_7d": 108.0,
@@ -166,257 +396,27 @@
    "repeat": true
   },
   {
-   "player_id": 645277,
-   "player_name": "Ozzie Albies",
-   "team": "ATL",
-   "expectancy_score": 16.0,
-   "streak": 0,
-   "frequency": 0.143,
-   "slopes": {
-    "max_ev": 2.943,
-    "parks_sum": 0.393,
-    "near_hr": 0.045
-   },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 1,
-   "max_ev_7d": 106.0,
-   "max_distance_7d": 419,
-   "band": "<40",
-   "band_rate": 0.203,
-   "band_samples": 20645,
-   "weather_factor": 1.0,
-   "adjusted_score": 16.0,
-   "game_weather": {
-    "venue_name": "UNIQLO Field at Dodger Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 669016,
-   "player_name": "Brandon Marsh",
-   "team": "PHI",
-   "expectancy_score": 14.3,
-   "streak": 0,
-   "frequency": 0.143,
-   "slopes": {
-    "max_ev": 5.007,
-    "parks_sum": 0.0,
-    "near_hr": 0.0
-   },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 104.8,
-   "max_distance_7d": 359,
-   "band": "<40",
-   "band_rate": 0.203,
-   "band_samples": 20645,
-   "weather_factor": 1.0,
-   "adjusted_score": 14.3,
-   "game_weather": null,
-   "repeat": false
-  },
-  {
-   "player_id": 642086,
-   "player_name": "Dominic Smith",
-   "team": "ATL",
-   "expectancy_score": 14.3,
-   "streak": 0,
-   "frequency": 0.143,
-   "slopes": {
-    "max_ev": 3.404,
-    "parks_sum": -0.071,
-    "near_hr": -0.071
-   },
-   "near_hr_7d": 0,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 104.9,
-   "max_distance_7d": 298,
-   "band": "<40",
-   "band_rate": 0.203,
-   "band_samples": 20645,
-   "weather_factor": 1.0,
-   "adjusted_score": 14.3,
-   "game_weather": {
-    "venue_name": "UNIQLO Field at Dodger Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 671739,
-   "player_name": "Michael Harris II",
-   "team": "ATL",
-   "expectancy_score": 12.9,
-   "streak": 0,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": -1.918,
-    "parks_sum": -0.786,
-    "near_hr": -0.25
-   },
-   "near_hr_7d": 0,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 1,
-   "max_ev_7d": 100.5,
-   "max_distance_7d": 387,
-   "band": "<40",
-   "band_rate": 0.203,
-   "band_samples": 20645,
-   "weather_factor": 1.0,
-   "adjusted_score": 12.9,
-   "game_weather": {
-    "venue_name": "UNIQLO Field at Dodger Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 664761,
-   "player_name": "Alec Bohm",
-   "team": "PHI",
-   "expectancy_score": 12.0,
+   "player_id": 608348,
+   "player_name": "Carson Kelly",
+   "team": "CHC",
+   "expectancy_score": 19.9,
    "streak": 0,
    "frequency": 0.286,
    "slopes": {
-    "max_ev": 0.389,
-    "parks_sum": 0.107,
-    "near_hr": 0.116
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 1,
-   "max_ev_7d": 106.3,
-   "max_distance_7d": 400,
-   "band": "<40",
-   "band_rate": 0.203,
-   "band_samples": 20645,
-   "weather_factor": 1.0,
-   "adjusted_score": 12.0,
-   "game_weather": null,
-   "repeat": true
-  },
-  {
-   "player_id": 686948,
-   "player_name": "Drake Baldwin",
-   "team": "ATL",
-   "expectancy_score": 10.3,
-   "streak": 0,
-   "frequency": 0.286,
-   "slopes": {
-    "max_ev": 0.35,
-    "parks_sum": -0.929,
-    "near_hr": -0.321
-   },
-   "near_hr_7d": 0,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 104.8,
-   "max_distance_7d": 339,
-   "band": "<40",
-   "band_rate": 0.203,
-   "band_samples": 20645,
-   "weather_factor": 1.0,
-   "adjusted_score": 10.3,
-   "game_weather": {
-    "venue_name": "UNIQLO Field at Dodger Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 547180,
-   "player_name": "Bryce Harper",
-   "team": "PHI",
-   "expectancy_score": 10.0,
-   "streak": 0,
-   "frequency": 0.0,
-   "slopes": {
-    "max_ev": 3.336,
-    "parks_sum": 0.0,
-    "near_hr": 0.0
-   },
-   "near_hr_7d": 0,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 2,
-   "max_ev_7d": 111.6,
-   "max_distance_7d": 418,
-   "band": "<40",
-   "band_rate": 0.203,
-   "band_samples": 20645,
-   "weather_factor": 1.0,
-   "adjusted_score": 10.0,
-   "game_weather": null,
-   "repeat": false
-  },
-  {
-   "player_id": 573262,
-   "player_name": "Mike Yastrzemski",
-   "team": "ATL",
-   "expectancy_score": 8.6,
-   "streak": 0,
-   "frequency": 0.286,
-   "slopes": {
-    "max_ev": -1.793,
-    "parks_sum": 0.0,
-    "near_hr": -0.107
+    "max_ev": 2.771,
+    "parks_sum": 0.071,
+    "near_hr": 0.107
    },
    "near_hr_7d": 1,
    "near_hr_xbh_7d": 0,
    "hr_7d": 0,
-   "max_ev_7d": 99.9,
-   "max_distance_7d": 384,
+   "max_ev_7d": 108.6,
+   "max_distance_7d": 353,
    "band": "<40",
    "band_rate": 0.203,
    "band_samples": 20645,
    "weather_factor": 1.0,
-   "adjusted_score": 8.6,
-   "game_weather": {
-    "venue_name": "UNIQLO Field at Dodger Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
-   "player_id": 656941,
-   "player_name": "Kyle Schwarber",
-   "team": "PHI",
-   "expectancy_score": 6.5,
-   "streak": 0,
-   "frequency": 0.143,
-   "slopes": {
-    "max_ev": 0.443,
-    "parks_sum": 0.0,
-    "near_hr": 0.0
-   },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 1,
-   "max_ev_7d": 116.8,
-   "max_distance_7d": 447,
-   "band": "<40",
-   "band_rate": 0.203,
-   "band_samples": 20645,
-   "weather_factor": 1.0,
-   "adjusted_score": 6.5,
+   "adjusted_score": 19.9,
    "game_weather": null,
    "repeat": false
   }

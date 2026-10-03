@@ -2,9 +2,9 @@
  "player_id": 828599,
  "player_name": "Lucas Spence",
  "team": "HOU",
- "as_of": "2026-10-03",
+ "as_of": "2026-10-02",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.571,
   "slopes": {
    "max_ev": 4.954,
@@ -12,7 +12,7 @@
    "near_hr": 0.045
   },
   "intensity": 0.348,
-  "expectancy_score": 27.6,
+  "expectancy_score": 35.6,
   "last_appearance": "2026-09-30"
  },
  "days": [

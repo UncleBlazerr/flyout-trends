@@ -2,9 +2,9 @@
  "player_id": 671277,
  "player_name": "Luis Garc\u00eda Jr.",
  "team": "NYY",
- "as_of": "2026-10-03",
+ "as_of": "2026-10-02",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.143,
   "slopes": {
    "max_ev": 1.296,
@@ -12,7 +12,7 @@
    "near_hr": 0.107
   },
   "intensity": 0.252,
-  "expectancy_score": 11.8,
+  "expectancy_score": 19.8,
   "last_appearance": "2026-09-30"
  },
  "days": [
