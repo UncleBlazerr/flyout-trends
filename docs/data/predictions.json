@@ -102,10 +102,10 @@
    "adjusted_score": 32.6,
    "game_weather": {
     "venue_name": "American Family Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 68.0,
+    "wind_mph": 11.0,
+    "wind_dir": "out",
+    "weather_condition": "Roof Closed"
    },
    "repeat": false
   },
@@ -345,10 +345,10 @@
    "adjusted_score": 22.9,
    "game_weather": {
     "venue_name": "American Family Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 68.0,
+    "wind_mph": 11.0,
+    "wind_dir": "out",
+    "weather_condition": "Roof Closed"
    },
    "repeat": false
   },
