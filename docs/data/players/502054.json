@@ -2,20 +2,38 @@
  "player_id": 502054,
  "player_name": "Tommy Pham",
  "team": "CWS",
- "as_of": "2026-10-04",
+ "as_of": "2026-10-03",
  "form": {
-  "streak": 0,
-  "frequency": 0.0,
+  "streak": 1,
+  "frequency": 0.143,
   "slopes": {
-   "max_ev": -3.403,
-   "parks_sum": 0.0,
-   "near_hr": 0.0
+   "max_ev": -1.368,
+   "parks_sum": 0.214,
+   "near_hr": 0.107
   },
-  "intensity": 0.0,
-  "expectancy_score": 0.0,
-  "last_appearance": "2026-09-27"
+  "intensity": 0.059,
+  "expectancy_score": 14.1,
+  "last_appearance": "2026-10-03"
  },
  "days": [
+  {
+   "date": "2026-10-03",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 2,
+   "max_ev": 106.1,
+   "max_distance": 366.0,
+   "max_barrel_score": 82.7,
+   "temp_f": 63.0,
+   "wind_mph": 9.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
+  },
   {
    "date": "2026-09-27",
    "bbe": 4,
@@ -126,6 +144,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 849829,
+   "date": "2026-10-03",
+   "player_id": 502054,
+   "player_name": "Tommy Pham",
+   "team": "CWS",
+   "opponent": "CLE",
+   "result": "Double Play",
+   "exit_velocity": 106.1,
+   "launch_angle": 31.0,
+   "hit_distance": 366.0,
+   "hc_x": 64.47,
+   "hc_y": 64.69,
+   "would_be_hr_count": 2,
+   "inning": 6,
+   "play_id": "236a5ee7-1c76-30e2-81fb-c3c9d7b68270",
+   "venue_id": 5,
+   "venue_name": "Progressive Field",
+   "temp_f": 63.0,
+   "wind_mph": 9.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 82.7,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
+  },
   {
    "game_pk": 824542,
    "date": "2026-09-27",

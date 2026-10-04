@@ -1,4 +1,155 @@
 {
- "as_of": "2026-10-04",
- "players": []
+ "as_of": "2026-10-03",
+ "players": [
+  {
+   "player_id": 808959,
+   "player_name": "Munetaka Murakami",
+   "team": "CWS",
+   "record_streak": 4,
+   "total_flags": 16,
+   "avg_score": 46.2,
+   "current_score": 41.7,
+   "game_streak": 2
+  },
+  {
+   "player_id": 592663,
+   "player_name": "J.T. Realmuto",
+   "team": "PHI",
+   "record_streak": 4,
+   "total_flags": 7,
+   "avg_score": 35.9,
+   "current_score": 38.6,
+   "game_streak": 2
+  },
+  {
+   "player_id": 650559,
+   "player_name": "Bryan De La Cruz",
+   "team": "PHI",
+   "record_streak": 4,
+   "total_flags": 4,
+   "avg_score": 44.7,
+   "current_score": 49.6,
+   "game_streak": 3
+  },
+  {
+   "player_id": 607208,
+   "player_name": "Trea Turner",
+   "team": "PHI",
+   "record_streak": 3,
+   "total_flags": 10,
+   "avg_score": 36.4,
+   "current_score": 30.2,
+   "game_streak": 2
+  },
+  {
+   "player_id": 656537,
+   "player_name": "Derek Hill",
+   "team": "PHI",
+   "record_streak": 3,
+   "total_flags": 3,
+   "avg_score": 24.9,
+   "current_score": 24.9,
+   "game_streak": 1
+  },
+  {
+   "player_id": 666018,
+   "player_name": "Jonathan Aranda",
+   "team": "TB",
+   "record_streak": 1,
+   "total_flags": 9,
+   "avg_score": 42.7,
+   "current_score": 23.1,
+   "game_streak": 1
+  },
+  {
+   "player_id": 571970,
+   "player_name": "Max Muncy",
+   "team": "LAD",
+   "record_streak": 1,
+   "total_flags": 7,
+   "avg_score": 40.1,
+   "current_score": 23.7,
+   "game_streak": 0
+  },
+  {
+   "player_id": 641343,
+   "player_name": "Jake Bauers",
+   "team": "MIL",
+   "record_streak": 1,
+   "total_flags": 5,
+   "avg_score": 37.7,
+   "current_score": 22.9,
+   "game_streak": 0
+  },
+  {
+   "player_id": 592518,
+   "player_name": "Manny Machado",
+   "team": "SD",
+   "record_streak": 1,
+   "total_flags": 4,
+   "avg_score": 38.8,
+   "current_score": 32.6,
+   "game_streak": 1
+  },
+  {
+   "player_id": 686668,
+   "player_name": "Brenton Doyle",
+   "team": "CWS",
+   "record_streak": 1,
+   "total_flags": 3,
+   "avg_score": 32.6,
+   "current_score": 21.3,
+   "game_streak": 1
+  },
+  {
+   "player_id": 695731,
+   "player_name": "Braden Montgomery",
+   "team": "CWS",
+   "record_streak": 1,
+   "total_flags": 3,
+   "avg_score": 31.0,
+   "current_score": 20.9,
+   "game_streak": 1
+  },
+  {
+   "player_id": 681624,
+   "player_name": "Andy Pages",
+   "team": "LAD",
+   "record_streak": 1,
+   "total_flags": 2,
+   "avg_score": 34.0,
+   "current_score": 25.8,
+   "game_streak": 1
+  },
+  {
+   "player_id": 689414,
+   "player_name": "Liam Hicks",
+   "team": "TB",
+   "record_streak": 1,
+   "total_flags": 2,
+   "avg_score": 31.7,
+   "current_score": 29.7,
+   "game_streak": 1
+  },
+  {
+   "player_id": 680700,
+   "player_name": "Richie Palacios",
+   "team": "TB",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 29.7,
+   "current_score": 29.7,
+   "game_streak": 1
+  },
+  {
+   "player_id": 806146,
+   "player_name": "George Lombard Jr.",
+   "team": "NYY",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 23.3,
+   "current_score": 23.3,
+   "game_streak": 1
+  }
+ ]
 }
