@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-10-05T19:02:43.135291+00:00",
+ "generated_at": "2026-10-05T22:27:40.746933+00:00",
  "as_of": "2026-10-04",
  "config": {
   "min_near_hr_events": 1,
@@ -75,14 +75,14 @@
    "band": "40-60",
    "band_rate": 0.256,
    "band_samples": 511,
-   "weather_factor": 0.852,
-   "adjusted_score": 35.5,
+   "weather_factor": 0.864,
+   "adjusted_score": 36.0,
    "game_weather": {
     "venue_name": "Progressive Field",
-    "temp_f": 62.0,
-    "wind_mph": 15.0,
+    "temp_f": 61.0,
+    "wind_mph": 13.0,
     "wind_dir": "in",
-    "weather_condition": "Partly Cloudy"
+    "weather_condition": "Clear"
    },
    "repeat": true
   },
@@ -135,10 +135,10 @@
    "adjusted_score": 29.7,
    "game_weather": {
     "venue_name": "Tropicana Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Dome"
    },
    "repeat": true
   },
@@ -166,10 +166,10 @@
    "adjusted_score": 29.7,
    "game_weather": {
     "venue_name": "Tropicana Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Dome"
    },
    "repeat": true
   },
@@ -247,10 +247,10 @@
    "adjusted_score": 23.3,
    "game_weather": {
     "venue_name": "Tropicana Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Dome"
    },
    "repeat": true
   },
@@ -278,10 +278,10 @@
    "adjusted_score": 23.1,
    "game_weather": {
     "venue_name": "Tropicana Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Dome"
    },
    "repeat": true
   },
