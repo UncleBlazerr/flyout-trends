@@ -2,20 +2,38 @@
  "player_id": 657757,
  "player_name": "Gavin Sheets",
  "team": "SD",
- "as_of": "2026-10-05",
+ "as_of": "2026-10-04",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 9.05,
+   "max_ev": -1.73,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.333,
-  "expectancy_score": 10.0,
-  "last_appearance": "2026-09-30"
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
+  "last_appearance": "2026-10-04"
  },
  "days": [
+  {
+   "date": "2026-10-04",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 83.1,
+   "max_distance": 53.0,
+   "max_barrel_score": 15.2,
+   "temp_f": 68.0,
+   "wind_mph": 11.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny"
+  },
   {
    "date": "2026-09-30",
    "bbe": 1,
@@ -72,6 +90,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 849825,
+   "date": "2026-10-04",
+   "player_id": 657757,
+   "player_name": "Gavin Sheets",
+   "team": "SD",
+   "opponent": "MIL",
+   "result": "Pop Out",
+   "exit_velocity": 83.1,
+   "launch_angle": 87.0,
+   "hit_distance": 53.0,
+   "hc_x": 119.75,
+   "hc_y": 225.61,
+   "would_be_hr_count": 0,
+   "inning": 4,
+   "play_id": "73f91962-da05-3120-8ad2-b7c7be8ec3bd",
+   "venue_id": 32,
+   "venue_name": "American Family Field",
+   "temp_f": 68.0,
+   "wind_mph": 11.0,
+   "wind_dir": "out",
+   "weather_condition": "Sunny",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 15.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 849842,
    "date": "2026-09-30",

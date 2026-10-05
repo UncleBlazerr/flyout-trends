@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-05",
+ "as_of": "2026-10-04",
  "horizon_days": 3,
  "min_samples": 20,
  "players": [
@@ -21,42 +21,42 @@
    "max_ev_7d": 112.2,
    "max_distance_7d": 440,
    "band": "40-60",
-   "band_rate": 0.257,
-   "band_samples": 510,
-   "weather_factor": 1.0,
-   "adjusted_score": 41.7,
-   "game_weather": null,
-   "repeat": false
+   "band_rate": 0.256,
+   "band_samples": 511,
+   "weather_factor": 0.852,
+   "adjusted_score": 35.5,
+   "game_weather": {
+    "venue_name": "Progressive Field",
+    "temp_f": 62.0,
+    "wind_mph": 15.0,
+    "wind_dir": "in",
+    "weather_condition": "Partly Cloudy"
+   },
+   "repeat": true
   },
   {
-   "player_id": 592518,
-   "player_name": "Manny Machado",
-   "team": "SD",
-   "expectancy_score": 32.6,
+   "player_id": 660670,
+   "player_name": "Ronald Acu\u00f1a Jr.",
+   "team": "ATL",
+   "expectancy_score": 30.9,
    "streak": 1,
    "frequency": 0.429,
    "slopes": {
-    "max_ev": 2.107,
-    "parks_sum": 0.214,
-    "near_hr": 0.107
+    "max_ev": 2.561,
+    "parks_sum": 0.0,
+    "near_hr": -0.0
    },
    "near_hr_7d": 2,
-   "near_hr_xbh_7d": 2,
-   "hr_7d": 1,
-   "max_ev_7d": 108.0,
-   "max_distance_7d": 399,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 108.1,
+   "max_distance_7d": 369,
    "band": "<40",
    "band_rate": 0.203,
-   "band_samples": 20801,
+   "band_samples": 20820,
    "weather_factor": 1.0,
-   "adjusted_score": 32.6,
-   "game_weather": {
-    "venue_name": "Petco Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
+   "adjusted_score": 30.9,
+   "game_weather": null,
    "repeat": false
   },
   {
@@ -78,11 +78,17 @@
    "max_distance_7d": 385,
    "band": "<40",
    "band_rate": 0.203,
-   "band_samples": 20801,
+   "band_samples": 20820,
    "weather_factor": 1.0,
    "adjusted_score": 29.7,
-   "game_weather": null,
-   "repeat": false
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
   },
   {
    "player_id": 689414,
@@ -103,72 +109,66 @@
    "max_distance_7d": 383,
    "band": "<40",
    "band_rate": 0.203,
-   "band_samples": 20801,
+   "band_samples": 20820,
    "weather_factor": 1.0,
    "adjusted_score": 29.7,
-   "game_weather": null,
-   "repeat": false
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
   },
   {
-   "player_id": 681624,
-   "player_name": "Andy Pages",
-   "team": "LAD",
-   "expectancy_score": 25.8,
+   "player_id": 592885,
+   "player_name": "Christian Yelich",
+   "team": "MIL",
+   "expectancy_score": 28.0,
    "streak": 1,
    "frequency": 0.286,
    "slopes": {
-    "max_ev": 1.707,
-    "parks_sum": 0.0,
-    "near_hr": 0.071
+    "max_ev": 2.35,
+    "parks_sum": 0.107,
+    "near_hr": 0.107
    },
    "near_hr_7d": 1,
    "near_hr_xbh_7d": 0,
    "hr_7d": 0,
-   "max_ev_7d": 96.5,
-   "max_distance_7d": 351,
+   "max_ev_7d": 105.6,
+   "max_distance_7d": 381,
    "band": "<40",
    "band_rate": 0.203,
-   "band_samples": 20801,
+   "band_samples": 20820,
    "weather_factor": 1.0,
-   "adjusted_score": 25.8,
-   "game_weather": {
-    "venue_name": "Truist Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
+   "adjusted_score": 28.0,
+   "game_weather": null,
    "repeat": false
   },
   {
-   "player_id": 571970,
-   "player_name": "Max Muncy",
-   "team": "LAD",
-   "expectancy_score": 23.7,
-   "streak": 0,
-   "frequency": 0.286,
+   "player_id": 665487,
+   "player_name": "Fernando Tatis Jr.",
+   "team": "SD",
+   "expectancy_score": 25.0,
+   "streak": 1,
+   "frequency": 0.429,
    "slopes": {
-    "max_ev": 1.936,
-    "parks_sum": 1.643,
-    "near_hr": 0.0
+    "max_ev": -1.039,
+    "parks_sum": 1.071,
+    "near_hr": 0.054
    },
-   "near_hr_7d": 0,
+   "near_hr_7d": 2,
    "near_hr_xbh_7d": 0,
    "hr_7d": 1,
-   "max_ev_7d": 105.5,
-   "max_distance_7d": 354,
+   "max_ev_7d": 103.6,
+   "max_distance_7d": 405,
    "band": "<40",
    "band_rate": 0.203,
-   "band_samples": 20801,
+   "band_samples": 20820,
    "weather_factor": 1.0,
-   "adjusted_score": 23.7,
-   "game_weather": {
-    "venue_name": "Truist Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
+   "adjusted_score": 25.0,
+   "game_weather": null,
    "repeat": false
   },
   {
@@ -190,11 +190,17 @@
    "max_distance_7d": 392,
    "band": "<40",
    "band_rate": 0.203,
-   "band_samples": 20801,
+   "band_samples": 20820,
    "weather_factor": 1.0,
    "adjusted_score": 23.3,
-   "game_weather": null,
-   "repeat": false
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
   },
   {
    "player_id": 666018,
@@ -215,11 +221,17 @@
    "max_distance_7d": 417,
    "band": "<40",
    "band_rate": 0.203,
-   "band_samples": 20801,
+   "band_samples": 20820,
    "weather_factor": 1.0,
    "adjusted_score": 23.1,
-   "game_weather": null,
-   "repeat": false
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
   },
   {
    "player_id": 641343,
@@ -229,139 +241,121 @@
    "streak": 0,
    "frequency": 0.429,
    "slopes": {
-    "max_ev": 3.921,
-    "parks_sum": -0.036,
-    "near_hr": -0.045
+    "max_ev": 2.314,
+    "parks_sum": -0.071,
+    "near_hr": -0.161
    },
    "near_hr_7d": 0,
    "near_hr_xbh_7d": 0,
    "hr_7d": 0,
    "max_ev_7d": 108.7,
-   "max_distance_7d": 259,
+   "max_distance_7d": 344,
    "band": "<40",
    "band_rate": 0.203,
-   "band_samples": 20801,
+   "band_samples": 20820,
    "weather_factor": 1.0,
    "adjusted_score": 22.9,
-   "game_weather": {
-    "venue_name": "Petco Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
+   "game_weather": null,
+   "repeat": true
   },
   {
-   "player_id": 686668,
-   "player_name": "Brenton Doyle",
-   "team": "CWS",
-   "expectancy_score": 21.3,
+   "player_id": 518692,
+   "player_name": "Freddie Freeman",
+   "team": "LAD",
+   "expectancy_score": 22.7,
    "streak": 1,
-   "frequency": 0.429,
+   "frequency": 0.286,
    "slopes": {
-    "max_ev": -0.118,
+    "max_ev": 1.129,
     "parks_sum": 0.036,
     "near_hr": 0.036
    },
    "near_hr_7d": 1,
    "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 106.9,
-   "max_distance_7d": 333,
+   "hr_7d": 1,
+   "max_ev_7d": 103.2,
+   "max_distance_7d": 375,
    "band": "<40",
    "band_rate": 0.203,
-   "band_samples": 20801,
+   "band_samples": 20820,
    "weather_factor": 1.0,
-   "adjusted_score": 21.3,
+   "adjusted_score": 22.7,
    "game_weather": null,
    "repeat": false
   },
   {
-   "player_id": 695731,
-   "player_name": "Braden Montgomery",
-   "team": "CWS",
-   "expectancy_score": 20.9,
-   "streak": 1,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": -1.168,
-    "parks_sum": 0.0,
-    "near_hr": -0.062
-   },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 100.4,
-   "max_distance_7d": 368,
-   "band": "<40",
-   "band_rate": 0.203,
-   "band_samples": 20801,
-   "weather_factor": 1.0,
-   "adjusted_score": 20.9,
-   "game_weather": null,
-   "repeat": false
-  },
-  {
-   "player_id": 660670,
-   "player_name": "Ronald Acu\u00f1a Jr.",
-   "team": "ATL",
-   "expectancy_score": 20.5,
+   "player_id": 592518,
+   "player_name": "Manny Machado",
+   "team": "SD",
+   "expectancy_score": 21.3,
    "streak": 0,
    "frequency": 0.429,
    "slopes": {
-    "max_ev": 1.529,
-    "parks_sum": -0.321,
-    "near_hr": -0.357
+    "max_ev": 1.693,
+    "parks_sum": -0.107,
+    "near_hr": -0.018
    },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 108.1,
-   "max_distance_7d": 369,
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 1,
+   "max_ev_7d": 108.0,
+   "max_distance_7d": 399,
    "band": "<40",
    "band_rate": 0.203,
-   "band_samples": 20801,
+   "band_samples": 20820,
    "weather_factor": 1.0,
-   "adjusted_score": 20.5,
-   "game_weather": {
-    "venue_name": "Truist Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
+   "adjusted_score": 21.3,
+   "game_weather": null,
+   "repeat": true
   },
   {
-   "player_id": 701538,
-   "player_name": "Jackson Merrill",
-   "team": "SD",
-   "expectancy_score": 19.2,
-   "streak": 1,
+   "player_id": 571970,
+   "player_name": "Max Muncy",
+   "team": "LAD",
+   "expectancy_score": 21.3,
+   "streak": 0,
    "frequency": 0.286,
    "slopes": {
-    "max_ev": 0.482,
-    "parks_sum": -0.357,
-    "near_hr": 0.018
+    "max_ev": 2.257,
+    "parks_sum": 0.821,
+    "near_hr": -0.071
    },
-   "near_hr_7d": 1,
+   "near_hr_7d": 0,
    "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 109.4,
-   "max_distance_7d": 332,
+   "hr_7d": 2,
+   "max_ev_7d": 108.8,
+   "max_distance_7d": 397,
    "band": "<40",
    "band_rate": 0.203,
-   "band_samples": 20801,
+   "band_samples": 20820,
    "weather_factor": 1.0,
-   "adjusted_score": 19.2,
-   "game_weather": {
-    "venue_name": "Petco Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+   "adjusted_score": 21.3,
+   "game_weather": null,
+   "repeat": true
+  },
+  {
+   "player_id": 666152,
+   "player_name": "David Hamilton",
+   "team": "MIL",
+   "expectancy_score": 19.9,
+   "streak": 0,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": 3.071,
+    "parks_sum": 0.036,
+    "near_hr": 0.116
    },
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 85.6,
+   "max_distance_7d": 188,
+   "band": "<40",
+   "band_rate": 0.203,
+   "band_samples": 20820,
+   "weather_factor": 1.0,
+   "adjusted_score": 19.9,
+   "game_weather": null,
    "repeat": false
   },
   {
@@ -383,60 +377,48 @@
    "max_distance_7d": 421,
    "band": "<40",
    "band_rate": 0.203,
-   "band_samples": 20801,
+   "band_samples": 20820,
    "weather_factor": 1.0,
    "adjusted_score": 19.1,
-   "game_weather": {
-    "venue_name": "Truist Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
+   "game_weather": null,
    "repeat": false
   },
   {
-   "player_id": 694192,
-   "player_name": "Jackson Chourio",
-   "team": "MIL",
+   "player_id": 664034,
+   "player_name": "Ty France",
+   "team": "SD",
    "expectancy_score": 18.8,
    "streak": 0,
    "frequency": 0.286,
    "slopes": {
-    "max_ev": 5.071,
+    "max_ev": 1.996,
     "parks_sum": 0.071,
-    "near_hr": -0.036
+    "near_hr": -0.107
    },
-   "near_hr_7d": 0,
+   "near_hr_7d": 1,
    "near_hr_xbh_7d": 0,
-   "hr_7d": 1,
-   "max_ev_7d": 113.3,
-   "max_distance_7d": 420,
+   "hr_7d": 0,
+   "max_ev_7d": 107.5,
+   "max_distance_7d": 348,
    "band": "<40",
    "band_rate": 0.203,
-   "band_samples": 20801,
+   "band_samples": 20820,
    "weather_factor": 1.0,
    "adjusted_score": 18.8,
-   "game_weather": {
-    "venue_name": "Petco Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
+   "game_weather": null,
    "repeat": false
   }
  ],
  "bands": {
   "<40": {
-   "samples": 20801,
-   "hr_followed": 4219,
+   "samples": 20820,
+   "hr_followed": 4220,
    "rate": 0.203
   },
   "40-60": {
-   "samples": 510,
+   "samples": 511,
    "hr_followed": 131,
-   "rate": 0.257
+   "rate": 0.256
   },
   "60-80": {
    "samples": 62,
@@ -450,12 +432,12 @@
   }
  },
  "hit_rate": {
-  "resolved_records": 88,
+  "resolved_records": 89,
   "horizon_days": 3,
   "overall": {
-   "flagged": 1320,
-   "hr_followed": 289,
-   "rate": 0.219
+   "flagged": 1335,
+   "hr_followed": 291,
+   "rate": 0.218
   },
   "top_band": {
    "band": "80+",
@@ -465,6 +447,15 @@
   }
  },
  "recent_hits": [
+  {
+   "player_id": 571970,
+   "player_name": "Max Muncy",
+   "team": "LAD",
+   "flagged_on": "2026-10-03",
+   "flagged_score": 23.7,
+   "hr_on": "2026-10-04",
+   "hr_count": 1
+  },
   {
    "player_id": 808959,
    "player_name": "Munetaka Murakami",

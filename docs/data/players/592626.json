@@ -2,17 +2,17 @@
  "player_id": 592626,
  "player_name": "Joc Pederson",
  "team": "TEX",
- "as_of": "2026-10-05",
+ "as_of": "2026-10-04",
  "form": {
   "streak": 0,
-  "frequency": 0.2,
+  "frequency": 0.167,
   "slopes": {
-   "max_ev": 4.72,
+   "max_ev": 0.437,
    "parks_sum": 0.0,
-   "near_hr": 0.1
+   "near_hr": 0.086
   },
-  "intensity": 0.367,
-  "expectancy_score": 17.0,
+  "intensity": 0.101,
+  "expectancy_score": 8.0,
   "last_appearance": "2026-09-12"
  },
  "days": [
@@ -105,6 +105,24 @@
    "wind_mph": 10.0,
    "wind_dir": "cross",
    "weather_condition": "Clear"
+  },
+  {
+   "date": "2026-09-05",
+   "bbe": 1,
+   "hr": 1,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 106.3,
+   "max_distance": 409.0,
+   "max_barrel_score": 85.7,
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed"
   }
  ],
  "events": [
@@ -425,6 +443,35 @@
    "barrel_score": 9.2,
    "barrel_flag": false,
    "is_home_run": false,
+   "is_near_hr": false
+  },
+  {
+   "game_pk": 822850,
+   "date": "2026-09-05",
+   "player_id": 592626,
+   "player_name": "Joc Pederson",
+   "team": "TEX",
+   "opponent": "TB",
+   "result": "Home Run",
+   "exit_velocity": 106.3,
+   "launch_angle": 31.0,
+   "hit_distance": 409.0,
+   "hc_x": 244.94,
+   "hc_y": 81.61,
+   "would_be_hr_count": 30,
+   "inning": 6,
+   "play_id": "01c0283a-d4bd-3cdb-a791-1d8eed4a78b3",
+   "venue_id": 5325,
+   "venue_name": "Globe Life Field",
+   "temp_f": 74.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Roof Closed",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 85.7,
+   "barrel_flag": false,
+   "is_home_run": true,
    "is_near_hr": false
   }
  ]
