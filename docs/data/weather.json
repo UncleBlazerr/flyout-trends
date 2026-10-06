@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-06",
+ "as_of": "2026-10-05",
  "horizon_days": 3,
  "temp_bands": [
   55,
@@ -24,13 +24,13 @@
   {
    "temp_band": "55-70",
    "wind": "in",
-   "player_days": 735,
+   "player_days": 754,
    "hr_days": 63,
    "hr_total": 71,
-   "near_hr_days": 152,
+   "near_hr_days": 156,
    "follow_samples": 152,
    "hr_followed": 32,
-   "hr_rate": 0.086,
+   "hr_rate": 0.084,
    "near_hr_rate": 0.207,
    "follow_rate": 0.211
   },
@@ -127,10 +127,10 @@
   }
  ],
  "dome": {
-  "player_days": 4105,
-  "hr_days": 460,
-  "hr_total": 477,
-  "near_hr_days": 861,
+  "player_days": 4124,
+  "hr_days": 461,
+  "hr_total": 479,
+  "near_hr_days": 868,
   "follow_samples": 855,
   "hr_followed": 209,
   "hr_rate": 0.112,

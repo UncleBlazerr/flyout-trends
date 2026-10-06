@@ -2,20 +2,38 @@
  "player_id": 502671,
  "player_name": "Paul Goldschmidt",
  "team": "NYY",
- "as_of": "2026-10-06",
+ "as_of": "2026-10-05",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": -1.425,
+   "max_ev": -0.907,
    "parks_sum": 0.0,
-   "near_hr": 0.036
+   "near_hr": 0.0
   },
-  "intensity": 0.012,
-  "expectancy_score": 4.6,
-  "last_appearance": "2026-09-30"
+  "intensity": 0.0,
+  "expectancy_score": 4.3,
+  "last_appearance": "2026-10-05"
  },
  "days": [
+  {
+   "date": "2026-10-05",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 90.0,
+   "max_distance": 183.0,
+   "max_barrel_score": 30.0,
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Dome"
+  },
   {
    "date": "2026-09-30",
    "bbe": 1,
@@ -162,6 +180,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 849839,
+   "date": "2026-10-05",
+   "player_id": 502671,
+   "player_name": "Paul Goldschmidt",
+   "team": "NYY",
+   "opponent": "TB",
+   "result": "Pop Out",
+   "exit_velocity": 90.0,
+   "launch_angle": 61.0,
+   "hit_distance": 183.0,
+   "hc_x": 156.17,
+   "hc_y": 132.6,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "5eccb1b1-1808-3165-af21-faaaed7f161f",
+   "venue_id": 12,
+   "venue_name": "Tropicana Field",
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Dome",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 30.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 849848,
    "date": "2026-09-30",

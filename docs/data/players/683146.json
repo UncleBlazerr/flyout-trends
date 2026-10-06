@@ -2,7 +2,7 @@
  "player_id": 683146,
  "player_name": "Brett Baty",
  "team": "NYM",
- "as_of": "2026-10-06",
+ "as_of": "2026-10-05",
  "form": {
   "streak": 0,
   "frequency": 0.286,
@@ -303,6 +303,24 @@
    "wind_mph": 0.0,
    "wind_dir": "none",
    "weather_condition": "Roof Closed"
+  },
+  {
+   "date": "2026-09-06",
+   "bbe": 1,
+   "hr": 1,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 104.5,
+   "max_distance": 360.0,
+   "max_barrel_score": 75.4,
+   "temp_f": 74.0,
+   "wind_mph": 8.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -1319,6 +1337,35 @@
    "barrel_score": 34.1,
    "barrel_flag": false,
    "is_home_run": false,
+   "is_near_hr": false
+  },
+  {
+   "game_pk": 823578,
+   "date": "2026-09-06",
+   "player_id": 683146,
+   "player_name": "Brett Baty",
+   "team": "NYM",
+   "opponent": "SF",
+   "result": "Home Run",
+   "exit_velocity": 104.5,
+   "launch_angle": 36.0,
+   "hit_distance": 360.0,
+   "hc_x": 50.56,
+   "hc_y": 74.62,
+   "would_be_hr_count": 10,
+   "inning": 8,
+   "play_id": "48b11089-959c-35ba-8e23-d2d8030648b5",
+   "venue_id": 3289,
+   "venue_name": "Citi Field",
+   "temp_f": 74.0,
+   "wind_mph": 8.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 75.4,
+   "barrel_flag": false,
+   "is_home_run": true,
    "is_near_hr": false
   }
  ]

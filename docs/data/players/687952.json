@@ -2,7 +2,7 @@
  "player_id": 687952,
  "player_name": "Christian Encarnacion-Strand",
  "team": "BAL",
- "as_of": "2026-10-06",
+ "as_of": "2026-10-05",
  "form": {
   "streak": 0,
   "frequency": 0.0,
@@ -247,6 +247,24 @@
    "max_barrel_score": 79.0,
    "temp_f": 78.0,
    "wind_mph": 7.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy"
+  },
+  {
+   "date": "2026-09-06",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 1,
+   "near_hr_xbh": 1,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 1,
+   "would_be_hr_parks_sum": 4,
+   "max_ev": 104.4,
+   "max_distance": 346.0,
+   "max_barrel_score": 82.0,
+   "temp_f": 78.0,
+   "wind_mph": 4.0,
    "wind_dir": "in",
    "weather_condition": "Partly Cloudy"
   }
@@ -1440,6 +1458,35 @@
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
+  },
+  {
+   "game_pk": 824794,
+   "date": "2026-09-06",
+   "player_id": 687952,
+   "player_name": "Christian Encarnacion-Strand",
+   "team": "BAL",
+   "opponent": "BOS",
+   "result": "Double",
+   "exit_velocity": 104.4,
+   "launch_angle": 26.0,
+   "hit_distance": 346.0,
+   "hc_x": 30.35,
+   "hc_y": 96.34,
+   "would_be_hr_count": 4,
+   "inning": 1,
+   "play_id": "97d45156-bfe8-33ad-bf79-720e7c05e957",
+   "venue_id": 2,
+   "venue_name": "Oriole Park at Camden Yards",
+   "temp_f": 78.0,
+   "wind_mph": 4.0,
+   "wind_dir": "in",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 82.0,
+   "barrel_flag": true,
+   "is_home_run": false,
+   "is_near_hr": true
   }
  ]
 }
