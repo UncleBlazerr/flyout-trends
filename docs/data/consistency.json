@@ -2,16 +2,6 @@
  "as_of": "2026-10-05",
  "players": [
   {
-   "player_id": 808959,
-   "player_name": "Munetaka Murakami",
-   "team": "CWS",
-   "record_streak": 6,
-   "total_flags": 18,
-   "avg_score": 44.6,
-   "current_score": 21.8,
-   "game_streak": 0
-  },
-  {
    "player_id": 666018,
    "player_name": "Jonathan Aranda",
    "team": "TB",
@@ -20,6 +10,16 @@
    "avg_score": 40.7,
    "current_score": 40.6,
    "game_streak": 2
+  },
+  {
+   "player_id": 571970,
+   "player_name": "Max Muncy",
+   "team": "LAD",
+   "record_streak": 3,
+   "total_flags": 9,
+   "avg_score": 35.9,
+   "current_score": 21.3,
+   "game_streak": 0
   },
   {
    "player_id": 641343,

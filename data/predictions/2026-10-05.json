@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-10-06T16:29:05.981007+00:00",
+ "generated_at": "2026-10-06T20:52:35.669395+00:00",
  "as_of": "2026-10-05",
  "config": {
   "min_near_hr_events": 1,
@@ -125,14 +125,14 @@
    "band": "<40",
    "band_rate": 0.203,
    "band_samples": 20820,
-   "weather_factor": 1.0,
-   "adjusted_score": 30.9,
+   "weather_factor": 1.028,
+   "adjusted_score": 31.8,
    "game_weather": {
     "venue_name": "Truist Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 77.0,
+    "wind_mph": 8.0,
+    "wind_dir": "cross",
+    "weather_condition": "Clear"
    },
    "repeat": true
   },
@@ -374,6 +374,37 @@
    "repeat": true
   },
   {
+   "player_id": 518692,
+   "player_name": "Freddie Freeman",
+   "team": "LAD",
+   "expectancy_score": 22.7,
+   "streak": 1,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": 1.129,
+    "parks_sum": 0.036,
+    "near_hr": 0.036
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
+   "max_ev_7d": 103.2,
+   "max_distance_7d": 375,
+   "band": "<40",
+   "band_rate": 0.203,
+   "band_samples": 20820,
+   "weather_factor": 1.028,
+   "adjusted_score": 23.3,
+   "game_weather": {
+    "venue_name": "Truist Park",
+    "temp_f": 77.0,
+    "wind_mph": 8.0,
+    "wind_dir": "cross",
+    "weather_condition": "Clear"
+   },
+   "repeat": true
+  },
+  {
    "player_id": 641343,
    "player_name": "Jake Bauers",
    "team": "MIL",
@@ -405,59 +436,34 @@
    "repeat": true
   },
   {
-   "player_id": 518692,
-   "player_name": "Freddie Freeman",
+   "player_id": 571970,
+   "player_name": "Max Muncy",
    "team": "LAD",
-   "expectancy_score": 22.7,
-   "streak": 1,
+   "expectancy_score": 21.3,
+   "streak": 0,
    "frequency": 0.286,
    "slopes": {
-    "max_ev": 1.129,
-    "parks_sum": 0.036,
-    "near_hr": 0.036
+    "max_ev": 2.257,
+    "parks_sum": 0.821,
+    "near_hr": -0.071
    },
-   "near_hr_7d": 1,
+   "near_hr_7d": 0,
    "near_hr_xbh_7d": 0,
-   "hr_7d": 1,
-   "max_ev_7d": 103.2,
-   "max_distance_7d": 375,
+   "hr_7d": 2,
+   "max_ev_7d": 108.8,
+   "max_distance_7d": 397,
    "band": "<40",
    "band_rate": 0.203,
    "band_samples": 20820,
-   "weather_factor": 1.0,
-   "adjusted_score": 22.7,
+   "weather_factor": 1.028,
+   "adjusted_score": 21.9,
    "game_weather": {
     "venue_name": "Truist Park",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 77.0,
+    "wind_mph": 8.0,
+    "wind_dir": "cross",
+    "weather_condition": "Clear"
    },
-   "repeat": true
-  },
-  {
-   "player_id": 808959,
-   "player_name": "Munetaka Murakami",
-   "team": "CWS",
-   "expectancy_score": 21.8,
-   "streak": 0,
-   "frequency": 0.714,
-   "slopes": {
-    "max_ev": 0.079,
-    "parks_sum": -0.5,
-    "near_hr": -0.152
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 1,
-   "max_ev_7d": 112.2,
-   "max_distance_7d": 440,
-   "band": "<40",
-   "band_rate": 0.203,
-   "band_samples": 20820,
-   "weather_factor": 1.0,
-   "adjusted_score": 21.8,
-   "game_weather": null,
    "repeat": true
   }
  ]
