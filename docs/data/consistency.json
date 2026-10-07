@@ -12,16 +12,6 @@
    "game_streak": 2
   },
   {
-   "player_id": 641343,
-   "player_name": "Jake Bauers",
-   "team": "MIL",
-   "record_streak": 4,
-   "total_flags": 8,
-   "avg_score": 32.2,
-   "current_score": 22.9,
-   "game_streak": 0
-  },
-  {
    "player_id": 680700,
    "player_name": "Richie Palacios",
    "team": "TB",
@@ -129,6 +119,16 @@
    "total_flags": 8,
    "avg_score": 46.9,
    "current_score": 23.9,
+   "game_streak": 1
+  },
+  {
+   "player_id": 605141,
+   "player_name": "Mookie Betts",
+   "team": "LAD",
+   "record_streak": 1,
+   "total_flags": 7,
+   "avg_score": 39.2,
+   "current_score": 22.1,
    "game_streak": 1
   },
   {
