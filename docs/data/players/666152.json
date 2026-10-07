@@ -2,20 +2,38 @@
  "player_id": 666152,
  "player_name": "David Hamilton",
  "team": "MIL",
- "as_of": "2026-10-07",
+ "as_of": "2026-10-06",
  "form": {
   "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": 3.071,
-   "parks_sum": 0.036,
-   "near_hr": 0.116
+   "max_ev": 0.993,
+   "parks_sum": 0.0,
+   "near_hr": 0.036
   },
-  "intensity": 0.376,
-  "expectancy_score": 19.9,
-  "last_appearance": "2026-10-04"
+  "intensity": 0.177,
+  "expectancy_score": 13.9,
+  "last_appearance": "2026-10-06"
  },
  "days": [
+  {
+   "date": "2026-10-06",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 83.5,
+   "max_distance": 71.0,
+   "max_barrel_score": 20.0,
+   "temp_f": 82.0,
+   "wind_mph": 9.0,
+   "wind_dir": "in",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-10-04",
    "bbe": 2,
@@ -216,6 +234,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 849826,
+   "date": "2026-10-06",
+   "player_id": 666152,
+   "player_name": "David Hamilton",
+   "team": "MIL",
+   "opponent": "SD",
+   "result": "Single",
+   "exit_velocity": 83.5,
+   "launch_angle": 3.0,
+   "hit_distance": 71.0,
+   "hc_x": 160.42,
+   "hc_y": 87.83,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "26e1ffeb-8567-3255-864a-07472411ca19",
+   "venue_id": 2680,
+   "venue_name": "Petco Park",
+   "temp_f": 82.0,
+   "wind_mph": 9.0,
+   "wind_dir": "in",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 20.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 849825,
    "date": "2026-10-04",
