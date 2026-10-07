@@ -1,93 +1,33 @@
 {
- "as_of": "2026-10-05",
+ "as_of": "2026-10-07",
  "players": [
+  {
+   "player_id": 808959,
+   "player_name": "Munetaka Murakami",
+   "team": "CWS",
+   "record_streak": 1,
+   "total_flags": 18,
+   "avg_score": 44.6,
+   "current_score": 21.8,
+   "game_streak": 0
+  },
   {
    "player_id": 666018,
    "player_name": "Jonathan Aranda",
    "team": "TB",
-   "record_streak": 3,
-   "total_flags": 11,
+   "record_streak": 1,
+   "total_flags": 12,
    "avg_score": 40.7,
    "current_score": 40.6,
    "game_streak": 2
-  },
-  {
-   "player_id": 571970,
-   "player_name": "Max Muncy",
-   "team": "LAD",
-   "record_streak": 3,
-   "total_flags": 9,
-   "avg_score": 35.9,
-   "current_score": 21.3,
-   "game_streak": 0
-  },
-  {
-   "player_id": 641343,
-   "player_name": "Jake Bauers",
-   "team": "MIL",
-   "record_streak": 3,
-   "total_flags": 7,
-   "avg_score": 33.5,
-   "current_score": 22.9,
-   "game_streak": 0
-  },
-  {
-   "player_id": 680700,
-   "player_name": "Richie Palacios",
-   "team": "TB",
-   "record_streak": 3,
-   "total_flags": 3,
-   "avg_score": 27.6,
-   "current_score": 23.3,
-   "game_streak": 0
-  },
-  {
-   "player_id": 665487,
-   "player_name": "Fernando Tatis Jr.",
-   "team": "SD",
-   "record_streak": 2,
-   "total_flags": 14,
-   "avg_score": 34.6,
-   "current_score": 25.0,
-   "game_streak": 1
-  },
-  {
-   "player_id": 660670,
-   "player_name": "Ronald Acu\u00f1a Jr.",
-   "team": "ATL",
-   "record_streak": 2,
-   "total_flags": 9,
-   "avg_score": 31.6,
-   "current_score": 30.9,
-   "game_streak": 1
-  },
-  {
-   "player_id": 592885,
-   "player_name": "Christian Yelich",
-   "team": "MIL",
-   "record_streak": 2,
-   "total_flags": 6,
-   "avg_score": 42.2,
-   "current_score": 28.0,
-   "game_streak": 1
-  },
-  {
-   "player_id": 518692,
-   "player_name": "Freddie Freeman",
-   "team": "LAD",
-   "record_streak": 2,
-   "total_flags": 5,
-   "avg_score": 40.8,
-   "current_score": 22.7,
-   "game_streak": 1
   },
   {
    "player_id": 682987,
    "player_name": "Spencer Jones",
    "team": "NYY",
    "record_streak": 1,
-   "total_flags": 11,
-   "avg_score": 41.0,
+   "total_flags": 12,
+   "avg_score": 39.6,
    "current_score": 25.1,
    "game_streak": 1
   },
@@ -96,8 +36,8 @@
    "player_name": "Jo Adell",
    "team": "CLE",
    "record_streak": 1,
-   "total_flags": 7,
-   "avg_score": 42.7,
+   "total_flags": 8,
+   "avg_score": 41.7,
    "current_score": 34.4,
    "game_streak": 1
   },
@@ -106,8 +46,8 @@
    "player_name": "Travis Bazzana",
    "team": "CLE",
    "record_streak": 1,
-   "total_flags": 6,
-   "avg_score": 37.9,
+   "total_flags": 7,
+   "avg_score": 36.5,
    "current_score": 27.6,
    "game_streak": 1
   },
@@ -116,8 +56,8 @@
    "player_name": "Austin Wells",
    "team": "NYY",
    "record_streak": 1,
-   "total_flags": 4,
-   "avg_score": 45.2,
+   "total_flags": 5,
+   "avg_score": 41.8,
    "current_score": 28.3,
    "game_streak": 1
   },
@@ -126,8 +66,8 @@
    "player_name": "Patrick Bailey",
    "team": "CLE",
    "record_streak": 1,
-   "total_flags": 4,
-   "avg_score": 36.9,
+   "total_flags": 5,
+   "avg_score": 34.6,
    "current_score": 25.3,
    "game_streak": 1
   },
@@ -136,8 +76,8 @@
    "player_name": "Yandy D\u00edaz",
    "team": "TB",
    "record_streak": 1,
-   "total_flags": 3,
-   "avg_score": 40.1,
+   "total_flags": 4,
+   "avg_score": 37.5,
    "current_score": 29.7,
    "game_streak": 1
   },
@@ -146,9 +86,69 @@
    "player_name": "Junior Caminero",
    "team": "TB",
    "record_streak": 1,
-   "total_flags": 3,
-   "avg_score": 36.2,
+   "total_flags": 4,
+   "avg_score": 34.3,
    "current_score": 28.6,
+   "game_streak": 1
+  },
+  {
+   "player_id": 641355,
+   "player_name": "Cody Bellinger",
+   "team": "NYY",
+   "record_streak": 1,
+   "total_flags": 4,
+   "avg_score": 32.0,
+   "current_score": 17.6,
+   "game_streak": 1
+  },
+  {
+   "player_id": 689414,
+   "player_name": "Liam Hicks",
+   "team": "TB",
+   "record_streak": 1,
+   "total_flags": 4,
+   "avg_score": 27.6,
+   "current_score": 17.5,
+   "game_streak": 0
+  },
+  {
+   "player_id": 680700,
+   "player_name": "Richie Palacios",
+   "team": "TB",
+   "record_streak": 1,
+   "total_flags": 4,
+   "avg_score": 26.5,
+   "current_score": 23.3,
+   "game_streak": 0
+  },
+  {
+   "player_id": 806146,
+   "player_name": "George Lombard Jr.",
+   "team": "NYY",
+   "record_streak": 1,
+   "total_flags": 3,
+   "avg_score": 20.1,
+   "current_score": 13.6,
+   "game_streak": 0
+  },
+  {
+   "player_id": 663993,
+   "player_name": "Nathaniel Lowe",
+   "team": "CLE",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 20.5,
+   "current_score": 20.5,
+   "game_streak": 1
+  },
+  {
+   "player_id": 676356,
+   "player_name": "Jonny DeLuca",
+   "team": "TB",
+   "record_streak": 1,
+   "total_flags": 1,
+   "avg_score": 17.9,
+   "current_score": 17.9,
    "game_streak": 1
   }
  ]
