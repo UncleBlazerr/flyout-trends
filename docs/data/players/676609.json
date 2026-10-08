@@ -2,20 +2,38 @@
  "player_id": 676609,
  "player_name": "Jos\u00e9 Caballero",
  "team": "NYY",
- "as_of": "2026-10-08",
+ "as_of": "2026-10-07",
  "form": {
   "streak": 0,
-  "frequency": 0.286,
+  "frequency": 0.143,
   "slopes": {
-   "max_ev": -4.05,
+   "max_ev": -3.164,
    "parks_sum": 0.0,
-   "near_hr": -0.143
+   "near_hr": -0.071
   },
   "intensity": 0.0,
-  "expectancy_score": 8.6,
-  "last_appearance": "2026-09-25"
+  "expectancy_score": 4.3,
+  "last_appearance": "2026-10-07"
  },
  "days": [
+  {
+   "date": "2026-10-07",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 62.7,
+   "max_distance": 5.0,
+   "max_barrel_score": 0.3,
+   "temp_f": 64.0,
+   "wind_mph": 9.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-09-25",
    "bbe": 1,
@@ -198,6 +216,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 849838,
+   "date": "2026-10-07",
+   "player_id": 676609,
+   "player_name": "Jos\u00e9 Caballero",
+   "team": "NYY",
+   "opponent": "TB",
+   "result": "Groundout",
+   "exit_velocity": 62.7,
+   "launch_angle": -55.0,
+   "hit_distance": 5.0,
+   "hc_x": 111.2,
+   "hc_y": 183.45,
+   "would_be_hr_count": 0,
+   "inning": 3,
+   "play_id": "ca2a5960-5cc9-3a5b-acb8-5f8c5905c23c",
+   "venue_id": 3313,
+   "venue_name": "Yankee Stadium",
+   "temp_f": 64.0,
+   "wind_mph": 9.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 0.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 823491,
    "date": "2026-09-25",
