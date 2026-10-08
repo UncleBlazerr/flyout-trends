@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-10-08T17:10:50.950848+00:00",
+ "generated_at": "2026-10-08T21:13:09.114910+00:00",
  "as_of": "2026-10-07",
  "config": {
   "min_near_hr_events": 1,
@@ -331,37 +331,6 @@
    "repeat": false
   },
   {
-   "player_id": 663993,
-   "player_name": "Nathaniel Lowe",
-   "team": "CLE",
-   "expectancy_score": 18.9,
-   "streak": 0,
-   "frequency": 0.286,
-   "slopes": {
-    "max_ev": 2.157,
-    "parks_sum": 0.0,
-    "near_hr": 0.036
-   },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 104.6,
-   "max_distance_7d": 316,
-   "band": "<40",
-   "band_rate": 0.202,
-   "band_samples": 20936,
-   "weather_factor": 1.0,
-   "adjusted_score": 18.9,
-   "game_weather": {
-    "venue_name": "Rate Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
-  },
-  {
    "player_id": 592885,
    "player_name": "Christian Yelich",
    "team": "MIL",
@@ -434,6 +403,37 @@
    "weather_factor": 1.0,
    "adjusted_score": 18.6,
    "game_weather": null,
+   "repeat": false
+  },
+  {
+   "player_id": 663993,
+   "player_name": "Nathaniel Lowe",
+   "team": "CLE",
+   "expectancy_score": 18.9,
+   "streak": 0,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": 2.157,
+    "parks_sum": 0.0,
+    "near_hr": 0.036
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 104.6,
+   "max_distance_7d": 316,
+   "band": "<40",
+   "band_rate": 0.202,
+   "band_samples": 20936,
+   "weather_factor": 0.976,
+   "adjusted_score": 18.4,
+   "game_weather": {
+    "venue_name": "Rate Field",
+    "temp_f": 64.0,
+    "wind_mph": 3.0,
+    "wind_dir": "in",
+    "weather_condition": "Clear"
+   },
    "repeat": false
   }
  ]
