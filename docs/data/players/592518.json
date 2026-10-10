@@ -2,9 +2,9 @@
  "player_id": 592518,
  "player_name": "Manny Machado",
  "team": "SD",
- "as_of": "2026-10-10",
+ "as_of": "2026-10-09",
  "form": {
-  "streak": 0,
+  "streak": 2,
   "frequency": 0.571,
   "slopes": {
    "max_ev": 1.207,
@@ -12,7 +12,7 @@
    "near_hr": 0.089
   },
   "intensity": 0.394,
-  "expectancy_score": 28.9,
+  "expectancy_score": 44.9,
   "last_appearance": "2026-10-07"
  },
  "days": [

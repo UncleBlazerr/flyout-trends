@@ -2,9 +2,9 @@
  "player_id": 571970,
  "player_name": "Max Muncy",
  "team": "LAD",
- "as_of": "2026-10-10",
+ "as_of": "2026-10-09",
  "form": {
-  "streak": 0,
+  "streak": 1,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 2.136,
@@ -12,7 +12,7 @@
    "near_hr": 0.107
   },
   "intensity": 0.393,
-  "expectancy_score": 20.4,
+  "expectancy_score": 28.4,
   "last_appearance": "2026-10-07"
  },
  "days": [
