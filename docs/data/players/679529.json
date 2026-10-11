@@ -2,7 +2,7 @@
  "player_id": 679529,
  "player_name": "Spencer Torkelson",
  "team": "DET",
- "as_of": "2026-10-09",
+ "as_of": "2026-10-11",
  "form": {
   "streak": 0,
   "frequency": 0.143,
@@ -231,24 +231,6 @@
    "wind_mph": 6.0,
    "wind_dir": "in",
    "weather_condition": "Partly Cloudy"
-  },
-  {
-   "date": "2026-09-11",
-   "bbe": 1,
-   "hr": 0,
-   "near_hr_any": 1,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 1,
-   "near_hr_parks": 1,
-   "near_hr_barrel": 1,
-   "would_be_hr_parks_sum": 12,
-   "max_ev": 100.9,
-   "max_distance": 377.0,
-   "max_barrel_score": 72.2,
-   "temp_f": 72.0,
-   "wind_mph": 6.0,
-   "wind_dir": "in",
-   "weather_condition": "Clear"
   }
  ],
  "events": [
@@ -947,35 +929,6 @@
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
-  },
-  {
-   "game_pk": 824227,
-   "date": "2026-09-11",
-   "player_id": 679529,
-   "player_name": "Spencer Torkelson",
-   "team": "DET",
-   "opponent": "COL",
-   "result": "Flyout",
-   "exit_velocity": 100.9,
-   "launch_angle": 37.0,
-   "hit_distance": 377.0,
-   "hc_x": 70.12,
-   "hc_y": 57.15,
-   "would_be_hr_count": 12,
-   "inning": 6,
-   "play_id": "cfe8d2c2-e39c-3b28-9fef-84b7c09a0ebf",
-   "venue_id": 2394,
-   "venue_name": "Comerica Park",
-   "temp_f": 72.0,
-   "wind_mph": 6.0,
-   "wind_dir": "in",
-   "weather_condition": "Clear",
-   "distance_flag": true,
-   "would_be_hr_flag": true,
-   "barrel_score": 72.2,
-   "barrel_flag": true,
-   "is_home_run": false,
-   "is_near_hr": true
   }
  ]
 }

@@ -2,7 +2,7 @@
  "player_id": 663993,
  "player_name": "Nathaniel Lowe",
  "team": "CLE",
- "as_of": "2026-10-09",
+ "as_of": "2026-10-11",
  "form": {
   "streak": 0,
   "frequency": 0.286,
@@ -267,24 +267,6 @@
    "wind_mph": 12.0,
    "wind_dir": "out",
    "weather_condition": "Sunny"
-  },
-  {
-   "date": "2026-09-11",
-   "bbe": 1,
-   "hr": 0,
-   "near_hr_any": 1,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 1,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 1,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 101.5,
-   "max_distance": 382.0,
-   "max_barrel_score": 81.8,
-   "temp_f": 80.0,
-   "wind_mph": 15.0,
-   "wind_dir": "cross",
-   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -1389,35 +1371,6 @@
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
-  },
-  {
-   "game_pk": 823659,
-   "date": "2026-09-11",
-   "player_id": 663993,
-   "player_name": "Nathaniel Lowe",
-   "team": "CLE",
-   "opponent": "MIN",
-   "result": "Flyout",
-   "exit_velocity": 101.5,
-   "launch_angle": 26.0,
-   "hit_distance": 382.0,
-   "hc_x": 99.27,
-   "hc_y": 47.25,
-   "would_be_hr_count": 0,
-   "inning": 2,
-   "play_id": "18d925ea-7516-32af-ab42-fda5b8bb39d4",
-   "venue_id": 3312,
-   "venue_name": "Target Field",
-   "temp_f": 80.0,
-   "wind_mph": 15.0,
-   "wind_dir": "cross",
-   "weather_condition": "Partly Cloudy",
-   "distance_flag": true,
-   "would_be_hr_flag": false,
-   "barrel_score": 81.8,
-   "barrel_flag": true,
-   "is_home_run": false,
-   "is_near_hr": true
   }
  ]
 }
