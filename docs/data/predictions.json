@@ -23,14 +23,14 @@
    "band": "<40",
    "band_rate": 0.201,
    "band_samples": 21107,
-   "weather_factor": 1.0,
-   "adjusted_score": 37.0,
+   "weather_factor": 1.06,
+   "adjusted_score": 39.2,
    "game_weather": {
     "venue_name": "American Family Field",
-    "temp_f": 72.0,
-    "wind_mph": 0.0,
-    "wind_dir": "none",
-    "weather_condition": "Dome"
+    "temp_f": 85.0,
+    "wind_mph": 1.0,
+    "wind_dir": "varies",
+    "weather_condition": "Sunny"
    },
    "repeat": false
   },
@@ -79,14 +79,14 @@
    "band": "<40",
    "band_rate": 0.201,
    "band_samples": 21107,
-   "weather_factor": 1.0,
-   "adjusted_score": 21.5,
+   "weather_factor": 1.06,
+   "adjusted_score": 22.8,
    "game_weather": {
     "venue_name": "American Family Field",
-    "temp_f": 72.0,
-    "wind_mph": 0.0,
-    "wind_dir": "none",
-    "weather_condition": "Dome"
+    "temp_f": 85.0,
+    "wind_mph": 1.0,
+    "wind_dir": "varies",
+    "weather_condition": "Sunny"
    },
    "repeat": false
   },
@@ -110,14 +110,14 @@
    "band": "<40",
    "band_rate": 0.201,
    "band_samples": 21107,
-   "weather_factor": 1.0,
-   "adjusted_score": 21.2,
+   "weather_factor": 1.06,
+   "adjusted_score": 22.5,
    "game_weather": {
     "venue_name": "American Family Field",
-    "temp_f": 72.0,
-    "wind_mph": 0.0,
-    "wind_dir": "none",
-    "weather_condition": "Dome"
+    "temp_f": 85.0,
+    "wind_mph": 1.0,
+    "wind_dir": "varies",
+    "weather_condition": "Sunny"
    },
    "repeat": false
   },
@@ -145,12 +145,43 @@
    "adjusted_score": 17.7,
    "game_weather": {
     "venue_name": "Tropicana Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Dome"
    },
    "repeat": true
+  },
+  {
+   "player_id": 571970,
+   "player_name": "Max Muncy",
+   "team": "LAD",
+   "expectancy_score": 16.5,
+   "streak": 0,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": 1.511,
+    "parks_sum": -0.679,
+    "near_hr": 0.036
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
+   "max_ev_7d": 106.7,
+   "max_distance_7d": 393,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21107,
+   "weather_factor": 1.06,
+   "adjusted_score": 17.5,
+   "game_weather": {
+    "venue_name": "American Family Field",
+    "temp_f": 85.0,
+    "wind_mph": 1.0,
+    "wind_dir": "varies",
+    "weather_condition": "Sunny"
+   },
+   "repeat": false
   },
   {
    "player_id": 800050,
@@ -176,10 +207,10 @@
    "adjusted_score": 17.4,
    "game_weather": {
     "venue_name": "Tropicana Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Dome"
    },
    "repeat": true
   },
@@ -207,10 +238,10 @@
    "adjusted_score": 17.2,
    "game_weather": {
     "venue_name": "Tropicana Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Dome"
    },
    "repeat": true
   },
@@ -238,43 +269,12 @@
    "adjusted_score": 17.1,
    "game_weather": {
     "venue_name": "Tropicana Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
-   "player_id": 571970,
-   "player_name": "Max Muncy",
-   "team": "LAD",
-   "expectancy_score": 16.5,
-   "streak": 0,
-   "frequency": 0.286,
-   "slopes": {
-    "max_ev": 1.511,
-    "parks_sum": -0.679,
-    "near_hr": 0.036
-   },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 1,
-   "max_ev_7d": 106.7,
-   "max_distance_7d": 393,
-   "band": "<40",
-   "band_rate": 0.201,
-   "band_samples": 21107,
-   "weather_factor": 1.0,
-   "adjusted_score": 16.5,
-   "game_weather": {
-    "venue_name": "American Family Field",
     "temp_f": 72.0,
     "wind_mph": 0.0,
     "wind_dir": "none",
     "weather_condition": "Dome"
    },
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 606192,
@@ -296,14 +296,14 @@
    "band": "<40",
    "band_rate": 0.201,
    "band_samples": 21107,
-   "weather_factor": 1.0,
-   "adjusted_score": 15.4,
+   "weather_factor": 1.06,
+   "adjusted_score": 16.3,
    "game_weather": {
     "venue_name": "American Family Field",
-    "temp_f": 72.0,
-    "wind_mph": 0.0,
-    "wind_dir": "none",
-    "weather_condition": "Dome"
+    "temp_f": 85.0,
+    "wind_mph": 1.0,
+    "wind_dir": "varies",
+    "weather_condition": "Sunny"
    },
    "repeat": false
   },
@@ -327,14 +327,14 @@
    "band": "<40",
    "band_rate": 0.201,
    "band_samples": 21107,
-   "weather_factor": 1.0,
-   "adjusted_score": 14.6,
+   "weather_factor": 1.06,
+   "adjusted_score": 15.5,
    "game_weather": {
     "venue_name": "American Family Field",
-    "temp_f": 72.0,
-    "wind_mph": 0.0,
-    "wind_dir": "none",
-    "weather_condition": "Dome"
+    "temp_f": 85.0,
+    "wind_mph": 1.0,
+    "wind_dir": "varies",
+    "weather_condition": "Sunny"
    },
    "repeat": false
   },
@@ -358,14 +358,14 @@
    "band": "<40",
    "band_rate": 0.201,
    "band_samples": 21107,
-   "weather_factor": 1.0,
-   "adjusted_score": 14.4,
+   "weather_factor": 1.06,
+   "adjusted_score": 15.3,
    "game_weather": {
     "venue_name": "American Family Field",
-    "temp_f": 72.0,
-    "wind_mph": 0.0,
-    "wind_dir": "none",
-    "weather_condition": "Dome"
+    "temp_f": 85.0,
+    "wind_mph": 1.0,
+    "wind_dir": "varies",
+    "weather_condition": "Sunny"
    },
    "repeat": false
   },
@@ -389,14 +389,14 @@
    "band": "<40",
    "band_rate": 0.201,
    "band_samples": 21107,
-   "weather_factor": 1.0,
-   "adjusted_score": 13.1,
+   "weather_factor": 1.06,
+   "adjusted_score": 13.9,
    "game_weather": {
     "venue_name": "American Family Field",
-    "temp_f": 72.0,
-    "wind_mph": 0.0,
-    "wind_dir": "none",
-    "weather_condition": "Dome"
+    "temp_f": 85.0,
+    "wind_mph": 1.0,
+    "wind_dir": "varies",
+    "weather_condition": "Sunny"
    },
    "repeat": false
   },
@@ -424,10 +424,10 @@
    "adjusted_score": 12.9,
    "game_weather": {
     "venue_name": "Tropicana Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Dome"
    },
    "repeat": true
   },
@@ -455,10 +455,10 @@
    "adjusted_score": 12.9,
    "game_weather": {
     "venue_name": "Tropicana Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 72.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Dome"
    },
    "repeat": true
   }
