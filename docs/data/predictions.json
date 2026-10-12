@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-10",
+ "as_of": "2026-10-12",
  "horizon_days": 3,
  "min_samples": 20,
  "players": [
@@ -50,7 +50,13 @@
    "band_samples": 21086,
    "weather_factor": 1.0,
    "adjusted_score": 17.7,
-   "game_weather": null,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
    "repeat": false
   },
   {
@@ -75,7 +81,13 @@
    "band_samples": 21086,
    "weather_factor": 1.0,
    "adjusted_score": 17.4,
-   "game_weather": null,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
    "repeat": false
   },
   {
@@ -100,7 +112,13 @@
    "band_samples": 21086,
    "weather_factor": 1.0,
    "adjusted_score": 17.2,
-   "game_weather": null,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
    "repeat": false
   },
   {
@@ -115,18 +133,24 @@
     "parks_sum": -0.786,
     "near_hr": -0.107
    },
-   "near_hr_7d": 2,
+   "near_hr_7d": 1,
    "near_hr_xbh_7d": 0,
    "hr_7d": 1,
    "max_ev_7d": 110.0,
-   "max_distance_7d": 387,
+   "max_distance_7d": 376,
    "band": "<40",
    "band_rate": 0.201,
    "band_samples": 21086,
    "weather_factor": 1.0,
    "adjusted_score": 17.1,
-   "game_weather": null,
-   "repeat": true
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
   },
   {
    "player_id": 683953,
@@ -140,18 +164,24 @@
     "parks_sum": -1.071,
     "near_hr": -0.125
    },
-   "near_hr_7d": 3,
+   "near_hr_7d": 2,
    "near_hr_xbh_7d": 0,
    "hr_7d": 0,
-   "max_ev_7d": 102.3,
+   "max_ev_7d": 100.9,
    "max_distance_7d": 383,
    "band": "<40",
    "band_rate": 0.201,
    "band_samples": 21086,
    "weather_factor": 1.0,
    "adjusted_score": 12.9,
-   "game_weather": null,
-   "repeat": true
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
   },
   {
    "player_id": 666176,
@@ -165,67 +195,23 @@
     "parks_sum": -0.429,
     "near_hr": 0.0
    },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 108.3,
-   "max_distance_7d": 413,
-   "band": "<40",
-   "band_rate": 0.201,
-   "band_samples": 21086,
-   "weather_factor": 1.0,
-   "adjusted_score": 12.9,
-   "game_weather": null,
-   "repeat": true
-  },
-  {
-   "player_id": 808959,
-   "player_name": "Munetaka Murakami",
-   "team": "CWS",
-   "expectancy_score": 12.9,
-   "streak": 0,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 0.018,
-    "parks_sum": -0.643,
-    "near_hr": -0.277
-   },
-   "near_hr_7d": 0,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 110.9,
-   "max_distance_7d": 225,
-   "band": "<40",
-   "band_rate": 0.201,
-   "band_samples": 21086,
-   "weather_factor": 1.0,
-   "adjusted_score": 12.9,
-   "game_weather": null,
-   "repeat": false
-  },
-  {
-   "player_id": 663993,
-   "player_name": "Nathaniel Lowe",
-   "team": "CLE",
-   "expectancy_score": 8.6,
-   "streak": 0,
-   "frequency": 0.286,
-   "slopes": {
-    "max_ev": -0.814,
-    "parks_sum": 0.0,
-    "near_hr": -0.107
-   },
    "near_hr_7d": 1,
    "near_hr_xbh_7d": 0,
    "hr_7d": 0,
-   "max_ev_7d": 109.3,
-   "max_distance_7d": 316,
+   "max_ev_7d": 108.3,
+   "max_distance_7d": 383,
    "band": "<40",
    "band_rate": 0.201,
    "band_samples": 21086,
    "weather_factor": 1.0,
-   "adjusted_score": 8.6,
-   "game_weather": null,
+   "adjusted_score": 12.9,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
    "repeat": false
   },
   {
@@ -250,8 +236,14 @@
    "band_samples": 21086,
    "weather_factor": 1.0,
    "adjusted_score": 8.6,
-   "game_weather": null,
-   "repeat": true
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
   },
   {
    "player_id": 608070,
@@ -275,101 +267,63 @@
    "band_samples": 21086,
    "weather_factor": 1.0,
    "adjusted_score": 8.6,
-   "game_weather": null,
-   "repeat": true
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
   },
   {
-   "player_id": 686668,
-   "player_name": "Brenton Doyle",
-   "team": "CWS",
+   "player_id": 663993,
+   "player_name": "Nathaniel Lowe",
+   "team": "CLE",
    "expectancy_score": 8.6,
    "streak": 0,
    "frequency": 0.286,
    "slopes": {
-    "max_ev": -2.111,
-    "parks_sum": -0.036,
-    "near_hr": 0.0
+    "max_ev": -0.814,
+    "parks_sum": 0.0,
+    "near_hr": -0.107
    },
    "near_hr_7d": 0,
    "near_hr_xbh_7d": 0,
    "hr_7d": 0,
-   "max_ev_7d": 91.3,
-   "max_distance_7d": 302,
+   "max_ev_7d": 109.3,
+   "max_distance_7d": 257,
    "band": "<40",
    "band_rate": 0.201,
    "band_samples": 21086,
    "weather_factor": 1.0,
    "adjusted_score": 8.6,
-   "game_weather": null,
-   "repeat": false
-  },
-  {
-   "player_id": 595978,
-   "player_name": "Austin Hedges",
-   "team": "CLE",
-   "expectancy_score": 4.6,
-   "streak": 0,
-   "frequency": 0.143,
-   "slopes": {
-    "max_ev": -4.9,
-    "parks_sum": 0.0,
-    "near_hr": 0.036
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
    },
-   "near_hr_7d": 0,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 62.1,
-   "max_distance_7d": 9,
-   "band": "<40",
-   "band_rate": 0.201,
-   "band_samples": 21086,
-   "weather_factor": 1.0,
-   "adjusted_score": 4.6,
-   "game_weather": null,
    "repeat": false
   },
   {
-   "player_id": 545341,
-   "player_name": "Randal Grichuk",
+   "player_id": 691019,
+   "player_name": "Kyle Teel",
    "team": "CWS",
    "expectancy_score": 4.3,
    "streak": 0,
    "frequency": 0.143,
    "slopes": {
-    "max_ev": -1.761,
+    "max_ev": -0.861,
     "parks_sum": 0.0,
-    "near_hr": 0.0
+    "near_hr": -0.107
    },
    "near_hr_7d": 0,
    "near_hr_xbh_7d": 0,
    "hr_7d": 0,
-   "max_ev_7d": 102.0,
-   "max_distance_7d": 305,
-   "band": "<40",
-   "band_rate": 0.201,
-   "band_samples": 21086,
-   "weather_factor": 1.0,
-   "adjusted_score": 4.3,
-   "game_weather": null,
-   "repeat": false
-  },
-  {
-   "player_id": 695731,
-   "player_name": "Braden Montgomery",
-   "team": "CWS",
-   "expectancy_score": 4.3,
-   "streak": 0,
-   "frequency": 0.143,
-   "slopes": {
-    "max_ev": -1.668,
-    "parks_sum": 0.0,
-    "near_hr": 0.0
-   },
-   "near_hr_7d": 0,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 101.4,
-   "max_distance_7d": 263,
+   "max_ev_7d": 100.7,
+   "max_distance_7d": 324,
    "band": "<40",
    "band_rate": 0.201,
    "band_samples": 21086,

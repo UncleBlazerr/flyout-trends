@@ -1,0 +1,388 @@
+{
+ "schema_version": 2,
+ "generated_at": "2026-10-12T10:11:05.861255+00:00",
+ "as_of": "2026-10-12",
+ "config": {
+  "min_near_hr_events": 1,
+  "max_gap_days": 2,
+  "slope_window": 7,
+  "streak_cap": 5,
+  "weights": {
+   "streak": 0.4,
+   "frequency": 0.3,
+   "intensity": 0.3
+  },
+  "intensity_scales": {
+   "max_ev": 2.0,
+   "parks_sum": 3.0,
+   "near_hr": 1.0
+  },
+  "xbh_weight": 1.25,
+  "horizon_days": 3,
+  "score_bands": [
+   40,
+   60,
+   80
+  ],
+  "min_samples": 20,
+  "top_n": 15,
+  "consistency_top_n": 15,
+  "records_dir": "data/predictions",
+  "weather": {
+   "enabled": true,
+   "temp_ref_f": 70,
+   "temp_per_deg": 0.004,
+   "wind_out_min_mph": 5,
+   "wind_out_per_mph": 0.012,
+   "wind_out_cap_mph": 20,
+   "wind_in_min_mph": 5,
+   "wind_in_per_mph": 0.008,
+   "wind_in_cap_mph": 20,
+   "clamp": [
+    0.85,
+    1.2
+   ],
+   "neutral_conditions": [
+    "Dome",
+    "Roof Closed"
+   ],
+   "temp_bands": [
+    55,
+    70,
+    85
+   ],
+   "min_samples": 25
+  }
+ },
+ "players": [
+  {
+   "player_id": 803011,
+   "player_name": "Sam Antonacci",
+   "team": "CWS",
+   "expectancy_score": 30.2,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 0.086,
+    "parks_sum": 0.0,
+    "near_hr": 0.089
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 105.5,
+   "max_distance_7d": 349,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21086,
+   "weather_factor": 1.0,
+   "adjusted_score": 30.2,
+   "game_weather": null,
+   "repeat": false
+  },
+  {
+   "player_id": 680757,
+   "player_name": "Steven Kwan",
+   "team": "CLE",
+   "expectancy_score": 17.7,
+   "streak": 1,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": 0.218,
+    "parks_sum": 0.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 97.1,
+   "max_distance_7d": 353,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21086,
+   "weather_factor": 1.0,
+   "adjusted_score": 17.7,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 800050,
+   "player_name": "Chase DeLauter",
+   "team": "CLE",
+   "expectancy_score": 17.4,
+   "streak": 1,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": 0.164,
+    "parks_sum": 0.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 110.2,
+   "max_distance_7d": 323,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21086,
+   "weather_factor": 1.0,
+   "adjusted_score": 17.4,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 690984,
+   "player_name": "Petey Halpin",
+   "team": "CLE",
+   "expectancy_score": 17.2,
+   "streak": 1,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": -1.725,
+    "parks_sum": 0.107,
+    "near_hr": 0.027
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 100.2,
+   "max_distance_7d": 383,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21086,
+   "weather_factor": 1.0,
+   "adjusted_score": 17.2,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 672275,
+   "player_name": "Patrick Bailey",
+   "team": "CLE",
+   "expectancy_score": 17.1,
+   "streak": 0,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": -1.164,
+    "parks_sum": -0.786,
+    "near_hr": -0.107
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
+   "max_ev_7d": 110.0,
+   "max_distance_7d": 376,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21086,
+   "weather_factor": 1.0,
+   "adjusted_score": 17.1,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 683953,
+   "player_name": "Travis Bazzana",
+   "team": "CLE",
+   "expectancy_score": 12.9,
+   "streak": 0,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": -1.064,
+    "parks_sum": -1.071,
+    "near_hr": -0.125
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 100.9,
+   "max_distance_7d": 383,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21086,
+   "weather_factor": 1.0,
+   "adjusted_score": 12.9,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 666176,
+   "player_name": "Jo Adell",
+   "team": "CLE",
+   "expectancy_score": 12.9,
+   "streak": 0,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": -2.293,
+    "parks_sum": -0.429,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 108.3,
+   "max_distance_7d": 383,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21086,
+   "weather_factor": 1.0,
+   "adjusted_score": 12.9,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 677587,
+   "player_name": "Brayan Rocchio",
+   "team": "CLE",
+   "expectancy_score": 8.6,
+   "streak": 0,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": -2.625,
+    "parks_sum": -0.071,
+    "near_hr": -0.018
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 98.9,
+   "max_distance_7d": 363,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21086,
+   "weather_factor": 1.0,
+   "adjusted_score": 8.6,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 608070,
+   "player_name": "Jos\u00e9 Ram\u00edrez",
+   "team": "CLE",
+   "expectancy_score": 8.6,
+   "streak": 0,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": -0.143,
+    "parks_sum": 0.0,
+    "near_hr": -0.036
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 2,
+   "max_ev_7d": 107.9,
+   "max_distance_7d": 378,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21086,
+   "weather_factor": 1.0,
+   "adjusted_score": 8.6,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 663993,
+   "player_name": "Nathaniel Lowe",
+   "team": "CLE",
+   "expectancy_score": 8.6,
+   "streak": 0,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": -0.814,
+    "parks_sum": 0.0,
+    "near_hr": -0.107
+   },
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 109.3,
+   "max_distance_7d": 257,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21086,
+   "weather_factor": 1.0,
+   "adjusted_score": 8.6,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 691019,
+   "player_name": "Kyle Teel",
+   "team": "CWS",
+   "expectancy_score": 4.3,
+   "streak": 0,
+   "frequency": 0.143,
+   "slopes": {
+    "max_ev": -0.861,
+    "parks_sum": 0.0,
+    "near_hr": -0.107
+   },
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 100.7,
+   "max_distance_7d": 324,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21086,
+   "weather_factor": 1.0,
+   "adjusted_score": 4.3,
+   "game_weather": null,
+   "repeat": false
+  }
+ ]
+}
