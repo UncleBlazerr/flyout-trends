@@ -2,20 +2,38 @@
  "player_id": 800325,
  "player_name": "Luis Lara",
  "team": "MIL",
- "as_of": "2026-10-12",
+ "as_of": "2026-10-11",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": 2.539,
+   "max_ev": 2.504,
    "parks_sum": 0.0,
-   "near_hr": 0.071
+   "near_hr": 0.036
   },
-  "intensity": 0.357,
-  "expectancy_score": 15.0,
-  "last_appearance": "2026-10-03"
+  "intensity": 0.345,
+  "expectancy_score": 14.6,
+  "last_appearance": "2026-10-11"
  },
  "days": [
+  {
+   "date": "2026-10-11",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 101.9,
+   "max_distance": 58.0,
+   "max_barrel_score": 32.2,
+   "temp_f": 71.0,
+   "wind_mph": 5.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-10-03",
    "bbe": 3,
@@ -216,6 +234,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 849809,
+   "date": "2026-10-11",
+   "player_id": 800325,
+   "player_name": "Luis Lara",
+   "team": "MIL",
+   "opponent": "LAD",
+   "result": "Single",
+   "exit_velocity": 101.9,
+   "launch_angle": null,
+   "hit_distance": 58.0,
+   "hc_x": 122.38,
+   "hc_y": 99.23,
+   "would_be_hr_count": 0,
+   "inning": 5,
+   "play_id": "95109a75-bb90-331a-b23f-241b4e2f84e4",
+   "venue_id": 32,
+   "venue_name": "American Family Field",
+   "temp_f": 71.0,
+   "wind_mph": 5.0,
+   "wind_dir": "cross",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 32.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 849830,
    "date": "2026-10-03",

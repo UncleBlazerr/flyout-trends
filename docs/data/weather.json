@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-12",
+ "as_of": "2026-10-11",
  "horizon_days": 3,
  "temp_bands": [
   55,
@@ -28,11 +28,11 @@
    "hr_days": 66,
    "hr_total": 74,
    "near_hr_days": 162,
-   "follow_samples": 156,
-   "hr_followed": 33,
+   "follow_samples": 162,
+   "hr_followed": 34,
    "hr_rate": 0.085,
    "near_hr_rate": 0.209,
-   "follow_rate": 0.212
+   "follow_rate": 0.21
   },
   {
    "temp_band": "55-70",
@@ -76,10 +76,10 @@
   {
    "temp_band": "70-85",
    "wind": "neutral",
-   "player_days": 4078,
-   "hr_days": 444,
-   "hr_total": 464,
-   "near_hr_days": 898,
+   "player_days": 4095,
+   "hr_days": 445,
+   "hr_total": 465,
+   "near_hr_days": 902,
    "follow_samples": 898,
    "hr_followed": 188,
    "hr_rate": 0.109,
