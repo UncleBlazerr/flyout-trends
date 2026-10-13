@@ -2,7 +2,7 @@
  "player_id": 700250,
  "player_name": "Ben Rice",
  "team": "NYY",
- "as_of": "2026-10-13",
+ "as_of": "2026-10-12",
  "form": {
   "streak": 0,
   "frequency": 0.286,
@@ -285,6 +285,24 @@
    "wind_mph": 12.0,
    "wind_dir": "cross",
    "weather_condition": "Cloudy"
+  },
+  {
+   "date": "2026-09-13",
+   "bbe": 1,
+   "hr": 1,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 95.3,
+   "max_distance": 333.0,
+   "max_barrel_score": 61.1,
+   "temp_f": 72.0,
+   "wind_mph": 5.0,
+   "wind_dir": "in",
+   "weather_condition": "Rain"
   }
  ],
  "events": [
@@ -1591,6 +1609,35 @@
    "barrel_score": 29.4,
    "barrel_flag": false,
    "is_home_run": false,
+   "is_near_hr": false
+  },
+  {
+   "game_pk": 823495,
+   "date": "2026-09-13",
+   "player_id": 700250,
+   "player_name": "Ben Rice",
+   "team": "NYY",
+   "opponent": "NYM",
+   "result": "Home Run",
+   "exit_velocity": 95.3,
+   "launch_angle": 40.0,
+   "hit_distance": 333.0,
+   "hc_x": 220.73,
+   "hc_y": 102.44,
+   "would_be_hr_count": 6,
+   "inning": 1,
+   "play_id": "4fea5c0c-744b-3dfa-a257-dc3e6c2b7b67",
+   "venue_id": 3313,
+   "venue_name": "Yankee Stadium",
+   "temp_f": 72.0,
+   "wind_mph": 5.0,
+   "wind_dir": "in",
+   "weather_condition": "Rain",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 61.1,
+   "barrel_flag": false,
+   "is_home_run": true,
    "is_near_hr": false
   }
  ]

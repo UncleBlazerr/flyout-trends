@@ -2,20 +2,38 @@
  "player_id": 690984,
  "player_name": "Petey Halpin",
  "team": "CLE",
- "as_of": "2026-10-13",
+ "as_of": "2026-10-12",
  "form": {
   "streak": 0,
-  "frequency": 0.286,
+  "frequency": 0.143,
   "slopes": {
-   "max_ev": -1.725,
-   "parks_sum": 0.107,
-   "near_hr": 0.027
+   "max_ev": -0.1,
+   "parks_sum": 0.714,
+   "near_hr": 0.089
   },
-  "intensity": 0.021,
-  "expectancy_score": 9.2,
-  "last_appearance": "2026-10-10"
+  "intensity": 0.109,
+  "expectancy_score": 7.6,
+  "last_appearance": "2026-10-12"
  },
  "days": [
+  {
+   "date": "2026-10-12",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 93.8,
+   "max_distance": 313.0,
+   "max_barrel_score": 67.1,
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Dome"
+  },
   {
    "date": "2026-10-10",
    "bbe": 3,
@@ -144,6 +162,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 849820,
+   "date": "2026-10-12",
+   "player_id": 690984,
+   "player_name": "Petey Halpin",
+   "team": "CLE",
+   "opponent": "TB",
+   "result": "Lineout",
+   "exit_velocity": 93.8,
+   "launch_angle": 23.0,
+   "hit_distance": 313.0,
+   "hc_x": 42.85,
+   "hc_y": 103.83,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "83d96f7a-2fc3-3643-b7c0-e5495fc42b95",
+   "venue_id": 12,
+   "venue_name": "Tropicana Field",
+   "temp_f": 72.0,
+   "wind_mph": 0.0,
+   "wind_dir": "none",
+   "weather_condition": "Dome",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 67.1,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 849831,
    "date": "2026-10-10",
