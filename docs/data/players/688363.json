@@ -2,17 +2,17 @@
  "player_id": 688363,
  "player_name": "Graham Pauley",
  "team": "MIA",
- "as_of": "2026-10-11",
+ "as_of": "2026-10-13",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": -3.18,
+   "max_ev": 1.66,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.0,
-  "expectancy_score": 0.0,
+  "intensity": 0.277,
+  "expectancy_score": 8.3,
   "last_appearance": "2026-09-27"
  },
  "days": [
@@ -102,24 +102,6 @@
    "max_distance": 164.0,
    "max_barrel_score": 47.2,
    "temp_f": 74.0,
-   "wind_mph": 0.0,
-   "wind_dir": "none",
-   "weather_condition": "Roof Closed"
-  },
-  {
-   "date": "2026-09-12",
-   "bbe": 1,
-   "hr": 1,
-   "near_hr_any": 0,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 0,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 0,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 107.8,
-   "max_distance": 429.0,
-   "max_barrel_score": 90.6,
-   "temp_f": 72.0,
    "wind_mph": 0.0,
    "wind_dir": "none",
    "weather_condition": "Roof Closed"
@@ -356,35 +338,6 @@
    "barrel_score": 47.2,
    "barrel_flag": false,
    "is_home_run": false,
-   "is_near_hr": false
-  },
-  {
-   "game_pk": 823819,
-   "date": "2026-09-12",
-   "player_id": 688363,
-   "player_name": "Graham Pauley",
-   "team": "MIA",
-   "opponent": "LAD",
-   "result": "Home Run",
-   "exit_velocity": 107.8,
-   "launch_angle": 29.0,
-   "hit_distance": 429.0,
-   "hc_x": 173.02,
-   "hc_y": 31.73,
-   "would_be_hr_count": 30,
-   "inning": 2,
-   "play_id": "dfa48d4b-7b50-3b8c-b7b1-696ce0896d60",
-   "venue_id": 4169,
-   "venue_name": "loanDepot park",
-   "temp_f": 72.0,
-   "wind_mph": 0.0,
-   "wind_dir": "none",
-   "weather_condition": "Roof Closed",
-   "distance_flag": false,
-   "would_be_hr_flag": false,
-   "barrel_score": 90.6,
-   "barrel_flag": false,
-   "is_home_run": true,
    "is_near_hr": false
   }
  ]
