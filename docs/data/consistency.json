@@ -1,53 +1,13 @@
 {
- "as_of": "2026-10-12",
+ "as_of": "2026-10-14",
  "players": [
-  {
-   "player_id": 666176,
-   "player_name": "Jo Adell",
-   "team": "CLE",
-   "record_streak": 5,
-   "total_flags": 13,
-   "avg_score": 32.3,
-   "current_score": 12.9,
-   "game_streak": 0
-  },
-  {
-   "player_id": 683953,
-   "player_name": "Travis Bazzana",
-   "team": "CLE",
-   "record_streak": 5,
-   "total_flags": 12,
-   "avg_score": 28.5,
-   "current_score": 14.8,
-   "game_streak": 0
-  },
-  {
-   "player_id": 672275,
-   "player_name": "Patrick Bailey",
-   "team": "CLE",
-   "record_streak": 5,
-   "total_flags": 10,
-   "avg_score": 27.4,
-   "current_score": 14.7,
-   "game_streak": 0
-  },
-  {
-   "player_id": 803011,
-   "player_name": "Sam Antonacci",
-   "team": "CWS",
-   "record_streak": 3,
-   "total_flags": 7,
-   "avg_score": 39.1,
-   "current_score": 30.2,
-   "game_streak": 2
-  },
   {
    "player_id": 605141,
    "player_name": "Mookie Betts",
    "team": "LAD",
-   "record_streak": 2,
-   "total_flags": 12,
-   "avg_score": 36.0,
+   "record_streak": 4,
+   "total_flags": 14,
+   "avg_score": 34.8,
    "current_score": 18.2,
    "game_streak": 0
   },
@@ -55,69 +15,79 @@
    "player_id": 694192,
    "player_name": "Jackson Chourio",
    "team": "MIL",
-   "record_streak": 2,
-   "total_flags": 8,
-   "avg_score": 33.9,
+   "record_streak": 4,
+   "total_flags": 10,
+   "avg_score": 32.3,
    "current_score": 30.6,
    "game_streak": 2
   },
   {
-   "player_id": 683734,
-   "player_name": "Andrew Vaughn",
-   "team": "MIL",
-   "record_streak": 2,
-   "total_flags": 3,
-   "avg_score": 22.0,
-   "current_score": 13.1,
-   "game_streak": 0
+   "player_id": 518692,
+   "player_name": "Freddie Freeman",
+   "team": "LAD",
+   "record_streak": 3,
+   "total_flags": 12,
+   "avg_score": 30.1,
+   "current_score": 24.6,
+   "game_streak": 1
   },
   {
-   "player_id": 800325,
-   "player_name": "Luis Lara",
-   "team": "MIL",
-   "record_streak": 2,
-   "total_flags": 2,
-   "avg_score": 14.6,
-   "current_score": 14.6,
-   "game_streak": 0
-  },
-  {
-   "player_id": 571771,
-   "player_name": "Enrique Hern\u00e1ndez",
+   "player_id": 606192,
+   "player_name": "Teoscar Hern\u00e1ndez",
    "team": "LAD",
    "record_streak": 2,
-   "total_flags": 2,
-   "avg_score": 14.4,
-   "current_score": 14.4,
-   "game_streak": 1
+   "total_flags": 11,
+   "avg_score": 37.7,
+   "current_score": 9.4,
+   "game_streak": 0
   },
   {
    "player_id": 666018,
    "player_name": "Jonathan Aranda",
    "team": "TB",
    "record_streak": 1,
-   "total_flags": 16,
+   "total_flags": 17,
    "avg_score": 36.7,
    "current_score": 36.9,
    "game_streak": 1
   },
   {
-   "player_id": 518692,
-   "player_name": "Freddie Freeman",
-   "team": "LAD",
+   "player_id": 666176,
+   "player_name": "Jo Adell",
+   "team": "CLE",
    "record_streak": 1,
-   "total_flags": 10,
-   "avg_score": 32.4,
-   "current_score": 24.6,
-   "game_streak": 1
+   "total_flags": 14,
+   "avg_score": 30.9,
+   "current_score": 12.9,
+   "game_streak": 0
+  },
+  {
+   "player_id": 683953,
+   "player_name": "Travis Bazzana",
+   "team": "CLE",
+   "record_streak": 1,
+   "total_flags": 13,
+   "avg_score": 27.4,
+   "current_score": 14.8,
+   "game_streak": 0
+  },
+  {
+   "player_id": 672275,
+   "player_name": "Patrick Bailey",
+   "team": "CLE",
+   "record_streak": 1,
+   "total_flags": 11,
+   "avg_score": 26.2,
+   "current_score": 14.7,
+   "game_streak": 0
   },
   {
    "player_id": 592885,
    "player_name": "Christian Yelich",
    "team": "MIL",
    "record_streak": 1,
-   "total_flags": 8,
-   "avg_score": 35.8,
+   "total_flags": 9,
+   "avg_score": 33.4,
    "current_score": 14.5,
    "game_streak": 0
   },
@@ -126,30 +96,60 @@
    "player_name": "David Hamilton",
    "team": "MIL",
    "record_streak": 1,
-   "total_flags": 8,
-   "avg_score": 30.6,
+   "total_flags": 9,
+   "avg_score": 28.3,
    "current_score": 10.1,
    "game_streak": 0
-  },
-  {
-   "player_id": 669257,
-   "player_name": "Will Smith",
-   "team": "LAD",
-   "record_streak": 1,
-   "total_flags": 5,
-   "avg_score": 37.8,
-   "current_score": 13.4,
-   "game_streak": 1
   },
   {
    "player_id": 650490,
    "player_name": "Yandy D\u00edaz",
    "team": "TB",
    "record_streak": 1,
-   "total_flags": 5,
-   "avg_score": 35.7,
+   "total_flags": 6,
+   "avg_score": 34.4,
    "current_score": 28.3,
    "game_streak": 1
+  },
+  {
+   "player_id": 669257,
+   "player_name": "Will Smith",
+   "team": "LAD",
+   "record_streak": 1,
+   "total_flags": 6,
+   "avg_score": 33.7,
+   "current_score": 13.4,
+   "game_streak": 1
+  },
+  {
+   "player_id": 691406,
+   "player_name": "Junior Caminero",
+   "team": "TB",
+   "record_streak": 1,
+   "total_flags": 5,
+   "avg_score": 29.2,
+   "current_score": 8.8,
+   "game_streak": 0
+  },
+  {
+   "player_id": 668723,
+   "player_name": "Ryan Vilade",
+   "team": "TB",
+   "record_streak": 1,
+   "total_flags": 4,
+   "avg_score": 27.1,
+   "current_score": 10.0,
+   "game_streak": 0
+  },
+  {
+   "player_id": 663993,
+   "player_name": "Nathaniel Lowe",
+   "team": "CLE",
+   "record_streak": 1,
+   "total_flags": 3,
+   "avg_score": 12.2,
+   "current_score": 9.1,
+   "game_streak": 0
   }
  ]
 }

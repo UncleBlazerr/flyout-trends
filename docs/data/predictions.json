@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-12",
+ "as_of": "2026-10-14",
  "horizon_days": 3,
  "min_samples": 20,
  "players": [
@@ -26,11 +26,11 @@
    "weather_factor": 1.0,
    "adjusted_score": 36.9,
    "game_weather": {
-    "venue_name": "Tropicana Field",
-    "temp_f": 72.0,
-    "wind_mph": 0.0,
-    "wind_dir": "none",
-    "weather_condition": "Dome"
+    "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
    },
    "repeat": false
   },
@@ -46,42 +46,23 @@
     "parks_sum": 0.0,
     "near_hr": 0.179
    },
-   "near_hr_7d": 3,
+   "near_hr_7d": 2,
    "near_hr_xbh_7d": 0,
    "hr_7d": 0,
-   "max_ev_7d": 109.6,
-   "max_distance_7d": 383,
+   "max_ev_7d": 106.7,
+   "max_distance_7d": 369,
    "band": "<40",
    "band_rate": 0.201,
    "band_samples": 21107,
    "weather_factor": 1.0,
    "adjusted_score": 30.6,
-   "game_weather": null,
-   "repeat": true
-  },
-  {
-   "player_id": 803011,
-   "player_name": "Sam Antonacci",
-   "team": "CWS",
-   "expectancy_score": 30.2,
-   "streak": 2,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 0.086,
-    "parks_sum": 0.0,
-    "near_hr": 0.089
+   "game_weather": {
+    "venue_name": "UNIQLO Field at Dodger Stadium",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
    },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 105.5,
-   "max_distance_7d": 349,
-   "band": "<40",
-   "band_rate": 0.201,
-   "band_samples": 21107,
-   "weather_factor": 1.0,
-   "adjusted_score": 30.2,
-   "game_weather": null,
    "repeat": true
   },
   {
@@ -107,11 +88,11 @@
    "weather_factor": 1.0,
    "adjusted_score": 28.3,
    "game_weather": {
-    "venue_name": "Tropicana Field",
-    "temp_f": 72.0,
-    "wind_mph": 0.0,
-    "wind_dir": "none",
-    "weather_condition": "Dome"
+    "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
    },
    "repeat": false
   },
@@ -127,18 +108,24 @@
     "parks_sum": 0.0,
     "near_hr": 0.071
    },
-   "near_hr_7d": 3,
+   "near_hr_7d": 1,
    "near_hr_xbh_7d": 0,
-   "hr_7d": 1,
+   "hr_7d": 0,
    "max_ev_7d": 106.4,
-   "max_distance_7d": 399,
+   "max_distance_7d": 364,
    "band": "<40",
    "band_rate": 0.201,
    "band_samples": 21107,
    "weather_factor": 1.0,
    "adjusted_score": 24.6,
-   "game_weather": null,
-   "repeat": false
+   "game_weather": {
+    "venue_name": "UNIQLO Field at Dodger Stadium",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
   },
   {
    "player_id": 605141,
@@ -152,17 +139,23 @@
     "parks_sum": 0.071,
     "near_hr": 0.0
    },
-   "near_hr_7d": 3,
+   "near_hr_7d": 1,
    "near_hr_xbh_7d": 0,
    "hr_7d": 0,
    "max_ev_7d": 100.9,
-   "max_distance_7d": 378,
+   "max_distance_7d": 375,
    "band": "<40",
    "band_rate": 0.201,
    "band_samples": 21107,
    "weather_factor": 1.0,
    "adjusted_score": 18.2,
-   "game_weather": null,
+   "game_weather": {
+    "venue_name": "UNIQLO Field at Dodger Stadium",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
    "repeat": true
   },
   {
@@ -188,13 +181,13 @@
    "weather_factor": 1.0,
    "adjusted_score": 14.8,
    "game_weather": {
-    "venue_name": "Tropicana Field",
-    "temp_f": 72.0,
-    "wind_mph": 0.0,
-    "wind_dir": "none",
-    "weather_condition": "Dome"
+    "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
    },
-   "repeat": true
+   "repeat": false
   },
   {
    "player_id": 672275,
@@ -219,38 +212,13 @@
    "weather_factor": 1.0,
    "adjusted_score": 14.7,
    "game_weather": {
-    "venue_name": "Tropicana Field",
-    "temp_f": 72.0,
-    "wind_mph": 0.0,
-    "wind_dir": "none",
-    "weather_condition": "Dome"
+    "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
    },
-   "repeat": true
-  },
-  {
-   "player_id": 800325,
-   "player_name": "Luis Lara",
-   "team": "MIL",
-   "expectancy_score": 14.6,
-   "streak": 0,
-   "frequency": 0.143,
-   "slopes": {
-    "max_ev": 2.504,
-    "parks_sum": 0.0,
-    "near_hr": 0.036
-   },
-   "near_hr_7d": 0,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 101.9,
-   "max_distance_7d": 58,
-   "band": "<40",
-   "band_rate": 0.201,
-   "band_samples": 21107,
-   "weather_factor": 1.0,
-   "adjusted_score": 14.6,
-   "game_weather": null,
-   "repeat": true
+   "repeat": false
   },
   {
    "player_id": 592885,
@@ -267,40 +235,21 @@
    "near_hr_7d": 0,
    "near_hr_xbh_7d": 0,
    "hr_7d": 0,
-   "max_ev_7d": 107.2,
-   "max_distance_7d": 281,
+   "max_ev_7d": 92.7,
+   "max_distance_7d": 279,
    "band": "<40",
    "band_rate": 0.201,
    "band_samples": 21107,
    "weather_factor": 1.0,
    "adjusted_score": 14.5,
-   "game_weather": null,
-   "repeat": false
-  },
-  {
-   "player_id": 571771,
-   "player_name": "Enrique Hern\u00e1ndez",
-   "team": "LAD",
-   "expectancy_score": 14.4,
-   "streak": 1,
-   "frequency": 0.143,
-   "slopes": {
-    "max_ev": -1.236,
-    "parks_sum": 0.0,
-    "near_hr": 0.214
+   "game_weather": {
+    "venue_name": "UNIQLO Field at Dodger Stadium",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
    },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 1,
-   "max_ev_7d": 106.8,
-   "max_distance_7d": 406,
-   "band": "<40",
-   "band_rate": 0.201,
-   "band_samples": 21107,
-   "weather_factor": 1.0,
-   "adjusted_score": 14.4,
-   "game_weather": null,
-   "repeat": true
+   "repeat": false
   },
   {
    "player_id": 669257,
@@ -324,33 +273,14 @@
    "band_samples": 21107,
    "weather_factor": 1.0,
    "adjusted_score": 13.4,
-   "game_weather": null,
-   "repeat": false
-  },
-  {
-   "player_id": 683734,
-   "player_name": "Andrew Vaughn",
-   "team": "MIL",
-   "expectancy_score": 13.1,
-   "streak": 0,
-   "frequency": 0.143,
-   "slopes": {
-    "max_ev": 1.761,
-    "parks_sum": 0.0,
-    "near_hr": 0.0
+   "game_weather": {
+    "venue_name": "UNIQLO Field at Dodger Stadium",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
    },
-   "near_hr_7d": 0,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 96.9,
-   "max_distance_7d": 184,
-   "band": "<40",
-   "band_rate": 0.201,
-   "band_samples": 21107,
-   "weather_factor": 1.0,
-   "adjusted_score": 13.1,
-   "game_weather": null,
-   "repeat": true
+   "repeat": false
   },
   {
    "player_id": 666176,
@@ -375,13 +305,13 @@
    "weather_factor": 1.0,
    "adjusted_score": 12.9,
    "game_weather": {
-    "venue_name": "Tropicana Field",
-    "temp_f": 72.0,
-    "wind_mph": 0.0,
-    "wind_dir": "none",
-    "weather_condition": "Dome"
+    "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
    },
-   "repeat": true
+   "repeat": false
   },
   {
    "player_id": 666152,
@@ -405,7 +335,137 @@
    "band_samples": 21107,
    "weather_factor": 1.0,
    "adjusted_score": 10.1,
-   "game_weather": null,
+   "game_weather": {
+    "venue_name": "UNIQLO Field at Dodger Stadium",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 668723,
+   "player_name": "Ryan Vilade",
+   "team": "TB",
+   "expectancy_score": 10.0,
+   "streak": 0,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": -3.511,
+    "parks_sum": 0.429,
+    "near_hr": -0.036
+   },
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 85.1,
+   "max_distance_7d": 121,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21107,
+   "weather_factor": 1.0,
+   "adjusted_score": 10.0,
+   "game_weather": {
+    "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 606192,
+   "player_name": "Teoscar Hern\u00e1ndez",
+   "team": "LAD",
+   "expectancy_score": 9.4,
+   "streak": 0,
+   "frequency": 0.143,
+   "slopes": {
+    "max_ev": 1.032,
+    "parks_sum": 0.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 102.2,
+   "max_distance_7d": 289,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21107,
+   "weather_factor": 1.0,
+   "adjusted_score": 9.4,
+   "game_weather": {
+    "venue_name": "UNIQLO Field at Dodger Stadium",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 663993,
+   "player_name": "Nathaniel Lowe",
+   "team": "CLE",
+   "expectancy_score": 9.1,
+   "streak": 0,
+   "frequency": 0.143,
+   "slopes": {
+    "max_ev": 0.957,
+    "parks_sum": 0.0,
+    "near_hr": -0.036
+   },
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 112.2,
+   "max_distance_7d": 311,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21107,
+   "weather_factor": 1.0,
+   "adjusted_score": 9.1,
+   "game_weather": {
+    "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 691406,
+   "player_name": "Junior Caminero",
+   "team": "TB",
+   "expectancy_score": 8.8,
+   "streak": 0,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": 0.043,
+    "parks_sum": -0.75,
+    "near_hr": -0.062
+   },
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 111.2,
+   "max_distance_7d": 277,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21107,
+   "weather_factor": 1.0,
+   "adjusted_score": 8.8,
+   "game_weather": {
+    "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
    "repeat": false
   }
  ],
@@ -463,15 +523,6 @@
    "flagged_on": "2026-10-11",
    "flagged_score": 17.1,
    "hr_on": "2026-10-12",
-   "hr_count": 1
-  },
-  {
-   "player_id": 608070,
-   "player_name": "Jos\u00e9 Ram\u00edrez",
-   "team": "CLE",
-   "flagged_on": "2026-10-09",
-   "flagged_score": 22.5,
-   "hr_on": "2026-10-10",
    "hr_count": 1
   }
  ]
