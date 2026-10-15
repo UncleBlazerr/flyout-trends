@@ -2,7 +2,7 @@
  "player_id": 676475,
  "player_name": "Alec Burleson",
  "team": "STL",
- "as_of": "2026-10-15",
+ "as_of": "2026-10-14",
  "form": {
   "streak": 0,
   "frequency": 0.0,
@@ -177,6 +177,24 @@
    "wind_mph": 4.0,
    "wind_dir": "in",
    "weather_condition": "Cloudy"
+  },
+  {
+   "date": "2026-09-15",
+   "bbe": 1,
+   "hr": 1,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 110.3,
+   "max_distance": 376.0,
+   "max_barrel_score": 82.7,
+   "temp_f": 90.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -816,6 +834,35 @@
    "barrel_score": 12.5,
    "barrel_flag": false,
    "is_home_run": false,
+   "is_near_hr": false
+  },
+  {
+   "game_pk": 823007,
+   "date": "2026-09-15",
+   "player_id": 676475,
+   "player_name": "Alec Burleson",
+   "team": "STL",
+   "opponent": "SF",
+   "result": "Home Run",
+   "exit_velocity": 110.3,
+   "launch_angle": 20.0,
+   "hit_distance": 376.0,
+   "hc_x": 203.91,
+   "hc_y": 67.96,
+   "would_be_hr_count": 22,
+   "inning": 1,
+   "play_id": "6f910b11-448c-34cc-b26b-19f414fdb5c5",
+   "venue_id": 2889,
+   "venue_name": "Busch Stadium",
+   "temp_f": 90.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 82.7,
+   "barrel_flag": false,
+   "is_home_run": true,
    "is_near_hr": false
   }
  ]

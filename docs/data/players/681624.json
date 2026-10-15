@@ -2,20 +2,38 @@
  "player_id": 681624,
  "player_name": "Andy Pages",
  "team": "LAD",
- "as_of": "2026-10-15",
+ "as_of": "2026-10-14",
  "form": {
   "streak": 0,
   "frequency": 0.286,
   "slopes": {
-   "max_ev": -0.957,
+   "max_ev": -1.621,
    "parks_sum": 0.0,
-   "near_hr": 0.0
+   "near_hr": -0.071
   },
   "intensity": 0.0,
   "expectancy_score": 8.6,
-  "last_appearance": "2026-10-12"
+  "last_appearance": "2026-10-14"
  },
  "days": [
+  {
+   "date": "2026-10-14",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 88.5,
+   "max_distance": 291.0,
+   "max_barrel_score": 59.8,
+   "temp_f": 79.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-10-12",
    "bbe": 1,
@@ -234,6 +252,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 849811,
+   "date": "2026-10-14",
+   "player_id": 681624,
+   "player_name": "Andy Pages",
+   "team": "LAD",
+   "opponent": "MIL",
+   "result": "Flyout",
+   "exit_velocity": 88.5,
+   "launch_angle": 33.0,
+   "hit_distance": 291.0,
+   "hc_x": 193.06,
+   "hc_y": 103.37,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "2af972d0-fd13-330f-bc94-c3a93bce2fb1",
+   "venue_id": 22,
+   "venue_name": "UNIQLO Field at Dodger Stadium",
+   "temp_f": 79.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 59.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
   {
    "game_pk": 849812,
    "date": "2026-10-12",

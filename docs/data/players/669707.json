@@ -2,17 +2,17 @@
  "player_id": 669707,
  "player_name": "Jared Triolo",
  "team": "PIT",
- "as_of": "2026-10-15",
+ "as_of": "2026-10-14",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 0.614,
+   "max_ev": -0.039,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.102,
-  "expectancy_score": 3.1,
+  "intensity": 0.0,
+  "expectancy_score": 0.0,
   "last_appearance": "2026-09-26"
  },
  "days": [
@@ -123,6 +123,24 @@
    "wind_mph": 5.0,
    "wind_dir": "out",
    "weather_condition": "Partly Cloudy"
+  },
+  {
+   "date": "2026-09-15",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 91.8,
+   "max_distance": 285.0,
+   "max_barrel_score": 61.3,
+   "temp_f": 79.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
   }
  ],
  "events": [
@@ -383,6 +401,35 @@
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 20.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
+  {
+   "game_pk": 823333,
+   "date": "2026-09-15",
+   "player_id": 669707,
+   "player_name": "Jared Triolo",
+   "team": "PIT",
+   "opponent": "MIL",
+   "result": "Lineout",
+   "exit_velocity": 91.8,
+   "launch_angle": 21.0,
+   "hit_distance": 285.0,
+   "hc_x": 202.79,
+   "hc_y": 113.55,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "74915671-66c6-3c2e-b548-c06b7849044e",
+   "venue_id": 31,
+   "venue_name": "PNC Park",
+   "temp_f": 79.0,
+   "wind_mph": 7.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 61.3,
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
