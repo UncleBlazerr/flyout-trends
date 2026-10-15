@@ -1,0 +1,524 @@
+{
+ "schema_version": 2,
+ "generated_at": "2026-10-15T07:58:08.879313+00:00",
+ "as_of": "2026-10-15",
+ "config": {
+  "min_near_hr_events": 1,
+  "max_gap_days": 2,
+  "slope_window": 7,
+  "streak_cap": 5,
+  "weights": {
+   "streak": 0.4,
+   "frequency": 0.3,
+   "intensity": 0.3
+  },
+  "intensity_scales": {
+   "max_ev": 2.0,
+   "parks_sum": 3.0,
+   "near_hr": 1.0
+  },
+  "xbh_weight": 1.25,
+  "horizon_days": 3,
+  "score_bands": [
+   40,
+   60,
+   80
+  ],
+  "min_samples": 20,
+  "top_n": 15,
+  "consistency_top_n": 15,
+  "records_dir": "data/predictions",
+  "weather": {
+   "enabled": true,
+   "temp_ref_f": 70,
+   "temp_per_deg": 0.004,
+   "wind_out_min_mph": 5,
+   "wind_out_per_mph": 0.012,
+   "wind_out_cap_mph": 20,
+   "wind_in_min_mph": 5,
+   "wind_in_per_mph": 0.008,
+   "wind_in_cap_mph": 20,
+   "clamp": [
+    0.85,
+    1.2
+   ],
+   "neutral_conditions": [
+    "Dome",
+    "Roof Closed"
+   ],
+   "temp_bands": [
+    55,
+    70,
+    85
+   ],
+   "min_samples": 25
+  }
+ },
+ "players": [
+  {
+   "player_id": 650490,
+   "player_name": "Yandy D\u00edaz",
+   "team": "TB",
+   "expectancy_score": 31.7,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 0.179,
+    "parks_sum": 0.0,
+    "near_hr": 0.196
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 114.6,
+   "max_distance_7d": 363,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21120,
+   "weather_factor": 1.0,
+   "adjusted_score": 31.7,
+   "game_weather": {
+    "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 683953,
+   "player_name": "Travis Bazzana",
+   "team": "CLE",
+   "expectancy_score": 28.0,
+   "streak": 1,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 0.15,
+    "parks_sum": 1.821,
+    "near_hr": 0.036
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 107.1,
+   "max_distance_7d": 401,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21120,
+   "weather_factor": 1.0,
+   "adjusted_score": 28.0,
+   "game_weather": {
+    "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 666018,
+   "player_name": "Jonathan Aranda",
+   "team": "TB",
+   "expectancy_score": 16.8,
+   "streak": 0,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 0.154,
+    "parks_sum": 0.857,
+    "near_hr": 0.036
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 106.7,
+   "max_distance_7d": 404,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21120,
+   "weather_factor": 1.0,
+   "adjusted_score": 16.8,
+   "game_weather": {
+    "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 690984,
+   "player_name": "Petey Halpin",
+   "team": "CLE",
+   "expectancy_score": 13.3,
+   "streak": 0,
+   "frequency": 0.143,
+   "slopes": {
+    "max_ev": 1.471,
+    "parks_sum": 0.357,
+    "near_hr": 0.045
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 100.2,
+   "max_distance_7d": 383,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21120,
+   "weather_factor": 1.0,
+   "adjusted_score": 13.3,
+   "game_weather": {
+    "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 680700,
+   "player_name": "Richie Palacios",
+   "team": "TB",
+   "expectancy_score": 8.6,
+   "streak": 0,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": -1.775,
+    "parks_sum": 0.0,
+    "near_hr": -0.089
+   },
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 74.7,
+   "max_distance_7d": 9,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21120,
+   "weather_factor": 1.0,
+   "adjusted_score": 8.6,
+   "game_weather": {
+    "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 666176,
+   "player_name": "Jo Adell",
+   "team": "CLE",
+   "expectancy_score": 8.6,
+   "streak": 0,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": -2.129,
+    "parks_sum": -1.357,
+    "near_hr": -0.089
+   },
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 105.7,
+   "max_distance_7d": 322,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21120,
+   "weather_factor": 1.0,
+   "adjusted_score": 8.6,
+   "game_weather": {
+    "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 689414,
+   "player_name": "Liam Hicks",
+   "team": "TB",
+   "expectancy_score": 8.6,
+   "streak": 0,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": -1.029,
+    "parks_sum": -0.143,
+    "near_hr": -0.152
+   },
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 99.6,
+   "max_distance_7d": 344,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21120,
+   "weather_factor": 1.0,
+   "adjusted_score": 8.6,
+   "game_weather": {
+    "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 676356,
+   "player_name": "Jonny DeLuca",
+   "team": "TB",
+   "expectancy_score": 8.4,
+   "streak": 0,
+   "frequency": 0.143,
+   "slopes": {
+    "max_ev": 0.832,
+    "parks_sum": 0.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 100.0,
+   "max_distance_7d": 275,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21120,
+   "weather_factor": 1.0,
+   "adjusted_score": 8.4,
+   "game_weather": {
+    "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 680757,
+   "player_name": "Steven Kwan",
+   "team": "CLE",
+   "expectancy_score": 7.9,
+   "streak": 0,
+   "frequency": 0.143,
+   "slopes": {
+    "max_ev": 0.646,
+    "parks_sum": 0.0,
+    "near_hr": 0.036
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 96.4,
+   "max_distance_7d": 353,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21120,
+   "weather_factor": 1.0,
+   "adjusted_score": 7.9,
+   "game_weather": {
+    "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 800050,
+   "player_name": "Chase DeLauter",
+   "team": "CLE",
+   "expectancy_score": 7.7,
+   "streak": 0,
+   "frequency": 0.143,
+   "slopes": {
+    "max_ev": 0.604,
+    "parks_sum": 0.0,
+    "near_hr": 0.036
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
+   "max_ev_7d": 110.2,
+   "max_distance_7d": 381,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21120,
+   "weather_factor": 1.0,
+   "adjusted_score": 7.7,
+   "game_weather": {
+    "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 677587,
+   "player_name": "Brayan Rocchio",
+   "team": "CLE",
+   "expectancy_score": 4.6,
+   "streak": 0,
+   "frequency": 0.143,
+   "slopes": {
+    "max_ev": -1.421,
+    "parks_sum": 0.107,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 95.2,
+   "max_distance_7d": 342,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21120,
+   "weather_factor": 1.0,
+   "adjusted_score": 4.6,
+   "game_weather": {
+    "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 663993,
+   "player_name": "Nathaniel Lowe",
+   "team": "CLE",
+   "expectancy_score": 4.3,
+   "streak": 0,
+   "frequency": 0.143,
+   "slopes": {
+    "max_ev": -3.482,
+    "parks_sum": 0.0,
+    "near_hr": -0.071
+   },
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 112.2,
+   "max_distance_7d": 311,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21120,
+   "weather_factor": 1.0,
+   "adjusted_score": 4.3,
+   "game_weather": {
+    "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 691406,
+   "player_name": "Junior Caminero",
+   "team": "TB",
+   "expectancy_score": 4.3,
+   "streak": 0,
+   "frequency": 0.143,
+   "slopes": {
+    "max_ev": -1.021,
+    "parks_sum": 0.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 111.2,
+   "max_distance_7d": 277,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21120,
+   "weather_factor": 1.0,
+   "adjusted_score": 4.3,
+   "game_weather": {
+    "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 670764,
+   "player_name": "Taylor Walls",
+   "team": "TB",
+   "expectancy_score": 4.3,
+   "streak": 0,
+   "frequency": 0.143,
+   "slopes": {
+    "max_ev": -0.429,
+    "parks_sum": 0.0,
+    "near_hr": -0.134
+   },
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 98.7,
+   "max_distance_7d": 319,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21120,
+   "weather_factor": 1.0,
+   "adjusted_score": 4.3,
+   "game_weather": {
+    "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 683748,
+   "player_name": "Victor Mesa Jr.",
+   "team": "TB",
+   "expectancy_score": 4.3,
+   "streak": 0,
+   "frequency": 0.143,
+   "slopes": {
+    "max_ev": -0.232,
+    "parks_sum": 0.0,
+    "near_hr": -0.134
+   },
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 100.8,
+   "max_distance_7d": 213,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21120,
+   "weather_factor": 1.0,
+   "adjusted_score": 4.3,
+   "game_weather": {
+    "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  }
+ ]
+}
