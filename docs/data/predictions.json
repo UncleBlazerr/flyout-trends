@@ -1,39 +1,8 @@
 {
- "as_of": "2026-10-14",
+ "as_of": "2026-10-16",
  "horizon_days": 3,
  "min_samples": 20,
  "players": [
-  {
-   "player_id": 650490,
-   "player_name": "Yandy D\u00edaz",
-   "team": "TB",
-   "expectancy_score": 31.7,
-   "streak": 2,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 0.179,
-    "parks_sum": 0.0,
-    "near_hr": 0.196
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 114.6,
-   "max_distance_7d": 363,
-   "band": "<40",
-   "band_rate": 0.201,
-   "band_samples": 21137,
-   "weather_factor": 1.049,
-   "adjusted_score": 33.3,
-   "game_weather": {
-    "venue_name": "Progressive Field",
-    "temp_f": 62.0,
-    "wind_mph": 7.0,
-    "wind_dir": "out",
-    "weather_condition": "Sunny"
-   },
-   "repeat": true
-  },
   {
    "player_id": 669257,
    "player_name": "Will Smith",
@@ -56,14 +25,8 @@
    "band_samples": 21137,
    "weather_factor": 1.0,
    "adjusted_score": 30.7,
-   "game_weather": {
-    "venue_name": "UNIQLO Field at Dodger Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
+   "game_weather": null,
+   "repeat": false
   },
   {
    "player_id": 605141,
@@ -87,45 +50,8 @@
    "band_samples": 21137,
    "weather_factor": 1.0,
    "adjusted_score": 30.1,
-   "game_weather": {
-    "venue_name": "UNIQLO Field at Dodger Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
-   "player_id": 683953,
-   "player_name": "Travis Bazzana",
-   "team": "CLE",
-   "expectancy_score": 28.0,
-   "streak": 1,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 0.15,
-    "parks_sum": 1.821,
-    "near_hr": 0.036
-   },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 107.1,
-   "max_distance_7d": 401,
-   "band": "<40",
-   "band_rate": 0.201,
-   "band_samples": 21137,
-   "weather_factor": 1.049,
-   "adjusted_score": 29.4,
-   "game_weather": {
-    "venue_name": "Progressive Field",
-    "temp_f": 62.0,
-    "wind_mph": 7.0,
-    "wind_dir": "out",
-    "weather_condition": "Sunny"
-   },
-   "repeat": true
+   "game_weather": null,
+   "repeat": false
   },
   {
    "player_id": 669242,
@@ -149,138 +75,8 @@
    "band_samples": 21137,
    "weather_factor": 1.0,
    "adjusted_score": 23.4,
-   "game_weather": {
-    "venue_name": "UNIQLO Field at Dodger Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
+   "game_weather": null,
    "repeat": false
-  },
-  {
-   "player_id": 666018,
-   "player_name": "Jonathan Aranda",
-   "team": "TB",
-   "expectancy_score": 16.8,
-   "streak": 0,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 0.154,
-    "parks_sum": 0.857,
-    "near_hr": 0.036
-   },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 106.7,
-   "max_distance_7d": 404,
-   "band": "<40",
-   "band_rate": 0.201,
-   "band_samples": 21137,
-   "weather_factor": 1.049,
-   "adjusted_score": 17.6,
-   "game_weather": {
-    "venue_name": "Progressive Field",
-    "temp_f": 62.0,
-    "wind_mph": 7.0,
-    "wind_dir": "out",
-    "weather_condition": "Sunny"
-   },
-   "repeat": true
-  },
-  {
-   "player_id": 672275,
-   "player_name": "Patrick Bailey",
-   "team": "CLE",
-   "expectancy_score": 14.7,
-   "streak": 0,
-   "frequency": 0.429,
-   "slopes": {
-    "max_ev": 0.375,
-    "parks_sum": -1.214,
-    "near_hr": -0.107
-   },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 2,
-   "max_ev_7d": 110.0,
-   "max_distance_7d": 436,
-   "band": "<40",
-   "band_rate": 0.201,
-   "band_samples": 21137,
-   "weather_factor": 1.049,
-   "adjusted_score": 15.4,
-   "game_weather": {
-    "venue_name": "Progressive Field",
-    "temp_f": 62.0,
-    "wind_mph": 7.0,
-    "wind_dir": "out",
-    "weather_condition": "Sunny"
-   },
-   "repeat": true
-  },
-  {
-   "player_id": 592885,
-   "player_name": "Christian Yelich",
-   "team": "MIL",
-   "expectancy_score": 14.5,
-   "streak": 0,
-   "frequency": 0.286,
-   "slopes": {
-    "max_ev": 1.193,
-    "parks_sum": 0.0,
-    "near_hr": -0.107
-   },
-   "near_hr_7d": 0,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 92.7,
-   "max_distance_7d": 279,
-   "band": "<40",
-   "band_rate": 0.201,
-   "band_samples": 21137,
-   "weather_factor": 1.0,
-   "adjusted_score": 14.5,
-   "game_weather": {
-    "venue_name": "UNIQLO Field at Dodger Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
-  },
-  {
-   "player_id": 690984,
-   "player_name": "Petey Halpin",
-   "team": "CLE",
-   "expectancy_score": 13.3,
-   "streak": 0,
-   "frequency": 0.143,
-   "slopes": {
-    "max_ev": 1.471,
-    "parks_sum": 0.357,
-    "near_hr": 0.045
-   },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 100.2,
-   "max_distance_7d": 383,
-   "band": "<40",
-   "band_rate": 0.201,
-   "band_samples": 21137,
-   "weather_factor": 1.049,
-   "adjusted_score": 14.0,
-   "game_weather": {
-    "venue_name": "Progressive Field",
-    "temp_f": 62.0,
-    "wind_mph": 7.0,
-    "wind_dir": "out",
-    "weather_condition": "Sunny"
-   },
-   "repeat": true
   },
   {
    "player_id": 694192,
@@ -304,14 +100,8 @@
    "band_samples": 21137,
    "weather_factor": 1.0,
    "adjusted_score": 13.6,
-   "game_weather": {
-    "venue_name": "UNIQLO Field at Dodger Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
+   "game_weather": null,
+   "repeat": false
   },
   {
    "player_id": 518692,
@@ -335,14 +125,8 @@
    "band_samples": 21137,
    "weather_factor": 1.0,
    "adjusted_score": 13.6,
-   "game_weather": {
-    "venue_name": "UNIQLO Field at Dodger Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": true
+   "game_weather": null,
+   "repeat": false
   },
   {
    "player_id": 500743,
@@ -366,13 +150,7 @@
    "band_samples": 21137,
    "weather_factor": 1.0,
    "adjusted_score": 12.8,
-   "game_weather": {
-    "venue_name": "UNIQLO Field at Dodger Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
+   "game_weather": null,
    "repeat": false
   },
   {
@@ -397,76 +175,208 @@
    "band_samples": 21137,
    "weather_factor": 1.0,
    "adjusted_score": 12.0,
-   "game_weather": {
-    "venue_name": "UNIQLO Field at Dodger Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
+   "game_weather": null,
    "repeat": false
   },
   {
-   "player_id": 668723,
-   "player_name": "Ryan Vilade",
-   "team": "TB",
+   "player_id": 669003,
+   "player_name": "Garrett Mitchell",
+   "team": "MIL",
    "expectancy_score": 10.0,
+   "streak": 0,
+   "frequency": 0.0,
+   "slopes": {
+    "max_ev": 2.496,
+    "parks_sum": 0.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
+   "max_ev_7d": 111.5,
+   "max_distance_7d": 428,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21137,
+   "weather_factor": 1.0,
+   "adjusted_score": 10.0,
+   "game_weather": null,
+   "repeat": false
+  },
+  {
+   "player_id": 681624,
+   "player_name": "Andy Pages",
+   "team": "LAD",
+   "expectancy_score": 8.6,
    "streak": 0,
    "frequency": 0.286,
    "slopes": {
-    "max_ev": -3.511,
-    "parks_sum": 0.429,
+    "max_ev": -1.621,
+    "parks_sum": 0.0,
+    "near_hr": -0.071
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 98.8,
+   "max_distance_7d": 347,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21137,
+   "weather_factor": 1.0,
+   "adjusted_score": 8.6,
+   "game_weather": null,
+   "repeat": false
+  },
+  {
+   "player_id": 571970,
+   "player_name": "Max Muncy",
+   "team": "LAD",
+   "expectancy_score": 8.6,
+   "streak": 0,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": -2.564,
+    "parks_sum": -2.464,
+    "near_hr": -0.107
+   },
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 106.7,
+   "max_distance_7d": 208,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21137,
+   "weather_factor": 1.0,
+   "adjusted_score": 8.6,
+   "game_weather": null,
+   "repeat": false
+  },
+  {
+   "player_id": 571771,
+   "player_name": "Enrique Hern\u00e1ndez",
+   "team": "LAD",
+   "expectancy_score": 5.7,
+   "streak": 0,
+   "frequency": 0.143,
+   "slopes": {
+    "max_ev": -1.807,
+    "parks_sum": 0.0,
+    "near_hr": 0.143
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 99.9,
+   "max_distance_7d": 385,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21137,
+   "weather_factor": 1.0,
+   "adjusted_score": 5.7,
+   "game_weather": null,
+   "repeat": false
+  },
+  {
+   "player_id": 641343,
+   "player_name": "Jake Bauers",
+   "team": "MIL",
+   "expectancy_score": 4.3,
+   "streak": 0,
+   "frequency": 0.143,
+   "slopes": {
+    "max_ev": -2.243,
+    "parks_sum": 0.0,
+    "near_hr": -0.107
+   },
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
+   "max_ev_7d": 109.4,
+   "max_distance_7d": 412,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21137,
+   "weather_factor": 1.0,
+   "adjusted_score": 4.3,
+   "game_weather": null,
+   "repeat": false
+  },
+  {
+   "player_id": 683734,
+   "player_name": "Andrew Vaughn",
+   "team": "MIL",
+   "expectancy_score": 4.3,
+   "streak": 0,
+   "frequency": 0.143,
+   "slopes": {
+    "max_ev": -1.793,
+    "parks_sum": 0.0,
     "near_hr": -0.036
    },
    "near_hr_7d": 0,
    "near_hr_xbh_7d": 0,
    "hr_7d": 0,
-   "max_ev_7d": 85.1,
-   "max_distance_7d": 121,
-   "band": "<40",
-   "band_rate": 0.201,
-   "band_samples": 21137,
-   "weather_factor": 1.049,
-   "adjusted_score": 10.5,
-   "game_weather": {
-    "venue_name": "Progressive Field",
-    "temp_f": 62.0,
-    "wind_mph": 7.0,
-    "wind_dir": "out",
-    "weather_condition": "Sunny"
-   },
-   "repeat": true
-  },
-  {
-   "player_id": 666152,
-   "player_name": "David Hamilton",
-   "team": "MIL",
-   "expectancy_score": 10.1,
-   "streak": 0,
-   "frequency": 0.286,
-   "slopes": {
-    "max_ev": 0.304,
-    "parks_sum": -0.036,
-    "near_hr": -0.045
-   },
-   "near_hr_7d": 0,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 86.7,
-   "max_distance_7d": 281,
+   "max_ev_7d": 96.9,
+   "max_distance_7d": 184,
    "band": "<40",
    "band_rate": 0.201,
    "band_samples": 21137,
    "weather_factor": 1.0,
-   "adjusted_score": 10.1,
-   "game_weather": {
-    "venue_name": "UNIQLO Field at Dodger Stadium",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+   "adjusted_score": 4.3,
+   "game_weather": null,
+   "repeat": false
+  },
+  {
+   "player_id": 606192,
+   "player_name": "Teoscar Hern\u00e1ndez",
+   "team": "LAD",
+   "expectancy_score": 4.3,
+   "streak": 0,
+   "frequency": 0.143,
+   "slopes": {
+    "max_ev": -3.143,
+    "parks_sum": -0.679,
+    "near_hr": -0.036
    },
-   "repeat": true
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 102.2,
+   "max_distance_7d": 289,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21137,
+   "weather_factor": 1.0,
+   "adjusted_score": 4.3,
+   "game_weather": null,
+   "repeat": false
+  },
+  {
+   "player_id": 660271,
+   "player_name": "Shohei Ohtani",
+   "team": "LAD",
+   "expectancy_score": 4.3,
+   "streak": 0,
+   "frequency": 0.143,
+   "slopes": {
+    "max_ev": -0.814,
+    "parks_sum": 0.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 113.5,
+   "max_distance_7d": 316,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21137,
+   "weather_factor": 1.0,
+   "adjusted_score": 4.3,
+   "game_weather": null,
+   "repeat": false
   }
  ],
  "bands": {
@@ -514,24 +424,6 @@
    "flagged_on": "2026-10-13",
    "flagged_score": 30.6,
    "hr_on": "2026-10-14",
-   "hr_count": 1
-  },
-  {
-   "player_id": 800050,
-   "player_name": "Chase DeLauter",
-   "team": "CLE",
-   "flagged_on": "2026-10-11",
-   "flagged_score": 17.4,
-   "hr_on": "2026-10-12",
-   "hr_count": 1
-  },
-  {
-   "player_id": 672275,
-   "player_name": "Patrick Bailey",
-   "team": "CLE",
-   "flagged_on": "2026-10-11",
-   "flagged_score": 17.1,
-   "hr_on": "2026-10-12",
    "hr_count": 1
   }
  ]
