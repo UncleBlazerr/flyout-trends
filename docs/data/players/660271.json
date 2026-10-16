@@ -2,20 +2,38 @@
  "player_id": 660271,
  "player_name": "Shohei Ohtani",
  "team": "LAD",
- "as_of": "2026-10-16",
+ "as_of": "2026-10-15",
  "form": {
   "streak": 0,
   "frequency": 0.143,
   "slopes": {
-   "max_ev": -0.814,
+   "max_ev": 2.275,
    "parks_sum": 0.0,
-   "near_hr": 0.0
+   "near_hr": -0.036
   },
-  "intensity": 0.0,
-  "expectancy_score": 4.3,
-  "last_appearance": "2026-10-14"
+  "intensity": 0.333,
+  "expectancy_score": 14.3,
+  "last_appearance": "2026-10-15"
  },
  "days": [
+  {
+   "date": "2026-10-15",
+   "bbe": 1,
+   "hr": 1,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 113.1,
+   "max_distance": 428.0,
+   "max_barrel_score": 89.8,
+   "temp_f": 90.0,
+   "wind_mph": 2.0,
+   "wind_dir": "none",
+   "weather_condition": "Clear"
+  },
   {
    "date": "2026-10-14",
    "bbe": 2,
@@ -234,6 +252,35 @@
   }
  ],
  "events": [
+  {
+   "game_pk": 849810,
+   "date": "2026-10-15",
+   "player_id": 660271,
+   "player_name": "Shohei Ohtani",
+   "team": "LAD",
+   "opponent": "MIL",
+   "result": "Home Run",
+   "exit_velocity": 113.1,
+   "launch_angle": 34.0,
+   "hit_distance": 428.0,
+   "hc_x": 187.05,
+   "hc_y": 36.53,
+   "would_be_hr_count": 30,
+   "inning": 2,
+   "play_id": "f6d4bb0a-c4eb-34b9-a9e7-485d911055fe",
+   "venue_id": 22,
+   "venue_name": "UNIQLO Field at Dodger Stadium",
+   "temp_f": 90.0,
+   "wind_mph": 2.0,
+   "wind_dir": "none",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 89.8,
+   "barrel_flag": false,
+   "is_home_run": true,
+   "is_near_hr": false
+  },
   {
    "game_pk": 849811,
    "date": "2026-10-14",

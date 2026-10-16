@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-16",
+ "as_of": "2026-10-15",
  "horizon_days": 3,
  "temp_bands": [
   55,
@@ -11,13 +11,13 @@
   {
    "temp_band": "55-70",
    "wind": "out",
-   "player_days": 761,
-   "hr_days": 79,
-   "hr_total": 81,
-   "near_hr_days": 169,
+   "player_days": 778,
+   "hr_days": 80,
+   "hr_total": 82,
+   "near_hr_days": 173,
    "follow_samples": 169,
    "hr_followed": 37,
-   "hr_rate": 0.104,
+   "hr_rate": 0.103,
    "near_hr_rate": 0.222,
    "follow_rate": 0.219
   },
@@ -115,14 +115,14 @@
   {
    "temp_band": "85+",
    "wind": "neutral",
-   "player_days": 1935,
-   "hr_days": 230,
-   "hr_total": 246,
-   "near_hr_days": 440,
-   "follow_samples": 437,
-   "hr_followed": 99,
+   "player_days": 1954,
+   "hr_days": 233,
+   "hr_total": 249,
+   "near_hr_days": 447,
+   "follow_samples": 440,
+   "hr_followed": 100,
    "hr_rate": 0.119,
-   "near_hr_rate": 0.227,
+   "near_hr_rate": 0.229,
    "follow_rate": 0.227
   }
  ],
@@ -131,11 +131,11 @@
   "hr_days": 464,
   "hr_total": 482,
   "near_hr_days": 872,
-  "follow_samples": 868,
+  "follow_samples": 870,
   "hr_followed": 209,
   "hr_rate": 0.111,
   "near_hr_rate": 0.209,
-  "follow_rate": 0.241
+  "follow_rate": 0.24
  },
  "unknown_player_days": 0
 }
