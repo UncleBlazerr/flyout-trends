@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-17",
+ "as_of": "2026-10-16",
  "horizon_days": 3,
  "min_samples": 20,
  "players": [
@@ -32,7 +32,7 @@
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 605141,
@@ -113,7 +113,7 @@
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 669257,
@@ -219,7 +219,7 @@
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 683953,
@@ -250,7 +250,7 @@
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 663993,
@@ -281,7 +281,7 @@
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 669242,
@@ -331,7 +331,7 @@
    "weather_factor": 1.0,
    "adjusted_score": 14.5,
    "game_weather": null,
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 666018,
@@ -362,7 +362,38 @@
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": false
+   "repeat": true
+  },
+  {
+   "player_id": 690984,
+   "player_name": "Petey Halpin",
+   "team": "CLE",
+   "expectancy_score": 14.3,
+   "streak": 0,
+   "frequency": 0.143,
+   "slopes": {
+    "max_ev": 3.325,
+    "parks_sum": 0.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 1,
+   "max_ev_7d": 105.0,
+   "max_distance_7d": 385,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21177,
+   "weather_factor": 1.0,
+   "adjusted_score": 14.3,
+   "game_weather": {
+    "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
   },
   {
    "player_id": 592885,
@@ -381,31 +412,6 @@
    "hr_7d": 0,
    "max_ev_7d": 100.8,
    "max_distance_7d": 279,
-   "band": "<40",
-   "band_rate": 0.201,
-   "band_samples": 21177,
-   "weather_factor": 1.0,
-   "adjusted_score": 14.3,
-   "game_weather": null,
-   "repeat": false
-  },
-  {
-   "player_id": 660271,
-   "player_name": "Shohei Ohtani",
-   "team": "LAD",
-   "expectancy_score": 14.3,
-   "streak": 0,
-   "frequency": 0.143,
-   "slopes": {
-    "max_ev": 2.275,
-    "parks_sum": 0.0,
-    "near_hr": -0.036
-   },
-   "near_hr_7d": 0,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 1,
-   "max_ev_7d": 113.5,
-   "max_distance_7d": 428,
    "band": "<40",
    "band_rate": 0.201,
    "band_samples": 21177,
@@ -469,6 +475,15 @@
    "flagged_on": "2026-10-14",
    "flagged_score": 10.1,
    "hr_on": "2026-10-15",
+   "hr_count": 1
+  },
+  {
+   "player_id": 694192,
+   "player_name": "Jackson Chourio",
+   "team": "MIL",
+   "flagged_on": "2026-10-13",
+   "flagged_score": 30.6,
+   "hr_on": "2026-10-14",
    "hr_count": 1
   }
  ]
