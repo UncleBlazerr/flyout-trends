@@ -1,12 +1,424 @@
 {
- "as_of": "2026-10-18",
+ "as_of": "2026-10-17",
  "horizon_days": 3,
  "min_samples": 20,
- "players": [],
+ "players": [
+  {
+   "player_id": 605141,
+   "player_name": "Mookie Betts",
+   "team": "LAD",
+   "expectancy_score": 39.6,
+   "streak": 2,
+   "frequency": 0.714,
+   "slopes": {
+    "max_ev": 0.293,
+    "parks_sum": -0.071,
+    "near_hr": 0.071
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 100.9,
+   "max_distance_7d": 375,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21216,
+   "weather_factor": 1.0,
+   "adjusted_score": 39.6,
+   "game_weather": null,
+   "repeat": true
+  },
+  {
+   "player_id": 666176,
+   "player_name": "Jo Adell",
+   "team": "CLE",
+   "expectancy_score": 32.1,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 0.429,
+    "parks_sum": 0.0,
+    "near_hr": 0.107
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 106.8,
+   "max_distance_7d": 358,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21216,
+   "weather_factor": 1.0,
+   "adjusted_score": 32.1,
+   "game_weather": {
+    "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 694192,
+   "player_name": "Jackson Chourio",
+   "team": "MIL",
+   "expectancy_score": 27.6,
+   "streak": 1,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": 0.136,
+    "parks_sum": 0.0,
+    "near_hr": 0.179
+   },
+   "near_hr_7d": 4,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
+   "max_ev_7d": 109.8,
+   "max_distance_7d": 391,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21216,
+   "weather_factor": 1.0,
+   "adjusted_score": 27.6,
+   "game_weather": null,
+   "repeat": true
+  },
+  {
+   "player_id": 672275,
+   "player_name": "Patrick Bailey",
+   "team": "CLE",
+   "expectancy_score": 27.3,
+   "streak": 1,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 0.861,
+    "parks_sum": 0.643,
+    "near_hr": -0.036
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
+   "max_ev_7d": 107.9,
+   "max_distance_7d": 436,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21216,
+   "weather_factor": 1.0,
+   "adjusted_score": 27.3,
+   "game_weather": {
+    "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 691406,
+   "player_name": "Junior Caminero",
+   "team": "TB",
+   "expectancy_score": 23.5,
+   "streak": 1,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": 0.039,
+    "parks_sum": 1.821,
+    "near_hr": 0.062
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 111.2,
+   "max_distance_7d": 410,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21216,
+   "weather_factor": 1.0,
+   "adjusted_score": 23.5,
+   "game_weather": {
+    "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 669257,
+   "player_name": "Will Smith",
+   "team": "LAD",
+   "expectancy_score": 19.5,
+   "streak": 0,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": 1.846,
+    "parks_sum": 0.143,
+    "near_hr": 0.125
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 102.0,
+   "max_distance_7d": 384,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21216,
+   "weather_factor": 1.0,
+   "adjusted_score": 19.5,
+   "game_weather": null,
+   "repeat": true
+  },
+  {
+   "player_id": 683953,
+   "player_name": "Travis Bazzana",
+   "team": "CLE",
+   "expectancy_score": 19.5,
+   "streak": 0,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": 1.775,
+    "parks_sum": 0.607,
+    "near_hr": -0.107
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
+   "max_ev_7d": 107.8,
+   "max_distance_7d": 401,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21216,
+   "weather_factor": 1.0,
+   "adjusted_score": 19.5,
+   "game_weather": {
+    "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 571771,
+   "player_name": "Enrique Hern\u00e1ndez",
+   "team": "LAD",
+   "expectancy_score": 18.4,
+   "streak": 1,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": -0.325,
+    "parks_sum": 0.0,
+    "near_hr": 0.179
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 107.9,
+   "max_distance_7d": 385,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21216,
+   "weather_factor": 1.0,
+   "adjusted_score": 18.4,
+   "game_weather": null,
+   "repeat": true
+  },
+  {
+   "player_id": 681624,
+   "player_name": "Andy Pages",
+   "team": "LAD",
+   "expectancy_score": 17.9,
+   "streak": 1,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": -0.221,
+    "parks_sum": 0.0,
+    "near_hr": 0.134
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 111.4,
+   "max_distance_7d": 347,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21216,
+   "weather_factor": 1.0,
+   "adjusted_score": 17.9,
+   "game_weather": null,
+   "repeat": true
+  },
+  {
+   "player_id": 650490,
+   "player_name": "Yandy D\u00edaz",
+   "team": "TB",
+   "expectancy_score": 17.7,
+   "streak": 0,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": -0.346,
+    "parks_sum": 0.0,
+    "near_hr": 0.054
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 1,
+   "max_ev_7d": 114.6,
+   "max_distance_7d": 363,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21216,
+   "weather_factor": 1.0,
+   "adjusted_score": 17.7,
+   "game_weather": {
+    "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 800050,
+   "player_name": "Chase DeLauter",
+   "team": "CLE",
+   "expectancy_score": 17.3,
+   "streak": 1,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": -1.279,
+    "parks_sum": 0.0,
+    "near_hr": 0.071
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
+   "max_ev_7d": 109.1,
+   "max_distance_7d": 381,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21216,
+   "weather_factor": 1.0,
+   "adjusted_score": 17.3,
+   "game_weather": {
+    "venue_name": "Progressive Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 669242,
+   "player_name": "Tommy Edman",
+   "team": "LAD",
+   "expectancy_score": 15.0,
+   "streak": 0,
+   "frequency": 0.143,
+   "slopes": {
+    "max_ev": 6.821,
+    "parks_sum": 0.0,
+    "near_hr": 0.071
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 110.6,
+   "max_distance_7d": 345,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21216,
+   "weather_factor": 1.0,
+   "adjusted_score": 15.0,
+   "game_weather": null,
+   "repeat": true
+  },
+  {
+   "player_id": 661388,
+   "player_name": "William Contreras",
+   "team": "MIL",
+   "expectancy_score": 14.5,
+   "streak": 1,
+   "frequency": 0.143,
+   "slopes": {
+    "max_ev": 0.168,
+    "parks_sum": 0.0,
+    "near_hr": 0.134
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 1,
+   "max_ev_7d": 108.4,
+   "max_distance_7d": 436,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21216,
+   "weather_factor": 1.0,
+   "adjusted_score": 14.5,
+   "game_weather": null,
+   "repeat": true
+  },
+  {
+   "player_id": 592885,
+   "player_name": "Christian Yelich",
+   "team": "MIL",
+   "expectancy_score": 14.3,
+   "streak": 0,
+   "frequency": 0.143,
+   "slopes": {
+    "max_ev": 2.046,
+    "parks_sum": -0.036,
+    "near_hr": -0.036
+   },
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 100.8,
+   "max_distance_7d": 279,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21216,
+   "weather_factor": 1.0,
+   "adjusted_score": 14.3,
+   "game_weather": null,
+   "repeat": true
+  },
+  {
+   "player_id": 660271,
+   "player_name": "Shohei Ohtani",
+   "team": "LAD",
+   "expectancy_score": 14.3,
+   "streak": 0,
+   "frequency": 0.143,
+   "slopes": {
+    "max_ev": 2.275,
+    "parks_sum": 0.0,
+    "near_hr": -0.036
+   },
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
+   "max_ev_7d": 113.5,
+   "max_distance_7d": 428,
+   "band": "<40",
+   "band_rate": 0.201,
+   "band_samples": 21216,
+   "weather_factor": 1.0,
+   "adjusted_score": 14.3,
+   "game_weather": null,
+   "repeat": false
+  }
+ ],
  "bands": {
   "<40": {
-   "samples": 21177,
-   "hr_followed": 4251,
+   "samples": 21216,
+   "hr_followed": 4254,
    "rate": 0.201
   },
   "40-60": {
@@ -26,11 +438,11 @@
   }
  },
  "hit_rate": {
-  "resolved_records": 100,
+  "resolved_records": 102,
   "horizon_days": 3,
   "overall": {
-   "flagged": 1500,
-   "hr_followed": 312,
+   "flagged": 1530,
+   "hr_followed": 319,
    "rate": 0.208
   },
   "top_band": {
@@ -40,5 +452,42 @@
    "rate": 0.5
   }
  },
- "recent_hits": []
+ "recent_hits": [
+  {
+   "player_id": 650490,
+   "player_name": "Yandy D\u00edaz",
+   "team": "TB",
+   "flagged_on": "2026-10-16",
+   "flagged_score": 44.3,
+   "hr_on": "2026-10-17",
+   "hr_count": 1
+  },
+  {
+   "player_id": 683953,
+   "player_name": "Travis Bazzana",
+   "team": "CLE",
+   "flagged_on": "2026-10-16",
+   "flagged_score": 16.9,
+   "hr_on": "2026-10-17",
+   "hr_count": 1
+  },
+  {
+   "player_id": 690984,
+   "player_name": "Petey Halpin",
+   "team": "CLE",
+   "flagged_on": "2026-10-14",
+   "flagged_score": 13.3,
+   "hr_on": "2026-10-15",
+   "hr_count": 1
+  },
+  {
+   "player_id": 666152,
+   "player_name": "David Hamilton",
+   "team": "MIL",
+   "flagged_on": "2026-10-14",
+   "flagged_score": 10.1,
+   "hr_on": "2026-10-15",
+   "hr_count": 1
+  }
+ ]
 }
