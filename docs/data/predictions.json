@@ -48,14 +48,14 @@
    "band": "<40",
    "band_rate": 0.201,
    "band_samples": 21216,
-   "weather_factor": 1.0,
-   "adjusted_score": 32.1,
+   "weather_factor": 0.968,
+   "adjusted_score": 31.1,
    "game_weather": {
     "venue_name": "Progressive Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 62.0,
+    "wind_mph": 5.0,
+    "wind_dir": "varies",
+    "weather_condition": "Clear"
    },
    "repeat": true
   },
@@ -104,14 +104,14 @@
    "band": "<40",
    "band_rate": 0.201,
    "band_samples": 21216,
-   "weather_factor": 1.0,
-   "adjusted_score": 27.3,
+   "weather_factor": 0.968,
+   "adjusted_score": 26.4,
    "game_weather": {
     "venue_name": "Progressive Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 62.0,
+    "wind_mph": 5.0,
+    "wind_dir": "varies",
+    "weather_condition": "Clear"
    },
    "repeat": false
   },
@@ -135,14 +135,14 @@
    "band": "<40",
    "band_rate": 0.201,
    "band_samples": 21216,
-   "weather_factor": 1.0,
-   "adjusted_score": 23.5,
+   "weather_factor": 0.968,
+   "adjusted_score": 22.7,
    "game_weather": {
     "venue_name": "Progressive Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 62.0,
+    "wind_mph": 5.0,
+    "wind_dir": "varies",
+    "weather_condition": "Clear"
    },
    "repeat": false
   },
@@ -191,14 +191,14 @@
    "band": "<40",
    "band_rate": 0.201,
    "band_samples": 21216,
-   "weather_factor": 1.0,
-   "adjusted_score": 19.5,
+   "weather_factor": 0.968,
+   "adjusted_score": 18.9,
    "game_weather": {
     "venue_name": "Progressive Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 62.0,
+    "wind_mph": 5.0,
+    "wind_dir": "varies",
+    "weather_condition": "Clear"
    },
    "repeat": true
   },
@@ -272,14 +272,14 @@
    "band": "<40",
    "band_rate": 0.201,
    "band_samples": 21216,
-   "weather_factor": 1.0,
-   "adjusted_score": 17.7,
+   "weather_factor": 0.968,
+   "adjusted_score": 17.1,
    "game_weather": {
     "venue_name": "Progressive Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 62.0,
+    "wind_mph": 5.0,
+    "wind_dir": "varies",
+    "weather_condition": "Clear"
    },
    "repeat": true
   },
@@ -303,14 +303,14 @@
    "band": "<40",
    "band_rate": 0.201,
    "band_samples": 21216,
-   "weather_factor": 1.0,
-   "adjusted_score": 17.3,
+   "weather_factor": 0.968,
+   "adjusted_score": 16.7,
    "game_weather": {
     "venue_name": "Progressive Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 62.0,
+    "wind_mph": 5.0,
+    "wind_dir": "varies",
+    "weather_condition": "Clear"
    },
    "repeat": false
   },
