@@ -2,9 +2,9 @@
  "player_id": 641343,
  "player_name": "Jake Bauers",
  "team": "MIL",
- "as_of": "2026-10-17",
+ "as_of": "2026-10-19",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.143,
   "slopes": {
    "max_ev": -0.379,
@@ -12,7 +12,7 @@
    "near_hr": 0.134
   },
   "intensity": 0.045,
-  "expectancy_score": 13.6,
+  "expectancy_score": 5.6,
   "last_appearance": "2026-10-15"
  },
  "days": [
@@ -267,24 +267,6 @@
    "wind_mph": 6.0,
    "wind_dir": "out",
    "weather_condition": "Cloudy"
-  },
-  {
-   "date": "2026-09-18",
-   "bbe": 1,
-   "hr": 0,
-   "near_hr_any": 0,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 0,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 0,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 66.9,
-   "max_distance": 10.0,
-   "max_barrel_score": 0.7,
-   "temp_f": 80.0,
-   "wind_mph": 9.0,
-   "wind_dir": "in",
-   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -1067,35 +1049,6 @@
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 5.5,
-   "barrel_flag": false,
-   "is_home_run": false,
-   "is_near_hr": false
-  },
-  {
-   "game_pk": 824790,
-   "date": "2026-09-18",
-   "player_id": 641343,
-   "player_name": "Jake Bauers",
-   "team": "MIL",
-   "opponent": "BAL",
-   "result": "Groundout",
-   "exit_velocity": 66.9,
-   "launch_angle": -14.0,
-   "hit_distance": 10.0,
-   "hc_x": 131.54,
-   "hc_y": 155.23,
-   "would_be_hr_count": 0,
-   "inning": 5,
-   "play_id": "929c4db5-d5cb-3aaa-8772-e509ac95b50f",
-   "venue_id": 2,
-   "venue_name": "Oriole Park at Camden Yards",
-   "temp_f": 80.0,
-   "wind_mph": 9.0,
-   "wind_dir": "in",
-   "weather_condition": "Partly Cloudy",
-   "distance_flag": false,
-   "would_be_hr_flag": false,
-   "barrel_score": 0.7,
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
