@@ -2,17 +2,17 @@
  "player_id": 699115,
  "player_name": "Carlos Jorge",
  "team": "CIN",
- "as_of": "2026-10-20",
+ "as_of": "2026-10-19",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 1.47,
+   "max_ev": 1.366,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.245,
-  "expectancy_score": 7.3,
+  "intensity": 0.228,
+  "expectancy_score": 6.8,
   "last_appearance": "2026-09-27"
  },
  "days": [
@@ -105,6 +105,24 @@
    "wind_mph": 5.0,
    "wind_dir": "out",
    "weather_condition": "Overcast"
+  },
+  {
+   "date": "2026-09-20",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 82.1,
+   "max_distance": 3.0,
+   "max_barrel_score": 11.0,
+   "temp_f": 86.0,
+   "wind_mph": 6.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -539,6 +557,35 @@
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 1.0,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
+  {
+   "game_pk": 824462,
+   "date": "2026-09-20",
+   "player_id": 699115,
+   "player_name": "Carlos Jorge",
+   "team": "CIN",
+   "opponent": "CHC",
+   "result": "Field Error",
+   "exit_velocity": 82.1,
+   "launch_angle": -34.0,
+   "hit_distance": 3.0,
+   "hc_x": 117.73,
+   "hc_y": 170.34,
+   "would_be_hr_count": 0,
+   "inning": 8,
+   "play_id": "da431cd3-6d4b-32b3-9c3c-525c9ad02e77",
+   "venue_id": 2602,
+   "venue_name": "Great American Ball Park",
+   "temp_f": 86.0,
+   "wind_mph": 6.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 11.0,
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false

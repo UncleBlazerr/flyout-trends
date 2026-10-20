@@ -2,17 +2,17 @@
  "player_id": 683146,
  "player_name": "Brett Baty",
  "team": "NYM",
- "as_of": "2026-10-20",
+ "as_of": "2026-10-19",
  "form": {
   "streak": 0,
-  "frequency": 0.333,
+  "frequency": 0.286,
   "slopes": {
-   "max_ev": -1.126,
+   "max_ev": -0.036,
    "parks_sum": 0.0,
-   "near_hr": 0.057
+   "near_hr": 0.071
   },
-  "intensity": 0.019,
-  "expectancy_score": 10.6,
+  "intensity": 0.024,
+  "expectancy_score": 9.3,
   "last_appearance": "2026-09-27"
  },
  "days": [
@@ -123,6 +123,24 @@
    "wind_mph": 0.0,
    "wind_dir": "none",
    "weather_condition": "Roof Closed"
+  },
+  {
+   "date": "2026-09-20",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 94.4,
+   "max_distance": 12.0,
+   "max_barrel_score": 22.5,
+   "temp_f": 68.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Drizzle"
   }
  ],
  "events": [
@@ -470,6 +488,35 @@
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 14.2,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
+  {
+   "game_pk": 823570,
+   "date": "2026-09-20",
+   "player_id": 683146,
+   "player_name": "Brett Baty",
+   "team": "NYM",
+   "opponent": "PHI",
+   "result": "Single",
+   "exit_velocity": 94.4,
+   "launch_angle": -10.0,
+   "hit_distance": 12.0,
+   "hc_x": 170.0,
+   "hc_y": 116.0,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "a87b5d16-04c7-319e-be72-1864d6847305",
+   "venue_id": 3289,
+   "venue_name": "Citi Field",
+   "temp_f": 68.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Drizzle",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 22.5,
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false

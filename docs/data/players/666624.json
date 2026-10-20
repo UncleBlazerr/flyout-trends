@@ -2,17 +2,17 @@
  "player_id": 666624,
  "player_name": "Christopher Morel",
  "team": "NYM",
- "as_of": "2026-10-20",
+ "as_of": "2026-10-19",
  "form": {
   "streak": 0,
   "frequency": 0.0,
   "slopes": {
-   "max_ev": 0.0,
+   "max_ev": 37.0,
    "parks_sum": 0.0,
    "near_hr": 0.0
   },
-  "intensity": 0.0,
-  "expectancy_score": 0.0,
+  "intensity": 0.333,
+  "expectancy_score": 10.0,
   "last_appearance": "2026-09-25"
  },
  "days": [
@@ -33,6 +33,24 @@
    "wind_mph": 5.0,
    "wind_dir": "in",
    "weather_condition": "Partly Cloudy"
+  },
+  {
+   "date": "2026-09-20",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 54.3,
+   "max_distance": 8.0,
+   "max_barrel_score": 0.5,
+   "temp_f": 68.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Drizzle"
   }
  ],
  "events": [
@@ -119,6 +137,35 @@
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 0.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
+  {
+   "game_pk": 823570,
+   "date": "2026-09-20",
+   "player_id": 666624,
+   "player_name": "Christopher Morel",
+   "team": "NYM",
+   "opponent": "PHI",
+   "result": "Groundout",
+   "exit_velocity": 54.3,
+   "launch_angle": -16.0,
+   "hit_distance": 8.0,
+   "hc_x": 149.11,
+   "hc_y": 172.55,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "db6dc414-1454-37ee-b387-05282d8fe18b",
+   "venue_id": 3289,
+   "venue_name": "Citi Field",
+   "temp_f": 68.0,
+   "wind_mph": 8.0,
+   "wind_dir": "out",
+   "weather_condition": "Drizzle",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 0.5,
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
