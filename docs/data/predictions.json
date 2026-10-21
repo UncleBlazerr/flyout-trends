@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-19",
+ "as_of": "2026-10-21",
  "horizon_days": 3,
  "min_samples": 20,
  "players": [
@@ -15,7 +15,7 @@
     "parks_sum": 0.0,
     "near_hr": 0.071
    },
-   "near_hr_7d": 4,
+   "near_hr_7d": 3,
    "near_hr_xbh_7d": 2,
    "hr_7d": 2,
    "max_ev_7d": 111.9,
@@ -190,11 +190,11 @@
     "parks_sum": -0.607,
     "near_hr": -0.036
    },
-   "near_hr_7d": 1,
+   "near_hr_7d": 0,
    "near_hr_xbh_7d": 0,
    "hr_7d": 1,
    "max_ev_7d": 107.8,
-   "max_distance_7d": 401,
+   "max_distance_7d": 374,
    "band": "<40",
    "band_rate": 0.2,
    "band_samples": 21251,
@@ -219,7 +219,7 @@
    "near_hr_xbh_7d": 0,
    "hr_7d": 0,
    "max_ev_7d": 102.1,
-   "max_distance_7d": 335,
+   "max_distance_7d": 309,
    "band": "<40",
    "band_rate": 0.2,
    "band_samples": 21251,
@@ -326,7 +326,7 @@
    "weather_factor": 1.0,
    "adjusted_score": 4.3,
    "game_weather": null,
-   "repeat": true
+   "repeat": false
   },
   {
    "player_id": 666018,
@@ -368,7 +368,7 @@
    "near_hr_7d": 0,
    "near_hr_xbh_7d": 0,
    "hr_7d": 0,
-   "max_ev_7d": 96.4,
+   "max_ev_7d": 95.7,
    "max_distance_7d": 349,
    "band": "<40",
    "band_rate": 0.2,
@@ -433,15 +433,6 @@
    "flagged_on": "2026-10-18",
    "flagged_score": 12.6,
    "hr_on": "2026-10-19",
-   "hr_count": 1
-  },
-  {
-   "player_id": 683953,
-   "player_name": "Travis Bazzana",
-   "team": "CLE",
-   "flagged_on": "2026-10-16",
-   "flagged_score": 16.9,
-   "hr_on": "2026-10-17",
    "hr_count": 1
   }
  ]

@@ -2,17 +2,17 @@
  "player_id": 804668,
  "player_name": "Rafael Flores Jr.",
  "team": "PIT",
- "as_of": "2026-10-19",
+ "as_of": "2026-10-21",
  "form": {
   "streak": 0,
-  "frequency": 0.2,
+  "frequency": 0.0,
   "slopes": {
-   "max_ev": -2.79,
+   "max_ev": -1.41,
    "parks_sum": 0.0,
-   "near_hr": -0.25
+   "near_hr": 0.0
   },
   "intensity": 0.0,
-  "expectancy_score": 6.0,
+  "expectancy_score": 0.0,
   "last_appearance": "2026-09-27"
  },
  "days": [
@@ -87,24 +87,6 @@
    "wind_mph": 11.0,
    "wind_dir": "in",
    "weather_condition": "Overcast"
-  },
-  {
-   "date": "2026-09-20",
-   "bbe": 2,
-   "hr": 1,
-   "near_hr_any": 1,
-   "near_hr_xbh": 1,
-   "near_hr_distance": 0,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 1,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 110.2,
-   "max_distance": 426.0,
-   "max_barrel_score": 92.5,
-   "temp_f": 72.0,
-   "wind_mph": 7.0,
-   "wind_dir": "out",
-   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -426,64 +408,6 @@
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
-  },
-  {
-   "game_pk": 823329,
-   "date": "2026-09-20",
-   "player_id": 804668,
-   "player_name": "Rafael Flores Jr.",
-   "team": "PIT",
-   "opponent": "KC",
-   "result": "Home Run",
-   "exit_velocity": 110.2,
-   "launch_angle": 29.0,
-   "hit_distance": 426.0,
-   "hc_x": 23.43,
-   "hc_y": 58.93,
-   "would_be_hr_count": 30,
-   "inning": 8,
-   "play_id": "77a7f1f6-e8fd-3503-8ea4-7d41c500b3d5",
-   "venue_id": 31,
-   "venue_name": "PNC Park",
-   "temp_f": 72.0,
-   "wind_mph": 7.0,
-   "wind_dir": "out",
-   "weather_condition": "Partly Cloudy",
-   "distance_flag": false,
-   "would_be_hr_flag": false,
-   "barrel_score": 92.5,
-   "barrel_flag": false,
-   "is_home_run": true,
-   "is_near_hr": false
-  },
-  {
-   "game_pk": 823329,
-   "date": "2026-09-20",
-   "player_id": 804668,
-   "player_name": "Rafael Flores Jr.",
-   "team": "PIT",
-   "opponent": "KC",
-   "result": "Double",
-   "exit_velocity": 105.9,
-   "launch_angle": 20.0,
-   "hit_distance": 335.0,
-   "hc_x": 86.56,
-   "hc_y": 70.46,
-   "would_be_hr_count": 0,
-   "inning": 2,
-   "play_id": "909e033e-a140-3178-a3f1-f1caec7b63d5",
-   "venue_id": 31,
-   "venue_name": "PNC Park",
-   "temp_f": 72.0,
-   "wind_mph": 7.0,
-   "wind_dir": "out",
-   "weather_condition": "Partly Cloudy",
-   "distance_flag": false,
-   "would_be_hr_flag": false,
-   "barrel_score": 76.1,
-   "barrel_flag": true,
-   "is_home_run": false,
-   "is_near_hr": true
   }
  ]
 }

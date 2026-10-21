@@ -2,17 +2,17 @@
  "player_id": 694203,
  "player_name": "Denzer Guzman",
  "team": "LAA",
- "as_of": "2026-10-19",
+ "as_of": "2026-10-21",
  "form": {
   "streak": 0,
-  "frequency": 0.167,
+  "frequency": 0.2,
   "slopes": {
-   "max_ev": 2.0,
+   "max_ev": 2.98,
    "parks_sum": 0.0,
-   "near_hr": -0.086
+   "near_hr": -0.2
   },
   "intensity": 0.333,
-  "expectancy_score": 15.0,
+  "expectancy_score": 16.0,
   "last_appearance": "2026-09-27"
  },
  "days": [
@@ -105,24 +105,6 @@
    "wind_mph": 6.0,
    "wind_dir": "out",
    "weather_condition": "Clear"
-  },
-  {
-   "date": "2026-09-20",
-   "bbe": 1,
-   "hr": 0,
-   "near_hr_any": 0,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 0,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 0,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 97.1,
-   "max_distance": 5.0,
-   "max_barrel_score": 24.4,
-   "temp_f": 80.0,
-   "wind_mph": 4.0,
-   "wind_dir": "cross",
-   "weather_condition": "Sunny"
   }
  ],
  "events": [
@@ -557,35 +539,6 @@
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 0.8,
-   "barrel_flag": false,
-   "is_home_run": false,
-   "is_near_hr": false
-  },
-  {
-   "game_pk": 823975,
-   "date": "2026-09-20",
-   "player_id": 694203,
-   "player_name": "Denzer Guzman",
-   "team": "LAA",
-   "opponent": "MIN",
-   "result": "Groundout",
-   "exit_velocity": 97.1,
-   "launch_angle": -28.0,
-   "hit_distance": 5.0,
-   "hc_x": 94.8,
-   "hc_y": 165.66,
-   "would_be_hr_count": 0,
-   "inning": 4,
-   "play_id": "55ee6d03-d821-3443-b74c-8f7684677584",
-   "venue_id": 1,
-   "venue_name": "Angel Stadium",
-   "temp_f": 80.0,
-   "wind_mph": 4.0,
-   "wind_dir": "cross",
-   "weather_condition": "Sunny",
-   "distance_flag": false,
-   "would_be_hr_flag": false,
-   "barrel_score": 24.4,
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
