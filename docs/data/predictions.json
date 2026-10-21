@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-21",
+ "as_of": "2026-10-20",
  "horizon_days": 3,
  "min_samples": 20,
  "players": [
@@ -226,7 +226,7 @@
    "weather_factor": 1.0,
    "adjusted_score": 5.7,
    "game_weather": null,
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 683748,
@@ -301,7 +301,7 @@
    "weather_factor": 1.0,
    "adjusted_score": 4.6,
    "game_weather": null,
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 680700,
@@ -326,7 +326,7 @@
    "weather_factor": 1.0,
    "adjusted_score": 4.3,
    "game_weather": null,
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 666018,
