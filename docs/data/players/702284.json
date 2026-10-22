@@ -2,17 +2,17 @@
  "player_id": 702284,
  "player_name": "Cole Young",
  "team": "SEA",
- "as_of": "2026-10-22",
+ "as_of": "2026-10-21",
  "form": {
   "streak": 0,
-  "frequency": 0.4,
+  "frequency": 0.333,
   "slopes": {
-   "max_ev": -4.32,
-   "parks_sum": 0.0,
-   "near_hr": -0.1
+   "max_ev": -2.22,
+   "parks_sum": 0.029,
+   "near_hr": 0.0
   },
-  "intensity": 0.0,
-  "expectancy_score": 12.0,
+  "intensity": 0.003,
+  "expectancy_score": 10.1,
   "last_appearance": "2026-09-27"
  },
  "days": [
@@ -105,6 +105,24 @@
    "wind_mph": 6.0,
    "wind_dir": "in",
    "weather_condition": "Partly Cloudy"
+  },
+  {
+   "date": "2026-09-22",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 88.3,
+   "max_distance": 200.0,
+   "max_barrel_score": 44.9,
+   "temp_f": 68.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear"
   }
  ],
  "events": [
@@ -481,6 +499,35 @@
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 8.5,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
+  {
+   "game_pk": 823089,
+   "date": "2026-09-22",
+   "player_id": 702284,
+   "player_name": "Cole Young",
+   "team": "SEA",
+   "opponent": "HOU",
+   "result": "Single",
+   "exit_velocity": 88.3,
+   "launch_angle": 14.0,
+   "hit_distance": 200.0,
+   "hc_x": 187.1,
+   "hc_y": 109.73,
+   "would_be_hr_count": 0,
+   "inning": 2,
+   "play_id": "56854193-c49e-32c6-ad97-3bc1e02f5106",
+   "venue_id": 680,
+   "venue_name": "T-Mobile Park",
+   "temp_f": 68.0,
+   "wind_mph": 4.0,
+   "wind_dir": "out",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 44.9,
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false

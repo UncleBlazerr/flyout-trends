@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-10-21T08:14:48.150521+00:00",
+ "generated_at": "2026-10-22T14:51:35.411627+00:00",
  "as_of": "2026-10-21",
  "config": {
   "min_near_hr_events": 1,
@@ -278,7 +278,7 @@
    "weather_factor": 1.0,
    "adjusted_score": 5.7,
    "game_weather": null,
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 683748,
@@ -353,7 +353,7 @@
    "weather_factor": 1.0,
    "adjusted_score": 4.6,
    "game_weather": null,
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 680700,
@@ -378,7 +378,7 @@
    "weather_factor": 1.0,
    "adjusted_score": 4.3,
    "game_weather": null,
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 666018,
