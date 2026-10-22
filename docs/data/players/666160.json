@@ -2,17 +2,17 @@
  "player_id": 666160,
  "player_name": "Mickey Moniak",
  "team": "COL",
- "as_of": "2026-10-20",
+ "as_of": "2026-10-22",
  "form": {
   "streak": 0,
-  "frequency": 0.25,
+  "frequency": 0.333,
   "slopes": {
-   "max_ev": -0.93,
+   "max_ev": 1.75,
    "parks_sum": 0.0,
-   "near_hr": 0.3
+   "near_hr": 0.5
   },
-  "intensity": 0.1,
-  "expectancy_score": 10.5,
+  "intensity": 0.458,
+  "expectancy_score": 23.8,
   "last_appearance": "2026-09-26"
  },
  "days": [
@@ -69,24 +69,6 @@
    "wind_mph": 10.0,
    "wind_dir": "cross",
    "weather_condition": "Cloudy"
-  },
-  {
-   "date": "2026-09-22",
-   "bbe": 1,
-   "hr": 1,
-   "near_hr_any": 0,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 0,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 0,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 106.8,
-   "max_distance": 431.0,
-   "max_barrel_score": 77.8,
-   "temp_f": 76.0,
-   "wind_mph": 5.0,
-   "wind_dir": "cross",
-   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -262,35 +244,6 @@
    "barrel_score": 16.0,
    "barrel_flag": false,
    "is_home_run": false,
-   "is_near_hr": false
-  },
-  {
-   "game_pk": 824302,
-   "date": "2026-09-22",
-   "player_id": 666160,
-   "player_name": "Mickey Moniak",
-   "team": "COL",
-   "opponent": "AZ",
-   "result": "Home Run",
-   "exit_velocity": 106.8,
-   "launch_angle": 40.0,
-   "hit_distance": 431.0,
-   "hc_x": 213.4,
-   "hc_y": 47.02,
-   "would_be_hr_count": 30,
-   "inning": 3,
-   "play_id": "0af2a82f-939c-348b-ac70-43615d47fc48",
-   "venue_id": 19,
-   "venue_name": "Coors Field",
-   "temp_f": 76.0,
-   "wind_mph": 5.0,
-   "wind_dir": "cross",
-   "weather_condition": "Partly Cloudy",
-   "distance_flag": false,
-   "would_be_hr_flag": false,
-   "barrel_score": 77.8,
-   "barrel_flag": false,
-   "is_home_run": true,
    "is_near_hr": false
   }
  ]
