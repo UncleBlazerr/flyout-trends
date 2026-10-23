@@ -2,17 +2,17 @@
  "player_id": 656537,
  "player_name": "Derek Hill",
  "team": "PHI",
- "as_of": "2026-10-23",
+ "as_of": "2026-10-22",
  "form": {
   "streak": 0,
-  "frequency": 0.333,
+  "frequency": 0.25,
   "slopes": {
-   "max_ev": -0.95,
-   "parks_sum": 2.5,
-   "near_hr": 0.625
+   "max_ev": 2.48,
+   "parks_sum": 1.5,
+   "near_hr": 0.375
   },
-  "intensity": 0.486,
-  "expectancy_score": 24.6,
+  "intensity": 0.625,
+  "expectancy_score": 26.2,
   "last_appearance": "2026-10-01"
  },
  "days": [
@@ -69,6 +69,24 @@
    "wind_mph": 11.0,
    "wind_dir": "in",
    "weather_condition": "Overcast"
+  },
+  {
+   "date": "2026-09-23",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 87.7,
+   "max_distance": 5.0,
+   "max_barrel_score": 16.1,
+   "temp_f": 65.0,
+   "wind_mph": 14.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -184,6 +202,35 @@
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 68.3,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
+  {
+   "game_pk": 823410,
+   "date": "2026-09-23",
+   "player_id": 656537,
+   "player_name": "Derek Hill",
+   "team": "PHI",
+   "opponent": "MIL",
+   "result": "Groundout",
+   "exit_velocity": 87.7,
+   "launch_angle": -21.0,
+   "hit_distance": 5.0,
+   "hc_x": 106.45,
+   "hc_y": 158.89,
+   "would_be_hr_count": 0,
+   "inning": 9,
+   "play_id": "1a39e1ea-3af1-3b25-9536-8ed1c3051c91",
+   "venue_id": 2681,
+   "venue_name": "Citizens Bank Park",
+   "temp_f": 65.0,
+   "wind_mph": 14.0,
+   "wind_dir": "cross",
+   "weather_condition": "Partly Cloudy",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 16.1,
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
