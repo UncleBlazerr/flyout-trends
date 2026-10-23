@@ -2,17 +2,17 @@
  "player_id": 695670,
  "player_name": "Harry Ford",
  "team": "WSH",
- "as_of": "2026-10-21",
+ "as_of": "2026-10-23",
  "form": {
   "streak": 0,
-  "frequency": 0.5,
+  "frequency": 1.0,
   "slopes": {
-   "max_ev": 36.6,
+   "max_ev": 0.0,
    "parks_sum": 0.0,
-   "near_hr": 1.0
+   "near_hr": 0.0
   },
-  "intensity": 0.667,
-  "expectancy_score": 35.0,
+  "intensity": 0.0,
+  "expectancy_score": 30.0,
   "last_appearance": "2026-09-27"
  },
  "days": [
@@ -33,24 +33,6 @@
    "wind_mph": 14.0,
    "wind_dir": "cross",
    "weather_condition": "Rain"
-  },
-  {
-   "date": "2026-09-23",
-   "bbe": 1,
-   "hr": 0,
-   "near_hr_any": 0,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 0,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 0,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 66.6,
-   "max_distance": 92.0,
-   "max_barrel_score": 16.0,
-   "temp_f": 65.0,
-   "wind_mph": 14.0,
-   "wind_dir": "in",
-   "weather_condition": "Sunny"
   }
  ],
  "events": [
@@ -137,35 +119,6 @@
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 26.6,
-   "barrel_flag": false,
-   "is_home_run": false,
-   "is_near_hr": false
-  },
-  {
-   "game_pk": 824223,
-   "date": "2026-09-23",
-   "player_id": 695670,
-   "player_name": "Harry Ford",
-   "team": "WSH",
-   "opponent": "DET",
-   "result": "Groundout",
-   "exit_velocity": 66.6,
-   "launch_angle": 9.0,
-   "hit_distance": 92.0,
-   "hc_x": 136.07,
-   "hc_y": 143.79,
-   "would_be_hr_count": 0,
-   "inning": 6,
-   "play_id": "6e0c82cb-f0df-3e12-93c2-b5af1d992545",
-   "venue_id": 2394,
-   "venue_name": "Comerica Park",
-   "temp_f": 65.0,
-   "wind_mph": 14.0,
-   "wind_dir": "in",
-   "weather_condition": "Sunny",
-   "distance_flag": false,
-   "would_be_hr_flag": false,
-   "barrel_score": 16.0,
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
