@@ -1,16 +1,482 @@
 {
- "as_of": "2026-10-24",
+ "as_of": "2026-10-23",
  "horizon_days": 3,
  "min_samples": 20,
- "players": [],
+ "players": [
+  {
+   "player_id": 650490,
+   "player_name": "Yandy D\u00edaz",
+   "team": "TB",
+   "expectancy_score": 37.3,
+   "streak": 1,
+   "frequency": 0.857,
+   "slopes": {
+    "max_ev": -0.154,
+    "parks_sum": 1.071,
+    "near_hr": -0.027
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 2,
+   "max_ev_7d": 111.9,
+   "max_distance_7d": 416,
+   "band": "<40",
+   "band_rate": 0.2,
+   "band_samples": 21309,
+   "weather_factor": 1.0,
+   "adjusted_score": 37.3,
+   "game_weather": {
+    "venue_name": "American Family Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 691406,
+   "player_name": "Junior Caminero",
+   "team": "TB",
+   "expectancy_score": 22.9,
+   "streak": 1,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": -0.15,
+    "parks_sum": 0.0,
+    "near_hr": 0.205
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 1,
+   "max_ev_7d": 112.7,
+   "max_distance_7d": 410,
+   "band": "<40",
+   "band_rate": 0.2,
+   "band_samples": 21309,
+   "weather_factor": 1.0,
+   "adjusted_score": 22.9,
+   "game_weather": {
+    "venue_name": "American Family Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 694192,
+   "player_name": "Jackson Chourio",
+   "team": "MIL",
+   "expectancy_score": 17.4,
+   "streak": 0,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": 0.046,
+    "parks_sum": 0.0,
+    "near_hr": -0.0
+   },
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 103.0,
+   "max_distance_7d": 207,
+   "band": "<40",
+   "band_rate": 0.2,
+   "band_samples": 21309,
+   "weather_factor": 1.0,
+   "adjusted_score": 17.4,
+   "game_weather": {
+    "venue_name": "American Family Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 668930,
+   "player_name": "Brice Turang",
+   "team": "MIL",
+   "expectancy_score": 17.3,
+   "streak": 1,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": -0.764,
+    "parks_sum": 0.107,
+    "near_hr": 0.036
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 101.6,
+   "max_distance_7d": 367,
+   "band": "<40",
+   "band_rate": 0.2,
+   "band_samples": 21309,
+   "weather_factor": 1.0,
+   "adjusted_score": 17.3,
+   "game_weather": {
+    "venue_name": "American Family Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 686217,
+   "player_name": "Sal Frelick",
+   "team": "MIL",
+   "expectancy_score": 17.3,
+   "streak": 1,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": -0.571,
+    "parks_sum": 0.0,
+    "near_hr": 0.071
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 98.7,
+   "max_distance_7d": 334,
+   "band": "<40",
+   "band_rate": 0.2,
+   "band_samples": 21309,
+   "weather_factor": 1.0,
+   "adjusted_score": 17.3,
+   "game_weather": {
+    "venue_name": "American Family Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 592885,
+   "player_name": "Christian Yelich",
+   "team": "MIL",
+   "expectancy_score": 17.2,
+   "streak": 1,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": -0.25,
+    "parks_sum": -0.071,
+    "near_hr": 0.062
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 1,
+   "hr_7d": 0,
+   "max_ev_7d": 107.8,
+   "max_distance_7d": 358,
+   "band": "<40",
+   "band_rate": 0.2,
+   "band_samples": 21309,
+   "weather_factor": 1.0,
+   "adjusted_score": 17.2,
+   "game_weather": {
+    "venue_name": "American Family Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 683748,
+   "player_name": "Victor Mesa Jr.",
+   "team": "TB",
+   "expectancy_score": 12.3,
+   "streak": 0,
+   "frequency": 0.143,
+   "slopes": {
+    "max_ev": 1.532,
+    "parks_sum": 0.0,
+    "near_hr": 0.036
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 101.3,
+   "max_distance_7d": 384,
+   "band": "<40",
+   "band_rate": 0.2,
+   "band_samples": 21309,
+   "weather_factor": 1.0,
+   "adjusted_score": 12.3,
+   "game_weather": {
+    "venue_name": "American Family Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 596142,
+   "player_name": "Gary S\u00e1nchez",
+   "team": "MIL",
+   "expectancy_score": 11.2,
+   "streak": 0,
+   "frequency": 0.143,
+   "slopes": {
+    "max_ev": 1.379,
+    "parks_sum": 0.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 105.3,
+   "max_distance_7d": 4,
+   "band": "<40",
+   "band_rate": 0.2,
+   "band_samples": 21309,
+   "weather_factor": 1.0,
+   "adjusted_score": 11.2,
+   "game_weather": {
+    "venue_name": "American Family Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 661388,
+   "player_name": "William Contreras",
+   "team": "MIL",
+   "expectancy_score": 9.0,
+   "streak": 0,
+   "frequency": 0.143,
+   "slopes": {
+    "max_ev": 0.764,
+    "parks_sum": 0.0,
+    "near_hr": 0.089
+   },
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 108.4,
+   "max_distance_7d": 224,
+   "band": "<40",
+   "band_rate": 0.2,
+   "band_samples": 21309,
+   "weather_factor": 1.0,
+   "adjusted_score": 9.0,
+   "game_weather": {
+    "venue_name": "American Family Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 666152,
+   "player_name": "David Hamilton",
+   "team": "MIL",
+   "expectancy_score": 8.6,
+   "streak": 0,
+   "frequency": 0.286,
+   "slopes": {
+    "max_ev": -0.036,
+    "parks_sum": -0.107,
+    "near_hr": -0.205
+   },
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 103.7,
+   "max_distance_7d": 154,
+   "band": "<40",
+   "band_rate": 0.2,
+   "band_samples": 21309,
+   "weather_factor": 1.0,
+   "adjusted_score": 8.6,
+   "game_weather": {
+    "venue_name": "American Family Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 676356,
+   "player_name": "Jonny DeLuca",
+   "team": "TB",
+   "expectancy_score": 7.7,
+   "streak": 0,
+   "frequency": 0.143,
+   "slopes": {
+    "max_ev": 0.614,
+    "parks_sum": 0.0,
+    "near_hr": 0.036
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 102.7,
+   "max_distance_7d": 341,
+   "band": "<40",
+   "band_rate": 0.2,
+   "band_samples": 21309,
+   "weather_factor": 1.0,
+   "adjusted_score": 7.7,
+   "game_weather": {
+    "venue_name": "American Family Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 641343,
+   "player_name": "Jake Bauers",
+   "team": "MIL",
+   "expectancy_score": 6.7,
+   "streak": 0,
+   "frequency": 0.143,
+   "slopes": {
+    "max_ev": 0.311,
+    "parks_sum": 0.0,
+    "near_hr": 0.089
+   },
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 94.8,
+   "max_distance_7d": 220,
+   "band": "<40",
+   "band_rate": 0.2,
+   "band_samples": 21309,
+   "weather_factor": 1.0,
+   "adjusted_score": 6.7,
+   "game_weather": {
+    "venue_name": "American Family Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 668723,
+   "player_name": "Ryan Vilade",
+   "team": "TB",
+   "expectancy_score": 5.8,
+   "streak": 0,
+   "frequency": 0.143,
+   "slopes": {
+    "max_ev": 0.082,
+    "parks_sum": 0.214,
+    "near_hr": 0.036
+   },
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 109.5,
+   "max_distance_7d": 10,
+   "band": "<40",
+   "band_rate": 0.2,
+   "band_samples": 21309,
+   "weather_factor": 1.0,
+   "adjusted_score": 5.8,
+   "game_weather": {
+    "venue_name": "American Family Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 669003,
+   "player_name": "Garrett Mitchell",
+   "team": "MIL",
+   "expectancy_score": 5.0,
+   "streak": 0,
+   "frequency": 0.143,
+   "slopes": {
+    "max_ev": -1.568,
+    "parks_sum": 0.0,
+    "near_hr": 0.071
+   },
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 78.8,
+   "max_distance_7d": 119,
+   "band": "<40",
+   "band_rate": 0.2,
+   "band_samples": 21309,
+   "weather_factor": 1.0,
+   "adjusted_score": 5.0,
+   "game_weather": {
+    "venue_name": "American Family Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  },
+  {
+   "player_id": 689414,
+   "player_name": "Liam Hicks",
+   "team": "TB",
+   "expectancy_score": 4.6,
+   "streak": 0,
+   "frequency": 0.0,
+   "slopes": {
+    "max_ev": 0.925,
+    "parks_sum": 0.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 110.1,
+   "max_distance_7d": 281,
+   "band": "<40",
+   "band_rate": 0.2,
+   "band_samples": 21309,
+   "weather_factor": 1.0,
+   "adjusted_score": 4.6,
+   "game_weather": {
+    "venue_name": "American Family Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
+  }
+ ],
  "bands": {
   "<40": {
-   "samples": 21251,
-   "hr_followed": 4255,
+   "samples": 21309,
+   "hr_followed": 4259,
    "rate": 0.2
   },
   "40-60": {
-   "samples": 517,
+   "samples": 518,
    "hr_followed": 132,
    "rate": 0.255
   },
@@ -26,12 +492,12 @@
   }
  },
  "hit_rate": {
-  "resolved_records": 104,
+  "resolved_records": 108,
   "horizon_days": 3,
   "overall": {
-   "flagged": 1560,
-   "hr_followed": 323,
-   "rate": 0.207
+   "flagged": 1620,
+   "hr_followed": 327,
+   "rate": 0.202
   },
   "top_band": {
    "band": "80+",
