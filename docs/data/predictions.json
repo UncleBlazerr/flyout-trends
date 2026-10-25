@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-23",
+ "as_of": "2026-10-25",
  "horizon_days": 3,
  "min_samples": 20,
  "players": [
@@ -15,9 +15,9 @@
     "parks_sum": 1.071,
     "near_hr": -0.027
    },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 2,
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
    "max_ev_7d": 111.9,
    "max_distance_7d": 416,
    "band": "<40",
@@ -26,7 +26,7 @@
    "weather_factor": 1.0,
    "adjusted_score": 37.3,
    "game_weather": {
-    "venue_name": "American Family Field",
+    "venue_name": "Tropicana Field",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -46,18 +46,18 @@
     "parks_sum": 0.0,
     "near_hr": 0.205
    },
-   "near_hr_7d": 3,
+   "near_hr_7d": 2,
    "near_hr_xbh_7d": 1,
    "hr_7d": 1,
    "max_ev_7d": 112.7,
-   "max_distance_7d": 410,
+   "max_distance_7d": 380,
    "band": "<40",
    "band_rate": 0.2,
    "band_samples": 21309,
    "weather_factor": 1.0,
    "adjusted_score": 22.9,
    "game_weather": {
-    "venue_name": "American Family Field",
+    "venue_name": "Tropicana Field",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -88,7 +88,7 @@
    "weather_factor": 1.0,
    "adjusted_score": 17.4,
    "game_weather": {
-    "venue_name": "American Family Field",
+    "venue_name": "Tropicana Field",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -119,7 +119,7 @@
    "weather_factor": 1.0,
    "adjusted_score": 17.3,
    "game_weather": {
-    "venue_name": "American Family Field",
+    "venue_name": "Tropicana Field",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -150,7 +150,7 @@
    "weather_factor": 1.0,
    "adjusted_score": 17.3,
    "game_weather": {
-    "venue_name": "American Family Field",
+    "venue_name": "Tropicana Field",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -181,7 +181,7 @@
    "weather_factor": 1.0,
    "adjusted_score": 17.2,
    "game_weather": {
-    "venue_name": "American Family Field",
+    "venue_name": "Tropicana Field",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -201,18 +201,18 @@
     "parks_sum": 0.0,
     "near_hr": 0.036
    },
-   "near_hr_7d": 1,
+   "near_hr_7d": 0,
    "near_hr_xbh_7d": 0,
    "hr_7d": 0,
-   "max_ev_7d": 101.3,
-   "max_distance_7d": 384,
+   "max_ev_7d": 95.8,
+   "max_distance_7d": 262,
    "band": "<40",
    "band_rate": 0.2,
    "band_samples": 21309,
    "weather_factor": 1.0,
    "adjusted_score": 12.3,
    "game_weather": {
-    "venue_name": "American Family Field",
+    "venue_name": "Tropicana Field",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -243,7 +243,7 @@
    "weather_factor": 1.0,
    "adjusted_score": 11.2,
    "game_weather": {
-    "venue_name": "American Family Field",
+    "venue_name": "Tropicana Field",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -274,7 +274,7 @@
    "weather_factor": 1.0,
    "adjusted_score": 9.0,
    "game_weather": {
-    "venue_name": "American Family Field",
+    "venue_name": "Tropicana Field",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -305,7 +305,7 @@
    "weather_factor": 1.0,
    "adjusted_score": 8.6,
    "game_weather": {
-    "venue_name": "American Family Field",
+    "venue_name": "Tropicana Field",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -325,7 +325,7 @@
     "parks_sum": 0.0,
     "near_hr": 0.036
    },
-   "near_hr_7d": 1,
+   "near_hr_7d": 0,
    "near_hr_xbh_7d": 0,
    "hr_7d": 0,
    "max_ev_7d": 102.7,
@@ -336,7 +336,7 @@
    "weather_factor": 1.0,
    "adjusted_score": 7.7,
    "game_weather": {
-    "venue_name": "American Family Field",
+    "venue_name": "Tropicana Field",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -367,7 +367,7 @@
    "weather_factor": 1.0,
    "adjusted_score": 6.7,
    "game_weather": {
-    "venue_name": "American Family Field",
+    "venue_name": "Tropicana Field",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -398,7 +398,7 @@
    "weather_factor": 1.0,
    "adjusted_score": 5.8,
    "game_weather": {
-    "venue_name": "American Family Field",
+    "venue_name": "Tropicana Field",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -429,7 +429,7 @@
    "weather_factor": 1.0,
    "adjusted_score": 5.0,
    "game_weather": {
-    "venue_name": "American Family Field",
+    "venue_name": "Tropicana Field",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
@@ -452,7 +452,7 @@
    "near_hr_7d": 0,
    "near_hr_xbh_7d": 0,
    "hr_7d": 0,
-   "max_ev_7d": 110.1,
+   "max_ev_7d": 104.1,
    "max_distance_7d": 281,
    "band": "<40",
    "band_rate": 0.2,
@@ -460,7 +460,7 @@
    "weather_factor": 1.0,
    "adjusted_score": 4.6,
    "game_weather": {
-    "venue_name": "American Family Field",
+    "venue_name": "Tropicana Field",
     "temp_f": null,
     "wind_mph": null,
     "wind_dir": null,
