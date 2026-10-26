@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-24",
+ "as_of": "2026-10-26",
  "horizon_days": 3,
  "min_samples": 20,
  "players": [
@@ -25,7 +25,13 @@
    "band_samples": 21309,
    "weather_factor": 1.0,
    "adjusted_score": 33.0,
-   "game_weather": null,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
    "repeat": true
   },
   {
@@ -50,7 +56,13 @@
    "band_samples": 21309,
    "weather_factor": 1.0,
    "adjusted_score": 32.2,
-   "game_weather": null,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
    "repeat": true
   },
   {
@@ -65,17 +77,23 @@
     "parks_sum": 0.714,
     "near_hr": -0.089
    },
-   "near_hr_7d": 3,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 1,
-   "max_ev_7d": 111.9,
-   "max_distance_7d": 416,
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 101.7,
+   "max_distance_7d": 347,
    "band": "<40",
    "band_rate": 0.2,
    "band_samples": 21309,
    "weather_factor": 1.0,
    "adjusted_score": 23.8,
-   "game_weather": null,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
    "repeat": true
   },
   {
@@ -100,7 +118,13 @@
    "band_samples": 21309,
    "weather_factor": 1.0,
    "adjusted_score": 18.4,
-   "game_weather": null,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
    "repeat": true
   },
   {
@@ -125,7 +149,13 @@
    "band_samples": 21309,
    "weather_factor": 1.0,
    "adjusted_score": 15.1,
-   "game_weather": null,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
    "repeat": true
   },
   {
@@ -140,17 +170,23 @@
     "parks_sum": -0.607,
     "near_hr": 0.089
    },
-   "near_hr_7d": 2,
+   "near_hr_7d": 1,
    "near_hr_xbh_7d": 1,
-   "hr_7d": 1,
+   "hr_7d": 0,
    "max_ev_7d": 112.7,
-   "max_distance_7d": 380,
+   "max_distance_7d": 358,
    "band": "<40",
    "band_rate": 0.2,
    "band_samples": 21309,
    "weather_factor": 1.0,
    "adjusted_score": 13.7,
-   "game_weather": null,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
    "repeat": true
   },
   {
@@ -175,32 +211,13 @@
    "band_samples": 21309,
    "weather_factor": 1.0,
    "adjusted_score": 12.9,
-   "game_weather": null,
-   "repeat": true
-  },
-  {
-   "player_id": 596142,
-   "player_name": "Gary S\u00e1nchez",
-   "team": "MIL",
-   "expectancy_score": 11.2,
-   "streak": 0,
-   "frequency": 0.143,
-   "slopes": {
-    "max_ev": 1.379,
-    "parks_sum": 0.0,
-    "near_hr": 0.0
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
    },
-   "near_hr_7d": 0,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 105.3,
-   "max_distance_7d": 4,
-   "band": "<40",
-   "band_rate": 0.2,
-   "band_samples": 21309,
-   "weather_factor": 1.0,
-   "adjusted_score": 11.2,
-   "game_weather": null,
    "repeat": true
   },
   {
@@ -225,7 +242,13 @@
    "band_samples": 21309,
    "weather_factor": 1.0,
    "adjusted_score": 10.2,
-   "game_weather": null,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
    "repeat": false
   },
   {
@@ -243,14 +266,20 @@
    "near_hr_7d": 0,
    "near_hr_xbh_7d": 0,
    "hr_7d": 1,
-   "max_ev_7d": 110.1,
+   "max_ev_7d": 104.1,
    "max_distance_7d": 411,
    "band": "<40",
    "band_rate": 0.2,
    "band_samples": 21309,
    "weather_factor": 1.0,
    "adjusted_score": 10.0,
-   "game_weather": null,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
    "repeat": true
   },
   {
@@ -275,7 +304,13 @@
    "band_samples": 21309,
    "weather_factor": 1.0,
    "adjusted_score": 9.2,
-   "game_weather": null,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
    "repeat": true
   },
   {
@@ -300,7 +335,13 @@
    "band_samples": 21309,
    "weather_factor": 1.0,
    "adjusted_score": 8.8,
-   "game_weather": null,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
    "repeat": true
   },
   {
@@ -325,7 +366,13 @@
    "band_samples": 21309,
    "weather_factor": 1.0,
    "adjusted_score": 8.6,
-   "game_weather": null,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
    "repeat": true
   },
   {
@@ -340,43 +387,86 @@
     "parks_sum": 0.0,
     "near_hr": 0.0
    },
-   "near_hr_7d": 1,
+   "near_hr_7d": 0,
    "near_hr_xbh_7d": 0,
    "hr_7d": 0,
    "max_ev_7d": 103.2,
-   "max_distance_7d": 384,
+   "max_distance_7d": 262,
    "band": "<40",
    "band_rate": 0.2,
    "band_samples": 21309,
    "weather_factor": 1.0,
    "adjusted_score": 6.5,
-   "game_weather": null,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
    "repeat": true
   },
   {
-   "player_id": 668723,
-   "player_name": "Ryan Vilade",
+   "player_id": 676356,
+   "player_name": "Jonny DeLuca",
    "team": "TB",
-   "expectancy_score": 5.8,
+   "expectancy_score": 4.3,
    "streak": 0,
    "frequency": 0.143,
    "slopes": {
-    "max_ev": 0.082,
-    "parks_sum": 0.214,
-    "near_hr": 0.036
+    "max_ev": -0.407,
+    "parks_sum": 0.0,
+    "near_hr": 0.0
    },
    "near_hr_7d": 0,
    "near_hr_xbh_7d": 0,
    "hr_7d": 0,
-   "max_ev_7d": 109.5,
-   "max_distance_7d": 10,
+   "max_ev_7d": 100.3,
+   "max_distance_7d": 332,
    "band": "<40",
    "band_rate": 0.2,
    "band_samples": 21309,
    "weather_factor": 1.0,
-   "adjusted_score": 5.8,
-   "game_weather": null,
+   "adjusted_score": 4.3,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
    "repeat": true
+  },
+  {
+   "player_id": 810938,
+   "player_name": "Ben Williamson",
+   "team": "TB",
+   "expectancy_score": 0.6,
+   "streak": 0,
+   "frequency": 0.0,
+   "slopes": {
+    "max_ev": 0.111,
+    "parks_sum": 0.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 91.8,
+   "max_distance_7d": 44,
+   "band": "<40",
+   "band_rate": 0.2,
+   "band_samples": 21309,
+   "weather_factor": 1.0,
+   "adjusted_score": 0.6,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": false
   }
  ],
  "bands": {
