@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-26",
+ "as_of": "2026-10-25",
  "horizon_days": 3,
  "min_samples": 20,
  "players": [
@@ -77,11 +77,11 @@
     "parks_sum": 0.714,
     "near_hr": -0.089
    },
-   "near_hr_7d": 1,
+   "near_hr_7d": 2,
    "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 101.7,
-   "max_distance_7d": 347,
+   "hr_7d": 1,
+   "max_ev_7d": 111.9,
+   "max_distance_7d": 416,
    "band": "<40",
    "band_rate": 0.2,
    "band_samples": 21309,
@@ -170,11 +170,11 @@
     "parks_sum": -0.607,
     "near_hr": 0.089
    },
-   "near_hr_7d": 1,
+   "near_hr_7d": 2,
    "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
+   "hr_7d": 1,
    "max_ev_7d": 112.7,
-   "max_distance_7d": 358,
+   "max_distance_7d": 380,
    "band": "<40",
    "band_rate": 0.2,
    "band_samples": 21309,
@@ -221,6 +221,37 @@
    "repeat": true
   },
   {
+   "player_id": 596142,
+   "player_name": "Gary S\u00e1nchez",
+   "team": "MIL",
+   "expectancy_score": 11.2,
+   "streak": 0,
+   "frequency": 0.143,
+   "slopes": {
+    "max_ev": 1.379,
+    "parks_sum": 0.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 105.3,
+   "max_distance_7d": 4,
+   "band": "<40",
+   "band_rate": 0.2,
+   "band_samples": 21309,
+   "weather_factor": 1.0,
+   "adjusted_score": 11.2,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
+  },
+  {
    "player_id": 806198,
    "player_name": "Cooper Pratt",
    "team": "MIL",
@@ -249,7 +280,7 @@
     "wind_dir": null,
     "weather_condition": ""
    },
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 689414,
@@ -407,27 +438,27 @@
    "repeat": true
   },
   {
-   "player_id": 676356,
-   "player_name": "Jonny DeLuca",
+   "player_id": 668723,
+   "player_name": "Ryan Vilade",
    "team": "TB",
-   "expectancy_score": 4.3,
+   "expectancy_score": 5.8,
    "streak": 0,
    "frequency": 0.143,
    "slopes": {
-    "max_ev": -0.407,
-    "parks_sum": 0.0,
-    "near_hr": 0.0
+    "max_ev": 0.082,
+    "parks_sum": 0.214,
+    "near_hr": 0.036
    },
    "near_hr_7d": 0,
    "near_hr_xbh_7d": 0,
    "hr_7d": 0,
-   "max_ev_7d": 100.3,
-   "max_distance_7d": 332,
+   "max_ev_7d": 109.5,
+   "max_distance_7d": 10,
    "band": "<40",
    "band_rate": 0.2,
    "band_samples": 21309,
    "weather_factor": 1.0,
-   "adjusted_score": 4.3,
+   "adjusted_score": 5.8,
    "game_weather": {
     "venue_name": "Tropicana Field",
     "temp_f": null,
@@ -436,37 +467,6 @@
     "weather_condition": ""
    },
    "repeat": true
-  },
-  {
-   "player_id": 810938,
-   "player_name": "Ben Williamson",
-   "team": "TB",
-   "expectancy_score": 0.6,
-   "streak": 0,
-   "frequency": 0.0,
-   "slopes": {
-    "max_ev": 0.111,
-    "parks_sum": 0.0,
-    "near_hr": 0.0
-   },
-   "near_hr_7d": 0,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 91.8,
-   "max_distance_7d": 44,
-   "band": "<40",
-   "band_rate": 0.2,
-   "band_samples": 21309,
-   "weather_factor": 1.0,
-   "adjusted_score": 0.6,
-   "game_weather": {
-    "venue_name": "Tropicana Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
-   },
-   "repeat": false
   }
  ],
  "bands": {
