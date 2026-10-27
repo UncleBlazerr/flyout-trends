@@ -1,4 +1,155 @@
 {
- "as_of": "2026-10-27",
- "players": []
+ "as_of": "2026-10-26",
+ "players": [
+  {
+   "player_id": 650490,
+   "player_name": "Yandy D\u00edaz",
+   "team": "TB",
+   "record_streak": 4,
+   "total_flags": 18,
+   "avg_score": 34.7,
+   "current_score": 39.5,
+   "game_streak": 1
+  },
+  {
+   "player_id": 694192,
+   "player_name": "Jackson Chourio",
+   "team": "MIL",
+   "record_streak": 4,
+   "total_flags": 17,
+   "avg_score": 27.5,
+   "current_score": 25.1,
+   "game_streak": 1
+  },
+  {
+   "player_id": 592885,
+   "player_name": "Christian Yelich",
+   "team": "MIL",
+   "record_streak": 4,
+   "total_flags": 17,
+   "avg_score": 24.2,
+   "current_score": 18.1,
+   "game_streak": 1
+  },
+  {
+   "player_id": 661388,
+   "player_name": "William Contreras",
+   "team": "MIL",
+   "record_streak": 4,
+   "total_flags": 16,
+   "avg_score": 30.7,
+   "current_score": 6.9,
+   "game_streak": 0
+  },
+  {
+   "player_id": 666152,
+   "player_name": "David Hamilton",
+   "team": "MIL",
+   "record_streak": 4,
+   "total_flags": 14,
+   "avg_score": 21.6,
+   "current_score": 10.0,
+   "game_streak": 0
+  },
+  {
+   "player_id": 691406,
+   "player_name": "Junior Caminero",
+   "team": "TB",
+   "record_streak": 4,
+   "total_flags": 13,
+   "avg_score": 23.5,
+   "current_score": 12.9,
+   "game_streak": 0
+  },
+  {
+   "player_id": 683748,
+   "player_name": "Victor Mesa Jr.",
+   "team": "TB",
+   "record_streak": 4,
+   "total_flags": 13,
+   "avg_score": 21.5,
+   "current_score": 23.5,
+   "game_streak": 1
+  },
+  {
+   "player_id": 641343,
+   "player_name": "Jake Bauers",
+   "team": "MIL",
+   "record_streak": 4,
+   "total_flags": 11,
+   "avg_score": 27.0,
+   "current_score": 25.1,
+   "game_streak": 1
+  },
+  {
+   "player_id": 668930,
+   "player_name": "Brice Turang",
+   "team": "MIL",
+   "record_streak": 4,
+   "total_flags": 9,
+   "avg_score": 29.2,
+   "current_score": 14.8,
+   "game_streak": 0
+  },
+  {
+   "player_id": 668723,
+   "player_name": "Ryan Vilade",
+   "team": "TB",
+   "record_streak": 4,
+   "total_flags": 9,
+   "avg_score": 15.6,
+   "current_score": 5.1,
+   "game_streak": 0
+  },
+  {
+   "player_id": 689414,
+   "player_name": "Liam Hicks",
+   "team": "TB",
+   "record_streak": 4,
+   "total_flags": 7,
+   "avg_score": 18.2,
+   "current_score": 10.0,
+   "game_streak": 0
+  },
+  {
+   "player_id": 686217,
+   "player_name": "Sal Frelick",
+   "team": "MIL",
+   "record_streak": 4,
+   "total_flags": 6,
+   "avg_score": 28.2,
+   "current_score": 15.2,
+   "game_streak": 0
+  },
+  {
+   "player_id": 669003,
+   "player_name": "Garrett Mitchell",
+   "team": "MIL",
+   "record_streak": 4,
+   "total_flags": 5,
+   "avg_score": 17.0,
+   "current_score": 14.7,
+   "game_streak": 0
+  },
+  {
+   "player_id": 806198,
+   "player_name": "Cooper Pratt",
+   "team": "MIL",
+   "record_streak": 3,
+   "total_flags": 6,
+   "avg_score": 28.5,
+   "current_score": 10.1,
+   "game_streak": 0
+  },
+  {
+   "player_id": 810938,
+   "player_name": "Ben Williamson",
+   "team": "TB",
+   "record_streak": 1,
+   "total_flags": 2,
+   "avg_score": 7.2,
+   "current_score": 10.0,
+   "game_streak": 0
+  }
+ ]
 }
