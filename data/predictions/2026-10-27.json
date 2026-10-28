@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-10-28T16:25:25.787609+00:00",
+ "generated_at": "2026-10-28T20:54:16.552389+00:00",
  "as_of": "2026-10-27",
  "config": {
   "min_near_hr_events": 1,
@@ -79,10 +79,10 @@
    "adjusted_score": 46.0,
    "game_weather": {
     "venue_name": "Tropicana Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 70.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Dome"
    },
    "repeat": true
   },
@@ -110,10 +110,10 @@
    "adjusted_score": 34.7,
    "game_weather": {
     "venue_name": "Tropicana Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 70.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Dome"
    },
    "repeat": true
   },
@@ -141,10 +141,10 @@
    "adjusted_score": 32.7,
    "game_weather": {
     "venue_name": "Tropicana Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 70.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Dome"
    },
    "repeat": true
   },
@@ -172,10 +172,10 @@
    "adjusted_score": 22.7,
    "game_weather": {
     "venue_name": "Tropicana Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 70.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Dome"
    },
    "repeat": true
   },
@@ -203,10 +203,10 @@
    "adjusted_score": 19.1,
    "game_weather": {
     "venue_name": "Tropicana Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 70.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Dome"
    },
    "repeat": true
   },
@@ -234,10 +234,10 @@
    "adjusted_score": 17.6,
    "game_weather": {
     "venue_name": "Tropicana Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 70.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Dome"
    },
    "repeat": true
   },
@@ -265,10 +265,10 @@
    "adjusted_score": 12.9,
    "game_weather": {
     "venue_name": "Tropicana Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 70.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Dome"
    },
    "repeat": true
   },
@@ -296,10 +296,10 @@
    "adjusted_score": 11.5,
    "game_weather": {
     "venue_name": "Tropicana Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 70.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Dome"
    },
    "repeat": true
   },
@@ -327,10 +327,10 @@
    "adjusted_score": 10.5,
    "game_weather": {
     "venue_name": "Tropicana Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 70.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Dome"
    },
    "repeat": false
   },
@@ -358,10 +358,10 @@
    "adjusted_score": 10.0,
    "game_weather": {
     "venue_name": "Tropicana Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 70.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Dome"
    },
    "repeat": true
   },
@@ -389,10 +389,10 @@
    "adjusted_score": 10.0,
    "game_weather": {
     "venue_name": "Tropicana Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 70.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Dome"
    },
    "repeat": true
   },
@@ -420,10 +420,10 @@
    "adjusted_score": 10.0,
    "game_weather": {
     "venue_name": "Tropicana Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 70.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Dome"
    },
    "repeat": true
   },
@@ -451,10 +451,10 @@
    "adjusted_score": 9.6,
    "game_weather": {
     "venue_name": "Tropicana Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 70.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Dome"
    },
    "repeat": false
   },
@@ -482,10 +482,10 @@
    "adjusted_score": 9.3,
    "game_weather": {
     "venue_name": "Tropicana Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 70.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Dome"
    },
    "repeat": true
   },
@@ -513,10 +513,10 @@
    "adjusted_score": 4.3,
    "game_weather": {
     "venue_name": "Tropicana Field",
-    "temp_f": null,
-    "wind_mph": null,
-    "wind_dir": null,
-    "weather_condition": ""
+    "temp_f": 70.0,
+    "wind_mph": 0.0,
+    "wind_dir": "none",
+    "weather_condition": "Dome"
    },
    "repeat": true
   }

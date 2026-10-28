@@ -32,7 +32,7 @@
    "temp_f": 72.0,
    "wind_mph": 0.0,
    "wind_dir": "none",
-   "weather_condition": "Roof Closed"
+   "weather_condition": "Dome"
   },
   {
    "date": "2026-10-26",
@@ -273,7 +273,7 @@
    "temp_f": 72.0,
    "wind_mph": 0.0,
    "wind_dir": "none",
-   "weather_condition": "Roof Closed",
+   "weather_condition": "Dome",
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 35.0,
