@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-26",
+ "as_of": "2026-10-28",
  "horizon_days": 3,
  "min_samples": 20,
  "players": [
@@ -25,14 +25,8 @@
    "band_samples": 21329,
    "weather_factor": 1.0,
    "adjusted_score": 39.5,
-   "game_weather": {
-    "venue_name": "Tropicana Field",
-    "temp_f": 70.0,
-    "wind_mph": 0.0,
-    "wind_dir": "none",
-    "weather_condition": "Roof Closed"
-   },
-   "repeat": true
+   "game_weather": null,
+   "repeat": false
   },
   {
    "player_id": 641343,
@@ -56,14 +50,8 @@
    "band_samples": 21329,
    "weather_factor": 1.0,
    "adjusted_score": 25.1,
-   "game_weather": {
-    "venue_name": "Tropicana Field",
-    "temp_f": 70.0,
-    "wind_mph": 0.0,
-    "wind_dir": "none",
-    "weather_condition": "Roof Closed"
-   },
-   "repeat": true
+   "game_weather": null,
+   "repeat": false
   },
   {
    "player_id": 694192,
@@ -87,14 +75,8 @@
    "band_samples": 21329,
    "weather_factor": 1.0,
    "adjusted_score": 25.1,
-   "game_weather": {
-    "venue_name": "Tropicana Field",
-    "temp_f": 70.0,
-    "wind_mph": 0.0,
-    "wind_dir": "none",
-    "weather_condition": "Roof Closed"
-   },
-   "repeat": true
+   "game_weather": null,
+   "repeat": false
   },
   {
    "player_id": 683748,
@@ -118,14 +100,8 @@
    "band_samples": 21329,
    "weather_factor": 1.0,
    "adjusted_score": 23.5,
-   "game_weather": {
-    "venue_name": "Tropicana Field",
-    "temp_f": 70.0,
-    "wind_mph": 0.0,
-    "wind_dir": "none",
-    "weather_condition": "Roof Closed"
-   },
-   "repeat": true
+   "game_weather": null,
+   "repeat": false
   },
   {
    "player_id": 592885,
@@ -149,14 +125,8 @@
    "band_samples": 21329,
    "weather_factor": 1.0,
    "adjusted_score": 18.1,
-   "game_weather": {
-    "venue_name": "Tropicana Field",
-    "temp_f": 70.0,
-    "wind_mph": 0.0,
-    "wind_dir": "none",
-    "weather_condition": "Roof Closed"
-   },
-   "repeat": true
+   "game_weather": null,
+   "repeat": false
   },
   {
    "player_id": 686217,
@@ -180,14 +150,8 @@
    "band_samples": 21329,
    "weather_factor": 1.0,
    "adjusted_score": 15.2,
-   "game_weather": {
-    "venue_name": "Tropicana Field",
-    "temp_f": 70.0,
-    "wind_mph": 0.0,
-    "wind_dir": "none",
-    "weather_condition": "Roof Closed"
-   },
-   "repeat": true
+   "game_weather": null,
+   "repeat": false
   },
   {
    "player_id": 668930,
@@ -211,14 +175,8 @@
    "band_samples": 21329,
    "weather_factor": 1.0,
    "adjusted_score": 14.8,
-   "game_weather": {
-    "venue_name": "Tropicana Field",
-    "temp_f": 70.0,
-    "wind_mph": 0.0,
-    "wind_dir": "none",
-    "weather_condition": "Roof Closed"
-   },
-   "repeat": true
+   "game_weather": null,
+   "repeat": false
   },
   {
    "player_id": 669003,
@@ -242,14 +200,8 @@
    "band_samples": 21329,
    "weather_factor": 1.0,
    "adjusted_score": 14.7,
-   "game_weather": {
-    "venue_name": "Tropicana Field",
-    "temp_f": 70.0,
-    "wind_mph": 0.0,
-    "wind_dir": "none",
-    "weather_condition": "Roof Closed"
-   },
-   "repeat": true
+   "game_weather": null,
+   "repeat": false
   },
   {
    "player_id": 691406,
@@ -273,14 +225,8 @@
    "band_samples": 21329,
    "weather_factor": 1.0,
    "adjusted_score": 12.9,
-   "game_weather": {
-    "venue_name": "Tropicana Field",
-    "temp_f": 70.0,
-    "wind_mph": 0.0,
-    "wind_dir": "none",
-    "weather_condition": "Roof Closed"
-   },
-   "repeat": true
+   "game_weather": null,
+   "repeat": false
   },
   {
    "player_id": 806198,
@@ -304,45 +250,8 @@
    "band_samples": 21329,
    "weather_factor": 1.0,
    "adjusted_score": 10.1,
-   "game_weather": {
-    "venue_name": "Tropicana Field",
-    "temp_f": 70.0,
-    "wind_mph": 0.0,
-    "wind_dir": "none",
-    "weather_condition": "Roof Closed"
-   },
-   "repeat": true
-  },
-  {
-   "player_id": 689414,
-   "player_name": "Liam Hicks",
-   "team": "TB",
-   "expectancy_score": 10.0,
-   "streak": 0,
-   "frequency": 0.0,
-   "slopes": {
-    "max_ev": 1.996,
-    "parks_sum": 0.0,
-    "near_hr": 0.0
-   },
-   "near_hr_7d": 0,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 1,
-   "max_ev_7d": 104.1,
-   "max_distance_7d": 411,
-   "band": "<40",
-   "band_rate": 0.2,
-   "band_samples": 21329,
-   "weather_factor": 1.0,
-   "adjusted_score": 10.0,
-   "game_weather": {
-    "venue_name": "Tropicana Field",
-    "temp_f": 70.0,
-    "wind_mph": 0.0,
-    "wind_dir": "none",
-    "weather_condition": "Roof Closed"
-   },
-   "repeat": true
+   "game_weather": null,
+   "repeat": false
   },
   {
    "player_id": 810938,
@@ -366,13 +275,7 @@
    "band_samples": 21329,
    "weather_factor": 1.0,
    "adjusted_score": 10.0,
-   "game_weather": {
-    "venue_name": "Tropicana Field",
-    "temp_f": 70.0,
-    "wind_mph": 0.0,
-    "wind_dir": "none",
-    "weather_condition": "Roof Closed"
-   },
+   "game_weather": null,
    "repeat": false
   },
   {
@@ -397,14 +300,8 @@
    "band_samples": 21329,
    "weather_factor": 1.0,
    "adjusted_score": 10.0,
-   "game_weather": {
-    "venue_name": "Tropicana Field",
-    "temp_f": 70.0,
-    "wind_mph": 0.0,
-    "wind_dir": "none",
-    "weather_condition": "Roof Closed"
-   },
-   "repeat": true
+   "game_weather": null,
+   "repeat": false
   },
   {
    "player_id": 661388,
@@ -428,14 +325,8 @@
    "band_samples": 21329,
    "weather_factor": 1.0,
    "adjusted_score": 6.9,
-   "game_weather": {
-    "venue_name": "Tropicana Field",
-    "temp_f": 70.0,
-    "wind_mph": 0.0,
-    "wind_dir": "none",
-    "weather_condition": "Roof Closed"
-   },
-   "repeat": true
+   "game_weather": null,
+   "repeat": false
   },
   {
    "player_id": 668723,
@@ -459,14 +350,33 @@
    "band_samples": 21329,
    "weather_factor": 1.0,
    "adjusted_score": 5.1,
-   "game_weather": {
-    "venue_name": "Tropicana Field",
-    "temp_f": 70.0,
-    "wind_mph": 0.0,
-    "wind_dir": "none",
-    "weather_condition": "Roof Closed"
+   "game_weather": null,
+   "repeat": false
+  },
+  {
+   "player_id": 676356,
+   "player_name": "Jonny DeLuca",
+   "team": "TB",
+   "expectancy_score": 4.3,
+   "streak": 0,
+   "frequency": 0.143,
+   "slopes": {
+    "max_ev": -0.339,
+    "parks_sum": 0.0,
+    "near_hr": -0.036
    },
-   "repeat": true
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 100.3,
+   "max_distance_7d": 332,
+   "band": "<40",
+   "band_rate": 0.2,
+   "band_samples": 21329,
+   "weather_factor": 1.0,
+   "adjusted_score": 4.3,
+   "game_weather": null,
+   "repeat": false
   }
  ],
  "bands": {
@@ -506,24 +416,5 @@
    "rate": 0.5
   }
  },
- "recent_hits": [
-  {
-   "player_id": 686217,
-   "player_name": "Sal Frelick",
-   "team": "MIL",
-   "flagged_on": "2026-10-23",
-   "flagged_score": 17.3,
-   "hr_on": "2026-10-24",
-   "hr_count": 1
-  },
-  {
-   "player_id": 689414,
-   "player_name": "Liam Hicks",
-   "team": "TB",
-   "flagged_on": "2026-10-23",
-   "flagged_score": 4.6,
-   "hr_on": "2026-10-24",
-   "hr_count": 1
-  }
- ]
+ "recent_hits": []
 }
