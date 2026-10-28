@@ -1,19 +1,112 @@
 {
- "as_of": "2026-10-28",
+ "as_of": "2026-10-27",
  "horizon_days": 3,
  "min_samples": 20,
  "players": [
   {
+   "player_id": 641343,
+   "player_name": "Jake Bauers",
+   "team": "MIL",
+   "expectancy_score": 46.0,
+   "streak": 2,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 2.468,
+    "parks_sum": 1.429,
+    "near_hr": 0.241
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 105.1,
+   "max_distance_7d": 403,
+   "band": "40-60",
+   "band_rate": 0.255,
+   "band_samples": 518,
+   "weather_factor": 1.0,
+   "adjusted_score": 46.0,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 694192,
+   "player_name": "Jackson Chourio",
+   "team": "MIL",
+   "expectancy_score": 34.7,
+   "streak": 2,
+   "frequency": 0.571,
+   "slopes": {
+    "max_ev": -0.214,
+    "parks_sum": 0.0,
+    "near_hr": 0.152
+   },
+   "near_hr_7d": 3,
+   "near_hr_xbh_7d": 2,
+   "hr_7d": 0,
+   "max_ev_7d": 107.3,
+   "max_distance_7d": 353,
+   "band": "<40",
+   "band_rate": 0.2,
+   "band_samples": 21348,
+   "weather_factor": 1.0,
+   "adjusted_score": 34.7,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 669003,
+   "player_name": "Garrett Mitchell",
+   "team": "MIL",
+   "expectancy_score": 32.7,
+   "streak": 1,
+   "frequency": 0.429,
+   "slopes": {
+    "max_ev": 1.621,
+    "parks_sum": 0.786,
+    "near_hr": 0.107
+   },
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 112.3,
+   "max_distance_7d": 384,
+   "band": "<40",
+   "band_rate": 0.2,
+   "band_samples": 21348,
+   "weather_factor": 1.0,
+   "adjusted_score": 32.7,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
+  },
+  {
    "player_id": 650490,
    "player_name": "Yandy D\u00edaz",
    "team": "TB",
-   "expectancy_score": 39.5,
-   "streak": 1,
-   "frequency": 0.714,
+   "expectancy_score": 22.7,
+   "streak": 0,
+   "frequency": 0.571,
    "slopes": {
-    "max_ev": -2.179,
-    "parks_sum": 2.714,
-    "near_hr": 0.098
+    "max_ev": -3.364,
+    "parks_sum": 1.571,
+    "near_hr": 0.036
    },
    "near_hr_7d": 3,
    "near_hr_xbh_7d": 1,
@@ -22,123 +115,29 @@
    "max_distance_7d": 413,
    "band": "<40",
    "band_rate": 0.2,
-   "band_samples": 21329,
+   "band_samples": 21348,
    "weather_factor": 1.0,
-   "adjusted_score": 39.5,
-   "game_weather": null,
-   "repeat": false
-  },
-  {
-   "player_id": 641343,
-   "player_name": "Jake Bauers",
-   "team": "MIL",
-   "expectancy_score": 25.1,
-   "streak": 1,
-   "frequency": 0.286,
-   "slopes": {
-    "max_ev": 1.443,
-    "parks_sum": 0.071,
-    "near_hr": 0.107
+   "adjusted_score": 22.7,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
    },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 104.9,
-   "max_distance_7d": 337,
-   "band": "<40",
-   "band_rate": 0.2,
-   "band_samples": 21329,
-   "weather_factor": 1.0,
-   "adjusted_score": 25.1,
-   "game_weather": null,
-   "repeat": false
-  },
-  {
-   "player_id": 694192,
-   "player_name": "Jackson Chourio",
-   "team": "MIL",
-   "expectancy_score": 25.1,
-   "streak": 1,
-   "frequency": 0.571,
-   "slopes": {
-    "max_ev": -0.225,
-    "parks_sum": 0.0,
-    "near_hr": -0.045
-   },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 105.4,
-   "max_distance_7d": 353,
-   "band": "<40",
-   "band_rate": 0.2,
-   "band_samples": 21329,
-   "weather_factor": 1.0,
-   "adjusted_score": 25.1,
-   "game_weather": null,
-   "repeat": false
-  },
-  {
-   "player_id": 683748,
-   "player_name": "Victor Mesa Jr.",
-   "team": "TB",
-   "expectancy_score": 23.5,
-   "streak": 1,
-   "frequency": 0.286,
-   "slopes": {
-    "max_ev": 1.25,
-    "parks_sum": 0.0,
-    "near_hr": 0.071
-   },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 103.2,
-   "max_distance_7d": 349,
-   "band": "<40",
-   "band_rate": 0.2,
-   "band_samples": 21329,
-   "weather_factor": 1.0,
-   "adjusted_score": 23.5,
-   "game_weather": null,
-   "repeat": false
-  },
-  {
-   "player_id": 592885,
-   "player_name": "Christian Yelich",
-   "team": "MIL",
-   "expectancy_score": 18.1,
-   "streak": 1,
-   "frequency": 0.286,
-   "slopes": {
-    "max_ev": -0.593,
-    "parks_sum": 0.0,
-    "near_hr": 0.152
-   },
-   "near_hr_7d": 2,
-   "near_hr_xbh_7d": 1,
-   "hr_7d": 0,
-   "max_ev_7d": 107.8,
-   "max_distance_7d": 385,
-   "band": "<40",
-   "band_rate": 0.2,
-   "band_samples": 21329,
-   "weather_factor": 1.0,
-   "adjusted_score": 18.1,
-   "game_weather": null,
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 686217,
    "player_name": "Sal Frelick",
    "team": "MIL",
-   "expectancy_score": 15.2,
+   "expectancy_score": 19.1,
    "streak": 0,
-   "frequency": 0.429,
+   "frequency": 0.286,
    "slopes": {
-    "max_ev": 0.414,
-    "parks_sum": 0.071,
-    "near_hr": 0.0
+    "max_ev": 2.271,
+    "parks_sum": 0.036,
+    "near_hr": 0.036
    },
    "near_hr_7d": 2,
    "near_hr_xbh_7d": 0,
@@ -147,23 +146,29 @@
    "max_distance_7d": 408,
    "band": "<40",
    "band_rate": 0.2,
-   "band_samples": 21329,
+   "band_samples": 21348,
    "weather_factor": 1.0,
-   "adjusted_score": 15.2,
-   "game_weather": null,
-   "repeat": false
+   "adjusted_score": 19.1,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
   },
   {
    "player_id": 668930,
    "player_name": "Brice Turang",
    "team": "MIL",
-   "expectancy_score": 14.8,
+   "expectancy_score": 17.6,
    "streak": 0,
    "frequency": 0.286,
    "slopes": {
-    "max_ev": 0.975,
-    "parks_sum": 0.036,
-    "near_hr": 0.125
+    "max_ev": 1.718,
+    "parks_sum": 0.0,
+    "near_hr": 0.045
    },
    "near_hr_7d": 2,
    "near_hr_xbh_7d": 1,
@@ -172,36 +177,17 @@
    "max_distance_7d": 367,
    "band": "<40",
    "band_rate": 0.2,
-   "band_samples": 21329,
+   "band_samples": 21348,
    "weather_factor": 1.0,
-   "adjusted_score": 14.8,
-   "game_weather": null,
-   "repeat": false
-  },
-  {
-   "player_id": 669003,
-   "player_name": "Garrett Mitchell",
-   "team": "MIL",
-   "expectancy_score": 14.7,
-   "streak": 0,
-   "frequency": 0.286,
-   "slopes": {
-    "max_ev": 1.046,
-    "parks_sum": 0.071,
-    "near_hr": 0.071
+   "adjusted_score": 17.6,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
    },
-   "near_hr_7d": 1,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 112.3,
-   "max_distance_7d": 384,
-   "band": "<40",
-   "band_rate": 0.2,
-   "band_samples": 21329,
-   "weather_factor": 1.0,
-   "adjusted_score": 14.7,
-   "game_weather": null,
-   "repeat": false
+   "repeat": true
   },
   {
    "player_id": 691406,
@@ -211,9 +197,9 @@
    "streak": 0,
    "frequency": 0.429,
    "slopes": {
-    "max_ev": -0.082,
-    "parks_sum": -1.214,
-    "near_hr": -0.027
+    "max_ev": -1.039,
+    "parks_sum": -1.821,
+    "near_hr": -0.143
    },
    "near_hr_7d": 1,
    "near_hr_xbh_7d": 1,
@@ -222,36 +208,110 @@
    "max_distance_7d": 358,
    "band": "<40",
    "band_rate": 0.2,
-   "band_samples": 21329,
+   "band_samples": 21348,
    "weather_factor": 1.0,
    "adjusted_score": 12.9,
-   "game_weather": null,
-   "repeat": false
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
   },
   {
-   "player_id": 806198,
-   "player_name": "Cooper Pratt",
-   "team": "MIL",
-   "expectancy_score": 10.1,
+   "player_id": 683748,
+   "player_name": "Victor Mesa Jr.",
+   "team": "TB",
+   "expectancy_score": 11.5,
    "streak": 0,
-   "frequency": 0.0,
+   "frequency": 0.286,
    "slopes": {
-    "max_ev": 5.907,
-    "parks_sum": 0.036,
+    "max_ev": 0.586,
+    "parks_sum": 0.0,
     "near_hr": 0.0
+   },
+   "near_hr_7d": 1,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 0,
+   "max_ev_7d": 103.2,
+   "max_distance_7d": 349,
+   "band": "<40",
+   "band_rate": 0.2,
+   "band_samples": 21348,
+   "weather_factor": 1.0,
+   "adjusted_score": 11.5,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 676356,
+   "player_name": "Jonny DeLuca",
+   "team": "TB",
+   "expectancy_score": 10.5,
+   "streak": 0,
+   "frequency": 0.143,
+   "slopes": {
+    "max_ev": 1.246,
+    "parks_sum": 0.0,
+    "near_hr": -0.071
    },
    "near_hr_7d": 0,
    "near_hr_xbh_7d": 0,
    "hr_7d": 0,
-   "max_ev_7d": 96.2,
-   "max_distance_7d": 341,
+   "max_ev_7d": 100.3,
+   "max_distance_7d": 332,
    "band": "<40",
    "band_rate": 0.2,
-   "band_samples": 21329,
+   "band_samples": 21348,
    "weather_factor": 1.0,
-   "adjusted_score": 10.1,
-   "game_weather": null,
+   "adjusted_score": 10.5,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
    "repeat": false
+  },
+  {
+   "player_id": 689414,
+   "player_name": "Liam Hicks",
+   "team": "TB",
+   "expectancy_score": 10.0,
+   "streak": 0,
+   "frequency": 0.0,
+   "slopes": {
+    "max_ev": 3.675,
+    "parks_sum": 0.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
+   "max_ev_7d": 104.1,
+   "max_distance_7d": 411,
+   "band": "<40",
+   "band_rate": 0.2,
+   "band_samples": 21348,
+   "weather_factor": 1.0,
+   "adjusted_score": 10.0,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
   },
   {
    "player_id": 810938,
@@ -261,7 +321,7 @@
    "streak": 0,
    "frequency": 0.0,
    "slopes": {
-    "max_ev": 3.261,
+    "max_ev": 3.089,
     "parks_sum": 0.0,
     "near_hr": 0.0
    },
@@ -272,11 +332,17 @@
    "max_distance_7d": 223,
    "band": "<40",
    "band_rate": 0.2,
-   "band_samples": 21329,
+   "band_samples": 21348,
    "weather_factor": 1.0,
    "adjusted_score": 10.0,
-   "game_weather": null,
-   "repeat": false
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
   },
   {
    "player_id": 666152,
@@ -286,59 +352,102 @@
    "streak": 0,
    "frequency": 0.0,
    "slopes": {
-    "max_ev": 2.318,
+    "max_ev": 2.186,
+    "parks_sum": 0.0,
+    "near_hr": 0.0
+   },
+   "near_hr_7d": 0,
+   "near_hr_xbh_7d": 0,
+   "hr_7d": 1,
+   "max_ev_7d": 103.7,
+   "max_distance_7d": 391,
+   "band": "<40",
+   "band_rate": 0.2,
+   "band_samples": 21348,
+   "weather_factor": 1.0,
+   "adjusted_score": 10.0,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
+  },
+  {
+   "player_id": 670764,
+   "player_name": "Taylor Walls",
+   "team": "TB",
+   "expectancy_score": 9.6,
+   "streak": 0,
+   "frequency": 0.0,
+   "slopes": {
+    "max_ev": 1.911,
     "parks_sum": 0.0,
     "near_hr": 0.0
    },
    "near_hr_7d": 0,
    "near_hr_xbh_7d": 0,
    "hr_7d": 0,
-   "max_ev_7d": 103.7,
-   "max_distance_7d": 310,
+   "max_ev_7d": 91.0,
+   "max_distance_7d": 177,
    "band": "<40",
    "band_rate": 0.2,
-   "band_samples": 21329,
+   "band_samples": 21348,
    "weather_factor": 1.0,
-   "adjusted_score": 10.0,
-   "game_weather": null,
+   "adjusted_score": 9.6,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
    "repeat": false
   },
   {
-   "player_id": 661388,
-   "player_name": "William Contreras",
+   "player_id": 592885,
+   "player_name": "Christian Yelich",
    "team": "MIL",
-   "expectancy_score": 6.9,
+   "expectancy_score": 9.3,
    "streak": 0,
-   "frequency": 0.143,
+   "frequency": 0.286,
    "slopes": {
-    "max_ev": 0.532,
+    "max_ev": -1.679,
     "parks_sum": 0.0,
-    "near_hr": 0.0
+    "near_hr": 0.071
    },
-   "near_hr_7d": 0,
-   "near_hr_xbh_7d": 0,
+   "near_hr_7d": 2,
+   "near_hr_xbh_7d": 1,
    "hr_7d": 0,
-   "max_ev_7d": 108.4,
-   "max_distance_7d": 261,
+   "max_ev_7d": 107.8,
+   "max_distance_7d": 385,
    "band": "<40",
    "band_rate": 0.2,
-   "band_samples": 21329,
+   "band_samples": 21348,
    "weather_factor": 1.0,
-   "adjusted_score": 6.9,
-   "game_weather": null,
-   "repeat": false
+   "adjusted_score": 9.3,
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
   },
   {
    "player_id": 668723,
    "player_name": "Ryan Vilade",
    "team": "TB",
-   "expectancy_score": 5.1,
+   "expectancy_score": 4.3,
    "streak": 0,
    "frequency": 0.143,
    "slopes": {
-    "max_ev": 0.157,
-    "parks_sum": 0.0,
-    "near_hr": 0.0
+    "max_ev": -3.182,
+    "parks_sum": -0.214,
+    "near_hr": -0.036
    },
    "near_hr_7d": 0,
    "near_hr_xbh_7d": 0,
@@ -347,42 +456,23 @@
    "max_distance_7d": 282,
    "band": "<40",
    "band_rate": 0.2,
-   "band_samples": 21329,
-   "weather_factor": 1.0,
-   "adjusted_score": 5.1,
-   "game_weather": null,
-   "repeat": false
-  },
-  {
-   "player_id": 676356,
-   "player_name": "Jonny DeLuca",
-   "team": "TB",
-   "expectancy_score": 4.3,
-   "streak": 0,
-   "frequency": 0.143,
-   "slopes": {
-    "max_ev": -0.339,
-    "parks_sum": 0.0,
-    "near_hr": -0.036
-   },
-   "near_hr_7d": 0,
-   "near_hr_xbh_7d": 0,
-   "hr_7d": 0,
-   "max_ev_7d": 100.3,
-   "max_distance_7d": 332,
-   "band": "<40",
-   "band_rate": 0.2,
-   "band_samples": 21329,
+   "band_samples": 21348,
    "weather_factor": 1.0,
    "adjusted_score": 4.3,
-   "game_weather": null,
-   "repeat": false
+   "game_weather": {
+    "venue_name": "Tropicana Field",
+    "temp_f": null,
+    "wind_mph": null,
+    "wind_dir": null,
+    "weather_condition": ""
+   },
+   "repeat": true
   }
  ],
  "bands": {
   "<40": {
-   "samples": 21329,
-   "hr_followed": 4261,
+   "samples": 21348,
+   "hr_followed": 4263,
    "rate": 0.2
   },
   "40-60": {
@@ -402,11 +492,11 @@
   }
  },
  "hit_rate": {
-  "resolved_records": 111,
+  "resolved_records": 112,
   "horizon_days": 3,
   "overall": {
-   "flagged": 1650,
-   "hr_followed": 329,
+   "flagged": 1665,
+   "hr_followed": 331,
    "rate": 0.199
   },
   "top_band": {
@@ -416,5 +506,24 @@
    "rate": 0.5
   }
  },
- "recent_hits": []
+ "recent_hits": [
+  {
+   "player_id": 806198,
+   "player_name": "Cooper Pratt",
+   "team": "MIL",
+   "flagged_on": "2026-10-26",
+   "flagged_score": 10.1,
+   "hr_on": "2026-10-27",
+   "hr_count": 1
+  },
+  {
+   "player_id": 666152,
+   "player_name": "David Hamilton",
+   "team": "MIL",
+   "flagged_on": "2026-10-26",
+   "flagged_score": 10.0,
+   "hr_on": "2026-10-27",
+   "hr_count": 1
+  }
+ ]
 }

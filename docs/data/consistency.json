@@ -1,51 +1,41 @@
 {
- "as_of": "2026-10-28",
+ "as_of": "2026-10-27",
  "players": [
   {
    "player_id": 650490,
    "player_name": "Yandy D\u00edaz",
    "team": "TB",
-   "record_streak": 1,
+   "record_streak": 5,
    "total_flags": 19,
-   "avg_score": 35.0,
-   "current_score": 39.5,
-   "game_streak": 1
+   "avg_score": 34.1,
+   "current_score": 22.7,
+   "game_streak": 0
   },
   {
    "player_id": 694192,
    "player_name": "Jackson Chourio",
    "team": "MIL",
-   "record_streak": 1,
+   "record_streak": 5,
    "total_flags": 18,
-   "avg_score": 27.3,
-   "current_score": 25.1,
-   "game_streak": 1
+   "avg_score": 27.9,
+   "current_score": 34.7,
+   "game_streak": 2
   },
   {
    "player_id": 592885,
    "player_name": "Christian Yelich",
    "team": "MIL",
-   "record_streak": 1,
+   "record_streak": 5,
    "total_flags": 18,
-   "avg_score": 23.8,
-   "current_score": 18.1,
-   "game_streak": 1
-  },
-  {
-   "player_id": 661388,
-   "player_name": "William Contreras",
-   "team": "MIL",
-   "record_streak": 1,
-   "total_flags": 17,
-   "avg_score": 29.3,
-   "current_score": 6.9,
+   "avg_score": 23.3,
+   "current_score": 9.3,
    "game_streak": 0
   },
   {
    "player_id": 666152,
    "player_name": "David Hamilton",
    "team": "MIL",
-   "record_streak": 1,
+   "record_streak": 5,
    "total_flags": 15,
    "avg_score": 20.8,
    "current_score": 10.0,
@@ -55,7 +45,7 @@
    "player_id": 691406,
    "player_name": "Junior Caminero",
    "team": "TB",
-   "record_streak": 1,
+   "record_streak": 5,
    "total_flags": 14,
    "avg_score": 22.8,
    "current_score": 12.9,
@@ -65,70 +55,80 @@
    "player_id": 683748,
    "player_name": "Victor Mesa Jr.",
    "team": "TB",
-   "record_streak": 1,
+   "record_streak": 5,
    "total_flags": 14,
-   "avg_score": 21.6,
-   "current_score": 23.5,
-   "game_streak": 1
+   "avg_score": 20.8,
+   "current_score": 11.5,
+   "game_streak": 0
   },
   {
    "player_id": 641343,
    "player_name": "Jake Bauers",
    "team": "MIL",
-   "record_streak": 1,
+   "record_streak": 5,
    "total_flags": 12,
-   "avg_score": 26.8,
-   "current_score": 25.1,
-   "game_streak": 1
+   "avg_score": 28.5,
+   "current_score": 46.0,
+   "game_streak": 2
   },
   {
    "player_id": 668930,
    "player_name": "Brice Turang",
    "team": "MIL",
-   "record_streak": 1,
+   "record_streak": 5,
    "total_flags": 10,
-   "avg_score": 27.7,
-   "current_score": 14.8,
+   "avg_score": 28.0,
+   "current_score": 17.6,
    "game_streak": 0
   },
   {
    "player_id": 668723,
    "player_name": "Ryan Vilade",
    "team": "TB",
-   "record_streak": 1,
+   "record_streak": 5,
    "total_flags": 10,
-   "avg_score": 14.6,
-   "current_score": 5.1,
+   "avg_score": 14.5,
+   "current_score": 4.3,
+   "game_streak": 0
+  },
+  {
+   "player_id": 689414,
+   "player_name": "Liam Hicks",
+   "team": "TB",
+   "record_streak": 5,
+   "total_flags": 8,
+   "avg_score": 17.2,
+   "current_score": 10.0,
    "game_streak": 0
   },
   {
    "player_id": 686217,
    "player_name": "Sal Frelick",
    "team": "MIL",
-   "record_streak": 1,
+   "record_streak": 5,
    "total_flags": 7,
-   "avg_score": 26.4,
-   "current_score": 15.2,
-   "game_streak": 0
-  },
-  {
-   "player_id": 806198,
-   "player_name": "Cooper Pratt",
-   "team": "MIL",
-   "record_streak": 1,
-   "total_flags": 7,
-   "avg_score": 25.8,
-   "current_score": 10.1,
+   "avg_score": 26.9,
+   "current_score": 19.1,
    "game_streak": 0
   },
   {
    "player_id": 669003,
    "player_name": "Garrett Mitchell",
    "team": "MIL",
-   "record_streak": 1,
+   "record_streak": 5,
    "total_flags": 6,
-   "avg_score": 16.6,
-   "current_score": 14.7,
+   "avg_score": 19.6,
+   "current_score": 32.7,
+   "game_streak": 1
+  },
+  {
+   "player_id": 810938,
+   "player_name": "Ben Williamson",
+   "team": "TB",
+   "record_streak": 2,
+   "total_flags": 3,
+   "avg_score": 8.1,
+   "current_score": 10.0,
    "game_streak": 0
   },
   {
@@ -137,18 +137,18 @@
    "team": "TB",
    "record_streak": 1,
    "total_flags": 6,
-   "avg_score": 7.3,
-   "current_score": 4.3,
+   "avg_score": 8.3,
+   "current_score": 10.5,
    "game_streak": 0
   },
   {
-   "player_id": 810938,
-   "player_name": "Ben Williamson",
+   "player_id": 670764,
+   "player_name": "Taylor Walls",
    "team": "TB",
    "record_streak": 1,
-   "total_flags": 3,
-   "avg_score": 8.1,
-   "current_score": 10.0,
+   "total_flags": 2,
+   "avg_score": 22.1,
+   "current_score": 9.6,
    "game_streak": 0
   }
  ]
