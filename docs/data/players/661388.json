@@ -2,9 +2,9 @@
  "player_id": 661388,
  "player_name": "William Contreras",
  "team": "MIL",
- "as_of": "2026-10-29",
+ "as_of": "2026-10-31",
  "form": {
-  "streak": 1,
+  "streak": 0,
   "frequency": 0.286,
   "slopes": {
    "max_ev": 0.382,
@@ -12,7 +12,7 @@
    "near_hr": 0.045
   },
   "intensity": 0.079,
-  "expectancy_score": 18.9,
+  "expectancy_score": 10.9,
   "last_appearance": "2026-10-28"
  },
  "days": [

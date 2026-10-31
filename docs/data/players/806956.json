@@ -2,17 +2,17 @@
  "player_id": 806956,
  "player_name": "Ethan Salas",
  "team": "SD",
- "as_of": "2026-10-29",
+ "as_of": "2026-10-31",
  "form": {
   "streak": 0,
-  "frequency": 0.333,
+  "frequency": 0.0,
   "slopes": {
-   "max_ev": -4.85,
+   "max_ev": -3.5,
    "parks_sum": 0.0,
-   "near_hr": -0.5
+   "near_hr": 0.0
   },
   "intensity": 0.0,
-  "expectancy_score": 10.0,
+  "expectancy_score": 0.0,
   "last_appearance": "2026-10-06"
  },
  "days": [
@@ -51,24 +51,6 @@
    "wind_mph": 0.0,
    "wind_dir": "none",
    "weather_condition": "Roof Closed"
-  },
-  {
-   "date": "2026-09-30",
-   "bbe": 1,
-   "hr": 0,
-   "near_hr_any": 1,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 0,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 1,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 104.5,
-   "max_distance": 331.0,
-   "max_barrel_score": 71.3,
-   "temp_f": 71.0,
-   "wind_mph": 6.0,
-   "wind_dir": "cross",
-   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -187,35 +169,6 @@
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
-  },
-  {
-   "game_pk": 849842,
-   "date": "2026-09-30",
-   "player_id": 806956,
-   "player_name": "Ethan Salas",
-   "team": "SD",
-   "opponent": "CHC",
-   "result": "Sac Fly",
-   "exit_velocity": 104.5,
-   "launch_angle": 17.0,
-   "hit_distance": 331.0,
-   "hc_x": 114.84,
-   "hc_y": 66.53,
-   "would_be_hr_count": 0,
-   "inning": 2,
-   "play_id": "d6d990ca-3c50-3d43-91d7-74c8bd9b6e64",
-   "venue_id": 2680,
-   "venue_name": "Petco Park",
-   "temp_f": 71.0,
-   "wind_mph": 6.0,
-   "wind_dir": "cross",
-   "weather_condition": "Partly Cloudy",
-   "distance_flag": false,
-   "would_be_hr_flag": false,
-   "barrel_score": 71.3,
-   "barrel_flag": true,
-   "is_home_run": false,
-   "is_near_hr": true
   }
  ]
 }
