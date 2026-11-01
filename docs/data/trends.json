@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-30",
+ "as_of": "2026-11-01",
  "windows": [
   7,
   14,
@@ -12,7 +12,7 @@
    "team": "TB",
    "windows": {
     "7": {
-     "bbe": 11,
+     "bbe": 9,
      "hr": 0,
      "near_hr_distance": 2,
      "near_hr_parks": 1,
@@ -22,22 +22,22 @@
      "avg_ev_near_hr": 104.8,
      "max_barrel_score": 85.1,
      "would_be_hr_parks_sum": 23,
-     "parks_slope": -0.75,
+     "parks_slope": -2.393,
      "trend_direction": "falling"
     },
     "14": {
-     "bbe": 26,
-     "hr": 2,
-     "near_hr_distance": 3,
+     "bbe": 19,
+     "hr": 1,
+     "near_hr_distance": 2,
      "near_hr_parks": 2,
-     "near_hr_barrel": 7,
-     "near_hr_any": 7,
+     "near_hr_barrel": 6,
+     "near_hr_any": 6,
      "max_ev_near_hr": 115.5,
-     "avg_ev_near_hr": 105.6,
+     "avg_ev_near_hr": 105.0,
      "max_barrel_score": 89.0,
      "would_be_hr_parks_sum": 33,
-     "parks_slope": 0.24,
-     "trend_direction": "rising"
+     "parks_slope": -0.051,
+     "trend_direction": "falling"
     },
     "30": {
      "bbe": 45,
@@ -50,7 +50,7 @@
      "avg_ev_near_hr": 105.4,
      "max_barrel_score": 89.0,
      "would_be_hr_parks_sum": 33,
-     "parks_slope": 0.142,
+     "parks_slope": 0.112,
      "trend_direction": "rising"
     }
    },
@@ -62,7 +62,7 @@
    "team": "MIL",
    "windows": {
     "7": {
-     "bbe": 12,
+     "bbe": 10,
      "hr": 0,
      "near_hr_distance": 2,
      "near_hr_parks": 1,
@@ -71,8 +71,8 @@
      "max_ev_near_hr": 105.1,
      "avg_ev_near_hr": 101.2,
      "max_barrel_score": 82.4,
-     "would_be_hr_parks_sum": 14,
-     "parks_slope": -0.107,
+     "would_be_hr_parks_sum": 13,
+     "parks_slope": -0.929,
      "trend_direction": "falling"
     },
     "14": {
@@ -86,7 +86,7 @@
      "avg_ev_near_hr": 101.2,
      "max_barrel_score": 82.4,
      "would_be_hr_parks_sum": 14,
-     "parks_slope": 0.202,
+     "parks_slope": 0.079,
      "trend_direction": "rising"
     },
     "30": {
@@ -100,7 +100,7 @@
      "avg_ev_near_hr": 103.2,
      "max_barrel_score": 85.4,
      "would_be_hr_parks_sum": 14,
-     "parks_slope": 0.07,
+     "parks_slope": 0.058,
      "trend_direction": "rising"
     }
    },
@@ -112,7 +112,7 @@
    "team": "MIL",
    "windows": {
     "7": {
-     "bbe": 13,
+     "bbe": 9,
      "hr": 0,
      "near_hr_distance": 1,
      "near_hr_parks": 0,
@@ -157,62 +157,12 @@
    "heating_up": false
   },
   {
-   "player_id": 668930,
-   "player_name": "Brice Turang",
-   "team": "MIL",
-   "windows": {
-    "7": {
-     "bbe": 15,
-     "hr": 0,
-     "near_hr_distance": 2,
-     "near_hr_parks": 1,
-     "near_hr_barrel": 2,
-     "near_hr_any": 2,
-     "max_ev_near_hr": 104.5,
-     "avg_ev_near_hr": 104.5,
-     "max_barrel_score": 85.4,
-     "would_be_hr_parks_sum": 19,
-     "parks_slope": 0.679,
-     "trend_direction": "rising"
-    },
-    "14": {
-     "bbe": 16,
-     "hr": 0,
-     "near_hr_distance": 3,
-     "near_hr_parks": 1,
-     "near_hr_barrel": 3,
-     "near_hr_any": 3,
-     "max_ev_near_hr": 104.5,
-     "avg_ev_near_hr": 103.5,
-     "max_barrel_score": 85.4,
-     "would_be_hr_parks_sum": 20,
-     "parks_slope": 0.374,
-     "trend_direction": "rising"
-    },
-    "30": {
-     "bbe": 37,
-     "hr": 1,
-     "near_hr_distance": 3,
-     "near_hr_parks": 1,
-     "near_hr_barrel": 4,
-     "near_hr_any": 4,
-     "max_ev_near_hr": 104.5,
-     "avg_ev_near_hr": 101.3,
-     "max_barrel_score": 85.4,
-     "would_be_hr_parks_sum": 20,
-     "parks_slope": 0.109,
-     "trend_direction": "rising"
-    }
-   },
-   "heating_up": false
-  },
-  {
    "player_id": 592885,
    "player_name": "Christian Yelich",
    "team": "MIL",
    "windows": {
     "7": {
-     "bbe": 10,
+     "bbe": 8,
      "hr": 0,
      "near_hr_distance": 2,
      "near_hr_parks": 0,
@@ -250,8 +200,58 @@
      "avg_ev_near_hr": 101.9,
      "max_barrel_score": 84.9,
      "would_be_hr_parks_sum": 1,
-     "parks_slope": -0.005,
+     "parks_slope": -0.006,
      "trend_direction": "flat"
+    }
+   },
+   "heating_up": false
+  },
+  {
+   "player_id": 668930,
+   "player_name": "Brice Turang",
+   "team": "MIL",
+   "windows": {
+    "7": {
+     "bbe": 11,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 1,
+     "near_hr_barrel": 1,
+     "near_hr_any": 1,
+     "max_ev_near_hr": 104.5,
+     "avg_ev_near_hr": 104.5,
+     "max_barrel_score": 85.4,
+     "would_be_hr_parks_sum": 19,
+     "parks_slope": -0.679,
+     "trend_direction": "falling"
+    },
+    "14": {
+     "bbe": 16,
+     "hr": 0,
+     "near_hr_distance": 3,
+     "near_hr_parks": 1,
+     "near_hr_barrel": 3,
+     "near_hr_any": 3,
+     "max_ev_near_hr": 104.5,
+     "avg_ev_near_hr": 103.5,
+     "max_barrel_score": 85.4,
+     "would_be_hr_parks_sum": 20,
+     "parks_slope": 0.198,
+     "trend_direction": "rising"
+    },
+    "30": {
+     "bbe": 37,
+     "hr": 1,
+     "near_hr_distance": 3,
+     "near_hr_parks": 1,
+     "near_hr_barrel": 4,
+     "near_hr_any": 4,
+     "max_ev_near_hr": 104.5,
+     "avg_ev_near_hr": 101.3,
+     "max_barrel_score": 85.4,
+     "would_be_hr_parks_sum": 20,
+     "parks_slope": 0.091,
+     "trend_direction": "rising"
     }
    },
    "heating_up": false
@@ -262,17 +262,17 @@
    "team": "MIL",
    "windows": {
     "7": {
-     "bbe": 8,
+     "bbe": 4,
      "hr": 0,
-     "near_hr_distance": 1,
+     "near_hr_distance": 0,
      "near_hr_parks": 1,
-     "near_hr_barrel": 2,
-     "near_hr_any": 2,
+     "near_hr_barrel": 1,
+     "near_hr_any": 1,
      "max_ev_near_hr": 98.9,
-     "avg_ev_near_hr": 98.2,
-     "max_barrel_score": 79.4,
-     "would_be_hr_parks_sum": 8,
-     "parks_slope": -0.107,
+     "avg_ev_near_hr": 98.9,
+     "max_barrel_score": 72.9,
+     "would_be_hr_parks_sum": 7,
+     "parks_slope": -0.5,
      "trend_direction": "falling"
     },
     "14": {
@@ -286,8 +286,8 @@
      "avg_ev_near_hr": 98.2,
      "max_barrel_score": 79.4,
      "would_be_hr_parks_sum": 8,
-     "parks_slope": 0.11,
-     "trend_direction": "rising"
+     "parks_slope": 0.04,
+     "trend_direction": "flat"
     },
     "30": {
      "bbe": 28,
@@ -300,57 +300,7 @@
      "avg_ev_near_hr": 102.4,
      "max_barrel_score": 90.5,
      "would_be_hr_parks_sum": 8,
-     "parks_slope": 0.04,
-     "trend_direction": "flat"
-    }
-   },
-   "heating_up": false
-  },
-  {
-   "player_id": 686217,
-   "player_name": "Sal Frelick",
-   "team": "MIL",
-   "windows": {
-    "7": {
-     "bbe": 14,
-     "hr": 1,
-     "near_hr_distance": 1,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 1,
-     "near_hr_any": 1,
-     "max_ev_near_hr": 98.5,
-     "avg_ev_near_hr": 98.5,
-     "max_barrel_score": 82.9,
-     "would_be_hr_parks_sum": 1,
-     "parks_slope": -0.107,
-     "trend_direction": "falling"
-    },
-    "14": {
-     "bbe": 17,
-     "hr": 1,
-     "near_hr_distance": 1,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 2,
-     "near_hr_any": 2,
-     "max_ev_near_hr": 98.7,
-     "avg_ev_near_hr": 98.6,
-     "max_barrel_score": 82.9,
-     "would_be_hr_parks_sum": 1,
-     "parks_slope": 0.002,
-     "trend_direction": "flat"
-    },
-    "30": {
-     "bbe": 30,
-     "hr": 1,
-     "near_hr_distance": 2,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 3,
-     "near_hr_any": 3,
-     "max_ev_near_hr": 102.6,
-     "avg_ev_near_hr": 99.9,
-     "max_barrel_score": 82.9,
-     "would_be_hr_parks_sum": 1,
-     "parks_slope": 0.004,
+     "parks_slope": 0.032,
      "trend_direction": "flat"
     }
    },
@@ -362,7 +312,7 @@
    "team": "MIL",
    "windows": {
     "7": {
-     "bbe": 17,
+     "bbe": 12,
      "hr": 0,
      "near_hr_distance": 0,
      "near_hr_parks": 0,
@@ -412,7 +362,7 @@
    "team": "TB",
    "windows": {
     "7": {
-     "bbe": 6,
+     "bbe": 4,
      "hr": 0,
      "near_hr_distance": 0,
      "near_hr_parks": 0,
@@ -426,15 +376,15 @@
      "trend_direction": "flat"
     },
     "14": {
-     "bbe": 14,
+     "bbe": 9,
      "hr": 0,
-     "near_hr_distance": 1,
+     "near_hr_distance": 0,
      "near_hr_parks": 0,
-     "near_hr_barrel": 2,
-     "near_hr_any": 2,
-     "max_ev_near_hr": 101.3,
-     "avg_ev_near_hr": 101.0,
-     "max_barrel_score": 74.1,
+     "near_hr_barrel": 1,
+     "near_hr_any": 1,
+     "max_ev_near_hr": 100.7,
+     "avg_ev_near_hr": 100.7,
+     "max_barrel_score": 70.2,
      "would_be_hr_parks_sum": 0,
      "parks_slope": 0.0,
      "trend_direction": "flat"
@@ -462,7 +412,7 @@
    "team": "TB",
    "windows": {
     "7": {
-     "bbe": 14,
+     "bbe": 10,
      "hr": 0,
      "near_hr_distance": 0,
      "near_hr_parks": 1,
@@ -472,22 +422,22 @@
      "avg_ev_near_hr": 102.1,
      "max_barrel_score": 69.0,
      "would_be_hr_parks_sum": 19,
-     "parks_slope": 0.679,
-     "trend_direction": "rising"
+     "parks_slope": -0.679,
+     "trend_direction": "falling"
     },
     "14": {
-     "bbe": 24,
+     "bbe": 19,
      "hr": 1,
-     "near_hr_distance": 3,
-     "near_hr_parks": 2,
-     "near_hr_barrel": 3,
-     "near_hr_any": 4,
+     "near_hr_distance": 2,
+     "near_hr_parks": 1,
+     "near_hr_barrel": 2,
+     "near_hr_any": 3,
      "max_ev_near_hr": 112.7,
-     "avg_ev_near_hr": 108.0,
-     "max_barrel_score": 91.9,
-     "would_be_hr_parks_sum": 36,
-     "parks_slope": -0.11,
-     "trend_direction": "falling"
+     "avg_ev_near_hr": 107.2,
+     "max_barrel_score": 76.0,
+     "would_be_hr_parks_sum": 19,
+     "parks_slope": 0.209,
+     "trend_direction": "rising"
     },
     "30": {
      "bbe": 36,
@@ -500,58 +450,8 @@
      "avg_ev_near_hr": 108.9,
      "max_barrel_score": 91.9,
      "would_be_hr_parks_sum": 36,
-     "parks_slope": 0.117,
+     "parks_slope": 0.085,
      "trend_direction": "rising"
-    }
-   },
-   "heating_up": false
-  },
-  {
-   "player_id": 689414,
-   "player_name": "Liam Hicks",
-   "team": "TB",
-   "windows": {
-    "7": {
-     "bbe": 10,
-     "hr": 1,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 82.4,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "14": {
-     "bbe": 21,
-     "hr": 1,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 82.4,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "30": {
-     "bbe": 35,
-     "hr": 1,
-     "near_hr_distance": 1,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 1,
-     "near_hr_any": 1,
-     "max_ev_near_hr": 104.8,
-     "avg_ev_near_hr": 104.8,
-     "max_barrel_score": 82.4,
-     "would_be_hr_parks_sum": 4,
-     "parks_slope": -0.022,
-     "trend_direction": "flat"
     }
    },
    "heating_up": false
@@ -562,7 +462,7 @@
    "team": "MIL",
    "windows": {
     "7": {
-     "bbe": 10,
+     "bbe": 7,
      "hr": 1,
      "near_hr_distance": 0,
      "near_hr_parks": 0,
@@ -612,7 +512,7 @@
    "team": "MIL",
    "windows": {
     "7": {
-     "bbe": 14,
+     "bbe": 12,
      "hr": 1,
      "near_hr_distance": 0,
      "near_hr_parks": 0,
@@ -636,7 +536,7 @@
      "avg_ev_near_hr": null,
      "max_barrel_score": 78.4,
      "would_be_hr_parks_sum": 1,
-     "parks_slope": -0.002,
+     "parks_slope": -0.011,
      "trend_direction": "flat"
     },
     "30": {
@@ -650,7 +550,7 @@
      "avg_ev_near_hr": null,
      "max_barrel_score": 78.4,
      "would_be_hr_parks_sum": 1,
-     "parks_slope": 0.003,
+     "parks_slope": 0.002,
      "trend_direction": "flat"
     }
    },
@@ -662,7 +562,7 @@
    "team": "TB",
    "windows": {
     "7": {
-     "bbe": 11,
+     "bbe": 9,
      "hr": 0,
      "near_hr_distance": 0,
      "near_hr_parks": 0,
@@ -676,7 +576,7 @@
      "trend_direction": "flat"
     },
     "14": {
-     "bbe": 25,
+     "bbe": 16,
      "hr": 0,
      "near_hr_distance": 0,
      "near_hr_parks": 0,
@@ -700,7 +600,57 @@
      "avg_ev_near_hr": 103.2,
      "max_barrel_score": 88.1,
      "would_be_hr_parks_sum": 12,
-     "parks_slope": -0.019,
+     "parks_slope": -0.029,
+     "trend_direction": "flat"
+    }
+   },
+   "heating_up": false
+  },
+  {
+   "player_id": 686217,
+   "player_name": "Sal Frelick",
+   "team": "MIL",
+   "windows": {
+    "7": {
+     "bbe": 10,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "near_hr_any": 0,
+     "max_ev_near_hr": null,
+     "avg_ev_near_hr": null,
+     "max_barrel_score": 66.2,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    },
+    "14": {
+     "bbe": 17,
+     "hr": 1,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 2,
+     "near_hr_any": 2,
+     "max_ev_near_hr": 98.7,
+     "avg_ev_near_hr": 98.6,
+     "max_barrel_score": 82.9,
+     "would_be_hr_parks_sum": 1,
+     "parks_slope": -0.007,
+     "trend_direction": "flat"
+    },
+    "30": {
+     "bbe": 30,
+     "hr": 1,
+     "near_hr_distance": 2,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 3,
+     "near_hr_any": 3,
+     "max_ev_near_hr": 102.6,
+     "avg_ev_near_hr": 99.9,
+     "max_barrel_score": 82.9,
+     "would_be_hr_parks_sum": 1,
+     "parks_slope": 0.003,
      "trend_direction": "flat"
     }
    },
@@ -712,7 +662,7 @@
    "team": "TB",
    "windows": {
     "7": {
-     "bbe": 6,
+     "bbe": 5,
      "hr": 0,
      "near_hr_distance": 0,
      "near_hr_parks": 0,
@@ -726,7 +676,7 @@
      "trend_direction": "flat"
     },
     "14": {
-     "bbe": 13,
+     "bbe": 8,
      "hr": 0,
      "near_hr_distance": 0,
      "near_hr_parks": 0,
@@ -757,12 +707,12 @@
    "heating_up": false
   },
   {
-   "player_id": 676356,
-   "player_name": "Jonny DeLuca",
+   "player_id": 810938,
+   "player_name": "Ben Williamson",
    "team": "TB",
    "windows": {
     "7": {
-     "bbe": 11,
+     "bbe": 5,
      "hr": 0,
      "near_hr_distance": 0,
      "near_hr_parks": 0,
@@ -770,21 +720,71 @@
      "near_hr_any": 0,
      "max_ev_near_hr": null,
      "avg_ev_near_hr": null,
-     "max_barrel_score": 62.5,
+     "max_barrel_score": 57.7,
      "would_be_hr_parks_sum": 0,
      "parks_slope": 0.0,
      "trend_direction": "flat"
     },
     "14": {
-     "bbe": 22,
+     "bbe": 8,
      "hr": 0,
      "near_hr_distance": 0,
      "near_hr_parks": 0,
-     "near_hr_barrel": 1,
-     "near_hr_any": 1,
-     "max_ev_near_hr": 94.4,
-     "avg_ev_near_hr": 94.4,
-     "max_barrel_score": 71.7,
+     "near_hr_barrel": 0,
+     "near_hr_any": 0,
+     "max_ev_near_hr": null,
+     "avg_ev_near_hr": null,
+     "max_barrel_score": 57.7,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    },
+    "30": {
+     "bbe": 16,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "near_hr_any": 0,
+     "max_ev_near_hr": null,
+     "avg_ev_near_hr": null,
+     "max_barrel_score": 57.7,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    }
+   },
+   "heating_up": false
+  },
+  {
+   "player_id": 676356,
+   "player_name": "Jonny DeLuca",
+   "team": "TB",
+   "windows": {
+    "7": {
+     "bbe": 8,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "near_hr_any": 0,
+     "max_ev_near_hr": null,
+     "avg_ev_near_hr": null,
+     "max_barrel_score": 56.1,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    },
+    "14": {
+     "bbe": 18,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "near_hr_any": 0,
+     "max_ev_near_hr": null,
+     "avg_ev_near_hr": null,
+     "max_barrel_score": 66.8,
      "would_be_hr_parks_sum": 0,
      "parks_slope": 0.0,
      "trend_direction": "flat"
@@ -800,7 +800,7 @@
      "avg_ev_near_hr": 95.1,
      "max_barrel_score": 72.9,
      "would_be_hr_parks_sum": 12,
-     "parks_slope": -0.056,
+     "parks_slope": -0.067,
      "trend_direction": "falling"
     }
    },
@@ -812,7 +812,7 @@
    "team": "TB",
    "windows": {
     "7": {
-     "bbe": 16,
+     "bbe": 12,
      "hr": 0,
      "near_hr_distance": 0,
      "near_hr_parks": 0,
@@ -820,13 +820,13 @@
      "near_hr_any": 0,
      "max_ev_near_hr": null,
      "avg_ev_near_hr": null,
-     "max_barrel_score": 58.9,
+     "max_barrel_score": 51.7,
      "would_be_hr_parks_sum": 0,
      "parks_slope": 0.0,
      "trend_direction": "flat"
     },
     "14": {
-     "bbe": 30,
+     "bbe": 22,
      "hr": 0,
      "near_hr_distance": 0,
      "near_hr_parks": 0,
@@ -849,56 +849,6 @@
      "max_ev_near_hr": null,
      "avg_ev_near_hr": null,
      "max_barrel_score": 66.6,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    }
-   },
-   "heating_up": false
-  },
-  {
-   "player_id": 810938,
-   "player_name": "Ben Williamson",
-   "team": "TB",
-   "windows": {
-    "7": {
-     "bbe": 6,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 57.7,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "14": {
-     "bbe": 13,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 57.7,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "30": {
-     "bbe": 16,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 57.7,
      "would_be_hr_parks_sum": 0,
      "parks_slope": 0.0,
      "trend_direction": "flat"
@@ -950,7 +900,57 @@
      "avg_ev_near_hr": 95.2,
      "max_barrel_score": 72.3,
      "would_be_hr_parks_sum": 6,
-     "parks_slope": -0.023,
+     "parks_slope": -0.028,
+     "trend_direction": "flat"
+    }
+   },
+   "heating_up": false
+  },
+  {
+   "player_id": 689414,
+   "player_name": "Liam Hicks",
+   "team": "TB",
+   "windows": {
+    "7": {
+     "bbe": 8,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "near_hr_any": 0,
+     "max_ev_near_hr": null,
+     "avg_ev_near_hr": null,
+     "max_barrel_score": 48.8,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    },
+    "14": {
+     "bbe": 17,
+     "hr": 1,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "near_hr_any": 0,
+     "max_ev_near_hr": null,
+     "avg_ev_near_hr": null,
+     "max_barrel_score": 82.4,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    },
+    "30": {
+     "bbe": 35,
+     "hr": 1,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "near_hr_any": 1,
+     "max_ev_near_hr": 104.8,
+     "avg_ev_near_hr": 104.8,
+     "max_barrel_score": 82.4,
+     "would_be_hr_parks_sum": 4,
+     "parks_slope": -0.026,
      "trend_direction": "flat"
     }
    },
@@ -1026,7 +1026,7 @@
      "trend_direction": "flat"
     },
     "14": {
-     "bbe": 3,
+     "bbe": 2,
      "hr": 0,
      "near_hr_distance": 0,
      "near_hr_parks": 0,
@@ -1052,56 +1052,6 @@
      "would_be_hr_parks_sum": 0,
      "parks_slope": 0.0,
      "trend_direction": "flat"
-    }
-   },
-   "heating_up": false
-  },
-  {
-   "player_id": 680700,
-   "player_name": "Richie Palacios",
-   "team": "TB",
-   "windows": {
-    "7": {
-     "bbe": 7,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 39.2,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "14": {
-     "bbe": 14,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 58.3,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "30": {
-     "bbe": 24,
-     "hr": 0,
-     "near_hr_distance": 1,
-     "near_hr_parks": 1,
-     "near_hr_barrel": 1,
-     "near_hr_any": 1,
-     "max_ev_near_hr": 99.4,
-     "avg_ev_near_hr": 99.4,
-     "max_barrel_score": 76.9,
-     "would_be_hr_parks_sum": 16,
-     "parks_slope": -0.089,
-     "trend_direction": "falling"
     }
    },
    "heating_up": false
@@ -1152,6 +1102,56 @@
      "would_be_hr_parks_sum": 0,
      "parks_slope": 0.0,
      "trend_direction": "flat"
+    }
+   },
+   "heating_up": false
+  },
+  {
+   "player_id": 680700,
+   "player_name": "Richie Palacios",
+   "team": "TB",
+   "windows": {
+    "7": {
+     "bbe": 4,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "near_hr_any": 0,
+     "max_ev_near_hr": null,
+     "avg_ev_near_hr": null,
+     "max_barrel_score": 27.3,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    },
+    "14": {
+     "bbe": 11,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "near_hr_any": 0,
+     "max_ev_near_hr": null,
+     "avg_ev_near_hr": null,
+     "max_barrel_score": 58.3,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    },
+    "30": {
+     "bbe": 24,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 1,
+     "near_hr_barrel": 1,
+     "near_hr_any": 1,
+     "max_ev_near_hr": 99.4,
+     "avg_ev_near_hr": 99.4,
+     "max_barrel_score": 76.9,
+     "would_be_hr_parks_sum": 16,
+     "parks_slope": -0.103,
+     "trend_direction": "falling"
     }
    },
    "heating_up": false
@@ -1251,1006 +1251,6 @@
      "max_barrel_score": 79.4,
      "would_be_hr_parks_sum": 0,
      "parks_slope": 0.0,
-     "trend_direction": "flat"
-    }
-   },
-   "heating_up": false
-  },
-  {
-   "player_id": 607208,
-   "player_name": "Trea Turner",
-   "team": "PHI",
-   "windows": {
-    "7": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "14": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "30": {
-     "bbe": 4,
-     "hr": 0,
-     "near_hr_distance": 1,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 1,
-     "near_hr_any": 1,
-     "max_ev_near_hr": 97.2,
-     "avg_ev_near_hr": 97.2,
-     "max_barrel_score": 70.5,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    }
-   },
-   "heating_up": false
-  },
-  {
-   "player_id": 656941,
-   "player_name": "Kyle Schwarber",
-   "team": "PHI",
-   "windows": {
-    "7": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "14": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "30": {
-     "bbe": 3,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 62.8,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    }
-   },
-   "heating_up": false
-  },
-  {
-   "player_id": 664761,
-   "player_name": "Alec Bohm",
-   "team": "PHI",
-   "windows": {
-    "7": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "14": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "30": {
-     "bbe": 4,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 38.9,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    }
-   },
-   "heating_up": false
-  },
-  {
-   "player_id": 686948,
-   "player_name": "Drake Baldwin",
-   "team": "ATL",
-   "windows": {
-    "7": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "14": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "30": {
-     "bbe": 13,
-     "hr": 0,
-     "near_hr_distance": 1,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 1,
-     "near_hr_any": 1,
-     "max_ev_near_hr": 96.2,
-     "avg_ev_near_hr": 96.2,
-     "max_barrel_score": 70.3,
-     "would_be_hr_parks_sum": 1,
-     "parks_slope": -0.005,
-     "trend_direction": "flat"
-    }
-   },
-   "heating_up": false
-  },
-  {
-   "player_id": 671739,
-   "player_name": "Michael Harris II",
-   "team": "ATL",
-   "windows": {
-    "7": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "14": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "30": {
-     "bbe": 16,
-     "hr": 1,
-     "near_hr_distance": 1,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 1,
-     "near_hr_any": 1,
-     "max_ev_near_hr": 106.7,
-     "avg_ev_near_hr": 106.7,
-     "max_barrel_score": 80.2,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    }
-   },
-   "heating_up": false
-  },
-  {
-   "player_id": 573262,
-   "player_name": "Mike Yastrzemski",
-   "team": "ATL",
-   "windows": {
-    "7": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "14": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "30": {
-     "bbe": 5,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 54.6,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    }
-   },
-   "heating_up": false
-  },
-  {
-   "player_id": 650559,
-   "player_name": "Bryan De La Cruz",
-   "team": "PHI",
-   "windows": {
-    "7": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "14": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "30": {
-     "bbe": 3,
-     "hr": 0,
-     "near_hr_distance": 1,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 1,
-     "near_hr_any": 1,
-     "max_ev_near_hr": 105.8,
-     "avg_ev_near_hr": 105.8,
-     "max_barrel_score": 80.7,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    }
-   },
-   "heating_up": false
-  },
-  {
-   "player_id": 624641,
-   "player_name": "Edmundo Sosa",
-   "team": "PHI",
-   "windows": {
-    "7": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "14": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "30": {
-     "bbe": 1,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 10.4,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    }
-   },
-   "heating_up": false
-  },
-  {
-   "player_id": 663586,
-   "player_name": "Austin Riley",
-   "team": "ATL",
-   "windows": {
-    "7": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "14": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "30": {
-     "bbe": 9,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 68.6,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    }
-   },
-   "heating_up": false
-  },
-  {
-   "player_id": 645277,
-   "player_name": "Ozzie Albies",
-   "team": "ATL",
-   "windows": {
-    "7": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "14": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "30": {
-     "bbe": 14,
-     "hr": 2,
-     "near_hr_distance": 3,
-     "near_hr_parks": 2,
-     "near_hr_barrel": 4,
-     "near_hr_any": 4,
-     "max_ev_near_hr": 104.5,
-     "avg_ev_near_hr": 100.2,
-     "max_barrel_score": 88.9,
-     "would_be_hr_parks_sum": 38,
-     "parks_slope": -0.148,
-     "trend_direction": "falling"
-    }
-   },
-   "heating_up": false
-  },
-  {
-   "player_id": 642086,
-   "player_name": "Dominic Smith",
-   "team": "ATL",
-   "windows": {
-    "7": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "14": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "30": {
-     "bbe": 2,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 61.4,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    }
-   },
-   "heating_up": false
-  },
-  {
-   "player_id": 592663,
-   "player_name": "J.T. Realmuto",
-   "team": "PHI",
-   "windows": {
-    "7": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "14": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "30": {
-     "bbe": 3,
-     "hr": 0,
-     "near_hr_distance": 1,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 1,
-     "max_ev_near_hr": 101.1,
-     "avg_ev_near_hr": 101.1,
-     "max_barrel_score": 69.5,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    }
-   },
-   "heating_up": false
-  },
-  {
-   "player_id": 702222,
-   "player_name": "Justin Crawford",
-   "team": "PHI",
-   "windows": {
-    "7": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "14": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "30": {
-     "bbe": 2,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 26.6,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    }
-   },
-   "heating_up": false
-  },
-  {
-   "player_id": 660670,
-   "player_name": "Ronald Acu\u00f1a Jr.",
-   "team": "ATL",
-   "windows": {
-    "7": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "14": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "30": {
-     "bbe": 14,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 1,
-     "near_hr_any": 1,
-     "max_ev_near_hr": 96.1,
-     "avg_ev_near_hr": 96.1,
-     "max_barrel_score": 71.3,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    }
-   },
-   "heating_up": false
-  },
-  {
-   "player_id": 621566,
-   "player_name": "Matt Olson",
-   "team": "ATL",
-   "windows": {
-    "7": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "14": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "30": {
-     "bbe": 13,
-     "hr": 1,
-     "near_hr_distance": 1,
-     "near_hr_parks": 1,
-     "near_hr_barrel": 0,
-     "near_hr_any": 1,
-     "max_ev_near_hr": 101.7,
-     "avg_ev_near_hr": 101.7,
-     "max_barrel_score": 89.2,
-     "would_be_hr_parks_sum": 10,
-     "parks_slope": -0.038,
-     "trend_direction": "flat"
-    }
-   },
-   "heating_up": false
-  },
-  {
-   "player_id": 643289,
-   "player_name": "Mauricio Dub\u00f3n",
-   "team": "ATL",
-   "windows": {
-    "7": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "14": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "30": {
-     "bbe": 13,
-     "hr": 0,
-     "near_hr_distance": 1,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 1,
-     "near_hr_any": 1,
-     "max_ev_near_hr": 97.8,
-     "avg_ev_near_hr": 97.8,
-     "max_barrel_score": 72.5,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    }
-   },
-   "heating_up": false
-  },
-  {
-   "player_id": 547180,
-   "player_name": "Bryce Harper",
-   "team": "PHI",
-   "windows": {
-    "7": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "14": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "30": {
-     "bbe": 2,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 48.8,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    }
-   },
-   "heating_up": false
-  },
-  {
-   "player_id": 681082,
-   "player_name": "Bryson Stott",
-   "team": "PHI",
-   "windows": {
-    "7": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "14": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "30": {
-     "bbe": 2,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 63.5,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    }
-   },
-   "heating_up": false
-  },
-  {
-   "player_id": 669016,
-   "player_name": "Brandon Marsh",
-   "team": "PHI",
-   "windows": {
-    "7": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "14": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "30": {
-     "bbe": 1,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 27.3,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    }
-   },
-   "heating_up": false
-  },
-  {
-   "player_id": 656537,
-   "player_name": "Derek Hill",
-   "team": "PHI",
-   "windows": {
-    "7": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "14": {
-     "bbe": 0,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 0,
-     "near_hr_barrel": 0,
-     "near_hr_any": 0,
-     "max_ev_near_hr": null,
-     "avg_ev_near_hr": null,
-     "max_barrel_score": 0.0,
-     "would_be_hr_parks_sum": 0,
-     "parks_slope": 0.0,
-     "trend_direction": "flat"
-    },
-    "30": {
-     "bbe": 1,
-     "hr": 0,
-     "near_hr_distance": 0,
-     "near_hr_parks": 1,
-     "near_hr_barrel": 0,
-     "near_hr_any": 1,
-     "max_ev_near_hr": 98.9,
-     "avg_ev_near_hr": 98.9,
-     "max_barrel_score": 66.7,
-     "would_be_hr_parks_sum": 5,
-     "parks_slope": -0.032,
      "trend_direction": "flat"
     }
    },
@@ -2376,7 +1376,7 @@
      "trend_direction": "flat"
     },
     "14": {
-     "bbe": 12,
+     "bbe": 4,
      "hr": 0,
      "near_hr_distance": 0,
      "near_hr_parks": 0,
@@ -2384,7 +1384,7 @@
      "near_hr_any": 0,
      "max_ev_near_hr": null,
      "avg_ev_near_hr": null,
-     "max_barrel_score": 67.6,
+     "max_barrel_score": 60.0,
      "would_be_hr_parks_sum": 0,
      "parks_slope": 0.0,
      "trend_direction": "flat"
@@ -2426,17 +1426,17 @@
      "trend_direction": "flat"
     },
     "14": {
-     "bbe": 11,
+     "bbe": 4,
      "hr": 0,
-     "near_hr_distance": 2,
+     "near_hr_distance": 1,
      "near_hr_parks": 1,
-     "near_hr_barrel": 3,
-     "near_hr_any": 3,
+     "near_hr_barrel": 2,
+     "near_hr_any": 2,
      "max_ev_near_hr": 105.9,
-     "avg_ev_near_hr": 100.4,
+     "avg_ev_near_hr": 99.2,
      "max_barrel_score": 82.1,
      "would_be_hr_parks_sum": 20,
-     "parks_slope": -0.396,
+     "parks_slope": -0.571,
      "trend_direction": "falling"
     },
     "30": {
@@ -2450,7 +1450,7 @@
      "avg_ev_near_hr": 102.6,
      "max_barrel_score": 82.5,
      "would_be_hr_parks_sum": 20,
-     "parks_slope": 0.031,
+     "parks_slope": 0.013,
      "trend_direction": "flat"
     }
    },
@@ -2526,7 +1526,7 @@
      "trend_direction": "flat"
     },
     "14": {
-     "bbe": 2,
+     "bbe": 0,
      "hr": 0,
      "near_hr_distance": 0,
      "near_hr_parks": 0,
@@ -2534,7 +1534,7 @@
      "near_hr_any": 0,
      "max_ev_near_hr": null,
      "avg_ev_near_hr": null,
-     "max_barrel_score": 43.2,
+     "max_barrel_score": 0.0,
      "would_be_hr_parks_sum": 0,
      "parks_slope": 0.0,
      "trend_direction": "flat"
@@ -2626,15 +1626,15 @@
      "trend_direction": "flat"
     },
     "14": {
-     "bbe": 7,
-     "hr": 1,
+     "bbe": 3,
+     "hr": 0,
      "near_hr_distance": 0,
      "near_hr_parks": 0,
      "near_hr_barrel": 0,
      "near_hr_any": 0,
      "max_ev_near_hr": null,
      "avg_ev_near_hr": null,
-     "max_barrel_score": 81.4,
+     "max_barrel_score": 58.6,
      "would_be_hr_parks_sum": 0,
      "parks_slope": 0.0,
      "trend_direction": "flat"
@@ -2650,7 +1650,7 @@
      "avg_ev_near_hr": 99.7,
      "max_barrel_score": 81.4,
      "would_be_hr_parks_sum": 17,
-     "parks_slope": -0.019,
+     "parks_slope": -0.034,
      "trend_direction": "flat"
     }
    },
@@ -2826,7 +1826,7 @@
      "trend_direction": "flat"
     },
     "14": {
-     "bbe": 8,
+     "bbe": 3,
      "hr": 0,
      "near_hr_distance": 1,
      "near_hr_parks": 0,
@@ -2850,7 +1850,7 @@
      "avg_ev_near_hr": 97.1,
      "max_barrel_score": 75.2,
      "would_be_hr_parks_sum": 1,
-     "parks_slope": -0.001,
+     "parks_slope": -0.002,
      "trend_direction": "flat"
     }
    },
@@ -2926,7 +1926,7 @@
      "trend_direction": "flat"
     },
     "14": {
-     "bbe": 10,
+     "bbe": 4,
      "hr": 0,
      "near_hr_distance": 0,
      "near_hr_parks": 0,
@@ -2934,7 +1934,7 @@
      "near_hr_any": 0,
      "max_ev_near_hr": null,
      "avg_ev_near_hr": null,
-     "max_barrel_score": 65.3,
+     "max_barrel_score": 46.4,
      "would_be_hr_parks_sum": 0,
      "parks_slope": 0.0,
      "trend_direction": "flat"
@@ -3050,7 +2050,7 @@
      "avg_ev_near_hr": 106.1,
      "max_barrel_score": 82.7,
      "would_be_hr_parks_sum": 2,
-     "parks_slope": -0.011,
+     "parks_slope": -0.013,
      "trend_direction": "flat"
     }
    },
@@ -3076,7 +2076,7 @@
      "trend_direction": "flat"
     },
     "14": {
-     "bbe": 7,
+     "bbe": 2,
      "hr": 0,
      "near_hr_distance": 0,
      "near_hr_parks": 0,
@@ -3084,7 +2084,7 @@
      "near_hr_any": 0,
      "max_ev_near_hr": null,
      "avg_ev_near_hr": null,
-     "max_barrel_score": 63.3,
+     "max_barrel_score": 33.2,
      "would_be_hr_parks_sum": 0,
      "parks_slope": 0.0,
      "trend_direction": "flat"
@@ -3126,18 +2126,18 @@
      "trend_direction": "flat"
     },
     "14": {
-     "bbe": 10,
+     "bbe": 3,
      "hr": 0,
-     "near_hr_distance": 2,
-     "near_hr_parks": 1,
-     "near_hr_barrel": 2,
-     "near_hr_any": 2,
-     "max_ev_near_hr": 107.9,
-     "avg_ev_near_hr": 103.2,
-     "max_barrel_score": 80.5,
-     "would_be_hr_parks_sum": 7,
-     "parks_slope": -0.2,
-     "trend_direction": "falling"
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "near_hr_any": 1,
+     "max_ev_near_hr": 98.5,
+     "avg_ev_near_hr": 98.5,
+     "max_barrel_score": 74.4,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
     },
     "30": {
      "bbe": 28,
@@ -3150,7 +2150,7 @@
      "avg_ev_near_hr": 103.2,
      "max_barrel_score": 88.8,
      "would_be_hr_parks_sum": 8,
-     "parks_slope": -0.0,
+     "parks_slope": -0.007,
      "trend_direction": "flat"
     }
    },
@@ -3201,6 +2201,206 @@
      "max_barrel_score": 77.7,
      "would_be_hr_parks_sum": 0,
      "parks_slope": 0.0,
+     "trend_direction": "flat"
+    }
+   },
+   "heating_up": false
+  },
+  {
+   "player_id": 686948,
+   "player_name": "Drake Baldwin",
+   "team": "ATL",
+   "windows": {
+    "7": {
+     "bbe": 0,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "near_hr_any": 0,
+     "max_ev_near_hr": null,
+     "avg_ev_near_hr": null,
+     "max_barrel_score": 0.0,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    },
+    "14": {
+     "bbe": 0,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "near_hr_any": 0,
+     "max_ev_near_hr": null,
+     "avg_ev_near_hr": null,
+     "max_barrel_score": 0.0,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    },
+    "30": {
+     "bbe": 9,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "near_hr_any": 1,
+     "max_ev_near_hr": 96.2,
+     "avg_ev_near_hr": 96.2,
+     "max_barrel_score": 70.3,
+     "would_be_hr_parks_sum": 1,
+     "parks_slope": -0.006,
+     "trend_direction": "flat"
+    }
+   },
+   "heating_up": false
+  },
+  {
+   "player_id": 660670,
+   "player_name": "Ronald Acu\u00f1a Jr.",
+   "team": "ATL",
+   "windows": {
+    "7": {
+     "bbe": 0,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "near_hr_any": 0,
+     "max_ev_near_hr": null,
+     "avg_ev_near_hr": null,
+     "max_barrel_score": 0.0,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    },
+    "14": {
+     "bbe": 0,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "near_hr_any": 0,
+     "max_ev_near_hr": null,
+     "avg_ev_near_hr": null,
+     "max_barrel_score": 0.0,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    },
+    "30": {
+     "bbe": 11,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "near_hr_any": 1,
+     "max_ev_near_hr": 96.1,
+     "avg_ev_near_hr": 96.1,
+     "max_barrel_score": 71.3,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    }
+   },
+   "heating_up": false
+  },
+  {
+   "player_id": 645277,
+   "player_name": "Ozzie Albies",
+   "team": "ATL",
+   "windows": {
+    "7": {
+     "bbe": 0,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "near_hr_any": 0,
+     "max_ev_near_hr": null,
+     "avg_ev_near_hr": null,
+     "max_barrel_score": 0.0,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    },
+    "14": {
+     "bbe": 0,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "near_hr_any": 0,
+     "max_ev_near_hr": null,
+     "avg_ev_near_hr": null,
+     "max_barrel_score": 0.0,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    },
+    "30": {
+     "bbe": 12,
+     "hr": 1,
+     "near_hr_distance": 3,
+     "near_hr_parks": 2,
+     "near_hr_barrel": 4,
+     "near_hr_any": 4,
+     "max_ev_near_hr": 104.5,
+     "avg_ev_near_hr": 100.2,
+     "max_barrel_score": 88.9,
+     "would_be_hr_parks_sum": 38,
+     "parks_slope": -0.182,
+     "trend_direction": "falling"
+    }
+   },
+   "heating_up": false
+  },
+  {
+   "player_id": 621566,
+   "player_name": "Matt Olson",
+   "team": "ATL",
+   "windows": {
+    "7": {
+     "bbe": 0,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "near_hr_any": 0,
+     "max_ev_near_hr": null,
+     "avg_ev_near_hr": null,
+     "max_barrel_score": 0.0,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    },
+    "14": {
+     "bbe": 0,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "near_hr_any": 0,
+     "max_ev_near_hr": null,
+     "avg_ev_near_hr": null,
+     "max_barrel_score": 0.0,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    },
+    "30": {
+     "bbe": 10,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 1,
+     "near_hr_barrel": 0,
+     "near_hr_any": 1,
+     "max_ev_near_hr": 101.7,
+     "avg_ev_near_hr": 101.7,
+     "max_barrel_score": 69.7,
+     "would_be_hr_parks_sum": 10,
+     "parks_slope": -0.047,
      "trend_direction": "flat"
     }
    },
@@ -3300,7 +2500,7 @@
      "avg_ev_near_hr": 101.2,
      "max_barrel_score": 82.3,
      "would_be_hr_parks_sum": 2,
-     "parks_slope": -0.001,
+     "parks_slope": -0.003,
      "trend_direction": "flat"
     }
    },
@@ -3350,8 +2550,58 @@
      "avg_ev_near_hr": 100.8,
      "max_barrel_score": 82.9,
      "would_be_hr_parks_sum": 14,
-     "parks_slope": -0.057,
+     "parks_slope": -0.069,
      "trend_direction": "falling"
+    }
+   },
+   "heating_up": false
+  },
+  {
+   "player_id": 643289,
+   "player_name": "Mauricio Dub\u00f3n",
+   "team": "ATL",
+   "windows": {
+    "7": {
+     "bbe": 0,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "near_hr_any": 0,
+     "max_ev_near_hr": null,
+     "avg_ev_near_hr": null,
+     "max_barrel_score": 0.0,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    },
+    "14": {
+     "bbe": 0,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "near_hr_any": 0,
+     "max_ev_near_hr": null,
+     "avg_ev_near_hr": null,
+     "max_barrel_score": 0.0,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    },
+    "30": {
+     "bbe": 10,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "near_hr_any": 1,
+     "max_ev_near_hr": 97.8,
+     "avg_ev_near_hr": 97.8,
+     "max_barrel_score": 72.5,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
     }
    },
    "heating_up": false
@@ -3400,7 +2650,7 @@
      "avg_ev_near_hr": 100.5,
      "max_barrel_score": 87.1,
      "would_be_hr_parks_sum": 2,
-     "parks_slope": -0.008,
+     "parks_slope": -0.009,
      "trend_direction": "flat"
     }
    },
@@ -3500,7 +2750,7 @@
      "avg_ev_near_hr": 97.6,
      "max_barrel_score": 78.9,
      "would_be_hr_parks_sum": 2,
-     "parks_slope": -0.008,
+     "parks_slope": -0.009,
      "trend_direction": "flat"
     }
    },
@@ -3550,7 +2800,7 @@
      "avg_ev_near_hr": 108.4,
      "max_barrel_score": 92.6,
      "would_be_hr_parks_sum": 19,
-     "parks_slope": -0.08,
+     "parks_slope": -0.097,
      "trend_direction": "falling"
     }
    },
@@ -3657,6 +2907,56 @@
    "heating_up": false
   },
   {
+   "player_id": 671739,
+   "player_name": "Michael Harris II",
+   "team": "ATL",
+   "windows": {
+    "7": {
+     "bbe": 0,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "near_hr_any": 0,
+     "max_ev_near_hr": null,
+     "avg_ev_near_hr": null,
+     "max_barrel_score": 0.0,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    },
+    "14": {
+     "bbe": 0,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "near_hr_any": 0,
+     "max_ev_near_hr": null,
+     "avg_ev_near_hr": null,
+     "max_barrel_score": 0.0,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    },
+    "30": {
+     "bbe": 14,
+     "hr": 0,
+     "near_hr_distance": 1,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 1,
+     "near_hr_any": 1,
+     "max_ev_near_hr": 106.7,
+     "avg_ev_near_hr": 106.7,
+     "max_barrel_score": 75.4,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    }
+   },
+   "heating_up": false
+  },
+  {
    "player_id": 669221,
    "player_name": "Sean Murphy",
    "team": "ATL",
@@ -3699,6 +2999,56 @@
      "max_ev_near_hr": null,
      "avg_ev_near_hr": null,
      "max_barrel_score": 87.4,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    }
+   },
+   "heating_up": false
+  },
+  {
+   "player_id": 663586,
+   "player_name": "Austin Riley",
+   "team": "ATL",
+   "windows": {
+    "7": {
+     "bbe": 0,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "near_hr_any": 0,
+     "max_ev_near_hr": null,
+     "avg_ev_near_hr": null,
+     "max_barrel_score": 0.0,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    },
+    "14": {
+     "bbe": 0,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "near_hr_any": 0,
+     "max_ev_near_hr": null,
+     "avg_ev_near_hr": null,
+     "max_barrel_score": 0.0,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    },
+    "30": {
+     "bbe": 7,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "near_hr_any": 0,
+     "max_ev_near_hr": null,
+     "avg_ev_near_hr": null,
+     "max_barrel_score": 60.6,
      "would_be_hr_parks_sum": 0,
      "parks_slope": 0.0,
      "trend_direction": "flat"
@@ -3750,7 +3100,7 @@
      "avg_ev_near_hr": 102.9,
      "max_barrel_score": 85.7,
      "would_be_hr_parks_sum": 12,
-     "parks_slope": -0.056,
+     "parks_slope": -0.067,
      "trend_direction": "falling"
     }
    },
@@ -4250,7 +3600,7 @@
      "avg_ev_near_hr": 106.9,
      "max_barrel_score": 88.1,
      "would_be_hr_parks_sum": 19,
-     "parks_slope": -0.072,
+     "parks_slope": -0.089,
      "trend_direction": "falling"
     }
    },
@@ -4500,7 +3850,7 @@
      "avg_ev_near_hr": 98.6,
      "max_barrel_score": 94.1,
      "would_be_hr_parks_sum": 10,
-     "parks_slope": -0.051,
+     "parks_slope": -0.06,
      "trend_direction": "falling"
     }
    },
@@ -4550,7 +3900,7 @@
      "avg_ev_near_hr": 103.1,
      "max_barrel_score": 83.5,
      "would_be_hr_parks_sum": 2,
-     "parks_slope": -0.01,
+     "parks_slope": -0.012,
      "trend_direction": "flat"
     }
    },
@@ -5007,6 +4357,56 @@
    "heating_up": false
   },
   {
+   "player_id": 573262,
+   "player_name": "Mike Yastrzemski",
+   "team": "ATL",
+   "windows": {
+    "7": {
+     "bbe": 0,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "near_hr_any": 0,
+     "max_ev_near_hr": null,
+     "avg_ev_near_hr": null,
+     "max_barrel_score": 0.0,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    },
+    "14": {
+     "bbe": 0,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "near_hr_any": 0,
+     "max_ev_near_hr": null,
+     "avg_ev_near_hr": null,
+     "max_barrel_score": 0.0,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    },
+    "30": {
+     "bbe": 3,
+     "hr": 0,
+     "near_hr_distance": 0,
+     "near_hr_parks": 0,
+     "near_hr_barrel": 0,
+     "near_hr_any": 0,
+     "max_ev_near_hr": null,
+     "avg_ev_near_hr": null,
+     "max_barrel_score": 23.4,
+     "would_be_hr_parks_sum": 0,
+     "parks_slope": 0.0,
+     "trend_direction": "flat"
+    }
+   },
+   "heating_up": false
+  },
+  {
    "player_id": 800543,
    "player_name": "Josue De Paula",
    "team": "LAD",
@@ -5076,15 +4476,15 @@
      "trend_direction": "flat"
     },
     "14": {
-     "bbe": 8,
+     "bbe": 4,
      "hr": 0,
-     "near_hr_distance": 1,
+     "near_hr_distance": 0,
      "near_hr_parks": 0,
      "near_hr_barrel": 0,
-     "near_hr_any": 1,
-     "max_ev_near_hr": 106.8,
-     "avg_ev_near_hr": 106.8,
-     "max_barrel_score": 69.7,
+     "near_hr_any": 0,
+     "max_ev_near_hr": null,
+     "avg_ev_near_hr": null,
+     "max_barrel_score": 68.7,
      "would_be_hr_parks_sum": 0,
      "parks_slope": 0.0,
      "trend_direction": "flat"
@@ -5100,7 +4500,7 @@
      "avg_ev_near_hr": 106.2,
      "max_barrel_score": 86.6,
      "would_be_hr_parks_sum": 19,
-     "parks_slope": -0.089,
+     "parks_slope": -0.106,
      "trend_direction": "falling"
     }
    },
@@ -5400,8 +4800,8 @@
      "avg_ev_near_hr": 97.9,
      "max_barrel_score": 62.8,
      "would_be_hr_parks_sum": 12,
-     "parks_slope": -0.045,
-     "trend_direction": "flat"
+     "parks_slope": -0.056,
+     "trend_direction": "falling"
     }
    },
    "heating_up": false
@@ -5476,7 +4876,7 @@
      "trend_direction": "flat"
     },
     "14": {
-     "bbe": 3,
+     "bbe": 1,
      "hr": 0,
      "near_hr_distance": 0,
      "near_hr_parks": 0,
@@ -5500,7 +4900,7 @@
      "avg_ev_near_hr": 97.3,
      "max_barrel_score": 85.1,
      "would_be_hr_parks_sum": 10,
-     "parks_slope": -0.024,
+     "parks_slope": -0.033,
      "trend_direction": "flat"
     }
    },
