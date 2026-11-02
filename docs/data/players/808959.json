@@ -2,17 +2,17 @@
  "player_id": 808959,
  "player_name": "Munetaka Murakami",
  "team": "CWS",
- "as_of": "2026-10-31",
+ "as_of": "2026-11-02",
  "form": {
   "streak": 0,
-  "frequency": 0.25,
+  "frequency": 0.0,
   "slopes": {
-   "max_ev": -3.98,
+   "max_ev": 2.25,
    "parks_sum": 0.0,
-   "near_hr": -0.3
+   "near_hr": 0.0
   },
-  "intensity": 0.0,
-  "expectancy_score": 7.5,
+  "intensity": 0.333,
+  "expectancy_score": 10.0,
   "last_appearance": "2026-10-08"
  },
  "days": [
@@ -69,24 +69,6 @@
    "wind_mph": 13.0,
    "wind_dir": "in",
    "weather_condition": "Clear"
-  },
-  {
-   "date": "2026-10-03",
-   "bbe": 2,
-   "hr": 1,
-   "near_hr_any": 1,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 0,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 1,
-   "would_be_hr_parks_sum": 0,
-   "max_ev": 112.2,
-   "max_distance": 440.0,
-   "max_barrel_score": 93.0,
-   "temp_f": 63.0,
-   "wind_mph": 9.0,
-   "wind_dir": "cross",
-   "weather_condition": "Partly Cloudy"
   }
  ],
  "events": [
@@ -263,64 +245,6 @@
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
-  },
-  {
-   "game_pk": 849829,
-   "date": "2026-10-03",
-   "player_id": 808959,
-   "player_name": "Munetaka Murakami",
-   "team": "CWS",
-   "opponent": "CLE",
-   "result": "Home Run",
-   "exit_velocity": 112.2,
-   "launch_angle": 31.0,
-   "hit_distance": 440.0,
-   "hc_x": 236.17,
-   "hc_y": 57.61,
-   "would_be_hr_count": 30,
-   "inning": 4,
-   "play_id": "eb76c67d-ca5a-3243-9e35-2d7c06d6aa25",
-   "venue_id": 5,
-   "venue_name": "Progressive Field",
-   "temp_f": 63.0,
-   "wind_mph": 9.0,
-   "wind_dir": "cross",
-   "weather_condition": "Partly Cloudy",
-   "distance_flag": false,
-   "would_be_hr_flag": false,
-   "barrel_score": 93.0,
-   "barrel_flag": false,
-   "is_home_run": true,
-   "is_near_hr": false
-  },
-  {
-   "game_pk": 849829,
-   "date": "2026-10-03",
-   "player_id": 808959,
-   "player_name": "Munetaka Murakami",
-   "team": "CWS",
-   "opponent": "CLE",
-   "result": "Single",
-   "exit_velocity": 111.5,
-   "launch_angle": 13.0,
-   "hit_distance": 289.0,
-   "hc_x": 118.3,
-   "hc_y": 84.14,
-   "would_be_hr_count": 0,
-   "inning": 1,
-   "play_id": "e1425e53-ba54-37b9-bb19-b2ced0218168",
-   "venue_id": 5,
-   "venue_name": "Progressive Field",
-   "temp_f": 63.0,
-   "wind_mph": 9.0,
-   "wind_dir": "cross",
-   "weather_condition": "Partly Cloudy",
-   "distance_flag": false,
-   "would_be_hr_flag": false,
-   "barrel_score": 70.3,
-   "barrel_flag": true,
-   "is_home_run": false,
-   "is_near_hr": true
   }
  ]
 }
