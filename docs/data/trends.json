@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-08",
+ "as_of": "2026-11-07",
  "windows": [
   7,
   14,
@@ -250,7 +250,7 @@
      "avg_ev_near_hr": 102.6,
      "max_barrel_score": 82.5,
      "would_be_hr_parks_sum": 20,
-     "parks_slope": -0.049,
+     "parks_slope": -0.04,
      "trend_direction": "flat"
     }
    },
@@ -400,7 +400,7 @@
      "avg_ev_near_hr": 103.2,
      "max_barrel_score": 88.8,
      "would_be_hr_parks_sum": 7,
-     "parks_slope": -0.023,
+     "parks_slope": -0.02,
      "trend_direction": "flat"
     }
    },
@@ -450,7 +450,7 @@
      "avg_ev_near_hr": 97.3,
      "max_barrel_score": 85.1,
      "would_be_hr_parks_sum": 10,
-     "parks_slope": -0.065,
+     "parks_slope": -0.06,
      "trend_direction": "falling"
     }
    },
@@ -600,7 +600,7 @@
      "avg_ev_near_hr": 102.4,
      "max_barrel_score": 81.4,
      "would_be_hr_parks_sum": 17,
-     "parks_slope": -0.087,
+     "parks_slope": -0.079,
      "trend_direction": "falling"
     }
    },
@@ -750,7 +750,7 @@
      "avg_ev_near_hr": 106.4,
      "max_barrel_score": 80.6,
      "would_be_hr_parks_sum": 1,
-     "parks_slope": -0.006,
+     "parks_slope": -0.005,
      "trend_direction": "flat"
     }
    },
@@ -800,7 +800,7 @@
      "avg_ev_near_hr": 101.2,
      "max_barrel_score": 82.3,
      "would_be_hr_parks_sum": 2,
-     "parks_slope": -0.009,
+     "parks_slope": -0.008,
      "trend_direction": "flat"
     }
    },
@@ -836,7 +836,7 @@
      "avg_ev_near_hr": 104.5,
      "max_barrel_score": 85.4,
      "would_be_hr_parks_sum": 19,
-     "parks_slope": -0.376,
+     "parks_slope": -0.292,
      "trend_direction": "falling"
     },
     "30": {
@@ -850,7 +850,7 @@
      "avg_ev_near_hr": 103.5,
      "max_barrel_score": 85.4,
      "would_be_hr_parks_sum": 20,
-     "parks_slope": 0.029,
+     "parks_slope": 0.038,
      "trend_direction": "flat"
     }
    },
@@ -1086,7 +1086,7 @@
      "avg_ev_near_hr": 98.9,
      "max_barrel_score": 72.9,
      "would_be_hr_parks_sum": 7,
-     "parks_slope": -0.169,
+     "parks_slope": -0.138,
      "trend_direction": "falling"
     },
     "30": {
@@ -1100,7 +1100,7 @@
      "avg_ev_near_hr": 102.4,
      "max_barrel_score": 90.5,
      "would_be_hr_parks_sum": 8,
-     "parks_slope": 0.008,
+     "parks_slope": 0.011,
      "trend_direction": "flat"
     }
    },
@@ -1186,7 +1186,7 @@
      "avg_ev_near_hr": 101.2,
      "max_barrel_score": 82.4,
      "would_be_hr_parks_sum": 13,
-     "parks_slope": -0.314,
+     "parks_slope": -0.257,
      "trend_direction": "falling"
     },
     "30": {
@@ -1200,7 +1200,7 @@
      "avg_ev_near_hr": 103.2,
      "max_barrel_score": 85.4,
      "would_be_hr_parks_sum": 14,
-     "parks_slope": 0.014,
+     "parks_slope": 0.02,
      "trend_direction": "flat"
     }
    },
@@ -1250,7 +1250,7 @@
      "avg_ev_near_hr": null,
      "max_barrel_score": 78.4,
      "would_be_hr_parks_sum": 1,
-     "parks_slope": -0.001,
+     "parks_slope": -0.0,
      "trend_direction": "flat"
     }
    },
@@ -1650,7 +1650,7 @@
      "avg_ev_near_hr": 98.6,
      "max_barrel_score": 82.9,
      "would_be_hr_parks_sum": 1,
-     "parks_slope": -0.0,
+     "parks_slope": 0.0,
      "trend_direction": "flat"
     }
    },
@@ -1786,7 +1786,7 @@
      "avg_ev_near_hr": 104.8,
      "max_barrel_score": 85.1,
      "would_be_hr_parks_sum": 23,
-     "parks_slope": -0.648,
+     "parks_slope": -0.547,
      "trend_direction": "falling"
     },
     "30": {
@@ -1800,7 +1800,7 @@
      "avg_ev_near_hr": 105.7,
      "max_barrel_score": 89.0,
      "would_be_hr_parks_sum": 33,
-     "parks_slope": 0.01,
+     "parks_slope": 0.024,
      "trend_direction": "flat"
     }
    },
@@ -1850,7 +1850,7 @@
      "avg_ev_near_hr": 106.7,
      "max_barrel_score": 79.2,
      "would_be_hr_parks_sum": 12,
-     "parks_slope": -0.067,
+     "parks_slope": -0.061,
      "trend_direction": "falling"
     }
    },
@@ -1886,7 +1886,7 @@
      "avg_ev_near_hr": 102.1,
      "max_barrel_score": 69.0,
      "would_be_hr_parks_sum": 19,
-     "parks_slope": -0.376,
+     "parks_slope": -0.292,
      "trend_direction": "falling"
     },
     "30": {
@@ -1900,7 +1900,7 @@
      "avg_ev_near_hr": 108.0,
      "max_barrel_score": 91.9,
      "would_be_hr_parks_sum": 36,
-     "parks_slope": -0.027,
+     "parks_slope": -0.011,
      "trend_direction": "flat"
     }
    },
