@@ -2,17 +2,17 @@
  "player_id": 683953,
  "player_name": "Travis Bazzana",
  "team": "CLE",
- "as_of": "2026-11-09",
+ "as_of": "2026-11-08",
  "form": {
   "streak": 0,
-  "frequency": 0.167,
+  "frequency": 0.143,
   "slopes": {
-   "max_ev": -1.726,
-   "parks_sum": -1.457,
-   "near_hr": -0.086
+   "max_ev": 0.493,
+   "parks_sum": -0.607,
+   "near_hr": -0.036
   },
-  "intensity": 0.0,
-  "expectancy_score": 5.0,
+  "intensity": 0.082,
+  "expectancy_score": 6.8,
   "last_appearance": "2026-10-19"
  },
  "days": [
@@ -123,6 +123,24 @@
    "wind_mph": 0.0,
    "wind_dir": "none",
    "weather_condition": "Dome"
+  },
+  {
+   "date": "2026-10-10",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 84.5,
+   "max_distance": 8.0,
+   "max_barrel_score": 13.4,
+   "temp_f": 65.0,
+   "wind_mph": 11.0,
+   "wind_dir": "out",
+   "weather_condition": "Drizzle"
   }
  ],
  "events": [
@@ -615,6 +633,35 @@
    "distance_flag": false,
    "would_be_hr_flag": false,
    "barrel_score": 0.5,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
+  },
+  {
+   "game_pk": 849831,
+   "date": "2026-10-10",
+   "player_id": 683953,
+   "player_name": "Travis Bazzana",
+   "team": "CLE",
+   "opponent": "CWS",
+   "result": "Field Error",
+   "exit_velocity": 84.5,
+   "launch_angle": -12.0,
+   "hit_distance": 8.0,
+   "hc_x": 133.09,
+   "hc_y": 138.94,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "45beb16a-66fc-3587-9c51-9bd2382b53a6",
+   "venue_id": 5,
+   "venue_name": "Progressive Field",
+   "temp_f": 65.0,
+   "wind_mph": 11.0,
+   "wind_dir": "out",
+   "weather_condition": "Drizzle",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 13.4,
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
