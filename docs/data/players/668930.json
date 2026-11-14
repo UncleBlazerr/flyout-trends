@@ -2,17 +2,17 @@
  "player_id": 668930,
  "player_name": "Brice Turang",
  "team": "MIL",
- "as_of": "2026-11-14",
+ "as_of": "2026-11-13",
  "form": {
   "streak": 0,
-  "frequency": 0.6,
+  "frequency": 0.5,
   "slopes": {
-   "max_ev": 0.97,
-   "parks_sum": 3.6,
-   "near_hr": -0.125
+   "max_ev": 3.657,
+   "parks_sum": 2.629,
+   "near_hr": 0.021
   },
-  "intensity": 0.495,
-  "expectancy_score": 32.8,
+  "intensity": 0.632,
+  "expectancy_score": 34.0,
   "last_appearance": "2026-10-28"
  },
  "days": [
@@ -105,6 +105,24 @@
    "wind_mph": 0.0,
    "wind_dir": "none",
    "weather_condition": "Roof Closed"
+  },
+  {
+   "date": "2026-10-15",
+   "bbe": 1,
+   "hr": 0,
+   "near_hr_any": 0,
+   "near_hr_xbh": 0,
+   "near_hr_distance": 0,
+   "near_hr_parks": 0,
+   "near_hr_barrel": 0,
+   "would_be_hr_parks_sum": 0,
+   "max_ev": 84.1,
+   "max_distance": 286.0,
+   "max_barrel_score": 45.8,
+   "temp_f": 90.0,
+   "wind_mph": 2.0,
+   "wind_dir": "none",
+   "weather_condition": "Clear"
   }
  ],
  "events": [
@@ -571,6 +589,35 @@
    "barrel_flag": true,
    "is_home_run": false,
    "is_near_hr": true
+  },
+  {
+   "game_pk": 849810,
+   "date": "2026-10-15",
+   "player_id": 668930,
+   "player_name": "Brice Turang",
+   "team": "MIL",
+   "opponent": "LAD",
+   "result": "Flyout",
+   "exit_velocity": 84.1,
+   "launch_angle": 42.0,
+   "hit_distance": 286.0,
+   "hc_x": 51.6,
+   "hc_y": 110.86,
+   "would_be_hr_count": 0,
+   "inning": 7,
+   "play_id": "51478f4f-f808-3fbb-894d-e418dec57dc0",
+   "venue_id": 22,
+   "venue_name": "UNIQLO Field at Dodger Stadium",
+   "temp_f": 90.0,
+   "wind_mph": 2.0,
+   "wind_dir": "none",
+   "weather_condition": "Clear",
+   "distance_flag": false,
+   "would_be_hr_flag": false,
+   "barrel_score": 45.8,
+   "barrel_flag": false,
+   "is_home_run": false,
+   "is_near_hr": false
   }
  ]
 }
