@@ -2,17 +2,17 @@
  "player_id": 668930,
  "player_name": "Brice Turang",
  "team": "MIL",
- "as_of": "2026-11-20",
+ "as_of": "2026-11-22",
  "form": {
   "streak": 0,
-  "frequency": 0.6,
+  "frequency": 0.5,
   "slopes": {
-   "max_ev": 0.97,
-   "parks_sum": 3.6,
-   "near_hr": -0.125
+   "max_ev": -0.17,
+   "parks_sum": 5.7,
+   "near_hr": -0.075
   },
-  "intensity": 0.495,
-  "expectancy_score": 32.8,
+  "intensity": 0.333,
+  "expectancy_score": 25.0,
   "last_appearance": "2026-10-28"
  },
  "days": [
@@ -84,24 +84,6 @@
    "max_distance": 363.0,
    "max_barrel_score": 77.8,
    "temp_f": 71.0,
-   "wind_mph": 0.0,
-   "wind_dir": "none",
-   "weather_condition": "Roof Closed"
-  },
-  {
-   "date": "2026-10-23",
-   "bbe": 1,
-   "hr": 0,
-   "near_hr_any": 1,
-   "near_hr_xbh": 0,
-   "near_hr_distance": 1,
-   "near_hr_parks": 0,
-   "near_hr_barrel": 1,
-   "would_be_hr_parks_sum": 1,
-   "max_ev": 101.6,
-   "max_distance": 367.0,
-   "max_barrel_score": 79.8,
-   "temp_f": 69.0,
    "wind_mph": 0.0,
    "wind_dir": "none",
    "weather_condition": "Roof Closed"
@@ -542,35 +524,6 @@
    "barrel_flag": false,
    "is_home_run": false,
    "is_near_hr": false
-  },
-  {
-   "game_pk": 849805,
-   "date": "2026-10-23",
-   "player_id": 668930,
-   "player_name": "Brice Turang",
-   "team": "MIL",
-   "opponent": "TB",
-   "result": "Flyout",
-   "exit_velocity": 101.6,
-   "launch_angle": 30.0,
-   "hit_distance": 367.0,
-   "hc_x": 71.61,
-   "hc_y": 61.16,
-   "would_be_hr_count": 1,
-   "inning": 4,
-   "play_id": "0ef857ab-ecd0-33a3-8626-1cd7cbe6cb0c",
-   "venue_id": 32,
-   "venue_name": "American Family Field",
-   "temp_f": 69.0,
-   "wind_mph": 0.0,
-   "wind_dir": "none",
-   "weather_condition": "Roof Closed",
-   "distance_flag": true,
-   "would_be_hr_flag": false,
-   "barrel_score": 79.8,
-   "barrel_flag": true,
-   "is_home_run": false,
-   "is_near_hr": true
   }
  ]
 }
