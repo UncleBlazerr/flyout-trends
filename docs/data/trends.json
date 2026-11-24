@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-24",
+ "as_of": "2026-11-23",
  "windows": [
   7,
   14,
@@ -200,7 +200,7 @@
      "avg_ev_near_hr": 104.5,
      "max_barrel_score": 85.4,
      "would_be_hr_parks_sum": 19,
-     "parks_slope": -0.106,
+     "parks_slope": -0.097,
      "trend_direction": "falling"
     }
    },
@@ -250,7 +250,7 @@
      "avg_ev_near_hr": 104.8,
      "max_barrel_score": 85.1,
      "would_be_hr_parks_sum": 23,
-     "parks_slope": -0.147,
+     "parks_slope": -0.137,
      "trend_direction": "falling"
     }
    },
@@ -450,7 +450,7 @@
      "avg_ev_near_hr": 102.1,
      "max_barrel_score": 69.0,
      "would_be_hr_parks_sum": 19,
-     "parks_slope": -0.106,
+     "parks_slope": -0.097,
      "trend_direction": "falling"
     }
    },
@@ -750,7 +750,7 @@
      "avg_ev_near_hr": 101.2,
      "max_barrel_score": 82.4,
      "would_be_hr_parks_sum": 13,
-     "parks_slope": -0.078,
+     "parks_slope": -0.072,
      "trend_direction": "falling"
     }
    },
@@ -800,7 +800,7 @@
      "avg_ev_near_hr": 98.9,
      "max_barrel_score": 72.9,
      "would_be_hr_parks_sum": 7,
-     "parks_slope": -0.042,
+     "parks_slope": -0.039,
      "trend_direction": "flat"
     }
    },
